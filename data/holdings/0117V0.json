@@ -98,7 +98,7 @@
  ],
  "breach_summary": {
   "cap_pct": 25.0,
-  "verified": false,
+  "verified": true,
   "count": 1,
   "total_sell": 746442000,
   "items": [
@@ -115,9 +115,9 @@
  "cap": {
   "single_cap": 0.25,
   "index_exception": false,
-  "label": "상위 3종목 각 25% (합 75%)",
-  "source": "KEDI 코리아AI전력기기TOP3플러스 지수(2차 출처, 재확인 권장)",
-  "note": "BIG3(효성중공업·HD현대일렉트릭·LS일렉트릭) 각 25% 상한, 나머지 스코어 가중(총 10종목).",
-  "verified": false
+  "label": "상위 3종목 각 25% · 나머지 최대 20%",
+  "source": "KEDI 코리아AI전력기기TOP3플러스 지수 방법론(kedindex.com)",
+  "note": "상위 3종목(효성중공업·HD현대일렉트릭·LS일렉트릭)에 각 25% 집중 배분, 나머지 7종목은 스코어 가중이되 개별종목 0.1~20% 상한. 정기변경 6·12월.",
+  "verified": true
  }
 }

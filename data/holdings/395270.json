@@ -13,7 +13,7 @@
    "weight": 26.39,
    "shares": 408.0,
    "amount": 752760000.0,
-   "over_cap": false
+   "over_cap": true
   },
   {
    "code": "005930",
@@ -168,13 +168,28 @@
    "over_cap": false
   }
  ],
- "breach_summary": null,
+ "breach_summary": {
+  "cap_pct": 25.0,
+  "verified": true,
+  "count": 1,
+  "total_sell": 52080016125,
+  "items": [
+   {
+    "code": "000660",
+    "name": "SK하이닉스",
+    "weight": 26.39,
+    "cap_pct": 25.0,
+    "excess_pp": 1.39,
+    "sell_amount": 52080016125
+   }
+  ]
+ },
  "cap": {
-  "single_cap": 0.3,
+  "single_cap": 0.25,
   "index_exception": false,
-  "label": "자체 비중상한 지수 · 상한 확인 요(잠정 30%)",
-  "source": "지수 방법론 원문 미확보 — 규제 상한 30% 잠정 적용",
-  "verified": false,
-  "note": "자체 비중상한을 둘 수 있는 테마 지수이나 방법론 원문을 확보하지 못해 규제 상한 30%를 잠정 적용한다. 정확한 상한은 지수 방법론/투자설명서 확인이 필요하다."
+  "label": "단일종목 25% 실링",
+  "source": "FnGuide K-반도체 지수 방법론서 §2.3",
+  "note": "지수 내 개별종목 비중이 25%를 초과할 경우 25%로 제한(실링). 30% 초과 종목 발생 시 재조정. 정기변경 6·12월.",
+  "verified": true
  }
 }

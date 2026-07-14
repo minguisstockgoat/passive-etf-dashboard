@@ -170,7 +170,7 @@
  ],
  "breach_summary": {
   "cap_pct": 25.0,
-  "verified": false,
+  "verified": true,
   "count": 2,
   "total_sell": 46128909450,
   "items": [
@@ -195,9 +195,9 @@
  "cap": {
   "single_cap": 0.25,
   "index_exception": false,
-  "label": "상위 3종목 각 25% (합 75%)",
-  "source": "FnGuide AI반도체 포커스 지수(2차 출처, 재확인 권장)",
-  "note": "상위 3종목(삼성전자·SK하이닉스·한미반도체) 각 25% 상한(합 75%), 나머지 균등 배분(총 20종목).",
-  "verified": false
+  "label": "상위 3종목 각 25% (나머지 각 ~1.5%)",
+  "source": "FnGuide AI반도체 포커스 지수 방법론",
+  "note": "상위 3종목(삼성전자·SK하이닉스·한미반도체)에 각 25%(합 75%), 나머지 17종목은 각 약 1.47% 균등 배분(총 20종목).",
+  "verified": true
  }
 }

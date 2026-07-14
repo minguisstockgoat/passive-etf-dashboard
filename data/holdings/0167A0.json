@@ -115,9 +115,9 @@
  "cap": {
   "single_cap": 0.25,
   "index_exception": false,
-  "label": "상위 2종목 각 25% (합 50%)",
-  "source": "FnGuide AI반도체 TOP2 플러스 지수 방법론",
-  "note": "TOP2(삼성전자·SK하이닉스) 각 25% 상한, 나머지는 스코어 기반 편입.",
+  "label": "TOP2 각 25% · 나머지 15% 실링",
+  "source": "FnGuide AI반도체 TOP2 플러스 지수 방법론서(KSS) §2.3",
+  "note": "TOP2(삼성전자·SK하이닉스) 각 25% 고정, 나머지 종목은 15% 실링. 수시 30% 초과 시 25%. 화면 플래그는 실제 초과가 발생하는 TOP2 기준 25%로 계산(나머지 15% 초과분은 별도 확인).",
   "verified": true
  }
 }

@@ -90,7 +90,7 @@
  ],
  "breach_summary": {
   "cap_pct": 20.0,
-  "verified": false,
+  "verified": true,
   "count": 1,
   "total_sell": 9076709558,
   "items": [
@@ -108,8 +108,8 @@
   "single_cap": 0.2,
   "index_exception": false,
   "label": "종목별 20% 상한",
-  "source": "FnGuide K-방위산업 지수(2차 출처, 재확인 권장)",
-  "note": "구성종목별 20% 비중상한을 적용한다. 정기변경(6·12월) 시 재조정.",
-  "verified": false
+  "source": "FnGuide K-방위산업 지수 방법론서 §2.3",
+  "note": "정기변경 시 개별종목 비중이 20%를 초과하면 20%로 제한. 매월말 30% 초과 종목 발생 시 25% 초과분을 타 종목에 배분하는 수시 조정. 정기변경 6·12월.",
+  "verified": true
  }
 }
