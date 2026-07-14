@@ -1,0 +1,163 @@
+{
+ "ticker": "466920",
+ "name": "SOL 조선TOP3플러스",
+ "manager": "SOL",
+ "source": "신한 SOL",
+ "asof": "2026-07-14",
+ "total_weight": 99.99,
+ "count": 14,
+ "holdings": [
+  {
+   "code": "010140",
+   "name": "삼성중공업",
+   "weight": 25.76,
+   "shares": 16187.0,
+   "amount": 356923350.0,
+   "over_cap": true
+  },
+  {
+   "code": "329180",
+   "name": "HD현대중공업",
+   "weight": 24.13,
+   "shares": 686.0,
+   "amount": 334425000.0,
+   "over_cap": true
+  },
+  {
+   "code": "042660",
+   "name": "한화오션",
+   "weight": 23.54,
+   "shares": 4140.0,
+   "amount": 326232000.0,
+   "over_cap": true
+  },
+  {
+   "code": "009540",
+   "name": "HD한국조선해양",
+   "weight": 16.07,
+   "shares": 652.0,
+   "amount": 222658000.0,
+   "over_cap": false
+  },
+  {
+   "code": "443060",
+   "name": "HD현대마린솔루션",
+   "weight": 2.98,
+   "shares": 213.0,
+   "amount": 41236800.0,
+   "over_cap": false
+  },
+  {
+   "code": "082740",
+   "name": "한화엔진",
+   "weight": 2.64,
+   "shares": 793.0,
+   "amount": 36636600.0,
+   "over_cap": false
+  },
+  {
+   "code": "071970",
+   "name": "HD현대마린엔진",
+   "weight": 1.36,
+   "shares": 317.0,
+   "amount": 18893200.0,
+   "over_cap": false
+  },
+  {
+   "code": "017960",
+   "name": "한국카본",
+   "weight": 0.81,
+   "shares": 459.0,
+   "amount": 11291400.0,
+   "over_cap": false
+  },
+  {
+   "code": "KRD010010001",
+   "name": "현금성자산",
+   "weight": 0.76,
+   "shares": 10512286.0,
+   "amount": 10512286.0,
+   "over_cap": false
+  },
+  {
+   "code": "439260",
+   "name": "대한조선",
+   "weight": 0.5,
+   "shares": 150.0,
+   "amount": 6967500.0,
+   "over_cap": false
+  },
+  {
+   "code": "014620",
+   "name": "성광벤드",
+   "weight": 0.47,
+   "shares": 245.0,
+   "amount": 6492500.0,
+   "over_cap": false
+  },
+  {
+   "code": "077970",
+   "name": "STX엔진",
+   "weight": 0.4,
+   "shares": 220.0,
+   "amount": 5610000.0,
+   "over_cap": false
+  },
+  {
+   "code": "023160",
+   "name": "태광",
+   "weight": 0.32,
+   "shares": 194.0,
+   "amount": 4384400.0,
+   "over_cap": false
+  },
+  {
+   "code": "075580",
+   "name": "세진중공업",
+   "weight": 0.25,
+   "shares": 303.0,
+   "amount": 3439050.0,
+   "over_cap": false
+  }
+ ],
+ "breach_summary": {
+  "cap_pct": 20.0,
+  "verified": true,
+  "count": 3,
+  "total_sell": 193166376000,
+  "items": [
+   {
+    "code": "010140",
+    "name": "삼성중공업",
+    "weight": 25.76,
+    "cap_pct": 20.0,
+    "excess_pp": 5.76,
+    "sell_amount": 82847232000
+   },
+   {
+    "code": "329180",
+    "name": "HD현대중공업",
+    "weight": 24.13,
+    "cap_pct": 20.0,
+    "excess_pp": 4.13,
+    "sell_amount": 59402616000
+   },
+   {
+    "code": "042660",
+    "name": "한화오션",
+    "weight": 23.54,
+    "cap_pct": 20.0,
+    "excess_pp": 3.54,
+    "sell_amount": 50916528000
+   }
+  ]
+ },
+ "cap": {
+  "single_cap": 0.2,
+  "index_exception": false,
+  "label": "상위 3종목 각 20% (합 60%)",
+  "source": "FnGuide 조선TOP3플러스 지수 방법론",
+  "note": "매출 상위 3종목(한화오션·삼성중공업·HD한국조선해양)에 각 20% 상한(합 60%), 나머지 시총 상위 종목이 40%를 배분. 정기변경(2·5·8·11월) 시 재적용.",
+  "verified": true
+ }
+}

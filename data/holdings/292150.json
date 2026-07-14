@@ -1,0 +1,108 @@
+{
+ "ticker": "292150",
+ "name": "TIGER 코리아TOP10",
+ "manager": "TIGER",
+ "source": "미래에셋 TIGER",
+ "asof": "2026-07-13",
+ "total_weight": 100.0,
+ "count": 11,
+ "holdings": [
+  {
+   "code": "000660",
+   "name": "SK하이닉스",
+   "weight": 35.3,
+   "shares": 369.0,
+   "amount": 680805000.0,
+   "over_cap": false
+  },
+  {
+   "code": "005930",
+   "name": "삼성전자",
+   "weight": 26.58,
+   "shares": 2014.0,
+   "amount": 512563000.0,
+   "over_cap": false
+  },
+  {
+   "code": "005380",
+   "name": "현대차",
+   "weight": 7.44,
+   "shares": 323.0,
+   "amount": 143412000.0,
+   "over_cap": false
+  },
+  {
+   "code": "105560",
+   "name": "KB금융",
+   "weight": 6.51,
+   "shares": 674.0,
+   "amount": 125498800.0,
+   "over_cap": false
+  },
+  {
+   "code": "055550",
+   "name": "신한지주",
+   "weight": 4.99,
+   "shares": 886.0,
+   "amount": 96219600.0,
+   "over_cap": false
+  },
+  {
+   "code": "000270",
+   "name": "기아",
+   "weight": 4.38,
+   "shares": 588.0,
+   "amount": 84378000.0,
+   "over_cap": false
+  },
+  {
+   "code": "012450",
+   "name": "한화에어로스페이스",
+   "weight": 3.98,
+   "shares": 82.0,
+   "amount": 76752000.0,
+   "over_cap": false
+  },
+  {
+   "code": "034020",
+   "name": "두산에너빌리티",
+   "weight": 3.95,
+   "shares": 1042.0,
+   "amount": 76274400.0,
+   "over_cap": false
+  },
+  {
+   "code": "068270",
+   "name": "셀트리온",
+   "weight": 3.51,
+   "shares": 387.0,
+   "amount": 67763700.0,
+   "over_cap": false
+  },
+  {
+   "code": "035420",
+   "name": "NAVER",
+   "weight": 3.04,
+   "shares": 312.0,
+   "amount": 58656000.0,
+   "over_cap": false
+  },
+  {
+   "code": "KRD010010001",
+   "name": "원화예금",
+   "weight": 0.32,
+   "shares": 6262233.0,
+   "amount": 6262233.0,
+   "over_cap": false
+  }
+ ],
+ "breach_summary": null,
+ "cap": {
+  "single_cap": null,
+  "index_exception": true,
+  "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+  "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+  "verified": true,
+  "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+ }
+}

@@ -1,0 +1,1252 @@
+{
+ "as_of": "2026-07-13",
+ "generated_at": "2026-07-14 15:15",
+ "count": 32,
+ "reg_note": "자본시장법 시행령 §80 — 지수형 ETF는 동일종목을 자산의 30%까지 편입 가능. 기초지수 내 비중이 30%를 넘는 대표종목(예: 삼성전자)은 그 지수 비중까지 예외 허용. cap을 둔 테마·전략 지수는 정기변경 때 상한으로 재조정된다.",
+ "etfs": [
+  {
+   "ticker": "069500",
+   "isin": "KR7069500007",
+   "name": "KODEX 200",
+   "krx_name": "KODEX 200",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "코스피 200",
+   "market_cap": 23793493000000,
+   "shares": 218650000,
+   "close": 108820.0,
+   "nav": 108583.09,
+   "schedule_label": "6·12월 D+1",
+   "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
+   "months": [
+    6,
+    12
+   ],
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": null
+  },
+  {
+   "ticker": "102110",
+   "isin": "KR7102110004",
+   "name": "TIGER 200",
+   "krx_name": "TIGER 200",
+   "manager": "TIGER",
+   "company": "미래에셋자산운용",
+   "color": "#F05A22",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "코스피 200",
+   "market_cap": 9797890250000,
+   "shares": 90050000,
+   "close": 108805.0,
+   "nav": 108651.8,
+   "schedule_label": "6·12월 D+1",
+   "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
+   "months": [
+    6,
+    12
+   ],
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-13",
+   "breach_summary": null
+  },
+  {
+   "ticker": "396500",
+   "isin": "KR7396500001",
+   "name": "TIGER 반도체TOP10",
+   "krx_name": "TIGER 반도체TOP10",
+   "manager": "TIGER",
+   "company": "미래에셋자산운용",
+   "color": "#F05A22",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "FnGuide 반도체TOP10 지수",
+   "market_cap": 9213242500000,
+   "shares": 251900000,
+   "close": 36575.0,
+   "nav": 36602.06,
+   "schedule_label": "4·10월 D+2",
+   "schedule_detail": "4·10월 만기일 +2 영업일 지수변경",
+   "months": [
+    4,
+    10
+   ],
+   "cap": {
+    "single_cap": 0.25,
+    "index_exception": false,
+    "label": "상위 2종목 각 25% (합 50%)",
+    "source": "FnGuide 반도체TOP10 지수 방법론",
+    "note": "상위 2종목(삼성전자·SK하이닉스)에 각 25% 상한을 적용하고 나머지 8종목이 잔여 50%를 유동시총 가중으로 배분한다. 정기변경(4·10월) 시 재적용.",
+    "verified": true
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-13",
+   "breach_summary": {
+    "cap_pct": 25.0,
+    "verified": true,
+    "count": 2,
+    "total_sell": 471718016000,
+    "items": [
+     {
+      "code": "005930",
+      "name": "삼성전자",
+      "weight": 28.4,
+      "cap_pct": 25.0,
+      "excess_pp": 3.4,
+      "sell_amount": 313250245000
+     },
+     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "weight": 26.72,
+      "cap_pct": 25.0,
+      "excess_pp": 1.72,
+      "sell_amount": 158467771000
+     }
+    ]
+   }
+  },
+  {
+   "ticker": "278530",
+   "isin": "KR7278530001",
+   "name": "KODEX 200TR",
+   "krx_name": "KODEX 200TR",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "코스피 200 TR",
+   "market_cap": 7403178000000,
+   "shares": 188400000,
+   "close": 39295.0,
+   "nav": 39241.71,
+   "schedule_label": "6·12월 D+1",
+   "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
+   "months": [
+    6,
+    12
+   ],
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": null
+  },
+  {
+   "ticker": "0167A0",
+   "isin": "KR70167A0001",
+   "name": "SOL AI반도체TOP2플러스",
+   "krx_name": "SOL AI반도체TOP2플러스",
+   "manager": "SOL",
+   "company": "신한자산운용",
+   "color": "#0046FF",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "FnGuide AI반도체 TOP2 플러스 지수(PR)",
+   "market_cap": 5970420000000,
+   "shares": 323600000,
+   "close": 18450.0,
+   "nav": 18341.11,
+   "schedule_label": "1·4·7·10월 D+2",
+   "schedule_detail": "분기(1·4·7·10월) 만기일 +2 영업일 지수변경",
+   "months": [
+    1,
+    4,
+    7,
+    10
+   ],
+   "cap": {
+    "single_cap": 0.25,
+    "index_exception": false,
+    "label": "상위 2종목 각 25% (합 50%)",
+    "source": "FnGuide AI반도체 TOP2 플러스 지수 방법론",
+    "note": "TOP2(삼성전자·SK하이닉스) 각 25% 상한, 나머지는 스코어 기반 편입.",
+    "verified": true
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": {
+    "cap_pct": 25.0,
+    "verified": true,
+    "count": 1,
+    "total_sell": 44778150000,
+    "items": [
+     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "weight": 25.75,
+      "cap_pct": 25.0,
+      "excess_pp": 0.75,
+      "sell_amount": 44778150000
+     }
+    ]
+   }
+  },
+  {
+   "ticker": "091160",
+   "isin": "KR7091160002",
+   "name": "KODEX 반도체",
+   "krx_name": "KODEX 반도체",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "섹터",
+   "is_theme": true,
+   "index_name": "KRX 반도체",
+   "market_cap": 5787096000000,
+   "shares": 44400000,
+   "close": 130340.0,
+   "nav": 130069.81,
+   "schedule_label": "9월 D+1, 연 1회",
+   "schedule_detail": "연 1회 9월 만기일 +1 영업일 지수변경",
+   "months": [
+    9
+   ],
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": null
+  },
+  {
+   "ticker": "310970",
+   "isin": "KR7310970009",
+   "name": "TIGER MSCI Korea TR",
+   "krx_name": "TIGER MSCI Korea TR",
+   "manager": "TIGER",
+   "company": "미래에셋자산운용",
+   "color": "#F05A22",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "MSCI Korea TR Index",
+   "market_cap": 4407432000000,
+   "shares": 90800000,
+   "close": 48540.0,
+   "nav": 48302.94,
+   "schedule_label": "2·5·8·11월 말",
+   "schedule_detail": "MSCI 분기 리뷰 — 2·5·8·11월 말 효력",
+   "months": [
+    2,
+    5,
+    8,
+    11
+   ],
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-13",
+   "breach_summary": null
+  },
+  {
+   "ticker": "229200",
+   "isin": "KR7229200001",
+   "name": "KODEX 코스닥150",
+   "krx_name": "KODEX 코스닥150",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "코스닥 150",
+   "market_cap": 4315950000000,
+   "shares": 312750000,
+   "close": 13800.0,
+   "nav": 13757.42,
+   "schedule_label": "6·12월 D+1",
+   "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
+   "months": [
+    6,
+    12
+   ],
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": null
+  },
+  {
+   "ticker": "148020",
+   "isin": "KR7148020001",
+   "name": "RISE 200",
+   "krx_name": "RISE 200",
+   "manager": "RISE",
+   "company": "KB자산운용",
+   "color": "#F5A623",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "코스피 200",
+   "market_cap": 4313764500000,
+   "shares": 39300000,
+   "close": 109765.0,
+   "nav": 109280.54,
+   "schedule_label": "6·12월 D+1",
+   "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
+   "months": [
+    6,
+    12
+   ],
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": null
+  },
+  {
+   "ticker": "395160",
+   "isin": "KR7395160005",
+   "name": "KODEX AI반도체TOP2플러스",
+   "krx_name": "KODEX AI반도체TOP2플러스",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "FnGuide AI반도체 TOP2+ 지수",
+   "market_cap": 3905740000000,
+   "shares": 97400000,
+   "close": 40100.0,
+   "nav": 40105.83,
+   "schedule_label": "6·12월 D+2",
+   "schedule_detail": "6·12월 만기일 +2 영업일 지수변경",
+   "months": [
+    6,
+    12
+   ],
+   "cap": {
+    "single_cap": 0.25,
+    "index_exception": false,
+    "label": "상위 2종목 각 25% (합 50%)",
+    "source": "FnGuide AI반도체 TOP2+ 지수 방법론(2026년 개편, 20%→25%)",
+    "note": "TOP2(삼성전자·SK하이닉스) 각 25% 상한, 나머지는 모멘텀·시총 스코어로 편입(최대 15종목).",
+    "verified": true
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": {
+    "cap_pct": 25.0,
+    "verified": true,
+    "count": 2,
+    "total_sell": 31245920000,
+    "items": [
+     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "weight": 25.67,
+      "cap_pct": 25.0,
+      "excess_pp": 0.67,
+      "sell_amount": 26168458000
+     },
+     {
+      "code": "005930",
+      "name": "삼성전자",
+      "weight": 25.13,
+      "cap_pct": 25.0,
+      "excess_pp": 0.13,
+      "sell_amount": 5077462000
+     }
+    ]
+   }
+  },
+  {
+   "ticker": "395270",
+   "isin": "KR7395270002",
+   "name": "HANARO Fn K-반도체",
+   "krx_name": "HANARO Fn K-반도체",
+   "manager": "HANARO",
+   "company": "NH아문디자산운용",
+   "color": "#00A19C",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "FnGuide K-반도체 지수",
+   "market_cap": 3746763750000,
+   "shares": 65750000,
+   "close": 56985.0,
+   "nav": 57039.98,
+   "schedule_label": "6·12월 D+4",
+   "schedule_detail": "6·12월 만기일 +4 영업일 지수변경",
+   "months": [
+    6,
+    12
+   ],
+   "cap": {
+    "single_cap": 0.3,
+    "index_exception": false,
+    "label": "자체 비중상한 지수 · 상한 확인 요(잠정 30%)",
+    "source": "지수 방법론 원문 미확보 — 규제 상한 30% 잠정 적용",
+    "verified": false,
+    "note": "자체 비중상한을 둘 수 있는 테마 지수이나 방법론 원문을 확보하지 못해 규제 상한 30%를 잠정 적용한다. 정확한 상한은 지수 방법론/투자설명서 확인이 필요하다."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": null
+  },
+  {
+   "ticker": "102780",
+   "isin": "KR7102780004",
+   "name": "KODEX 삼성그룹",
+   "krx_name": "KODEX 삼성그룹",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "그룹주",
+   "is_theme": true,
+   "index_name": "삼성그룹",
+   "market_cap": 3311685000000,
+   "shares": 132600000,
+   "close": 24975.0,
+   "nav": 25056.98,
+   "schedule_label": "6·12월 D+1~5 분할",
+   "schedule_detail": "6·12월 만기일 이후 5영업일에 걸쳐 분할 리밸런싱",
+   "months": [
+    6,
+    12
+   ],
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": null
+  },
+  {
+   "ticker": "487240",
+   "isin": "KR7487240004",
+   "name": "KODEX AI전력핵심설비",
+   "krx_name": "KODEX AI전력핵심설비",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "iSelect AI 전력핵심설비 지수(Price Return)",
+   "market_cap": 2928797500000,
+   "shares": 85700000,
+   "close": 34175.0,
+   "nav": 34282.21,
+   "schedule_label": "6·12월 D+2",
+   "schedule_detail": "6·12월 만기일 +2 영업일 지수변경",
+   "months": [
+    6,
+    12
+   ],
+   "cap": {
+    "single_cap": 0.3,
+    "index_exception": false,
+    "label": "자체 비중상한 지수 · 상한 확인 요(잠정 30%)",
+    "source": "지수 방법론 원문 미확보 — 규제 상한 30% 잠정 적용",
+    "verified": false,
+    "note": "자체 비중상한을 둘 수 있는 테마 지수이나 방법론 원문을 확보하지 못해 규제 상한 30%를 잠정 적용한다. 정확한 상한은 지수 방법론/투자설명서 확인이 필요하다."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": null
+  },
+  {
+   "ticker": "139260",
+   "isin": "KR7139260004",
+   "name": "TIGER 200 IT",
+   "krx_name": "TIGER 200 IT",
+   "manager": "TIGER",
+   "company": "미래에셋자산운용",
+   "color": "#F05A22",
+   "category": "섹터",
+   "is_theme": true,
+   "index_name": "코스피 200 정보기술",
+   "market_cap": 2639952000000,
+   "shares": 19440000,
+   "close": 135800.0,
+   "nav": 136473.02,
+   "schedule_label": "6·12월 D+1",
+   "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
+   "months": [
+    6,
+    12
+   ],
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-13",
+   "breach_summary": null
+  },
+  {
+   "ticker": "278540",
+   "isin": "KR7278540000",
+   "name": "KODEX MSCI Korea TR",
+   "krx_name": "KODEX MSCI Korea TR",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "MSCI Korea TR Index",
+   "market_cap": 2414062500000,
+   "shares": 62500000,
+   "close": 38625.0,
+   "nav": 38455.92,
+   "schedule_label": "2·5·8·11월 말",
+   "schedule_detail": "MSCI 분기 리뷰 — 2·5·8·11월 말 효력",
+   "months": [
+    2,
+    5,
+    8,
+    11
+   ],
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": null
+  },
+  {
+   "ticker": "161510",
+   "isin": "KR7161510003",
+   "name": "PLUS 고배당주",
+   "krx_name": "PLUS 고배당주",
+   "manager": "PLUS",
+   "company": "한화자산운용",
+   "color": "#F37021",
+   "category": "전략",
+   "is_theme": true,
+   "index_name": "FnGuide 배당주 지수",
+   "market_cap": 2349195000000,
+   "shares": 94440000,
+   "close": 24875.0,
+   "nav": 25061.98,
+   "schedule_label": "6·12월 D+4",
+   "schedule_detail": "6·12월 만기일 +4 영업일 지수변경",
+   "months": [
+    6,
+    12
+   ],
+   "cap": {
+    "single_cap": null,
+    "index_exception": false,
+    "label": "동일가중 방식 · 종목 상한 이슈 없음",
+    "source": "FnGuide 배당주(고배당주) 지수",
+    "note": "약 동일가중(각 ~3.3%)에 배당수익률·시총 틸팅 ±2%p. 단일종목 비중이 낮아 cap 초과 이슈가 사실상 없다. 정기변경 연 2회(5·11월).",
+    "verified": true
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": null
+  },
+  {
+   "ticker": "292150",
+   "isin": "KR7292150000",
+   "name": "TIGER 코리아TOP10",
+   "krx_name": "TIGER 코리아TOP10",
+   "manager": "TIGER",
+   "company": "미래에셋자산운용",
+   "color": "#F05A22",
+   "category": "전략",
+   "is_theme": true,
+   "index_name": "FnGuide TOP10 지수",
+   "market_cap": 2041776000000,
+   "shares": 52800000,
+   "close": 38670.0,
+   "nav": 38571.69,
+   "schedule_label": "3·9월 D+2",
+   "schedule_detail": "3·9월 만기일 +2 영업일 지수변경",
+   "months": [
+    3,
+    9
+   ],
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-13",
+   "breach_summary": null
+  },
+  {
+   "ticker": "294400",
+   "isin": "KR7294400007",
+   "name": "KIWOOM 200TR",
+   "krx_name": "KIWOOM 200TR",
+   "manager": "KIWOOM",
+   "company": "키움투자자산운용",
+   "color": "#D6001C",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "코스피 200 TR",
+   "market_cap": 1821568000000,
+   "shares": 12800000,
+   "close": 142310.0,
+   "nav": 142199.39,
+   "schedule_label": "6·12월 D+1",
+   "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
+   "months": [
+    6,
+    12
+   ],
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": null
+  },
+  {
+   "ticker": "105190",
+   "isin": "KR7105190003",
+   "name": "ACE 200",
+   "krx_name": "ACE 200",
+   "manager": "ACE",
+   "company": "한국투자신탁운용",
+   "color": "#E60012",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "코스피 200",
+   "market_cap": 1787600000000,
+   "shares": 16400000,
+   "close": 109000.0,
+   "nav": 108791.86,
+   "schedule_label": "6·12월 D+1",
+   "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
+   "months": [
+    6,
+    12
+   ],
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": null
+  },
+  {
+   "ticker": "305720",
+   "isin": "KR7305720005",
+   "name": "KODEX 2차전지산업",
+   "krx_name": "KODEX 2차전지산업",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "FnGuide 2차전지 산업 지수",
+   "market_cap": 1506063500000,
+   "shares": 112100000,
+   "close": 13435.0,
+   "nav": 13480.59,
+   "schedule_label": "3·6·9·12월 D+2~4",
+   "schedule_detail": "분기(3·6·9·12월) 만기일 +2~4 영업일 지수변경",
+   "months": [
+    3,
+    6,
+    9,
+    12
+   ],
+   "cap": {
+    "single_cap": 0.2,
+    "index_exception": false,
+    "label": "1위 20% · 2위 15% (비대칭 상한)",
+    "source": "FnGuide 2차전지 산업 지수(2차 출처, 재확인 권장)",
+    "note": "시총 1위 종목 20%, 2위 종목 15% 상한(비대칭). 화면 플래그는 단일 20% 기준으로 계산하므로 2위 종목(15% 초과분)은 별도 확인 필요. 정기변경 3·6·9·12월.",
+    "verified": false
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": {
+    "cap_pct": 20.0,
+    "verified": false,
+    "count": 1,
+    "total_sell": 11596688950,
+    "items": [
+     {
+      "code": "373220",
+      "name": "LG에너지솔루션",
+      "weight": 20.77,
+      "cap_pct": 20.0,
+      "excess_pp": 0.77,
+      "sell_amount": 11596688950
+     }
+    ]
+   }
+  },
+  {
+   "ticker": "315930",
+   "isin": "KR7315930008",
+   "name": "KODEX Top5PlusTR",
+   "krx_name": "KODEX Top5PlusTR",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "전략",
+   "is_theme": true,
+   "index_name": "FnGuide TOP 5 Plus Total Return 지수",
+   "market_cap": 1446200000000,
+   "shares": 17500000,
+   "close": 82640.0,
+   "nav": 82742.59,
+   "schedule_label": "6월 D+2, 연 1회",
+   "schedule_detail": "연 1회 6월 만기일 +2 영업일 지수변경",
+   "months": [
+    6
+   ],
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": null
+  },
+  {
+   "ticker": "466920",
+   "isin": "KR7466920006",
+   "name": "SOL 조선TOP3플러스",
+   "krx_name": "SOL 조선TOP3플러스",
+   "manager": "SOL",
+   "company": "신한자산운용",
+   "color": "#0046FF",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "FnGuide 조선TOP3플러스지수(PR)",
+   "market_cap": 1438320000000,
+   "shares": 52000000,
+   "close": 27660.0,
+   "nav": 27714.04,
+   "schedule_label": "2·5·8·11월 D+2",
+   "schedule_detail": "분기(2·5·8·11월) 만기일 +2 영업일 지수변경",
+   "months": [
+    2,
+    5,
+    8,
+    11
+   ],
+   "cap": {
+    "single_cap": 0.2,
+    "index_exception": false,
+    "label": "상위 3종목 각 20% (합 60%)",
+    "source": "FnGuide 조선TOP3플러스 지수 방법론",
+    "note": "매출 상위 3종목(한화오션·삼성중공업·HD한국조선해양)에 각 20% 상한(합 60%), 나머지 시총 상위 종목이 40%를 배분. 정기변경(2·5·8·11월) 시 재적용.",
+    "verified": true
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": {
+    "cap_pct": 20.0,
+    "verified": true,
+    "count": 3,
+    "total_sell": 193166376000,
+    "items": [
+     {
+      "code": "010140",
+      "name": "삼성중공업",
+      "weight": 25.76,
+      "cap_pct": 20.0,
+      "excess_pp": 5.76,
+      "sell_amount": 82847232000
+     },
+     {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "weight": 24.13,
+      "cap_pct": 20.0,
+      "excess_pp": 4.13,
+      "sell_amount": 59402616000
+     },
+     {
+      "code": "042660",
+      "name": "한화오션",
+      "weight": 23.54,
+      "cap_pct": 20.0,
+      "excess_pp": 3.54,
+      "sell_amount": 50916528000
+     }
+    ]
+   }
+  },
+  {
+   "ticker": "152100",
+   "isin": "KR7152100004",
+   "name": "PLUS 200",
+   "krx_name": "PLUS 200",
+   "manager": "PLUS",
+   "company": "한화자산운용",
+   "color": "#F37021",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "코스피 200",
+   "market_cap": 1430521750000,
+   "shares": 12950000,
+   "close": 110465.0,
+   "nav": 110153.31,
+   "schedule_label": "6·12월 D+1",
+   "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
+   "months": [
+    6,
+    12
+   ],
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": null
+  },
+  {
+   "ticker": "091230",
+   "isin": "KR7091230003",
+   "name": "TIGER 반도체",
+   "krx_name": "TIGER 반도체",
+   "manager": "TIGER",
+   "company": "미래에셋자산운용",
+   "color": "#F05A22",
+   "category": "섹터",
+   "is_theme": true,
+   "index_name": "KRX 반도체",
+   "market_cap": 1414035500000,
+   "shares": 10300000,
+   "close": 137285.0,
+   "nav": 136594.96,
+   "schedule_label": "9월 D+1, 연 1회",
+   "schedule_detail": "연 1회 9월 만기일 +1 영업일 지수변경",
+   "months": [
+    9
+   ],
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-13",
+   "breach_summary": null
+  },
+  {
+   "ticker": "232080",
+   "isin": "KR7232080002",
+   "name": "TIGER 코스닥150",
+   "krx_name": "TIGER 코스닥150",
+   "manager": "TIGER",
+   "company": "미래에셋자산운용",
+   "color": "#F05A22",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "코스닥 150",
+   "market_cap": 1265616000000,
+   "shares": 89760000,
+   "close": 14100.0,
+   "nav": 14020.99,
+   "schedule_label": "6·12월 D+1",
+   "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
+   "months": [
+    6,
+    12
+   ],
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-13",
+   "breach_summary": null
+  },
+  {
+   "ticker": "455850",
+   "isin": "KR7455850008",
+   "name": "SOL AI반도체소부장",
+   "krx_name": "SOL AI반도체소부장",
+   "manager": "SOL",
+   "company": "신한자산운용",
+   "color": "#0046FF",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "FnGuide AI 반도체 소부장 지수",
+   "market_cap": 1085000000000,
+   "shares": 43750000,
+   "close": 24800.0,
+   "nav": 24703.62,
+   "schedule_label": "6·12월 D+2",
+   "schedule_detail": "6·12월 만기일 +2 영업일 지수변경",
+   "months": [
+    6,
+    12
+   ],
+   "cap": {
+    "single_cap": 0.3,
+    "index_exception": false,
+    "label": "자체 비중상한 지수 · 상한 확인 요(잠정 30%)",
+    "source": "지수 방법론 원문 미확보 — 규제 상한 30% 잠정 적용",
+    "verified": false,
+    "note": "자체 비중상한을 둘 수 있는 테마 지수이나 방법론 원문을 확보하지 못해 규제 상한 30%를 잠정 적용한다. 정확한 상한은 지수 방법론/투자설명서 확인이 필요하다."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": null
+  },
+  {
+   "ticker": "469150",
+   "isin": "KR7469150007",
+   "name": "ACE AI반도체TOP3+",
+   "krx_name": "ACE AI반도체TOP3+",
+   "manager": "ACE",
+   "company": "한국투자신탁운용",
+   "color": "#E60012",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "FnGuide AI반도체 TOP3+ 지수",
+   "market_cap": 1082838250000,
+   "shares": 18850000,
+   "close": 57445.0,
+   "nav": 57385.68,
+   "schedule_label": "3·6·9·12월 D+2~4",
+   "schedule_detail": "분기(3·6·9·12월) 만기일 +2~4 영업일 지수변경",
+   "months": [
+    3,
+    6,
+    9,
+    12
+   ],
+   "cap": {
+    "single_cap": 0.25,
+    "index_exception": false,
+    "label": "상위 3종목 각 25% (합 75%)",
+    "source": "FnGuide AI반도체 포커스 지수(2차 출처, 재확인 권장)",
+    "note": "상위 3종목(삼성전자·SK하이닉스·한미반도체) 각 25% 상한(합 75%), 나머지 균등 배분(총 20종목).",
+    "verified": false
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": {
+    "cap_pct": 25.0,
+    "verified": false,
+    "count": 2,
+    "total_sell": 46128909450,
+    "items": [
+     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "weight": 27.54,
+      "cap_pct": 25.0,
+      "excess_pp": 2.54,
+      "sell_amount": 27504091550
+     },
+     {
+      "code": "005930",
+      "name": "삼성전자",
+      "weight": 26.72,
+      "cap_pct": 25.0,
+      "excess_pp": 1.72,
+      "sell_amount": 18624817900
+     }
+    ]
+   }
+  },
+  {
+   "ticker": "449450",
+   "isin": "KR7449450006",
+   "name": "PLUS K방산",
+   "krx_name": "PLUS K방산",
+   "manager": "PLUS",
+   "company": "한화자산운용",
+   "color": "#F37021",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "FnGuide K-방위산업 지수",
+   "market_cap": 1076715250000,
+   "shares": 20150000,
+   "close": 53435.0,
+   "nav": 53216.08,
+   "schedule_label": "6·12월 D+2",
+   "schedule_detail": "6·12월 만기일 +2 영업일 지수변경",
+   "months": [
+    6,
+    12
+   ],
+   "cap": {
+    "single_cap": 0.2,
+    "index_exception": false,
+    "label": "종목별 20% 상한",
+    "source": "FnGuide K-방위산업 지수(2차 출처, 재확인 권장)",
+    "note": "구성종목별 20% 비중상한을 적용한다. 정기변경(6·12월) 시 재조정.",
+    "verified": false
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": {
+    "cap_pct": 20.0,
+    "verified": false,
+    "count": 1,
+    "total_sell": 9076709558,
+    "items": [
+     {
+      "code": "012450",
+      "name": "한화에어로스페이스",
+      "weight": 20.843,
+      "cap_pct": 20.0,
+      "excess_pp": 0.843,
+      "sell_amount": 9076709558
+     }
+    ]
+   }
+  },
+  {
+   "ticker": "226490",
+   "isin": "KR7226490001",
+   "name": "KODEX 코스피",
+   "krx_name": "KODEX 코스피",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "코스피",
+   "market_cap": 1026965000000,
+   "shares": 14650000,
+   "close": 70100.0,
+   "nav": 70054.28,
+   "schedule_label": "수시 (고정 정기 종목교체 없음)",
+   "schedule_detail": "유가증권시장 전 종목 지수라 신규상장·상장폐지 등을 수시 반영",
+   "months": [],
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": null
+  },
+  {
+   "ticker": "495050",
+   "isin": "KR7495050007",
+   "name": "RISE 코리아밸류업",
+   "krx_name": "RISE 코리아밸류업",
+   "manager": "RISE",
+   "company": "KB자산운용",
+   "color": "#F5A623",
+   "category": "전략",
+   "is_theme": true,
+   "index_name": "코리아 밸류업 지수",
+   "market_cap": 976800000000,
+   "shares": 29600000,
+   "close": 33000.0,
+   "nav": 32939.69,
+   "schedule_label": "6월 D+1, 연 1회",
+   "schedule_detail": "연 1회 6월 만기일 +1 영업일 지수변경",
+   "months": [
+    6
+   ],
+   "cap": {
+    "single_cap": 0.15,
+    "index_exception": false,
+    "label": "단일종목 15% 상한 (코리아 밸류업 지수)",
+    "source": "KRX 코리아 밸류업 지수 방법론(개별종목 비중상한 15%)",
+    "note": "KRX가 산출하는 코리아 밸류업 지수는 개별종목 비중을 15%로 제한한다. 정기변경(연 1회 6월) 시 상한으로 조정되며 그 사이 주가 변동으로 초과할 수 있다.",
+    "verified": true
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": {
+    "cap_pct": 15.0,
+    "verified": true,
+    "count": 2,
+    "total_sell": 62612880000,
+    "items": [
+     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "weight": 20.39,
+      "cap_pct": 15.0,
+      "excess_pp": 5.39,
+      "sell_amount": 52649520000
+     },
+     {
+      "code": "005930",
+      "name": "삼성전자",
+      "weight": 16.02,
+      "cap_pct": 15.0,
+      "excess_pp": 1.02,
+      "sell_amount": 9963360000
+     }
+    ]
+   }
+  },
+  {
+   "ticker": "237350",
+   "isin": "KR7237350004",
+   "name": "KODEX 코스피100",
+   "krx_name": "KODEX 코스피100",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "코스피 100",
+   "market_cap": 964146000000,
+   "shares": 11100000,
+   "close": 86860.0,
+   "nav": 86941.13,
+   "schedule_label": "6·12월 D+1",
+   "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
+   "months": [
+    6,
+    12
+   ],
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-14",
+   "breach_summary": null
+  },
+  {
+   "ticker": "0117V0",
+   "isin": "KR70117V0007",
+   "name": "TIGER 코리아AI전력기기TOP3플러스",
+   "krx_name": "TIGER 코리아AI전력기기TOP3플러스",
+   "manager": "TIGER",
+   "company": "미래에셋자산운용",
+   "color": "#F05A22",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "KEDI 코리아AI전력기기TOP3플러스 지수",
+   "market_cap": 933052500000,
+   "shares": 51750000,
+   "close": 18030.0,
+   "nav": 18074.24,
+   "schedule_label": "6·12월 D+3",
+   "schedule_detail": "6·12월 만기일 +3 영업일 지수변경",
+   "months": [
+    6,
+    12
+   ],
+   "cap": {
+    "single_cap": 0.25,
+    "index_exception": false,
+    "label": "상위 3종목 각 25% (합 75%)",
+    "source": "KEDI 코리아AI전력기기TOP3플러스 지수(2차 출처, 재확인 권장)",
+    "note": "BIG3(효성중공업·HD현대일렉트릭·LS일렉트릭) 각 25% 상한, 나머지 스코어 가중(총 10종목).",
+    "verified": false
+   },
+   "has_holdings": true,
+   "holdings_asof": "2026-07-13",
+   "breach_summary": {
+    "cap_pct": 25.0,
+    "verified": false,
+    "count": 1,
+    "total_sell": 746442000,
+    "items": [
+     {
+      "code": "298040",
+      "name": "효성중공업",
+      "weight": 25.08,
+      "cap_pct": 25.0,
+      "excess_pp": 0.08,
+      "sell_amount": 746442000
+     }
+    ]
+   }
+  }
+ ]
+}

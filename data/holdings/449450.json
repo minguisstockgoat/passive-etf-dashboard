@@ -1,0 +1,115 @@
+{
+ "ticker": "449450",
+ "name": "PLUS K방산",
+ "manager": "PLUS",
+ "source": "한화 PLUS",
+ "asof": "2026-07-14",
+ "total_weight": 99.92,
+ "count": 10,
+ "holdings": [
+  {
+   "code": "012450",
+   "name": "한화에어로스페이스",
+   "weight": 20.8426,
+   "shares": 237.0,
+   "amount": 0.0,
+   "over_cap": true
+  },
+  {
+   "code": "064350",
+   "name": "현대로템",
+   "weight": 19.5665,
+   "shares": 1225.0,
+   "amount": 0.0,
+   "over_cap": false
+  },
+  {
+   "code": "042660",
+   "name": "한화오션",
+   "weight": 17.0361,
+   "shares": 2301.0,
+   "amount": 0.0,
+   "over_cap": false
+  },
+  {
+   "code": "047810",
+   "name": "한국항공우주",
+   "weight": 16.0984,
+   "shares": 1194.0,
+   "amount": 0.0,
+   "over_cap": false
+  },
+  {
+   "code": "079550",
+   "name": "LIG디펜스앤에어로스페이스",
+   "weight": 15.531,
+   "shares": 228.0,
+   "amount": 0.0,
+   "over_cap": false
+  },
+  {
+   "code": "272210",
+   "name": "한화시스템",
+   "weight": 7.6289,
+   "shares": 1221.0,
+   "amount": 0.0,
+   "over_cap": false
+  },
+  {
+   "code": "103140",
+   "name": "풍산",
+   "weight": 1.7465,
+   "shares": 296.0,
+   "amount": 0.0,
+   "over_cap": false
+  },
+  {
+   "code": "077970",
+   "name": "STX엔진",
+   "weight": 0.6229,
+   "shares": 260.0,
+   "amount": 0.0,
+   "over_cap": false
+  },
+  {
+   "code": "003570",
+   "name": "SNT다이내믹스",
+   "weight": 0.5624,
+   "shares": 164.0,
+   "amount": 0.0,
+   "over_cap": false
+  },
+  {
+   "code": "484870",
+   "name": "엠앤씨솔루션",
+   "weight": 0.2809,
+   "shares": 117.0,
+   "amount": 0.0,
+   "over_cap": false
+  }
+ ],
+ "breach_summary": {
+  "cap_pct": 20.0,
+  "verified": false,
+  "count": 1,
+  "total_sell": 9076709558,
+  "items": [
+   {
+    "code": "012450",
+    "name": "한화에어로스페이스",
+    "weight": 20.843,
+    "cap_pct": 20.0,
+    "excess_pp": 0.843,
+    "sell_amount": 9076709558
+   }
+  ]
+ },
+ "cap": {
+  "single_cap": 0.2,
+  "index_exception": false,
+  "label": "종목별 20% 상한",
+  "source": "FnGuide K-방위산업 지수(2차 출처, 재확인 권장)",
+  "note": "구성종목별 20% 비중상한을 적용한다. 정기변경(6·12월) 시 재조정.",
+  "verified": false
+ }
+}

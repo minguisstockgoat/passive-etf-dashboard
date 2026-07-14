@@ -1,0 +1,100 @@
+{
+ "ticker": "315930",
+ "name": "KODEX Top5PlusTR",
+ "manager": "KODEX",
+ "source": "삼성 KODEX",
+ "asof": "2026-07-14",
+ "total_weight": 99.99,
+ "count": 10,
+ "holdings": [
+  {
+   "code": "000660",
+   "name": "SK하이닉스",
+   "weight": 24.33,
+   "shares": 1100.0,
+   "amount": 2029500000.0,
+   "over_cap": false
+  },
+  {
+   "code": "005930",
+   "name": "삼성전자",
+   "weight": 23.58,
+   "shares": 7728.0,
+   "amount": 1966776000.0,
+   "over_cap": false
+  },
+  {
+   "code": "005380",
+   "name": "현대차",
+   "weight": 10.65,
+   "shares": 2001.0,
+   "amount": 888444000.0,
+   "over_cap": false
+  },
+  {
+   "code": "105560",
+   "name": "KB금융",
+   "weight": 9.28,
+   "shares": 4159.0,
+   "amount": 774405800.0,
+   "over_cap": false
+  },
+  {
+   "code": "055550",
+   "name": "신한지주",
+   "weight": 7.15,
+   "shares": 5495.0,
+   "amount": 596757000.0,
+   "over_cap": false
+  },
+  {
+   "code": "000270",
+   "name": "기아",
+   "weight": 6.26,
+   "shares": 3639.0,
+   "amount": 522196500.0,
+   "over_cap": false
+  },
+  {
+   "code": "086790",
+   "name": "하나금융지주",
+   "weight": 5.64,
+   "shares": 3548.0,
+   "amount": 470464800.0,
+   "over_cap": false
+  },
+  {
+   "code": "012330",
+   "name": "현대모비스",
+   "weight": 5.18,
+   "shares": 887.0,
+   "amount": 432412500.0,
+   "over_cap": false
+  },
+  {
+   "code": "035420",
+   "name": "NAVER",
+   "weight": 4.36,
+   "shares": 1934.0,
+   "amount": 363592000.0,
+   "over_cap": false
+  },
+  {
+   "code": "005490",
+   "name": "POSCO홀딩스",
+   "weight": 3.56,
+   "shares": 965.0,
+   "amount": 297220000.0,
+   "over_cap": false
+  }
+ ],
+ "breach_summary": null,
+ "cap": {
+  "single_cap": null,
+  "index_exception": true,
+  "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+  "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+  "verified": true,
+  "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+ }
+}

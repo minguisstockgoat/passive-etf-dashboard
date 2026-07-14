@@ -1,0 +1,123 @@
+{
+ "ticker": "0117V0",
+ "name": "TIGER 코리아AI전력기기TOP3플러스",
+ "manager": "TIGER",
+ "source": "미래에셋 TIGER",
+ "asof": "2026-07-13",
+ "total_weight": 99.99,
+ "count": 11,
+ "holdings": [
+  {
+   "code": "298040",
+   "name": "효성중공업",
+   "weight": 25.08,
+   "shares": 85.0,
+   "amount": 226610000.0,
+   "over_cap": true
+  },
+  {
+   "code": "010120",
+   "name": "LS ELECTRIC",
+   "weight": 24.44,
+   "shares": 1197.0,
+   "amount": 220846500.0,
+   "over_cap": false
+  },
+  {
+   "code": "267260",
+   "name": "HD현대일렉트릭",
+   "weight": 23.19,
+   "shares": 266.0,
+   "amount": 209608000.0,
+   "over_cap": false
+  },
+  {
+   "code": "000500",
+   "name": "가온전선",
+   "weight": 5.61,
+   "shares": 205.0,
+   "amount": 50737500.0,
+   "over_cap": false
+  },
+  {
+   "code": "006260",
+   "name": "LS",
+   "weight": 5.24,
+   "shares": 156.0,
+   "amount": 47346000.0,
+   "over_cap": false
+  },
+  {
+   "code": "001440",
+   "name": "대한전선",
+   "weight": 3.73,
+   "shares": 1192.0,
+   "amount": 33733600.0,
+   "over_cap": false
+  },
+  {
+   "code": "062040",
+   "name": "산일전기",
+   "weight": 3.72,
+   "shares": 198.0,
+   "amount": 33620400.0,
+   "over_cap": false
+  },
+  {
+   "code": "103590",
+   "name": "일진전기",
+   "weight": 3.27,
+   "shares": 485.0,
+   "amount": 29585000.0,
+   "over_cap": false
+  },
+  {
+   "code": "033100",
+   "name": "제룡전기",
+   "weight": 2.62,
+   "shares": 557.0,
+   "amount": 23700350.0,
+   "over_cap": false
+  },
+  {
+   "code": "229640",
+   "name": "LS에코에너지",
+   "weight": 2.25,
+   "shares": 474.0,
+   "amount": 20310900.0,
+   "over_cap": false
+  },
+  {
+   "code": "KRD010010001",
+   "name": "원화예금",
+   "weight": 0.84,
+   "shares": 7613776.0,
+   "amount": 7613776.0,
+   "over_cap": false
+  }
+ ],
+ "breach_summary": {
+  "cap_pct": 25.0,
+  "verified": false,
+  "count": 1,
+  "total_sell": 746442000,
+  "items": [
+   {
+    "code": "298040",
+    "name": "효성중공업",
+    "weight": 25.08,
+    "cap_pct": 25.0,
+    "excess_pp": 0.08,
+    "sell_amount": 746442000
+   }
+  ]
+ },
+ "cap": {
+  "single_cap": 0.25,
+  "index_exception": false,
+  "label": "상위 3종목 각 25% (합 75%)",
+  "source": "KEDI 코리아AI전력기기TOP3플러스 지수(2차 출처, 재확인 권장)",
+  "note": "BIG3(효성중공업·HD현대일렉트릭·LS일렉트릭) 각 25% 상한, 나머지 스코어 가중(총 10종목).",
+  "verified": false
+ }
+}

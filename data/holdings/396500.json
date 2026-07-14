@@ -1,0 +1,131 @@
+{
+ "ticker": "396500",
+ "name": "TIGER 반도체TOP10",
+ "manager": "TIGER",
+ "source": "미래에셋 TIGER",
+ "asof": "2026-07-13",
+ "total_weight": 100.0,
+ "count": 11,
+ "holdings": [
+  {
+   "code": "005930",
+   "name": "삼성전자",
+   "weight": 28.4,
+   "shares": 2042.0,
+   "amount": 519689000.0,
+   "over_cap": true
+  },
+  {
+   "code": "000660",
+   "name": "SK하이닉스",
+   "weight": 26.72,
+   "shares": 265.0,
+   "amount": 488925000.0,
+   "over_cap": true
+  },
+  {
+   "code": "402340",
+   "name": "SK스퀘어",
+   "weight": 21.44,
+   "shares": 338.0,
+   "amount": 392418000.0,
+   "over_cap": false
+  },
+  {
+   "code": "036930",
+   "name": "주성엔지니어링",
+   "weight": 4.68,
+   "shares": 469.0,
+   "amount": 85592500.0,
+   "over_cap": false
+  },
+  {
+   "code": "042700",
+   "name": "한미반도체",
+   "weight": 4.55,
+   "shares": 405.0,
+   "amount": 83227500.0,
+   "over_cap": false
+  },
+  {
+   "code": "007660",
+   "name": "이수페타시스",
+   "weight": 4.11,
+   "shares": 756.0,
+   "amount": 75297600.0,
+   "over_cap": false
+  },
+  {
+   "code": "240810",
+   "name": "원익IPS",
+   "weight": 3.14,
+   "shares": 461.0,
+   "amount": 57532800.0,
+   "over_cap": false
+  },
+  {
+   "code": "000990",
+   "name": "DB하이텍",
+   "weight": 2.5,
+   "shares": 414.0,
+   "amount": 45829800.0,
+   "over_cap": false
+  },
+  {
+   "code": "039030",
+   "name": "이오테크닉스",
+   "weight": 2.2,
+   "shares": 112.0,
+   "amount": 40264000.0,
+   "over_cap": false
+  },
+  {
+   "code": "058470",
+   "name": "리노공업",
+   "weight": 2.18,
+   "shares": 552.0,
+   "amount": 39909600.0,
+   "over_cap": false
+  },
+  {
+   "code": "KRD010010001",
+   "name": "원화예금",
+   "weight": 0.08,
+   "shares": 1417145.0,
+   "amount": 1417145.0,
+   "over_cap": false
+  }
+ ],
+ "breach_summary": {
+  "cap_pct": 25.0,
+  "verified": true,
+  "count": 2,
+  "total_sell": 471718016000,
+  "items": [
+   {
+    "code": "005930",
+    "name": "삼성전자",
+    "weight": 28.4,
+    "cap_pct": 25.0,
+    "excess_pp": 3.4,
+    "sell_amount": 313250245000
+   },
+   {
+    "code": "000660",
+    "name": "SK하이닉스",
+    "weight": 26.72,
+    "cap_pct": 25.0,
+    "excess_pp": 1.72,
+    "sell_amount": 158467771000
+   }
+  ]
+ },
+ "cap": {
+  "single_cap": 0.25,
+  "index_exception": false,
+  "label": "상위 2종목 각 25% (합 50%)",
+  "source": "FnGuide 반도체TOP10 지수 방법론",
+  "note": "상위 2종목(삼성전자·SK하이닉스)에 각 25% 상한을 적용하고 나머지 8종목이 잔여 50%를 유동시총 가중으로 배분한다. 정기변경(4·10월) 시 재적용.",
+  "verified": true
+ }
+}

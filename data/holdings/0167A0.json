@@ -1,0 +1,123 @@
+{
+ "ticker": "0167A0",
+ "name": "SOL AI반도체TOP2플러스",
+ "manager": "SOL",
+ "source": "신한 SOL",
+ "asof": "2026-07-14",
+ "total_weight": 99.99,
+ "count": 11,
+ "holdings": [
+  {
+   "code": "000660",
+   "name": "SK하이닉스",
+   "weight": 25.75,
+   "shares": 128.0,
+   "amount": 236160000.0,
+   "over_cap": true
+  },
+  {
+   "code": "005930",
+   "name": "삼성전자",
+   "weight": 24.84,
+   "shares": 895.0,
+   "amount": 227777500.0,
+   "over_cap": false
+  },
+  {
+   "code": "402340",
+   "name": "SK스퀘어",
+   "weight": 16.2,
+   "shares": 128.0,
+   "amount": 148608000.0,
+   "over_cap": false
+  },
+  {
+   "code": "009150",
+   "name": "삼성전기",
+   "weight": 15.04,
+   "shares": 107.0,
+   "amount": 137923000.0,
+   "over_cap": false
+  },
+  {
+   "code": "007660",
+   "name": "이수페타시스",
+   "weight": 5.56,
+   "shares": 512.0,
+   "amount": 50995200.0,
+   "over_cap": false
+  },
+  {
+   "code": "240810",
+   "name": "원익IPS",
+   "weight": 3.03,
+   "shares": 223.0,
+   "amount": 27830400.0,
+   "over_cap": false
+  },
+  {
+   "code": "353200",
+   "name": "대덕전자",
+   "weight": 2.93,
+   "shares": 236.0,
+   "amount": 26856800.0,
+   "over_cap": false
+  },
+  {
+   "code": "319660",
+   "name": "피에스케이",
+   "weight": 2.6,
+   "shares": 129.0,
+   "amount": 23813400.0,
+   "over_cap": false
+  },
+  {
+   "code": "089970",
+   "name": "브이엠",
+   "weight": 1.71,
+   "shares": 163.0,
+   "amount": 15713200.0,
+   "over_cap": false
+  },
+  {
+   "code": "095610",
+   "name": "테스",
+   "weight": 1.65,
+   "shares": 81.0,
+   "amount": 15098400.0,
+   "over_cap": false
+  },
+  {
+   "code": "KRD010010001",
+   "name": "현금성자산",
+   "weight": 0.68,
+   "shares": 6279485.0,
+   "amount": 6279485.0,
+   "over_cap": false
+  }
+ ],
+ "breach_summary": {
+  "cap_pct": 25.0,
+  "verified": true,
+  "count": 1,
+  "total_sell": 44778150000,
+  "items": [
+   {
+    "code": "000660",
+    "name": "SK하이닉스",
+    "weight": 25.75,
+    "cap_pct": 25.0,
+    "excess_pp": 0.75,
+    "sell_amount": 44778150000
+   }
+  ]
+ },
+ "cap": {
+  "single_cap": 0.25,
+  "index_exception": false,
+  "label": "상위 2종목 각 25% (합 50%)",
+  "source": "FnGuide AI반도체 TOP2 플러스 지수 방법론",
+  "note": "TOP2(삼성전자·SK하이닉스) 각 25% 상한, 나머지는 스코어 기반 편입.",
+  "verified": true
+ }
+}
