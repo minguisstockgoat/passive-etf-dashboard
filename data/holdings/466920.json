@@ -21,7 +21,7 @@
    "weight": 24.13,
    "shares": 686.0,
    "amount": 334425000.0,
-   "over_cap": true
+   "over_cap": false
   },
   {
    "code": "042660",
@@ -29,7 +29,7 @@
    "weight": 23.54,
    "shares": 4140.0,
    "amount": 326232000.0,
-   "over_cap": true
+   "over_cap": false
   },
   {
    "code": "009540",
@@ -121,43 +121,27 @@
   }
  ],
  "breach_summary": {
-  "cap_pct": 20.0,
+  "cap_pct": 25.0,
   "verified": true,
-  "count": 3,
-  "total_sell": 193166376000,
+  "count": 1,
+  "total_sell": 10931232000,
   "items": [
    {
     "code": "010140",
     "name": "삼성중공업",
     "weight": 25.76,
-    "cap_pct": 20.0,
-    "excess_pp": 5.76,
-    "sell_amount": 82847232000
-   },
-   {
-    "code": "329180",
-    "name": "HD현대중공업",
-    "weight": 24.13,
-    "cap_pct": 20.0,
-    "excess_pp": 4.13,
-    "sell_amount": 59402616000
-   },
-   {
-    "code": "042660",
-    "name": "한화오션",
-    "weight": 23.54,
-    "cap_pct": 20.0,
-    "excess_pp": 3.54,
-    "sell_amount": 50916528000
+    "cap_pct": 25.0,
+    "excess_pp": 0.76,
+    "sell_amount": 10931232000
    }
   ]
  },
  "cap": {
-  "single_cap": 0.2,
+  "single_cap": 0.25,
   "index_exception": false,
-  "label": "상위 3종목 각 20% (합 60%)",
-  "source": "FnGuide 조선TOP3플러스 지수 방법론",
-  "note": "매출 상위 3종목(한화오션·삼성중공업·HD한국조선해양)에 각 20% 상한(합 60%), 나머지 시총 상위 종목이 40%를 배분. 정기변경(2·5·8·11월) 시 재적용.",
+  "label": "조선 TOP3 종목 각 25% (플러스 유니버스 각 20%)",
+  "source": "FnGuide 조선TOP3플러스 지수 방법론서 v1.4(2025-09-09) §2.3·§2.5.2",
+  "note": "조선 TOP3 유니버스(조선 매출 상위 3종목)는 단일종목 25% 상한, 조선 플러스 유니버스(밸류체인 종목)는 각 20% 상한을 적용한다. 3영업일 연속 30% 초과 시 25%로 수시 조정. 화면 플래그는 실제 초과가 발생하는 TOP3 기준 25%로 계산한다. 정기변경 2·5·8·11월.",
   "verified": true
  }
 }
