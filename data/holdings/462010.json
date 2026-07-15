@@ -13,7 +13,7 @@
    "weight": 20.45,
    "shares": 395.0,
    "amount": 47321000.0,
-   "over_cap": false
+   "over_cap": true
   },
   {
    "code": "086520",
@@ -21,7 +21,7 @@
    "weight": 20.05,
    "shares": 555.0,
    "amount": 46398000.0,
-   "over_cap": false
+   "over_cap": true
   },
   {
    "code": "003670",
@@ -176,13 +176,39 @@
    "over_cap": false
   }
  ],
- "breach_summary": null,
+ "breach_summary": {
+  "cap_pct": 20.0,
+  "verified": true,
+  "count": 2,
+  "total_sell": 2350115000,
+  "items": [
+   {
+    "code": "247540",
+    "name": "에코프로비엠",
+    "weight": 20.45,
+    "cap_pct": 20.0,
+    "excess_pp": 0.45,
+    "sell_amount": 2115103500
+   },
+   {
+    "code": "086520",
+    "name": "에코프로",
+    "weight": 20.05,
+    "cap_pct": 20.0,
+    "excess_pp": 0.05,
+    "sell_amount": 235011500
+   }
+  ]
+ },
  "cap": {
-  "single_cap": null,
-  "index_exception": true,
-  "label": "비중상한 미확인 · 확인 요",
-  "source": "지수 방법론/투자설명서 원문 미확인",
-  "verified": false,
-  "note": "자체 비중상한이 있을 수 있으나 방법론 원문을 확인하지 못했다. 잘못된 매도경고를 피하기 위해 cap 초과 판정을 보류한다. 정확한 상한은 지수 방법론/투자설명서 확인 필요."
+  "single_cap": 0.2,
+  "index_exception": false,
+  "top_n": 3,
+  "top_cap": 0.2,
+  "rest_cap": 0.2,
+  "label": "상위 3종목 각 20% · 나머지 20%",
+  "source": "FnGuide_Secondary_Battery_Material_Index_Methodology_Book_미래_v1.3.pdf | '유동시가총액 최대 상위 3종목의 편입 비중을 20%로 적용…상위 3종목 제외 종목 중 비중 20% 초과 시 20%로 제한'; '1,4,7,10월 옵션 만기일(D) 기준 2영업일째(D+2)에 정기변경'",
+  "verified": true,
+  "note": "상위 종목 상한 기준으로 초과를 계산한다(보수적). 3·6·9·12월말 종목선정 → 1·4·7·10월 옵션 만기일 D+2 정기변경(분기). 매출 50%↑ 유동시총 상위3종목 각 20%, 나머지도 20% 상한"
  }
 }

@@ -19,7 +19,8 @@ from krx_fetch import latest_etf_snapshot
 from fetchers import krx_etf_universe
 from caps import compute_breach
 import universe as U
-from cap_rules import cap_for, REG_NOTE
+import index_rules as IR
+from cap_rules import cap_for, CAP_RULES, REG_NOTE
 
 MINCAP = float(os.environ.get("ETF_MIN_CAP", U.MINCAP_DEFAULT))   # 기본 300억
 
@@ -88,9 +89,21 @@ def main():
     # 3) 레코드 생성 (+ cap 판정, 단일종목 제외)
     etfs, single = [], 0
     for c, r in pairs:
-        ticker = r["ticker"]; mgr = c["manager"]
-        is_mkt = U.classify(c["name"], r["index_indicator_name"])[1]
-        cap = cap_for(c["name"], is_mkt)
+        ticker = r["ticker"]; mgr = c["manager"]; idxnm = r["index_indicator_name"]
+        is_mkt = U.classify(c["name"], idxnm)[1]
+
+        # 정기변경: 큐레이션=검증 / 자동=index_rules 조회(있으면 검증) 아니면 자동추정
+        sched_verified = not c.get("auto", False)
+        if c.get("auto"):
+            sr = IR.resolve_schedule(idxnm)
+            if sr:
+                c["months"], c["schedule_label"], c["schedule_detail"], sched_verified = sr
+
+        # cap: 큐레이션 규칙 > index_rules(지수) > 복제형/미확인
+        if c["name"] in CAP_RULES:
+            cap = CAP_RULES[c["name"]]
+        else:
+            cap = IR.resolve_cap(idxnm) or cap_for(c["name"], is_mkt)
 
         hpath = os.path.join(HOLD, f"{ticker}.json")
         has_h, h_asof, breach = False, None, None
@@ -123,6 +136,7 @@ def main():
             "close": r["close"], "nav": r["nav"],
             "schedule_label": c["schedule_label"], "schedule_detail": c["schedule_detail"],
             "months": c["months"], "auto": c.get("auto", False),
+            "schedule_verified": sched_verified,
             "cap": cap, "cap_verified": bool(cap and cap.get("verified")),
             "has_holdings": has_h, "holdings_asof": h_asof, "breach_summary": breach,
         })

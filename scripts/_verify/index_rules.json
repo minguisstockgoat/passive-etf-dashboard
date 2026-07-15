@@ -1,0 +1,1064 @@
+{
+ "FnGuide 2차전지 소부장 지수(PR)": {
+  "index": "FnGuide 2차전지 소부장 지수(PR)",
+  "ticker": "455860",
+  "cap_type": "single",
+  "single_cap": 0.2,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "5·11월말 종목선정 → 6·12월 선물옵션 만기일 D+2 정기변경(연2회). 수시변경 30%→25%",
+  "source": "FnGuide_Secondary_Battery_Material_&_Equipment_Index_Methodology_Book_v1.2.pdf | '비중이 20%을 넘을 경우 최대 20%로 비중을 제한…모두 20% 이하가 되도록 실링'; '6, 12월 선물옵션 만기일(D) 이후 2영업일째(D+2)에 정기변경'",
+  "confidence": "high"
+ },
+ "FnGuide 2차전지소재 지수": {
+  "index": "FnGuide 2차전지소재 지수",
+  "ticker": "462010",
+  "cap_type": "top_n",
+  "single_cap": null,
+  "top_n": 3,
+  "top_cap": 0.2,
+  "rest_cap": 0.2,
+  "months": [
+   1,
+   4,
+   7,
+   10
+  ],
+  "schedule": "3·6·9·12월말 종목선정 → 1·4·7·10월 옵션 만기일 D+2 정기변경(분기). 매출 50%↑ 유동시총 상위3종목 각 20%, 나머지도 20% 상한",
+  "source": "FnGuide_Secondary_Battery_Material_Index_Methodology_Book_미래_v1.3.pdf | '유동시가총액 최대 상위 3종목의 편입 비중을 20%로 적용…상위 3종목 제외 종목 중 비중 20% 초과 시 20%로 제한'; '1,4,7,10월 옵션 만기일(D) 기준 2영업일째(D+2)에 정기변경'",
+  "confidence": "high"
+ },
+ "FnGuide 2차전지핵심소재10 지수": {
+  "index": "FnGuide 2차전지핵심소재10 지수",
+  "ticker": "461950",
+  "cap_type": "top_n",
+  "single_cap": null,
+  "top_n": 1,
+  "top_cap": 0.2,
+  "rest_cap": 0.15,
+  "months": [
+   1,
+   4,
+   7,
+   10
+  ],
+  "schedule": "1·4·7·10월 첫 영업일(D+3) 정기변경(분기). 최대종목 20% 상한, 그 외 종목 15% 상한",
+  "source": "FnGuide_Secondary_Battery_Core_Materials_10_Index_Methodology_Book_삼성_v1.5.pdf | '가장 비중이 큰 종목 20% 초과 시 20%…두 번째 종목이 15% 넘으면 15%로…모두 15% 이하(최대종목 20% 이하) 실링'; '1, 4, 7, 10월 첫 번째 영업일(D+3)에 정기변경'",
+  "confidence": "high"
+ },
+ "FnGuide AI반도체TOP10 지수": {
+  "index": "FnGuide AI반도체TOP10 지수",
+  "ticker": "0093A0",
+  "cap_type": "top_n",
+  "single_cap": null,
+  "top_n": 1,
+  "top_cap": 0.15,
+  "rest_cap": 0.1,
+  "months": [
+   1,
+   4,
+   7,
+   10
+  ],
+  "schedule": "3·6·9·12월말 종목선정 → 1·4·7·10월 선물옵션 만기일 D+2 정기변경(분기). 최대종목 15%, 그 외 10% 상한",
+  "source": "FnGuide_AI_Semiconductor_TOP10_Index_Methodology_Book_(20250602)_v1.0.pdf | '지수 내 비중이 15%를 초과하는 종목은 15%로 제한하며, 그 외 종목은 10%로 비중을 제한'; '1,4,7,10월 선물옵션 만기일(D) 이후 2영업일째(D+2)에 정기변경'",
+  "confidence": "high"
+ },
+ "FnGuide E커머스 지수": {
+  "index": "FnGuide E커머스 지수",
+  "ticker": "322400",
+  "cap_type": "single",
+  "single_cap": 0.2,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "5·11월말 종목선정 → 6·12월 선물옵션 만기일 D+4/D+5 정기변경(연2회). 유동시총 가중, 종목당 20% 상한",
+  "source": "FnGuide_E_Commerce_Index_Methodology_Book_NH_v1.3.pdf | '특정종목의 지수내 비중이 20%를 넘을 경우 20%로 비중을 제한'; '6, 12월 선물옵션 만기일(D) 이후 4영업일(D+4)과 5영업일(D+5)에 정기변경'",
+  "confidence": "high"
+ },
+ "FnGuide K-POP & 미디어 지수": {
+  "index": "FnGuide K-POP & 미디어 지수",
+  "ticker": "395290",
+  "cap_type": "single",
+  "single_cap": 0.25,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "5·11월말 종목선정 → 6·12월 선물옵션 만기일 D+4/D+5 정기변경(연2회). 종목당 25% 상한",
+  "source": "FnGuide_K-POP_&_Media_Index_Methodology_Book_NHA_(20210225)_v1.0.pdf | '특정종목의 지수내 비중이 25%를 넘을 경우 25%로 비중을 제한'; '6, 12월 선물옵션 만기일(D) 이후 4영업일(D+4)과 5영업일(D+5)에 정기변경'",
+  "confidence": "high"
+ },
+ "FnGuide SLV 배당가치 지수": {
+  "index": "FnGuide SLV 배당가치 지수",
+  "ticker": "325020",
+  "cap_type": "top_n",
+  "single_cap": null,
+  "top_n": 1,
+  "top_cap": null,
+  "rest_cap": 0.07,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "연2회, 6·12월 선물옵션 만기일 다음주 첫 영업일 정기변경. 시총1위=전월 시장평균비중의 70%, 그 외 7% 상한",
+  "source": "FnGuide_SLV_Dividend_Value_Index_Methodology_Book_(20190701)_v1.3.pdf | '시가총액 1위 종목은 전월 시장평균비중의 70%로, 기타 종목은 7%로 비중을 제한'; '6, 12월 선물옵션 만기일 다음주 첫 영업일(D)에 정기변경'",
+  "confidence": "high"
+ },
+ "FnGuide TOP10 동일가중 지수": {
+  "index": "FnGuide TOP10 동일가중 지수",
+  "ticker": "395170",
+  "cap_type": "equal",
+  "single_cap": 0.1,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   3,
+   6,
+   9,
+   12
+  ],
+  "schedule": "2·5·8·11월말 종목선정 → 3·6·9·12월 선물옵션 만기일 D+2 정기변경(분기). 10종목 동일가중(각 10%)",
+  "source": "FnGuide_TOP10_EW_Index_Methodology_Book_삼성자산운용_v1.0.pdf | '비중이 10%가 되도록 산정'(10종목 동일가중); '3, 6, 9, 12월 선물옵션 만기일(D) 이후 2영업일(D+2)에 정기변경'",
+  "confidence": "high"
+ },
+ "FnGuide 고배당 Plus 지수": {
+  "index": "FnGuide 고배당 Plus 지수",
+  "ticker": "279530",
+  "cap_type": "single",
+  "single_cap": 0.3,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "최대 50종목 예상배당수익률 가중. 5·11월말 평가 → 6·12월 선물옵션 만기 익주 첫 영업일 적용(연2회). 30% 초과 시 27% 수시조정",
+  "source": "FnGuide_High_Dividend_Plus_Methodology_Book_삼성_v1.8.pdf | '비중이 30%를 초과하는 개별종목은 27%로 조정'; '5, 11월말 평가일로 종목선정, 6, 12월 선물옵션 만기일 익주 첫번째 영업일(D)부터 적용'",
+  "confidence": "high"
+ },
+ "FnGuide 고배당 알파 지수": {
+  "index": "FnGuide 고배당 알파 지수",
+  "ticker": "322410",
+  "cap_type": "single",
+  "single_cap": 0.1,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "배당금 가중. 5·11월말 종목선정 → 6·12월 선물옵션 만기일 D+4/D+5 정기변경(연2회). 종목당 10% 상한. (방법론서 표기명 'FnGuide K고배당 지수' = 322410 벤치마크)",
+  "source": "FnGuide_K_High_Dividend_Index_Methodology_Book_(20250821)_v1.2.pdf | '특정종목의 지수내 비중이 10%를 넘을 경우 10%로 비중을 제한'; '5, 11월 말 종목선정…12월 선물옵션 만기일(D) 이후 4·5영업일(D+4/D+5)에 정기변경'",
+  "confidence": "med"
+ },
+ "FnGuide 고배당주 플러스 자사주 지수": {
+  "index": "FnGuide 고배당주 플러스 자사주 지수",
+  "ticker": "0098N0",
+  "cap_type": "none",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "연2회, 6·12월 선물옵션 만기일 포함 5영업일째(T+4) 정기변경. 명시적 % 상한 없음(틸팅식 1/30+0.02*(2*Score-1), 실효 최대≈5.33%)",
+  "source": "FnGuide_High_Dividend_Stocks_Plus_Buyback_Index_Methodology_Book_한화_(20250702)_v1.1.pdf | '연 2회 6, 12월 선물옵션만기일을 포함하여 5영업일째 되는 날(T+4)에 정기변경'; 틸팅 배분(비중 상한 미명시)",
+  "confidence": "high"
+ },
+ "FnGuide 고배당포커스 지수": {
+  "index": "FnGuide 고배당포커스 지수",
+  "ticker": "266160",
+  "cap_type": "top_n",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": 0.25,
+  "rest_cap": 0.08,
+  "months": [
+   5
+  ],
+  "schedule": "연1회, 4월말 종가 종목선정 → 5월 선물옵션 만기일 익주 두번째 영업일 정기변경. 대형종목(MKF중대형 유동시총 10%↑)=Min{25%,유동시총}, 나머지 8% 상한",
+  "source": "FnGuide_High_Dividend_Focus_Index_Methodology_Book_KB_(20200508)_v2.1.pdf | '유동시총 비중 10% 이상 종목 = Min{25%, 유동시총} 실링 / 나머지 종목 = 8% 실링'; '4월말 종가로 종목선정…5월 선물옵션 만기일 익주 두번째 영업일에 정기변경'",
+  "confidence": "med"
+ },
+ "FnGuide 금융지주플러스고배당 지수": {
+  "index": "FnGuide 금융지주플러스고배당 지수",
+  "ticker": "484880",
+  "cap_type": "top_n",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": 0.2,
+  "rest_cap": 0.05,
+  "months": [
+   4,
+   10
+  ],
+  "schedule": "연2회, 3·9월말 종목선정 → 4·10월 선물옵션 만기일 D+2 정기변경. 금융지주 유니버스 20%, 일반 금융 유니버스 5% 상한(+정기변경 25% 실링, 30%→25% 수시변경)",
+  "source": "FnGuide_Financial_Group_Plus_High_Dividend_Index_PR_Methodology_Book_(20240430)_v1.1.pdf | '예상배당금총액 가중 최대 비중 20% 제한, 금융 유니버스 종목은 5% 제한'; '3, 9월말 종목선정…4, 10월 선물옵션 만기일(D) 이후 2영업일째(D+2)에 정기변경'",
+  "confidence": "high"
+ },
+ "FnGuide 네트워크 인프라 지수": {
+  "index": "FnGuide 네트워크 인프라 지수",
+  "ticker": "367760",
+  "cap_type": "single",
+  "single_cap": 0.2,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "5·11월말 종목선정 → 6·12월 선물옵션 만기일 익주 첫 영업일 정기변경(연2회). 종목당 20% 상한",
+  "source": "FnGuide Network Infrastructure Index Methodology_Book_KB_(20251106)_v1.3.pdf | '매 개편 시 개별 종목의 비중은 최대 20%가 되도록 실링'; '5월, 11월 말 종목선정…6월, 12월 선물옵션 만기일 익주 첫 영업일에 정기변경'",
+  "confidence": "high"
+ },
+ "FnGuide 메타버스테마 지수": {
+  "index": "FnGuide 메타버스테마 지수",
+  "ticker": "400970",
+  "cap_type": "single",
+  "single_cap": 0.1,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "5·11월말 종목선정 → 6·12월 선물옵션 만기일 D+2 정기변경(연2회). 종목당 10% 상한",
+  "source": "FnGuide_Metaverse Theme_Index_Methodology_Book_미래에셋자산운용_(20210810)_v1.0.pdf | '종목별 비중이 모두 10% 이하가 되도록 실링'; '5, 11월 말 종목선정…6, 12월 선물옵션 만기일(D) 이후 2영업일째(D+2)에 정기변경' (주: K-메타버스 지수[MVS,8%]와 별개 지수)",
+  "confidence": "high"
+ },
+ "FnGuide 모멘텀 지수": {
+  "index": "FnGuide 모멘텀 지수",
+  "ticker": "147970",
+  "cap_type": "equal",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   1,
+   4,
+   7,
+   10
+  ],
+  "schedule": "동일가중(최소 10종목). 1·4·7·10월(연4회) 옵션 만기일 전주 목요일 종목선정, 만기 다음주 첫·둘째 영업일 정기변경",
+  "source": "FnGuide_Momentum_Index_Methodology_Book_미래_(20190701)_v2.4.pdf | 'FnGuide Momentum Index는 동일가중 방식으로 산출'; '1월, 4월, 7월, 10월(연 4회) 옵션 만기일 전주 목요일을 기준으로 종목선정, 옵션 만기일 다음 주 첫 영업일과 두번째 영업일에 걸쳐 정기변경'",
+  "confidence": "high"
+ },
+ "FnGuide 바이오 지수": {
+  "index": "FnGuide 바이오 지수",
+  "ticker": "244580",
+  "cap_type": "equal",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   3,
+   6,
+   9,
+   12
+  ],
+  "schedule": "동일가중. 5·11월말 종목선정; 3·6·9·12월 KOSPI200 옵션 만기일 다음주 첫 영업일부터 3영업일간 정기변경(3·9월은 편출입 없이 비중조절)",
+  "source": "FnGuide_Bio_Methodology_Book_삼성_(20240730)_v2.4.pdf | 'FnGuide 바이오 Index는 동일가중 방식으로 산출'; '5, 11월 마지막 영업일 종목선정, 3, 6, 9, 12월 KOSPI200 옵션 만기일 다음주 첫 영업일부터 3영업일간 정기변경'",
+  "confidence": "high"
+ },
+ "FnGuide 반도체 전공정 지수": {
+  "index": "FnGuide 반도체 전공정 지수",
+  "ticker": "475300",
+  "cap_type": "single",
+  "single_cap": 0.2,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "유동시총 가중. 5·11월말 종목선정 → 6·12월 선물옵션 만기일 D+2 정기변경(연2회). 종목당 20% 상한, 30%→25% 수시변경",
+  "source": "FnGuide_Semiconductor_Front-End_Process_Index_Methodology_Book_(20231130)_v1.1.pdf | '비중이 20%을 넘을 경우 최대 20%로 제한…모두 20% 이하가 되도록 실링'; '6, 12월 선물옵션 만기일(D) 이후 2영업일째(D+2)에 정기변경'",
+  "confidence": "high"
+ },
+ "FnGuide 반도체 핵심공정 지수": {
+  "index": "FnGuide 반도체 핵심공정 지수",
+  "ticker": "476260",
+  "cap_type": "single",
+  "single_cap": 0.15,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   3,
+   6,
+   9,
+   12
+  ],
+  "schedule": "코어 상위5종목 60%·나머지 40% 할당 후 종목당 15% 상한(실링). 3·6·9·12월 옵션 만기일 D+2 정기변경(분기). (방법론서 정식명 'FnGuide 반도체 핵심 공정 주도주 지수')",
+  "source": "FnGuide_Semiconductor_Core_Process_Tech_Leaders_Index_Methodology_Book_(20231031)_v1.1.pdf | '코어 상위 5개 종목에 60%, 나머지 종목에 40% 할당…비중이 15%을 넘을 경우 15%로 제한'; '3, 6, 9, 12월 옵션 만기일(D) 이후 2영업일째(D+2)에 정기변경'",
+  "confidence": "high"
+ },
+ "FnGuide 반도체 후공정 지수": {
+  "index": "FnGuide 반도체 후공정 지수",
+  "ticker": "475310",
+  "cap_type": "single",
+  "single_cap": 0.2,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "유동시총 가중. 5·11월말 종목선정 → 6·12월 선물옵션 만기일 D+2 정기변경(연2회). 종목당 20% 상한, 30%→25% 수시변경",
+  "source": "FnGuide_Semiconductor_Back-End_Process_Index_Methodology_Book_(20231130)_v1.1.pdf | '비중이 20%을 넘을 경우 최대 20%로 제한…모두 20% 이하가 되도록 실링'; '6, 12월 선물옵션 만기일(D) 이후 2영업일째(D+2)에 정기변경'",
+  "confidence": "high"
+ },
+ "FnGuide IT플러스 지수": {
+  "index": "FnGuide IT플러스 지수",
+  "ticker": "326240",
+  "cap_type": "top_n",
+  "single_cap": null,
+  "top_n": 1,
+  "top_cap": 0.25,
+  "rest_cap": 0.1,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "유동시총 가중. 5·11월말 종목선정 → 6·12월 선물옵션 만기 익주 첫 영업일 정기변경(연2회). 한 종목 25% 초과 시 최상위 25%·차상위부터 10% 실링",
+  "source": "FnGuide_IT PLUS_Index_Methodology_Book_KB_(20190701)_v1.3.pdf | '한 종목의 비중이 25%가 넘는 경우 최상위 종목은 25% 실링, 차상위 종목부터는 10% 실링'; '5, 11월말 종목선정…6, 12월 선물옵션 만기일 익주 첫 영업일에 정기변경'",
+  "confidence": "high"
+ },
+ "FnGuide 성장 지수": {
+  "index": "FnGuide 성장 지수",
+  "ticker": "325010",
+  "cap_type": "single",
+  "single_cap": 0.1,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "5·11월말 선정, 6·12월 선물옵션 만기일 익주 첫 영업일 정기변경(스타일 지수)",
+  "source": "FnGuide Value&Growth Index Methodology Book v1.2: 비중 10% 초과 종목 Ceiling; 6·12월 익주 첫 영업일 정기변경",
+  "confidence": "med"
+ },
+ "FnGuide 소프트웨어 지수": {
+  "index": "FnGuide 소프트웨어 지수",
+  "ticker": "157490",
+  "cap_type": "single",
+  "single_cap": 0.25,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "6·12월 선물옵션 만기주 다음주 첫 영업일 정기변경(섹터 커버리지 시리즈)",
+  "source": "FnGuide Sector Coverage Index Series Methodology v2.3: 25% 초과 시 25% 제한; 6·12월 정기변경",
+  "confidence": "high"
+ },
+ "FnGuide 수소 경제 테마 지수": {
+  "index": "FnGuide 수소 경제 테마 지수",
+  "ticker": "367770",
+  "cap_type": "single",
+  "single_cap": 0.15,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "5·11월말 선정, 6·12월 선물옵션 만기일 익주 첫 영업일 정기변경",
+  "source": "FnGuide Hydrogen Economy Theme Index Methodology v1.1: 개별종목 최대 15% 실링; 6·12월 정기변경",
+  "confidence": "high"
+ },
+ "FnGuide 신재생에너지 지수": {
+  "index": "FnGuide 신재생에너지 지수",
+  "ticker": "377990",
+  "cap_type": "single",
+  "single_cap": 0.1,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "5·11월말 선정, 6·12월 선물옵션 만기일 익주 첫 영업일 정기변경",
+  "source": "FnGuide Renewable Energy Index Methodology v1.2: 10% 실링; 6·12월 정기변경",
+  "confidence": "high"
+ },
+ "FnGuide 은행고배당플러스TOP10 지수": {
+  "index": "FnGuide 은행고배당플러스TOP10 지수",
+  "ticker": "466940",
+  "cap_type": "single",
+  "single_cap": 0.15,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "배당가중; 상업은행 15%·보험/증권 5% 상한. 5·11월말 선정, 6·12월 만기일 D+2 정기변경",
+  "source": "FnGuide Bank High Dividend Plus TOP10 Index Methodology v1.2: 상업은행 15%/보험·증권 5% 제한; 6·12월 D+2",
+  "confidence": "high"
+ },
+ "FnGuide 자동차TOP3플러스 지수": {
+  "index": "FnGuide 자동차TOP3플러스 지수",
+  "ticker": "466930",
+  "cap_type": "top_n",
+  "single_cap": null,
+  "top_n": 3,
+  "top_cap": 0.25,
+  "rest_cap": 0.1,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "자동차 TOP3 각 25%, 플러스 10종목 각 10%. 5·11월말 선정, 6·12월 만기일 D+2 정기변경",
+  "source": "FnGuide Automobile TOP3 Plus Index Methodology v2.0: TOP3 25%·플러스 10% 제한; 6·12월 D+2",
+  "confidence": "high"
+ },
+ "FnGuide 전고체배터리&실리콘음극재 지수": {
+  "index": "FnGuide 전고체배터리&실리콘음극재 지수",
+  "ticker": "0005D0",
+  "cap_type": "single",
+  "single_cap": 0.2,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   3,
+   6,
+   9,
+   12
+  ],
+  "schedule": "분기 리밸런싱. 3·6·9·12월 만기일 D+2 정기변경(수시 25% 상한)",
+  "source": "FnGuide All-Solid-State Battery & Silicon Anode Index Methodology v1.1: 20% 실링; 3·6·9·12월 D+2",
+  "confidence": "high"
+ },
+ "FnGuide 조선기자재 지수": {
+  "index": "FnGuide 조선기자재 지수",
+  "ticker": "0141S0",
+  "cap_type": "single",
+  "single_cap": 0.2,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   2,
+   5,
+   8,
+   11
+  ],
+  "schedule": "1·4·7·10월말 선정, 2·5·8·11월 만기일 D+2 정기변경",
+  "source": "FnGuide Shipbuilding Equipment Index Methodology v1.0: 20% 실링; 2·5·8·11월 D+2",
+  "confidence": "high"
+ },
+ "FnGuide 조선해운 지수": {
+  "index": "FnGuide 조선해운 지수",
+  "ticker": "441540",
+  "cap_type": "single",
+  "single_cap": 0.15,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "5·11월말 선정, 6·12월 만기일 D+4/D+5 정기변경",
+  "source": "FnGuide Shipbuilding & Shipping Sector Index Methodology v1.2: 15% 제한; 6·12월 D+4/D+5",
+  "confidence": "high"
+ },
+ "FnGuide 증권 고배당 TOP3 플러스 지수": {
+  "index": "FnGuide 증권 고배당 TOP3 플러스 지수",
+  "ticker": "0111J0",
+  "cap_type": "top_n",
+  "single_cap": null,
+  "top_n": 3,
+  "top_cap": 0.2,
+  "rest_cap": 0.15,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "시총 상위 3종목 각 20% 고정, 나머지 7종목 각 15%. 5·11월말 선정, 6·12월 만기일 D+2 정기변경",
+  "source": "FnGuide High Dividend Securities TOP3 Plus Index Methodology v1.1: TOP3 20%·나머지 15%; 6·12월 D+2",
+  "confidence": "high"
+ },
+ "FnGuide 증권 지수": {
+  "index": "FnGuide 증권 지수",
+  "ticker": "157500",
+  "cap_type": "single",
+  "single_cap": 0.25,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "6·12월 선물옵션 만기주 다음주 첫 영업일 정기변경(섹터 커버리지 시리즈)",
+  "source": "FnGuide Sector Coverage Index Series Methodology v2.3: 25% 초과 시 25% 제한; 6·12월 정기변경",
+  "confidence": "high"
+ },
+ "FnGuide 지주회사 지수": {
+  "index": "FnGuide 지주회사 지수",
+  "ticker": "307520",
+  "cap_type": "single",
+  "single_cap": 0.08,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   2,
+   8
+  ],
+  "schedule": "1·7월말 평가 선정, 2·8월 만기일 다음주 첫 영업일 정기변경(반기)",
+  "source": "FnGuide Holdings Company Methodology v2.1: 8% 재조정; 2·8월 정기변경",
+  "confidence": "high"
+ },
+ "FnGuide 코리아 고배당 지수": {
+  "index": "FnGuide 코리아 고배당 지수",
+  "ticker": "0105E0",
+  "cap_type": "single",
+  "single_cap": 0.05,
+  "top_n": null,
+  "top_cap": 0.07,
+  "rest_cap": null,
+  "months": [
+   5,
+   11
+  ],
+  "schedule": "기본 상한 5%, 조건 충족 시 최대 7%. 4·10월말 선정, 5·11월 만기일 D+2 정기변경",
+  "source": "FnGuide KOREA High Dividend Methodology v1.3: 5%(최대 7%) 상한; 5·11월 D+2",
+  "confidence": "high"
+ },
+ "FnGuide 코리아AI테크핵심산업 지수": {
+  "index": "FnGuide 코리아AI테크핵심산업 지수",
+  "ticker": "380340",
+  "cap_type": "single",
+  "single_cap": 0.2,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "개별 20%, 반도체·관련장비 합산 15%. 5·11월말 선정, 6·12월 만기일 D+2 정기변경",
+  "source": "FnGuide Korea AI Tech Core Industry Index Methodology v1.0: 20%/반도체 15% 제한; 6·12월 D+2",
+  "confidence": "high"
+ },
+ "FnGuide 태양광 & ESS 지수": {
+  "index": "FnGuide 태양광 & ESS 지수",
+  "ticker": "457990",
+  "cap_type": "single",
+  "single_cap": 0.1,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "개별종목 10% 제한. 5·11월말 선정, 6·12월 만기일 D+2 정기변경",
+  "source": "FnGuide Solar & ESS Index Methodology v1.1: 10% 제한; 6·12월 D+2",
+  "confidence": "high"
+ },
+ "FnGuide 포스코그룹포커스 지수": {
+  "index": "FnGuide 포스코그룹포커스 지수",
+  "ticker": "469170",
+  "cap_type": "top_n",
+  "single_cap": null,
+  "top_n": 3,
+  "top_cap": 0.25,
+  "rest_cap": null,
+  "months": [
+   3,
+   6,
+   9,
+   12
+  ],
+  "schedule": "포스코 유니버스 상위 3종목 25% 블록 + 나머지 20% 유동시총가중; 개별 수시상한 25%. 6·12월 정기개편 + 3·9월 비중개편",
+  "source": "FnGuide POSCO Group Focus Index Methodology v2.4: TOP3 25% 블록; 6·12월 개편·3·9월 비중개편",
+  "confidence": "med"
+ },
+ "FnGuide 한국원자력 SMR 지수": {
+  "index": "FnGuide 한국원자력 SMR 지수",
+  "ticker": "0092B0",
+  "cap_type": "single",
+  "single_cap": 0.2,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "공기업·사기업 각 최대 20% 제한. 5·11월말 선정, 6·12월 만기일 D+2 정기변경",
+  "source": "FnGuide KOREA NuclearPower SMR Index Methodology v1.0: 20% 제한; 6·12월 D+2",
+  "confidence": "high"
+ },
+ "FnGuide 한화그룹주 지수": {
+  "index": "FnGuide 한화그룹주 지수",
+  "ticker": "0000J0",
+  "cap_type": "single",
+  "single_cap": 0.2,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "개별종목 최대 20%(계열 지분보유 종목 3%). 5·11월말 선정, 6·12월 만기일 D+2 정기변경",
+  "source": "FnGuide HANWHA Group Index Methodology v1.0: 20%(계열 3%) 제한; 6·12월 D+2",
+  "confidence": "high"
+ },
+ "FnGuide 화장품TOP3 플러스 지수": {
+  "index": "FnGuide 화장품TOP3 플러스 지수",
+  "ticker": "0008T0",
+  "cap_type": "top_n",
+  "single_cap": null,
+  "top_n": 3,
+  "top_cap": 0.2,
+  "rest_cap": 0.07,
+  "months": [
+   1,
+   4,
+   7,
+   10
+  ],
+  "schedule": "화장품 TOP3 각 20% 고정, 플러스 종목 각 7%. 3·6·9·12월말 선정, 1·4·7·10월 만기일 D+2 정기변경",
+  "source": "FnGuide Cosmetics TOP3 Plus Index Methodology v1.3: TOP3 20%·플러스 7%; 1·4·7·10월 D+2",
+  "confidence": "high"
+ },
+ "KRX 2차전지 TOP 10 지수": {
+  "index": "KRX 2차전지 TOP 10 지수",
+  "ticker": "364980",
+  "cap_type": "top_n",
+  "single_cap": 0.25,
+  "top_n": 3,
+  "top_cap": 0.25,
+  "rest_cap": null,
+  "months": [
+   3,
+   9
+  ],
+  "schedule": "반기 정기변경(3월·9월 선물옵션 만기일 익영업일). K-뉴딜 TOP10 방식: 시총 상위 3종목 각 25%(합75%) 고정, 나머지 7종목 유동시총가중으로 25% 배분. 개별종목 Cap 25%.",
+  "source": "KRX K-뉴딜지수 산출방식; 삼성증권 [ETFun] ETF리밸런싱표(2026-06-10): 'KRX 2차전지 TOP 10 | 정기변경일 3/9 D+1 | 종목Cap 25%'",
+  "confidence": "high"
+ },
+ "KRX BBIG 지수": {
+  "index": "KRX BBIG 지수",
+  "ticker": "364960",
+  "cap_type": "equal",
+  "single_cap": 0.0833,
+  "top_n": 12,
+  "top_cap": 0.0833,
+  "rest_cap": 0.0833,
+  "months": [
+   3,
+   9
+  ],
+  "schedule": "반기 정기변경(3월·9월 선물옵션 만기일 익영업일). 4개 산업군(2차전지·바이오·인터넷·게임) 각 시총 상위 3종목=12종목, 각 종목 1/12(약8.33%) 동일가중.",
+  "source": "KRX K-뉴딜지수 보도자료; 검색확인 '12개 종목 각 1/12 동일가중, 정기변경 연2회(3·9월 선물옵션만기 익영업일)'",
+  "confidence": "high"
+ },
+ "KRX ESG 사회책임경영지수(S)": {
+  "index": "KRX ESG 사회책임경영지수(S)",
+  "ticker": "290130",
+  "cap_type": "none",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6
+  ],
+  "schedule": "ESG 사회(S) 등급 상위 최소 130종목을 유동시가총액 가중으로 구성. 단일종목 상한 없음(복제). ESG평가 기반 연1회 정기변경(6월) 추정.",
+  "source": "RISE ESG사회책임투자(290130) 상품페이지: '최소 130종목, 유동시가총액가중방식'; TOP10에 SK하이닉스 31.61%·삼성전자 27.87%로 캡 없음 확인. 정기변경월은 미검증(연1회 ESG평가 반영 추정).",
+  "confidence": "low"
+ },
+ "KRX K-AI 반도체TOP2+ 지수": {
+  "index": "KRX K-AI 반도체TOP2+ 지수",
+  "ticker": "0210A0",
+  "cap_type": "top_n",
+  "single_cap": 0.25,
+  "top_n": 2,
+  "top_cap": 0.25,
+  "rest_cap": null,
+  "months": null,
+  "schedule": "총 10종목. 반도체 시총 상위 2종목(삼성전자·SK하이닉스) 각 25% 고정(합50%), 나머지 50%는 LLM 키워드 점수 상위 8종목에 배분. 정기변경월 미확정.",
+  "source": "newspim.com/20260619000917, core.asiae.co.kr: '시총 상위 2종목에 각 25% 고정, 나머지 50%는 키워드 점수 상위 8종목'",
+  "confidence": "low"
+ },
+ "KRX K콘텐츠": {
+  "index": "KRX K콘텐츠",
+  "ticker": "266360",
+  "cap_type": "none",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "GICS 미디어&엔터테인먼트 섹터 종목을 유동시가총액 가중으로 구성. 단일종목 상한 없음. KRX 정기변경 프레임워크상 반기(6·12월) 추정.",
+  "source": "FunETF KODEX K콘텐츠(266360): 'GICS 산업분류상 미디어&엔터테인먼트 섹터… 유동시가총액 가중방식으로 구성한 지수'",
+  "confidence": "med"
+ },
+ "KRX 건설": {
+  "index": "KRX 건설",
+  "ticker": "117700",
+  "cap_type": "none",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "건설 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음(복제). 반기 정기변경(6·12월, KRX 프레임워크).",
+  "source": "KRX 섹터지수 공통 방법론(유동시총가중, 단일종목 캡 없음); KRX 지수 정기변경 프레임워크 6/12월(KRX300 방법론서 확인)",
+  "confidence": "med"
+ },
+ "KRX 바이오 TOP 10 지수": {
+  "index": "KRX 바이오 TOP 10 지수",
+  "ticker": "364970",
+  "cap_type": "top_n",
+  "single_cap": 0.25,
+  "top_n": 3,
+  "top_cap": 0.25,
+  "rest_cap": null,
+  "months": [
+   3,
+   9
+  ],
+  "schedule": "반기 정기변경(3월·9월). K-뉴딜 TOP10 공통방식: 시총 상위 3종목 각 25%(합75%) 고정, 나머지 7종목 유동시총가중 25% 배분. 개별종목 Cap 25%.",
+  "source": "KRX K-뉴딜지수 TOP10 패밀리 공통 산출방식(2차전지/바이오/인터넷 동일); KRX K-뉴딜 정기변경 3·9월",
+  "confidence": "high"
+ },
+ "KRX 보험": {
+  "index": "KRX 보험",
+  "ticker": "140700",
+  "cap_type": "none",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "보험 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
+  "source": "KRX 섹터지수 공통 방법론(유동시총가중, 캡 없음); KRX 정기변경 프레임워크 6/12월",
+  "confidence": "med"
+ },
+ "KRX 은행": {
+  "index": "KRX 은행",
+  "ticker": "091170",
+  "cap_type": "none",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "은행 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
+  "source": "KRX 섹터지수 공통 방법론(유동시총가중, 캡 없음); KRX 정기변경 프레임워크 6/12월",
+  "confidence": "med"
+ },
+ "KRX 인터넷 TOP 10 지수": {
+  "index": "KRX 인터넷 TOP 10 지수",
+  "ticker": "365000",
+  "cap_type": "top_n",
+  "single_cap": 0.25,
+  "top_n": 3,
+  "top_cap": 0.25,
+  "rest_cap": null,
+  "months": [
+   3,
+   9
+  ],
+  "schedule": "반기 정기변경(3월·9월). K-뉴딜 TOP10 공통방식: 시총 상위 3종목 각 25%(합75%) 고정, 나머지 7종목 유동시총가중 25% 배분. 개별종목 Cap 25%.",
+  "source": "KRX K-뉴딜지수 TOP10 패밀리 공통 산출방식; KRX K-뉴딜 정기변경 3·9월",
+  "confidence": "high"
+ },
+ "KRX 자동차": {
+  "index": "KRX 자동차",
+  "ticker": "091180",
+  "cap_type": "none",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "자동차 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
+  "source": "KRX 섹터지수 공통 방법론(유동시총가중, 캡 없음); KRX 정기변경 프레임워크 6/12월",
+  "confidence": "med"
+ },
+ "KRX 정보기술": {
+  "index": "KRX 정보기술",
+  "ticker": "266370",
+  "cap_type": "none",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "GICS 정보기술 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
+  "source": "FunETF KODEX IT(266370): 'KRX 정보기술 지수는 GICS 산업분류에 따라 정보기술 섹터 종목들을 유동시가총액 가중방식으로 구성한 지수'",
+  "confidence": "med"
+ },
+ "KRX 조선 TOP10": {
+  "index": "KRX 조선 TOP10",
+  "ticker": "0115D0",
+  "cap_type": "single",
+  "single_cap": 0.22,
+  "top_n": 10,
+  "top_cap": 0.22,
+  "rest_cap": null,
+  "months": null,
+  "schedule": "총 10종목(KRX K조선TOP10). 한국거래소 발표·Akros 산출, LLM 키워드(조선/MASGA/선박엔진) 스코어로 선정. 조선 빅4 비중 80%+. 개별종목 최대 비중 22%. 정기변경월 미확정.",
+  "source": "roadranger7.com KODEX K조선TOP10 분석: '※ 개별 종목 최대 비중은 22%로 제한됩니다'; funetf KODEX 조선TOP10(0115D0) '기초지수 KRX 조선 TOP10 지수'",
+  "confidence": "med"
+ },
+ "KRX 증권": {
+  "index": "KRX 증권",
+  "ticker": "102970",
+  "cap_type": "none",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "증권 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
+  "source": "KRX 섹터지수 공통 방법론(유동시총가중, 캡 없음); KRX 정기변경 프레임워크 6/12월",
+  "confidence": "med"
+ },
+ "KRX 코리아 소버린 AI 지수": {
+  "index": "KRX 코리아 소버린 AI 지수",
+  "ticker": "0115E0",
+  "cap_type": "single",
+  "single_cap": null,
+  "top_n": 27,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": null,
+  "schedule": "약 27종목. Akros Technologies LLM으로 AI 4개 키워드(AI소프트웨어·AI인프라·AI반도체·AI에너지) 연관도 산출 + 지수자문위 심사. 개별 Cap·정기변경월 미확정(자매 AI전력인프라 지수는 분기·Cap15%).",
+  "source": "core.asiae.co.kr/20250905: 'KRX 소버린 AI 지수: 27개 종목'",
+  "confidence": "low"
+ },
+ "KRX 헬스케어": {
+  "index": "KRX 헬스케어",
+  "ticker": "143860",
+  "cap_type": "none",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "헬스케어 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
+  "source": "KRX 섹터지수 공통 방법론(유동시총가중, 캡 없음); KRX 정기변경 프레임워크 6/12월",
+  "confidence": "med"
+ },
+ "KRX-Akros AI 전력인프라 지수": {
+  "index": "KRX-Akros AI 전력인프라 지수",
+  "ticker": "0101N0",
+  "cap_type": "single",
+  "single_cap": 0.15,
+  "top_n": 15,
+  "top_cap": 0.15,
+  "rest_cap": 0.15,
+  "months": [
+   3,
+   6,
+   9,
+   12
+  ],
+  "schedule": "분기 정기변경(3·6·9·12월, 선물만기 D+10 리밸런싱). 전력인프라 유니버스에서 LLM 키워드 스코어 상위 15종목. 개별종목 편입한도(Cap) 15%.",
+  "source": "삼성증권 [ETFun] 표(2026-06-10): 'RISE AI전력인프라 | KRX-Akros AI 전력인프라 지수 | 정기변경일 3/6/9/12 D+10 | 종목Cap 15%'; riseetf.co.kr(Cap 15%)",
+  "confidence": "high"
+ },
+ "KRX-Akros 고배당주 20 지수": {
+  "index": "KRX-Akros 고배당주 20 지수",
+  "ticker": "0139P0",
+  "cap_type": "single",
+  "single_cap": 0.1,
+  "top_n": 20,
+  "top_cap": 0.1,
+  "rest_cap": 0.1,
+  "months": [
+   4,
+   10
+  ],
+  "schedule": "반기 정기변경(연2회, 4월·10월). 시장대표성·유동성·배당수익률·배당성향·ROE 종합해 20종목 선정, 배당락 회복률 하위 10% 제외. 예상배당수익률 가중방식, 개별종목 최대 비중(Cap) 10%.",
+  "source": "KRX 고배당주20 방법론(검색 교차확인): '연 2회(4월·10월) 정기변경, 예상배당수익률 가중방식, Cap Rate 10%, 20종목, 배당락 회복률 하위10% 제외'",
+  "confidence": "high"
+ },
+ "KRX CSI 한·중 반도체지수": {
+  "index": "KRX CSI 한·중 반도체지수",
+  "ticker": "449690",
+  "cap_type": "none",
+  "single_cap": null,
+  "top_n": 30,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "한·중 공동개발 합성지수: KRX 산출 한국 15종목 + CSI 산출 중국 15종목을 50:50 동일결합(총 30종목). 해외혼합형(중국 편입) — 대시보드 복제 부적합 가능. 개별 Cap 미확정(삼성전자 15.44%로 명시적 캡 근거 약함), CSI 관행상 반기 정기변경(6·12월) 추정.",
+  "source": "funetf/대한뉴스: 'KRX·CSI가 자국기업 각 15종목 산출 후 50:50 동일결합'; 구성 삼성전자 15.44%·SK하이닉스 8.74%",
+  "confidence": "low"
+ },
+ "WISE 2차전지 테마 지수": {
+  "index": "WISE 2차전지 테마 지수",
+  "ticker": "305540",
+  "cap_type": "top_n",
+  "single_cap": 0.15,
+  "top_n": 4,
+  "top_cap": 0.15,
+  "rest_cap": 0.15,
+  "months": [
+   1,
+   4,
+   7,
+   10
+  ],
+  "schedule": "연4회 정기변경(1·4·7·10월 옵션 만기일 익일). 시총 상위 4종목 각 15% 고정, 그 외 종목 단순시총가중, 개별종목 15% 실링.",
+  "source": "WISEfn/FnGuide 방법론 PDF: '시가총액 상위 4종목의 편입 비중을 15%로 적용… 특정 종목 비중이 15% 초과 시 15%로 제한' / '매 1,4,7,10월 옵션 만기일 익일 정기변경'",
+  "confidence": "high"
+ },
+ "WISE 대형고배당10 TR 지수": {
+  "index": "WISE 대형고배당10 TR 지수",
+  "ticker": "315960",
+  "cap_type": "single",
+  "single_cap": 0.25,
+  "top_n": 10,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   5
+  ],
+  "schedule": "연1회 정기변경(5월 선물옵션 만기일 익주 두번째 영업일). [유동시총×현금배당총액] 스코어 상위 10종목, 스코어 비중방식, 개별종목 25% 캡.",
+  "source": "WISEfn/FnGuide 방법론 PDF: '상위 10종목을 스코어 비중방식으로 산출… 상한 초과 종목에 25% 캡 적용' / '정기변경은 5월 선물옵션 만기일 익주 두번째 영업일'",
+  "confidence": "high"
+ },
+ "WISE 미디어컨텐츠 지수": {
+  "index": "WISE 미디어컨텐츠 지수",
+  "ticker": "228810",
+  "cap_type": "single",
+  "single_cap": 0.1,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   1,
+   4,
+   7,
+   10
+  ],
+  "schedule": "연4회 정기변경(1·4·7·10월 옵션 만기일 익일). 개별종목 최대 10% 실링.",
+  "source": "WISEfn/FnGuide 방법론 PDF: '각 종목 별로 최대 10%의 실링을 적용' / '매 1,4,7,10월 옵션 만기일 익일 정기변경'",
+  "confidence": "high"
+ },
+ "WISE 삼성그룹 밸류 인덱스": {
+  "index": "WISE 삼성그룹 밸류 인덱스",
+  "ticker": "213610",
+  "cap_type": "single",
+  "single_cap": 0.25,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   3,
+   6,
+   9,
+   12
+  ],
+  "schedule": "연4회 정기변경(3·6·9·12월 주가지수 선물옵션 만기일). 내재가치(Fundamental value) 반영 시가총액가중, 편입비중 상한(Ceiling) 25%.",
+  "source": "WISEfn/FnGuide 방법론 PDF: '편입비중상한제한(Ceiling) 방식… 상한가중치는 25% 적용' / '연 4회 정기변경… 매년 3,6,9,12월 주가선물옵션 만기일'",
+  "confidence": "high"
+ },
+ "WISE 여행레저 지수": {
+  "index": "WISE 여행레저 지수",
+  "ticker": "228800",
+  "cap_type": "single",
+  "single_cap": 0.1,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   1,
+   4,
+   7,
+   10
+  ],
+  "schedule": "연4회 정기변경(1·4·7·10월 옵션 만기일 익일). 개별종목 최대 10% 실링.",
+  "source": "WISEfn/FnGuide 방법론 PDF: '각 종목 별로 최대 10%의 실링을 적용' / '매 1,4,7,10월 옵션 만기일 익일 정기변경'",
+  "confidence": "high"
+ },
+ "WISE 화장품 지수": {
+  "index": "WISE 화장품 지수",
+  "ticker": "228790",
+  "cap_type": "single",
+  "single_cap": 0.1,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   1,
+   4,
+   7,
+   10
+  ],
+  "schedule": "연4회 정기변경(1·4·7·10월 옵션 만기일 익일). 개별종목 최대 10% 실링(지수채용비중 상한 10%).",
+  "source": "WISEfn/FnGuide 방법론 PDF: '각 종목 별로 최대 10%의 실링을 적용' / '매 1,4,7,10월 옵션 만기일 익일 정기변경'",
+  "confidence": "high"
+ }
+}

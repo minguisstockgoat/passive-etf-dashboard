@@ -1,0 +1,403 @@
+{
+ "KRX 2차전지 TOP 10 지수": {
+  "index": "KRX 2차전지 TOP 10 지수",
+  "ticker": "364980",
+  "cap_type": "top_n",
+  "single_cap": 0.25,
+  "top_n": 3,
+  "top_cap": 0.25,
+  "rest_cap": null,
+  "months": [
+   3,
+   9
+  ],
+  "schedule": "반기 정기변경(3월·9월 선물옵션 만기일 익영업일). K-뉴딜 TOP10 방식: 시총 상위 3종목 각 25%(합75%) 고정, 나머지 7종목 유동시총가중으로 25% 배분. 개별종목 Cap 25%.",
+  "source": "KRX K-뉴딜지수 산출방식; 삼성증권 [ETFun] ETF리밸런싱표(2026-06-10): 'KRX 2차전지 TOP 10 | 정기변경일 3/9 D+1 | 종목Cap 25%'",
+  "confidence": "high"
+ },
+ "KRX BBIG 지수": {
+  "index": "KRX BBIG 지수",
+  "ticker": "364960",
+  "cap_type": "equal",
+  "single_cap": 0.0833,
+  "top_n": 12,
+  "top_cap": 0.0833,
+  "rest_cap": 0.0833,
+  "months": [
+   3,
+   9
+  ],
+  "schedule": "반기 정기변경(3월·9월 선물옵션 만기일 익영업일). 4개 산업군(2차전지·바이오·인터넷·게임) 각 시총 상위 3종목=12종목, 각 종목 1/12(약8.33%) 동일가중.",
+  "source": "KRX K-뉴딜지수 보도자료; 검색확인 '12개 종목 각 1/12 동일가중, 정기변경 연2회(3·9월 선물옵션만기 익영업일)'",
+  "confidence": "high"
+ },
+ "KRX ESG 사회책임경영지수(S)": {
+  "index": "KRX ESG 사회책임경영지수(S)",
+  "ticker": "290130",
+  "cap_type": "none",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6
+  ],
+  "schedule": "ESG 사회(S) 등급 상위 최소 130종목을 유동시가총액 가중으로 구성. 단일종목 상한 없음(복제). ESG평가 기반 연1회 정기변경(6월) 추정.",
+  "source": "RISE ESG사회책임투자(290130) 상품페이지: '최소 130종목, 유동시가총액가중방식'; TOP10에 SK하이닉스 31.61%·삼성전자 27.87%로 캡 없음 확인. 정기변경월은 미검증(연1회 ESG평가 반영 추정).",
+  "confidence": "low"
+ },
+ "KRX K-AI 반도체TOP2+ 지수": {
+  "index": "KRX K-AI 반도체TOP2+ 지수",
+  "ticker": "0210A0",
+  "cap_type": "top_n",
+  "single_cap": 0.25,
+  "top_n": 2,
+  "top_cap": 0.25,
+  "rest_cap": null,
+  "months": null,
+  "schedule": "총 10종목. 반도체 시총 상위 2종목(삼성전자·SK하이닉스) 각 25% 고정(합50%), 나머지 50%는 LLM 키워드 점수 상위 8종목에 배분. 정기변경월 미확정.",
+  "source": "newspim.com/20260619000917, core.asiae.co.kr: '시총 상위 2종목에 각 25% 고정, 나머지 50%는 키워드 점수 상위 8종목'",
+  "confidence": "low"
+ },
+ "KRX K콘텐츠": {
+  "index": "KRX K콘텐츠",
+  "ticker": "266360",
+  "cap_type": "none",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "GICS 미디어&엔터테인먼트 섹터 종목을 유동시가총액 가중으로 구성. 단일종목 상한 없음. KRX 정기변경 프레임워크상 반기(6·12월) 추정.",
+  "source": "FunETF KODEX K콘텐츠(266360): 'GICS 산업분류상 미디어&엔터테인먼트 섹터… 유동시가총액 가중방식으로 구성한 지수'",
+  "confidence": "med"
+ },
+ "KRX 건설": {
+  "index": "KRX 건설",
+  "ticker": "117700",
+  "cap_type": "none",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "건설 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음(복제). 반기 정기변경(6·12월, KRX 프레임워크).",
+  "source": "KRX 섹터지수 공통 방법론(유동시총가중, 단일종목 캡 없음); KRX 지수 정기변경 프레임워크 6/12월(KRX300 방법론서 확인)",
+  "confidence": "med"
+ },
+ "KRX 바이오 TOP 10 지수": {
+  "index": "KRX 바이오 TOP 10 지수",
+  "ticker": "364970",
+  "cap_type": "top_n",
+  "single_cap": 0.25,
+  "top_n": 3,
+  "top_cap": 0.25,
+  "rest_cap": null,
+  "months": [
+   3,
+   9
+  ],
+  "schedule": "반기 정기변경(3월·9월). K-뉴딜 TOP10 공통방식: 시총 상위 3종목 각 25%(합75%) 고정, 나머지 7종목 유동시총가중 25% 배분. 개별종목 Cap 25%.",
+  "source": "KRX K-뉴딜지수 TOP10 패밀리 공통 산출방식(2차전지/바이오/인터넷 동일); KRX K-뉴딜 정기변경 3·9월",
+  "confidence": "high"
+ },
+ "KRX 보험": {
+  "index": "KRX 보험",
+  "ticker": "140700",
+  "cap_type": "none",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "보험 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
+  "source": "KRX 섹터지수 공통 방법론(유동시총가중, 캡 없음); KRX 정기변경 프레임워크 6/12월",
+  "confidence": "med"
+ },
+ "KRX 은행": {
+  "index": "KRX 은행",
+  "ticker": "091170",
+  "cap_type": "none",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "은행 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
+  "source": "KRX 섹터지수 공통 방법론(유동시총가중, 캡 없음); KRX 정기변경 프레임워크 6/12월",
+  "confidence": "med"
+ },
+ "KRX 인터넷 TOP 10 지수": {
+  "index": "KRX 인터넷 TOP 10 지수",
+  "ticker": "365000",
+  "cap_type": "top_n",
+  "single_cap": 0.25,
+  "top_n": 3,
+  "top_cap": 0.25,
+  "rest_cap": null,
+  "months": [
+   3,
+   9
+  ],
+  "schedule": "반기 정기변경(3월·9월). K-뉴딜 TOP10 공통방식: 시총 상위 3종목 각 25%(합75%) 고정, 나머지 7종목 유동시총가중 25% 배분. 개별종목 Cap 25%.",
+  "source": "KRX K-뉴딜지수 TOP10 패밀리 공통 산출방식; KRX K-뉴딜 정기변경 3·9월",
+  "confidence": "high"
+ },
+ "KRX 자동차": {
+  "index": "KRX 자동차",
+  "ticker": "091180",
+  "cap_type": "none",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "자동차 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
+  "source": "KRX 섹터지수 공통 방법론(유동시총가중, 캡 없음); KRX 정기변경 프레임워크 6/12월",
+  "confidence": "med"
+ },
+ "KRX 정보기술": {
+  "index": "KRX 정보기술",
+  "ticker": "266370",
+  "cap_type": "none",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "GICS 정보기술 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
+  "source": "FunETF KODEX IT(266370): 'KRX 정보기술 지수는 GICS 산업분류에 따라 정보기술 섹터 종목들을 유동시가총액 가중방식으로 구성한 지수'",
+  "confidence": "med"
+ },
+ "KRX 조선 TOP10": {
+  "index": "KRX 조선 TOP10",
+  "ticker": "0115D0",
+  "cap_type": "single",
+  "single_cap": 0.22,
+  "top_n": 10,
+  "top_cap": 0.22,
+  "rest_cap": null,
+  "months": null,
+  "schedule": "총 10종목(KRX K조선TOP10). 한국거래소 발표·Akros 산출, LLM 키워드(조선/MASGA/선박엔진) 스코어로 선정. 조선 빅4 비중 80%+. 개별종목 최대 비중 22%. 정기변경월 미확정.",
+  "source": "roadranger7.com KODEX K조선TOP10 분석: '※ 개별 종목 최대 비중은 22%로 제한됩니다'; funetf KODEX 조선TOP10(0115D0) '기초지수 KRX 조선 TOP10 지수'",
+  "confidence": "med"
+ },
+ "KRX 증권": {
+  "index": "KRX 증권",
+  "ticker": "102970",
+  "cap_type": "none",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "증권 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
+  "source": "KRX 섹터지수 공통 방법론(유동시총가중, 캡 없음); KRX 정기변경 프레임워크 6/12월",
+  "confidence": "med"
+ },
+ "KRX 코리아 소버린 AI 지수": {
+  "index": "KRX 코리아 소버린 AI 지수",
+  "ticker": "0115E0",
+  "cap_type": "single",
+  "single_cap": null,
+  "top_n": 27,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": null,
+  "schedule": "약 27종목. Akros Technologies LLM으로 AI 4개 키워드(AI소프트웨어·AI인프라·AI반도체·AI에너지) 연관도 산출 + 지수자문위 심사. 개별 Cap·정기변경월 미확정(자매 AI전력인프라 지수는 분기·Cap15%).",
+  "source": "core.asiae.co.kr/20250905: 'KRX 소버린 AI 지수: 27개 종목'",
+  "confidence": "low"
+ },
+ "KRX 헬스케어": {
+  "index": "KRX 헬스케어",
+  "ticker": "143860",
+  "cap_type": "none",
+  "single_cap": null,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "헬스케어 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
+  "source": "KRX 섹터지수 공통 방법론(유동시총가중, 캡 없음); KRX 정기변경 프레임워크 6/12월",
+  "confidence": "med"
+ },
+ "KRX-Akros AI 전력인프라 지수": {
+  "index": "KRX-Akros AI 전력인프라 지수",
+  "ticker": "0101N0",
+  "cap_type": "single",
+  "single_cap": 0.15,
+  "top_n": 15,
+  "top_cap": 0.15,
+  "rest_cap": 0.15,
+  "months": [
+   3,
+   6,
+   9,
+   12
+  ],
+  "schedule": "분기 정기변경(3·6·9·12월, 선물만기 D+10 리밸런싱). 전력인프라 유니버스에서 LLM 키워드 스코어 상위 15종목. 개별종목 편입한도(Cap) 15%.",
+  "source": "삼성증권 [ETFun] 표(2026-06-10): 'RISE AI전력인프라 | KRX-Akros AI 전력인프라 지수 | 정기변경일 3/6/9/12 D+10 | 종목Cap 15%'; riseetf.co.kr(Cap 15%)",
+  "confidence": "high"
+ },
+ "KRX-Akros 고배당주 20 지수": {
+  "index": "KRX-Akros 고배당주 20 지수",
+  "ticker": "0139P0",
+  "cap_type": "single",
+  "single_cap": 0.1,
+  "top_n": 20,
+  "top_cap": 0.1,
+  "rest_cap": 0.1,
+  "months": [
+   4,
+   10
+  ],
+  "schedule": "반기 정기변경(연2회, 4월·10월). 시장대표성·유동성·배당수익률·배당성향·ROE 종합해 20종목 선정, 배당락 회복률 하위 10% 제외. 예상배당수익률 가중방식, 개별종목 최대 비중(Cap) 10%.",
+  "source": "KRX 고배당주20 방법론(검색 교차확인): '연 2회(4월·10월) 정기변경, 예상배당수익률 가중방식, Cap Rate 10%, 20종목, 배당락 회복률 하위10% 제외'",
+  "confidence": "high"
+ },
+ "KRX CSI 한·중 반도체지수": {
+  "index": "KRX CSI 한·중 반도체지수",
+  "ticker": "449690",
+  "cap_type": "none",
+  "single_cap": null,
+  "top_n": 30,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   6,
+   12
+  ],
+  "schedule": "한·중 공동개발 합성지수: KRX 산출 한국 15종목 + CSI 산출 중국 15종목을 50:50 동일결합(총 30종목). 해외혼합형(중국 편입) — 대시보드 복제 부적합 가능. 개별 Cap 미확정(삼성전자 15.44%로 명시적 캡 근거 약함), CSI 관행상 반기 정기변경(6·12월) 추정.",
+  "source": "funetf/대한뉴스: 'KRX·CSI가 자국기업 각 15종목 산출 후 50:50 동일결합'; 구성 삼성전자 15.44%·SK하이닉스 8.74%",
+  "confidence": "low"
+ },
+ "WISE 2차전지 테마 지수": {
+  "index": "WISE 2차전지 테마 지수",
+  "ticker": "305540",
+  "cap_type": "top_n",
+  "single_cap": 0.15,
+  "top_n": 4,
+  "top_cap": 0.15,
+  "rest_cap": 0.15,
+  "months": [
+   1,
+   4,
+   7,
+   10
+  ],
+  "schedule": "연4회 정기변경(1·4·7·10월 옵션 만기일 익일). 시총 상위 4종목 각 15% 고정, 그 외 종목 단순시총가중, 개별종목 15% 실링.",
+  "source": "WISEfn/FnGuide 방법론 PDF: '시가총액 상위 4종목의 편입 비중을 15%로 적용… 특정 종목 비중이 15% 초과 시 15%로 제한' / '매 1,4,7,10월 옵션 만기일 익일 정기변경'",
+  "confidence": "high"
+ },
+ "WISE 대형고배당10 TR 지수": {
+  "index": "WISE 대형고배당10 TR 지수",
+  "ticker": "315960",
+  "cap_type": "single",
+  "single_cap": 0.25,
+  "top_n": 10,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   5
+  ],
+  "schedule": "연1회 정기변경(5월 선물옵션 만기일 익주 두번째 영업일). [유동시총×현금배당총액] 스코어 상위 10종목, 스코어 비중방식, 개별종목 25% 캡.",
+  "source": "WISEfn/FnGuide 방법론 PDF: '상위 10종목을 스코어 비중방식으로 산출… 상한 초과 종목에 25% 캡 적용' / '정기변경은 5월 선물옵션 만기일 익주 두번째 영업일'",
+  "confidence": "high"
+ },
+ "WISE 미디어컨텐츠 지수": {
+  "index": "WISE 미디어컨텐츠 지수",
+  "ticker": "228810",
+  "cap_type": "single",
+  "single_cap": 0.1,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   1,
+   4,
+   7,
+   10
+  ],
+  "schedule": "연4회 정기변경(1·4·7·10월 옵션 만기일 익일). 개별종목 최대 10% 실링.",
+  "source": "WISEfn/FnGuide 방법론 PDF: '각 종목 별로 최대 10%의 실링을 적용' / '매 1,4,7,10월 옵션 만기일 익일 정기변경'",
+  "confidence": "high"
+ },
+ "WISE 삼성그룹 밸류 인덱스": {
+  "index": "WISE 삼성그룹 밸류 인덱스",
+  "ticker": "213610",
+  "cap_type": "single",
+  "single_cap": 0.25,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   3,
+   6,
+   9,
+   12
+  ],
+  "schedule": "연4회 정기변경(3·6·9·12월 주가지수 선물옵션 만기일). 내재가치(Fundamental value) 반영 시가총액가중, 편입비중 상한(Ceiling) 25%.",
+  "source": "WISEfn/FnGuide 방법론 PDF: '편입비중상한제한(Ceiling) 방식… 상한가중치는 25% 적용' / '연 4회 정기변경… 매년 3,6,9,12월 주가선물옵션 만기일'",
+  "confidence": "high"
+ },
+ "WISE 여행레저 지수": {
+  "index": "WISE 여행레저 지수",
+  "ticker": "228800",
+  "cap_type": "single",
+  "single_cap": 0.1,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   1,
+   4,
+   7,
+   10
+  ],
+  "schedule": "연4회 정기변경(1·4·7·10월 옵션 만기일 익일). 개별종목 최대 10% 실링.",
+  "source": "WISEfn/FnGuide 방법론 PDF: '각 종목 별로 최대 10%의 실링을 적용' / '매 1,4,7,10월 옵션 만기일 익일 정기변경'",
+  "confidence": "high"
+ },
+ "WISE 화장품 지수": {
+  "index": "WISE 화장품 지수",
+  "ticker": "228790",
+  "cap_type": "single",
+  "single_cap": 0.1,
+  "top_n": null,
+  "top_cap": null,
+  "rest_cap": null,
+  "months": [
+   1,
+   4,
+   7,
+   10
+  ],
+  "schedule": "연4회 정기변경(1·4·7·10월 옵션 만기일 익일). 개별종목 최대 10% 실링(지수채용비중 상한 10%).",
+  "source": "WISEfn/FnGuide 방법론 PDF: '각 종목 별로 최대 10%의 실링을 적용' / '매 1,4,7,10월 옵션 만기일 익일 정기변경'",
+  "confidence": "high"
+ }
+}

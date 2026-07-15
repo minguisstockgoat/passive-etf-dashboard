@@ -13,7 +13,7 @@
    "weight": 25.8084,
    "shares": 13528.0,
    "amount": 0.0,
-   "over_cap": false
+   "over_cap": true
   },
   {
    "code": "010060",
@@ -21,7 +21,7 @@
    "weight": 16.4712,
    "shares": 1351.0,
    "amount": 0.0,
-   "over_cap": false
+   "over_cap": true
   },
   {
    "code": "322000",
@@ -29,7 +29,7 @@
    "weight": 13.4355,
    "shares": 1878.0,
    "amount": 0.0,
-   "over_cap": false
+   "over_cap": true
   },
   {
    "code": "006400",
@@ -37,7 +37,7 @@
    "weight": 10.0731,
    "shares": 384.0,
    "amount": 0.0,
-   "over_cap": false
+   "over_cap": true
   },
   {
    "code": "373220",
@@ -88,13 +88,52 @@
    "over_cap": false
   }
  ],
- "breach_summary": null,
+ "breach_summary": {
+  "cap_pct": 10.0,
+  "verified": true,
+  "count": 4,
+  "total_sell": 26638293338,
+  "items": [
+   {
+    "code": "009830",
+    "name": "한화솔루션",
+    "weight": 25.808,
+    "cap_pct": 10.0,
+    "excess_pp": 15.808,
+    "sell_amount": 16329861600
+   },
+   {
+    "code": "010060",
+    "name": "OCI홀딩스",
+    "weight": 16.471,
+    "cap_pct": 10.0,
+    "excess_pp": 6.471,
+    "sell_amount": 6684623888
+   },
+   {
+    "code": "322000",
+    "name": "HD현대에너지솔루션",
+    "weight": 13.435,
+    "cap_pct": 10.0,
+    "excess_pp": 3.435,
+    "sell_amount": 3548397938
+   },
+   {
+    "code": "006400",
+    "name": "삼성SDI",
+    "weight": 10.073,
+    "cap_pct": 10.0,
+    "excess_pp": 0.073,
+    "sell_amount": 75409912
+   }
+  ]
+ },
  "cap": {
-  "single_cap": null,
-  "index_exception": true,
-  "label": "비중상한 미확인 · 확인 요",
-  "source": "지수 방법론/투자설명서 원문 미확인",
-  "verified": false,
-  "note": "자체 비중상한이 있을 수 있으나 방법론 원문을 확인하지 못했다. 잘못된 매도경고를 피하기 위해 cap 초과 판정을 보류한다. 정확한 상한은 지수 방법론/투자설명서 확인 필요."
+  "single_cap": 0.1,
+  "index_exception": false,
+  "label": "단일종목 10% 상한",
+  "source": "FnGuide Solar & ESS Index Methodology v1.1: 10% 제한; 6·12월 D+2",
+  "verified": true,
+  "note": "개별종목 10% 제한. 5·11월말 선정, 6·12월 만기일 D+2 정기변경"
  }
 }

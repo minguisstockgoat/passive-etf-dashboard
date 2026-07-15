@@ -13,7 +13,7 @@
    "weight": 6.47,
    "shares": 66.0,
    "amount": 42174000.0,
-   "over_cap": false
+   "over_cap": true
   },
   {
    "code": "105560",
@@ -21,7 +21,7 @@
    "weight": 6.25,
    "shares": 219.0,
    "amount": 40777800.0,
-   "over_cap": false
+   "over_cap": true
   },
   {
    "code": "055550",
@@ -29,7 +29,7 @@
    "weight": 5.81,
    "shares": 349.0,
    "amount": 37901400.0,
-   "over_cap": false
+   "over_cap": true
   },
   {
    "code": "086790",
@@ -37,7 +37,7 @@
    "weight": 5.53,
    "shares": 272.0,
    "amount": 36067200.0,
-   "over_cap": false
+   "over_cap": true
   },
   {
    "code": "316140",
@@ -45,7 +45,7 @@
    "weight": 5.11,
    "shares": 1068.0,
    "amount": 33321600.0,
-   "over_cap": false
+   "over_cap": true
   },
   {
    "code": "033780",
@@ -256,13 +256,60 @@
    "over_cap": false
   }
  ],
- "breach_summary": null,
+ "breach_summary": {
+  "cap_pct": 5.0,
+  "verified": true,
+  "count": 5,
+  "total_sell": 22264359750,
+  "items": [
+   {
+    "code": "000810",
+    "name": "삼성화재",
+    "weight": 6.47,
+    "cap_pct": 5.0,
+    "excess_pp": 1.47,
+    "sell_amount": 7848587250
+   },
+   {
+    "code": "105560",
+    "name": "KB금융",
+    "weight": 6.25,
+    "cap_pct": 5.0,
+    "excess_pp": 1.25,
+    "sell_amount": 6673968750
+   },
+   {
+    "code": "055550",
+    "name": "신한지주",
+    "weight": 5.81,
+    "cap_pct": 5.0,
+    "excess_pp": 0.81,
+    "sell_amount": 4324731750
+   },
+   {
+    "code": "086790",
+    "name": "하나금융지주",
+    "weight": 5.53,
+    "cap_pct": 5.0,
+    "excess_pp": 0.53,
+    "sell_amount": 2829762750
+   },
+   {
+    "code": "316140",
+    "name": "우리금융지주",
+    "weight": 5.11,
+    "cap_pct": 5.0,
+    "excess_pp": 0.11,
+    "sell_amount": 587309250
+   }
+  ]
+ },
  "cap": {
-  "single_cap": null,
-  "index_exception": true,
-  "label": "비중상한 미확인 · 확인 요",
-  "source": "지수 방법론/투자설명서 원문 미확인",
-  "verified": false,
-  "note": "자체 비중상한이 있을 수 있으나 방법론 원문을 확인하지 못했다. 잘못된 매도경고를 피하기 위해 cap 초과 판정을 보류한다. 정확한 상한은 지수 방법론/투자설명서 확인 필요."
+  "single_cap": 0.05,
+  "index_exception": false,
+  "label": "단일종목 5% 상한",
+  "source": "FnGuide KOREA High Dividend Methodology v1.3: 5%(최대 7%) 상한; 5·11월 D+2",
+  "verified": true,
+  "note": "기본 상한 5%, 조건 충족 시 최대 7%. 4·10월말 선정, 5·11월 만기일 D+2 정기변경"
  }
 }
