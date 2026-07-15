@@ -56,8 +56,7 @@
       + '<div style="margin-top:8px">' + monthsChips(e.months) + '</div>'
       + '<div class="note">' + esc(e.schedule_detail || '') + '</div>');
     html += card('비중 cap 규칙 ' + capPill,
-      cap ? ('<div class="v">' + (cap.single_cap != null ? '단일종목 ' + (cap.single_cap * 100).toFixed(0) + '%' : '별도 상한 없음')
-        + (cap.index_exception ? ' <span class="small">· 지수 비중 복제</span>' : '') + '</div>'
+      cap ? ('<div class="v">' + esc(cap.label || '-') + '</div>'
         + '<div class="note">' + esc(cap.note || '') + '</div>'
         + '<div class="note" style="color:var(--muted)">근거: ' + esc(cap.source || '') + '</div>')
       : '<div class="v">-</div>');

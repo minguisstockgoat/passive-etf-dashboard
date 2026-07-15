@@ -14,7 +14,7 @@
   <header class="top">
     <div class="brand">
       <h1>국내 상장 패시브 ETF 대시보드</h1>
-      <div class="sub">금일 기준 시가총액 <b>9,000억원 이상</b> 국내주식형 패시브 ETF의 정기변경 일정 · 시가총액 · 구성종목(PDF) · 비중 cap 규제를 정리합니다.</div>
+      <div class="sub" id="sub">국내주식형 패시브 ETF의 정기변경 일정 · 시가총액 · 구성종목(PDF) · 비중 cap 규제를 정리합니다.</div>
     </div>
     <div class="top-right">
       <div class="asof" id="asof">불러오는 중…</div>
@@ -53,7 +53,10 @@
     </div>
   </section>
 
-  <div class="count" id="count"></div>
+  <div class="listbar">
+    <div class="count" id="count"></div>
+    <input class="search" id="search" type="search" placeholder="ETF명·기초지수 검색" autocomplete="off">
+  </div>
 
   <div class="card">
     <div class="tbl-scroll">

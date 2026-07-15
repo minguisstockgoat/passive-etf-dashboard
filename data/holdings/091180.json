@@ -1,0 +1,180 @@
+{
+ "ticker": "091180",
+ "name": "KODEX 자동차",
+ "manager": "KODEX",
+ "source": "삼성 KODEX",
+ "asof": "2026-07-14",
+ "total_weight": 100.0,
+ "count": 20,
+ "holdings": [
+  {
+   "code": "005380",
+   "name": "현대차",
+   "weight": 26.72,
+   "shares": 895.0,
+   "amount": 397380000.0,
+   "over_cap": false
+  },
+  {
+   "code": "012330",
+   "name": "현대모비스",
+   "weight": 20.75,
+   "shares": 633.0,
+   "amount": 308587500.0,
+   "over_cap": false
+  },
+  {
+   "code": "000270",
+   "name": "기아",
+   "weight": 17.75,
+   "shares": 1840.0,
+   "amount": 264040000.0,
+   "over_cap": false
+  },
+  {
+   "code": "161390",
+   "name": "한국타이어앤테크놀로지",
+   "weight": 12.41,
+   "shares": 2649.0,
+   "amount": 184635300.0,
+   "over_cap": false
+  },
+  {
+   "code": "204320",
+   "name": "HL만도",
+   "weight": 3.82,
+   "shares": 1195.0,
+   "amount": 56882000.0,
+   "over_cap": false
+  },
+  {
+   "code": "018880",
+   "name": "한온시스템",
+   "weight": 2.98,
+   "shares": 12867.0,
+   "amount": 44262480.0,
+   "over_cap": false
+  },
+  {
+   "code": "011210",
+   "name": "현대위아",
+   "weight": 2.3,
+   "shares": 572.0,
+   "amount": 34262800.0,
+   "over_cap": false
+  },
+  {
+   "code": "005850",
+   "name": "에스엘",
+   "weight": 2.12,
+   "shares": 582.0,
+   "amount": 31544400.0,
+   "over_cap": false
+  },
+  {
+   "code": "073240",
+   "name": "금호타이어",
+   "weight": 1.99,
+   "shares": 4131.0,
+   "amount": 29577960.0,
+   "over_cap": false
+  },
+  {
+   "code": "007340",
+   "name": "DN오토모티브",
+   "weight": 1.92,
+   "shares": 755.0,
+   "amount": 28614500.0,
+   "over_cap": false
+  },
+  {
+   "code": "000240",
+   "name": "한국앤컴퍼니",
+   "weight": 1.45,
+   "shares": 875.0,
+   "amount": 21568750.0,
+   "over_cap": false
+  },
+  {
+   "code": "004490",
+   "name": "세방전지",
+   "weight": 1.05,
+   "shares": 291.0,
+   "amount": 15684900.0,
+   "over_cap": false
+  },
+  {
+   "code": "437730",
+   "name": "삼현",
+   "weight": 0.89,
+   "shares": 421.0,
+   "amount": 13177300.0,
+   "over_cap": false
+  },
+  {
+   "code": "064960",
+   "name": "SNT모티브",
+   "weight": 0.69,
+   "shares": 391.0,
+   "amount": 10205100.0,
+   "over_cap": false
+  },
+  {
+   "code": "015750",
+   "name": "성우하이텍",
+   "weight": 0.67,
+   "shares": 1711.0,
+   "amount": 9940910.0,
+   "over_cap": false
+  },
+  {
+   "code": "003620",
+   "name": "KG모빌리티",
+   "weight": 0.62,
+   "shares": 3284.0,
+   "amount": 9162360.0,
+   "over_cap": false
+  },
+  {
+   "code": "002350",
+   "name": "넥센타이어",
+   "weight": 0.56,
+   "shares": 1189.0,
+   "amount": 8323000.0,
+   "over_cap": false
+  },
+  {
+   "code": "036530",
+   "name": "SNT홀딩스",
+   "weight": 0.56,
+   "shares": 168.0,
+   "amount": 8282400.0,
+   "over_cap": false
+  },
+  {
+   "code": "009900",
+   "name": "명신산업",
+   "weight": 0.48,
+   "shares": 1006.0,
+   "amount": 7112420.0,
+   "over_cap": false
+  },
+  {
+   "code": "271940",
+   "name": "일진하이솔루스",
+   "weight": 0.27,
+   "shares": 402.0,
+   "amount": 3963720.0,
+   "over_cap": false
+  }
+ ],
+ "breach_summary": null,
+ "cap": {
+  "single_cap": null,
+  "index_exception": true,
+  "label": "비중상한 미확인 · 확인 요",
+  "source": "지수 방법론/투자설명서 원문 미확인",
+  "verified": false,
+  "note": "자체 비중상한이 있을 수 있으나 방법론 원문을 확인하지 못했다. 잘못된 매도경고를 피하기 위해 cap 초과 판정을 보류한다. 정확한 상한은 지수 방법론/투자설명서 확인 필요."
+ }
+}

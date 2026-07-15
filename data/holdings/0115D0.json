@@ -1,0 +1,100 @@
+{
+ "ticker": "0115D0",
+ "name": "KODEX 조선TOP10",
+ "manager": "KODEX",
+ "source": "삼성 KODEX",
+ "asof": "2026-07-14",
+ "total_weight": 100.0,
+ "count": 10,
+ "holdings": [
+  {
+   "code": "009540",
+   "name": "HD한국조선해양",
+   "weight": 24.7,
+   "shares": 276.0,
+   "amount": 94254000.0,
+   "over_cap": false
+  },
+  {
+   "code": "329180",
+   "name": "HD현대중공업",
+   "weight": 20.83,
+   "shares": 163.0,
+   "amount": 79462500.0,
+   "over_cap": false
+  },
+  {
+   "code": "010140",
+   "name": "삼성중공업",
+   "weight": 20.59,
+   "shares": 3563.0,
+   "amount": 78564150.0,
+   "over_cap": false
+  },
+  {
+   "code": "042660",
+   "name": "한화오션",
+   "weight": 18.61,
+   "shares": 901.0,
+   "amount": 70998800.0,
+   "over_cap": false
+  },
+  {
+   "code": "082740",
+   "name": "한화엔진",
+   "weight": 5.63,
+   "shares": 465.0,
+   "amount": 21483000.0,
+   "over_cap": false
+  },
+  {
+   "code": "071970",
+   "name": "HD현대마린엔진",
+   "weight": 4.31,
+   "shares": 276.0,
+   "amount": 16449600.0,
+   "over_cap": false
+  },
+  {
+   "code": "097230",
+   "name": "HJ중공업",
+   "weight": 2.62,
+   "shares": 626.0,
+   "amount": 10009740.0,
+   "over_cap": false
+  },
+  {
+   "code": "439260",
+   "name": "대한조선",
+   "weight": 1.62,
+   "shares": 133.0,
+   "amount": 6177850.0,
+   "over_cap": false
+  },
+  {
+   "code": "443060",
+   "name": "HD현대마린솔루션",
+   "weight": 0.56,
+   "shares": 11.0,
+   "amount": 2129600.0,
+   "over_cap": false
+  },
+  {
+   "code": "017960",
+   "name": "한국카본",
+   "weight": 0.53,
+   "shares": 82.0,
+   "amount": 2017200.0,
+   "over_cap": false
+  }
+ ],
+ "breach_summary": null,
+ "cap": {
+  "single_cap": null,
+  "index_exception": true,
+  "label": "비중상한 미확인 · 확인 요",
+  "source": "지수 방법론/투자설명서 원문 미확인",
+  "verified": false,
+  "note": "자체 비중상한이 있을 수 있으나 방법론 원문을 확인하지 못했다. 잘못된 매도경고를 피하기 위해 cap 초과 판정을 보류한다. 정확한 상한은 지수 방법론/투자설명서 확인 필요."
+ }
+}

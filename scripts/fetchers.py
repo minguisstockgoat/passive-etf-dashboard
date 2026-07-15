@@ -384,6 +384,7 @@ class KodexFetcher:
     def __init__(self):
         self.s = _session()
         self._map = None   # stkTicker -> fId
+        self._count = 0    # 429 회피용 요청 카운터
 
     def _load_map(self):
         if self._map is not None:
@@ -413,6 +414,10 @@ class KodexFetcher:
             raise RuntimeError(f"KODEX fId 미발견: {ticker}")
         gijun = (date or dt.date.today()).strftime("%Y.%m.%d")
         import time, random
+        # 대량 수집 시 samsungfund 레이트리밋(~8req/window) 회피: 6요청마다 쿨다운
+        self._count += 1
+        if self._count % 6 == 0:
+            time.sleep(62)
         time.sleep(1.4 + random.random())            # 요청 간 간격(429 예방)
         r = None
         for attempt in range(6):                     # 429 rate-limit 완화(지수 백오프)
@@ -546,6 +551,7 @@ class PlusFetcher:
         m = {}
         for mt in re.finditer(r'/product/detail\?n=(\d+)"[^>]*>\s*(?:<[^>]+>\s*)*([^<]{2,40})', r.text):
             n, nm = mt.group(1), re.sub(r"\s+", " ", mt.group(2)).strip()
+            nm = nm.replace("&amp;", "&").replace("&#38;", "&")   # HTML 엔티티 복원
             if nm.upper().startswith("PLUS"):
                 m.setdefault(nm.replace(" ", ""), n)
         self._name2n = m
@@ -601,17 +607,25 @@ class HanaroFetcher:
     def uid_of(self, name: str) -> Optional[str]:
         if name in self._uid:
             return self._uid[name]
-        import urllib.parse
-        r = self.s.get(f"{self.BASE}/api/v1/fund/get-fund-search-list",
-                       params={"pageNo": 1, "searchWord": name}, timeout=REQUEST_TIMEOUT)
+
+        def nz(s):
+            s = str(s or "").replace("&amp;", "&").replace("&#38;", "&")
+            return re.sub(r"\s+", "", s).upper()
+        target = nz(name)
+        # 검색어 후보: HANARO 사이트명은 공백이 다를 수 있어(예: '200 TR') 넓게 검색
+        num = re.search(r"\d+", name)
+        terms = [name, name.split(" ", 1)[0] + " " + (num.group(0) if num else ""),
+                 name.split(" ", 1)[0]]
         uid = None
-        for mt in re.finditer(r'data-fund-name="([^"]+)"[^>]*>.*?/fund/([0-9A-Fa-f]{12,20})',
-                              r.text, re.S):
-            if mt.group(1).replace(" ", "") == name.replace(" ", ""):
-                uid = mt.group(2); break
-        if uid is None:
-            m = re.search(r'/fund/([0-9A-Fa-f]{12,20})', r.text)
-            uid = m.group(1) if m else None
+        for term in terms:
+            r = self.s.get(f"{self.BASE}/api/v1/fund/get-fund-search-list",
+                           params={"pageNo": 1, "searchWord": term.strip()}, timeout=REQUEST_TIMEOUT)
+            for mt in re.finditer(r'data-fund-name="([^"]+)"[^>]*>.*?/fund/([0-9A-Fa-f]{12,20})',
+                                  r.text, re.S):
+                if nz(mt.group(1)) == target:
+                    uid = mt.group(2); break
+            if uid:
+                break
         self._uid[name] = uid
         return uid
 

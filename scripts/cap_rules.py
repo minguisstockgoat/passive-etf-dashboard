@@ -128,6 +128,18 @@ def _replicator(name: str) -> dict:
 
 
 def _provisional(name: str) -> dict:
+    # 방법론 미확인 → cap 초과 판정 보류(오탐 방지). 확인되면 verified 규칙으로 대체.
+    return {
+        "single_cap": None, "index_exception": True,
+        "label": "비중상한 미확인 · 확인 요",
+        "source": "지수 방법론/투자설명서 원문 미확인",
+        "verified": False,
+        "note": ("자체 비중상한이 있을 수 있으나 방법론 원문을 확인하지 못했다. 잘못된 매도경고를 "
+                 "피하기 위해 cap 초과 판정을 보류한다. 정확한 상한은 지수 방법론/투자설명서 확인 필요."),
+    }
+
+
+def _provisional_OLD(name: str) -> dict:
     return {
         "single_cap": 0.30, "index_exception": False,
         "label": "자체 비중상한 지수 · 상한 확인 요(잠정 30%)",
@@ -150,3 +162,11 @@ for _n, (_src, _note) in _EQUAL.items():
     CAP_RULES[_n] = {"single_cap": None, "index_exception": False,
                      "label": "동일가중 방식 · 종목 상한 이슈 없음",
                      "source": _src, "note": _note, "verified": True}
+
+
+def cap_for(name: str, is_market_rep: bool) -> dict:
+    """큐레이션 규칙 우선, 없으면 시장대표=복제형 / 그 외=미확인(판정 보류)."""
+    c = CAP_RULES.get(name)
+    if c:
+        return c
+    return _replicator(name) if is_market_rep else _provisional(name)

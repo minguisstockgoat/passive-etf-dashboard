@@ -7,7 +7,7 @@
   var DATA = [];            // etfs
   var LIVE = {};            // ticker -> 실시간 시총
   var META = {};
-  var F = { type: 'all', cats: new Set(), min: null, max: null, months: new Set(), mgrs: new Set() };
+  var F = { type: 'all', cats: new Set(), min: null, max: null, months: new Set(), mgrs: new Set(), q: '' };
   var SORT = { key: 'market_cap', dir: -1 };
 
   var MONTHS = [1,2,3,4,5,6,7,8,9,10,11,12];
@@ -26,7 +26,8 @@
     // 월 칩
     $('#f-month').innerHTML = MONTHS.map(function (m) {
       return '<button class="chip mon" data-mon="' + m + '">' + m + '</button>';
-    }).join('') + '<button class="chip mon" data-mon="0">수시</button>';
+    }).join('') + '<button class="chip mon" data-mon="0">수시</button>'
+      + '<button class="chip mon" data-mon="-1">미확인</button>';
     // 운용사 칩
     var mgrs = [];
     DATA.forEach(function (e) { if (mgrs.indexOf(e.manager) < 0) mgrs.push(e.manager); });
@@ -65,8 +66,8 @@
     render();
   }
   function resetFilters() {
-    F = { type: 'all', cats: new Set(), min: null, max: null, months: new Set(), mgrs: new Set() };
-    $('#f-min').value = ''; $('#f-max').value = '';
+    F = { type: 'all', cats: new Set(), min: null, max: null, months: new Set(), mgrs: new Set(), q: '' };
+    $('#f-min').value = ''; $('#f-max').value = ''; if ($('#search')) $('#search').value = '';
     $$('.chip.on').forEach(function (b) { b.classList.remove('on'); });
     $$('#f-type button').forEach(function (b, i) { b.classList.toggle('on', i === 0); });
     render();
@@ -81,15 +82,20 @@
     if (F.min != null && cap億 < F.min) return false;
     if (F.max != null && cap億 > F.max) return false;
     if (F.months.size) {
-      var ms = e.months || [];
+      var ms = e.months;   // null(미확인) | [](수시) | [월..]
       var hit = false;
       F.months.forEach(function (m) {
-        if (m === 0 && ms.length === 0) hit = true;
-        if (m !== 0 && ms.indexOf(m) >= 0) hit = true;
+        if (m === -1 && ms === null) hit = true;
+        else if (m === 0 && Array.isArray(ms) && ms.length === 0) hit = true;
+        else if (m > 0 && Array.isArray(ms) && ms.indexOf(m) >= 0) hit = true;
       });
       if (!hit) return false;
     }
     if (F.mgrs.size && !F.mgrs.has(e.manager)) return false;
+    if (F.q) {
+      var hay = (e.name + ' ' + (e.index_name || '') + ' ' + e.manager).toLowerCase();
+      if (hay.indexOf(F.q) < 0) return false;
+    }
     return true;
   }
 
@@ -123,7 +129,8 @@
         + '<td><div class="etf-name"><span class="mgr-dot" style="background:' + e.color + '"></span>'
         + '<span class="nm">' + e.name + '</span>'
         + '<span class="tag cat-' + e.category + '">' + e.category + '</span>' + warn + '</div></td>'
-        + '<td class="hide-sm"><span class="tag sched">' + e.schedule_label + '</span></td>'
+        + '<td class="hide-sm"><span class="tag sched' + (e.auto ? ' est' : '') + '"'
+        + (e.auto ? ' title="자동추정 · 개별 확인 필요"' : '') + '>' + e.schedule_label + '</span></td>'
         + '<td class="num"><span class="mktcap' + (isLive ? ' mc-live' : '') + '">' + PE.won(cv) + '</span></td>'
         + '<td class="hide-sm"><span class="tag mgr">' + e.manager + '</span></td>'
         + '</tr>';
@@ -178,10 +185,15 @@
     try {
       var d = await PE.loadJSON('data/etfs.json');
       DATA = d.etfs; META = d;
+      var mc = d.min_cap_eok ? (d.min_cap_eok >= 10000 ? (d.min_cap_eok / 10000) + '조' : d.min_cap_eok.toLocaleString() + '억') : '';
+      $('#sub').innerHTML = '금일 기준 시가총액 <b>' + mc + '원 이상</b> 국내주식형 패시브 ETF <b>' + d.count + '종</b>의 '
+        + '정기변경 일정 · 시가총액 · 구성종목(PDF) · 비중 cap 규제를 정리합니다. '
+        + '<span style="color:var(--muted)">(9천억+ 32종은 정기변경·cap 원문 검증, 그 외는 자동 분류)</span>';
       $('#regnote').innerHTML = '<b>비중 규제</b> · ' + (d.reg_note || '');
       setAsof(0);
       buildFilters();
-      $('#f-min').value = ''; // 기본 min 표시는 placeholder(9000)만
+      $('#search').oninput = function () { F.q = this.value.trim().toLowerCase(); render(); };
+      $('#f-min').value = '';
       render();
     } catch (e) {
       $('#rows').innerHTML = '<tr><td colspan="4" class="empty">데이터를 불러오지 못했습니다. (' + e.message + ')</td></tr>';

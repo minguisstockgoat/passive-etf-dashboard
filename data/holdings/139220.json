@@ -1,0 +1,108 @@
+{
+ "ticker": "139220",
+ "name": "TIGER 200 건설",
+ "manager": "TIGER",
+ "source": "미래에셋 TIGER",
+ "asof": "2026-07-13",
+ "total_weight": 99.98,
+ "count": 11,
+ "holdings": [
+  {
+   "code": "028260",
+   "name": "삼성물산",
+   "weight": 26.79,
+   "shares": 103.0,
+   "amount": 37183000.0,
+   "over_cap": false
+  },
+  {
+   "code": "028050",
+   "name": "삼성E&A",
+   "weight": 22.09,
+   "shares": 746.0,
+   "amount": 30660600.0,
+   "over_cap": false
+  },
+  {
+   "code": "000720",
+   "name": "현대건설",
+   "weight": 15.58,
+   "shares": 213.0,
+   "amount": 21619500.0,
+   "over_cap": false
+  },
+  {
+   "code": "047040",
+   "name": "대우건설",
+   "weight": 10.83,
+   "shares": 939.0,
+   "amount": 15033390.0,
+   "over_cap": false
+  },
+  {
+   "code": "052690",
+   "name": "한전기술",
+   "weight": 6.26,
+   "shares": 89.0,
+   "amount": 8686400.0,
+   "over_cap": false
+  },
+  {
+   "code": "375500",
+   "name": "DL이앤씨",
+   "weight": 6.08,
+   "shares": 140.0,
+   "amount": 8442000.0,
+   "over_cap": false
+  },
+  {
+   "code": "002380",
+   "name": "KCC",
+   "weight": 5.94,
+   "shares": 19.0,
+   "amount": 8246000.0,
+   "over_cap": false
+  },
+  {
+   "code": "051600",
+   "name": "한전KPS",
+   "weight": 3.33,
+   "shares": 105.0,
+   "amount": 4625250.0,
+   "over_cap": false
+  },
+  {
+   "code": "000210",
+   "name": "DL",
+   "weight": 1.67,
+   "shares": 51.0,
+   "amount": 2323050.0,
+   "over_cap": false
+  },
+  {
+   "code": "300720",
+   "name": "한일시멘트",
+   "weight": 1.04,
+   "shares": 101.0,
+   "amount": 1445310.0,
+   "over_cap": false
+  },
+  {
+   "code": "KRD010010001",
+   "name": "원화예금",
+   "weight": 0.37,
+   "shares": 517716.0,
+   "amount": 517716.0,
+   "over_cap": false
+  }
+ ],
+ "breach_summary": null,
+ "cap": {
+  "single_cap": null,
+  "index_exception": true,
+  "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+  "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+  "verified": true,
+  "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+ }
+}
