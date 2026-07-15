@@ -883,16 +883,20 @@
  },
  "KRX 코리아 소버린 AI 지수": {
   "index": "KRX 코리아 소버린 AI 지수",
-  "ticker": "0115E0",
-  "cap_type": "single",
-  "single_cap": null,
-  "top_n": 27,
-  "top_cap": null,
-  "rest_cap": null,
-  "months": null,
-  "schedule": "약 27종목. Akros Technologies LLM으로 AI 4개 키워드(AI소프트웨어·AI인프라·AI반도체·AI에너지) 연관도 산출 + 지수자문위 심사. 개별 Cap·정기변경월 미확정(자매 AI전력인프라 지수는 분기·Cap15%).",
-  "source": "core.asiae.co.kr/20250905: 'KRX 소버린 AI 지수: 27개 종목'",
-  "confidence": "low"
+  "cap_type": "top_n",
+  "single_cap": 0.2,
+  "top_n": 1,
+  "top_cap": 0.2,
+  "rest_cap": 0.1,
+  "months": [
+   3,
+   6,
+   9,
+   12
+  ],
+  "schedule": "테마적합도+유동시총 9:1 가중. 대표종목 20% 고정, 그 외 종목 0.1~10%(소속분류 4개 그룹 각 20% 상한). 정기변경 분기(3·6·9·12월 선물옵션 만기일 D+10), 수시 5매매일 연속 30%초과→25% 조정",
+  "source": "KRX 코리아 소버린 AI 지수 산출기준(한국거래소·AKROS 산출, 2025.07.11 발표): '대표종목 20% 고정, 그외 0.1~10% · 정기변경 분기(3,6,9,12월) 선물옵션 만기일 D+10 · 수시 30%초과시 25%'",
+  "confidence": "high"
  },
  "KRX 헬스케어": {
   "index": "KRX 헬스케어",

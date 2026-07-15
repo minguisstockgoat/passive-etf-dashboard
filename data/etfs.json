@@ -1,6 +1,6 @@
 {
  "as_of": "2026-07-14",
- "generated_at": "2026-07-15 17:55",
+ "generated_at": "2026-07-15 17:57",
  "count": 165,
  "min_cap_eok": 300,
  "reg_note": "자본시장법 시행령 §80 — 지수형 ETF는 동일종목을 자산의 30%까지 편입 가능. 기초지수 내 비중이 30%를 넘는 대표종목(예: 삼성전자)은 그 지수 비중까지 예외 허용. cap을 둔 테마·전략 지수는 정기변경 때 상한으로 재조정된다.",
@@ -6115,23 +6115,46 @@
    "shares": 4900000,
    "close": 12970.0,
    "nav": 13002.69,
-   "schedule_label": "정기변경일 확인 요",
-   "schedule_detail": "지수 방법론에 따름 — 개별 확인 필요(자동)",
-   "months": null,
+   "schedule_label": "3·6·9·12월",
+   "schedule_detail": "테마적합도+유동시총 9:1 가중. 대표종목 20% 고정, 그 외 종목 0.1~10%(소속분류 4개 그룹 각 20% 상한). 정기변경 분기(3·6·9·12월 선물옵션 만기일 D+10), 수시 5매매일 연속 30%초과→25% 조정",
+   "months": [
+    3,
+    6,
+    9,
+    12
+   ],
    "auto": true,
-   "schedule_verified": false,
+   "schedule_verified": true,
    "cap": {
-    "single_cap": null,
+    "single_cap": 0.2,
     "index_exception": false,
-    "label": "비중상한 확인 요",
-    "source": "core.asiae.co.kr/20250905: 'KRX 소버린 AI 지수: 27개 종목'",
-    "verified": false,
-    "note": "약 27종목. Akros Technologies LLM으로 AI 4개 키워드(AI소프트웨어·AI인프라·AI반도체·AI에너지) 연관도 산출 + 지수자문위 심사. 개별 Cap·정기변경월 미확정(자매 AI전력인프라 지수는 분기·Cap15%)."
+    "top_n": 1,
+    "top_cap": 0.2,
+    "rest_cap": 0.1,
+    "label": "상위 1종목 각 20% · 나머지 10%",
+    "source": "KRX 코리아 소버린 AI 지수 산출기준(한국거래소·AKROS 산출, 2025.07.11 발표): '대표종목 20% 고정, 그외 0.1~10% · 정기변경 분기(3,6,9,12월) 선물옵션 만기일 D+10 · 수시 30%초과시 25%'",
+    "verified": true,
+    "note": "상위 종목 상한 기준으로 초과를 계산한다(보수적). 테마적합도+유동시총 9:1 가중. 대표종목 20% 고정, 그 외 종목 0.1~10%(소속분류 4개 그룹 각 20% 상한). 정기변경 분기(3·6·9·12월 선물옵션 만기일 D+10), 수시 5매매일 연속 30%초과→25% 조정"
    },
-   "cap_verified": false,
+   "cap_verified": true,
    "has_holdings": true,
    "holdings_asof": "2026-07-14",
-   "breach_summary": null
+   "breach_summary": {
+    "cap_pct": 20.0,
+    "verified": true,
+    "count": 1,
+    "total_sell": 1709575700,
+    "items": [
+     {
+      "code": "035420",
+      "name": "NAVER",
+      "weight": 22.69,
+      "cap_pct": 20.0,
+      "excess_pp": 2.69,
+      "sell_amount": 1709575700
+     }
+    ]
+   }
   },
   {
    "ticker": "100910",
