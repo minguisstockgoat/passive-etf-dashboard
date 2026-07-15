@@ -3,92 +3,107 @@
  "name": "ACE K반도체TOP2+",
  "manager": "ACE",
  "source": "한국투자 ACE",
- "asof": "2026-07-14",
- "total_weight": 99.99,
+ "asof": "2026-07-15",
+ "total_weight": 100.0,
  "count": 10,
  "holdings": [
   {
    "code": "000660",
    "name": "SK하이닉스",
-   "weight": 24.63,
+   "weight": 25.17,
    "shares": 49.0,
-   "amount": 90405000.0,
-   "over_cap": false
+   "amount": 93737000.0,
+   "over_cap": true
   },
   {
    "code": "005930",
    "name": "삼성전자",
-   "weight": 22.12,
+   "weight": 22.53,
    "shares": 319.0,
-   "amount": 81185500.0,
+   "amount": 83897000.0,
    "over_cap": false
   },
   {
    "code": "402340",
    "name": "SK스퀘어",
-   "weight": 21.19,
+   "weight": 21.41,
    "shares": 67.0,
-   "amount": 77787000.0,
+   "amount": 79730000.0,
    "over_cap": false
   },
   {
    "code": "009150",
    "name": "삼성전기",
-   "weight": 16.16,
+   "weight": 15.56,
    "shares": 46.0,
-   "amount": 59294000.0,
+   "amount": 57960000.0,
    "over_cap": false
   },
   {
    "code": "420770",
    "name": "기가비스",
-   "weight": 7.5,
+   "weight": 7.14,
    "shares": 170.0,
-   "amount": 27540000.0,
+   "amount": 26605000.0,
    "over_cap": false
   },
   {
    "code": "222800",
    "name": "심텍",
-   "weight": 5.33,
+   "weight": 5.25,
    "shares": 181.0,
-   "amount": 19566100.0,
+   "amount": 19548000.0,
    "over_cap": false
   },
   {
    "code": "195870",
    "name": "해성디에스",
-   "weight": 0.81,
+   "weight": 0.77,
    "shares": 51.0,
-   "amount": 2983500.0,
+   "amount": 2901900.0,
    "over_cap": false
   },
   {
    "code": "356860",
    "name": "티엘비",
-   "weight": 0.78,
+   "weight": 0.75,
    "shares": 39.0,
-   "amount": 2897700.0,
+   "amount": 2835300.0,
    "over_cap": false
   },
   {
    "code": "323280",
    "name": "태성",
-   "weight": 0.75,
+   "weight": 0.73,
    "shares": 79.0,
-   "amount": 2761050.0,
+   "amount": 2733400.0,
    "over_cap": false
   },
   {
    "code": "007810",
    "name": "코리아써키트",
-   "weight": 0.72,
+   "weight": 0.69,
    "shares": 38.0,
-   "amount": 2652400.0,
+   "amount": 2580200.0,
    "over_cap": false
   }
  ],
- "breach_summary": null,
+ "breach_summary": {
+  "cap_pct": 25.0,
+  "verified": true,
+  "count": 1,
+  "total_sell": 519736750,
+  "items": [
+   {
+    "code": "000660",
+    "name": "SK하이닉스",
+    "weight": 25.17,
+    "cap_pct": 25.0,
+    "excess_pp": 0.17,
+    "sell_amount": 519736750
+   }
+  ]
+ },
  "cap": {
   "single_cap": 0.25,
   "index_exception": false,
