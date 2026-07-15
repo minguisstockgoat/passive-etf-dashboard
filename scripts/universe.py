@@ -22,7 +22,7 @@ _EXC = re.compile(
 # 해외/글로벌 제외
 _FOREIGN = re.compile(
     r"미국|나스닥|S&P|다우|차이나|중국|일본|인도|베트남|글로벌|선진|신흥|유럽|아세안|"
-    r"대만|필라델피아|월배당|브라질|멕시코|독일|아시아|APAC|리츠")
+    r"대만|필라델피아|월배당|브라질|멕시코|독일|아시아|APAC|리츠|한중|한·중|CSI")
 # 국내 주식 지수만
 _DOMIDX = re.compile(r"코스피|코스닥|KRX|FnGuide|iSelect|KEDI|MSCI Korea|코리아|밸류업|Fn |그룹|WISE|KAP|에프앤")
 
