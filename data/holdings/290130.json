@@ -13,7 +13,7 @@
    "weight": 30.94,
    "shares": 397.0,
    "amount": 732465000.0,
-   "over_cap": false
+   "over_cap": true
   },
   {
    "code": "005930",
@@ -21,7 +21,7 @@
    "weight": 27.37,
    "shares": 2546.0,
    "amount": 647957000.0,
-   "over_cap": false
+   "over_cap": true
   },
   {
    "code": "402340",
@@ -1024,13 +1024,36 @@
    "over_cap": false
   }
  ],
- "breach_summary": null,
+ "breach_summary": {
+  "cap_pct": 27.0,
+  "verified": true,
+  "count": 2,
+  "total_sell": 28561335600,
+  "items": [
+   {
+    "code": "000660",
+    "name": "SK하이닉스",
+    "weight": 30.94,
+    "cap_pct": 27.0,
+    "excess_pp": 3.94,
+    "sell_amount": 26109434400
+   },
+   {
+    "code": "005930",
+    "name": "삼성전자",
+    "weight": 27.37,
+    "cap_pct": 27.0,
+    "excess_pp": 0.37,
+    "sell_amount": 2451901200
+   }
+  ]
+ },
  "cap": {
-  "single_cap": null,
-  "index_exception": true,
-  "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-  "source": "RISE ESG사회책임투자(290130) 상품페이지: '최소 130종목, 유동시가총액가중방식'; TOP10에 SK하이닉스 31.61%·삼성전자 27.87%로 캡 없음 확인. 정기변경월은 미검증(연1회 ESG평가 반영 추정).",
-  "verified": false,
-  "note": "시가총액 가중 복제 — 별도 단일종목 상한 없음."
+  "single_cap": 0.27,
+  "index_exception": false,
+  "label": "단일종목 27% 상한",
+  "source": "RISE ESG사회책임투자 투자설명서(KRX ESG 사회책임경영지수(S)): '산출방식 유동시가총액 가중 · 정기변경 연 1회(매년 12월 두 번째 금요일) · 개별종목 Cap 27%'",
+  "verified": true,
+  "note": "한국ESG기준원 사회(S)점수 우수 종목(KRX BMI 유니버스, ~120종목), 유동시가총액 가중. 개별종목 Cap 27%. 정기변경 연 1회(매년 12월 두 번째 금요일)"
  }
 }

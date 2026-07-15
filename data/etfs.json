@@ -1,6 +1,6 @@
 {
  "as_of": "2026-07-14",
- "generated_at": "2026-07-15 17:58",
+ "generated_at": "2026-07-15 17:59",
  "count": 165,
  "min_cap_eok": 300,
  "reg_note": "자본시장법 시행령 §80 — 지수형 ETF는 동일종목을 자산의 30%까지 편입 가능. 기초지수 내 비중이 30%를 넘는 대표종목(예: 삼성전자)은 그 지수 비중까지 예외 허용. cap을 둔 테마·전략 지수는 정기변경 때 상한으로 재조정된다.",
@@ -1773,25 +1773,48 @@
    "shares": 13800000,
    "close": 48020.0,
    "nav": 48057.43,
-   "schedule_label": "6월",
-   "schedule_detail": "ESG 사회(S) 등급 상위 최소 130종목을 유동시가총액 가중으로 구성. 단일종목 상한 없음(복제). ESG평가 기반 연1회 정기변경(6월) 추정.",
+   "schedule_label": "12월",
+   "schedule_detail": "한국ESG기준원 사회(S)점수 우수 종목(KRX BMI 유니버스, ~120종목), 유동시가총액 가중. 개별종목 Cap 27%. 정기변경 연 1회(매년 12월 두 번째 금요일)",
    "months": [
-    6
+    12
    ],
    "auto": true,
-   "schedule_verified": false,
+   "schedule_verified": true,
    "cap": {
-    "single_cap": null,
-    "index_exception": true,
-    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-    "source": "RISE ESG사회책임투자(290130) 상품페이지: '최소 130종목, 유동시가총액가중방식'; TOP10에 SK하이닉스 31.61%·삼성전자 27.87%로 캡 없음 확인. 정기변경월은 미검증(연1회 ESG평가 반영 추정).",
-    "verified": false,
-    "note": "시가총액 가중 복제 — 별도 단일종목 상한 없음."
+    "single_cap": 0.27,
+    "index_exception": false,
+    "label": "단일종목 27% 상한",
+    "source": "RISE ESG사회책임투자 투자설명서(KRX ESG 사회책임경영지수(S)): '산출방식 유동시가총액 가중 · 정기변경 연 1회(매년 12월 두 번째 금요일) · 개별종목 Cap 27%'",
+    "verified": true,
+    "note": "한국ESG기준원 사회(S)점수 우수 종목(KRX BMI 유니버스, ~120종목), 유동시가총액 가중. 개별종목 Cap 27%. 정기변경 연 1회(매년 12월 두 번째 금요일)"
    },
-   "cap_verified": false,
+   "cap_verified": true,
    "has_holdings": true,
    "holdings_asof": "2026-07-14",
-   "breach_summary": null
+   "breach_summary": {
+    "cap_pct": 27.0,
+    "verified": true,
+    "count": 2,
+    "total_sell": 28561335600,
+    "items": [
+     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "weight": 30.94,
+      "cap_pct": 27.0,
+      "excess_pp": 3.94,
+      "sell_amount": 26109434400
+     },
+     {
+      "code": "005930",
+      "name": "삼성전자",
+      "weight": 27.37,
+      "cap_pct": 27.0,
+      "excess_pp": 0.37,
+      "sell_amount": 2451901200
+     }
+    ]
+   }
   },
   {
    "ticker": "434730",
