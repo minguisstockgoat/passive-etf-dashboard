@@ -1,6 +1,6 @@
 {
  "as_of": "2026-07-14",
- "generated_at": "2026-07-15 17:50",
+ "generated_at": "2026-07-15 17:55",
  "count": 165,
  "min_cap_eok": 300,
  "reg_note": "자본시장법 시행령 §80 — 지수형 ETF는 동일종목을 자산의 30%까지 편입 가능. 기초지수 내 비중이 30%를 넘는 대표종목(예: 삼성전자)은 그 지수 비중까지 예외 허용. cap을 둔 테마·전략 지수는 정기변경 때 상한으로 재조정된다.",
@@ -3901,18 +3901,26 @@
    "shares": 24200000,
    "close": 7395.0,
    "nav": 7386.47,
-   "schedule_label": "정기변경일 확인 요",
-   "schedule_detail": "지수 방법론에 따름 — 개별 확인 필요(자동)",
-   "months": null,
+   "schedule_label": "3·6·9·12월",
+   "schedule_detail": "Top4 종목 합산 85%내 시총비례(종목별 최대 22%), 나머지 6종목 15%내 종합점수(MASGA50·조선25·엔진25) 비례. 정기변경 분기(3·6·9·12월 선물옵션 만기일 D+10, 결정일 D-10), 수시 5영업일 연속 30%초과→25% 조정",
+   "months": [
+    3,
+    6,
+    9,
+    12
+   ],
    "auto": true,
-   "schedule_verified": false,
+   "schedule_verified": true,
    "cap": {
     "single_cap": 0.22,
     "index_exception": false,
-    "label": "단일종목 22% 상한",
-    "source": "roadranger7.com KODEX K조선TOP10 분석: '※ 개별 종목 최대 비중은 22%로 제한됩니다'; funetf KODEX 조선TOP10(0115D0) '기초지수 KRX 조선 TOP10 지수'",
+    "top_n": 4,
+    "top_cap": 0.22,
+    "rest_cap": null,
+    "label": "상위 4종목 각 22%",
+    "source": "KRX 조선 TOP10 지수 산출기준(한국거래소·AKROS 산출, 2025.08.28 발표): 'Top4 종목별 최대 22% · 정기변경 분기(3,6,9,12월) 선물옵션 만기일 D+10 · 수시 30%초과시 25%'",
     "verified": true,
-    "note": "총 10종목(KRX K조선TOP10). 한국거래소 발표·Akros 산출, LLM 키워드(조선/MASGA/선박엔진) 스코어로 선정. 조선 빅4 비중 80%+. 개별종목 최대 비중 22%. 정기변경월 미확정."
+    "note": "상위 종목 상한 기준으로 초과를 계산한다(보수적). Top4 종목 합산 85%내 시총비례(종목별 최대 22%), 나머지 6종목 15%내 종합점수(MASGA50·조선25·엔진25) 비례. 정기변경 분기(3·6·9·12월 선물옵션 만기일 D+10, 결정일 D-10), 수시 5영업일 연속 30%초과→25% 조정"
    },
    "cap_verified": true,
    "has_holdings": true,
