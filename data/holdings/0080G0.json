@@ -3,112 +3,120 @@
  "name": "KODEX 방산TOP10",
  "manager": "KODEX",
  "source": "삼성 KODEX",
- "asof": "2026-07-16",
- "total_weight": 100.0,
+ "asof": "2026-07-20",
+ "total_weight": 99.99,
  "count": 10,
  "holdings": [
   {
    "code": "047810",
    "name": "한국항공우주",
-   "weight": 22.62,
+   "weight": 23.07,
    "shares": 1627.0,
-   "amount": 239982500.0,
-   "over_cap": true
-  },
-  {
-   "code": "079550",
-   "name": "LIG디펜스앤에어로스페이스",
-   "weight": 20.26,
-   "shares": 284.0,
-   "amount": 214988000.0,
+   "amount": 242748400.0,
    "over_cap": true
   },
   {
    "code": "012450",
    "name": "한화에어로스페이스",
-   "weight": 19.96,
+   "weight": 20.44,
    "shares": 228.0,
-   "amount": 211812000.0,
-   "over_cap": false
+   "amount": 215004000.0,
+   "over_cap": true
+  },
+  {
+   "code": "079550",
+   "name": "LIG디펜스앤에어로스페이스",
+   "weight": 20.22,
+   "shares": 284.0,
+   "amount": 212716000.0,
+   "over_cap": true
   },
   {
    "code": "064350",
    "name": "현대로템",
-   "weight": 19.36,
+   "weight": 18.51,
    "shares": 1225.0,
-   "amount": 205432500.0,
+   "amount": 194775000.0,
    "over_cap": false
   },
   {
    "code": "272210",
    "name": "한화시스템",
-   "weight": 11.11,
+   "weight": 11.15,
    "shares": 1791.0,
-   "amount": 117847800.0,
+   "amount": 117310500.0,
    "over_cap": false
   },
   {
    "code": "103140",
    "name": "풍산",
-   "weight": 4.03,
+   "weight": 4.04,
    "shares": 685.0,
-   "amount": 42744000.0,
+   "amount": 42538500.0,
    "over_cap": false
   },
   {
    "code": "189300",
    "name": "인텔리안테크",
-   "weight": 0.96,
+   "weight": 0.91,
    "shares": 152.0,
-   "amount": 10199200.0,
+   "amount": 9560800.0,
    "over_cap": false
   },
   {
    "code": "214430",
    "name": "아이쓰리시스템",
-   "weight": 0.84,
+   "weight": 0.81,
    "shares": 147.0,
-   "amount": 8878800.0,
+   "amount": 8570100.0,
    "over_cap": false
   },
   {
    "code": "484870",
    "name": "엠앤씨솔루션",
-   "weight": 0.62,
+   "weight": 0.61,
    "shares": 279.0,
-   "amount": 6570450.0,
+   "amount": 6417000.0,
    "over_cap": false
   },
   {
    "code": "347700",
    "name": "스피어",
-   "weight": 0.24,
+   "weight": 0.23,
    "shares": 126.0,
-   "amount": 2583000.0,
+   "amount": 2380140.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 20.0,
   "verified": true,
-  "count": 2,
-  "total_sell": 10252915200,
+  "count": 3,
+  "total_sell": 13278949200,
   "items": [
    {
     "code": "047810",
     "name": "한국항공우주",
-    "weight": 22.62,
+    "weight": 23.07,
     "cap_pct": 20.0,
-    "excess_pp": 2.62,
-    "sell_amount": 9327304800
+    "excess_pp": 3.07,
+    "sell_amount": 10929322800
+   },
+   {
+    "code": "012450",
+    "name": "한화에어로스페이스",
+    "weight": 20.44,
+    "cap_pct": 20.0,
+    "excess_pp": 0.44,
+    "sell_amount": 1566417600
    },
    {
     "code": "079550",
     "name": "LIG디펜스앤에어로스페이스",
-    "weight": 20.26,
+    "weight": 20.22,
     "cap_pct": 20.0,
-    "excess_pp": 0.26,
-    "sell_amount": 925610400
+    "excess_pp": 0.22,
+    "sell_amount": 783208800
    }
   ]
  },
