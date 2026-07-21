@@ -3,32 +3,24 @@
  "name": "KODEX Top10동일가중",
  "manager": "KODEX",
  "source": "삼성 KODEX",
- "asof": "2026-07-20",
- "total_weight": 100.0,
+ "asof": "2026-07-21",
+ "total_weight": 100.01,
  "count": 10,
  "holdings": [
   {
    "code": "402340",
    "name": "SK스퀘어",
-   "weight": 11.81,
+   "weight": 12.07,
    "shares": 154.0,
-   "amount": 186648000.0,
-   "over_cap": false
-  },
-  {
-   "code": "032830",
-   "name": "삼성생명",
-   "weight": 10.87,
-   "shares": 519.0,
-   "amount": 171789000.0,
+   "amount": 181258000.0,
    "over_cap": false
   },
   {
    "code": "000660",
    "name": "SK하이닉스",
-   "weight": 10.49,
+   "weight": 10.57,
    "shares": 90.0,
-   "amount": 165780000.0,
+   "amount": 158760000.0,
    "over_cap": false
   },
   {
@@ -36,55 +28,63 @@
    "name": "LG에너지솔루션",
    "weight": 10.42,
    "shares": 493.0,
-   "amount": 164662000.0,
+   "amount": 156527500.0,
    "over_cap": false
   },
   {
-   "code": "005930",
-   "name": "삼성전자",
-   "weight": 10.23,
-   "shares": 634.0,
-   "amount": 161670000.0,
-   "over_cap": false
-  },
-  {
-   "code": "028260",
-   "name": "삼성물산",
-   "weight": 10.12,
-   "shares": 462.0,
-   "amount": 159852000.0,
+   "code": "032830",
+   "name": "삼성생명",
+   "weight": 10.42,
+   "shares": 519.0,
+   "amount": 156478500.0,
    "over_cap": false
   },
   {
    "code": "012330",
    "name": "현대모비스",
-   "weight": 10.04,
+   "weight": 10.35,
    "shares": 329.0,
-   "amount": 158578000.0,
+   "amount": 155452500.0,
    "over_cap": false
   },
   {
-   "code": "329180",
-   "name": "HD현대중공업",
-   "weight": 8.98,
-   "shares": 293.0,
-   "amount": 141812000.0,
+   "code": "005930",
+   "name": "삼성전자",
+   "weight": 10.3,
+   "shares": 634.0,
+   "amount": 154696000.0,
    "over_cap": false
   },
   {
-   "code": "005380",
-   "name": "현대차",
-   "weight": 8.55,
-   "shares": 318.0,
-   "amount": 135150000.0,
+   "code": "028260",
+   "name": "삼성물산",
+   "weight": 9.77,
+   "shares": 462.0,
+   "amount": 146685000.0,
    "over_cap": false
   },
   {
    "code": "009150",
    "name": "삼성전기",
-   "weight": 8.49,
+   "weight": 8.91,
    "shares": 105.0,
-   "amount": 134085000.0,
+   "amount": 133875000.0,
+   "over_cap": false
+  },
+  {
+   "code": "329180",
+   "name": "HD현대중공업",
+   "weight": 8.75,
+   "shares": 293.0,
+   "amount": 131410500.0,
+   "over_cap": false
+  },
+  {
+   "code": "005380",
+   "name": "현대차",
+   "weight": 8.45,
+   "shares": 318.0,
+   "amount": 126882000.0,
    "over_cap": false
   }
  ],
