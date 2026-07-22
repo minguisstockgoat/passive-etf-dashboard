@@ -3,30 +3,30 @@
  "name": "ACE KPOP포커스",
  "manager": "ACE",
  "source": "한국투자 ACE",
- "asof": "2026-07-21",
+ "asof": "2026-07-22",
  "total_weight": 99.99,
  "count": 10,
  "holdings": [
   {
    "code": "352820",
    "name": "하이브",
-   "weight": 27.78,
+   "weight": 27.36,
    "shares": 475.0,
-   "amount": 96425000.0,
+   "amount": 94240000.0,
    "over_cap": true
   },
   {
    "code": "035900",
    "name": "JYP Ent.",
-   "weight": 24.23,
+   "weight": 24.28,
    "shares": 1886.0,
-   "amount": 84115600.0,
+   "amount": 83644100.0,
    "over_cap": false
   },
   {
    "code": "041510",
    "name": "에스엠",
-   "weight": 22.54,
+   "weight": 22.71,
    "shares": 1166.0,
    "amount": 78238600.0,
    "over_cap": false
@@ -34,25 +34,33 @@
   {
    "code": "122870",
    "name": "와이지엔터테인먼트",
-   "weight": 20.59,
+   "weight": 20.71,
    "shares": 1861.0,
-   "amount": 71462400.0,
+   "amount": 71369350.0,
    "over_cap": false
   },
   {
    "code": "060570",
    "name": "드림어스컴퍼니",
-   "weight": 1.01,
+   "weight": 1.05,
    "shares": 4157.0,
-   "amount": 3516822.0,
+   "amount": 3629061.0,
    "over_cap": false
   },
   {
    "code": "037270",
    "name": "YG PLUS",
-   "weight": 0.82,
+   "weight": 0.83,
    "shares": 926.0,
-   "amount": 2884490.0,
+   "amount": 2889120.0,
+   "over_cap": false
+  },
+  {
+   "code": "182360",
+   "name": "큐브엔터",
+   "weight": 0.8,
+   "shares": 544.0,
+   "amount": 2790720.0,
    "over_cap": false
   },
   {
@@ -64,27 +72,19 @@
    "over_cap": false
   },
   {
-   "code": "182360",
-   "name": "큐브엔터",
-   "weight": 0.79,
-   "shares": 544.0,
-   "amount": 2763520.0,
-   "over_cap": false
-  },
-  {
    "code": "035760",
    "name": "CJ ENM",
-   "weight": 0.75,
+   "weight": 0.76,
    "shares": 91.0,
-   "amount": 2625350.0,
+   "amount": 2629900.0,
    "over_cap": false
   },
   {
    "code": "473980",
    "name": "노머스",
-   "weight": 0.68,
+   "weight": 0.69,
    "shares": 239.0,
-   "amount": 2368490.0,
+   "amount": 2411510.0,
    "over_cap": false
   }
  ],
@@ -92,15 +92,15 @@
   "cap_pct": 25.0,
   "verified": true,
   "count": 1,
-  "total_sell": 2735686800,
+  "total_sell": 2319030400,
   "items": [
    {
     "code": "352820",
     "name": "하이브",
-    "weight": 27.78,
+    "weight": 27.36,
     "cap_pct": 25.0,
-    "excess_pp": 2.78,
-    "sell_amount": 2735686800
+    "excess_pp": 2.36,
+    "sell_amount": 2319030400
    }
   ]
  },

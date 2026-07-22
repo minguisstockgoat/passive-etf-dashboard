@@ -1,7 +1,7 @@
 {
- "as_of": "2026-07-20",
- "generated_at": "2026-07-21 12:35",
- "count": 164,
+ "as_of": "2026-07-21",
+ "generated_at": "2026-07-22 13:10",
+ "count": 165,
  "min_cap_eok": 300,
  "reg_note": "자본시장법 시행령 §80 — 지수형 ETF는 동일종목을 자산의 30%까지 편입 가능. 기초지수 내 비중이 30%를 넘는 대표종목(예: 삼성전자)은 그 지수 비중까지 예외 허용. cap을 둔 테마·전략 지수는 정기변경 때 상한으로 재조정된다.",
  "etfs": [
@@ -16,10 +16,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스피 200",
-   "market_cap": 23535879500000,
-   "shares": 226100000,
-   "close": 104095.0,
-   "nav": 103935.71,
+   "market_cap": 24407198000000,
+   "shares": 225700000,
+   "close": 108140.0,
+   "nav": 108060.02,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
    "months": [
@@ -38,7 +38,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -52,10 +52,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스피 200",
-   "market_cap": 9505143000000,
-   "shares": 91400000,
-   "close": 103995.0,
-   "nav": 103996.71,
+   "market_cap": 9892065000000,
+   "shares": 91500000,
+   "close": 108110.0,
+   "nav": 108119.3,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
    "months": [
@@ -88,10 +88,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 반도체TOP10 지수",
-   "market_cap": 9140579250000,
-   "shares": 259050000,
-   "close": 35285.0,
-   "nav": 35322.94,
+   "market_cap": 9589275000000,
+   "shares": 258750000,
+   "close": 37060.0,
+   "nav": 36977.87,
    "schedule_label": "4·10월 D+2",
    "schedule_detail": "4·10월 만기일 +2 영업일 지수변경",
    "months": [
@@ -115,7 +115,7 @@
     "cap_pct": 25.0,
     "verified": true,
     "count": 2,
-    "total_sell": 467997657600,
+    "total_sell": 490970880000,
     "items": [
      {
       "code": "005930",
@@ -123,7 +123,7 @@
       "weight": 28.4,
       "cap_pct": 25.0,
       "excess_pp": 3.4,
-      "sell_amount": 310779694500
+      "sell_amount": 326035350000
      },
      {
       "code": "000660",
@@ -131,7 +131,7 @@
       "weight": 26.72,
       "cap_pct": 25.0,
       "excess_pp": 1.72,
-      "sell_amount": 157217963100
+      "sell_amount": 164935530000
      }
     ]
    }
@@ -147,10 +147,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스피 200 TR",
-   "market_cap": 7143138750000,
-   "shares": 189750000,
-   "close": 37645.0,
-   "nav": 37564.62,
+   "market_cap": 7430452500000,
+   "shares": 190500000,
+   "close": 39005.0,
+   "nav": 39054.97,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
    "months": [
@@ -169,7 +169,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -183,10 +183,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide AI반도체 TOP2 플러스 지수(PR)",
-   "market_cap": 5660321250000,
-   "shares": 322250000,
-   "close": 17565.0,
-   "nav": 17559.68,
+   "market_cap": 5854170000000,
+   "shares": 319900000,
+   "close": 18300.0,
+   "nav": 18238.55,
    "schedule_label": "1·4·7·10월 D+2",
    "schedule_detail": "분기(1·4·7·10월) 만기일 +2 영업일 지수변경",
    "months": [
@@ -221,10 +221,10 @@
    "category": "섹터",
    "is_theme": true,
    "index_name": "KRX 반도체",
-   "market_cap": 5503121000000,
-   "shares": 44200000,
-   "close": 124505.0,
-   "nav": 124325.75,
+   "market_cap": 5601093750000,
+   "shares": 43750000,
+   "close": 128025.0,
+   "nav": 128659.07,
    "schedule_label": "9월 D+1, 연 1회",
    "schedule_detail": "연 1회 9월 만기일 +1 영업일 지수변경",
    "months": [
@@ -242,7 +242,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -256,10 +256,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "MSCI Korea TR Index",
-   "market_cap": 4206764000000,
+   "market_cap": 4387002000000,
    "shares": 90800000,
-   "close": 46330.0,
-   "nav": 46261.14,
+   "close": 48315.0,
+   "nav": 48241.4,
    "schedule_label": "2·5·8·11월 말",
    "schedule_detail": "MSCI 분기 리뷰 — 2·5·8·11월 말 효력",
    "months": [
@@ -294,10 +294,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스피 200",
-   "market_cap": 4182000000000,
-   "shares": 40000000,
-   "close": 104550.0,
-   "nav": 104602.56,
+   "market_cap": 4348102500000,
+   "shares": 39900000,
+   "close": 108975.0,
+   "nav": 108756.55,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
    "months": [
@@ -316,7 +316,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -330,10 +330,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스닥 150",
-   "market_cap": 4084379000000,
-   "shares": 323900000,
-   "close": 12610.0,
-   "nav": 12662.81,
+   "market_cap": 4088480000000,
+   "shares": 323200000,
+   "close": 12650.0,
+   "nav": 12678.77,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
    "months": [
@@ -352,7 +352,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -366,10 +366,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide AI반도체 TOP2+ 지수",
-   "market_cap": 3801210000000,
+   "market_cap": 3976539000000,
    "shares": 96600000,
-   "close": 39350.0,
-   "nav": 39183.45,
+   "close": 41165.0,
+   "nav": 41061.23,
    "schedule_label": "6·12월 D+2",
    "schedule_detail": "6·12월 만기일 +2 영업일 지수변경",
    "months": [
@@ -388,28 +388,20 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 25.0,
     "verified": true,
-    "count": 2,
-    "total_sell": 34971132000,
+    "count": 1,
+    "total_sell": 47718468000,
     "items": [
      {
       "code": "402340",
       "name": "SK스퀘어",
-      "weight": 25.79,
+      "weight": 26.2,
       "cap_pct": 25.0,
-      "excess_pp": 0.79,
-      "sell_amount": 30029559000
-     },
-     {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "weight": 25.13,
-      "cap_pct": 25.0,
-      "excess_pp": 0.13,
-      "sell_amount": 4941573000
+      "excess_pp": 1.2,
+      "sell_amount": 47718468000
      }
     ]
    }
@@ -425,10 +417,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide K-반도체 지수",
-   "market_cap": 3555574000000,
-   "shares": 63800000,
-   "close": 55730.0,
-   "nav": 55489.42,
+   "market_cap": 3694747500000,
+   "shares": 63500000,
+   "close": 58185.0,
+   "nav": 58039.29,
    "schedule_label": "6·12월 D+4",
    "schedule_detail": "6·12월 만기일 +4 영업일 지수변경",
    "months": [
@@ -447,20 +439,20 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 25.0,
     "verified": true,
     "count": 1,
-    "total_sell": 33422395600,
+    "total_sell": 29927454750,
     "items": [
      {
       "code": "000660",
       "name": "SK하이닉스",
-      "weight": 25.94,
+      "weight": 25.81,
       "cap_pct": 25.0,
-      "excess_pp": 0.94,
-      "sell_amount": 33422395600
+      "excess_pp": 0.81,
+      "sell_amount": 29927454750
      }
     ]
    }
@@ -476,10 +468,10 @@
    "category": "그룹주",
    "is_theme": true,
    "index_name": "삼성그룹",
-   "market_cap": 3141338000000,
-   "shares": 132100000,
-   "close": 23780.0,
-   "nav": 23743.06,
+   "market_cap": 3270918000000,
+   "shares": 131600000,
+   "close": 24855.0,
+   "nav": 24814.52,
    "schedule_label": "6·12월 D+1~5 분할",
    "schedule_detail": "6·12월 만기일 이후 5영업일에 걸쳐 분할 리밸런싱",
    "months": [
@@ -498,7 +490,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -512,10 +504,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "iSelect AI 전력핵심설비 지수(Price Return)",
-   "market_cap": 2715115500000,
+   "market_cap": 2816810000000,
    "shares": 85100000,
-   "close": 31905.0,
-   "nav": 31971.6,
+   "close": 33100.0,
+   "nav": 33136.21,
    "schedule_label": "6·12월 D+2",
    "schedule_detail": "6·12월 만기일 +2 영업일 지수변경",
    "months": [
@@ -534,28 +526,28 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 20.0,
     "verified": true,
     "count": 2,
-    "total_sell": 34753478400,
+    "total_sell": 34365082000,
     "items": [
-     {
-      "code": "298040",
-      "name": "효성중공업",
-      "weight": 20.65,
-      "cap_pct": 20.0,
-      "excess_pp": 0.65,
-      "sell_amount": 17648250750
-     },
      {
       "code": "010120",
       "name": "LS ELECTRIC",
-      "weight": 20.63,
+      "weight": 20.99,
       "cap_pct": 20.0,
-      "excess_pp": 0.63,
-      "sell_amount": 17105227650
+      "excess_pp": 0.99,
+      "sell_amount": 27886419000
+     },
+     {
+      "code": "298040",
+      "name": "효성중공업",
+      "weight": 20.23,
+      "cap_pct": 20.0,
+      "excess_pp": 0.23,
+      "sell_amount": 6478663000
      }
     ]
    }
@@ -571,10 +563,10 @@
    "category": "섹터",
    "is_theme": true,
    "index_name": "코스피 200 정보기술",
-   "market_cap": 2618880000000,
-   "shares": 19840000,
-   "close": 132000.0,
-   "nav": 132503.55,
+   "market_cap": 2776187400000,
+   "shares": 19820000,
+   "close": 140070.0,
+   "nav": 138646.34,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
    "months": [
@@ -597,42 +589,6 @@
    "breach_summary": null
   },
   {
-   "ticker": "161510",
-   "isin": "KR7161510003",
-   "name": "PLUS 고배당주",
-   "krx_name": "PLUS 고배당주",
-   "manager": "PLUS",
-   "company": "한화자산운용",
-   "color": "#F37021",
-   "category": "전략",
-   "is_theme": true,
-   "index_name": "FnGuide 배당주 지수",
-   "market_cap": 2322769500000,
-   "shares": 94230000,
-   "close": 24650.0,
-   "nav": 24601.41,
-   "schedule_label": "6·12월 D+4",
-   "schedule_detail": "6·12월 만기일 +4 영업일 지수변경",
-   "months": [
-    6,
-    12
-   ],
-   "auto": false,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": null,
-    "index_exception": false,
-    "label": "동일가중 방식 · 종목 상한 이슈 없음",
-    "source": "FnGuide 배당주(고배당주) 지수",
-    "note": "약 동일가중(각 ~3.3%)에 배당수익률·시총 틸팅 ±2%p. 단일종목 비중이 낮아 cap 초과 이슈가 사실상 없다. 정기변경 연 2회(5·11월).",
-    "verified": true
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": null
-  },
-  {
    "ticker": "278540",
    "isin": "KR7278540000",
    "name": "KODEX MSCI Korea TR",
@@ -643,10 +599,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "MSCI Korea TR Index",
-   "market_cap": 2251510000000,
+   "market_cap": 2345145000000,
    "shares": 61000000,
-   "close": 36910.0,
-   "nav": 36830.3,
+   "close": 38445.0,
+   "nav": 38407.59,
    "schedule_label": "2·5·8·11월 말",
    "schedule_detail": "MSCI 분기 리뷰 — 2·5·8·11월 말 효력",
    "months": [
@@ -667,7 +623,43 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
+   "breach_summary": null
+  },
+  {
+   "ticker": "161510",
+   "isin": "KR7161510003",
+   "name": "PLUS 고배당주",
+   "krx_name": "PLUS 고배당주",
+   "manager": "PLUS",
+   "company": "한화자산운용",
+   "color": "#F37021",
+   "category": "전략",
+   "is_theme": true,
+   "index_name": "FnGuide 배당주 지수",
+   "market_cap": 2323509000000,
+   "shares": 94260000,
+   "close": 24650.0,
+   "nav": 24658.45,
+   "schedule_label": "6·12월 D+4",
+   "schedule_detail": "6·12월 만기일 +4 영업일 지수변경",
+   "months": [
+    6,
+    12
+   ],
+   "auto": false,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": null,
+    "index_exception": false,
+    "label": "동일가중 방식 · 종목 상한 이슈 없음",
+    "source": "FnGuide 배당주(고배당주) 지수",
+    "note": "약 동일가중(각 ~3.3%)에 배당수익률·시총 틸팅 ±2%p. 단일종목 비중이 낮아 cap 초과 이슈가 사실상 없다. 정기변경 연 2회(5·11월).",
+    "verified": true
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -681,10 +673,10 @@
    "category": "전략",
    "is_theme": true,
    "index_name": "FnGuide TOP10 지수",
-   "market_cap": 1972039000000,
-   "shares": 53800000,
-   "close": 36655.0,
-   "nav": 36577.6,
+   "market_cap": 2044359000000,
+   "shares": 53700000,
+   "close": 38070.0,
+   "nav": 38010.31,
    "schedule_label": "3·9월 D+2",
    "schedule_detail": "3·9월 만기일 +2 영업일 지수변경",
    "months": [
@@ -717,10 +709,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스피 200 TR",
-   "market_cap": 1742144000000,
+   "market_cap": 1815232000000,
    "shares": 12800000,
-   "close": 136105.0,
-   "nav": 136092.05,
+   "close": 141815.0,
+   "nav": 141495.1,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
    "months": [
@@ -739,7 +731,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -753,10 +745,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스피 200",
-   "market_cap": 1685124000000,
-   "shares": 16200000,
-   "close": 104020.0,
-   "nav": 104113.14,
+   "market_cap": 1757843750000,
+   "shares": 16250000,
+   "close": 108175.0,
+   "nav": 108269.42,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
    "months": [
@@ -775,7 +767,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -789,10 +781,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 2차전지 산업 지수",
-   "market_cap": 1436795000000,
-   "shares": 113000000,
-   "close": 12715.0,
-   "nav": 12656.06,
+   "market_cap": 1447828000000,
+   "shares": 113200000,
+   "close": 12790.0,
+   "nav": 12753.51,
    "schedule_label": "3·6·9·12월 D+2~4",
    "schedule_detail": "분기(3·6·9·12월) 만기일 +2~4 영업일 지수변경",
    "months": [
@@ -813,23 +805,94 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 20.0,
     "verified": true,
     "count": 1,
-    "total_sell": 19827771000,
+    "total_sell": 17229153200,
     "items": [
      {
       "code": "373220",
       "name": "LG에너지솔루션",
-      "weight": 21.38,
+      "weight": 21.19,
       "cap_pct": 20.0,
-      "excess_pp": 1.38,
-      "sell_amount": 19827771000
+      "excess_pp": 1.19,
+      "sell_amount": 17229153200
      }
     ]
    }
+  },
+  {
+   "ticker": "152100",
+   "isin": "KR7152100004",
+   "name": "PLUS 200",
+   "krx_name": "PLUS 200",
+   "manager": "PLUS",
+   "company": "한화자산운용",
+   "color": "#F37021",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "코스피 200",
+   "market_cap": 1435694500000,
+   "shares": 13100000,
+   "close": 109595.0,
+   "nav": 109652.01,
+   "schedule_label": "6·12월 D+1",
+   "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
+   "months": [
+    6,
+    12
+   ],
+   "auto": false,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": null
+  },
+  {
+   "ticker": "315930",
+   "isin": "KR7315930008",
+   "name": "KODEX Top5PlusTR",
+   "krx_name": "KODEX Top5PlusTR",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "전략",
+   "is_theme": true,
+   "index_name": "FnGuide TOP 5 Plus Total Return 지수",
+   "market_cap": 1426250000000,
+   "shares": 17500000,
+   "close": 81500.0,
+   "nav": 81424.17,
+   "schedule_label": "6월 D+2, 연 1회",
+   "schedule_detail": "연 1회 6월 만기일 +2 영업일 지수변경",
+   "months": [
+    6
+   ],
+   "auto": false,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": null
   },
   {
    "ticker": "466920",
@@ -842,10 +905,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 조선TOP3플러스지수(PR)",
-   "market_cap": 1421023500000,
-   "shares": 52650000,
-   "close": 26990.0,
-   "nav": 27024.37,
+   "market_cap": 1423195000000,
+   "shares": 52750000,
+   "close": 26980.0,
+   "nav": 27031.98,
    "schedule_label": "2·5·8·11월 D+2",
    "schedule_detail": "분기(2·5·8·11월) 만기일 +2 영업일 지수변경",
    "months": [
@@ -871,7 +934,7 @@
     "cap_pct": 25.0,
     "verified": true,
     "count": 2,
-    "total_sell": 8384038650,
+    "total_sell": 8396850500,
     "items": [
      {
       "code": "042660",
@@ -879,7 +942,7 @@
       "weight": 25.49,
       "cap_pct": 25.0,
       "excess_pp": 0.49,
-      "sell_amount": 6963015150
+      "sell_amount": 6973655500
      },
      {
       "code": "010140",
@@ -887,81 +950,10 @@
       "weight": 25.1,
       "cap_pct": 25.0,
       "excess_pp": 0.1,
-      "sell_amount": 1421023500
+      "sell_amount": 1423195000
      }
     ]
    }
-  },
-  {
-   "ticker": "152100",
-   "isin": "KR7152100004",
-   "name": "PLUS 200",
-   "krx_name": "PLUS 200",
-   "manager": "PLUS",
-   "company": "한화자산운용",
-   "color": "#F37021",
-   "category": "시장대표",
-   "is_theme": false,
-   "index_name": "코스피 200",
-   "market_cap": 1383622000000,
-   "shares": 13100000,
-   "close": 105620.0,
-   "nav": 105420.63,
-   "schedule_label": "6·12월 D+1",
-   "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
-   "months": [
-    6,
-    12
-   ],
-   "auto": false,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": null,
-    "index_exception": true,
-    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
-    "verified": true,
-    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": null
-  },
-  {
-   "ticker": "315930",
-   "isin": "KR7315930008",
-   "name": "KODEX Top5PlusTR",
-   "krx_name": "KODEX Top5PlusTR",
-   "manager": "KODEX",
-   "company": "삼성자산운용",
-   "color": "#1428A0",
-   "category": "전략",
-   "is_theme": true,
-   "index_name": "FnGuide TOP 5 Plus Total Return 지수",
-   "market_cap": 1375587500000,
-   "shares": 17500000,
-   "close": 78605.0,
-   "nav": 78731.61,
-   "schedule_label": "6월 D+2, 연 1회",
-   "schedule_detail": "연 1회 6월 만기일 +2 영업일 지수변경",
-   "months": [
-    6
-   ],
-   "auto": false,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": null,
-    "index_exception": true,
-    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
-    "verified": true,
-    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": null
   },
   {
    "ticker": "091230",
@@ -974,10 +966,10 @@
    "category": "섹터",
    "is_theme": true,
    "index_name": "KRX 반도체",
-   "market_cap": 1339596800000,
-   "shares": 10240000,
-   "close": 130820.0,
-   "nav": 130590.47,
+   "market_cap": 1366723200000,
+   "shares": 10160000,
+   "close": 134520.0,
+   "nav": 135336.79,
    "schedule_label": "9월 D+1, 연 1회",
    "schedule_detail": "연 1회 9월 만기일 +1 영업일 지수변경",
    "months": [
@@ -1009,10 +1001,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스닥 150",
-   "market_cap": 1163064000000,
-   "shares": 90160000,
+   "market_cap": 1163322000000,
+   "shares": 90180000,
    "close": 12900.0,
-   "nav": 12904.25,
+   "nav": 12923.46,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
    "months": [
@@ -1045,10 +1037,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide AI반도체 TOP3+ 지수",
-   "market_cap": 1047552000000,
+   "market_cap": 1082148000000,
    "shares": 18600000,
-   "close": 56320.0,
-   "nav": 56436.98,
+   "close": 58180.0,
+   "nav": 58271.31,
    "schedule_label": "3·6·9·12월 D+2~4",
    "schedule_detail": "분기(3·6·9·12월) 만기일 +2~4 영업일 지수변경",
    "months": [
@@ -1069,31 +1061,64 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 25.0,
     "verified": true,
     "count": 2,
-    "total_sell": 29855232000,
+    "total_sell": 41121624000,
     "items": [
      {
       "code": "000660",
       "name": "SK하이닉스",
-      "weight": 26.8,
+      "weight": 27.02,
       "cap_pct": 25.0,
-      "excess_pp": 1.8,
-      "sell_amount": 18855936000
+      "excess_pp": 2.02,
+      "sell_amount": 21859389600
      },
      {
       "code": "005930",
       "name": "삼성전자",
-      "weight": 26.05,
+      "weight": 26.78,
       "cap_pct": 25.0,
-      "excess_pp": 1.05,
-      "sell_amount": 10999296000
+      "excess_pp": 1.78,
+      "sell_amount": 19262234400
      }
     ]
    }
+  },
+  {
+   "ticker": "226490",
+   "isin": "KR7226490001",
+   "name": "KODEX 코스피",
+   "krx_name": "KODEX 코스피",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "코스피",
+   "market_cap": 1021503000000,
+   "shares": 14700000,
+   "close": 69490.0,
+   "nav": 69465.15,
+   "schedule_label": "수시 (고정 정기 종목교체 없음)",
+   "schedule_detail": "유가증권시장 전 종목 지수라 신규상장·상장폐지 등을 수시 반영",
+   "months": [],
+   "auto": false,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": null
   },
   {
    "ticker": "449450",
@@ -1106,10 +1131,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide K-방위산업 지수",
-   "market_cap": 1022550000000,
-   "shares": 20050000,
-   "close": 51000.0,
-   "nav": 50813.37,
+   "market_cap": 1021210350000,
+   "shares": 20010000,
+   "close": 51035.0,
+   "nav": 50934.59,
    "schedule_label": "6·12월 D+2",
    "schedule_detail": "6·12월 만기일 +2 영업일 지수변경",
    "months": [
@@ -1128,20 +1153,20 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 20.0,
     "verified": true,
     "count": 1,
-    "total_sell": 4151553000,
+    "total_sell": 9344074702,
     "items": [
      {
       "code": "012450",
       "name": "한화에어로스페이스",
-      "weight": 20.406,
+      "weight": 20.915,
       "cap_pct": 20.0,
-      "excess_pp": 0.406,
-      "sell_amount": 4151553000
+      "excess_pp": 0.915,
+      "sell_amount": 9344074702
      }
     ]
    }
@@ -1157,10 +1182,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide AI 반도체 소부장 지수",
-   "market_cap": 1018872000000,
-   "shares": 43200000,
-   "close": 23585.0,
-   "nav": 23471.62,
+   "market_cap": 998874000000,
+   "shares": 42200000,
+   "close": 23670.0,
+   "nav": 23598.86,
    "schedule_label": "6·12월 D+2",
    "schedule_detail": "6·12월 만기일 +2 영업일 지수변경",
    "months": [
@@ -1183,39 +1208,6 @@
    "breach_summary": null
   },
   {
-   "ticker": "226490",
-   "isin": "KR7226490001",
-   "name": "KODEX 코스피",
-   "krx_name": "KODEX 코스피",
-   "manager": "KODEX",
-   "company": "삼성자산운용",
-   "color": "#1428A0",
-   "category": "시장대표",
-   "is_theme": false,
-   "index_name": "코스피",
-   "market_cap": 1008078500000,
-   "shares": 14950000,
-   "close": 67430.0,
-   "nav": 67075.68,
-   "schedule_label": "수시 (고정 정기 종목교체 없음)",
-   "schedule_detail": "유가증권시장 전 종목 지수라 신규상장·상장폐지 등을 수시 반영",
-   "months": [],
-   "auto": false,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": null,
-    "index_exception": true,
-    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
-    "verified": true,
-    "note": "기초지수의 시가총액 비중을 그대로 복제한다. 단일종목이 30%를 넘어도 지수 내 비중이면 예외로 허용되며, ETF 차원의 강제 비중조절 대상이 아니다. 비중조절은 지수 정기변경 때 수행."
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": null
-  },
-  {
    "ticker": "495050",
    "isin": "KR7495050007",
    "name": "RISE 코리아밸류업",
@@ -1226,10 +1218,10 @@
    "category": "전략",
    "is_theme": true,
    "index_name": "코리아 밸류업 지수",
-   "market_cap": 945438000000,
-   "shares": 29900000,
-   "close": 31620.0,
-   "nav": 31620.43,
+   "market_cap": 964812000000,
+   "shares": 29600000,
+   "close": 32595.0,
+   "nav": 32580.82,
    "schedule_label": "6월 D+1, 연 1회",
    "schedule_detail": "연 1회 6월 만기일 +1 영업일 지수변경",
    "months": [
@@ -1247,28 +1239,28 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 15.0,
     "verified": true,
     "count": 2,
-    "total_sell": 59657137800,
+    "total_sell": 67536840000,
     "items": [
      {
       "code": "000660",
       "name": "SK하이닉스",
-      "weight": 20.31,
+      "weight": 20.51,
       "cap_pct": 15.0,
-      "excess_pp": 5.31,
-      "sell_amount": 50202757800
+      "excess_pp": 5.51,
+      "sell_amount": 53161141200
      },
      {
       "code": "005930",
       "name": "삼성전자",
-      "weight": 16.0,
+      "weight": 16.49,
       "cap_pct": 15.0,
-      "excess_pp": 1.0,
-      "sell_amount": 9454380000
+      "excess_pp": 1.49,
+      "sell_amount": 14375698800
      }
     ]
    }
@@ -1284,10 +1276,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스피 100",
-   "market_cap": 916155500000,
+   "market_cap": 957040500000,
    "shares": 11050000,
-   "close": 82910.0,
-   "nav": 83303.6,
+   "close": 86610.0,
+   "nav": 86608.47,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "6·12월 선물옵션 만기일(D) 다음 영업일 지수변경 → 통상 효력일 직전 거래일 종가 매매",
    "months": [
@@ -1306,7 +1298,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -1320,10 +1312,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "KEDI 코리아AI전력기기TOP3플러스 지수",
-   "market_cap": 875652000000,
-   "shares": 51600000,
-   "close": 16970.0,
-   "nav": 16935.01,
+   "market_cap": 906249000000,
+   "shares": 51550000,
+   "close": 17580.0,
+   "nav": 17539.69,
    "schedule_label": "6·12월 D+3",
    "schedule_detail": "6·12월 만기일 +3 영업일 지수변경",
    "months": [
@@ -1347,7 +1339,7 @@
     "cap_pct": 25.0,
     "verified": true,
     "count": 1,
-    "total_sell": 700521600,
+    "total_sell": 724999200,
     "items": [
      {
       "code": "298040",
@@ -1355,7 +1347,7 @@
       "weight": 25.08,
       "cap_pct": 25.0,
       "excess_pp": 0.08,
-      "sell_amount": 700521600
+      "sell_amount": 724999200
      }
     ]
    }
@@ -1371,10 +1363,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스피 200 TR",
-   "market_cap": 834405000000,
-   "shares": 21450000,
-   "close": 38900.0,
-   "nav": 38900.59,
+   "market_cap": 873936000000,
+   "shares": 21600000,
+   "close": 40460.0,
+   "nav": 40458.76,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "코스피200 정기변경(6·12월 선물옵션 만기일 다음 거래일)",
    "months": [
@@ -1397,6 +1389,42 @@
    "breach_summary": null
   },
   {
+   "ticker": "069660",
+   "isin": "KR7069660009",
+   "name": "KIWOOM 200",
+   "krx_name": "KIWOOM 200",
+   "manager": "KIWOOM",
+   "company": "키움투자자산운용",
+   "color": "#D6001C",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "코스피 200",
+   "market_cap": 798608000000,
+   "shares": 7400000,
+   "close": 107920.0,
+   "nav": 107931.01,
+   "schedule_label": "6·12월 D+1",
+   "schedule_detail": "코스피200 정기변경(6·12월 선물옵션 만기일 다음 거래일)",
+   "months": [
+    6,
+    12
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": null
+  },
+  {
    "ticker": "466940",
    "isin": "KR7466940004",
    "name": "TIGER 은행고배당플러스TOP10",
@@ -1407,10 +1435,10 @@
    "category": "섹터",
    "is_theme": true,
    "index_name": "FnGuide 은행고배당플러스TOP10 지수(시장가격 지수)",
-   "market_cap": 782593500000,
-   "shares": 29950000,
-   "close": 26130.0,
-   "nav": 26092.13,
+   "market_cap": 786370000000,
+   "shares": 29900000,
+   "close": 26300.0,
+   "nav": 26247.75,
    "schedule_label": "6·12월",
    "schedule_detail": "배당가중; 상업은행 15%·보험/증권 5% 상한. 5·11월말 선정, 6·12월 만기일 D+2 정기변경",
    "months": [
@@ -1434,7 +1462,7 @@
     "cap_pct": 15.0,
     "verified": true,
     "count": 3,
-    "total_sell": 22069136700,
+    "total_sell": 22175634000,
     "items": [
      {
       "code": "105560",
@@ -1442,7 +1470,7 @@
       "weight": 16.77,
       "cap_pct": 15.0,
       "excess_pp": 1.77,
-      "sell_amount": 13851904950
+      "sell_amount": 13918749000
      },
      {
       "code": "086790",
@@ -1450,7 +1478,7 @@
       "weight": 15.76,
       "cap_pct": 15.0,
       "excess_pp": 0.76,
-      "sell_amount": 5947710600
+      "sell_amount": 5976412000
      },
      {
       "code": "055550",
@@ -1458,7 +1486,7 @@
       "weight": 15.29,
       "cap_pct": 15.0,
       "excess_pp": 0.29,
-      "sell_amount": 2269521150
+      "sell_amount": 2280473000
      }
     ]
    }
@@ -1474,10 +1502,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "WISE 2차전지 테마 지수",
-   "market_cap": 770839500000,
+   "market_cap": 777138000000,
    "shares": 48450000,
-   "close": 15910.0,
-   "nav": 16008.74,
+   "close": 16040.0,
+   "nav": 16123.99,
    "schedule_label": "1·4·7·10월",
    "schedule_detail": "연4회 정기변경(1·4·7·10월 옵션 만기일 익일). 시총 상위 4종목 각 15% 고정, 그 외 종목 단순시총가중, 개별종목 15% 실링.",
    "months": [
@@ -1506,7 +1534,7 @@
     "cap_pct": 15.0,
     "verified": true,
     "count": 1,
-    "total_sell": 2235434550,
+    "total_sell": 2253700200,
     "items": [
      {
       "code": "006400",
@@ -1514,46 +1542,10 @@
       "weight": 15.29,
       "cap_pct": 15.0,
       "excess_pp": 0.29,
-      "sell_amount": 2235434550
+      "sell_amount": 2253700200
      }
     ]
    }
-  },
-  {
-   "ticker": "069660",
-   "isin": "KR7069660009",
-   "name": "KIWOOM 200",
-   "krx_name": "KIWOOM 200",
-   "manager": "KIWOOM",
-   "company": "키움투자자산운용",
-   "color": "#D6001C",
-   "category": "시장대표",
-   "is_theme": false,
-   "index_name": "코스피 200",
-   "market_cap": 762342000000,
-   "shares": 7350000,
-   "close": 103720.0,
-   "nav": 103782.67,
-   "schedule_label": "6·12월 D+1",
-   "schedule_detail": "코스피200 정기변경(6·12월 선물옵션 만기일 다음 거래일)",
-   "months": [
-    6,
-    12
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": null,
-    "index_exception": true,
-    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
-    "verified": true,
-    "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": null
   },
   {
    "ticker": "102970",
@@ -1566,10 +1558,10 @@
    "category": "섹터",
    "is_theme": true,
    "index_name": "KRX 증권",
-   "market_cap": 746845000000,
-   "shares": 37000000,
-   "close": 20185.0,
-   "nav": 20169.25,
+   "market_cap": 750546000000,
+   "shares": 36900000,
+   "close": 20340.0,
+   "nav": 20324.58,
    "schedule_label": "6·12월",
    "schedule_detail": "증권 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
    "months": [
@@ -1588,7 +1580,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -1602,10 +1594,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코리아 밸류업 지수",
-   "market_cap": 685283000000,
+   "market_cap": 706320000000,
    "shares": 21800000,
-   "close": 31435.0,
-   "nav": 31436.84,
+   "close": 32400.0,
+   "nav": 32391.35,
    "schedule_label": "6월, 연 1회",
    "schedule_detail": "코리아 밸류업 지수 정기변경(연 1회 6월)",
    "months": [
@@ -1623,28 +1615,87 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 15.0,
     "verified": true,
     "count": 2,
-    "total_sell": 43309885600,
+    "total_sell": 49513032000,
     "items": [
      {
       "code": "000660",
       "name": "SK하이닉스",
-      "weight": 20.33,
+      "weight": 20.54,
       "cap_pct": 15.0,
-      "excess_pp": 5.33,
-      "sell_amount": 36525583900
+      "excess_pp": 5.54,
+      "sell_amount": 39130128000
      },
      {
       "code": "005930",
       "name": "삼성전자",
-      "weight": 15.99,
+      "weight": 16.47,
       "cap_pct": 15.0,
-      "excess_pp": 0.99,
-      "sell_amount": 6784301700
+      "excess_pp": 1.47,
+      "sell_amount": 10382904000
+     }
+    ]
+   }
+  },
+  {
+   "ticker": "367760",
+   "isin": "KR7367760006",
+   "name": "RISE 네트워크인프라",
+   "krx_name": "RISE 네트워크인프라",
+   "manager": "RISE",
+   "company": "KB자산운용",
+   "color": "#F5A623",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "FnGuide 네트워크 인프라 지수",
+   "market_cap": 673216250000,
+   "shares": 11750000,
+   "close": 57295.0,
+   "nav": 57289.53,
+   "schedule_label": "6·12월",
+   "schedule_detail": "5·11월말 종목선정 → 6·12월 선물옵션 만기일 익주 첫 영업일 정기변경(연2회). 종목당 20% 상한",
+   "months": [
+    6,
+    12
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": 0.2,
+    "index_exception": false,
+    "label": "단일종목 20% 상한",
+    "source": "FnGuide Network Infrastructure Index Methodology_Book_KB_(20251106)_v1.3.pdf | '매 개편 시 개별 종목의 비중은 최대 20%가 되도록 실링'; '5월, 11월 말 종목선정…6월, 12월 선물옵션 만기일 익주 첫 영업일에 정기변경'",
+    "verified": true,
+    "note": "5·11월말 종목선정 → 6·12월 선물옵션 만기일 익주 첫 영업일 정기변경(연2회). 종목당 20% 상한"
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": {
+    "cap_pct": 20.0,
+    "verified": true,
+    "count": 2,
+    "total_sell": 40796904750,
+    "items": [
+     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "weight": 23.14,
+      "cap_pct": 20.0,
+      "excess_pp": 3.14,
+      "sell_amount": 21138990250
+     },
+     {
+      "code": "005930",
+      "name": "삼성전자",
+      "weight": 22.92,
+      "cap_pct": 20.0,
+      "excess_pp": 2.92,
+      "sell_amount": 19657914500
      }
     ]
    }
@@ -1660,10 +1711,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "MKF 현대차그룹+ FW",
-   "market_cap": 657919800000,
-   "shares": 13140000,
-   "close": 50070.0,
-   "nav": 50085.44,
+   "market_cap": 664020000000,
+   "shares": 13020000,
+   "close": 51000.0,
+   "nav": 50859.1,
    "schedule_label": "6·12월",
    "schedule_detail": "펀더멘탈 가중, 10~20종목. 단일종목 한도 25%. 정기변경 연 2회(6·12월)",
    "months": [
@@ -1687,7 +1738,7 @@
     "cap_pct": 25.0,
     "verified": true,
     "count": 1,
-    "total_sell": 15000571440,
+    "total_sell": 15139656000,
     "items": [
      {
       "code": "000270",
@@ -1695,66 +1746,7 @@
       "weight": 27.28,
       "cap_pct": 25.0,
       "excess_pp": 2.28,
-      "sell_amount": 15000571440
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "367760",
-   "isin": "KR7367760006",
-   "name": "RISE 네트워크인프라",
-   "krx_name": "RISE 네트워크인프라",
-   "manager": "RISE",
-   "company": "KB자산운용",
-   "color": "#F5A623",
-   "category": "테마",
-   "is_theme": true,
-   "index_name": "FnGuide 네트워크 인프라 지수",
-   "market_cap": 651419000000,
-   "shares": 11800000,
-   "close": 55205.0,
-   "nav": 55050.44,
-   "schedule_label": "6·12월",
-   "schedule_detail": "5·11월말 종목선정 → 6·12월 선물옵션 만기일 익주 첫 영업일 정기변경(연2회). 종목당 20% 상한",
-   "months": [
-    6,
-    12
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": 0.2,
-    "index_exception": false,
-    "label": "단일종목 20% 상한",
-    "source": "FnGuide Network Infrastructure Index Methodology_Book_KB_(20251106)_v1.3.pdf | '매 개편 시 개별 종목의 비중은 최대 20%가 되도록 실링'; '5월, 11월 말 종목선정…6월, 12월 선물옵션 만기일 익주 첫 영업일에 정기변경'",
-    "verified": true,
-    "note": "5·11월말 종목선정 → 6·12월 선물옵션 만기일 익주 첫 영업일 정기변경(연2회). 종목당 20% 상한"
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": {
-    "cap_pct": 20.0,
-    "verified": true,
-    "count": 2,
-    "total_sell": 36544605900,
-    "items": [
-     {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "weight": 23.14,
-      "cap_pct": 20.0,
-      "excess_pp": 3.14,
-      "sell_amount": 20454556600
-     },
-     {
-      "code": "005930",
-      "name": "삼성전자",
-      "weight": 22.47,
-      "cap_pct": 20.0,
-      "excess_pp": 2.47,
-      "sell_amount": 16090049300
+      "sell_amount": 15139656000
      }
     ]
    }
@@ -1770,10 +1762,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "KRX ESG 사회책임경영지수(S)",
-   "market_cap": 638291500000,
-   "shares": 14050000,
-   "close": 45430.0,
-   "nav": 45479.58,
+   "market_cap": 660590000000,
+   "shares": 14000000,
+   "close": 47185.0,
+   "nav": 47355.87,
    "schedule_label": "12월",
    "schedule_detail": "한국ESG기준원 사회(S)점수 우수 종목(KRX BMI 유니버스, ~120종목), 유동시가총액 가중. 개별종목 Cap 27%. 정기변경 연 1회(매년 12월 두 번째 금요일)",
    "months": [
@@ -1791,28 +1783,28 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 27.0,
     "verified": true,
     "count": 2,
-    "total_sell": 26297609800,
+    "total_sell": 30585317000,
     "items": [
      {
       "code": "000660",
       "name": "SK하이닉스",
-      "weight": 30.8,
+      "weight": 30.78,
       "cap_pct": 27.0,
-      "excess_pp": 3.8,
-      "sell_amount": 24255077000
+      "excess_pp": 3.78,
+      "sell_amount": 24970302000
      },
      {
       "code": "005930",
       "name": "삼성전자",
-      "weight": 27.32,
+      "weight": 27.85,
       "cap_pct": 27.0,
-      "excess_pp": 0.32,
-      "sell_amount": 2042532800
+      "excess_pp": 0.85,
+      "sell_amount": 5615015000
      }
     ]
    }
@@ -1828,10 +1820,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "iSelect 원자력지수 (시장가격)",
-   "market_cap": 610800000000,
+   "market_cap": 631080000000,
    "shares": 12000000,
-   "close": 50900.0,
-   "nav": 50977.35,
+   "close": 52590.0,
+   "nav": 52519.0,
    "schedule_label": "6·12월",
    "schedule_detail": "개별종목 25% 실링(2025.12 개정 15종목). 정기변경 연 2회(6·12월 코스피200 선물만기 4영업일 후)",
    "months": [
@@ -1850,7 +1842,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -1864,10 +1856,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "KRX 2차전지 TOP 10 지수",
-   "market_cap": 567778750000,
-   "shares": 65450000,
-   "close": 8675.0,
-   "nav": 8687.6,
+   "market_cap": 581130000000,
+   "shares": 66000000,
+   "close": 8805.0,
+   "nav": 8792.93,
    "schedule_label": "3·9월",
    "schedule_detail": "반기 정기변경(3월·9월 선물옵션 만기일 익영업일). K-뉴딜 TOP10 방식: 시총 상위 3종목 각 25%(합75%) 고정, 나머지 7종목 유동시총가중으로 25% 배분. 개별종목 Cap 25%.",
    "months": [
@@ -1894,7 +1886,7 @@
     "cap_pct": 25.0,
     "verified": true,
     "count": 1,
-    "total_sell": 30149051625,
+    "total_sell": 30858003000,
     "items": [
      {
       "code": "006400",
@@ -1902,7 +1894,7 @@
       "weight": 30.31,
       "cap_pct": 25.0,
       "excess_pp": 5.31,
-      "sell_amount": 30149051625
+      "sell_amount": 30858003000
      }
     ]
    }
@@ -1918,10 +1910,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "KRX-Akros AI 전력인프라 지수",
-   "market_cap": 530625000000,
-   "shares": 31250000,
-   "close": 16980.0,
-   "nav": 16935.38,
+   "market_cap": 540764000000,
+   "shares": 31150000,
+   "close": 17360.0,
+   "nav": 17433.47,
    "schedule_label": "3·6·9·12월",
    "schedule_detail": "분기 정기변경(3·6·9·12월, 선물만기 D+10 리밸런싱). 전력인프라 유니버스에서 LLM 키워드 스코어 상위 15종목. 개별종목 편입한도(Cap) 15%.",
    "months": [
@@ -1942,7 +1934,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -1956,10 +1948,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "iSelect 조선TOP10 Index(PR)",
-   "market_cap": 529910500000,
+   "market_cap": 532048250000,
    "shares": 25150000,
-   "close": 21070.0,
-   "nav": 21180.45,
+   "close": 21155.0,
+   "nav": 21103.43,
    "schedule_label": "6·12월",
    "schedule_detail": "시가총액 가중, 최대 10종목. 정기변경 연 2회(6·12월)",
    "months": [
@@ -1992,10 +1984,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 코리아 고배당 지수(PR)",
-   "market_cap": 523284250000,
-   "shares": 41350000,
-   "close": 12655.0,
-   "nav": 12666.6,
+   "market_cap": 524493750000,
+   "shares": 41250000,
+   "close": 12715.0,
+   "nav": 12739.51,
    "schedule_label": "5·11월",
    "schedule_detail": "기본 상한 5%, 조건 충족 시 최대 7%. 4·10월말 선정, 5·11월 만기일 D+2 정기변경",
    "months": [
@@ -2019,7 +2011,7 @@
     "cap_pct": 5.0,
     "verified": true,
     "count": 5,
-    "total_sell": 18838233000,
+    "total_sell": 18881775000,
     "items": [
      {
       "code": "000810",
@@ -2027,7 +2019,7 @@
       "weight": 6.27,
       "cap_pct": 5.0,
       "excess_pp": 1.27,
-      "sell_amount": 6645709975
+      "sell_amount": 6661070625
      },
      {
       "code": "105560",
@@ -2035,7 +2027,7 @@
       "weight": 5.84,
       "cap_pct": 5.0,
       "excess_pp": 0.84,
-      "sell_amount": 4395587700
+      "sell_amount": 4405747500
      },
      {
       "code": "086790",
@@ -2043,7 +2035,7 @@
       "weight": 5.73,
       "cap_pct": 5.0,
       "excess_pp": 0.73,
-      "sell_amount": 3819975025
+      "sell_amount": 3828804375
      },
      {
       "code": "055550",
@@ -2051,7 +2043,7 @@
       "weight": 5.61,
       "cap_pct": 5.0,
       "excess_pp": 0.61,
-      "sell_amount": 3192033925
+      "sell_amount": 3199411875
      },
      {
       "code": "316140",
@@ -2059,7 +2051,65 @@
       "weight": 5.15,
       "cap_pct": 5.0,
       "excess_pp": 0.15,
-      "sell_amount": 784926375
+      "sell_amount": 786740625
+     }
+    ]
+   }
+  },
+  {
+   "ticker": "315960",
+   "isin": "KR7315960005",
+   "name": "RISE 대형고배당10TR",
+   "krx_name": "RISE 대형고배당10TR",
+   "manager": "RISE",
+   "company": "KB자산운용",
+   "color": "#F5A623",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "WISE 대형고배당10 TR 지수",
+   "market_cap": 523215000000,
+   "shares": 6600000,
+   "close": 79275.0,
+   "nav": 79141.09,
+   "schedule_label": "5월",
+   "schedule_detail": "연1회 정기변경(5월 선물옵션 만기일 익주 두번째 영업일). [유동시총×현금배당총액] 스코어 상위 10종목, 스코어 비중방식, 개별종목 25% 캡.",
+   "months": [
+    5
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": 0.25,
+    "index_exception": false,
+    "label": "단일종목 25% 상한",
+    "source": "WISEfn/FnGuide 방법론 PDF: '상위 10종목을 스코어 비중방식으로 산출… 상한 초과 종목에 25% 캡 적용' / '정기변경은 5월 선물옵션 만기일 익주 두번째 영업일'",
+    "verified": true,
+    "note": "연1회 정기변경(5월 선물옵션 만기일 익주 두번째 영업일). [유동시총×현금배당총액] 스코어 상위 10종목, 스코어 비중방식, 개별종목 25% 캡."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": {
+    "cap_pct": 25.0,
+    "verified": true,
+    "count": 2,
+    "total_sell": 18469489500,
+    "items": [
+     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "weight": 27.47,
+      "cap_pct": 25.0,
+      "excess_pp": 2.47,
+      "sell_amount": 12923410500
+     },
+     {
+      "code": "005930",
+      "name": "삼성전자",
+      "weight": 26.06,
+      "cap_pct": 25.0,
+      "excess_pp": 1.06,
+      "sell_amount": 5546079000
      }
     ]
    }
@@ -2075,10 +2125,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "iSelect K방산&우주",
-   "market_cap": 520822500000,
-   "shares": 16050000,
-   "close": 32450.0,
-   "nav": 32534.6,
+   "market_cap": 520800000000,
+   "shares": 16000000,
+   "close": 32550.0,
+   "nav": 32635.25,
    "schedule_label": "1·4·7·10월",
    "schedule_detail": "유동시가총액 가중. 정기변경 연 4회(1·4·7·10월)",
    "months": [
@@ -2103,64 +2153,6 @@
    "breach_summary": null
   },
   {
-   "ticker": "315960",
-   "isin": "KR7315960005",
-   "name": "RISE 대형고배당10TR",
-   "krx_name": "RISE 대형고배당10TR",
-   "manager": "RISE",
-   "company": "KB자산운용",
-   "color": "#F5A623",
-   "category": "테마",
-   "is_theme": true,
-   "index_name": "WISE 대형고배당10 TR 지수",
-   "market_cap": 512550000000,
-   "shares": 6700000,
-   "close": 76500.0,
-   "nav": 76358.31,
-   "schedule_label": "5월",
-   "schedule_detail": "연1회 정기변경(5월 선물옵션 만기일 익주 두번째 영업일). [유동시총×현금배당총액] 스코어 상위 10종목, 스코어 비중방식, 개별종목 25% 캡.",
-   "months": [
-    5
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": 0.25,
-    "index_exception": false,
-    "label": "단일종목 25% 상한",
-    "source": "WISEfn/FnGuide 방법론 PDF: '상위 10종목을 스코어 비중방식으로 산출… 상한 초과 종목에 25% 캡 적용' / '정기변경은 5월 선물옵션 만기일 익주 두번째 영업일'",
-    "verified": true,
-    "note": "연1회 정기변경(5월 선물옵션 만기일 익주 두번째 영업일). [유동시총×현금배당총액] 스코어 상위 10종목, 스코어 비중방식, 개별종목 25% 캡."
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": {
-    "cap_pct": 25.0,
-    "verified": true,
-    "count": 2,
-    "total_sell": 14351400000,
-    "items": [
-     {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "weight": 27.35,
-      "cap_pct": 25.0,
-      "excess_pp": 2.35,
-      "sell_amount": 12044925000
-     },
-     {
-      "code": "005930",
-      "name": "삼성전자",
-      "weight": 25.45,
-      "cap_pct": 25.0,
-      "excess_pp": 0.45,
-      "sell_amount": 2306475000
-     }
-    ]
-   }
-  },
-  {
    "ticker": "496080",
    "isin": "KR7496080003",
    "name": "TIGER 코리아밸류업",
@@ -2171,10 +2163,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코리아 밸류업 지수",
-   "market_cap": 499275000000,
+   "market_cap": 513540000000,
    "shares": 15850000,
-   "close": 31500.0,
-   "nav": 31481.68,
+   "close": 32400.0,
+   "nav": 32425.62,
    "schedule_label": "6월, 연 1회",
    "schedule_detail": "코리아 밸류업 지수 정기변경(연 1회 6월)",
    "months": [
@@ -2197,7 +2189,7 @@
     "cap_pct": 15.0,
     "verified": true,
     "count": 2,
-    "total_sell": 29906572500,
+    "total_sell": 30761046000,
     "items": [
      {
       "code": "000660",
@@ -2205,7 +2197,7 @@
       "weight": 20.15,
       "cap_pct": 15.0,
       "excess_pp": 5.15,
-      "sell_amount": 25712662500
+      "sell_amount": 26447310000
      },
      {
       "code": "005930",
@@ -2213,7 +2205,7 @@
       "weight": 15.84,
       "cap_pct": 15.0,
       "excess_pp": 0.84,
-      "sell_amount": 4193910000
+      "sell_amount": 4313736000
      }
     ]
    }
@@ -2229,10 +2221,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스피 200",
-   "market_cap": 484669500000,
+   "market_cap": 504315750000,
    "shares": 4650000,
-   "close": 104230.0,
-   "nav": 104168.48,
+   "close": 108455.0,
+   "nav": 108296.25,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "코스피200 정기변경(6·12월 선물옵션 만기일 다음 거래일)",
    "months": [
@@ -2251,7 +2243,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -2265,10 +2257,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "KEDI 현대차고정피지컬AI 지수",
-   "market_cap": 477015000000,
-   "shares": 59000000,
-   "close": 8085.0,
-   "nav": 8082.36,
+   "market_cap": 483138000000,
+   "shares": 58350000,
+   "close": 8280.0,
+   "nav": 8285.45,
    "schedule_label": "1·4·7·10월",
    "schedule_detail": "현대차(005380) 25% 고정 + 나머지 14종목 시총가중(동일종목 25% 상한). 비중결정 1·4·7·10월 말·수행 D+3",
    "months": [
@@ -2289,7 +2281,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -2303,10 +2295,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스피 200 TR",
-   "market_cap": 471800000000,
-   "shares": 8000000,
-   "close": 58975.0,
-   "nav": 58930.61,
+   "market_cap": 474145000000,
+   "shares": 7750000,
+   "close": 61180.0,
+   "nav": 61322.32,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "코스피200 정기변경(6·12월 선물옵션 만기일 다음 거래일)",
    "months": [
@@ -2325,7 +2317,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -2339,10 +2331,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "KEDI 코리아 휴머노이드로봇산업 지수 (PR)",
-   "market_cap": 454572000000,
-   "shares": 62100000,
-   "close": 7320.0,
-   "nav": 7307.37,
+   "market_cap": 473771000000,
+   "shares": 61850000,
+   "close": 7660.0,
+   "nav": 7671.79,
    "schedule_label": "1·4·7·10월",
    "schedule_detail": "편입점수 상위 최대 15종목, 동일종목 25% 상한. 정기변경 1·4·7·10월 옵션만기일",
    "months": [
@@ -2377,10 +2369,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "iSelect 코리아 원자력 지수 (Price Return)",
-   "market_cap": 447693750000,
-   "shares": 33750000,
-   "close": 13265.0,
-   "nav": 13286.58,
+   "market_cap": 459342000000,
+   "shares": 33800000,
+   "close": 13590.0,
+   "nav": 13595.2,
    "schedule_label": "1·4·7·10월",
    "schedule_detail": "유동시가총액 가중(Cap 25%), 10~20종목. 정기변경 연 4회(1·4·7·10월)",
    "months": [
@@ -2406,7 +2398,7 @@
     "cap_pct": 25.0,
     "verified": true,
     "count": 1,
-    "total_sell": 1253542500,
+    "total_sell": 1286157600,
     "items": [
      {
       "code": "000720",
@@ -2414,7 +2406,7 @@
       "weight": 25.28,
       "cap_pct": 25.0,
       "excess_pp": 0.28,
-      "sell_amount": 1253542500
+      "sell_amount": 1286157600
      }
     ]
    }
@@ -2430,10 +2422,10 @@
    "category": "섹터",
    "is_theme": true,
    "index_name": "FnGuide 2차전지소재 (Price Return) 지수",
-   "market_cap": 447312500000,
-   "shares": 106250000,
-   "close": 4210.0,
-   "nav": 4216.82,
+   "market_cap": 452838000000,
+   "shares": 106300000,
+   "close": 4260.0,
+   "nav": 4257.08,
    "schedule_label": "1·4·7·10월",
    "schedule_detail": "3·6·9·12월말 종목선정 → 1·4·7·10월 옵션 만기일 D+2 정기변경(분기). 매출 50%↑ 유동시총 상위3종목 각 20%, 나머지도 20% 상한",
    "months": [
@@ -2462,7 +2454,7 @@
     "cap_pct": 20.0,
     "verified": true,
     "count": 2,
-    "total_sell": 2236562500,
+    "total_sell": 2264190000,
     "items": [
      {
       "code": "247540",
@@ -2470,7 +2462,7 @@
       "weight": 20.45,
       "cap_pct": 20.0,
       "excess_pp": 0.45,
-      "sell_amount": 2012906250
+      "sell_amount": 2037771000
      },
      {
       "code": "086520",
@@ -2478,7 +2470,7 @@
       "weight": 20.05,
       "cap_pct": 20.0,
       "excess_pp": 0.05,
-      "sell_amount": 223656250
+      "sell_amount": 226419000
      }
     ]
    }
@@ -2494,10 +2486,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스피",
-   "market_cap": 426750000000,
-   "shares": 6250000,
-   "close": 68280.0,
-   "nav": 67996.92,
+   "market_cap": 425980500000,
+   "shares": 6050000,
+   "close": 70410.0,
+   "nav": 70414.53,
    "schedule_label": "수시",
    "schedule_detail": "유가증권시장 전 종목 지수 — 신규상장·상장폐지 수시 반영",
    "months": [],
@@ -2527,10 +2519,10 @@
    "category": "섹터",
    "is_theme": true,
    "index_name": "KRX 자동차",
-   "market_cap": 411220000000,
+   "market_cap": 417092500000,
    "shares": 14500000,
-   "close": 28360.0,
-   "nav": 28415.74,
+   "close": 28765.0,
+   "nav": 28759.81,
    "schedule_label": "6·12월",
    "schedule_detail": "자동차 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
    "months": [
@@ -2549,7 +2541,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -2563,10 +2555,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "iSelect AI 반도체핵심장비 지수",
-   "market_cap": 358449250000,
-   "shares": 16150000,
-   "close": 22195.0,
-   "nav": 22114.68,
+   "market_cap": 364812500000,
+   "shares": 16250000,
+   "close": 22450.0,
+   "nav": 22447.66,
    "schedule_label": "6·12월",
    "schedule_detail": "개별종목 20% 실링. 정기변경 연 2회(6·12월 옵션만기일 익주 첫 영업일)",
    "months": [
@@ -2585,20 +2577,20 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 20.0,
     "verified": true,
     "count": 1,
-    "total_sell": 3978786675,
+    "total_sell": 3575162500,
     "items": [
      {
       "code": "042700",
       "name": "한미반도체",
-      "weight": 21.11,
+      "weight": 20.98,
       "cap_pct": 20.0,
-      "excess_pp": 1.11,
-      "sell_amount": 3978786675
+      "excess_pp": 0.98,
+      "sell_amount": 3575162500
      }
     ]
    }
@@ -2614,10 +2606,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 반도체 전공정 지수(PR)",
-   "market_cap": 345540000000,
-   "shares": 15600000,
-   "close": 22150.0,
-   "nav": 22242.27,
+   "market_cap": 341367750000,
+   "shares": 15450000,
+   "close": 22095.0,
+   "nav": 22009.69,
    "schedule_label": "6·12월",
    "schedule_detail": "유동시총 가중. 5·11월말 종목선정 → 6·12월 선물옵션 만기일 D+2 정기변경(연2회). 종목당 20% 상한, 30%→25% 수시변경",
    "months": [
@@ -2640,42 +2632,6 @@
    "breach_summary": null
   },
   {
-   "ticker": "091170",
-   "isin": "KR7091170001",
-   "name": "KODEX 은행",
-   "krx_name": "KODEX 은행",
-   "manager": "KODEX",
-   "company": "삼성자산운용",
-   "color": "#1428A0",
-   "category": "섹터",
-   "is_theme": true,
-   "index_name": "KRX 은행",
-   "market_cap": 337498500000,
-   "shares": 21300000,
-   "close": 15845.0,
-   "nav": 15821.93,
-   "schedule_label": "6·12월",
-   "schedule_detail": "은행 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
-   "months": [
-    6,
-    12
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": null,
-    "index_exception": true,
-    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-    "source": "KRX 섹터지수 공통 방법론(유동시총가중, 캡 없음); KRX 정기변경 프레임워크 6/12월",
-    "verified": true,
-    "note": "시가총액 가중 복제 — 별도 단일종목 상한 없음."
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": null
-  },
-  {
    "ticker": "484880",
    "isin": "KR7484880000",
    "name": "SOL 금융지주플러스고배당",
@@ -2686,10 +2642,10 @@
    "category": "섹터",
    "is_theme": true,
    "index_name": "FnGuide 금융지주플러스고배당 지수(PR)",
-   "market_cap": 335496750000,
+   "market_cap": 339814500000,
    "shares": 15150000,
-   "close": 22145.0,
-   "nav": 22162.22,
+   "close": 22430.0,
+   "nav": 22443.42,
    "schedule_label": "4·10월",
    "schedule_detail": "연2회, 3·9월말 종목선정 → 4·10월 선물옵션 만기일 D+2 정기변경. 금융지주 유니버스 20%, 일반 금융 유니버스 5% 상한(+정기변경 25% 실링, 30%→25% 수시변경)",
    "months": [
@@ -2716,7 +2672,7 @@
     "cap_pct": 20.0,
     "verified": true,
     "count": 3,
-    "total_sell": 9461008350,
+    "total_sell": 9582768900,
     "items": [
      {
       "code": "105560",
@@ -2724,7 +2680,7 @@
       "weight": 21.27,
       "cap_pct": 20.0,
       "excess_pp": 1.27,
-      "sell_amount": 4260808725
+      "sell_amount": 4315644150
      },
      {
       "code": "086790",
@@ -2732,7 +2688,7 @@
       "weight": 20.87,
       "cap_pct": 20.0,
       "excess_pp": 0.87,
-      "sell_amount": 2918821725
+      "sell_amount": 2956386150
      },
      {
       "code": "055550",
@@ -2740,28 +2696,28 @@
       "weight": 20.68,
       "cap_pct": 20.0,
       "excess_pp": 0.68,
-      "sell_amount": 2281377900
+      "sell_amount": 2310738600
      }
     ]
    }
   },
   {
-   "ticker": "0080G0",
-   "isin": "KR70080G0009",
-   "name": "KODEX 방산TOP10",
-   "krx_name": "KODEX 방산TOP10",
+   "ticker": "091170",
+   "isin": "KR7091170001",
+   "name": "KODEX 은행",
+   "krx_name": "KODEX 은행",
    "manager": "KODEX",
    "company": "삼성자산운용",
    "color": "#1428A0",
-   "category": "테마",
+   "category": "섹터",
    "is_theme": true,
-   "index_name": "iSelect 방산 TOP10 지수(Price Return)",
-   "market_cap": 333067500000,
-   "shares": 33900000,
-   "close": 9825.0,
-   "nav": 9877.99,
+   "index_name": "KRX 은행",
+   "market_cap": 339678500000,
+   "shares": 21350000,
+   "close": 15910.0,
+   "nav": 15974.34,
    "schedule_label": "6·12월",
-   "schedule_detail": "스코어 상위 10종목, 개별 20% 실링. 정기변경 연 2회(6·12월 옵션만기일 익주 첫 영업일)",
+   "schedule_detail": "은행 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
    "months": [
     6,
     12
@@ -2769,40 +2725,17 @@
    "auto": true,
    "schedule_verified": true,
    "cap": {
-    "single_cap": 0.2,
-    "index_exception": false,
-    "label": "단일종목 20% 상한",
-    "source": "KODEX 방산TOP10 방법론: '개별 종목 20% 실링 · 스코어 상위 10종목 · 6·12월 익주 첫 영업일'",
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "KRX 섹터지수 공통 방법론(유동시총가중, 캡 없음); KRX 정기변경 프레임워크 6/12월",
     "verified": true,
-    "note": "스코어 상위 10종목, 개별 20% 실링. 정기변경 연 2회(6·12월 옵션만기일 익주 첫 영업일)"
+    "note": "시가총액 가중 복제 — 별도 단일종목 상한 없음."
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": {
-    "cap_pct": 20.0,
-    "verified": true,
-    "count": 2,
-    "total_sell": 13089552750,
-    "items": [
-     {
-      "code": "047810",
-      "name": "한국항공우주",
-      "weight": 23.72,
-      "cap_pct": 20.0,
-      "excess_pp": 3.72,
-      "sell_amount": 12390111000
-     },
-     {
-      "code": "012450",
-      "name": "한화에어로스페이스",
-      "weight": 20.21,
-      "cap_pct": 20.0,
-      "excess_pp": 0.21,
-      "sell_amount": 699441750
-     }
-    ]
-   }
+   "holdings_asof": "2026-07-22",
+   "breach_summary": null
   },
   {
    "ticker": "310960",
@@ -2815,10 +2748,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스피 200 TR",
-   "market_cap": 315848000000,
-   "shares": 5200000,
-   "close": 60740.0,
-   "nav": 60552.77,
+   "market_cap": 333105000000,
+   "shares": 5300000,
+   "close": 62850.0,
+   "nav": 62993.66,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "코스피200 정기변경(6·12월 선물옵션 만기일 다음 거래일)",
    "months": [
@@ -2841,22 +2774,22 @@
    "breach_summary": null
   },
   {
-   "ticker": "279530",
-   "isin": "KR7279530000",
-   "name": "KODEX 고배당주",
-   "krx_name": "KODEX 고배당주",
+   "ticker": "0080G0",
+   "isin": "KR70080G0009",
+   "name": "KODEX 방산TOP10",
+   "krx_name": "KODEX 방산TOP10",
    "manager": "KODEX",
    "company": "삼성자산운용",
    "color": "#1428A0",
    "category": "테마",
    "is_theme": true,
-   "index_name": "FnGuide 고배당 Plus 지수",
-   "market_cap": 314769000000,
-   "shares": 18200000,
-   "close": 17295.0,
-   "nav": 17289.9,
+   "index_name": "iSelect 방산 TOP10 지수(Price Return)",
+   "market_cap": 331968000000,
+   "shares": 33600000,
+   "close": 9880.0,
+   "nav": 9907.12,
    "schedule_label": "6·12월",
-   "schedule_detail": "최대 50종목 예상배당수익률 가중. 5·11월말 평가 → 6·12월 선물옵션 만기 익주 첫 영업일 적용(연2회). 30% 초과 시 27% 수시조정",
+   "schedule_detail": "스코어 상위 10종목, 개별 20% 실링. 정기변경 연 2회(6·12월 옵션만기일 익주 첫 영업일)",
    "months": [
     6,
     12
@@ -2864,17 +2797,40 @@
    "auto": true,
    "schedule_verified": true,
    "cap": {
-    "single_cap": 0.3,
+    "single_cap": 0.2,
     "index_exception": false,
-    "label": "단일종목 30% 상한",
-    "source": "FnGuide_High_Dividend_Plus_Methodology_Book_삼성_v1.8.pdf | '비중이 30%를 초과하는 개별종목은 27%로 조정'; '5, 11월말 평가일로 종목선정, 6, 12월 선물옵션 만기일 익주 첫번째 영업일(D)부터 적용'",
+    "label": "단일종목 20% 상한",
+    "source": "KODEX 방산TOP10 방법론: '개별 종목 20% 실링 · 스코어 상위 10종목 · 6·12월 익주 첫 영업일'",
     "verified": true,
-    "note": "최대 50종목 예상배당수익률 가중. 5·11월말 평가 → 6·12월 선물옵션 만기 익주 첫 영업일 적용(연2회). 30% 초과 시 27% 수시조정"
+    "note": "스코어 상위 10종목, 개별 20% 실링. 정기변경 연 2회(6·12월 옵션만기일 익주 첫 영업일)"
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": null
+   "holdings_asof": "2026-07-22",
+   "breach_summary": {
+    "cap_pct": 20.0,
+    "verified": true,
+    "count": 2,
+    "total_sell": 13710278400,
+    "items": [
+     {
+      "code": "047810",
+      "name": "한국항공우주",
+      "weight": 23.42,
+      "cap_pct": 20.0,
+      "excess_pp": 3.42,
+      "sell_amount": 11353305600
+     },
+     {
+      "code": "012450",
+      "name": "한화에어로스페이스",
+      "weight": 20.71,
+      "cap_pct": 20.0,
+      "excess_pp": 0.71,
+      "sell_amount": 2356972800
+     }
+    ]
+   }
   },
   {
    "ticker": "469070",
@@ -2887,10 +2843,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "iSelect AI&로봇 지수(시장가격)",
-   "market_cap": 299727000000,
+   "market_cap": 314093000000,
    "shares": 32650000,
-   "close": 9180.0,
-   "nav": 9167.87,
+   "close": 9620.0,
+   "nav": 9597.04,
    "schedule_label": "3·6·9·12월",
    "schedule_detail": "개별종목 7% 실링(구성난시 10%). 정기변경 분기(3·6·9·12월 옵션만기 2영업일 후)",
    "months": [
@@ -2911,41 +2867,41 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 7.0,
     "verified": true,
     "count": 1,
-    "total_sell": 419617800,
+    "total_sell": 251274400,
     "items": [
      {
       "code": "035420",
       "name": "NAVER",
-      "weight": 7.14,
+      "weight": 7.08,
       "cap_pct": 7.0,
-      "excess_pp": 0.14,
-      "sell_amount": 419617800
+      "excess_pp": 0.08,
+      "sell_amount": 251274400
      }
     ]
    }
   },
   {
-   "ticker": "270810",
-   "isin": "KR7270810005",
-   "name": "RISE 코스닥150",
-   "krx_name": "RISE 코스닥150",
-   "manager": "RISE",
-   "company": "KB자산운용",
-   "color": "#F5A623",
-   "category": "시장대표",
-   "is_theme": false,
-   "index_name": "코스닥 150",
-   "market_cap": 287531400000,
-   "shares": 22920000,
-   "close": 12545.0,
-   "nav": 12593.26,
-   "schedule_label": "6·12월 D+1",
-   "schedule_detail": "코스닥150 정기변경(6·12월)",
+   "ticker": "279530",
+   "isin": "KR7279530000",
+   "name": "KODEX 고배당주",
+   "krx_name": "KODEX 고배당주",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "FnGuide 고배당 Plus 지수",
+   "market_cap": 313859000000,
+   "shares": 18200000,
+   "close": 17245.0,
+   "nav": 17249.9,
+   "schedule_label": "6·12월",
+   "schedule_detail": "최대 50종목 예상배당수익률 가중. 5·11월말 평가 → 6·12월 선물옵션 만기 익주 첫 영업일 적용(연2회). 30% 초과 시 27% 수시조정",
    "months": [
     6,
     12
@@ -2953,16 +2909,16 @@
    "auto": true,
    "schedule_verified": true,
    "cap": {
-    "single_cap": null,
-    "index_exception": true,
-    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "single_cap": 0.3,
+    "index_exception": false,
+    "label": "단일종목 30% 상한",
+    "source": "FnGuide_High_Dividend_Plus_Methodology_Book_삼성_v1.8.pdf | '비중이 30%를 초과하는 개별종목은 27%로 조정'; '5, 11월말 평가일로 종목선정, 6, 12월 선물옵션 만기일 익주 첫번째 영업일(D)부터 적용'",
     "verified": true,
-    "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
+    "note": "최대 50종목 예상배당수익률 가중. 5·11월말 평가 → 6·12월 선물옵션 만기 익주 첫 영업일 적용(연2회). 30% 초과 시 27% 수시조정"
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -2976,10 +2932,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "KRX K-AI 반도체TOP2+ 지수",
-   "market_cap": 285000000000,
-   "shares": 40000000,
-   "close": 7125.0,
-   "nav": 7106.91,
+   "market_cap": 301826250000,
+   "shares": 40650000,
+   "close": 7425.0,
+   "nav": 7411.16,
    "schedule_label": "3·6·9·12월",
    "schedule_detail": "총 10종목. 시장대표 2종목(삼성전자·SK하이닉스) 각 25% 고정, 테마 유사도 상위 8종목은 종합점수(키워드30%+유동시총70%) 가중(개별 최대 20%·최소 0.5%). 정기변경 분기(기준일 3·6·9·12월 말 영업일, 변경일 D+10)",
    "months": [
@@ -3003,7 +2959,43 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
+   "breach_summary": null
+  },
+  {
+   "ticker": "270810",
+   "isin": "KR7270810005",
+   "name": "RISE 코스닥150",
+   "krx_name": "RISE 코스닥150",
+   "manager": "RISE",
+   "company": "KB자산운용",
+   "color": "#F5A623",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "코스닥 150",
+   "market_cap": 288448200000,
+   "shares": 22920000,
+   "close": 12585.0,
+   "nav": 12610.86,
+   "schedule_label": "6·12월 D+1",
+   "schedule_detail": "코스닥150 정기변경(6·12월)",
+   "months": [
+    6,
+    12
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -3017,10 +3009,10 @@
    "category": "섹터",
    "is_theme": true,
    "index_name": "FnGuide 증권 지수",
-   "market_cap": 279362900000,
-   "shares": 19820000,
-   "close": 14095.0,
-   "nav": 14152.24,
+   "market_cap": 278211600000,
+   "shares": 19620000,
+   "close": 14180.0,
+   "nav": 14268.42,
    "schedule_label": "6·12월",
    "schedule_detail": "6·12월 선물옵션 만기주 다음주 첫 영업일 정기변경(섹터 커버리지 시리즈)",
    "months": [
@@ -3044,7 +3036,7 @@
     "cap_pct": 25.0,
     "verified": true,
     "count": 1,
-    "total_sell": 5447576550,
+    "total_sell": 5425126200,
     "items": [
      {
       "code": "071050",
@@ -3052,7 +3044,7 @@
       "weight": 26.95,
       "cap_pct": 25.0,
       "excess_pp": 1.95,
-      "sell_amount": 5447576550
+      "sell_amount": 5425126200
      }
     ]
    }
@@ -3068,10 +3060,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 지주회사 지수",
-   "market_cap": 270767500000,
-   "shares": 13850000,
-   "close": 19550.0,
-   "nav": 19587.89,
+   "market_cap": 268899750000,
+   "shares": 13550000,
+   "close": 19845.0,
+   "nav": 19841.68,
    "schedule_label": "2·8월",
    "schedule_detail": "1·7월말 평가 선정, 2·8월 만기일 다음주 첫 영업일 정기변경(반기)",
    "months": [
@@ -3095,7 +3087,7 @@
     "cap_pct": 8.0,
     "verified": true,
     "count": 5,
-    "total_sell": 21553093000,
+    "total_sell": 21404420100,
     "items": [
      {
       "code": "034730",
@@ -3103,7 +3095,7 @@
       "weight": 13.36,
       "cap_pct": 8.0,
       "excess_pp": 5.36,
-      "sell_amount": 14513138000
+      "sell_amount": 14413026600
      },
      {
       "code": "000150",
@@ -3111,7 +3103,7 @@
       "weight": 10.01,
       "cap_pct": 8.0,
       "excess_pp": 2.01,
-      "sell_amount": 5442426750
+      "sell_amount": 5404884975
      },
      {
       "code": "028260",
@@ -3119,7 +3111,7 @@
       "weight": 8.48,
       "cap_pct": 8.0,
       "excess_pp": 0.48,
-      "sell_amount": 1299684000
+      "sell_amount": 1290718800
      },
      {
       "code": "003550",
@@ -3127,7 +3119,7 @@
       "weight": 8.09,
       "cap_pct": 8.0,
       "excess_pp": 0.09,
-      "sell_amount": 243690750
+      "sell_amount": 242009775
      },
      {
       "code": "180640",
@@ -3135,7 +3127,7 @@
       "weight": 8.02,
       "cap_pct": 8.0,
       "excess_pp": 0.02,
-      "sell_amount": 54153500
+      "sell_amount": 53779950
      }
     ]
    }
@@ -3151,10 +3143,10 @@
    "category": "섹터",
    "is_theme": true,
    "index_name": "FnGuide 자동차TOP3플러스지수(PR)",
-   "market_cap": 257750000000,
-   "shares": 10000000,
-   "close": 25775.0,
-   "nav": 25835.58,
+   "market_cap": 254819000000,
+   "shares": 9700000,
+   "close": 26270.0,
+   "nav": 26402.55,
    "schedule_label": "6·12월",
    "schedule_detail": "자동차 TOP3 각 25%, 플러스 10종목 각 10%. 5·11월말 선정, 6·12월 만기일 D+2 정기변경",
    "months": [
@@ -3181,7 +3173,7 @@
     "cap_pct": 25.0,
     "verified": true,
     "count": 2,
-    "total_sell": 13506100000,
+    "total_sell": 13352515600,
     "items": [
      {
       "code": "000270",
@@ -3189,7 +3181,7 @@
       "weight": 28.39,
       "cap_pct": 25.0,
       "excess_pp": 3.39,
-      "sell_amount": 8737725000
+      "sell_amount": 8638364100
      },
      {
       "code": "012330",
@@ -3197,10 +3189,46 @@
       "weight": 26.85,
       "cap_pct": 25.0,
       "excess_pp": 1.85,
-      "sell_amount": 4768375000
+      "sell_amount": 4714151500
      }
     ]
    }
+  },
+  {
+   "ticker": "139230",
+   "isin": "KR7139230007",
+   "name": "TIGER 200 중공업",
+   "krx_name": "TIGER 200 중공업",
+   "manager": "TIGER",
+   "company": "미래에셋자산운용",
+   "color": "#F05A22",
+   "category": "섹터",
+   "is_theme": true,
+   "index_name": "코스피 200 중공업",
+   "market_cap": 251941200000,
+   "shares": 20220000,
+   "close": 12460.0,
+   "nav": 12434.21,
+   "schedule_label": "6·12월 D+1",
+   "schedule_detail": "코스피200 정기변경(6·12월 선물옵션 만기일 다음 거래일)",
+   "months": [
+    6,
+    12
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-13",
+   "breach_summary": null
   },
   {
    "ticker": "364970",
@@ -3213,10 +3241,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "KRX 바이오 TOP 10 지수",
-   "market_cap": 251086000000,
-   "shares": 40400000,
-   "close": 6215.0,
-   "nav": 6201.23,
+   "market_cap": 251539750000,
+   "shares": 40150000,
+   "close": 6265.0,
+   "nav": 6267.48,
    "schedule_label": "3·9월",
    "schedule_detail": "반기 정기변경(3월·9월). K-뉴딜 TOP10 공통방식: 시총 상위 3종목 각 25%(합75%) 고정, 나머지 7종목 유동시총가중 25% 배분. 개별종목 Cap 25%.",
    "months": [
@@ -3243,7 +3271,7 @@
     "cap_pct": 25.0,
     "verified": true,
     "count": 3,
-    "total_sell": 18329278000,
+    "total_sell": 18362401750,
     "items": [
      {
       "code": "068270",
@@ -3251,7 +3279,7 @@
       "weight": 28.18,
       "cap_pct": 25.0,
       "excess_pp": 3.18,
-      "sell_amount": 7984534800
+      "sell_amount": 7998964050
      },
      {
       "code": "207940",
@@ -3259,7 +3287,7 @@
       "weight": 27.26,
       "cap_pct": 25.0,
       "excess_pp": 2.26,
-      "sell_amount": 5674543600
+      "sell_amount": 5684798350
      },
      {
       "code": "196170",
@@ -3267,7 +3295,7 @@
       "weight": 26.86,
       "cap_pct": 25.0,
       "excess_pp": 1.86,
-      "sell_amount": 4670199600
+      "sell_amount": 4678639350
      }
     ]
    }
@@ -3283,10 +3311,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "WISE 화장품 지수",
-   "market_cap": 248845800000,
-   "shares": 69510000,
-   "close": 3580.0,
-   "nav": 3581.12,
+   "market_cap": 250974000000,
+   "shares": 68760000,
+   "close": 3650.0,
+   "nav": 3662.06,
    "schedule_label": "1·4·7·10월",
    "schedule_detail": "연4회 정기변경(1·4·7·10월 옵션 만기일 익일). 개별종목 최대 10% 실링(지수채용비중 상한 10%).",
    "months": [
@@ -3312,7 +3340,7 @@
     "cap_pct": 10.0,
     "verified": true,
     "count": 4,
-    "total_sell": 4777839360,
+    "total_sell": 4818700800,
     "items": [
      {
       "code": "278470",
@@ -3320,7 +3348,7 @@
       "weight": 10.77,
       "cap_pct": 10.0,
       "excess_pp": 0.77,
-      "sell_amount": 1916112660
+      "sell_amount": 1932499800
      },
      {
       "code": "257720",
@@ -3328,7 +3356,7 @@
       "weight": 10.6,
       "cap_pct": 10.0,
       "excess_pp": 0.6,
-      "sell_amount": 1493074800
+      "sell_amount": 1505844000
      },
      {
       "code": "192820",
@@ -3336,7 +3364,7 @@
       "weight": 10.29,
       "cap_pct": 10.0,
       "excess_pp": 0.29,
-      "sell_amount": 721652820
+      "sell_amount": 727824600
      },
      {
       "code": "161890",
@@ -3344,46 +3372,10 @@
       "weight": 10.26,
       "cap_pct": 10.0,
       "excess_pp": 0.26,
-      "sell_amount": 646999080
+      "sell_amount": 652532400
      }
     ]
    }
-  },
-  {
-   "ticker": "139230",
-   "isin": "KR7139230007",
-   "name": "TIGER 200 중공업",
-   "krx_name": "TIGER 200 중공업",
-   "manager": "TIGER",
-   "company": "미래에셋자산운용",
-   "color": "#F05A22",
-   "category": "섹터",
-   "is_theme": true,
-   "index_name": "코스피 200 중공업",
-   "market_cap": 246766800000,
-   "shares": 20260000,
-   "close": 12180.0,
-   "nav": 12226.72,
-   "schedule_label": "6·12월 D+1",
-   "schedule_detail": "코스피200 정기변경(6·12월 선물옵션 만기일 다음 거래일)",
-   "months": [
-    6,
-    12
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": null,
-    "index_exception": true,
-    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
-    "verified": true,
-    "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-13",
-   "breach_summary": null
   },
   {
    "ticker": "213610",
@@ -3396,10 +3388,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "WISE 삼성그룹 밸류 인덱스",
-   "market_cap": 234644500000,
+   "market_cap": 242215500000,
    "shares": 11300000,
-   "close": 20765.0,
-   "nav": 20691.26,
+   "close": 21435.0,
+   "nav": 21463.11,
    "schedule_label": "3·6·9·12월",
    "schedule_detail": "연4회 정기변경(3·6·9·12월 주가지수 선물옵션 만기일). 내재가치(Fundamental value) 반영 시가총액가중, 편입비중 상한(Ceiling) 25%.",
    "months": [
@@ -3420,7 +3412,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -3434,10 +3426,10 @@
    "category": "섹터",
    "is_theme": true,
    "index_name": "코스피200 정보기술 TR",
-   "market_cap": 234278000000,
-   "shares": 4400000,
-   "close": 53245.0,
-   "nav": 53111.1,
+   "market_cap": 239015500000,
+   "shares": 4300000,
+   "close": 55585.0,
+   "nav": 55546.54,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "코스피200 정기변경(6·12월 선물옵션 만기일 다음 거래일)",
    "months": [
@@ -3456,7 +3448,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -3470,10 +3462,10 @@
    "category": "섹터",
    "is_theme": true,
    "index_name": "코스피 200 금융 고배당 TOP 10 지수",
-   "market_cap": 229917000000,
-   "shares": 17300000,
-   "close": 13290.0,
-   "nav": 13260.84,
+   "market_cap": 222108000000,
+   "shares": 16600000,
+   "close": 13380.0,
+   "nav": 13365.23,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "코스피200 정기변경(6·12월 선물옵션 만기일 다음 거래일)",
    "months": [
@@ -3492,7 +3484,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -3506,10 +3498,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스피",
-   "market_cap": 206912000000,
+   "market_cap": 213881250000,
    "shares": 3050000,
-   "close": 67840.0,
-   "nav": 67515.68,
+   "close": 70125.0,
+   "nav": 69957.16,
    "schedule_label": "수시",
    "schedule_detail": "유가증권시장 전 종목 지수 — 신규상장·상장폐지 수시 반영",
    "months": [],
@@ -3525,7 +3517,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -3539,10 +3531,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 고배당포커스 지수",
-   "market_cap": 205581250000,
+   "market_cap": 212439250000,
    "shares": 6350000,
-   "close": 32375.0,
-   "nav": 32338.07,
+   "close": 33455.0,
+   "nav": 33349.47,
    "schedule_label": "5월",
    "schedule_detail": "연1회, 4월말 종가 종목선정 → 5월 선물옵션 만기일 익주 두번째 영업일 정기변경. 대형종목(MKF중대형 유동시총 10%↑)=Min{25%,유동시총}, 나머지 8% 상한",
    "months": [
@@ -3563,61 +3555,31 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 25.0,
     "verified": true,
-    "count": 1,
-    "total_sell": 2425858750,
+    "count": 2,
+    "total_sell": 3250320525,
     "items": [
      {
       "code": "000660",
       "name": "SK하이닉스",
-      "weight": 26.18,
+      "weight": 26.43,
       "cap_pct": 25.0,
-      "excess_pp": 1.18,
-      "sell_amount": 2425858750
+      "excess_pp": 1.43,
+      "sell_amount": 3037881275
+     },
+     {
+      "code": "005930",
+      "name": "삼성전자",
+      "weight": 25.1,
+      "cap_pct": 25.0,
+      "excess_pp": 0.1,
+      "sell_amount": 212439250
      }
     ]
    }
-  },
-  {
-   "ticker": "244580",
-   "isin": "KR7244580007",
-   "name": "KODEX 바이오",
-   "krx_name": "KODEX 바이오",
-   "manager": "KODEX",
-   "company": "삼성자산운용",
-   "color": "#1428A0",
-   "category": "테마",
-   "is_theme": true,
-   "index_name": "FnGuide 바이오 지수",
-   "market_cap": 198448000000,
-   "shares": 25280000,
-   "close": 7850.0,
-   "nav": 7803.72,
-   "schedule_label": "3·6·9·12월",
-   "schedule_detail": "동일가중. 5·11월말 종목선정; 3·6·9·12월 KOSPI200 옵션 만기일 다음주 첫 영업일부터 3영업일간 정기변경(3·9월은 편출입 없이 비중조절)",
-   "months": [
-    3,
-    6,
-    9,
-    12
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": null,
-    "index_exception": false,
-    "label": "동일가중 방식 · 종목 상한 이슈 없음",
-    "source": "FnGuide_Bio_Methodology_Book_삼성_(20240730)_v2.4.pdf | 'FnGuide 바이오 Index는 동일가중 방식으로 산출'; '5, 11월 마지막 영업일 종목선정, 3, 6, 9, 12월 KOSPI200 옵션 만기일 다음주 첫 영업일부터 3영업일간 정기변경'",
-    "verified": true,
-    "note": "동일가중(±틸팅). 단일종목 비중이 낮아 cap 초과 이슈 없음."
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": null
   },
   {
    "ticker": "332930",
@@ -3630,10 +3592,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스피 200 TR",
-   "market_cap": 197033250000,
+   "market_cap": 205392500000,
    "shares": 1450000,
-   "close": 135885.0,
-   "nav": 136177.75,
+   "close": 141650.0,
+   "nav": 141593.38,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "코스피200 정기변경(6·12월 선물옵션 만기일 다음 거래일)",
    "months": [
@@ -3652,7 +3614,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -3666,10 +3628,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코리아 밸류업 TR 지수",
-   "market_cap": 192930000000,
+   "market_cap": 198390000000,
    "shares": 6000000,
-   "close": 32155.0,
-   "nav": 32092.03,
+   "close": 33065.0,
+   "nav": 33067.13,
    "schedule_label": "6월, 연 1회",
    "schedule_detail": "코리아 밸류업 지수 정기변경(연 1회 6월)",
    "months": [
@@ -3692,7 +3654,7 @@
     "cap_pct": 15.0,
     "verified": true,
     "count": 2,
-    "total_sell": 12231762000,
+    "total_sell": 12577926000,
     "items": [
      {
       "code": "000660",
@@ -3700,7 +3662,7 @@
       "weight": 20.34,
       "cap_pct": 15.0,
       "excess_pp": 5.34,
-      "sell_amount": 10302462000
+      "sell_amount": 10594026000
      },
      {
       "code": "005930",
@@ -3708,10 +3670,48 @@
       "weight": 16.0,
       "cap_pct": 15.0,
       "excess_pp": 1.0,
-      "sell_amount": 1929300000
+      "sell_amount": 1983900000
      }
     ]
    }
+  },
+  {
+   "ticker": "244580",
+   "isin": "KR7244580007",
+   "name": "KODEX 바이오",
+   "krx_name": "KODEX 바이오",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "FnGuide 바이오 지수",
+   "market_cap": 193662000000,
+   "shares": 25200000,
+   "close": 7685.0,
+   "nav": 7663.69,
+   "schedule_label": "3·6·9·12월",
+   "schedule_detail": "동일가중. 5·11월말 종목선정; 3·6·9·12월 KOSPI200 옵션 만기일 다음주 첫 영업일부터 3영업일간 정기변경(3·9월은 편출입 없이 비중조절)",
+   "months": [
+    3,
+    6,
+    9,
+    12
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": null,
+    "index_exception": false,
+    "label": "동일가중 방식 · 종목 상한 이슈 없음",
+    "source": "FnGuide_Bio_Methodology_Book_삼성_(20240730)_v2.4.pdf | 'FnGuide 바이오 Index는 동일가중 방식으로 산출'; '5, 11월 마지막 영업일 종목선정, 3, 6, 9, 12월 KOSPI200 옵션 만기일 다음주 첫 영업일부터 3영업일간 정기변경'",
+    "verified": true,
+    "note": "동일가중(±틸팅). 단일종목 비중이 낮아 cap 초과 이슈 없음."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": null
   },
   {
    "ticker": "0115D0",
@@ -3724,10 +3724,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "KRX 조선 TOP10",
-   "market_cap": 184505250000,
-   "shares": 24650000,
-   "close": 7485.0,
-   "nav": 7454.58,
+   "market_cap": 186250750000,
+   "shares": 24850000,
+   "close": 7495.0,
+   "nav": 7499.22,
    "schedule_label": "3·6·9·12월",
    "schedule_detail": "Top4 종목 합산 85%내 시총비례(종목별 최대 22%), 나머지 6종목 15%내 종합점수(MASGA50·조선25·엔진25) 비례. 정기변경 분기(3·6·9·12월 선물옵션 만기일 D+10, 결정일 D-10), 수시 5영업일 연속 30%초과→25% 조정",
    "months": [
@@ -3751,20 +3751,20 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 22.0,
     "verified": true,
     "count": 1,
-    "total_sell": 6254727975,
+    "total_sell": 5755148175,
     "items": [
      {
       "code": "009540",
       "name": "HD한국조선해양",
-      "weight": 25.39,
+      "weight": 25.09,
       "cap_pct": 22.0,
-      "excess_pp": 3.39,
-      "sell_amount": 6254727975
+      "excess_pp": 3.09,
+      "sell_amount": 5755148175
      }
     ]
    }
@@ -3780,10 +3780,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스피 50",
-   "market_cap": 178346250000,
+   "market_cap": 183858750000,
    "shares": 2250000,
-   "close": 79265.0,
-   "nav": 78868.91,
+   "close": 81715.0,
+   "nav": 82124.02,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "코스피50 정기변경(6·12월)",
    "months": [
@@ -3802,7 +3802,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -3816,10 +3816,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide AI반도체TOP10 지수",
-   "market_cap": 176484000000,
-   "shares": 5600000,
-   "close": 31515.0,
-   "nav": 31440.76,
+   "market_cap": 179850000000,
+   "shares": 5500000,
+   "close": 32700.0,
+   "nav": 32645.35,
    "schedule_label": "1·4·7·10월",
    "schedule_detail": "3·6·9·12월말 종목선정 → 1·4·7·10월 선물옵션 만기일 D+2 정기변경(분기). 최대종목 15%, 그 외 10% 상한",
    "months": [
@@ -3843,7 +3843,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -3857,10 +3857,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "iSelect 원자력SMR 지수(Price Return)",
-   "market_cap": 172830250000,
-   "shares": 13550000,
-   "close": 12755.0,
-   "nav": 12750.96,
+   "market_cap": 177208000000,
+   "shares": 13600000,
+   "close": 13030.0,
+   "nav": 13089.17,
    "schedule_label": "3·6·9·12월",
    "schedule_detail": "개별종목 10% 실링(복합기업 7%). 정기변경 분기(3·6·9·12월 옵션만기일 익주 첫 영업일)",
    "months": [
@@ -3881,28 +3881,28 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 10.0,
     "verified": true,
     "count": 2,
-    "total_sell": 32664917250,
+    "total_sell": 33793565600,
     "items": [
      {
       "code": "000720",
       "name": "현대건설",
-      "weight": 19.58,
+      "weight": 19.67,
       "cap_pct": 10.0,
-      "excess_pp": 9.58,
-      "sell_amount": 16557137950
+      "excess_pp": 9.67,
+      "sell_amount": 17136013600
      },
      {
       "code": "034020",
       "name": "두산에너빌리티",
-      "weight": 19.32,
+      "weight": 19.4,
       "cap_pct": 10.0,
-      "excess_pp": 9.32,
-      "sell_amount": 16107779300
+      "excess_pp": 9.4,
+      "sell_amount": 16657552000
      }
     ]
    }
@@ -3918,10 +3918,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스피 200 ESG 지수",
-   "market_cap": 169959500000,
+   "market_cap": 176601000000,
    "shares": 3700000,
-   "close": 45935.0,
-   "nav": 45783.39,
+   "close": 47730.0,
+   "nav": 47595.06,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "코스피200 정기변경(6·12월 선물옵션 만기일 다음 거래일)",
    "months": [
@@ -3940,7 +3940,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -3954,10 +3954,10 @@
    "category": "섹터",
    "is_theme": true,
    "index_name": "KRX 건설",
-   "market_cap": 168543000000,
-   "shares": 30700000,
-   "close": 5490.0,
-   "nav": 5506.82,
+   "market_cap": 168486500000,
+   "shares": 29900000,
+   "close": 5635.0,
+   "nav": 5633.3,
    "schedule_label": "6·12월",
    "schedule_detail": "건설 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음(복제). 반기 정기변경(6·12월, KRX 프레임워크).",
    "months": [
@@ -3976,75 +3976,8 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
-  },
-  {
-   "ticker": "421320",
-   "isin": "KR7421320003",
-   "name": "PLUS 우주항공",
-   "krx_name": "PLUS 우주항공",
-   "manager": "PLUS",
-   "company": "한화자산운용",
-   "color": "#F37021",
-   "category": "테마",
-   "is_theme": true,
-   "index_name": "iSelect 우주항공UAM 지수",
-   "market_cap": 165884250000,
-   "shares": 6650000,
-   "close": 24945.0,
-   "nav": 24818.62,
-   "schedule_label": "5·11월",
-   "schedule_detail": "개별종목 10% 실링. 정기변경 연 2회(5·11월 첫 영업일)",
-   "months": [
-    5,
-    11
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": 0.1,
-    "index_exception": false,
-    "label": "단일종목 10% 상한",
-    "source": "PLUS 우주항공 상품페이지+방법론: '개별 종목 10% 실링 · 정기변경 연 2회 5·11월 첫 영업일'",
-    "verified": true,
-    "note": "개별종목 10% 실링. 정기변경 연 2회(5·11월 첫 영업일)"
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": {
-    "cap_pct": 10.0,
-    "verified": true,
-    "count": 3,
-    "total_sell": 19448269469,
-    "items": [
-     {
-      "code": "047810",
-      "name": "한국항공우주",
-      "weight": 16.409,
-      "cap_pct": 10.0,
-      "excess_pp": 6.409,
-      "sell_amount": 10631521582
-     },
-     {
-      "code": "079550",
-      "name": "LIG디펜스앤에어로스페이스",
-      "weight": 13.61,
-      "cap_pct": 10.0,
-      "excess_pp": 3.61,
-      "sell_amount": 5988421425
-     },
-     {
-      "code": "012450",
-      "name": "한화에어로스페이스",
-      "weight": 11.705,
-      "cap_pct": 10.0,
-      "excess_pp": 1.705,
-      "sell_amount": 2828326462
-     }
-    ]
-   }
   },
   {
    "ticker": "332500",
@@ -4057,10 +3990,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스피 200 TR",
-   "market_cap": 160528500000,
+   "market_cap": 166853500000,
    "shares": 2300000,
-   "close": 69795.0,
-   "nav": 69742.84,
+   "close": 72545.0,
+   "nav": 72543.78,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "코스피200 정기변경(6·12월 선물옵션 만기일 다음 거래일)",
    "months": [
@@ -4079,8 +4012,134 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
+  },
+  {
+   "ticker": "421320",
+   "isin": "KR7421320003",
+   "name": "PLUS 우주항공",
+   "krx_name": "PLUS 우주항공",
+   "manager": "PLUS",
+   "company": "한화자산운용",
+   "color": "#F37021",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "iSelect 우주항공UAM 지수",
+   "market_cap": 165019750000,
+   "shares": 6650000,
+   "close": 24815.0,
+   "nav": 24730.78,
+   "schedule_label": "5·11월",
+   "schedule_detail": "개별종목 10% 실링. 정기변경 연 2회(5·11월 첫 영업일)",
+   "months": [
+    5,
+    11
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": 0.1,
+    "index_exception": false,
+    "label": "단일종목 10% 상한",
+    "source": "PLUS 우주항공 상품페이지+방법론: '개별 종목 10% 실링 · 정기변경 연 2회 5·11월 첫 영업일'",
+    "verified": true,
+    "note": "개별종목 10% 실링. 정기변경 연 2회(5·11월 첫 영업일)"
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": {
+    "cap_pct": 10.0,
+    "verified": true,
+    "count": 3,
+    "total_sell": 19112587445,
+    "items": [
+     {
+      "code": "047810",
+      "name": "한국항공우주",
+      "weight": 16.307,
+      "cap_pct": 10.0,
+      "excess_pp": 6.307,
+      "sell_amount": 10407795632
+     },
+     {
+      "code": "079550",
+      "name": "LIG디펜스앤에어로스페이스",
+      "weight": 13.206,
+      "cap_pct": 10.0,
+      "excess_pp": 3.206,
+      "sell_amount": 5290533185
+     },
+     {
+      "code": "012450",
+      "name": "한화에어로스페이스",
+      "weight": 12.069,
+      "cap_pct": 10.0,
+      "excess_pp": 2.069,
+      "sell_amount": 3414258628
+     }
+    ]
+   }
+  },
+  {
+   "ticker": "491820",
+   "isin": "KR7491820007",
+   "name": "HANARO 전력설비투자",
+   "krx_name": "HANARO 전력설비투자",
+   "manager": "HANARO",
+   "company": "NH아문디자산운용",
+   "color": "#00A19C",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "iSelect 전력설비투자 지수",
+   "market_cap": 146187000000,
+   "shares": 3700000,
+   "close": 39510.0,
+   "nav": 39663.29,
+   "schedule_label": "6·12월",
+   "schedule_detail": "기초 유니버스 상위 20종목, 개별 20% 실링. 정기변경 연 2회(6·12월 옵션만기일 익주 첫 영업일)",
+   "months": [
+    6,
+    12
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": 0.2,
+    "index_exception": false,
+    "label": "단일종목 20% 상한",
+    "source": "HANARO 전력설비투자 방법론: '개별 종목 20% 실링 · 상위 20종목 · 6·12월 익주 첫 영업일'",
+    "verified": true,
+    "note": "기초 유니버스 상위 20종목, 개별 20% 실링. 정기변경 연 2회(6·12월 옵션만기일 익주 첫 영업일)"
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": {
+    "cap_pct": 20.0,
+    "verified": true,
+    "count": 2,
+    "total_sell": 1461870000,
+    "items": [
+     {
+      "code": "010120",
+      "name": "LS ELECTRIC",
+      "weight": 20.85,
+      "cap_pct": 20.0,
+      "excess_pp": 0.85,
+      "sell_amount": 1242589500
+     },
+     {
+      "code": "298040",
+      "name": "효성중공업",
+      "weight": 20.15,
+      "cap_pct": 20.0,
+      "excess_pp": 0.15,
+      "sell_amount": 219280500
+     }
+    ]
+   }
   },
   {
    "ticker": "461950",
@@ -4093,10 +4152,10 @@
    "category": "섹터",
    "is_theme": true,
    "index_name": "FnGuide 2차전지핵심소재10 지수",
-   "market_cap": 142831500000,
+   "market_cap": 143333250000,
    "shares": 33450000,
-   "close": 4270.0,
-   "nav": 4250.67,
+   "close": 4285.0,
+   "nav": 4271.62,
    "schedule_label": "1·4·7·10월",
    "schedule_detail": "1·4·7·10월 첫 영업일(D+3) 정기변경(분기). 최대종목 20% 상한, 그 외 종목 15% 상한",
    "months": [
@@ -4120,79 +4179,20 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 20.0,
     "verified": true,
     "count": 1,
-    "total_sell": 4099264050,
+    "total_sell": 4013331000,
     "items": [
      {
       "code": "005490",
       "name": "POSCO홀딩스",
-      "weight": 22.87,
+      "weight": 22.8,
       "cap_pct": 20.0,
-      "excess_pp": 2.87,
-      "sell_amount": 4099264050
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "491820",
-   "isin": "KR7491820007",
-   "name": "HANARO 전력설비투자",
-   "krx_name": "HANARO 전력설비투자",
-   "manager": "HANARO",
-   "company": "NH아문디자산운용",
-   "color": "#00A19C",
-   "category": "테마",
-   "is_theme": true,
-   "index_name": "iSelect 전력설비투자 지수",
-   "market_cap": 141895000000,
-   "shares": 3700000,
-   "close": 38350.0,
-   "nav": 38291.76,
-   "schedule_label": "6·12월",
-   "schedule_detail": "기초 유니버스 상위 20종목, 개별 20% 실링. 정기변경 연 2회(6·12월 옵션만기일 익주 첫 영업일)",
-   "months": [
-    6,
-    12
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": 0.2,
-    "index_exception": false,
-    "label": "단일종목 20% 상한",
-    "source": "HANARO 전력설비투자 방법론: '개별 종목 20% 실링 · 상위 20종목 · 6·12월 익주 첫 영업일'",
-    "verified": true,
-    "note": "기초 유니버스 상위 20종목, 개별 20% 실링. 정기변경 연 2회(6·12월 옵션만기일 익주 첫 영업일)"
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": {
-    "cap_pct": 20.0,
-    "verified": true,
-    "count": 2,
-    "total_sell": 1475708000,
-    "items": [
-     {
-      "code": "298040",
-      "name": "효성중공업",
-      "weight": 20.56,
-      "cap_pct": 20.0,
-      "excess_pp": 0.56,
-      "sell_amount": 794612000
-     },
-     {
-      "code": "010120",
-      "name": "LS ELECTRIC",
-      "weight": 20.48,
-      "cap_pct": 20.0,
-      "excess_pp": 0.48,
-      "sell_amount": 681096000
+      "excess_pp": 2.8,
+      "sell_amount": 4013331000
      }
     ]
    }
@@ -4208,10 +4208,10 @@
    "category": "섹터",
    "is_theme": true,
    "index_name": "KRX 헬스케어",
-   "market_cap": 136760000000,
+   "market_cap": 134680000000,
    "shares": 4000000,
-   "close": 34190.0,
-   "nav": 33987.01,
+   "close": 33670.0,
+   "nav": 33761.71,
    "schedule_label": "6·12월",
    "schedule_detail": "헬스케어 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
    "months": [
@@ -4234,42 +4234,6 @@
    "breach_summary": null
   },
   {
-   "ticker": "354500",
-   "isin": "KR7354500001",
-   "name": "ACE 코스닥150",
-   "krx_name": "ACE 코스닥150",
-   "manager": "ACE",
-   "company": "한국투자신탁운용",
-   "color": "#E60012",
-   "category": "시장대표",
-   "is_theme": false,
-   "index_name": "코스닥 150",
-   "market_cap": 126472500000,
-   "shares": 9900000,
-   "close": 12775.0,
-   "nav": 12794.52,
-   "schedule_label": "6·12월 D+1",
-   "schedule_detail": "코스닥150 정기변경(6·12월)",
-   "months": [
-    6,
-    12
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": null,
-    "index_exception": true,
-    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
-    "verified": true,
-    "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": null
-  },
-  {
    "ticker": "325010",
    "isin": "KR7325010007",
    "name": "KODEX 성장주",
@@ -4280,10 +4244,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 성장 지수(PR)",
-   "market_cap": 125705000000,
+   "market_cap": 130091500000,
    "shares": 3100000,
-   "close": 40550.0,
-   "nav": 40702.17,
+   "close": 41965.0,
+   "nav": 42154.08,
    "schedule_label": "6·12월",
    "schedule_detail": "5·11월말 선정, 6·12월 선물옵션 만기일 익주 첫 영업일 정기변경(스타일 지수)",
    "months": [
@@ -4302,31 +4266,67 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 10.0,
     "verified": true,
     "count": 2,
-    "total_sell": 38151467500,
+    "total_sell": 40458456500,
     "items": [
      {
       "code": "000660",
       "name": "SK하이닉스",
-      "weight": 26.2,
+      "weight": 26.34,
       "cap_pct": 10.0,
-      "excess_pp": 16.2,
-      "sell_amount": 20364210000
+      "excess_pp": 16.34,
+      "sell_amount": 21256951100
      },
      {
       "code": "005930",
       "name": "삼성전자",
-      "weight": 24.15,
+      "weight": 24.76,
       "cap_pct": 10.0,
-      "excess_pp": 14.15,
-      "sell_amount": 17787257500
+      "excess_pp": 14.76,
+      "sell_amount": 19201505400
      }
     ]
    }
+  },
+  {
+   "ticker": "354500",
+   "isin": "KR7354500001",
+   "name": "ACE 코스닥150",
+   "krx_name": "ACE 코스닥150",
+   "manager": "ACE",
+   "company": "한국투자신탁운용",
+   "color": "#E60012",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "코스닥 150",
+   "market_cap": 126472500000,
+   "shares": 9900000,
+   "close": 12775.0,
+   "nav": 12810.9,
+   "schedule_label": "6·12월 D+1",
+   "schedule_detail": "코스닥150 정기변경(6·12월)",
+   "months": [
+    6,
+    12
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": null
   },
   {
    "ticker": "328370",
@@ -4339,10 +4339,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "코스피 TR",
-   "market_cap": 115746750000,
+   "market_cap": 119542500000,
    "shares": 3150000,
-   "close": 36745.0,
-   "nav": 36628.61,
+   "close": 37950.0,
+   "nav": 37961.31,
    "schedule_label": "수시",
    "schedule_detail": "유가증권시장 전 종목 지수 — 신규상장·상장폐지 수시 반영",
    "months": [],
@@ -4358,7 +4358,45 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
+   "breach_summary": null
+  },
+  {
+   "ticker": "471760",
+   "isin": "KR7471760009",
+   "name": "TIGER AI반도체핵심공정",
+   "krx_name": "TIGER AI반도체핵심공정",
+   "manager": "TIGER",
+   "company": "미래에셋자산운용",
+   "color": "#F05A22",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "iSelect AI반도체핵심공정지수",
+   "market_cap": 117135000000,
+   "shares": 8550000,
+   "close": 13700.0,
+   "nav": 13710.92,
+   "schedule_label": "1·4·7·10월",
+   "schedule_detail": "시가총액 가중. 정기변경 연 4회(1·4·7·10월)",
+   "months": [
+    1,
+    4,
+    7,
+    10
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "미래에셋 TIGER AI반도체핵심공정 상품페이지: '산출방법 시가총액 가중방식 · 정기변경 연 4회(1,4,7,10월)'",
+    "verified": true,
+    "note": "시가총액 가중 복제 — 별도 단일종목 상한 없음."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-13",
    "breach_summary": null
   },
   {
@@ -4372,10 +4410,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 전고체배터리&실리콘음극재 지수(PR)",
-   "market_cap": 115235000000,
+   "market_cap": 116897500000,
    "shares": 9500000,
-   "close": 12130.0,
-   "nav": 12118.98,
+   "close": 12305.0,
+   "nav": 12331.45,
    "schedule_label": "3·6·9·12월",
    "schedule_detail": "분기 리밸런싱. 3·6·9·12월 만기일 D+2 정기변경(수시 25% 상한)",
    "months": [
@@ -4401,7 +4439,7 @@
     "cap_pct": 20.0,
     "verified": true,
     "count": 1,
-    "total_sell": 3722090500,
+    "total_sell": 3775789250,
     "items": [
      {
       "code": "006400",
@@ -4409,33 +4447,33 @@
       "weight": 23.23,
       "cap_pct": 20.0,
       "excess_pp": 3.23,
-      "sell_amount": 3722090500
+      "sell_amount": 3775789250
      }
     ]
    }
   },
   {
-   "ticker": "471760",
-   "isin": "KR7471760009",
-   "name": "TIGER AI반도체핵심공정",
-   "krx_name": "TIGER AI반도체핵심공정",
-   "manager": "TIGER",
-   "company": "미래에셋자산운용",
-   "color": "#F05A22",
-   "category": "테마",
-   "is_theme": true,
-   "index_name": "iSelect AI반도체핵심공정지수",
-   "market_cap": 114367500000,
-   "shares": 8500000,
-   "close": 13455.0,
-   "nav": 13401.04,
-   "schedule_label": "1·4·7·10월",
-   "schedule_detail": "시가총액 가중. 정기변경 연 4회(1·4·7·10월)",
+   "ticker": "332940",
+   "isin": "KR7332940006",
+   "name": "HANARO MSCI Korea TR",
+   "krx_name": "HANARO MSCI Korea TR",
+   "manager": "HANARO",
+   "company": "NH아문디자산운용",
+   "color": "#00A19C",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "MSCI Korea TR Index",
+   "market_cap": 115812000000,
+   "shares": 2400000,
+   "close": 48255.0,
+   "nav": 48075.6,
+   "schedule_label": "2·5·8·11월 말",
+   "schedule_detail": "MSCI 분기 리뷰(2·5·8·11월)",
    "months": [
-    1,
-    4,
-    7,
-    10
+    2,
+    5,
+    8,
+    11
    ],
    "auto": true,
    "schedule_verified": true,
@@ -4443,13 +4481,13 @@
     "single_cap": null,
     "index_exception": true,
     "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-    "source": "미래에셋 TIGER AI반도체핵심공정 상품페이지: '산출방법 시가총액 가중방식 · 정기변경 연 4회(1,4,7,10월)'",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
     "verified": true,
-    "note": "시가총액 가중 복제 — 별도 단일종목 상한 없음."
+    "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-13",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -4463,10 +4501,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide SLV 배당가치 지수",
-   "market_cap": 113660000000,
+   "market_cap": 115440000000,
    "shares": 4000000,
-   "close": 28415.0,
-   "nav": 28283.72,
+   "close": 28860.0,
+   "nav": 28861.21,
    "schedule_label": "6·12월",
    "schedule_detail": "연2회, 6·12월 선물옵션 만기일 다음주 첫 영업일 정기변경. 시총1위=전월 시장평균비중의 70%, 그 외 7% 상한",
    "months": [
@@ -4488,45 +4526,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": null
-  },
-  {
-   "ticker": "332940",
-   "isin": "KR7332940006",
-   "name": "HANARO MSCI Korea TR",
-   "krx_name": "HANARO MSCI Korea TR",
-   "manager": "HANARO",
-   "company": "NH아문디자산운용",
-   "color": "#00A19C",
-   "category": "시장대표",
-   "is_theme": false,
-   "index_name": "MSCI Korea TR Index",
-   "market_cap": 110580000000,
-   "shares": 2400000,
-   "close": 46075.0,
-   "nav": 46100.0,
-   "schedule_label": "2·5·8·11월 말",
-   "schedule_detail": "MSCI 분기 리뷰(2·5·8·11월)",
-   "months": [
-    2,
-    5,
-    8,
-    11
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": null,
-    "index_exception": true,
-    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
-    "verified": true,
-    "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -4540,10 +4540,10 @@
    "category": "섹터",
    "is_theme": true,
    "index_name": "코스피 200 건설",
-   "market_cap": 108910600000,
-   "shares": 17260000,
-   "close": 6310.0,
-   "nav": 6342.4,
+   "market_cap": 114699000000,
+   "shares": 17300000,
+   "close": 6630.0,
+   "nav": 6628.51,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "코스피200 정기변경(6·12월 선물옵션 만기일 다음 거래일)",
    "months": [
@@ -4566,42 +4566,6 @@
    "breach_summary": null
   },
   {
-   "ticker": "266370",
-   "isin": "KR7266370006",
-   "name": "KODEX IT",
-   "krx_name": "KODEX IT",
-   "manager": "KODEX",
-   "company": "삼성자산운용",
-   "color": "#1428A0",
-   "category": "섹터",
-   "is_theme": true,
-   "index_name": "KRX 정보기술",
-   "market_cap": 108604500000,
-   "shares": 1700000,
-   "close": 63885.0,
-   "nav": 63703.57,
-   "schedule_label": "6·12월",
-   "schedule_detail": "GICS 정보기술 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
-   "months": [
-    6,
-    12
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": null,
-    "index_exception": true,
-    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-    "source": "FunETF KODEX IT(266370): 'KRX 정보기술 지수는 GICS 산업분류에 따라 정보기술 섹터 종목들을 유동시가총액 가중방식으로 구성한 지수'",
-    "verified": true,
-    "note": "시가총액 가중 복제 — 별도 단일종목 상한 없음."
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": null
-  },
-  {
    "ticker": "367770",
    "isin": "KR7367770005",
    "name": "RISE 수소경제테마",
@@ -4612,10 +4576,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 수소 경제 테마 지수",
-   "market_cap": 107563500000,
+   "market_cap": 108597000000,
    "shares": 5300000,
-   "close": 20295.0,
-   "nav": 20260.39,
+   "close": 20490.0,
+   "nav": 20621.99,
    "schedule_label": "6·12월",
    "schedule_detail": "5·11월말 선정, 6·12월 선물옵션 만기일 익주 첫 영업일 정기변경",
    "months": [
@@ -4634,28 +4598,82 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 15.0,
     "verified": true,
     "count": 2,
-    "total_sell": 1893117600,
+    "total_sell": 2030763900,
     "items": [
      {
       "code": "012450",
       "name": "한화에어로스페이스",
-      "weight": 16.41,
+      "weight": 16.57,
       "cap_pct": 15.0,
-      "excess_pp": 1.41,
-      "sell_amount": 1516645350
+      "excess_pp": 1.57,
+      "sell_amount": 1704972900
      },
      {
       "code": "012330",
       "name": "현대모비스",
-      "weight": 15.35,
+      "weight": 15.3,
       "cap_pct": 15.0,
-      "excess_pp": 0.35,
-      "sell_amount": 376472250
+      "excess_pp": 0.3,
+      "sell_amount": 325791000
+     }
+    ]
+   }
+  },
+  {
+   "ticker": "326240",
+   "isin": "KR7326240009",
+   "name": "RISE IT플러스",
+   "krx_name": "RISE IT플러스",
+   "manager": "RISE",
+   "company": "KB자산운용",
+   "color": "#F5A623",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "FnGuide IT플러스 지수",
+   "market_cap": 107993600000,
+   "shares": 2560000,
+   "close": 42185.0,
+   "nav": 42410.1,
+   "schedule_label": "6·12월",
+   "schedule_detail": "유동시총 가중. 5·11월말 종목선정 → 6·12월 선물옵션 만기 익주 첫 영업일 정기변경(연2회). 한 종목 25% 초과 시 최상위 25%·차상위부터 10% 실링",
+   "months": [
+    6,
+    12
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": 0.25,
+    "index_exception": false,
+    "top_n": 1,
+    "top_cap": 0.25,
+    "rest_cap": 0.1,
+    "label": "상위 1종목 각 25% · 나머지 10%",
+    "source": "FnGuide_IT PLUS_Index_Methodology_Book_KB_(20190701)_v1.3.pdf | '한 종목의 비중이 25%가 넘는 경우 최상위 종목은 25% 실링, 차상위 종목부터는 10% 실링'; '5, 11월말 종목선정…6, 12월 선물옵션 만기일 익주 첫 영업일에 정기변경'",
+    "verified": true,
+    "note": "상위 종목 상한 기준으로 초과를 계산한다(보수적). 유동시총 가중. 5·11월말 종목선정 → 6·12월 선물옵션 만기 익주 첫 영업일 정기변경(연2회). 한 종목 25% 초과 시 최상위 25%·차상위부터 10% 실링"
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": {
+    "cap_pct": 25.0,
+    "verified": true,
+    "count": 1,
+    "total_sell": 1425515520,
+    "items": [
+     {
+      "code": "005930",
+      "name": "삼성전자",
+      "weight": 26.32,
+      "cap_pct": 25.0,
+      "excess_pp": 1.32,
+      "sell_amount": 1425515520
      }
     ]
    }
@@ -4671,10 +4689,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 신재생에너지 지수",
-   "market_cap": 105154000000,
+   "market_cap": 106820000000,
    "shares": 4900000,
-   "close": 21460.0,
-   "nav": 21437.35,
+   "close": 21800.0,
+   "nav": 21838.41,
    "schedule_label": "6·12월",
    "schedule_detail": "5·11월말 선정, 6·12월 선물옵션 만기일 익주 첫 영업일 정기변경",
    "months": [
@@ -4698,7 +4716,7 @@
     "cap_pct": 10.0,
     "verified": true,
     "count": 4,
-    "total_sell": 4994815000,
+    "total_sell": 5073950000,
     "items": [
      {
       "code": "009830",
@@ -4706,7 +4724,7 @@
       "weight": 14.16,
       "cap_pct": 10.0,
       "excess_pp": 4.16,
-      "sell_amount": 4374406400
+      "sell_amount": 4443712000
      },
      {
       "code": "034020",
@@ -4714,7 +4732,7 @@
       "weight": 10.31,
       "cap_pct": 10.0,
       "excess_pp": 0.31,
-      "sell_amount": 325977400
+      "sell_amount": 331142000
      },
      {
       "code": "298040",
@@ -4722,7 +4740,7 @@
       "weight": 10.2,
       "cap_pct": 10.0,
       "excess_pp": 0.2,
-      "sell_amount": 210308000
+      "sell_amount": 213640000
      },
      {
       "code": "010120",
@@ -4730,28 +4748,28 @@
       "weight": 10.08,
       "cap_pct": 10.0,
       "excess_pp": 0.08,
-      "sell_amount": 84123200
+      "sell_amount": 85456000
      }
     ]
    }
   },
   {
-   "ticker": "326240",
-   "isin": "KR7326240009",
-   "name": "RISE IT플러스",
-   "krx_name": "RISE IT플러스",
-   "manager": "RISE",
-   "company": "KB자산운용",
-   "color": "#F5A623",
-   "category": "테마",
+   "ticker": "266370",
+   "isin": "KR7266370006",
+   "name": "KODEX IT",
+   "krx_name": "KODEX IT",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "섹터",
    "is_theme": true,
-   "index_name": "FnGuide IT플러스 지수",
-   "market_cap": 104140800000,
-   "shares": 2560000,
-   "close": 40680.0,
-   "nav": 40812.18,
+   "index_name": "KRX 정보기술",
+   "market_cap": 105944000000,
+   "shares": 1600000,
+   "close": 66215.0,
+   "nav": 66103.74,
    "schedule_label": "6·12월",
-   "schedule_detail": "유동시총 가중. 5·11월말 종목선정 → 6·12월 선물옵션 만기 익주 첫 영업일 정기변경(연2회). 한 종목 25% 초과 시 최상위 25%·차상위부터 10% 실링",
+   "schedule_detail": "GICS 정보기술 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
    "months": [
     6,
     12
@@ -4759,32 +4777,72 @@
    "auto": true,
    "schedule_verified": true,
    "cap": {
-    "single_cap": 0.25,
-    "index_exception": false,
-    "top_n": 1,
-    "top_cap": 0.25,
-    "rest_cap": 0.1,
-    "label": "상위 1종목 각 25% · 나머지 10%",
-    "source": "FnGuide_IT PLUS_Index_Methodology_Book_KB_(20190701)_v1.3.pdf | '한 종목의 비중이 25%가 넘는 경우 최상위 종목은 25% 실링, 차상위 종목부터는 10% 실링'; '5, 11월말 종목선정…6, 12월 선물옵션 만기일 익주 첫 영업일에 정기변경'",
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "FunETF KODEX IT(266370): 'KRX 정보기술 지수는 GICS 산업분류에 따라 정보기술 섹터 종목들을 유동시가총액 가중방식으로 구성한 지수'",
     "verified": true,
-    "note": "상위 종목 상한 기준으로 초과를 계산한다(보수적). 유동시총 가중. 5·11월말 종목선정 → 6·12월 선물옵션 만기 익주 첫 영업일 정기변경(연2회). 한 종목 25% 초과 시 최상위 25%·차상위부터 10% 실링"
+    "note": "시가총액 가중 복제 — 별도 단일종목 상한 없음."
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": {
-    "cap_pct": 25.0,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": null
+  },
+  {
+   "ticker": "496090",
+   "isin": "KR7496090002",
+   "name": "KIWOOM 코리아밸류업",
+   "krx_name": "KIWOOM 코리아밸류업",
+   "manager": "KIWOOM",
+   "company": "키움투자자산운용",
+   "color": "#D6001C",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "코리아 밸류업 지수",
+   "market_cap": 105657500000,
+   "shares": 3250000,
+   "close": 32510.0,
+   "nav": 32416.35,
+   "schedule_label": "6월, 연 1회",
+   "schedule_detail": "코리아 밸류업 지수 정기변경(연 1회 6월)",
+   "months": [
+    6
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": 0.15,
+    "index_exception": false,
+    "label": "단일종목 15% 상한",
+    "source": "KRX 코리아 밸류업 지수 방법론(개별종목 15%)",
     "verified": true,
-    "count": 1,
-    "total_sell": 801884160,
+    "note": "개별종목 비중 15% 상한. 정기변경(연 1회 6월) 시 조정."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": {
+    "cap_pct": 15.0,
+    "verified": true,
+    "count": 2,
+    "total_sell": 7322064750,
     "items": [
+     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "weight": 20.5,
+      "cap_pct": 15.0,
+      "excess_pp": 5.5,
+      "sell_amount": 5811162500
+     },
      {
       "code": "005930",
       "name": "삼성전자",
-      "weight": 25.77,
-      "cap_pct": 25.0,
-      "excess_pp": 0.77,
-      "sell_amount": 801884160
+      "weight": 16.43,
+      "cap_pct": 15.0,
+      "excess_pp": 1.43,
+      "sell_amount": 1510902250
      }
     ]
    }
@@ -4800,10 +4858,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 태양광 & ESS 지수",
-   "market_cap": 103570500000,
+   "market_cap": 105088500000,
    "shares": 3300000,
-   "close": 31385.0,
-   "nav": 31453.73,
+   "close": 31845.0,
+   "nav": 32246.87,
    "schedule_label": "6·12월",
    "schedule_detail": "개별종목 10% 제한. 5·11월말 선정, 6·12월 만기일 D+2 정기변경",
    "months": [
@@ -4822,94 +4880,36 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 10.0,
     "verified": true,
     "count": 3,
-    "total_sell": 25084775100,
+    "total_sell": 25010012115,
     "items": [
      {
       "code": "009830",
       "name": "한화솔루션",
-      "weight": 23.01,
+      "weight": 22.318,
       "cap_pct": 10.0,
-      "excess_pp": 13.01,
-      "sell_amount": 13474522050
+      "excess_pp": 12.318,
+      "sell_amount": 12944801430
      },
      {
       "code": "010060",
       "name": "OCI홀딩스",
-      "weight": 17.155,
+      "weight": 16.339,
       "cap_pct": 10.0,
-      "excess_pp": 7.155,
-      "sell_amount": 7410469275
+      "excess_pp": 6.339,
+      "sell_amount": 6661560015
      },
      {
       "code": "322000",
       "name": "HD현대에너지솔루션",
-      "weight": 14.055,
+      "weight": 15.142,
       "cap_pct": 10.0,
-      "excess_pp": 4.055,
-      "sell_amount": 4199783775
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "496090",
-   "isin": "KR7496090002",
-   "name": "KIWOOM 코리아밸류업",
-   "krx_name": "KIWOOM 코리아밸류업",
-   "manager": "KIWOOM",
-   "company": "키움투자자산운용",
-   "color": "#D6001C",
-   "category": "시장대표",
-   "is_theme": false,
-   "index_name": "코리아 밸류업 지수",
-   "market_cap": 102488750000,
-   "shares": 3250000,
-   "close": 31535.0,
-   "nav": 31467.73,
-   "schedule_label": "6월, 연 1회",
-   "schedule_detail": "코리아 밸류업 지수 정기변경(연 1회 6월)",
-   "months": [
-    6
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": 0.15,
-    "index_exception": false,
-    "label": "단일종목 15% 상한",
-    "source": "KRX 코리아 밸류업 지수 방법론(개별종목 15%)",
-    "verified": true,
-    "note": "개별종목 비중 15% 상한. 정기변경(연 1회 6월) 시 조정."
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": {
-    "cap_pct": 15.0,
-    "verified": true,
-    "count": 2,
-    "total_sell": 6385049125,
-    "items": [
-     {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "weight": 20.29,
-      "cap_pct": 15.0,
-      "excess_pp": 5.29,
-      "sell_amount": 5421654875
-     },
-     {
-      "code": "005930",
-      "name": "삼성전자",
-      "weight": 15.94,
-      "cap_pct": 15.0,
-      "excess_pp": 0.94,
-      "sell_amount": 963394250
+      "excess_pp": 5.142,
+      "sell_amount": 5403650670
      }
     ]
    }
@@ -4925,10 +4925,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 한국원자력 SMR 지수(PR)",
-   "market_cap": 99920000000,
+   "market_cap": 102360000000,
    "shares": 8000000,
-   "close": 12490.0,
-   "nav": 12463.9,
+   "close": 12795.0,
+   "nav": 12760.85,
    "schedule_label": "6·12월",
    "schedule_detail": "공기업·사기업 각 최대 20% 제한. 5·11월말 선정, 6·12월 만기일 D+2 정기변경",
    "months": [
@@ -4951,62 +4951,6 @@
    "breach_summary": null
   },
   {
-   "ticker": "475050",
-   "isin": "KR7475050001",
-   "name": "ACE KPOP포커스",
-   "krx_name": "ACE KPOP포커스",
-   "manager": "ACE",
-   "company": "한국투자신탁운용",
-   "color": "#E60012",
-   "category": "테마",
-   "is_theme": true,
-   "index_name": "iSelect K-POP 포커스지수(시장가격)",
-   "market_cap": 98406000000,
-   "shares": 14200000,
-   "close": 6930.0,
-   "nav": 6953.5,
-   "schedule_label": "3·6·9·12월",
-   "schedule_detail": "포커스 시총 1~3위 각 25%·4위 20% 고정. 정기변경 3·6·9·12월 옵션만기 T+2(3·9월은 비중만)",
-   "months": [
-    3,
-    6,
-    9,
-    12
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": 0.25,
-    "index_exception": false,
-    "top_n": 3,
-    "top_cap": 0.25,
-    "rest_cap": 0.2,
-    "label": "상위 3종목 각 25% · 나머지 20%",
-    "source": "ACE KPOP포커스 방법론: '상위 1~3위 25%, 4위 20% · 3·6·9·12월 옵션만기 2영업일 후'",
-    "verified": true,
-    "note": "상위 종목 상한 기준으로 초과를 계산한다(보수적). 포커스 시총 1~3위 각 25%·4위 20% 고정. 정기변경 3·6·9·12월 옵션만기 T+2(3·9월은 비중만)"
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": {
-    "cap_pct": 25.0,
-    "verified": true,
-    "count": 1,
-    "total_sell": 2735686800,
-    "items": [
-     {
-      "code": "352820",
-      "name": "하이브",
-      "weight": 27.78,
-      "cap_pct": 25.0,
-      "excess_pp": 2.78,
-      "sell_amount": 2735686800
-     }
-    ]
-   }
-  },
-  {
    "ticker": "469170",
    "isin": "KR7469170005",
    "name": "ACE 포스코그룹포커스",
@@ -5017,10 +4961,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 포스코그룹포커스 지수(시장가격)",
-   "market_cap": 97695000000,
+   "market_cap": 99645000000,
    "shares": 19500000,
-   "close": 5010.0,
-   "nav": 5032.11,
+   "close": 5110.0,
+   "nav": 5116.34,
    "schedule_label": "3·6·9·12월",
    "schedule_detail": "포스코 유니버스 상위 3종목 25% 블록 + 나머지 20% 유동시총가중; 개별 수시상한 25%. 6·12월 정기개편 + 3·9월 비중개편",
    "months": [
@@ -5044,28 +4988,84 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 25.0,
     "verified": true,
     "count": 2,
-    "total_sell": 4210654500,
+    "total_sell": 4513918500,
     "items": [
      {
       "code": "047050",
       "name": "포스코인터내셔널",
-      "weight": 27.56,
+      "weight": 28.17,
       "cap_pct": 25.0,
-      "excess_pp": 2.56,
-      "sell_amount": 2500992000
+      "excess_pp": 3.17,
+      "sell_amount": 3158746500
      },
      {
       "code": "005490",
       "name": "POSCO홀딩스",
-      "weight": 26.75,
+      "weight": 26.36,
       "cap_pct": 25.0,
-      "excess_pp": 1.75,
-      "sell_amount": 1709662500
+      "excess_pp": 1.36,
+      "sell_amount": 1355172000
+     }
+    ]
+   }
+  },
+  {
+   "ticker": "475050",
+   "isin": "KR7475050001",
+   "name": "ACE KPOP포커스",
+   "krx_name": "ACE KPOP포커스",
+   "manager": "ACE",
+   "company": "한국투자신탁운용",
+   "color": "#E60012",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "iSelect K-POP 포커스지수(시장가격)",
+   "market_cap": 98264000000,
+   "shares": 14200000,
+   "close": 6920.0,
+   "nav": 6902.6,
+   "schedule_label": "3·6·9·12월",
+   "schedule_detail": "포커스 시총 1~3위 각 25%·4위 20% 고정. 정기변경 3·6·9·12월 옵션만기 T+2(3·9월은 비중만)",
+   "months": [
+    3,
+    6,
+    9,
+    12
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": 0.25,
+    "index_exception": false,
+    "top_n": 3,
+    "top_cap": 0.25,
+    "rest_cap": 0.2,
+    "label": "상위 3종목 각 25% · 나머지 20%",
+    "source": "ACE KPOP포커스 방법론: '상위 1~3위 25%, 4위 20% · 3·6·9·12월 옵션만기 2영업일 후'",
+    "verified": true,
+    "note": "상위 종목 상한 기준으로 초과를 계산한다(보수적). 포커스 시총 1~3위 각 25%·4위 20% 고정. 정기변경 3·6·9·12월 옵션만기 T+2(3·9월은 비중만)"
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": {
+    "cap_pct": 25.0,
+    "verified": true,
+    "count": 1,
+    "total_sell": 2319030400,
+    "items": [
+     {
+      "code": "352820",
+      "name": "하이브",
+      "weight": 27.36,
+      "cap_pct": 25.0,
+      "excess_pp": 2.36,
+      "sell_amount": 2319030400
      }
     ]
    }
@@ -5081,10 +5081,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 2차전지 소부장 지수(PR)",
-   "market_cap": 94643750000,
-   "shares": 23750000,
-   "close": 3985.0,
-   "nav": 3964.4,
+   "market_cap": 95201250000,
+   "shares": 23950000,
+   "close": 3975.0,
+   "nav": 3982.1,
    "schedule_label": "6·12월",
    "schedule_detail": "5·11월말 종목선정 → 6·12월 선물옵션 만기일 D+2 정기변경(연2회). 수시변경 30%→25%",
    "months": [
@@ -5108,7 +5108,7 @@
     "cap_pct": 20.0,
     "verified": true,
     "count": 2,
-    "total_sell": 3956108750,
+    "total_sell": 3979412250,
     "items": [
      {
       "code": "005490",
@@ -5116,7 +5116,7 @@
       "weight": 22.74,
       "cap_pct": 20.0,
       "excess_pp": 2.74,
-      "sell_amount": 2593238750
+      "sell_amount": 2608514250
      },
      {
       "code": "051910",
@@ -5124,7 +5124,7 @@
       "weight": 21.44,
       "cap_pct": 20.0,
       "excess_pp": 1.44,
-      "sell_amount": 1362870000
+      "sell_amount": 1370898000
      }
     ]
    }
@@ -5140,10 +5140,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "iSelect CAPEX 설비투자 지수(시장가격)",
-   "market_cap": 94503000000,
-   "shares": 2550000,
-   "close": 37060.0,
-   "nav": 36982.49,
+   "market_cap": 94725000000,
+   "shares": 2500000,
+   "close": 37890.0,
+   "nav": 37791.88,
    "schedule_label": "6·12월",
    "schedule_detail": "최대 20종목, 개별 최대 10%·최소 2% 실링. 정기변경 연 2회(6·12월 코스피200 선물옵션 만기 2영업일 후)",
    "months": [
@@ -5162,20 +5162,28 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 10.0,
     "verified": true,
-    "count": 1,
-    "total_sell": 491415600,
+    "count": 2,
+    "total_sell": 397845000,
     "items": [
      {
       "code": "267270",
       "name": "HD건설기계",
-      "weight": 10.52,
+      "weight": 10.39,
       "cap_pct": 10.0,
-      "excess_pp": 0.52,
-      "sell_amount": 491415600
+      "excess_pp": 0.39,
+      "sell_amount": 369427500
+     },
+     {
+      "code": "010120",
+      "name": "LS ELECTRIC",
+      "weight": 10.03,
+      "cap_pct": 10.0,
+      "excess_pp": 0.03,
+      "sell_amount": 28417500
      }
     ]
    }
@@ -5191,10 +5199,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 한화그룹주 지수",
-   "market_cap": 93997750000,
+   "market_cap": 94325000000,
    "shares": 3850000,
-   "close": 24415.0,
-   "nav": 24360.6,
+   "close": 24500.0,
+   "nav": 24592.68,
    "schedule_label": "6·12월",
    "schedule_detail": "개별종목 최대 20%(계열 지분보유 종목 3%). 5·11월말 선정, 6·12월 만기일 D+2 정기변경",
    "months": [
@@ -5213,70 +5221,20 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 20.0,
     "verified": true,
     "count": 1,
-    "total_sell": 1390226722,
+    "total_sell": 1754445000,
     "items": [
      {
       "code": "012450",
       "name": "한화에어로스페이스",
-      "weight": 21.479,
+      "weight": 21.86,
       "cap_pct": 20.0,
-      "excess_pp": 1.479,
-      "sell_amount": 1390226722
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "211900",
-   "isin": "KR7211900006",
-   "name": "KODEX 코리아배당성장",
-   "krx_name": "KODEX 코리아배당성장",
-   "manager": "KODEX",
-   "company": "삼성자산운용",
-   "color": "#1428A0",
-   "category": "테마",
-   "is_theme": true,
-   "index_name": "코스피 배당성장 50",
-   "market_cap": 88416000000,
-   "shares": 3200000,
-   "close": 27630.0,
-   "nav": 27714.78,
-   "schedule_label": "6월",
-   "schedule_detail": "주당순이익 성장률 상위 50종목, 배당수익률 가중(개별종목 최대 5%). 정기변경 연 1회(6월 선물옵션 만기일 익일)",
-   "months": [
-    6
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": 0.05,
-    "index_exception": false,
-    "label": "단일종목 5% 상한",
-    "source": "미래에셋 TIGER 배당성장 상품페이지: '배당수익률 가중 방식(개별종목 비중 최대 5%) · 정기변경 연 1회(6월)'",
-    "verified": true,
-    "note": "주당순이익 성장률 상위 50종목, 배당수익률 가중(개별종목 최대 5%). 정기변경 연 1회(6월 선물옵션 만기일 익일)"
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": {
-    "cap_pct": 5.0,
-    "verified": true,
-    "count": 1,
-    "total_sell": 159148800,
-    "items": [
-     {
-      "code": "029780",
-      "name": "삼성카드",
-      "weight": 5.18,
-      "cap_pct": 5.0,
-      "excess_pp": 0.18,
-      "sell_amount": 159148800
+      "excess_pp": 1.86,
+      "sell_amount": 1754445000
      }
     ]
    }
@@ -5292,10 +5250,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코리아 밸류업 지수",
-   "market_cap": 87220000000,
+   "market_cap": 90062000000,
    "shares": 2800000,
-   "close": 31150.0,
-   "nav": 31167.84,
+   "close": 32165.0,
+   "nav": 32110.89,
    "schedule_label": "6월, 연 1회",
    "schedule_detail": "코리아 밸류업 지수 정기변경(연 1회 6월)",
    "months": [
@@ -5313,67 +5271,81 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 15.0,
     "verified": true,
     "count": 2,
-    "total_sell": 5408512200,
+    "total_sell": 6206172420,
     "items": [
      {
       "code": "000660",
       "name": "SK하이닉스",
-      "weight": 20.262,
+      "weight": 20.469,
       "cap_pct": 15.0,
-      "excess_pp": 5.262,
-      "sell_amount": 4589516400
+      "excess_pp": 5.469,
+      "sell_amount": 4925490780
      },
      {
       "code": "005930",
       "name": "삼성전자",
-      "weight": 15.939,
+      "weight": 16.422,
       "cap_pct": 15.0,
-      "excess_pp": 0.939,
-      "sell_amount": 818995800
+      "excess_pp": 1.422,
+      "sell_amount": 1280681640
      }
     ]
    }
   },
   {
-   "ticker": "0098N0",
-   "isin": "KR70098N0000",
-   "name": "PLUS 자사주매입고배당주",
-   "krx_name": "PLUS 자사주매입고배당주",
-   "manager": "PLUS",
-   "company": "한화자산운용",
-   "color": "#F37021",
+   "ticker": "211900",
+   "isin": "KR7211900006",
+   "name": "KODEX 코리아배당성장",
+   "krx_name": "KODEX 코리아배당성장",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
    "category": "테마",
    "is_theme": true,
-   "index_name": "FnGuide 고배당주 플러스 자사주 지수 (PR)",
-   "market_cap": 78244000000,
-   "shares": 6200000,
-   "close": 12620.0,
-   "nav": 12668.53,
-   "schedule_label": "6·12월",
-   "schedule_detail": "연2회, 6·12월 선물옵션 만기일 포함 5영업일째(T+4) 정기변경. 명시적 % 상한 없음(틸팅식 1/30+0.02*(2*Score-1), 실효 최대≈5.33%)",
+   "index_name": "코스피 배당성장 50",
+   "market_cap": 89232000000,
+   "shares": 3200000,
+   "close": 27885.0,
+   "nav": 28044.24,
+   "schedule_label": "6월",
+   "schedule_detail": "주당순이익 성장률 상위 50종목, 배당수익률 가중(개별종목 최대 5%). 정기변경 연 1회(6월 선물옵션 만기일 익일)",
    "months": [
-    6,
-    12
+    6
    ],
    "auto": true,
    "schedule_verified": true,
    "cap": {
-    "single_cap": null,
-    "index_exception": true,
-    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-    "source": "FnGuide_High_Dividend_Stocks_Plus_Buyback_Index_Methodology_Book_한화_(20250702)_v1.1.pdf | '연 2회 6, 12월 선물옵션만기일을 포함하여 5영업일째 되는 날(T+4)에 정기변경'; 틸팅 배분(비중 상한 미명시)",
+    "single_cap": 0.05,
+    "index_exception": false,
+    "label": "단일종목 5% 상한",
+    "source": "미래에셋 TIGER 배당성장 상품페이지: '배당수익률 가중 방식(개별종목 비중 최대 5%) · 정기변경 연 1회(6월)'",
     "verified": true,
-    "note": "시가총액 가중 복제 — 별도 단일종목 상한 없음."
+    "note": "주당순이익 성장률 상위 50종목, 배당수익률 가중(개별종목 최대 5%). 정기변경 연 1회(6월 선물옵션 만기일 익일)"
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": null
+   "holdings_asof": "2026-07-22",
+   "breach_summary": {
+    "cap_pct": 5.0,
+    "verified": true,
+    "count": 1,
+    "total_sell": 53539200,
+    "items": [
+     {
+      "code": "029780",
+      "name": "삼성카드",
+      "weight": 5.06,
+      "cap_pct": 5.0,
+      "excess_pp": 0.06,
+      "sell_amount": 53539200
+     }
+    ]
+   }
   },
   {
    "ticker": "337140",
@@ -5386,10 +5358,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "코스피 대형주",
-   "market_cap": 76494000000,
+   "market_cap": 79266000000,
    "shares": 2200000,
-   "close": 34770.0,
-   "nav": 34654.98,
+   "close": 36030.0,
+   "nav": 35976.86,
    "schedule_label": "3·9월",
    "schedule_detail": "유가증권 시총 1~100위 시가총액가중, 개별 상한 없음. 정기변경 연 2회(3·9월)",
    "months": [
@@ -5408,26 +5380,26 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
-   "ticker": "138530",
-   "isin": "KR7138530001",
-   "name": "TIGER LG그룹플러스",
-   "krx_name": "TIGER LG그룹플러스",
-   "manager": "TIGER",
-   "company": "미래에셋자산운용",
-   "color": "#F05A22",
+   "ticker": "0098N0",
+   "isin": "KR70098N0000",
+   "name": "PLUS 자사주매입고배당주",
+   "krx_name": "PLUS 자사주매입고배당주",
+   "manager": "PLUS",
+   "company": "한화자산운용",
+   "color": "#F37021",
    "category": "테마",
    "is_theme": true,
-   "index_name": "MKF LG그룹+ FW",
-   "market_cap": 76235900000,
-   "shares": 6940000,
-   "close": 10985.0,
-   "nav": 10972.04,
+   "index_name": "FnGuide 고배당주 플러스 자사주 지수 (PR)",
+   "market_cap": 78802000000,
+   "shares": 6200000,
+   "close": 12710.0,
+   "nav": 12678.53,
    "schedule_label": "6·12월",
-   "schedule_detail": "펀더멘탈(순자산·매출·현금흐름·배당) 가중, 10~20종목. 단일종목 한도 25%. 정기변경 연 2회(6·12월)",
+   "schedule_detail": "연2회, 6·12월 선물옵션 만기일 포함 5영업일째(T+4) 정기변경. 명시적 % 상한 없음(틸팅식 1/30+0.02*(2*Score-1), 실효 최대≈5.33%)",
    "months": [
     6,
     12
@@ -5435,17 +5407,75 @@
    "auto": true,
    "schedule_verified": true,
    "cap": {
-    "single_cap": 0.25,
-    "index_exception": false,
-    "label": "단일종목 25% 상한",
-    "source": "미래에셋 TIGER LG그룹플러스 상품페이지 기초지수: '단일종목 한도 25% · 정기변경 연 2회(6,12월)'",
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "FnGuide_High_Dividend_Stocks_Plus_Buyback_Index_Methodology_Book_한화_(20250702)_v1.1.pdf | '연 2회 6, 12월 선물옵션만기일을 포함하여 5영업일째 되는 날(T+4)에 정기변경'; 틸팅 배분(비중 상한 미명시)",
     "verified": true,
-    "note": "펀더멘탈(순자산·매출·현금흐름·배당) 가중, 10~20종목. 단일종목 한도 25%. 정기변경 연 2회(6·12월)"
+    "note": "시가총액 가중 복제 — 별도 단일종목 상한 없음."
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-13",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
+  },
+  {
+   "ticker": "495750",
+   "isin": "KR7495750002",
+   "name": "HANARO 코리아밸류업",
+   "krx_name": "HANARO 코리아밸류업",
+   "manager": "HANARO",
+   "company": "NH아문디자산운용",
+   "color": "#00A19C",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "코리아 밸류업 지수",
+   "market_cap": 77868000000,
+   "shares": 2400000,
+   "close": 32445.0,
+   "nav": 32386.18,
+   "schedule_label": "6월, 연 1회",
+   "schedule_detail": "코리아 밸류업 지수 정기변경(연 1회 6월)",
+   "months": [
+    6
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": 0.15,
+    "index_exception": false,
+    "label": "단일종목 15% 상한",
+    "source": "KRX 코리아 밸류업 지수 방법론(개별종목 15%)",
+    "verified": true,
+    "note": "개별종목 비중 15% 상한. 정기변경(연 1회 6월) 시 조정."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": {
+    "cap_pct": 15.0,
+    "verified": true,
+    "count": 2,
+    "total_sell": 5295024000,
+    "items": [
+     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "weight": 20.41,
+      "cap_pct": 15.0,
+      "excess_pp": 5.41,
+      "sell_amount": 4212658800
+     },
+     {
+      "code": "005930",
+      "name": "삼성전자",
+      "weight": 16.39,
+      "cap_pct": 15.0,
+      "excess_pp": 1.39,
+      "sell_amount": 1082365200
+     }
+    ]
+   }
   },
   {
    "ticker": "490480",
@@ -5458,10 +5488,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "KEDI K방산 지수(PR)",
-   "market_cap": 76209000000,
+   "market_cap": 76636500000,
    "shares": 2850000,
-   "close": 26740.0,
-   "nav": 26918.87,
+   "close": 26890.0,
+   "nav": 26951.29,
    "schedule_label": "3·6·9·12월",
    "schedule_detail": "유동시총 상위 10종목, 30% 연속초과→25% 조정(동일종목 25% 상한). 비중결정 분기 말 영업일·수행 D+3",
    "months": [
@@ -5486,62 +5516,111 @@
    "breach_summary": null
   },
   {
-   "ticker": "495750",
-   "isin": "KR7495750002",
-   "name": "HANARO 코리아밸류업",
-   "krx_name": "HANARO 코리아밸류업",
-   "manager": "HANARO",
-   "company": "NH아문디자산운용",
-   "color": "#00A19C",
-   "category": "시장대표",
-   "is_theme": false,
-   "index_name": "코리아 밸류업 지수",
-   "market_cap": 75156000000,
-   "shares": 2400000,
-   "close": 31315.0,
-   "nav": 31437.7,
-   "schedule_label": "6월, 연 1회",
-   "schedule_detail": "코리아 밸류업 지수 정기변경(연 1회 6월)",
+   "ticker": "138530",
+   "isin": "KR7138530001",
+   "name": "TIGER LG그룹플러스",
+   "krx_name": "TIGER LG그룹플러스",
+   "manager": "TIGER",
+   "company": "미래에셋자산운용",
+   "color": "#F05A22",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "MKF LG그룹+ FW",
+   "market_cap": 76374700000,
+   "shares": 6940000,
+   "close": 11005.0,
+   "nav": 11029.65,
+   "schedule_label": "6·12월",
+   "schedule_detail": "펀더멘탈(순자산·매출·현금흐름·배당) 가중, 10~20종목. 단일종목 한도 25%. 정기변경 연 2회(6·12월)",
+   "months": [
+    6,
+    12
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": 0.25,
+    "index_exception": false,
+    "label": "단일종목 25% 상한",
+    "source": "미래에셋 TIGER LG그룹플러스 상품페이지 기초지수: '단일종목 한도 25% · 정기변경 연 2회(6,12월)'",
+    "verified": true,
+    "note": "펀더멘탈(순자산·매출·현금흐름·배당) 가중, 10~20종목. 단일종목 한도 25%. 정기변경 연 2회(6·12월)"
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-13",
+   "breach_summary": null
+  },
+  {
+   "ticker": "292190",
+   "isin": "KR7292190006",
+   "name": "KODEX KRX300",
+   "krx_name": "KODEX KRX300",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "KRX 300",
+   "market_cap": 75560000000,
+   "shares": 1600000,
+   "close": 47225.0,
+   "nav": 47498.3,
+   "schedule_label": "6·12월",
+   "schedule_detail": "KRX 대표지수 정기변경(6·12월)",
+   "months": [
+    6,
+    12
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": null
+  },
+  {
+   "ticker": "211560",
+   "isin": "KR7211560008",
+   "name": "TIGER 배당성장",
+   "krx_name": "TIGER 배당성장",
+   "manager": "TIGER",
+   "company": "미래에셋자산운용",
+   "color": "#F05A22",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "코스피 배당성장 50",
+   "market_cap": 74976000000,
+   "shares": 2130000,
+   "close": 35200.0,
+   "nav": 35131.67,
+   "schedule_label": "6월",
+   "schedule_detail": "주당순이익 성장률 상위 50종목, 배당수익률 가중(개별종목 최대 5%). 정기변경 연 1회(6월 선물옵션 만기일 익일)",
    "months": [
     6
    ],
    "auto": true,
    "schedule_verified": true,
    "cap": {
-    "single_cap": 0.15,
+    "single_cap": 0.05,
     "index_exception": false,
-    "label": "단일종목 15% 상한",
-    "source": "KRX 코리아 밸류업 지수 방법론(개별종목 15%)",
+    "label": "단일종목 5% 상한",
+    "source": "미래에셋 TIGER 배당성장 상품페이지: '배당수익률 가중 방식(개별종목 비중 최대 5%) · 정기변경 연 1회(6월)'",
     "verified": true,
-    "note": "개별종목 비중 15% 상한. 정기변경(연 1회 6월) 시 조정."
+    "note": "주당순이익 성장률 상위 50종목, 배당수익률 가중(개별종목 최대 5%). 정기변경 연 1회(6월 선물옵션 만기일 익일)"
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": {
-    "cap_pct": 15.0,
-    "verified": true,
-    "count": 2,
-    "total_sell": 4592031600,
-    "items": [
-     {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "weight": 20.2,
-      "cap_pct": 15.0,
-      "excess_pp": 5.2,
-      "sell_amount": 3908112000
-     },
-     {
-      "code": "005930",
-      "name": "삼성전자",
-      "weight": 15.91,
-      "cap_pct": 15.0,
-      "excess_pp": 0.91,
-      "sell_amount": 683919600
-     }
-    ]
-   }
+   "holdings_asof": "2026-07-13",
+   "breach_summary": null
   },
   {
    "ticker": "210780",
@@ -5557,7 +5636,7 @@
    "market_cap": 74629500000,
    "shares": 3300000,
    "close": 22615.0,
-   "nav": 22592.57,
+   "nav": 22619.74,
    "schedule_label": "6월",
    "schedule_detail": "배당수익률 상위 50종목, 배당수익률 가중(개별종목 최대 3%). 정기변경 연 1회(6월 선물옵션 만기일 익일)",
    "months": [
@@ -5594,41 +5673,6 @@
    }
   },
   {
-   "ticker": "211560",
-   "isin": "KR7211560008",
-   "name": "TIGER 배당성장",
-   "krx_name": "TIGER 배당성장",
-   "manager": "TIGER",
-   "company": "미래에셋자산운용",
-   "color": "#F05A22",
-   "category": "테마",
-   "is_theme": true,
-   "index_name": "코스피 배당성장 50",
-   "market_cap": 74070750000,
-   "shares": 2130000,
-   "close": 34775.0,
-   "nav": 34719.52,
-   "schedule_label": "6월",
-   "schedule_detail": "주당순이익 성장률 상위 50종목, 배당수익률 가중(개별종목 최대 5%). 정기변경 연 1회(6월 선물옵션 만기일 익일)",
-   "months": [
-    6
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": 0.05,
-    "index_exception": false,
-    "label": "단일종목 5% 상한",
-    "source": "미래에셋 TIGER 배당성장 상품페이지: '배당수익률 가중 방식(개별종목 비중 최대 5%) · 정기변경 연 1회(6월)'",
-    "verified": true,
-    "note": "주당순이익 성장률 상위 50종목, 배당수익률 가중(개별종목 최대 5%). 정기변경 연 1회(6월 선물옵션 만기일 익일)"
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-13",
-   "breach_summary": null
-  },
-  {
    "ticker": "228810",
    "isin": "KR7228810008",
    "name": "TIGER 미디어컨텐츠",
@@ -5639,10 +5683,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "WISE 미디어컨텐츠 지수",
-   "market_cap": 73842000000,
+   "market_cap": 74080200000,
    "shares": 23820000,
-   "close": 3100.0,
-   "nav": 3104.49,
+   "close": 3110.0,
+   "nav": 3123.18,
    "schedule_label": "1·4·7·10월",
    "schedule_detail": "연4회 정기변경(1·4·7·10월 옵션 만기일 익일). 개별종목 최대 10% 실링.",
    "months": [
@@ -5668,7 +5712,7 @@
     "cap_pct": 10.0,
     "verified": true,
     "count": 3,
-    "total_sell": 1196240400,
+    "total_sell": 1200099240,
     "items": [
      {
       "code": "419530",
@@ -5676,7 +5720,7 @@
       "weight": 11.35,
       "cap_pct": 10.0,
       "excess_pp": 1.35,
-      "sell_amount": 996867000
+      "sell_amount": 1000082700
      },
      {
       "code": "376300",
@@ -5684,7 +5728,7 @@
       "weight": 10.23,
       "cap_pct": 10.0,
       "excess_pp": 0.23,
-      "sell_amount": 169836600
+      "sell_amount": 170384460
      },
      {
       "code": "122870",
@@ -5692,32 +5736,29 @@
       "weight": 10.04,
       "cap_pct": 10.0,
       "excess_pp": 0.04,
-      "sell_amount": 29536800
+      "sell_amount": 29632080
      }
     ]
    }
   },
   {
-   "ticker": "292190",
-   "isin": "KR7292190006",
-   "name": "KODEX KRX300",
-   "krx_name": "KODEX KRX300",
+   "ticker": "359210",
+   "isin": "KR7359210002",
+   "name": "KODEX 코스피TR",
+   "krx_name": "KODEX 코스피TR",
    "manager": "KODEX",
    "company": "삼성자산운용",
    "color": "#1428A0",
    "category": "테마",
    "is_theme": true,
-   "index_name": "KRX 300",
-   "market_cap": 72944000000,
-   "shares": 1600000,
-   "close": 45590.0,
-   "nav": 45736.98,
-   "schedule_label": "6·12월",
-   "schedule_detail": "KRX 대표지수 정기변경(6·12월)",
-   "months": [
-    6,
-    12
-   ],
+   "index_name": "코스피 TR",
+   "market_cap": 73468500000,
+   "shares": 2100000,
+   "close": 34985.0,
+   "nav": 34989.65,
+   "schedule_label": "수시",
+   "schedule_detail": "유가증권시장 전 종목 지수 — 신규상장·상장폐지 수시 반영",
+   "months": [],
    "auto": true,
    "schedule_verified": true,
    "cap": {
@@ -5730,43 +5771,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": null
-  },
-  {
-   "ticker": "364960",
-   "isin": "KR7364960005",
-   "name": "TIGER BBIG",
-   "krx_name": "TIGER BBIG",
-   "manager": "TIGER",
-   "company": "미래에셋자산운용",
-   "color": "#F05A22",
-   "category": "테마",
-   "is_theme": true,
-   "index_name": "KRX BBIG 지수",
-   "market_cap": 71295000000,
-   "shares": 12250000,
-   "close": 5820.0,
-   "nav": 5809.79,
-   "schedule_label": "3·9월",
-   "schedule_detail": "반기 정기변경(3월·9월 선물옵션 만기일 익영업일). 4개 산업군(2차전지·바이오·인터넷·게임) 각 시총 상위 3종목=12종목, 각 종목 1/12(약8.33%) 동일가중.",
-   "months": [
-    3,
-    9
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": null,
-    "index_exception": false,
-    "label": "동일가중 방식 · 종목 상한 이슈 없음",
-    "source": "KRX K-뉴딜지수 보도자료; 검색확인 '12개 종목 각 1/12 동일가중, 정기변경 연2회(3·9월 선물옵션만기 익영업일)'",
-    "verified": true,
-    "note": "동일가중(±틸팅). 단일종목 비중이 낮아 cap 초과 이슈 없음."
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-13",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -5780,10 +5785,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 소프트웨어 지수",
-   "market_cap": 71276400000,
+   "market_cap": 73101600000,
    "shares": 9360000,
-   "close": 7615.0,
-   "nav": 7609.95,
+   "close": 7810.0,
+   "nav": 7795.49,
    "schedule_label": "6·12월",
    "schedule_detail": "6·12월 선물옵션 만기주 다음주 첫 영업일 정기변경(섹터 커버리지 시리즈)",
    "months": [
@@ -5806,36 +5811,39 @@
    "breach_summary": null
   },
   {
-   "ticker": "359210",
-   "isin": "KR7359210002",
-   "name": "KODEX 코스피TR",
-   "krx_name": "KODEX 코스피TR",
-   "manager": "KODEX",
-   "company": "삼성자산운용",
-   "color": "#1428A0",
+   "ticker": "364960",
+   "isin": "KR7364960005",
+   "name": "TIGER BBIG",
+   "krx_name": "TIGER BBIG",
+   "manager": "TIGER",
+   "company": "미래에셋자산운용",
+   "color": "#F05A22",
    "category": "테마",
    "is_theme": true,
-   "index_name": "코스피 TR",
-   "market_cap": 71190000000,
-   "shares": 2100000,
-   "close": 33900.0,
-   "nav": 33779.28,
-   "schedule_label": "수시",
-   "schedule_detail": "유가증권시장 전 종목 지수 — 신규상장·상장폐지 수시 반영",
-   "months": [],
+   "index_name": "KRX BBIG 지수",
+   "market_cap": 72520000000,
+   "shares": 12250000,
+   "close": 5920.0,
+   "nav": 5912.46,
+   "schedule_label": "3·9월",
+   "schedule_detail": "반기 정기변경(3월·9월 선물옵션 만기일 익영업일). 4개 산업군(2차전지·바이오·인터넷·게임) 각 시총 상위 3종목=12종목, 각 종목 1/12(약8.33%) 동일가중.",
+   "months": [
+    3,
+    9
+   ],
    "auto": true,
    "schedule_verified": true,
    "cap": {
     "single_cap": null,
-    "index_exception": true,
-    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "index_exception": false,
+    "label": "동일가중 방식 · 종목 상한 이슈 없음",
+    "source": "KRX K-뉴딜지수 보도자료; 검색확인 '12개 종목 각 1/12 동일가중, 정기변경 연2회(3·9월 선물옵션만기 익영업일)'",
     "verified": true,
-    "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
+    "note": "동일가중(±틸팅). 단일종목 비중이 낮아 cap 초과 이슈 없음."
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-13",
    "breach_summary": null
   },
   {
@@ -5849,10 +5857,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 조선해운지수",
-   "market_cap": 70537500000,
+   "market_cap": 70248750000,
    "shares": 2750000,
-   "close": 25650.0,
-   "nav": 25572.5,
+   "close": 25545.0,
+   "nav": 25511.52,
    "schedule_label": "6·12월",
    "schedule_detail": "5·11월말 선정, 6·12월 만기일 D+4/D+5 정기변경",
    "months": [
@@ -5871,12 +5879,12 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 15.0,
     "verified": true,
     "count": 2,
-    "total_sell": 3103650000,
+    "total_sell": 3055820625,
     "items": [
      {
       "code": "011200",
@@ -5884,18 +5892,54 @@
       "weight": 18.58,
       "cap_pct": 15.0,
       "excess_pp": 3.58,
-      "sell_amount": 2525242500
+      "sell_amount": 2514905250
      },
      {
       "code": "009540",
       "name": "HD한국조선해양",
-      "weight": 15.82,
+      "weight": 15.77,
       "cap_pct": 15.0,
-      "excess_pp": 0.82,
-      "sell_amount": 578407500
+      "excess_pp": 0.77,
+      "sell_amount": 540915375
      }
     ]
    }
+  },
+  {
+   "ticker": "277640",
+   "isin": "KR7277640009",
+   "name": "TIGER 코스피대형주",
+   "krx_name": "TIGER 코스피대형주",
+   "manager": "TIGER",
+   "company": "미래에셋자산운용",
+   "color": "#F05A22",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "코스피 대형주",
+   "market_cap": 68783000000,
+   "shares": 1850000,
+   "close": 37180.0,
+   "nav": 37177.39,
+   "schedule_label": "3·9월",
+   "schedule_detail": "유가증권 시총 1~100위 시가총액가중, 개별 상한 없음. 정기변경 연 2회(3·9월)",
+   "months": [
+    3,
+    9
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "KODEX 코스피대형주 상품페이지: '시총 1~100위 지수 · 정기변경 연 2회(3·9월)'",
+    "verified": true,
+    "note": "시가총액 가중 복제 — 별도 단일종목 상한 없음."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-13",
+   "breach_summary": null
   },
   {
    "ticker": "475310",
@@ -5908,10 +5952,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 반도체 후공정 지수(PR)",
-   "market_cap": 67581000000,
+   "market_cap": 67837500000,
    "shares": 2700000,
-   "close": 25030.0,
-   "nav": 24913.42,
+   "close": 25125.0,
+   "nav": 25204.83,
    "schedule_label": "6·12월",
    "schedule_detail": "유동시총 가중. 5·11월말 종목선정 → 6·12월 선물옵션 만기일 D+2 정기변경(연2회). 종목당 20% 상한, 30%→25% 수시변경",
    "months": [
@@ -5935,7 +5979,7 @@
     "cap_pct": 20.0,
     "verified": true,
     "count": 1,
-    "total_sell": 263565900,
+    "total_sell": 264566250,
     "items": [
      {
       "code": "042700",
@@ -5943,46 +5987,10 @@
       "weight": 20.39,
       "cap_pct": 20.0,
       "excess_pp": 0.39,
-      "sell_amount": 263565900
+      "sell_amount": 264566250
      }
     ]
    }
-  },
-  {
-   "ticker": "277640",
-   "isin": "KR7277640009",
-   "name": "TIGER 코스피대형주",
-   "krx_name": "TIGER 코스피대형주",
-   "manager": "TIGER",
-   "company": "미래에셋자산운용",
-   "color": "#F05A22",
-   "category": "테마",
-   "is_theme": true,
-   "index_name": "코스피 대형주",
-   "market_cap": 66378000000,
-   "shares": 1850000,
-   "close": 35880.0,
-   "nav": 35811.05,
-   "schedule_label": "3·9월",
-   "schedule_detail": "유가증권 시총 1~100위 시가총액가중, 개별 상한 없음. 정기변경 연 2회(3·9월)",
-   "months": [
-    3,
-    9
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": null,
-    "index_exception": true,
-    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-    "source": "KODEX 코스피대형주 상품페이지: '시총 1~100위 지수 · 정기변경 연 2회(3·9월)'",
-    "verified": true,
-    "note": "시가총액 가중 복제 — 별도 단일종목 상한 없음."
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-13",
-   "breach_summary": null
   },
   {
    "ticker": "0008T0",
@@ -5995,10 +6003,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 화장품TOP3 플러스 지수(PR)",
-   "market_cap": 65611500000,
+   "market_cap": 66890250000,
    "shares": 4650000,
-   "close": 14110.0,
-   "nav": 14128.85,
+   "close": 14385.0,
+   "nav": 14409.47,
    "schedule_label": "1·4·7·10월",
    "schedule_detail": "화장품 TOP3 각 20% 고정, 플러스 종목 각 7%. 3·6·9·12월말 선정, 1·4·7·10월 만기일 D+2 정기변경",
    "months": [
@@ -6027,7 +6035,7 @@
     "cap_pct": 20.0,
     "verified": true,
     "count": 2,
-    "total_sell": 301812900,
+    "total_sell": 307695150,
     "items": [
      {
       "code": "257720",
@@ -6035,7 +6043,7 @@
       "weight": 20.25,
       "cap_pct": 20.0,
       "excess_pp": 0.25,
-      "sell_amount": 164028750
+      "sell_amount": 167225625
      },
      {
       "code": "278470",
@@ -6043,7 +6051,7 @@
       "weight": 20.21,
       "cap_pct": 20.0,
       "excess_pp": 0.21,
-      "sell_amount": 137784150
+      "sell_amount": 140469525
      }
     ]
    }
@@ -6059,10 +6067,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "WISE 여행레저 지수",
-   "market_cap": 64318800000,
-   "shares": 26040000,
-   "close": 2470.0,
-   "nav": 2458.99,
+   "market_cap": 64410450000,
+   "shares": 26130000,
+   "close": 2465.0,
+   "nav": 2468.31,
    "schedule_label": "1·4·7·10월",
    "schedule_detail": "연4회 정기변경(1·4·7·10월 옵션 만기일 익일). 개별종목 최대 10% 실링.",
    "months": [
@@ -6088,7 +6096,7 @@
     "cap_pct": 10.0,
     "verified": true,
     "count": 1,
-    "total_sell": 77182560,
+    "total_sell": 77292540,
     "items": [
      {
       "code": "035250",
@@ -6096,99 +6104,10 @@
       "weight": 10.12,
       "cap_pct": 10.0,
       "excess_pp": 0.12,
-      "sell_amount": 77182560
+      "sell_amount": 77292540
      }
     ]
    }
-  },
-  {
-   "ticker": "476260",
-   "isin": "KR7476260005",
-   "name": "HANARO 반도체핵심공정주도주",
-   "krx_name": "HANARO 반도체핵심공정주도주",
-   "manager": "HANARO",
-   "company": "NH아문디자산운용",
-   "color": "#00A19C",
-   "category": "테마",
-   "is_theme": true,
-   "index_name": "FnGuide 반도체 핵심공정 지수",
-   "market_cap": 64216500000,
-   "shares": 4650000,
-   "close": 13810.0,
-   "nav": 13785.15,
-   "schedule_label": "3·6·9·12월",
-   "schedule_detail": "코어 상위5종목 60%·나머지 40% 할당 후 종목당 15% 상한(실링). 3·6·9·12월 옵션 만기일 D+2 정기변경(분기). (방법론서 정식명 'FnGuide 반도체 핵심 공정 주도주 지수')",
-   "months": [
-    3,
-    6,
-    9,
-    12
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": 0.15,
-    "index_exception": false,
-    "label": "단일종목 15% 상한",
-    "source": "FnGuide_Semiconductor_Core_Process_Tech_Leaders_Index_Methodology_Book_(20231031)_v1.1.pdf | '코어 상위 5개 종목에 60%, 나머지 종목에 40% 할당…비중이 15%을 넘을 경우 15%로 제한'; '3, 6, 9, 12월 옵션 만기일(D) 이후 2영업일째(D+2)에 정기변경'",
-    "verified": true,
-    "note": "코어 상위5종목 60%·나머지 40% 할당 후 종목당 15% 상한(실링). 3·6·9·12월 옵션 만기일 D+2 정기변경(분기). (방법론서 정식명 'FnGuide 반도체 핵심 공정 주도주 지수')"
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": {
-    "cap_pct": 15.0,
-    "verified": true,
-    "count": 1,
-    "total_sell": 2491600200,
-    "items": [
-     {
-      "code": "089970",
-      "name": "브이엠",
-      "weight": 18.88,
-      "cap_pct": 15.0,
-      "excess_pp": 3.88,
-      "sell_amount": 2491600200
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "266420",
-   "isin": "KR7266420009",
-   "name": "KODEX 헬스케어",
-   "krx_name": "KODEX 헬스케어",
-   "manager": "KODEX",
-   "company": "삼성자산운용",
-   "color": "#1428A0",
-   "category": "섹터",
-   "is_theme": true,
-   "index_name": "KRX 헬스케어",
-   "market_cap": 63140000000,
-   "shares": 4100000,
-   "close": 15400.0,
-   "nav": 15426.35,
-   "schedule_label": "6·12월",
-   "schedule_detail": "헬스케어 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
-   "months": [
-    6,
-    12
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": null,
-    "index_exception": true,
-    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-    "source": "KRX 섹터지수 공통 방법론(유동시총가중, 캡 없음); KRX 정기변경 프레임워크 6/12월",
-    "verified": true,
-    "note": "시가총액 가중 복제 — 별도 단일종목 상한 없음."
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": null
   },
   {
    "ticker": "0111J0",
@@ -6201,10 +6120,10 @@
    "category": "섹터",
    "is_theme": true,
    "index_name": "FnGuide 증권 고배당 TOP3 플러스 지수",
-   "market_cap": 62881000000,
+   "market_cap": 63404250000,
    "shares": 4550000,
-   "close": 13820.0,
-   "nav": 13825.18,
+   "close": 13935.0,
+   "nav": 13918.03,
    "schedule_label": "6·12월",
    "schedule_detail": "시총 상위 3종목 각 20% 고정, 나머지 7종목 각 15%. 5·11월말 선정, 6·12월 만기일 D+2 정기변경",
    "months": [
@@ -6226,28 +6145,28 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 20.0,
     "verified": true,
     "count": 2,
-    "total_sell": 1094129400,
+    "total_sell": 1020808425,
     "items": [
      {
       "code": "071050",
       "name": "한국금융지주",
-      "weight": 21.36,
+      "weight": 21.46,
       "cap_pct": 20.0,
-      "excess_pp": 1.36,
-      "sell_amount": 855181600
+      "excess_pp": 1.46,
+      "sell_amount": 925702050
      },
      {
       "code": "039490",
       "name": "키움증권",
-      "weight": 20.38,
+      "weight": 20.15,
       "cap_pct": 20.0,
-      "excess_pp": 0.38,
-      "sell_amount": 238947800
+      "excess_pp": 0.15,
+      "sell_amount": 95106375
      }
     ]
    }
@@ -6263,10 +6182,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "KRX 코리아 소버린 AI 지수",
-   "market_cap": 62107500000,
-   "shares": 4900000,
-   "close": 12675.0,
-   "nav": 12645.56,
+   "market_cap": 62928750000,
+   "shares": 4850000,
+   "close": 12975.0,
+   "nav": 12943.47,
    "schedule_label": "3·6·9·12월",
    "schedule_detail": "테마적합도+유동시총 9:1 가중. 대표종목 20% 고정, 그 외 종목 0.1~10%(소속분류 4개 그룹 각 20% 상한). 정기변경 분기(3·6·9·12월 선물옵션 만기일 D+10), 수시 5매매일 연속 30%초과→25% 조정",
    "months": [
@@ -6290,23 +6209,112 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 20.0,
     "verified": true,
     "count": 1,
-    "total_sell": 2068179750,
+    "total_sell": 2315778000,
     "items": [
      {
       "code": "035420",
       "name": "NAVER",
-      "weight": 23.33,
+      "weight": 23.68,
       "cap_pct": 20.0,
-      "excess_pp": 3.33,
-      "sell_amount": 2068179750
+      "excess_pp": 3.68,
+      "sell_amount": 2315778000
      }
     ]
    }
+  },
+  {
+   "ticker": "476260",
+   "isin": "KR7476260005",
+   "name": "HANARO 반도체핵심공정주도주",
+   "krx_name": "HANARO 반도체핵심공정주도주",
+   "manager": "HANARO",
+   "company": "NH아문디자산운용",
+   "color": "#00A19C",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "FnGuide 반도체 핵심공정 지수",
+   "market_cap": 62585250000,
+   "shares": 4550000,
+   "close": 13755.0,
+   "nav": 13734.45,
+   "schedule_label": "3·6·9·12월",
+   "schedule_detail": "코어 상위5종목 60%·나머지 40% 할당 후 종목당 15% 상한(실링). 3·6·9·12월 옵션 만기일 D+2 정기변경(분기). (방법론서 정식명 'FnGuide 반도체 핵심 공정 주도주 지수')",
+   "months": [
+    3,
+    6,
+    9,
+    12
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": 0.15,
+    "index_exception": false,
+    "label": "단일종목 15% 상한",
+    "source": "FnGuide_Semiconductor_Core_Process_Tech_Leaders_Index_Methodology_Book_(20231031)_v1.1.pdf | '코어 상위 5개 종목에 60%, 나머지 종목에 40% 할당…비중이 15%을 넘을 경우 15%로 제한'; '3, 6, 9, 12월 옵션 만기일(D) 이후 2영업일째(D+2)에 정기변경'",
+    "verified": true,
+    "note": "코어 상위5종목 60%·나머지 40% 할당 후 종목당 15% 상한(실링). 3·6·9·12월 옵션 만기일 D+2 정기변경(분기). (방법론서 정식명 'FnGuide 반도체 핵심 공정 주도주 지수')"
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": {
+    "cap_pct": 15.0,
+    "verified": true,
+    "count": 1,
+    "total_sell": 1996469475,
+    "items": [
+     {
+      "code": "089970",
+      "name": "브이엠",
+      "weight": 18.19,
+      "cap_pct": 15.0,
+      "excess_pp": 3.19,
+      "sell_amount": 1996469475
+     }
+    ]
+   }
+  },
+  {
+   "ticker": "266420",
+   "isin": "KR7266420009",
+   "name": "KODEX 헬스케어",
+   "krx_name": "KODEX 헬스케어",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "섹터",
+   "is_theme": true,
+   "index_name": "KRX 헬스케어",
+   "market_cap": 61200000000,
+   "shares": 4000000,
+   "close": 15300.0,
+   "nav": 15327.19,
+   "schedule_label": "6·12월",
+   "schedule_detail": "헬스케어 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
+   "months": [
+    6,
+    12
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "KRX 섹터지수 공통 방법론(유동시총가중, 캡 없음); KRX 정기변경 프레임워크 6/12월",
+    "verified": true,
+    "note": "시가총액 가중 복제 — 별도 단일종목 상한 없음."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": null
   },
   {
    "ticker": "100910",
@@ -6319,10 +6327,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "KRX 100",
-   "market_cap": 59238000000,
+   "market_cap": 61002000000,
    "shares": 3600000,
-   "close": 16455.0,
-   "nav": 16367.6,
+   "close": 16945.0,
+   "nav": 17029.98,
    "schedule_label": "6·12월",
    "schedule_detail": "KRX 대표지수 정기변경(6·12월)",
    "months": [
@@ -6341,7 +6349,43 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
+   "breach_summary": null
+  },
+  {
+   "ticker": "491220",
+   "isin": "KR7491220000",
+   "name": "PLUS 200TR",
+   "krx_name": "PLUS 200TR",
+   "manager": "PLUS",
+   "company": "한화자산운용",
+   "color": "#F37021",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "코스피 200 TR",
+   "market_cap": 57854250000,
+   "shares": 450000,
+   "close": 128565.0,
+   "nav": 128016.52,
+   "schedule_label": "6·12월 D+1",
+   "schedule_detail": "코스피200 정기변경(6·12월 선물옵션 만기일 다음 거래일)",
+   "months": [
+    6,
+    12
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -6355,10 +6399,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "iSelect 2차전지 TOP10 지수(PR)",
-   "market_cap": 55602500000,
-   "shares": 5750000,
-   "close": 9670.0,
-   "nav": 9650.72,
+   "market_cap": 57834000000,
+   "shares": 5950000,
+   "close": 9720.0,
+   "nav": 9745.05,
    "schedule_label": "2·5·8·11월",
    "schedule_detail": "시총 상위 10종목, 개별 15% 실링. 정기변경 분기(2·5·8·11월 말 영업일 이후)",
    "months": [
@@ -6379,67 +6423,31 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 15.0,
     "verified": true,
     "count": 2,
-    "total_sell": 2413148500,
+    "total_sell": 2324926800,
     "items": [
      {
       "code": "373220",
       "name": "LG에너지솔루션",
-      "weight": 18.42,
+      "weight": 18.22,
       "cap_pct": 15.0,
-      "excess_pp": 3.42,
-      "sell_amount": 1901605500
+      "excess_pp": 3.22,
+      "sell_amount": 1862254800
      },
      {
       "code": "005490",
       "name": "POSCO홀딩스",
-      "weight": 15.92,
+      "weight": 15.8,
       "cap_pct": 15.0,
-      "excess_pp": 0.92,
-      "sell_amount": 511543000
+      "excess_pp": 0.8,
+      "sell_amount": 462672000
      }
     ]
    }
-  },
-  {
-   "ticker": "491220",
-   "isin": "KR7491220000",
-   "name": "PLUS 200TR",
-   "krx_name": "PLUS 200TR",
-   "manager": "PLUS",
-   "company": "한화자산운용",
-   "color": "#F37021",
-   "category": "시장대표",
-   "is_theme": false,
-   "index_name": "코스피 200 TR",
-   "market_cap": 55431000000,
-   "shares": 450000,
-   "close": 123180.0,
-   "nav": 123045.77,
-   "schedule_label": "6·12월 D+1",
-   "schedule_detail": "코스피200 정기변경(6·12월 선물옵션 만기일 다음 거래일)",
-   "months": [
-    6,
-    12
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": null,
-    "index_exception": true,
-    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
-    "verified": true,
-    "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": null
   },
   {
    "ticker": "0141S0",
@@ -6452,10 +6460,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 조선기자재 지수(PR)",
-   "market_cap": 54843750000,
-   "shares": 6750000,
-   "close": 8125.0,
-   "nav": 8081.86,
+   "market_cap": 51968000000,
+   "shares": 6400000,
+   "close": 8120.0,
+   "nav": 8100.26,
    "schedule_label": "2·5·8·11월",
    "schedule_detail": "1·4·7·10월말 선정, 2·5·8·11월 만기일 D+2 정기변경",
    "months": [
@@ -6481,7 +6489,7 @@
     "cap_pct": 20.0,
     "verified": true,
     "count": 1,
-    "total_sell": 4195546875,
+    "total_sell": 3975552000,
     "items": [
      {
       "code": "443060",
@@ -6489,10 +6497,48 @@
       "weight": 27.65,
       "cap_pct": 20.0,
       "excess_pp": 7.65,
-      "sell_amount": 4195546875
+      "sell_amount": 3975552000
      }
     ]
    }
+  },
+  {
+   "ticker": "275300",
+   "isin": "KR7275300002",
+   "name": "KODEX 우량주",
+   "krx_name": "KODEX 우량주",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "MSCI Korea IMI Quality Capped",
+   "market_cap": 51034000000,
+   "shares": 1700000,
+   "close": 30020.0,
+   "nav": 29957.97,
+   "schedule_label": "2·5·8·11월 말",
+   "schedule_detail": "MSCI 분기 리뷰(2·5·8·11월)",
+   "months": [
+    2,
+    5,
+    8,
+    11
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": null
   },
   {
    "ticker": "0139P0",
@@ -6505,10 +6551,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "KRX-Akros 고배당주 20 지수",
-   "market_cap": 51772500000,
-   "shares": 3900000,
-   "close": 13275.0,
-   "nav": 13251.47,
+   "market_cap": 50654000000,
+   "shares": 3800000,
+   "close": 13330.0,
+   "nav": 13342.45,
    "schedule_label": "4·10월",
    "schedule_detail": "반기 정기변경(연2회, 4월·10월). 시장대표성·유동성·배당수익률·배당성향·ROE 종합해 20종목 선정, 배당락 회복률 하위 10% 제외. 예상배당수익률 가중방식, 개별종목 최대 비중(Cap) 10%.",
    "months": [
@@ -6527,7 +6573,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -6541,10 +6587,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스닥 150 헬스케어",
-   "market_cap": 50730000000,
+   "market_cap": 49476000000,
    "shares": 4560000,
-   "close": 11125.0,
-   "nav": 11102.02,
+   "close": 10850.0,
+   "nav": 10826.45,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "코스닥150 정기변경(6·12월)",
    "months": [
@@ -6567,44 +6613,6 @@
    "breach_summary": null
   },
   {
-   "ticker": "275300",
-   "isin": "KR7275300002",
-   "name": "KODEX 우량주",
-   "krx_name": "KODEX 우량주",
-   "manager": "KODEX",
-   "company": "삼성자산운용",
-   "color": "#1428A0",
-   "category": "시장대표",
-   "is_theme": false,
-   "index_name": "MSCI Korea IMI Quality Capped",
-   "market_cap": 49215000000,
-   "shares": 1700000,
-   "close": 28950.0,
-   "nav": 28821.16,
-   "schedule_label": "2·5·8·11월 말",
-   "schedule_detail": "MSCI 분기 리뷰(2·5·8·11월)",
-   "months": [
-    2,
-    5,
-    8,
-    11
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": null,
-    "index_exception": true,
-    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
-    "verified": true,
-    "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": null
-  },
-  {
    "ticker": "140700",
    "isin": "KR7140700006",
    "name": "KODEX 보험",
@@ -6615,10 +6623,10 @@
    "category": "섹터",
    "is_theme": true,
    "index_name": "KRX 보험",
-   "market_cap": 47697000000,
-   "shares": 2600000,
-   "close": 18345.0,
-   "nav": 18364.19,
+   "market_cap": 46912500000,
+   "shares": 2500000,
+   "close": 18765.0,
+   "nav": 18707.76,
    "schedule_label": "6·12월",
    "schedule_detail": "보험 섹터 종목을 유동시가총액 가중으로 구성하는 플레인 섹터지수. 단일종목 상한 없음. 반기 정기변경(6·12월).",
    "months": [
@@ -6637,7 +6645,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -6651,10 +6659,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "iSelect 메타버스 지수(시장가격지수)",
-   "market_cap": 43083500000,
+   "market_cap": 43720300000,
    "shares": 3980000,
-   "close": 10825.0,
-   "nav": 10777.96,
+   "close": 10985.0,
+   "nav": 10935.64,
    "schedule_label": "6·12월",
    "schedule_detail": "개별종목 10% 실링. 정기변경 연 2회(6·12월 코스피200 선물 만기 T+5)",
    "months": [
@@ -6673,44 +6681,52 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 10.0,
     "verified": true,
-    "count": 4,
-    "total_sell": 2042157900,
+    "count": 5,
+    "total_sell": 2116062520,
     "items": [
      {
       "code": "259960",
       "name": "크래프톤",
-      "weight": 11.77,
+      "weight": 12.22,
       "cap_pct": 10.0,
-      "excess_pp": 1.77,
-      "sell_amount": 762577950
-     },
-     {
-      "code": "352820",
-      "name": "하이브",
-      "weight": 11.3,
-      "cap_pct": 10.0,
-      "excess_pp": 1.3,
-      "sell_amount": 560085500
+      "excess_pp": 2.22,
+      "sell_amount": 970590660
      },
      {
       "code": "035720",
       "name": "카카오",
-      "weight": 11.22,
+      "weight": 11.14,
       "cap_pct": 10.0,
-      "excess_pp": 1.22,
-      "sell_amount": 525618700
+      "excess_pp": 1.14,
+      "sell_amount": 498411420
+     },
+     {
+      "code": "352820",
+      "name": "하이브",
+      "weight": 10.89,
+      "cap_pct": 10.0,
+      "excess_pp": 0.89,
+      "sell_amount": 389110670
      },
      {
       "code": "036570",
       "name": "NC",
-      "weight": 10.45,
+      "weight": 10.44,
       "cap_pct": 10.0,
-      "excess_pp": 0.45,
-      "sell_amount": 193875750
+      "excess_pp": 0.44,
+      "sell_amount": 192369320
+     },
+     {
+      "code": "035420",
+      "name": "NAVER",
+      "weight": 10.15,
+      "cap_pct": 10.0,
+      "excess_pp": 0.15,
+      "sell_amount": 65580450
      }
     ]
    }
@@ -6726,10 +6742,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스피",
-   "market_cap": 40686000000,
+   "market_cap": 41940000000,
    "shares": 600000,
-   "close": 67810.0,
-   "nav": 67633.45,
+   "close": 69900.0,
+   "nav": 70047.05,
    "schedule_label": "수시",
    "schedule_detail": "유가증권시장 전 종목 지수 — 신규상장·상장폐지 수시 반영",
    "months": [],
@@ -6745,7 +6761,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -6759,10 +6775,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 고배당 알파 지수",
-   "market_cap": 40086000000,
+   "market_cap": 39870000000,
    "shares": 1800000,
-   "close": 22270.0,
-   "nav": 22235.7,
+   "close": 22150.0,
+   "nav": 22188.13,
    "schedule_label": "6·12월",
    "schedule_detail": "배당금 가중. 5·11월말 종목선정 → 6·12월 선물옵션 만기일 D+4/D+5 정기변경(연2회). 종목당 10% 상한. (방법론서 표기명 'FnGuide K고배당 지수' = 322410 벤치마크)",
    "months": [
@@ -6781,36 +6797,28 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 10.0,
     "verified": true,
     "count": 4,
-    "total_sell": 974089800,
+    "total_sell": 785439000,
     "items": [
      {
       "code": "086790",
       "name": "하나금융지주",
-      "weight": 11.28,
+      "weight": 11.24,
       "cap_pct": 10.0,
-      "excess_pp": 1.28,
-      "sell_amount": 513100800
+      "excess_pp": 1.24,
+      "sell_amount": 494388000
      },
      {
       "code": "030200",
       "name": "KT",
-      "weight": 10.55,
+      "weight": 10.42,
       "cap_pct": 10.0,
-      "excess_pp": 0.55,
-      "sell_amount": 220473000
-     },
-     {
-      "code": "024110",
-      "name": "기업은행",
-      "weight": 10.34,
-      "cap_pct": 10.0,
-      "excess_pp": 0.34,
-      "sell_amount": 136292400
+      "excess_pp": 0.42,
+      "sell_amount": 167454000
      },
      {
       "code": "316140",
@@ -6818,7 +6826,15 @@
       "weight": 10.26,
       "cap_pct": 10.0,
       "excess_pp": 0.26,
-      "sell_amount": 104223600
+      "sell_amount": 103662000
+     },
+     {
+      "code": "024110",
+      "name": "기업은행",
+      "weight": 10.05,
+      "cap_pct": 10.0,
+      "excess_pp": 0.05,
+      "sell_amount": 19935000
      }
     ]
    }
@@ -6834,10 +6850,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스피 200 경기방어소비재",
-   "market_cap": 39345200000,
+   "market_cap": 39612400000,
    "shares": 3340000,
-   "close": 11780.0,
-   "nav": 11788.23,
+   "close": 11860.0,
+   "nav": 11865.14,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "코스피200 정기변경(6·12월 선물옵션 만기일 다음 거래일)",
    "months": [
@@ -6860,42 +6876,6 @@
    "breach_summary": null
   },
   {
-   "ticker": "498860",
-   "isin": "KR7498860006",
-   "name": "RISE 코리아금융고배당",
-   "krx_name": "RISE 코리아금융고배당",
-   "manager": "RISE",
-   "company": "KB자산운용",
-   "color": "#F5A623",
-   "category": "섹터",
-   "is_theme": true,
-   "index_name": "iSelect 코리아 금융 고배당 지수",
-   "market_cap": 38362500000,
-   "shares": 2250000,
-   "close": 17050.0,
-   "nav": 17068.2,
-   "schedule_label": "5·11월",
-   "schedule_detail": "4개 팩터(ROE·배당·PBR·시총) 그룹 배분, 팩터 내 동일가중(30% 초과시 지수위 조정). 정기변경 연 2회(5·11월 옵션만기 익주 둘째 영업일)",
-   "months": [
-    5,
-    11
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": null,
-    "index_exception": false,
-    "label": "동일가중 방식 · 종목 상한 이슈 없음",
-    "source": "RISE 코리아금융고배당 방법론: '팩터 내 동일가중 · 5·11월 옵션 만기일 익주 두번째 영업일'",
-    "verified": true,
-    "note": "동일가중(±틸팅). 단일종목 비중이 낮아 cap 초과 이슈 없음."
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": null
-  },
-  {
    "ticker": "400970",
    "isin": "KR7400970000",
    "name": "TIGER Fn메타버스",
@@ -6906,10 +6886,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 메타버스테마 지수",
-   "market_cap": 38246000000,
+   "market_cap": 38610000000,
    "shares": 5200000,
-   "close": 7355.0,
-   "nav": 7369.77,
+   "close": 7425.0,
+   "nav": 7466.27,
    "schedule_label": "6·12월",
    "schedule_detail": "5·11월말 종목선정 → 6·12월 선물옵션 만기일 D+2 정기변경(연2회). 종목당 10% 상한",
    "months": [
@@ -6933,7 +6913,7 @@
     "cap_pct": 10.0,
     "verified": true,
     "count": 3,
-    "total_sell": 1311837800,
+    "total_sell": 1324323000,
     "items": [
      {
       "code": "259960",
@@ -6941,7 +6921,7 @@
       "weight": 11.68,
       "cap_pct": 10.0,
       "excess_pp": 1.68,
-      "sell_amount": 642532800
+      "sell_amount": 648648000
      },
      {
       "code": "352820",
@@ -6949,7 +6929,7 @@
       "weight": 11.16,
       "cap_pct": 10.0,
       "excess_pp": 1.16,
-      "sell_amount": 443653600
+      "sell_amount": 447876000
      },
      {
       "code": "036570",
@@ -6957,7 +6937,7 @@
       "weight": 10.59,
       "cap_pct": 10.0,
       "excess_pp": 0.59,
-      "sell_amount": 225651400
+      "sell_amount": 227799000
      }
     ]
    }
@@ -6973,10 +6953,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "코스닥 150",
-   "market_cap": 38082200000,
+   "market_cap": 38203000000,
    "shares": 6040000,
-   "close": 6305.0,
-   "nav": 6315.3,
+   "close": 6325.0,
+   "nav": 6327.26,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "코스닥150 정기변경(6·12월)",
    "months": [
@@ -6995,7 +6975,43 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
+   "breach_summary": null
+  },
+  {
+   "ticker": "498860",
+   "isin": "KR7498860006",
+   "name": "RISE 코리아금융고배당",
+   "krx_name": "RISE 코리아금융고배당",
+   "manager": "RISE",
+   "company": "KB자산운용",
+   "color": "#F5A623",
+   "category": "섹터",
+   "is_theme": true,
+   "index_name": "iSelect 코리아 금융 고배당 지수",
+   "market_cap": 37983000000,
+   "shares": 2200000,
+   "close": 17265.0,
+   "nav": 17234.54,
+   "schedule_label": "5·11월",
+   "schedule_detail": "4개 팩터(ROE·배당·PBR·시총) 그룹 배분, 팩터 내 동일가중(30% 초과시 지수위 조정). 정기변경 연 2회(5·11월 옵션만기 익주 둘째 영업일)",
+   "months": [
+    5,
+    11
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": null,
+    "index_exception": false,
+    "label": "동일가중 방식 · 종목 상한 이슈 없음",
+    "source": "RISE 코리아금융고배당 방법론: '팩터 내 동일가중 · 5·11월 옵션 만기일 익주 두번째 영업일'",
+    "verified": true,
+    "note": "동일가중(±틸팅). 단일종목 비중이 낮아 cap 초과 이슈 없음."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
@@ -7009,10 +7025,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide 모멘텀 지수",
-   "market_cap": 36988800000,
+   "market_cap": 37524000000,
    "shares": 480000,
-   "close": 77060.0,
-   "nav": 77016.3,
+   "close": 78175.0,
+   "nav": 78625.52,
    "schedule_label": "1·4·7·10월",
    "schedule_detail": "동일가중(최소 10종목). 1·4·7·10월(연4회) 옵션 만기일 전주 목요일 종목선정, 만기 다음주 첫·둘째 영업일 정기변경",
    "months": [
@@ -7037,6 +7053,42 @@
    "breach_summary": null
   },
   {
+   "ticker": "153270",
+   "isin": "KR7153270004",
+   "name": "KIWOOM 코스피100",
+   "krx_name": "KIWOOM 코스피100",
+   "manager": "KIWOOM",
+   "company": "키움투자자산운용",
+   "color": "#D6001C",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "코스피 100",
+   "market_cap": 35021700000,
+   "shares": 420000,
+   "close": 83385.0,
+   "nav": 83698.13,
+   "schedule_label": "6·12월 D+1",
+   "schedule_detail": "코스피100 정기변경(6·12월)",
+   "months": [
+    6,
+    12
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": null
+  },
+  {
    "ticker": "365000",
    "isin": "KR7365000009",
    "name": "TIGER 인터넷TOP10",
@@ -7047,10 +7099,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "KRX 인터넷 TOP 10 지수",
-   "market_cap": 34150000000,
+   "market_cap": 34700000000,
    "shares": 10000000,
-   "close": 3415.0,
-   "nav": 3408.6,
+   "close": 3470.0,
+   "nav": 3461.34,
    "schedule_label": "3·9월",
    "schedule_detail": "반기 정기변경(3월·9월). K-뉴딜 TOP10 공통방식: 시총 상위 3종목 각 25%(합75%) 고정, 나머지 7종목 유동시총가중 25% 배분. 개별종목 Cap 25%.",
    "months": [
@@ -7077,7 +7129,7 @@
     "cap_pct": 25.0,
     "verified": true,
     "count": 2,
-    "total_sell": 2445140000,
+    "total_sell": 2484520000,
     "items": [
      {
       "code": "035720",
@@ -7085,7 +7137,7 @@
       "weight": 29.32,
       "cap_pct": 25.0,
       "excess_pp": 4.32,
-      "sell_amount": 1475280000
+      "sell_amount": 1499040000
      },
      {
       "code": "035420",
@@ -7093,46 +7145,10 @@
       "weight": 27.84,
       "cap_pct": 25.0,
       "excess_pp": 2.84,
-      "sell_amount": 969860000
+      "sell_amount": 985480000
      }
     ]
    }
-  },
-  {
-   "ticker": "153270",
-   "isin": "KR7153270004",
-   "name": "KIWOOM 코스피100",
-   "krx_name": "KIWOOM 코스피100",
-   "manager": "KIWOOM",
-   "company": "키움투자자산운용",
-   "color": "#D6001C",
-   "category": "시장대표",
-   "is_theme": false,
-   "index_name": "코스피 100",
-   "market_cap": 33713400000,
-   "shares": 420000,
-   "close": 80270.0,
-   "nav": 80513.8,
-   "schedule_label": "6·12월 D+1",
-   "schedule_detail": "코스피100 정기변경(6·12월)",
-   "months": [
-    6,
-    12
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": null,
-    "index_exception": true,
-    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
-    "verified": true,
-    "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": null
   },
   {
    "ticker": "322400",
@@ -7145,10 +7161,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide E커머스 지수",
-   "market_cap": 33524000000,
+   "market_cap": 34221000000,
    "shares": 3400000,
-   "close": 9860.0,
-   "nav": 9820.93,
+   "close": 10065.0,
+   "nav": 10029.47,
    "schedule_label": "6·12월",
    "schedule_detail": "5·11월말 종목선정 → 6·12월 선물옵션 만기일 D+4/D+5 정기변경(연2회). 유동시총 가중, 종목당 20% 상한",
    "months": [
@@ -7167,20 +7183,20 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 20.0,
     "verified": true,
     "count": 1,
-    "total_sell": 372116400,
+    "total_sell": 280612200,
     "items": [
      {
       "code": "035720",
       "name": "카카오",
-      "weight": 21.11,
+      "weight": 20.82,
       "cap_pct": 20.0,
-      "excess_pp": 1.11,
-      "sell_amount": 372116400
+      "excess_pp": 0.82,
+      "sell_amount": 280612200
      }
     ]
    }
@@ -7196,10 +7212,10 @@
    "category": "시장대표",
    "is_theme": false,
    "index_name": "MSCI Korea IMI Momentum Capped",
-   "market_cap": 32680000000,
+   "market_cap": 33940000000,
    "shares": 800000,
-   "close": 40850.0,
-   "nav": 40712.2,
+   "close": 42425.0,
+   "nav": 42311.06,
    "schedule_label": "2·5·8·11월 말",
    "schedule_detail": "MSCI 분기 리뷰(2·5·8·11월)",
    "months": [
@@ -7220,8 +7236,75 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
+  },
+  {
+   "ticker": "105780",
+   "isin": "KR7105780001",
+   "name": "RISE 5대그룹주",
+   "krx_name": "RISE 5대그룹주",
+   "manager": "RISE",
+   "company": "KB자산운용",
+   "color": "#F5A623",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "MKF 5대그룹주",
+   "market_cap": 33410000000,
+   "shares": 2000000,
+   "close": 16705.0,
+   "nav": 16648.36,
+   "schedule_label": "6·12월",
+   "schedule_detail": "5대그룹 핵심 25종목 내외, 유동성 감안 시가총액 가중. 개별종목 편입비 상한 10%(정기변경일 기준). 정기변경 연 2회(매년 6·12월). 보통주(우선주 제외)",
+   "months": [
+    6,
+    12
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": 0.1,
+    "index_exception": false,
+    "label": "단일종목 10% 상한",
+    "source": "RISE 5대그룹주 투자설명서: '채용 주식수 25종목 내외, 개별종목 편입비 상한 정기변경일 기준 10% · 산출방식 유동성 감안 시가총액 가중 · 정기변경 연 2회(6,12월)'",
+    "verified": true,
+    "note": "5대그룹 핵심 25종목 내외, 유동성 감안 시가총액 가중. 개별종목 편입비 상한 10%(정기변경일 기준). 정기변경 연 2회(매년 6·12월). 보통주(우선주 제외)"
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": {
+    "cap_pct": 10.0,
+    "verified": true,
+    "count": 3,
+    "total_sell": 855296000,
+    "items": [
+     {
+      "code": "402340",
+      "name": "SK스퀘어",
+      "weight": 12.04,
+      "cap_pct": 10.0,
+      "excess_pp": 2.04,
+      "sell_amount": 681564000
+     },
+     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "weight": 10.31,
+      "cap_pct": 10.0,
+      "excess_pp": 0.31,
+      "sell_amount": 103571000
+     },
+     {
+      "code": "005930",
+      "name": "삼성전자",
+      "weight": 10.21,
+      "cap_pct": 10.0,
+      "excess_pp": 0.21,
+      "sell_amount": 70161000
+     }
+    ]
+   }
   },
   {
    "ticker": "139270",
@@ -7234,10 +7317,10 @@
    "category": "섹터",
    "is_theme": true,
    "index_name": "코스피 200 금융",
-   "market_cap": 32487000000,
+   "market_cap": 33143600000,
    "shares": 1960000,
-   "close": 16575.0,
-   "nav": 16604.52,
+   "close": 16910.0,
+   "nav": 16876.19,
    "schedule_label": "6·12월 D+1",
    "schedule_detail": "코스피200 정기변경(6·12월 선물옵션 만기일 다음 거래일)",
    "months": [
@@ -7260,22 +7343,22 @@
    "breach_summary": null
   },
   {
-   "ticker": "105780",
-   "isin": "KR7105780001",
-   "name": "RISE 5대그룹주",
-   "krx_name": "RISE 5대그룹주",
-   "manager": "RISE",
-   "company": "KB자산운용",
-   "color": "#F5A623",
+   "ticker": "380340",
+   "isin": "KR7380340000",
+   "name": "ACE 코리아AI테크핵심산업",
+   "krx_name": "ACE 코리아AI테크핵심산업",
+   "manager": "ACE",
+   "company": "한국투자신탁운용",
+   "color": "#E60012",
    "category": "테마",
    "is_theme": true,
-   "index_name": "MKF 5대그룹주",
-   "market_cap": 32330000000,
-   "shares": 2000000,
-   "close": 16165.0,
-   "nav": 16090.32,
+   "index_name": "FnGuide 코리아AI테크핵심산업지수 (Price Return)",
+   "market_cap": 31650000000,
+   "shares": 1200000,
+   "close": 26375.0,
+   "nav": 26275.88,
    "schedule_label": "6·12월",
-   "schedule_detail": "5대그룹 핵심 25종목 내외, 유동성 감안 시가총액 가중. 개별종목 편입비 상한 10%(정기변경일 기준). 정기변경 연 2회(매년 6·12월). 보통주(우선주 제외)",
+   "schedule_detail": "개별 20%, 반도체·관련장비 합산 15%. 5·11월말 선정, 6·12월 만기일 D+2 정기변경",
    "months": [
     6,
     12
@@ -7283,37 +7366,29 @@
    "auto": true,
    "schedule_verified": true,
    "cap": {
-    "single_cap": 0.1,
+    "single_cap": 0.2,
     "index_exception": false,
-    "label": "단일종목 10% 상한",
-    "source": "RISE 5대그룹주 투자설명서: '채용 주식수 25종목 내외, 개별종목 편입비 상한 정기변경일 기준 10% · 산출방식 유동성 감안 시가총액 가중 · 정기변경 연 2회(6,12월)'",
+    "label": "단일종목 20% 상한",
+    "source": "FnGuide Korea AI Tech Core Industry Index Methodology v1.0: 20%/반도체 15% 제한; 6·12월 D+2",
     "verified": true,
-    "note": "5대그룹 핵심 25종목 내외, 유동성 감안 시가총액 가중. 개별종목 편입비 상한 10%(정기변경일 기준). 정기변경 연 2회(매년 6·12월). 보통주(우선주 제외)"
+    "note": "개별 20%, 반도체·관련장비 합산 15%. 5·11월말 선정, 6·12월 만기일 D+2 정기변경"
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
-    "cap_pct": 10.0,
+    "cap_pct": 20.0,
     "verified": true,
-    "count": 2,
-    "total_sell": 630435000,
+    "count": 1,
+    "total_sell": 984315000,
     "items": [
      {
-      "code": "402340",
-      "name": "SK스퀘어",
-      "weight": 11.7,
-      "cap_pct": 10.0,
-      "excess_pp": 1.7,
-      "sell_amount": 549610000
-     },
-     {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "weight": 10.25,
-      "cap_pct": 10.0,
-      "excess_pp": 0.25,
-      "sell_amount": 80825000
+      "code": "035420",
+      "name": "NAVER",
+      "weight": 23.11,
+      "cap_pct": 20.0,
+      "excess_pp": 3.11,
+      "sell_amount": 984315000
      }
     ]
    }
@@ -7329,10 +7404,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "FnGuide K-POP & 미디어 지수",
-   "market_cap": 31593750000,
+   "market_cap": 31531250000,
    "shares": 6250000,
-   "close": 5055.0,
-   "nav": 5052.48,
+   "close": 5045.0,
+   "nav": 5024.1,
    "schedule_label": "6·12월",
    "schedule_detail": "5·11월말 종목선정 → 6·12월 선물옵션 만기일 D+4/D+5 정기변경(연2회). 종목당 25% 상한",
    "months": [
@@ -7351,23 +7426,99 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": {
     "cap_pct": 25.0,
     "verified": true,
     "count": 1,
-    "total_sell": 682425000,
+    "total_sell": 532878125,
     "items": [
      {
       "code": "352820",
       "name": "하이브",
-      "weight": 27.16,
+      "weight": 26.69,
       "cap_pct": 25.0,
-      "excess_pp": 2.16,
-      "sell_amount": 682425000
+      "excess_pp": 1.69,
+      "sell_amount": 532878125
      }
     ]
    }
+  },
+  {
+   "ticker": "395170",
+   "isin": "KR7395170004",
+   "name": "KODEX Top10동일가중",
+   "krx_name": "KODEX Top10동일가중",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "테마",
+   "is_theme": true,
+   "index_name": "FnGuide TOP10 동일가중 지수",
+   "market_cap": 31270000000,
+   "shares": 2000000,
+   "close": 15635.0,
+   "nav": 15639.98,
+   "schedule_label": "3·6·9·12월",
+   "schedule_detail": "2·5·8·11월말 종목선정 → 3·6·9·12월 선물옵션 만기일 D+2 정기변경(분기). 10종목 동일가중(각 10%)",
+   "months": [
+    3,
+    6,
+    9,
+    12
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": null,
+    "index_exception": false,
+    "label": "동일가중 방식 · 종목 상한 이슈 없음",
+    "source": "FnGuide_TOP10_EW_Index_Methodology_Book_삼성자산운용_v1.0.pdf | '비중이 10%가 되도록 산정'(10종목 동일가중); '3, 6, 9, 12월 선물옵션 만기일(D) 이후 2영업일(D+2)에 정기변경'",
+    "verified": true,
+    "note": "동일가중(±틸팅). 단일종목 비중이 낮아 cap 초과 이슈 없음."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": null
+  },
+  {
+   "ticker": "275290",
+   "isin": "KR7275290005",
+   "name": "KODEX 가치주",
+   "krx_name": "KODEX 가치주",
+   "manager": "KODEX",
+   "company": "삼성자산운용",
+   "color": "#1428A0",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "MSCI Korea IMI Enhanced Value Capped",
+   "market_cap": 31144500000,
+   "shares": 900000,
+   "close": 34605.0,
+   "nav": 34497.91,
+   "schedule_label": "2·5·8·11월 말",
+   "schedule_detail": "MSCI 분기 리뷰(2·5·8·11월)",
+   "months": [
+    2,
+    5,
+    8,
+    11
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-22",
+   "breach_summary": null
   },
   {
    "ticker": "261140",
@@ -7380,10 +7531,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "코스피 우선주 지수",
-   "market_cap": 30606800000,
-   "shares": 1360000,
-   "close": 22505.0,
-   "nav": 22498.21,
+   "market_cap": 31094700000,
+   "shares": 1340000,
+   "close": 23205.0,
+   "nav": 23233.04,
    "schedule_label": "6월",
    "schedule_detail": "우선주 20종목 이내, 유동시가총액 가중. 리밸런싱 매년 6월",
    "months": [
@@ -7405,131 +7556,6 @@
    "breach_summary": null
   },
   {
-   "ticker": "450910",
-   "isin": "KR7450910005",
-   "name": "SOL 코스닥150",
-   "krx_name": "SOL 코스닥150",
-   "manager": "SOL",
-   "company": "신한자산운용",
-   "color": "#0046FF",
-   "category": "시장대표",
-   "is_theme": false,
-   "index_name": "코스닥 150",
-   "market_cap": 30603200000,
-   "shares": 2480000,
-   "close": 12340.0,
-   "nav": 12402.2,
-   "schedule_label": "6·12월 D+1",
-   "schedule_detail": "코스닥150 정기변경(6·12월)",
-   "months": [
-    6,
-    12
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": null,
-    "index_exception": true,
-    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
-    "verified": true,
-    "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": null
-  },
-  {
-   "ticker": "380340",
-   "isin": "KR7380340000",
-   "name": "ACE 코리아AI테크핵심산업",
-   "krx_name": "ACE 코리아AI테크핵심산업",
-   "manager": "ACE",
-   "company": "한국투자신탁운용",
-   "color": "#E60012",
-   "category": "테마",
-   "is_theme": true,
-   "index_name": "FnGuide 코리아AI테크핵심산업지수 (Price Return)",
-   "market_cap": 30384000000,
-   "shares": 1200000,
-   "close": 25320.0,
-   "nav": 25424.41,
-   "schedule_label": "6·12월",
-   "schedule_detail": "개별 20%, 반도체·관련장비 합산 15%. 5·11월말 선정, 6·12월 만기일 D+2 정기변경",
-   "months": [
-    6,
-    12
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": 0.2,
-    "index_exception": false,
-    "label": "단일종목 20% 상한",
-    "source": "FnGuide Korea AI Tech Core Industry Index Methodology v1.0: 20%/반도체 15% 제한; 6·12월 D+2",
-    "verified": true,
-    "note": "개별 20%, 반도체·관련장비 합산 15%. 5·11월말 선정, 6·12월 만기일 D+2 정기변경"
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": {
-    "cap_pct": 20.0,
-    "verified": true,
-    "count": 1,
-    "total_sell": 911520000,
-    "items": [
-     {
-      "code": "035420",
-      "name": "NAVER",
-      "weight": 23.0,
-      "cap_pct": 20.0,
-      "excess_pp": 3.0,
-      "sell_amount": 911520000
-     }
-    ]
-   }
-  },
-  {
-   "ticker": "395170",
-   "isin": "KR7395170004",
-   "name": "KODEX Top10동일가중",
-   "krx_name": "KODEX Top10동일가중",
-   "manager": "KODEX",
-   "company": "삼성자산운용",
-   "color": "#1428A0",
-   "category": "테마",
-   "is_theme": true,
-   "index_name": "FnGuide TOP10 동일가중 지수",
-   "market_cap": 30330000000,
-   "shares": 2000000,
-   "close": 15165.0,
-   "nav": 15091.09,
-   "schedule_label": "3·6·9·12월",
-   "schedule_detail": "2·5·8·11월말 종목선정 → 3·6·9·12월 선물옵션 만기일 D+2 정기변경(분기). 10종목 동일가중(각 10%)",
-   "months": [
-    3,
-    6,
-    9,
-    12
-   ],
-   "auto": true,
-   "schedule_verified": true,
-   "cap": {
-    "single_cap": null,
-    "index_exception": false,
-    "label": "동일가중 방식 · 종목 상한 이슈 없음",
-    "source": "FnGuide_TOP10_EW_Index_Methodology_Book_삼성자산운용_v1.0.pdf | '비중이 10%가 되도록 산정'(10종목 동일가중); '3, 6, 9, 12월 선물옵션 만기일(D) 이후 2영업일(D+2)에 정기변경'",
-    "verified": true,
-    "note": "동일가중(±틸팅). 단일종목 비중이 낮아 cap 초과 이슈 없음."
-   },
-   "cap_verified": true,
-   "has_holdings": true,
-   "holdings_asof": "2026-07-21",
-   "breach_summary": null
-  },
-  {
    "ticker": "266360",
    "isin": "KR7266360007",
    "name": "KODEX K콘텐츠",
@@ -7540,10 +7566,10 @@
    "category": "테마",
    "is_theme": true,
    "index_name": "KRX K콘텐츠",
-   "market_cap": 30144000000,
+   "market_cap": 30992000000,
    "shares": 3200000,
-   "close": 9420.0,
-   "nav": 9482.69,
+   "close": 9685.0,
+   "nav": 9646.46,
    "schedule_label": "6·12월",
    "schedule_detail": "GICS 미디어&엔터테인먼트 섹터 종목을 유동시가총액 가중으로 구성. 단일종목 상한 없음. KRX 정기변경 프레임워크상 반기(6·12월) 추정.",
    "months": [
@@ -7562,24 +7588,24 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-07-21",
+   "holdings_asof": "2026-07-22",
    "breach_summary": null
   },
   {
-   "ticker": "275290",
-   "isin": "KR7275290005",
-   "name": "KODEX 가치주",
-   "krx_name": "KODEX 가치주",
+   "ticker": "156080",
+   "isin": "KR7156080004",
+   "name": "KODEX MSCI Korea",
+   "krx_name": "KODEX MSCI Korea",
    "manager": "KODEX",
    "company": "삼성자산운용",
    "color": "#1428A0",
    "category": "시장대표",
    "is_theme": false,
-   "index_name": "MSCI Korea IMI Enhanced Value Capped",
-   "market_cap": 30055500000,
-   "shares": 900000,
-   "close": 33395.0,
-   "nav": 33239.5,
+   "index_name": "MSCI Korea Index",
+   "market_cap": 30972000000,
+   "shares": 600000,
+   "close": 51620.0,
+   "nav": 51503.77,
    "schedule_label": "2·5·8·11월 말",
    "schedule_detail": "MSCI 분기 리뷰(2·5·8·11월)",
    "months": [
@@ -7587,6 +7613,42 @@
     5,
     8,
     11
+   ],
+   "auto": true,
+   "schedule_verified": true,
+   "cap": {
+    "single_cap": null,
+    "index_exception": true,
+    "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+    "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
+    "verified": true,
+    "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
+   },
+   "cap_verified": true,
+   "has_holdings": true,
+   "holdings_asof": "2026-07-21",
+   "breach_summary": null
+  },
+  {
+   "ticker": "450910",
+   "isin": "KR7450910005",
+   "name": "SOL 코스닥150",
+   "krx_name": "SOL 코스닥150",
+   "manager": "SOL",
+   "company": "신한자산운용",
+   "color": "#0046FF",
+   "category": "시장대표",
+   "is_theme": false,
+   "index_name": "코스닥 150",
+   "market_cap": 30714800000,
+   "shares": 2480000,
+   "close": 12385.0,
+   "nav": 12419.83,
+   "schedule_label": "6·12월 D+1",
+   "schedule_detail": "코스닥150 정기변경(6·12월)",
+   "months": [
+    6,
+    12
    ],
    "auto": true,
    "schedule_verified": true,
