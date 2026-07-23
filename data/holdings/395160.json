@@ -3,72 +3,64 @@
  "name": "KODEX AI반도체TOP2플러스",
  "manager": "KODEX",
  "source": "삼성 KODEX",
- "asof": "2026-07-22",
- "total_weight": 100.01,
+ "asof": "2026-07-23",
+ "total_weight": 99.99,
  "count": 15,
  "holdings": [
   {
    "code": "402340",
    "name": "SK스퀘어",
-   "weight": 26.2,
+   "weight": 25.73,
    "shares": 855.0,
-   "amount": 1071315000.0,
+   "amount": 1051650000.0,
    "over_cap": true
   },
   {
    "code": "005930",
    "name": "삼성전자",
-   "weight": 24.99,
+   "weight": 25.15,
    "shares": 3945.0,
-   "amount": 1021755000.0,
-   "over_cap": false
+   "amount": 1027672500.0,
+   "over_cap": true
   },
   {
    "code": "000660",
    "name": "SK하이닉스",
-   "weight": 24.97,
+   "weight": 24.9,
    "shares": 556.0,
-   "amount": 1020816000.0,
+   "amount": 1017480000.0,
    "over_cap": false
   },
   {
    "code": "009150",
    "name": "삼성전기",
-   "weight": 16.69,
+   "weight": 17.15,
    "shares": 521.0,
-   "amount": 682510000.0,
+   "amount": 700745000.0,
    "over_cap": false
   },
   {
    "code": "042700",
    "name": "한미반도체",
-   "weight": 2.2,
+   "weight": 2.11,
    "shares": 401.0,
-   "amount": 89824000.0,
+   "amount": 86215000.0,
    "over_cap": false
   },
   {
    "code": "007660",
    "name": "이수페타시스",
-   "weight": 1.12,
+   "weight": 1.16,
    "shares": 519.0,
-   "amount": 45983400.0,
+   "amount": 47540400.0,
    "over_cap": false
   },
   {
    "code": "058470",
    "name": "리노공업",
-   "weight": 0.81,
+   "weight": 0.83,
    "shares": 473.0,
-   "amount": 33110000.0,
-   "over_cap": false
-  },
-  {
-   "code": "319660",
-   "name": "피에스케이",
-   "weight": 0.77,
-   "shares": 185.0,
-   "amount": 31450000.0,
+   "amount": 33961400.0,
    "over_cap": false
   },
   {
@@ -76,15 +68,23 @@
    "name": "DB하이텍",
    "weight": 0.75,
    "shares": 291.0,
-   "amount": 30467700.0,
+   "amount": 30816900.0,
+   "over_cap": false
+  },
+  {
+   "code": "319660",
+   "name": "피에스케이",
+   "weight": 0.71,
+   "shares": 185.0,
+   "amount": 28989500.0,
    "over_cap": false
   },
   {
    "code": "403870",
    "name": "HPSP",
-   "weight": 0.59,
+   "weight": 0.58,
    "shares": 613.0,
-   "amount": 23968300.0,
+   "amount": 23784400.0,
    "over_cap": false
   },
   {
@@ -92,7 +92,7 @@
    "name": "ISC",
    "weight": 0.33,
    "shares": 97.0,
-   "amount": 13502400.0,
+   "amount": 13628500.0,
    "over_cap": false
   },
   {
@@ -100,7 +100,7 @@
    "name": "두산테스나",
    "weight": 0.22,
    "shares": 111.0,
-   "amount": 9090900.0,
+   "amount": 8880000.0,
    "over_cap": false
   },
   {
@@ -108,39 +108,47 @@
    "name": "에스앤에스텍",
    "weight": 0.15,
    "shares": 153.0,
-   "amount": 6173550.0,
+   "amount": 6051150.0,
    "over_cap": false
   },
   {
    "code": "195870",
    "name": "해성디에스",
-   "weight": 0.12,
+   "weight": 0.13,
    "shares": 96.0,
-   "amount": 5040000.0,
+   "amount": 5193600.0,
    "over_cap": false
   },
   {
    "code": "036540",
    "name": "SFA반도체",
-   "weight": 0.1,
+   "weight": 0.09,
    "shares": 707.0,
-   "amount": 3916780.0,
+   "amount": 3867290.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 25.0,
   "verified": true,
-  "count": 1,
-  "total_sell": 47718468000,
+  "count": 2,
+  "total_sell": 35241976000,
   "items": [
    {
     "code": "402340",
     "name": "SK스퀘어",
-    "weight": 26.2,
+    "weight": 25.73,
     "cap_pct": 25.0,
-    "excess_pp": 1.2,
-    "sell_amount": 47718468000
+    "excess_pp": 0.73,
+    "sell_amount": 29234821000
+   },
+   {
+    "code": "005930",
+    "name": "삼성전자",
+    "weight": 25.15,
+    "cap_pct": 25.0,
+    "excess_pp": 0.15,
+    "sell_amount": 6007155000
    }
   ]
  },
