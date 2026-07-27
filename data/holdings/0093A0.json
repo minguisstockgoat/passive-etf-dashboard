@@ -3,100 +3,115 @@
  "name": "RISE AI반도체TOP10",
  "manager": "RISE",
  "source": "KB RISE",
- "asof": "2026-07-24",
+ "asof": "2026-07-27",
  "total_weight": 100.0,
  "count": 11,
  "holdings": [
   {
    "code": "005930",
    "name": "삼성전자",
-   "weight": 14.74,
+   "weight": 15.09,
    "shares": 890.0,
-   "amount": 240300000.0,
-   "over_cap": false
+   "amount": 222055000.0,
+   "over_cap": true
   },
   {
    "code": "000660",
    "name": "SK하이닉스",
-   "weight": 13.3,
+   "weight": 13.51,
    "shares": 113.0,
-   "amount": 216847000.0,
+   "amount": 198767000.0,
    "over_cap": false
   },
   {
    "code": "240810",
    "name": "원익IPS",
-   "weight": 10.93,
+   "weight": 10.74,
    "shares": 1572.0,
-   "amount": 178107600.0,
-   "over_cap": false
-  },
-  {
-   "code": "080220",
-   "name": "제주반도체",
-   "weight": 10.54,
-   "shares": 2123.0,
-   "amount": 171750700.0,
+   "amount": 157986000.0,
    "over_cap": false
   },
   {
    "code": "095340",
    "name": "ISC",
-   "weight": 10.5,
+   "weight": 10.64,
    "shares": 1163.0,
-   "amount": 171193600.0,
-   "over_cap": false
-  },
-  {
-   "code": "440110",
-   "name": "파두",
-   "weight": 10.39,
-   "shares": 2297.0,
-   "amount": 169288900.0,
+   "amount": 156539800.0,
    "over_cap": false
   },
   {
    "code": "042700",
    "name": "한미반도체",
-   "weight": 10.14,
+   "weight": 10.4,
    "shares": 765.0,
-   "amount": 165240000.0,
+   "amount": 153000000.0,
+   "over_cap": false
+  },
+  {
+   "code": "080220",
+   "name": "제주반도체",
+   "weight": 10.14,
+   "shares": 2123.0,
+   "amount": 149246900.0,
+   "over_cap": false
+  },
+  {
+   "code": "440110",
+   "name": "파두",
+   "weight": 10.07,
+   "shares": 2297.0,
+   "amount": 148156500.0,
    "over_cap": false
   },
   {
    "code": "402340",
    "name": "SK스퀘어",
-   "weight": 9.29,
+   "weight": 9.35,
    "shares": 124.0,
-   "amount": 151404000.0,
+   "amount": 137516000.0,
    "over_cap": false
   },
   {
    "code": "031980",
    "name": "피에스케이홀딩스",
-   "weight": 7.23,
+   "weight": 7.01,
    "shares": 974.0,
-   "amount": 117854000.0,
+   "amount": 103146600.0,
    "over_cap": false
   },
   {
    "code": "232140",
    "name": "와이씨",
-   "weight": 3.15,
+   "weight": 3.26,
    "shares": 5279.0,
-   "amount": 51259090.0,
+   "amount": 47933320.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "현금성자산",
    "weight": -0.21,
-   "shares": -3410070.0,
-   "amount": -3410070.0,
+   "shares": -3088493.0,
+   "amount": -3088493.0,
    "over_cap": false
   }
  ],
- "breach_summary": null,
+ "breach_summary": {
+  "cap_pct": 15.0,
+  "verified": true,
+  "count": 1,
+  "total_sell": 144672975,
+  "items": [
+   {
+    "code": "005930",
+    "name": "삼성전자",
+    "weight": 15.09,
+    "cap_pct": 15.0,
+    "excess_pp": 0.09,
+    "sell_amount": 144672975
+   }
+  ]
+ },
  "cap": {
   "single_cap": 0.15,
   "index_exception": false,

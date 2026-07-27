@@ -3,14 +3,14 @@
  "name": "PLUS 태양광&ESS",
  "manager": "PLUS",
  "source": "한화 PLUS",
- "asof": "2026-07-24",
- "total_weight": 99.41,
+ "asof": "2026-07-27",
+ "total_weight": 99.39,
  "count": 10,
  "holdings": [
   {
    "code": "009830",
    "name": "한화솔루션",
-   "weight": 20.9158,
+   "weight": 21.5904,
    "shares": 13528.0,
    "amount": 0.0,
    "over_cap": true
@@ -18,7 +18,7 @@
   {
    "code": "010060",
    "name": "OCI홀딩스",
-   "weight": 17.1978,
+   "weight": 17.9681,
    "shares": 1351.0,
    "amount": 0.0,
    "over_cap": true
@@ -26,7 +26,7 @@
   {
    "code": "322000",
    "name": "HD현대에너지솔루션",
-   "weight": 16.5989,
+   "weight": 16.385,
    "shares": 1878.0,
    "amount": 0.0,
    "over_cap": true
@@ -34,15 +34,15 @@
   {
    "code": "475150",
    "name": "SK이터닉스",
-   "weight": 9.8115,
+   "weight": 10.1656,
    "shares": 2362.0,
    "amount": 0.0,
-   "over_cap": false
+   "over_cap": true
   },
   {
    "code": "006400",
    "name": "삼성SDI",
-   "weight": 9.242,
+   "weight": 8.7434,
    "shares": 384.0,
    "amount": 0.0,
    "over_cap": false
@@ -50,7 +50,7 @@
   {
    "code": "373220",
    "name": "LG에너지솔루션",
-   "weight": 7.999,
+   "weight": 7.818,
    "shares": 446.0,
    "amount": 0.0,
    "over_cap": false
@@ -58,7 +58,7 @@
   {
    "code": "010120",
    "name": "LS ELECTRIC",
-   "weight": 7.5677,
+   "weight": 7.0603,
    "shares": 657.0,
    "amount": 0.0,
    "over_cap": false
@@ -66,7 +66,7 @@
   {
    "code": "281740",
    "name": "레이크머티리얼즈",
-   "weight": 3.9241,
+   "weight": 3.8039,
    "shares": 6101.0,
    "amount": 0.0,
    "over_cap": false
@@ -74,7 +74,7 @@
   {
    "code": "247540",
    "name": "에코프로비엠",
-   "weight": 3.4053,
+   "weight": 3.2207,
    "shares": 559.0,
    "amount": 0.0,
    "over_cap": false
@@ -82,7 +82,7 @@
   {
    "code": "003670",
    "name": "포스코퓨처엠",
-   "weight": 2.7454,
+   "weight": 2.6366,
    "shares": 350.0,
    "amount": 0.0,
    "over_cap": false
@@ -91,32 +91,40 @@
  "breach_summary": {
   "cap_pct": 10.0,
   "verified": true,
-  "count": 3,
-  "total_sell": 31817863935,
+  "count": 4,
+  "total_sell": 32335735410,
   "items": [
    {
     "code": "009830",
     "name": "한화솔루션",
-    "weight": 20.916,
+    "weight": 21.59,
     "cap_pct": 10.0,
-    "excess_pp": 10.916,
-    "sell_amount": 14054295420
+    "excess_pp": 11.59,
+    "sell_amount": 14354099100
    },
    {
     "code": "010060",
     "name": "OCI홀딩스",
-    "weight": 17.198,
+    "weight": 17.968,
     "cap_pct": 10.0,
-    "excess_pp": 7.198,
-    "sell_amount": 9267389010
+    "excess_pp": 7.968,
+    "sell_amount": 9868288320
    },
    {
     "code": "322000",
     "name": "HD현대에너지솔루션",
-    "weight": 16.599,
+    "weight": 16.385,
     "cap_pct": 10.0,
-    "excess_pp": 6.599,
-    "sell_amount": 8496179505
+    "excess_pp": 6.385,
+    "sell_amount": 7907758650
+   },
+   {
+    "code": "475150",
+    "name": "SK이터닉스",
+    "weight": 10.166,
+    "cap_pct": 10.0,
+    "excess_pp": 0.166,
+    "sell_amount": 205589340
    }
   ]
  },
