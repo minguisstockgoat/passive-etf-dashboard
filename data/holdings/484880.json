@@ -3,128 +3,120 @@
  "name": "SOL 금융지주플러스고배당",
  "manager": "SOL",
  "source": "신한 SOL",
- "asof": "2026-07-27",
- "total_weight": 99.99,
+ "asof": "2026-07-28",
+ "total_weight": 100.0,
  "count": 11,
  "holdings": [
   {
    "code": "105560",
    "name": "KB금융",
-   "weight": 21.38,
+   "weight": 21.23,
    "shares": 1396.0,
-   "amount": 239414000.0,
+   "amount": 240949600.0,
    "over_cap": true
   },
   {
    "code": "055550",
    "name": "신한지주",
-   "weight": 20.98,
+   "weight": 20.82,
    "shares": 2251.0,
-   "amount": 235004400.0,
+   "amount": 236355000.0,
    "over_cap": true
   },
   {
    "code": "086790",
    "name": "하나금융지주",
-   "weight": 20.5,
+   "weight": 19.95,
    "shares": 1734.0,
-   "amount": 229581600.0,
-   "over_cap": true
+   "amount": 226460400.0,
+   "over_cap": false
   },
   {
    "code": "316140",
    "name": "우리금융지주",
-   "weight": 14.97,
+   "weight": 15.85,
    "shares": 5436.0,
-   "amount": 167700600.0,
+   "amount": 179931600.0,
    "over_cap": false
   },
   {
    "code": "071050",
    "name": "한국금융지주",
-   "weight": 6.54,
+   "weight": 6.44,
    "shares": 344.0,
-   "amount": 73272000.0,
+   "amount": 73100000.0,
    "over_cap": false
   },
   {
    "code": "005940",
    "name": "NH투자증권",
-   "weight": 4.17,
+   "weight": 4.14,
    "shares": 1608.0,
-   "amount": 46712400.0,
+   "amount": 47034000.0,
    "over_cap": false
   },
   {
    "code": "138930",
    "name": "BNK금융지주",
-   "weight": 3.86,
+   "weight": 3.83,
    "shares": 2397.0,
-   "amount": 43241880.0,
+   "amount": 43433640.0,
    "over_cap": false
   },
   {
    "code": "175330",
    "name": "JB금융지주",
-   "weight": 3.2,
+   "weight": 3.38,
    "shares": 1334.0,
-   "amount": 35884600.0,
+   "amount": 38352500.0,
    "over_cap": false
   },
   {
    "code": "138040",
    "name": "메리츠금융지주",
-   "weight": 2.7,
+   "weight": 2.71,
    "shares": 245.0,
-   "amount": 30208500.0,
+   "amount": 30772000.0,
    "over_cap": false
   },
   {
    "code": "139130",
    "name": "iM금융지주",
-   "weight": 1.94,
+   "weight": 1.89,
    "shares": 1189.0,
-   "amount": 21699250.0,
+   "amount": 21509010.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "현금성자산",
-   "weight": -0.25,
-   "shares": -2834362.0,
-   "amount": -2834362.0,
+   "weight": -0.24,
+   "shares": -2728419.0,
+   "amount": -2728419.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 20.0,
   "verified": true,
-  "count": 3,
-  "total_sell": 9838986300,
+  "count": 2,
+  "total_sell": 7137105750,
   "items": [
    {
     "code": "105560",
     "name": "KB금융",
-    "weight": 21.38,
+    "weight": 21.23,
     "cap_pct": 20.0,
-    "excess_pp": 1.38,
-    "sell_amount": 4747482900
+    "excess_pp": 1.23,
+    "sell_amount": 4282263450
    },
    {
     "code": "055550",
     "name": "신한지주",
-    "weight": 20.98,
+    "weight": 20.82,
     "cap_pct": 20.0,
-    "excess_pp": 0.98,
-    "sell_amount": 3371400900
-   },
-   {
-    "code": "086790",
-    "name": "하나금융지주",
-    "weight": 20.5,
-    "cap_pct": 20.0,
-    "excess_pp": 0.5,
-    "sell_amount": 1720102500
+    "excess_pp": 0.82,
+    "sell_amount": 2854842300
    }
   ]
  },
