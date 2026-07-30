@@ -3,100 +3,115 @@
  "name": "SOL K방산",
  "manager": "SOL",
  "source": "신한 SOL",
- "asof": "2026-07-28",
- "total_weight": 100.01,
+ "asof": "2026-07-30",
+ "total_weight": 99.99,
  "count": 11,
  "holdings": [
   {
    "code": "012450",
    "name": "한화에어로스페이스",
-   "weight": 24.98,
+   "weight": 25.9,
    "shares": 384.0,
-   "amount": 345216000.0,
+   "amount": 311040000.0,
+   "over_cap": true
+  },
+  {
+   "code": "079550",
+   "name": "LIG디펜스앤에어로스페이스",
+   "weight": 15.28,
+   "shares": 296.0,
+   "amount": 183520000.0,
    "over_cap": false
   },
   {
    "code": "047810",
    "name": "한국항공우주",
-   "weight": 15.5,
+   "weight": 14.33,
    "shares": 1465.0,
-   "amount": 214183000.0,
-   "over_cap": false
-  },
-  {
-   "code": "079550",
-   "name": "LIG디펜스앤에어로스페이스",
-   "weight": 14.91,
-   "shares": 296.0,
-   "amount": 206016000.0,
+   "amount": 172137500.0,
    "over_cap": false
   },
   {
    "code": "042660",
    "name": "한화오션",
-   "weight": 14.39,
+   "weight": 13.91,
    "shares": 2239.0,
-   "amount": 198823200.0,
+   "amount": 167029400.0,
    "over_cap": false
   },
   {
    "code": "329180",
    "name": "HD현대중공업",
-   "weight": 11.55,
+   "weight": 11.85,
    "shares": 328.0,
-   "amount": 159572000.0,
+   "amount": 142352000.0,
    "over_cap": false
   },
   {
    "code": "064350",
    "name": "현대로템",
-   "weight": 5.63,
+   "weight": 5.87,
    "shares": 587.0,
-   "amount": 77777500.0,
+   "amount": 70498700.0,
    "over_cap": false
   },
   {
    "code": "272210",
    "name": "한화시스템",
-   "weight": 5.47,
+   "weight": 5.42,
    "shares": 1201.0,
-   "amount": 75663000.0,
+   "amount": 65094200.0,
    "over_cap": false
   },
   {
    "code": "103140",
    "name": "풍산",
-   "weight": 3.32,
+   "weight": 3.45,
    "shares": 717.0,
-   "amount": 45888000.0,
+   "amount": 41370900.0,
    "over_cap": false
   },
   {
    "code": "099320",
    "name": "쎄트렉아이",
-   "weight": 2.24,
+   "weight": 2.1,
    "shares": 412.0,
-   "amount": 30982400.0,
+   "amount": 25255600.0,
    "over_cap": false
   },
   {
    "code": "189300",
    "name": "인텔리안테크",
-   "weight": 1.98,
+   "weight": 1.91,
    "shares": 445.0,
-   "amount": 27367500.0,
+   "amount": 22917500.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "현금성자산",
-   "weight": 0.04,
-   "shares": 527952.0,
-   "amount": 527952.0,
+   "weight": -0.03,
+   "shares": -330307.0,
+   "amount": -330307.0,
    "over_cap": false
   }
  ],
- "breach_summary": null,
+ "breach_summary": {
+  "cap_pct": 25.0,
+  "verified": true,
+  "count": 1,
+  "total_sell": 613804500,
+  "items": [
+   {
+    "code": "012450",
+    "name": "한화에어로스페이스",
+    "weight": 25.9,
+    "cap_pct": 25.0,
+    "excess_pp": 0.9,
+    "sell_amount": 613804500
+   }
+  ]
+ },
  "cap": {
   "single_cap": 0.25,
   "index_exception": false,

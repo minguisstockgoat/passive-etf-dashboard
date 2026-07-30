@@ -3,88 +3,72 @@
  "name": "ACE AI반도체TOP3+",
  "manager": "ACE",
  "source": "한국투자 ACE",
- "asof": "2026-07-29",
+ "asof": "2026-07-30",
  "total_weight": 100.0,
  "count": 20,
  "holdings": [
   {
-   "code": "000660",
-   "name": "SK하이닉스",
-   "weight": 27.42,
-   "shares": 428.0,
-   "amount": 663400000.0,
+   "code": "005930",
+   "name": "삼성전자",
+   "weight": 28.11,
+   "shares": 3008.0,
+   "amount": 627168000.0,
    "over_cap": true
   },
   {
-   "code": "005930",
-   "name": "삼성전자",
-   "weight": 27.36,
-   "shares": 3008.0,
-   "amount": 661760000.0,
+   "code": "000660",
+   "name": "SK하이닉스",
+   "weight": 26.88,
+   "shares": 428.0,
+   "amount": 599628000.0,
    "over_cap": true
   },
   {
    "code": "042700",
    "name": "한미반도체",
-   "weight": 22.94,
+   "weight": 23.22,
    "shares": 3091.0,
-   "amount": 554834500.0,
+   "amount": 518051600.0,
    "over_cap": false
   },
   {
    "code": "140860",
    "name": "파크시스템스",
-   "weight": 2.1,
+   "weight": 2.11,
    "shares": 200.0,
-   "amount": 50800000.0,
-   "over_cap": false
-  },
-  {
-   "code": "080220",
-   "name": "제주반도체",
-   "weight": 1.4,
-   "shares": 545.0,
-   "amount": 34008000.0,
-   "over_cap": false
-  },
-  {
-   "code": "089030",
-   "name": "테크윙",
-   "weight": 1.39,
-   "shares": 866.0,
-   "amount": 33730700.0,
-   "over_cap": false
-  },
-  {
-   "code": "095340",
-   "name": "ISC",
-   "weight": 1.39,
-   "shares": 278.0,
-   "amount": 33638000.0,
+   "amount": 47100000.0,
    "over_cap": false
   },
   {
    "code": "240810",
    "name": "원익IPS",
-   "weight": 1.38,
+   "weight": 1.39,
    "shares": 375.0,
-   "amount": 33562500.0,
-   "over_cap": false
-  },
-  {
-   "code": "067310",
-   "name": "하나마이크론",
-   "weight": 1.37,
-   "shares": 1103.0,
-   "amount": 33145150.0,
+   "amount": 31200000.0,
    "over_cap": false
   },
   {
    "code": "058470",
    "name": "리노공업",
-   "weight": 1.35,
+   "weight": 1.38,
    "shares": 530.0,
-   "amount": 32648000.0,
+   "amount": 30846000.0,
+   "over_cap": false
+  },
+  {
+   "code": "095340",
+   "name": "ISC",
+   "weight": 1.38,
+   "shares": 278.0,
+   "amount": 30830200.0,
+   "over_cap": false
+  },
+  {
+   "code": "080220",
+   "name": "제주반도체",
+   "weight": 1.34,
+   "shares": 545.0,
+   "amount": 30029500.0,
    "over_cap": false
   },
   {
@@ -92,47 +76,55 @@
    "name": "삼성전기",
    "weight": 1.33,
    "shares": 29.0,
-   "amount": 32306000.0,
+   "amount": 29841000.0,
+   "over_cap": false
+  },
+  {
+   "code": "089030",
+   "name": "테크윙",
+   "weight": 1.33,
+   "shares": 866.0,
+   "amount": 29790400.0,
+   "over_cap": false
+  },
+  {
+   "code": "067310",
+   "name": "하나마이크론",
+   "weight": 1.31,
+   "shares": 1103.0,
+   "amount": 29394950.0,
    "over_cap": false
   },
   {
    "code": "403870",
    "name": "HPSP",
-   "weight": 1.3,
-   "shares": 962.0,
-   "amount": 31457400.0,
-   "over_cap": false
-  },
-  {
-   "code": "353200",
-   "name": "대덕전자",
    "weight": 1.27,
-   "shares": 337.0,
-   "amount": 30768100.0,
+   "shares": 962.0,
+   "amount": 28523300.0,
    "over_cap": false
   },
   {
    "code": "007660",
    "name": "이수페타시스",
-   "weight": 1.26,
+   "weight": 1.23,
    "shares": 429.0,
-   "amount": 30630600.0,
+   "amount": 27456000.0,
+   "over_cap": false
+  },
+  {
+   "code": "353200",
+   "name": "대덕전자",
+   "weight": 1.22,
+   "shares": 337.0,
+   "amount": 27263300.0,
    "over_cap": false
   },
   {
    "code": "440110",
    "name": "파두",
-   "weight": 1.24,
+   "weight": 1.2,
    "shares": 533.0,
-   "amount": 30007900.0,
-   "over_cap": false
-  },
-  {
-   "code": "000990",
-   "name": "DB하이텍",
-   "weight": 1.19,
-   "shares": 341.0,
-   "amount": 28916800.0,
+   "amount": 26809900.0,
    "over_cap": false
   },
   {
@@ -140,31 +132,39 @@
    "name": "이오테크닉스",
    "weight": 1.17,
    "shares": 105.0,
-   "amount": 28350000.0,
+   "amount": 26145000.0,
+   "over_cap": false
+  },
+  {
+   "code": "000990",
+   "name": "DB하이텍",
+   "weight": 1.14,
+   "shares": 341.0,
+   "amount": 25540900.0,
    "over_cap": false
   },
   {
    "code": "036930",
    "name": "주성엔지니어링",
-   "weight": 1.15,
+   "weight": 1.12,
    "shares": 216.0,
-   "amount": 27820800.0,
+   "amount": 25077600.0,
    "over_cap": false
   },
   {
    "code": "011070",
    "name": "LG이노텍",
-   "weight": 1.04,
+   "weight": 1.0,
    "shares": 49.0,
-   "amount": 25186000.0,
+   "amount": 22442000.0,
    "over_cap": false
   },
   {
    "code": "131970",
    "name": "두산테스나",
-   "weight": 0.95,
+   "weight": 0.87,
    "shares": 348.0,
-   "amount": 23107200.0,
+   "amount": 19453200.0,
    "over_cap": false
   }
  ],
@@ -172,23 +172,23 @@
   "cap_pct": 25.0,
   "verified": true,
   "count": 2,
-  "total_sell": 43334332800,
+  "total_sell": 41700806250,
   "items": [
-   {
-    "code": "000660",
-    "name": "SK하이닉스",
-    "weight": 27.42,
-    "cap_pct": 25.0,
-    "excess_pp": 2.42,
-    "sell_amount": 21939139200
-   },
    {
     "code": "005930",
     "name": "삼성전자",
-    "weight": 27.36,
+    "weight": 28.11,
     "cap_pct": 25.0,
-    "excess_pp": 2.36,
-    "sell_amount": 21395193600
+    "excess_pp": 3.11,
+    "sell_amount": 25989881250
+   },
+   {
+    "code": "000660",
+    "name": "SK하이닉스",
+    "weight": 26.88,
+    "cap_pct": 25.0,
+    "excess_pp": 1.88,
+    "sell_amount": 15710925000
    }
   ]
  },

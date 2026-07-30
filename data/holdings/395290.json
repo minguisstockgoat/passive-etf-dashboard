@@ -3,129 +3,93 @@
  "name": "HANARO Fn K-POP&미디어",
  "manager": "HANARO",
  "source": "NH아문디 HANARO",
- "asof": "2026-07-29",
- "total_weight": 99.28,
+ "asof": "2026-07-30",
+ "total_weight": 99.25,
  "count": 12,
  "holdings": [
   {
    "code": "352820",
    "name": "하이브",
-   "weight": 25.28,
+   "weight": 24.22,
    "shares": 338.0,
-   "amount": 63814400.0,
-   "over_cap": true
+   "amount": 57561400.0
   },
   {
    "code": "035900",
    "name": "JYP Ent.",
-   "weight": 22.87,
+   "weight": 23.19,
    "shares": 1283.0,
-   "amount": 57735000.0,
-   "over_cap": false
+   "amount": 55104850.0
   },
   {
    "code": "041510",
    "name": "에스엠",
-   "weight": 17.3,
+   "weight": 17.49,
    "shares": 623.0,
-   "amount": 43672300.0,
-   "over_cap": false
+   "amount": 41554100.0
   },
   {
    "code": "122870",
    "name": "와이지엔터테인먼트",
-   "weight": 10.09,
+   "weight": 10.12,
    "shares": 649.0,
-   "amount": 25473250.0,
-   "over_cap": false
+   "amount": 24045450.0
   },
   {
    "code": "035760",
    "name": "CJ ENM",
-   "weight": 6.5,
+   "weight": 6.69,
    "shares": 535.0,
-   "amount": 16397750.0,
-   "over_cap": false
+   "amount": 15889500.0
   },
   {
    "code": "253450",
    "name": "스튜디오드래곤",
-   "weight": 5.26,
+   "weight": 5.47,
    "shares": 634.0,
-   "amount": 13282300.0,
-   "over_cap": false
+   "amount": 12997000.0
   },
   {
    "code": "419530",
    "name": "SAMG엔터",
-   "weight": 3.65,
+   "weight": 3.68,
    "shares": 353.0,
-   "amount": 9213300.0,
-   "over_cap": false
+   "amount": 8736750.0
   },
   {
    "code": "037270",
    "name": "YG PLUS",
-   "weight": 2.45,
+   "weight": 2.43,
    "shares": 1970.0,
-   "amount": 6195650.0,
-   "over_cap": false
+   "amount": 5772100.0
   },
   {
    "code": "034120",
    "name": "SBS",
-   "weight": 2.33,
+   "weight": 2.39,
    "shares": 522.0,
-   "amount": 5893380.0,
-   "over_cap": false
+   "amount": 5679360.0
   },
   {
    "code": "310200",
    "name": "애니플러스",
-   "weight": 1.52,
+   "weight": 1.56,
    "shares": 1443.0,
-   "amount": 3831165.0,
-   "over_cap": false
+   "amount": 3708510.0
   },
   {
    "code": "473980",
    "name": "노머스",
-   "weight": 1.44,
+   "weight": 1.42,
    "shares": 353.0,
-   "amount": 3642960.0,
-   "over_cap": false
+   "amount": 3367620.0
   },
   {
    "code": "182360",
    "name": "큐브엔터",
    "weight": 0.59,
    "shares": 284.0,
-   "amount": 1496680.0,
-   "over_cap": false
+   "amount": 1400120.0
   }
- ],
- "breach_summary": {
-  "cap_pct": 25.0,
-  "verified": true,
-  "count": 1,
-  "total_sell": 88015200,
-  "items": [
-   {
-    "code": "352820",
-    "name": "하이브",
-    "weight": 25.28,
-    "cap_pct": 25.0,
-    "excess_pp": 0.28,
-    "sell_amount": 88015200
-   }
-  ]
- },
- "cap": {
-  "single_cap": 0.25,
-  "index_exception": false,
-  "label": "단일종목 25% 상한",
-  "source": "FnGuide_K-POP_&_Media_Index_Methodology_Book_NHA_(20210225)_v1.0.pdf | '특정종목의 지수내 비중이 25%를 넘을 경우 25%로 비중을 제한'; '6, 12월 선물옵션 만기일(D) 이후 4영업일(D+4)과 5영업일(D+5)에 정기변경'",
-  "verified": true,
-  "note": "5·11월말 종목선정 → 6·12월 선물옵션 만기일 D+4/D+5 정기변경(연2회). 종목당 25% 상한"
- }
+ ]
 }

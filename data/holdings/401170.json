@@ -3,14 +3,14 @@
  "name": "RISE 메타버스",
  "manager": "RISE",
  "source": "KB RISE",
- "asof": "2026-07-29",
+ "asof": "2026-07-30",
  "total_weight": 100.01,
  "count": 21,
  "holdings": [
   {
    "code": "259960",
    "name": "크래프톤",
-   "weight": 12.84,
+   "weight": 13.38,
    "shares": 114.0,
    "amount": 27816000.0,
    "over_cap": true
@@ -18,9 +18,17 @@
   {
    "code": "035720",
    "name": "카카오",
-   "weight": 11.36,
+   "weight": 11.72,
    "shares": 690.0,
-   "amount": 24598500.0,
+   "amount": 24357000.0,
+   "over_cap": true
+  },
+  {
+   "code": "036570",
+   "name": "NC",
+   "weight": 11.45,
+   "shares": 107.0,
+   "amount": 23807500.0,
    "over_cap": true
   },
   {
@@ -28,111 +36,103 @@
    "name": "NAVER",
    "weight": 11.15,
    "shares": 115.0,
-   "amount": 24150000.0,
-   "over_cap": true
-  },
-  {
-   "code": "036570",
-   "name": "NC",
-   "weight": 11.11,
-   "shares": 107.0,
-   "amount": 24075000.0,
+   "amount": 23172500.0,
    "over_cap": true
   },
   {
    "code": "352820",
    "name": "하이브",
-   "weight": 10.46,
+   "weight": 9.83,
    "shares": 120.0,
-   "amount": 22656000.0,
-   "over_cap": true
+   "amount": 20436000.0,
+   "over_cap": false
   },
   {
    "code": "034220",
    "name": "LG디스플레이",
-   "weight": 8.33,
+   "weight": 8.26,
    "shares": 2005.0,
-   "amount": 18045000.0,
+   "amount": 17182850.0,
    "over_cap": false
   },
   {
    "code": "009150",
    "name": "삼성전기",
-   "weight": 7.2,
+   "weight": 6.93,
    "shares": 14.0,
-   "amount": 15596000.0,
+   "amount": 14406000.0,
    "over_cap": false
   },
   {
    "code": "011070",
    "name": "LG이노텍",
-   "weight": 5.46,
+   "weight": 5.07,
    "shares": 23.0,
-   "amount": 11822000.0,
+   "amount": 10534000.0,
    "over_cap": false
   },
   {
    "code": "263750",
    "name": "펄어비스",
-   "weight": 4.15,
+   "weight": 4.25,
    "shares": 269.0,
-   "amount": 8998050.0,
+   "amount": 8836650.0,
    "over_cap": false
   },
   {
    "code": "035900",
    "name": "JYP Ent.",
-   "weight": 4.09,
+   "weight": 4.07,
    "shares": 197.0,
-   "amount": 8865000.0,
+   "amount": 8461150.0,
    "over_cap": false
   },
   {
    "code": "251270",
    "name": "넷마블",
-   "weight": 3.65,
+   "weight": 3.72,
    "shares": 215.0,
-   "amount": 7901250.0,
+   "amount": 7729250.0,
    "over_cap": false
   },
   {
    "code": "041510",
    "name": "에스엠",
-   "weight": 3.11,
+   "weight": 3.08,
    "shares": 96.0,
-   "amount": 6729600.0,
+   "amount": 6403200.0,
    "over_cap": false
   },
   {
    "code": "122870",
    "name": "와이지엔터테인먼트",
-   "weight": 1.74,
+   "weight": 1.71,
    "shares": 96.0,
-   "amount": 3768000.0,
+   "amount": 3556800.0,
    "over_cap": false
   },
   {
    "code": "067160",
    "name": "SOOP",
-   "weight": 1.22,
+   "weight": 1.24,
    "shares": 55.0,
-   "amount": 2634500.0,
+   "amount": 2582250.0,
    "over_cap": false
   },
   {
    "code": "035760",
    "name": "CJ ENM",
-   "weight": 1.15,
+   "weight": 1.16,
    "shares": 81.0,
-   "amount": 2482650.0,
+   "amount": 2405700.0,
    "over_cap": false
   },
   {
    "code": "171090",
    "name": "선익시스템",
-   "weight": 0.81,
+   "weight": 0.77,
    "shares": 32.0,
-   "amount": 1753600.0,
+   "amount": 1596800.0,
    "over_cap": false
   },
   {
@@ -140,63 +140,71 @@
    "name": "디어유",
    "weight": 0.76,
    "shares": 84.0,
-   "amount": 1654800.0,
+   "amount": 1587600.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "원화예금",
-   "weight": 0.6,
-   "shares": 1307010.0,
-   "amount": 1307010.0,
+   "weight": 0.69,
+   "shares": 1440439.0,
+   "amount": 1440439.0,
    "over_cap": false
   },
   {
    "code": "452430",
    "name": "사피엔반도체",
-   "weight": 0.44,
+   "weight": 0.41,
    "shares": 40.0,
-   "amount": 954000.0,
+   "amount": 846000.0,
    "over_cap": false
   },
   {
    "code": "418420",
    "name": "라온텍",
-   "weight": 0.22,
+   "weight": 0.21,
    "shares": 157.0,
-   "amount": 471000.0,
+   "amount": 430965.0,
    "over_cap": false
   },
   {
    "code": "042510",
    "name": "라온시큐어",
-   "weight": 0.16,
+   "weight": 0.15,
    "shares": 46.0,
-   "amount": 340400.0,
+   "amount": 313720.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 10.0,
   "verified": true,
-  "count": 5,
-  "total_sell": 2992394840,
+  "count": 4,
+  "total_sell": 3168796400,
   "items": [
    {
     "code": "259960",
     "name": "크래프톤",
-    "weight": 12.84,
+    "weight": 13.38,
     "cap_pct": 10.0,
-    "excess_pp": 2.84,
-    "sell_amount": 1228092680
+    "excess_pp": 3.38,
+    "sell_amount": 1390978160
    },
    {
     "code": "035720",
     "name": "카카오",
-    "weight": 11.36,
+    "weight": 11.72,
     "cap_pct": 10.0,
-    "excess_pp": 1.36,
-    "sell_amount": 588100720
+    "excess_pp": 1.72,
+    "sell_amount": 707835040
+   },
+   {
+    "code": "036570",
+    "name": "NC",
+    "weight": 11.45,
+    "cap_pct": 10.0,
+    "excess_pp": 1.45,
+    "sell_amount": 596721400
    },
    {
     "code": "035420",
@@ -204,23 +212,7 @@
     "weight": 11.15,
     "cap_pct": 10.0,
     "excess_pp": 1.15,
-    "sell_amount": 497291050
-   },
-   {
-    "code": "036570",
-    "name": "NC",
-    "weight": 11.11,
-    "cap_pct": 10.0,
-    "excess_pp": 1.11,
-    "sell_amount": 479993970
-   },
-   {
-    "code": "352820",
-    "name": "하이브",
-    "weight": 10.46,
-    "cap_pct": 10.0,
-    "excess_pp": 0.46,
-    "sell_amount": 198916420
+    "sell_amount": 473261800
    }
   ]
  },
