@@ -3,40 +3,48 @@
  "name": "KODEX 바이오",
  "manager": "KODEX",
  "source": "삼성 KODEX",
- "asof": "2026-07-30",
- "total_weight": 100.01,
+ "asof": "2026-07-31",
+ "total_weight": 100.02,
  "count": 50,
  "holdings": [
   {
    "code": "214450",
    "name": "파마리서치",
-   "weight": 3.74,
+   "weight": 3.4,
    "shares": 54.0,
-   "amount": 21114000.0,
+   "amount": 18792000.0,
    "over_cap": false
   },
   {
    "code": "207940",
    "name": "삼성바이오로직스",
-   "weight": 3.14,
+   "weight": 3.31,
    "shares": 12.0,
-   "amount": 17748000.0,
+   "amount": 18324000.0,
    "over_cap": false
   },
   {
    "code": "008930",
    "name": "한미사이언스",
-   "weight": 3.1,
+   "weight": 3.28,
    "shares": 522.0,
-   "amount": 17513100.0,
+   "amount": 18139500.0,
    "over_cap": false
   },
   {
    "code": "068270",
    "name": "셀트리온",
-   "weight": 2.99,
+   "weight": 3.23,
    "shares": 94.0,
-   "amount": 16920000.0,
+   "amount": 17860000.0,
+   "over_cap": false
+  },
+  {
+   "code": "000100",
+   "name": "유한양행",
+   "weight": 2.73,
+   "shares": 204.0,
+   "amount": 15096000.0,
    "over_cap": false
   },
   {
@@ -44,319 +52,303 @@
    "name": "휴젤",
    "weight": 2.56,
    "shares": 63.0,
-   "amount": 14458500.0,
-   "over_cap": false
-  },
-  {
-   "code": "000100",
-   "name": "유한양행",
-   "weight": 2.54,
-   "shares": 204.0,
-   "amount": 14341200.0,
-   "over_cap": false
-  },
-  {
-   "code": "108860",
-   "name": "셀바스AI",
-   "weight": 2.5,
-   "shares": 1772.0,
-   "amount": 14122840.0,
+   "amount": 14143500.0,
    "over_cap": false
   },
   {
    "code": "086450",
    "name": "동국제약",
-   "weight": 2.48,
+   "weight": 2.54,
    "shares": 821.0,
-   "amount": 13989840.0,
+   "amount": 14071940.0,
    "over_cap": false
   },
   {
    "code": "068760",
    "name": "셀트리온제약",
-   "weight": 2.47,
+   "weight": 2.54,
    "shares": 363.0,
-   "amount": 13975500.0,
-   "over_cap": false
-  },
-  {
-   "code": "195940",
-   "name": "HK이노엔",
-   "weight": 2.38,
-   "shares": 373.0,
-   "amount": 13428000.0,
+   "amount": 14048100.0,
    "over_cap": false
   },
   {
    "code": "326030",
    "name": "SK바이오팜",
-   "weight": 2.35,
+   "weight": 2.47,
    "shares": 176.0,
-   "amount": 13305600.0,
-   "over_cap": false
-  },
-  {
-   "code": "214150",
-   "name": "클래시스",
-   "weight": 2.35,
-   "shares": 332.0,
-   "amount": 13296600.0,
+   "amount": 13657600.0,
    "over_cap": false
   },
   {
    "code": "003000",
    "name": "부광약품",
-   "weight": 2.33,
+   "weight": 2.44,
    "shares": 3597.0,
-   "amount": 13183005.0,
+   "amount": 13488750.0,
+   "over_cap": false
+  },
+  {
+   "code": "108860",
+   "name": "셀바스AI",
+   "weight": 2.41,
+   "shares": 1772.0,
+   "amount": 13343160.0,
    "over_cap": false
   },
   {
    "code": "302440",
    "name": "SK바이오사이언스",
-   "weight": 2.27,
+   "weight": 2.37,
    "shares": 395.0,
-   "amount": 12837500.0,
+   "amount": 13094250.0,
+   "over_cap": false
+  },
+  {
+   "code": "195940",
+   "name": "HK이노엔",
+   "weight": 2.35,
+   "shares": 373.0,
+   "amount": 13017700.0,
    "over_cap": false
   },
   {
    "code": "196170",
    "name": "알테오젠",
-   "weight": 2.25,
+   "weight": 2.27,
    "shares": 45.0,
-   "amount": 12712500.0,
+   "amount": 12577500.0,
    "over_cap": false
   },
   {
    "code": "0126Z0",
    "name": "삼성에피스홀딩스",
-   "weight": 2.25,
+   "weight": 2.27,
    "shares": 36.0,
-   "amount": 12690000.0,
+   "amount": 12564000.0,
+   "over_cap": false
+  },
+  {
+   "code": "214150",
+   "name": "클래시스",
+   "weight": 2.25,
+   "shares": 332.0,
+   "amount": 12466600.0,
    "over_cap": false
   },
   {
    "code": "389650",
    "name": "넥스트바이오메디컬",
-   "weight": 2.24,
+   "weight": 2.25,
    "shares": 383.0,
-   "amount": 12639000.0,
-   "over_cap": false
-  },
-  {
-   "code": "491000",
-   "name": "리브스메드",
-   "weight": 2.18,
-   "shares": 383.0,
-   "amount": 12313450.0,
-   "over_cap": false
-  },
-  {
-   "code": "009420",
-   "name": "한올바이오파마",
-   "weight": 2.17,
-   "shares": 294.0,
-   "amount": 12259800.0,
+   "amount": 12428350.0,
    "over_cap": false
   },
   {
    "code": "128940",
    "name": "한미약품",
-   "weight": 2.17,
+   "weight": 2.14,
    "shares": 38.0,
-   "amount": 12236000.0,
+   "amount": 11837000.0,
    "over_cap": false
   },
   {
    "code": "458870",
    "name": "씨어스",
-   "weight": 2.15,
+   "weight": 2.09,
    "shares": 532.0,
-   "amount": 12156200.0,
+   "amount": 11544400.0,
+   "over_cap": false
+  },
+  {
+   "code": "491000",
+   "name": "리브스메드",
+   "weight": 2.08,
+   "shares": 383.0,
+   "amount": 11528300.0,
+   "over_cap": false
+  },
+  {
+   "code": "009420",
+   "name": "한올바이오파마",
+   "weight": 2.07,
+   "shares": 294.0,
+   "amount": 11466000.0,
    "over_cap": false
   },
   {
    "code": "226950",
    "name": "올릭스",
-   "weight": 2.08,
-   "shares": 125.0,
-   "amount": 11762500.0,
-   "over_cap": false
-  },
-  {
-   "code": "237690",
-   "name": "에스티팜",
    "weight": 2.02,
-   "shares": 126.0,
-   "amount": 11415600.0,
-   "over_cap": false
-  },
-  {
-   "code": "039200",
-   "name": "오스코텍",
-   "weight": 1.98,
-   "shares": 383.0,
-   "amount": 11164450.0,
+   "shares": 125.0,
+   "amount": 11187500.0,
    "over_cap": false
   },
   {
    "code": "007390",
    "name": "네이처셀",
-   "weight": 1.94,
+   "weight": 1.99,
    "shares": 483.0,
-   "amount": 10964100.0,
+   "amount": 11012400.0,
+   "over_cap": false
+  },
+  {
+   "code": "039200",
+   "name": "오스코텍",
+   "weight": 1.97,
+   "shares": 383.0,
+   "amount": 10877200.0,
+   "over_cap": false
+  },
+  {
+   "code": "237690",
+   "name": "에스티팜",
+   "weight": 1.93,
+   "shares": 126.0,
+   "amount": 10672200.0,
    "over_cap": false
   },
   {
    "code": "085660",
    "name": "차바이오텍",
-   "weight": 1.9,
+   "weight": 1.92,
    "shares": 1325.0,
-   "amount": 10732500.0,
-   "over_cap": false
-  },
-  {
-   "code": "298380",
-   "name": "에이비엘바이오",
-   "weight": 1.87,
-   "shares": 167.0,
-   "amount": 10571100.0,
-   "over_cap": false
-  },
-  {
-   "code": "0009K0",
-   "name": "에임드바이오",
-   "weight": 1.84,
-   "shares": 572.0,
-   "amount": 10370360.0,
-   "over_cap": false
-  },
-  {
-   "code": "028300",
-   "name": "HLB",
-   "weight": 1.81,
-   "shares": 328.0,
-   "amount": 10250000.0,
+   "amount": 10639750.0,
    "over_cap": false
   },
   {
    "code": "249420",
    "name": "일동제약",
-   "weight": 1.8,
+   "weight": 1.91,
    "shares": 838.0,
-   "amount": 10181700.0,
+   "amount": 10550420.0,
+   "over_cap": false
+  },
+  {
+   "code": "0009K0",
+   "name": "에임드바이오",
+   "weight": 1.85,
+   "shares": 572.0,
+   "amount": 10238800.0,
+   "over_cap": false
+  },
+  {
+   "code": "298380",
+   "name": "에이비엘바이오",
+   "weight": 1.84,
+   "shares": 167.0,
+   "amount": 10153600.0,
    "over_cap": false
   },
   {
    "code": "005690",
    "name": "파미셀",
-   "weight": 1.79,
+   "weight": 1.78,
    "shares": 1126.0,
-   "amount": 10111480.0,
+   "amount": 9863760.0,
+   "over_cap": false
+  },
+  {
+   "code": "028300",
+   "name": "HLB",
+   "weight": 1.78,
+   "shares": 328.0,
+   "amount": 9823600.0,
    "over_cap": false
   },
   {
    "code": "290650",
    "name": "엘앤씨바이오",
-   "weight": 1.7,
+   "weight": 1.71,
    "shares": 184.0,
-   "amount": 9623200.0,
-   "over_cap": false
-  },
-  {
-   "code": "141080",
-   "name": "리가켐바이오",
-   "weight": 1.69,
-   "shares": 115.0,
-   "amount": 9533500.0,
-   "over_cap": false
-  },
-  {
-   "code": "336570",
-   "name": "원텍",
-   "weight": 1.68,
-   "shares": 2094.0,
-   "amount": 9464880.0,
+   "amount": 9476000.0,
    "over_cap": false
   },
   {
    "code": "476060",
    "name": "온코닉테라퓨틱스",
-   "weight": 1.65,
+   "weight": 1.68,
    "shares": 980.0,
-   "amount": 9329600.0,
+   "amount": 9319800.0,
    "over_cap": false
   },
   {
-   "code": "376900",
-   "name": "로킷헬스케어",
-   "weight": 1.61,
-   "shares": 308.0,
-   "amount": 9086000.0,
-   "over_cap": false
-  },
-  {
-   "code": "087010",
-   "name": "펩트론",
-   "weight": 1.58,
-   "shares": 66.0,
-   "amount": 8929800.0,
+   "code": "336570",
+   "name": "원텍",
+   "weight": 1.66,
+   "shares": 2094.0,
+   "amount": 9171720.0,
    "over_cap": false
   },
   {
    "code": "174900",
    "name": "앱클론",
-   "weight": 1.56,
+   "weight": 1.64,
    "shares": 524.0,
-   "amount": 8813680.0,
+   "amount": 9054720.0,
    "over_cap": false
   },
   {
-   "code": "328130",
-   "name": "루닛",
-   "weight": 1.54,
-   "shares": 965.0,
-   "amount": 8685000.0,
+   "code": "141080",
+   "name": "리가켐바이오",
+   "weight": 1.62,
+   "shares": 115.0,
+   "amount": 8958500.0,
    "over_cap": false
   },
   {
    "code": "389470",
    "name": "인벤티지랩",
-   "weight": 1.54,
+   "weight": 1.57,
    "shares": 350.0,
-   "amount": 8680000.0,
+   "amount": 8662500.0,
    "over_cap": false
   },
   {
    "code": "475830",
    "name": "오름테라퓨틱",
-   "weight": 1.53,
+   "weight": 1.5,
    "shares": 219.0,
-   "amount": 8661450.0,
+   "amount": 8278200.0,
+   "over_cap": false
+  },
+  {
+   "code": "376900",
+   "name": "로킷헬스케어",
+   "weight": 1.49,
+   "shares": 308.0,
+   "amount": 8223600.0,
+   "over_cap": false
+  },
+  {
+   "code": "328130",
+   "name": "루닛",
+   "weight": 1.49,
+   "shares": 965.0,
+   "amount": 8221800.0,
+   "over_cap": false
+  },
+  {
+   "code": "087010",
+   "name": "펩트론",
+   "weight": 1.44,
+   "shares": 66.0,
+   "amount": 7972800.0,
+   "over_cap": false
+  },
+  {
+   "code": "445680",
+   "name": "큐리옥스바이오시스템즈",
+   "weight": 1.41,
+   "shares": 224.0,
+   "amount": 7795200.0,
    "over_cap": false
   },
   {
    "code": "456160",
    "name": "지투지바이오",
-   "weight": 1.44,
+   "weight": 1.4,
    "shares": 337.0,
-   "amount": 8138550.0,
-   "over_cap": false
-  },
-  {
-   "code": "347850",
-   "name": "디앤디파마텍",
-   "weight": 1.42,
-   "shares": 165.0,
-   "amount": 8027250.0,
-   "over_cap": false
-  },
-  {
-   "code": "310210",
-   "name": "보로노이",
-   "weight": 1.42,
-   "shares": 75.0,
-   "amount": 8017500.0,
+   "amount": 7734150.0,
    "over_cap": false
   },
   {
@@ -364,47 +356,55 @@
    "name": "지아이이노베이션",
    "weight": 1.39,
    "shares": 1126.0,
-   "amount": 7848220.0,
-   "over_cap": false
-  },
-  {
-   "code": "468530",
-   "name": "프로티나",
-   "weight": 1.36,
-   "shares": 469.0,
-   "amount": 7696290.0,
-   "over_cap": false
-  },
-  {
-   "code": "445680",
-   "name": "큐리옥스바이오시스템즈",
-   "weight": 1.36,
-   "shares": 224.0,
-   "amount": 7683200.0,
-   "over_cap": false
-  },
-  {
-   "code": "397030",
-   "name": "에이프릴바이오",
-   "weight": 1.32,
-   "shares": 361.0,
-   "amount": 7472700.0,
+   "amount": 7679320.0,
    "over_cap": false
   },
   {
    "code": "000250",
    "name": "삼천당제약",
-   "weight": 1.32,
+   "weight": 1.39,
    "shares": 59.0,
-   "amount": 7463500.0,
+   "amount": 7664100.0,
+   "over_cap": false
+  },
+  {
+   "code": "310210",
+   "name": "보로노이",
+   "weight": 1.37,
+   "shares": 75.0,
+   "amount": 7560000.0,
+   "over_cap": false
+  },
+  {
+   "code": "347850",
+   "name": "디앤디파마텍",
+   "weight": 1.36,
+   "shares": 165.0,
+   "amount": 7540500.0,
+   "over_cap": false
+  },
+  {
+   "code": "468530",
+   "name": "프로티나",
+   "weight": 1.34,
+   "shares": 469.0,
+   "amount": 7438340.0,
+   "over_cap": false
+  },
+  {
+   "code": "397030",
+   "name": "에이프릴바이오",
+   "weight": 1.27,
+   "shares": 361.0,
+   "amount": 7035890.0,
    "over_cap": false
   },
   {
    "code": "476830",
    "name": "알지노믹스",
-   "weight": 1.26,
+   "weight": 1.25,
    "shares": 336.0,
-   "amount": 7106400.0,
+   "amount": 6921600.0,
    "over_cap": false
   }
  ],

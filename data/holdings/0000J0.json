@@ -3,14 +3,14 @@
  "name": "PLUS 한화그룹주",
  "manager": "PLUS",
  "source": "한화 PLUS",
- "asof": "2026-07-30",
- "total_weight": 91.0,
+ "asof": "2026-07-31",
+ "total_weight": 91.34,
  "count": 10,
  "holdings": [
   {
    "code": "012450",
    "name": "한화에어로스페이스",
-   "weight": 22.1371,
+   "weight": 22.7446,
    "shares": 300.0,
    "amount": 0.0,
    "over_cap": true
@@ -18,15 +18,15 @@
   {
    "code": "042660",
    "name": "한화오션",
-   "weight": 19.7559,
+   "weight": 20.205,
    "shares": 2907.0,
    "amount": 0.0,
-   "over_cap": false
+   "over_cap": true
   },
   {
    "code": "272210",
    "name": "한화시스템",
-   "weight": 15.1238,
+   "weight": 14.7924,
    "shares": 3063.0,
    "amount": 0.0,
    "over_cap": false
@@ -34,7 +34,7 @@
   {
    "code": "009830",
    "name": "한화솔루션",
-   "weight": 12.548,
+   "weight": 12.416,
    "shares": 6028.0,
    "amount": 0.0,
    "over_cap": false
@@ -42,7 +42,7 @@
   {
    "code": "082740",
    "name": "한화엔진",
-   "weight": 8.285,
+   "weight": 8.0947,
    "shares": 2350.0,
    "amount": 0.0,
    "over_cap": false
@@ -50,7 +50,7 @@
   {
    "code": "088350",
    "name": "한화생명",
-   "weight": 5.6332,
+   "weight": 5.5995,
    "shares": 15193.0,
    "amount": 0.0,
    "over_cap": false
@@ -58,7 +58,7 @@
   {
    "code": "489790",
    "name": "한화비전",
-   "weight": 4.3203,
+   "weight": 4.3622,
    "shares": 1422.0,
    "amount": 0.0,
    "over_cap": false
@@ -66,7 +66,7 @@
   {
    "code": "003530",
    "name": "한화투자증권",
-   "weight": 1.5323,
+   "weight": 1.4743,
    "shares": 4577.0,
    "amount": 0.0,
    "over_cap": false
@@ -74,7 +74,7 @@
   {
    "code": "000370",
    "name": "한화손해보험",
-   "weight": 1.0759,
+   "weight": 1.1098,
    "shares": 2241.0,
    "amount": 0.0,
    "over_cap": false
@@ -82,7 +82,7 @@
   {
    "code": "452260",
    "name": "한화갤러리아",
-   "weight": 0.5846,
+   "weight": 0.5445,
    "shares": 3722.0,
    "amount": 0.0,
    "over_cap": false
@@ -91,16 +91,24 @@
  "breach_summary": {
   "cap_pct": 20.0,
   "verified": true,
-  "count": 1,
-  "total_sell": 1808393510,
+  "count": 2,
+  "total_sell": 2582127625,
   "items": [
    {
     "code": "012450",
     "name": "한화에어로스페이스",
-    "weight": 22.137,
+    "weight": 22.745,
     "cap_pct": 20.0,
-    "excess_pp": 2.137,
-    "sell_amount": 1808393510
+    "excess_pp": 2.745,
+    "sell_amount": 2402691638
+   },
+   {
+    "code": "042660",
+    "name": "한화오션",
+    "weight": 20.205,
+    "cap_pct": 20.0,
+    "excess_pp": 0.205,
+    "sell_amount": 179435987
    }
   ]
  },
