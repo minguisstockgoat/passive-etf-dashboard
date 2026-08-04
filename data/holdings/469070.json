@@ -3,30 +3,46 @@
  "name": "RISE AI&로봇",
  "manager": "RISE",
  "source": "KB RISE",
- "asof": "2026-08-03",
+ "asof": "2026-08-04",
  "total_weight": 99.97,
  "count": 36,
  "holdings": [
   {
    "code": "035420",
    "name": "NAVER",
-   "weight": 7.3,
+   "weight": 6.82,
    "shares": 176.0,
-   "amount": 36608000.0,
-   "over_cap": true
+   "amount": 36520000.0,
+   "over_cap": false
   },
   {
    "code": "277810",
    "name": "레인보우로보틱스",
-   "weight": 5.61,
+   "weight": 5.56,
    "shares": 65.0,
-   "amount": 28145000.0,
+   "amount": 29802500.0,
+   "over_cap": false
+  },
+  {
+   "code": "108490",
+   "name": "로보티즈",
+   "weight": 5.55,
+   "shares": 138.0,
+   "amount": 29739000.0,
+   "over_cap": false
+  },
+  {
+   "code": "058610",
+   "name": "에스피지",
+   "weight": 5.36,
+   "shares": 264.0,
+   "amount": 28696800.0,
    "over_cap": false
   },
   {
    "code": "064400",
    "name": "LG씨엔에스",
-   "weight": 5.28,
+   "weight": 4.95,
    "shares": 424.0,
    "amount": 26500000.0,
    "over_cap": false
@@ -34,105 +50,89 @@
   {
    "code": "066570",
    "name": "LG전자",
-   "weight": 5.07,
+   "weight": 4.65,
    "shares": 157.0,
-   "amount": 25449700.0,
-   "over_cap": false
-  },
-  {
-   "code": "108490",
-   "name": "로보티즈",
-   "weight": 5.06,
-   "shares": 138.0,
-   "amount": 25364400.0,
-   "over_cap": false
-  },
-  {
-   "code": "058610",
-   "name": "에스피지",
-   "weight": 4.98,
-   "shares": 264.0,
-   "amount": 24974400.0,
-   "over_cap": false
-  },
-  {
-   "code": "005380",
-   "name": "현대차",
-   "weight": 4.56,
-   "shares": 59.0,
-   "amount": 22892000.0,
+   "amount": 24931600.0,
    "over_cap": false
   },
   {
    "code": "012330",
    "name": "현대모비스",
-   "weight": 4.56,
+   "weight": 4.42,
    "shares": 48.0,
-   "amount": 22848000.0,
+   "amount": 23688000.0,
    "over_cap": false
   },
   {
    "code": "454910",
    "name": "두산로보틱스",
-   "weight": 4.43,
+   "weight": 4.34,
    "shares": 361.0,
-   "amount": 22237600.0,
+   "amount": 23248400.0,
+   "over_cap": false
+  },
+  {
+   "code": "005380",
+   "name": "현대차",
+   "weight": 4.33,
+   "shares": 59.0,
+   "amount": 23187000.0,
    "over_cap": false
   },
   {
    "code": "204320",
    "name": "HL만도",
-   "weight": 4.38,
+   "weight": 4.3,
    "shares": 491.0,
-   "amount": 21947700.0,
+   "amount": 23027900.0,
    "over_cap": false
   },
   {
    "code": "348340",
    "name": "뉴로메카",
-   "weight": 3.09,
+   "weight": 3.06,
    "shares": 592.0,
-   "amount": 15480800.0,
-   "over_cap": false
-  },
-  {
-   "code": "307950",
-   "name": "현대오토에버",
-   "weight": 2.83,
-   "shares": 39.0,
-   "amount": 14215500.0,
-   "over_cap": false
-  },
-  {
-   "code": "455900",
-   "name": "엔젤로보틱스",
-   "weight": 2.74,
-   "shares": 682.0,
-   "amount": 13742300.0,
-   "over_cap": false
-  },
-  {
-   "code": "270660",
-   "name": "에브리봇",
-   "weight": 2.69,
-   "shares": 1067.0,
-   "amount": 13486880.0,
+   "amount": 16398400.0,
    "over_cap": false
   },
   {
    "code": "108860",
    "name": "셀바스AI",
-   "weight": 2.67,
+   "weight": 3.01,
    "shares": 1660.0,
-   "amount": 13412800.0,
+   "amount": 16102000.0,
+   "over_cap": false
+  },
+  {
+   "code": "455900",
+   "name": "엔젤로보틱스",
+   "weight": 2.89,
+   "shares": 682.0,
+   "amount": 15481400.0,
+   "over_cap": false
+  },
+  {
+   "code": "307950",
+   "name": "현대오토에버",
+   "weight": 2.78,
+   "shares": 39.0,
+   "amount": 14917500.0,
+   "over_cap": false
+  },
+  {
+   "code": "270660",
+   "name": "에브리봇",
+   "weight": 2.7,
+   "shares": 1067.0,
+   "amount": 14468520.0,
    "over_cap": false
   },
   {
    "code": "090710",
    "name": "휴림로봇",
-   "weight": 2.61,
+   "weight": 2.62,
    "shares": 2116.0,
-   "amount": 13098040.0,
+   "amount": 14050240.0,
    "over_cap": false
   },
   {
@@ -140,7 +140,23 @@
    "name": "에스오에스랩",
    "weight": 2.61,
    "shares": 1703.0,
-   "amount": 13096070.0,
+   "amount": 13981630.0,
+   "over_cap": false
+  },
+  {
+   "code": "484810",
+   "name": "티엑스알로보틱스",
+   "weight": 2.4,
+   "shares": 738.0,
+   "amount": 12878100.0,
+   "over_cap": false
+  },
+  {
+   "code": "448900",
+   "name": "한국피아이엠",
+   "weight": 2.17,
+   "shares": 193.0,
+   "amount": 11618600.0,
    "over_cap": false
   },
   {
@@ -148,127 +164,103 @@
    "name": "유일로보틱스",
    "weight": 2.15,
    "shares": 173.0,
-   "amount": 10777900.0,
+   "amount": 11539100.0,
    "over_cap": false
   },
   {
    "code": "389500",
    "name": "에스비비테크",
-   "weight": 2.04,
+   "weight": 2.06,
    "shares": 337.0,
-   "amount": 10227950.0,
-   "over_cap": false
-  },
-  {
-   "code": "140670",
-   "name": "알에스오토메이션",
-   "weight": 2.0,
-   "shares": 1149.0,
-   "amount": 10042260.0,
-   "over_cap": false
-  },
-  {
-   "code": "484810",
-   "name": "티엑스알로보틱스",
-   "weight": 1.98,
-   "shares": 738.0,
-   "amount": 9911340.0,
-   "over_cap": false
-  },
-  {
-   "code": "448900",
-   "name": "한국피아이엠",
-   "weight": 1.97,
-   "shares": 193.0,
-   "amount": 9900900.0,
-   "over_cap": false
-  },
-  {
-   "code": "322510",
-   "name": "제이엘케이",
-   "weight": 1.97,
-   "shares": 2031.0,
-   "amount": 9870660.0,
+   "amount": 11053600.0,
    "over_cap": false
   },
   {
    "code": "466100",
    "name": "클로봇",
-   "weight": 1.93,
+   "weight": 1.99,
    "shares": 418.0,
-   "amount": 9697600.0,
+   "amount": 10679900.0,
+   "over_cap": false
+  },
+  {
+   "code": "140670",
+   "name": "알에스오토메이션",
+   "weight": 1.96,
+   "shares": 1149.0,
+   "amount": 10501860.0,
+   "over_cap": false
+  },
+  {
+   "code": "322510",
+   "name": "제이엘케이",
+   "weight": 1.89,
+   "shares": 2031.0,
+   "amount": 10104225.0,
    "over_cap": false
   },
   {
    "code": "093320",
    "name": "케이아이엔엑스",
-   "weight": 1.86,
+   "weight": 1.83,
    "shares": 72.0,
-   "amount": 9338400.0,
+   "amount": 9820800.0,
    "over_cap": false
   },
   {
    "code": "117730",
    "name": "티로보틱스",
-   "weight": 1.81,
+   "weight": 1.77,
    "shares": 739.0,
-   "amount": 9097090.0,
+   "amount": 9481370.0,
    "over_cap": false
   },
   {
    "code": "402030",
    "name": "코난테크놀로지",
-   "weight": 1.79,
+   "weight": 1.77,
    "shares": 658.0,
-   "amount": 8955380.0,
+   "amount": 9475200.0,
    "over_cap": false
   },
   {
    "code": "304100",
    "name": "솔트룩스",
-   "weight": 1.63,
+   "weight": 1.59,
    "shares": 651.0,
-   "amount": 8183070.0,
-   "over_cap": false
-  },
-  {
-   "code": "090360",
-   "name": "로보스타",
-   "weight": 1.47,
-   "shares": 120.0,
-   "amount": 7368000.0,
+   "amount": 8515080.0,
    "over_cap": false
   },
   {
    "code": "459510",
    "name": "나우로보틱스",
-   "weight": 1.38,
+   "weight": 1.54,
    "shares": 501.0,
-   "amount": 6918810.0,
+   "amount": 8236440.0,
+   "over_cap": false
+  },
+  {
+   "code": "090360",
+   "name": "로보스타",
+   "weight": 1.46,
+   "shares": 120.0,
+   "amount": 7836000.0,
    "over_cap": false
   },
   {
    "code": "463020",
    "name": "뉴엔AI",
-   "weight": 1.06,
+   "weight": 1.13,
    "shares": 694.0,
-   "amount": 5309100.0,
+   "amount": 6072500.0,
    "over_cap": false
   },
   {
    "code": "056080",
    "name": "유진로봇",
-   "weight": 0.96,
-   "shares": 443.0,
-   "amount": 4828700.0,
-   "over_cap": false
-  },
-  {
-   "code": "338220",
-   "name": "뷰노",
    "weight": 0.95,
-   "shares": 657.0,
-   "amount": 4782960.0,
+   "shares": 443.0,
+   "amount": 5107790.0,
    "over_cap": false
   },
   {
@@ -276,42 +268,35 @@
    "name": "씨메스로보틱스",
    "weight": 0.94,
    "shares": 253.0,
-   "amount": 4728570.0,
+   "amount": 5047350.0,
+   "over_cap": false
+  },
+  {
+   "code": "338220",
+   "name": "뷰노",
+   "weight": 0.93,
+   "shares": 657.0,
+   "amount": 4960350.0,
    "over_cap": false
   },
   {
    "code": "058970",
    "name": "엠로",
-   "weight": 0.83,
+   "weight": 0.79,
    "shares": 291.0,
-   "amount": 4138020.0,
+   "amount": 4236960.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "원화예금",
-   "weight": 0.78,
-   "shares": 3913171.0,
-   "amount": 3913171.0,
+   "weight": 0.7,
+   "shares": 3732351.0,
+   "amount": 3732351.0,
    "over_cap": false
   }
  ],
- "breach_summary": {
-  "cap_pct": 7.0,
-  "verified": true,
-  "count": 1,
-  "total_sell": 994925250,
-  "items": [
-   {
-    "code": "035420",
-    "name": "NAVER",
-    "weight": 7.3,
-    "cap_pct": 7.0,
-    "excess_pp": 0.3,
-    "sell_amount": 994925250
-   }
-  ]
- },
+ "breach_summary": null,
  "cap": {
   "single_cap": 0.07,
   "index_exception": false,
