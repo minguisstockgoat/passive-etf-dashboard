@@ -3,88 +3,88 @@
  "name": "RISE 수소경제테마",
  "manager": "RISE",
  "source": "KB RISE",
- "asof": "2026-08-05",
+ "asof": "2026-08-06",
  "total_weight": 100.0,
  "count": 33,
  "holdings": [
   {
    "code": "012450",
    "name": "한화에어로스페이스",
-   "weight": 17.67,
+   "weight": 17.03,
    "shares": 190.0,
-   "amount": 190760000.0,
+   "amount": 191330000.0,
    "over_cap": true
   },
   {
    "code": "034020",
    "name": "두산에너빌리티",
-   "weight": 14.82,
+   "weight": 15.02,
    "shares": 2191.0,
-   "amount": 159943000.0,
-   "over_cap": false
+   "amount": 168707000.0,
+   "over_cap": true
   },
   {
    "code": "012330",
    "name": "현대모비스",
-   "weight": 14.68,
+   "weight": 14.73,
    "shares": 329.0,
-   "amount": 158413500.0,
+   "amount": 165487000.0,
    "over_cap": false
   },
   {
    "code": "005380",
    "name": "현대차",
-   "weight": 11.82,
+   "weight": 11.7,
    "shares": 325.0,
-   "amount": 127562500.0,
+   "amount": 131462500.0,
    "over_cap": false
   },
   {
    "code": "005490",
    "name": "POSCO홀딩스",
-   "weight": 10.38,
+   "weight": 10.1,
    "shares": 358.0,
-   "amount": 112054000.0,
+   "amount": 113486000.0,
    "over_cap": false
   },
   {
    "code": "010120",
    "name": "LS ELECTRIC",
-   "weight": 7.94,
+   "weight": 8.21,
    "shares": 435.0,
-   "amount": 85695000.0,
+   "amount": 92220000.0,
    "over_cap": false
   },
   {
    "code": "298040",
    "name": "효성중공업",
-   "weight": 7.13,
+   "weight": 7.7,
    "shares": 29.0,
-   "amount": 76995000.0,
+   "amount": 86565000.0,
    "over_cap": false
   },
   {
    "code": "000150",
    "name": "두산",
-   "weight": 4.6,
+   "weight": 4.37,
    "shares": 39.0,
-   "amount": 49686000.0,
+   "amount": 49140000.0,
    "over_cap": false
   },
   {
    "code": "003670",
    "name": "포스코퓨처엠",
-   "weight": 2.43,
+   "weight": 2.39,
    "shares": 184.0,
-   "amount": 26275200.0,
+   "amount": 26900800.0,
    "over_cap": false
   },
   {
    "code": "009830",
    "name": "한화솔루션",
-   "weight": 1.87,
+   "weight": 2.02,
    "shares": 753.0,
-   "amount": 20180400.0,
+   "amount": 22702950.0,
    "over_cap": false
   },
   {
@@ -92,7 +92,7 @@
    "name": "현대제철",
    "weight": 1.15,
    "shares": 469.0,
-   "amount": 12405050.0,
+   "amount": 12967850.0,
    "over_cap": false
   },
   {
@@ -100,31 +100,23 @@
    "name": "한온시스템",
    "weight": 0.86,
    "shares": 2748.0,
-   "amount": 9260760.0,
+   "amount": 9700440.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "원화예금",
-   "weight": 0.71,
-   "shares": 7711518.0,
-   "amount": 7711518.0,
+   "weight": 0.72,
+   "shares": 8072590.0,
+   "amount": 8072590.0,
    "over_cap": false
   },
   {
    "code": "336260",
    "name": "두산퓨얼셀",
-   "weight": 0.59,
+   "weight": 0.69,
    "shares": 223.0,
-   "amount": 6377800.0,
-   "over_cap": false
-  },
-  {
-   "code": "475150",
-   "name": "SK이터닉스",
-   "weight": 0.55,
-   "shares": 106.0,
-   "amount": 5914800.0,
+   "amount": 7715800.0,
    "over_cap": false
   },
   {
@@ -132,7 +124,15 @@
    "name": "코오롱인더",
    "weight": 0.55,
    "shares": 114.0,
-   "amount": 5939400.0,
+   "amount": 6133200.0,
+   "over_cap": false
+  },
+  {
+   "code": "475150",
+   "name": "SK이터닉스",
+   "weight": 0.54,
+   "shares": 106.0,
+   "amount": 6116200.0,
    "over_cap": false
   },
   {
@@ -140,47 +140,55 @@
    "name": "현대위아",
    "weight": 0.48,
    "shares": 86.0,
-   "amount": 5177200.0,
+   "amount": 5357800.0,
    "over_cap": false
   },
   {
    "code": "119850",
    "name": "지엔씨에너지",
-   "weight": 0.28,
+   "weight": 0.26,
    "shares": 59.0,
-   "amount": 3020800.0,
+   "amount": 2950000.0,
    "over_cap": false
   },
   {
    "code": "018670",
    "name": "SK가스",
-   "weight": 0.24,
+   "weight": 0.23,
    "shares": 12.0,
    "amount": 2562000.0,
    "over_cap": false
   },
   {
-   "code": "059090",
-   "name": "미코",
-   "weight": 0.2,
-   "shares": 134.0,
-   "amount": 2130600.0,
+   "code": "298050",
+   "name": "HS효성첨단소재",
+   "weight": 0.19,
+   "shares": 12.0,
+   "amount": 2104800.0,
    "over_cap": false
   },
   {
-   "code": "298050",
-   "name": "HS효성첨단소재",
-   "weight": 0.18,
-   "shares": 12.0,
-   "amount": 1977600.0,
+   "code": "059090",
+   "name": "미코",
+   "weight": 0.19,
+   "shares": 134.0,
+   "amount": 2186880.0,
    "over_cap": false
   },
   {
    "code": "025320",
    "name": "시노펙스",
-   "weight": 0.17,
+   "weight": 0.16,
    "shares": 458.0,
-   "amount": 1781620.0,
+   "amount": 1790780.0,
+   "over_cap": false
+  },
+  {
+   "code": "126340",
+   "name": "비나텍",
+   "weight": 0.16,
+   "shares": 26.0,
+   "amount": 1846000.0,
    "over_cap": false
   },
   {
@@ -188,15 +196,7 @@
    "name": "동성화인텍",
    "weight": 0.15,
    "shares": 97.0,
-   "amount": 1627660.0,
-   "over_cap": false
-  },
-  {
-   "code": "126340",
-   "name": "비나텍",
-   "weight": 0.15,
-   "shares": 26.0,
-   "amount": 1653600.0,
+   "amount": 1655790.0,
    "over_cap": false
   },
   {
@@ -204,7 +204,7 @@
    "name": "진성티이씨",
    "weight": 0.08,
    "shares": 65.0,
-   "amount": 872300.0,
+   "amount": 943800.0,
    "over_cap": false
   },
   {
@@ -212,7 +212,7 @@
    "name": "상아프론테크",
    "weight": 0.06,
    "shares": 48.0,
-   "amount": 641760.0,
+   "amount": 666720.0,
    "over_cap": false
   },
   {
@@ -220,7 +220,7 @@
    "name": "일진파워",
    "weight": 0.06,
    "shares": 54.0,
-   "amount": 606420.0,
+   "amount": 642600.0,
    "over_cap": false
   },
   {
@@ -228,7 +228,7 @@
    "name": "일진하이솔루스",
    "weight": 0.06,
    "shares": 59.0,
-   "amount": 615960.0,
+   "amount": 637200.0,
    "over_cap": false
   },
   {
@@ -236,7 +236,7 @@
    "name": "신화프리텍",
    "weight": 0.04,
    "shares": 207.0,
-   "amount": 394335.0,
+   "amount": 395784.0,
    "over_cap": false
   },
   {
@@ -244,7 +244,7 @@
    "name": "대양전기공업",
    "weight": 0.03,
    "shares": 19.0,
-   "amount": 323190.0,
+   "amount": 332880.0,
    "over_cap": false
   },
   {
@@ -252,7 +252,7 @@
    "name": "제이엔케이글로벌",
    "weight": 0.03,
    "shares": 107.0,
-   "amount": 281410.0,
+   "amount": 283550.0,
    "over_cap": false
   },
   {
@@ -260,7 +260,7 @@
    "name": "범한퓨얼셀",
    "weight": 0.03,
    "shares": 23.0,
-   "amount": 348910.0,
+   "amount": 372830.0,
    "over_cap": false
   },
   {
@@ -268,23 +268,31 @@
    "name": "에스프리즘",
    "weight": 0.01,
    "shares": 25.0,
-   "amount": 100500.0,
+   "amount": 102875.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 15.0,
   "verified": true,
-  "count": 1,
-  "total_sell": 3015865125,
+  "count": 2,
+  "total_sell": 2431043750,
   "items": [
    {
     "code": "012450",
     "name": "한화에어로스페이스",
-    "weight": 17.67,
+    "weight": 17.03,
     "cap_pct": 15.0,
-    "excess_pp": 2.67,
-    "sell_amount": 3015865125
+    "excess_pp": 2.03,
+    "sell_amount": 2407326250
+   },
+   {
+    "code": "034020",
+    "name": "두산에너빌리티",
+    "weight": 15.02,
+    "cap_pct": 15.0,
+    "excess_pp": 0.02,
+    "sell_amount": 23717500
    }
   ]
  },

@@ -12,70 +12,89 @@
    "name": "현대모비스",
    "weight": 11.14,
    "shares": 329.0,
-   "amount": 162361500.0
+   "amount": 162361500.0,
+   "over_cap": false
   },
   {
    "code": "402340",
    "name": "SK스퀘어",
    "weight": 10.83,
    "shares": 154.0,
-   "amount": 157850000.0
+   "amount": 157850000.0,
+   "over_cap": false
   },
   {
    "code": "373220",
    "name": "LG에너지솔루션",
    "weight": 10.69,
    "shares": 493.0,
-   "amount": 155788000.0
+   "amount": 155788000.0,
+   "over_cap": false
   },
   {
    "code": "028260",
    "name": "삼성물산",
    "weight": 10.43,
    "shares": 462.0,
-   "amount": 151998000.0
+   "amount": 151998000.0,
+   "over_cap": false
   },
   {
    "code": "005930",
    "name": "삼성전자",
    "weight": 10.42,
    "shares": 634.0,
-   "amount": 151843000.0
+   "amount": 151843000.0,
+   "over_cap": false
   },
   {
    "code": "032830",
    "name": "삼성생명",
    "weight": 10.24,
    "shares": 519.0,
-   "amount": 149212500.0
+   "amount": 149212500.0,
+   "over_cap": false
   },
   {
    "code": "000660",
    "name": "SK하이닉스",
    "weight": 9.68,
    "shares": 90.0,
-   "amount": 141030000.0
+   "amount": 141030000.0,
+   "over_cap": false
   },
   {
    "code": "329180",
    "name": "HD현대중공업",
    "weight": 9.46,
    "shares": 293.0,
-   "amount": 137856500.0
+   "amount": 137856500.0,
+   "over_cap": false
   },
   {
    "code": "005380",
    "name": "현대차",
    "weight": 8.58,
    "shares": 318.0,
-   "amount": 124974000.0
+   "amount": 124974000.0,
+   "over_cap": false
   },
   {
    "code": "009150",
    "name": "삼성전기",
    "weight": 8.51,
    "shares": 105.0,
-   "amount": 124005000.0
+   "amount": 124005000.0,
+   "over_cap": false
   }
- ]
+ ],
+ "breach_summary": null,
+ "cap": {
+  "single_cap": null,
+  "index_exception": false,
+  "label": "동일가중 방식 · 종목 상한 이슈 없음",
+  "source": "FnGuide_TOP10_EW_Index_Methodology_Book_삼성자산운용_v1.0.pdf | '비중이 10%가 되도록 산정'(10종목 동일가중); '3, 6, 9, 12월 선물옵션 만기일(D) 이후 2영업일(D+2)에 정기변경'",
+  "verified": true,
+  "note": "동일가중(±틸팅). 단일종목 비중이 낮아 cap 초과 이슈 없음."
+ }
 }
