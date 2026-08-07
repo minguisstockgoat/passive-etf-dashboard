@@ -3,40 +3,40 @@
  "name": "ACE KPOP포커스",
  "manager": "ACE",
  "source": "한국투자 ACE",
- "asof": "2026-08-06",
- "total_weight": 100.0,
+ "asof": "2026-08-07",
+ "total_weight": 100.01,
  "count": 9,
  "holdings": [
   {
    "code": "035900",
    "name": "JYP Ent.",
-   "weight": 24.97,
+   "weight": 25.33,
    "shares": 1886.0,
-   "amount": 86944600.0,
-   "over_cap": false
-  },
-  {
-   "code": "352820",
-   "name": "하이브",
-   "weight": 24.7,
-   "shares": 475.0,
-   "amount": 85975000.0,
-   "over_cap": false
+   "amount": 88924900.0,
+   "over_cap": true
   },
   {
    "code": "041510",
    "name": "에스엠",
-   "weight": 24.68,
+   "weight": 24.48,
    "shares": 1166.0,
    "amount": 85934200.0,
    "over_cap": false
   },
   {
+   "code": "352820",
+   "name": "하이브",
+   "weight": 24.45,
+   "shares": 475.0,
+   "amount": 85832500.0,
+   "over_cap": false
+  },
+  {
    "code": "122870",
    "name": "와이지엔터테인먼트",
-   "weight": 21.44,
+   "weight": 21.52,
    "shares": 1861.0,
-   "amount": 74626100.0,
+   "amount": 75556600.0,
    "over_cap": false
   },
   {
@@ -44,7 +44,7 @@
    "name": "YG PLUS",
    "weight": 0.9,
    "shares": 926.0,
-   "amount": 3148400.0,
+   "amount": 3166920.0,
    "over_cap": false
   },
   {
@@ -52,35 +52,50 @@
    "name": "큐브엔터",
    "weight": 0.89,
    "shares": 544.0,
-   "amount": 3095360.0,
+   "amount": 3144320.0,
    "over_cap": false
   },
   {
    "code": "035760",
    "name": "CJ ENM",
-   "weight": 0.84,
+   "weight": 0.88,
    "shares": 91.0,
-   "amount": 2925650.0,
+   "amount": 3103100.0,
    "over_cap": false
   },
   {
    "code": "376300",
    "name": "디어유",
-   "weight": 0.84,
+   "weight": 0.83,
    "shares": 146.0,
-   "amount": 2920000.0,
+   "amount": 2915620.0,
    "over_cap": false
   },
   {
    "code": "473980",
    "name": "노머스",
-   "weight": 0.74,
+   "weight": 0.73,
    "shares": 239.0,
-   "amount": 2597930.0,
+   "amount": 2564470.0,
    "over_cap": false
   }
  ],
- "breach_summary": null,
+ "breach_summary": {
+  "cap_pct": 25.0,
+  "verified": true,
+  "count": 1,
+  "total_sell": 337392000,
+  "items": [
+   {
+    "code": "035900",
+    "name": "JYP Ent.",
+    "weight": 25.33,
+    "cap_pct": 25.0,
+    "excess_pp": 0.33,
+    "sell_amount": 337392000
+   }
+  ]
+ },
  "cap": {
   "single_cap": 0.25,
   "index_exception": false,
