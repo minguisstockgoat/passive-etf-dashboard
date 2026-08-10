@@ -67,10 +67,22 @@ def _norm_rows(raw: list[dict]) -> list[dict]:
     return out
 
 
+KST = dt.timezone(dt.timedelta(hours=9))
+
+
+def kst_today() -> dt.date:
+    """KRX 기준일은 한국 날짜다. Actions 러너는 UTC라 date.today()를 쓰면 밤 시간대에 하루 어긋난다."""
+    return dt.datetime.now(KST).date()
+
+
 def latest_etf_snapshot(asof: Optional[dt.date] = None, lookback: int = 10) -> tuple[str, list[dict]]:
-    """asof(기본 오늘)부터 최대 lookback 영업일 역순으로 데이터가 있는 최신일을 찾는다.
-    return (기준일 YYYYMMDD, 정규화 rows)."""
-    d = asof or dt.date.today()
+    """asof(기본 오늘 KST)부터 최대 lookback 영업일 역순으로 데이터가 있는 최신일을 찾는다.
+    return (기준일 YYYYMMDD, 정규화 rows).
+
+    ⚠ KRX OPEN API 일별매매정보는 장 마감(15:30 KST) 직후엔 아직 안 올라온다.
+      너무 이른 시각에 돌리면 조용히 전 영업일로 폴백해 기준일이 계속 하루 밀린다.
+      (2026-08-10 실제 사례: 16:10 KST 실행 → 매일 전전 영업일 데이터)"""
+    d = asof or kst_today()
     for _ in range(lookback):
         if d.weekday() < 5:  # 월~금만 시도
             bas = d.strftime("%Y%m%d")
