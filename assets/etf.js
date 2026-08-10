@@ -6,6 +6,15 @@
   function qs(k) { return new URLSearchParams(location.search).get(k); }
 
   var HOLD = [], HSORT = { key: 'weight', dir: -1 }, HFILTER = '';
+  var FUND = 0, FUND_LBL = '';   // 평가금액 환산 기준(순자산총액 우선, 없으면 시가총액)
+
+  // PDF 의 평가금액은 1CU 기준이라 펀드 전체 규모와 무관한 숫자다.
+  // 구성비중 × 펀드 규모로 환산해야 '이 ETF 가 그 종목을 얼마나 들고 있나'가 바로 읽힌다.
+  function fundSize(e) {
+    if (e.nav > 0 && e.shares > 0) return { size: e.nav * e.shares, label: '순자산총액' };
+    if (e.market_cap > 0) return { size: e.market_cap, label: '시가총액' };
+    return { size: 0, label: '' };
+  }
 
   (async function () {
     var ticker = qs('ticker');
@@ -29,6 +38,7 @@
   }
 
   function render(e, hold) {
+    var fs = fundSize(e); FUND = fs.size; FUND_LBL = fs.label;
     var cap = e.cap || null;
     var br = e.breach_summary || (hold && hold.breach_summary) || null;
     var capPill = cap ? (cap.verified
@@ -90,16 +100,21 @@
 
     // 구성종목(PDF)
     html += '<div class="sec-title"><h2>구성종목 (PDF)</h2>'
-      + '<div class="meta">' + (hold ? ('기준일 ' + esc(hold.asof) + ' · ' + hold.count + '종 · 비중합 ' + (hold.total_weight || 0) + '%') : '수집 준비중') + '</div></div>';
+      + '<div class="meta">' + (hold ? ('기준일 ' + esc(hold.asof) + ' · ' + hold.count + '종 · 비중합 ' + (hold.total_weight || 0) + '%'
+          + (FUND > 0 ? ' · 평가금액 = 구성비중 × ' + FUND_LBL + ' ' + PE.won(FUND) : '')) : '수집 준비중') + '</div></div>';
     if (hold && hold.holdings && hold.holdings.length) {
-      HOLD = hold.holdings.slice();
+      HOLD = hold.holdings.map(function (h) {
+        var o = {}; for (var k in h) o[k] = h[k];
+        o.est_amount = FUND > 0 ? (h.weight || 0) / 100 * FUND : 0;   // 구성비중 × 펀드 규모
+        return o;
+      });
       html += '<div style="margin:0 4px 10px"><input class="h-search" id="hsearch" placeholder="종목명·코드 검색"></div>';
       html += '<div class="card"><div class="tbl-scroll"><table id="htbl"><thead><tr>'
         + '<th style="width:44px">#</th>'
         + '<th data-hs="name">종목명</th>'
         + '<th data-hs="weight" class="num">구성비중</th>'
-        + '<th data-hs="shares" class="num hide-sm">보유수량</th>'
-        + '<th data-hs="amount" class="num hide-sm">평가금액</th>'
+        + '<th data-hs="shares" class="num hide-sm">CU당 보유수량</th>'
+        + '<th data-hs="est_amount" class="num hide-sm">평가금액</th>'
         + '</tr></thead><tbody id="hrows"></tbody></table></div></div>';
     } else {
       html += '<div class="card"><div class="empty">구성종목(PDF) 데이터를 준비 중입니다.</div></div>';
@@ -154,7 +169,7 @@
         + (h.over_cap ? '<span class="over-flag">cap 초과</span>' : '') + '</td>'
         + '<td class="num"><div>' + w.toFixed(2) + '%</div><div class="wt-bar"><i style="width:' + Math.min(100, w / maxw * 100).toFixed(1) + '%"></i></div></td>'
         + '<td class="num hide-sm">' + PE.comma(h.shares) + '</td>'
-        + '<td class="num hide-sm">' + (h.amount ? PE.won(h.amount) : '-') + '</td>'
+        + '<td class="num hide-sm">' + (h.est_amount ? PE.won(h.est_amount) : '-') + '</td>'
         + '</tr>';
     }).join('');
   }
