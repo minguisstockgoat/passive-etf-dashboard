@@ -12,70 +12,89 @@
    "name": "LG에너지솔루션",
    "weight": 11.53,
    "shares": 493.0,
-   "amount": 170085000.0
+   "amount": 170085000.0,
+   "over_cap": false
   },
   {
    "code": "012330",
    "name": "현대모비스",
    "weight": 11.33,
    "shares": 329.0,
-   "amount": 167132000.0
+   "amount": 167132000.0,
+   "over_cap": false
   },
   {
    "code": "028260",
    "name": "삼성물산",
    "weight": 10.46,
    "shares": 462.0,
-   "amount": 154308000.0
+   "amount": 154308000.0,
+   "over_cap": false
   },
   {
    "code": "402340",
    "name": "SK스퀘어",
    "weight": 10.12,
    "shares": 154.0,
-   "amount": 149380000.0
+   "amount": 149380000.0,
+   "over_cap": false
   },
   {
    "code": "032830",
    "name": "삼성생명",
    "weight": 10.11,
    "shares": 519.0,
-   "amount": 149212500.0
+   "amount": 149212500.0,
+   "over_cap": false
   },
   {
    "code": "329180",
    "name": "HD현대중공업",
    "weight": 10.07,
    "shares": 293.0,
-   "amount": 148551000.0
+   "amount": 148551000.0,
+   "over_cap": false
   },
   {
    "code": "005930",
    "name": "삼성전자",
    "weight": 9.9,
    "shares": 634.0,
-   "amount": 146137000.0
+   "amount": 146137000.0,
+   "over_cap": false
   },
   {
    "code": "000660",
    "name": "SK하이닉스",
    "weight": 9.12,
    "shares": 90.0,
-   "amount": 134550000.0
+   "amount": 134550000.0,
+   "over_cap": false
   },
   {
    "code": "009150",
    "name": "삼성전기",
    "weight": 8.75,
    "shares": 105.0,
-   "amount": 129045000.0
+   "amount": 129045000.0,
+   "over_cap": false
   },
   {
    "code": "005380",
    "name": "현대차",
    "weight": 8.62,
    "shares": 318.0,
-   "amount": 127200000.0
+   "amount": 127200000.0,
+   "over_cap": false
   }
- ]
+ ],
+ "breach_summary": null,
+ "cap": {
+  "single_cap": null,
+  "index_exception": false,
+  "label": "동일가중 방식 · 종목 상한 이슈 없음",
+  "source": "FnGuide_TOP10_EW_Index_Methodology_Book_삼성자산운용_v1.0.pdf | '비중이 10%가 되도록 산정'(10종목 동일가중); '3, 6, 9, 12월 선물옵션 만기일(D) 이후 2영업일(D+2)에 정기변경'",
+  "verified": true,
+  "note": "동일가중(±틸팅). 단일종목 비중이 낮아 cap 초과 이슈 없음."
+ }
 }
