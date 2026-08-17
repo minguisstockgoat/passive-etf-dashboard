@@ -3,7 +3,7 @@
  "name": "RISE 코리아밸류업",
  "manager": "RISE",
  "source": "KB RISE",
- "asof": "2026-08-14",
+ "asof": "2026-08-17",
  "total_weight": 100.01,
  "count": 100,
  "holdings": [
@@ -168,19 +168,19 @@
    "over_cap": false
   },
   {
-   "code": "006800",
-   "name": "미래에셋증권",
-   "weight": 0.86,
-   "shares": 365.0,
-   "amount": 13888250.0,
-   "over_cap": false
-  },
-  {
    "code": "267250",
    "name": "HD현대",
    "weight": 0.86,
    "shares": 61.0,
    "amount": 13969000.0,
+   "over_cap": false
+  },
+  {
+   "code": "006800",
+   "name": "미래에셋증권",
+   "weight": 0.86,
+   "shares": 365.0,
+   "amount": 13888250.0,
    "over_cap": false
   },
   {
@@ -256,14 +256,6 @@
    "over_cap": false
   },
   {
-   "code": "011200",
-   "name": "HMM",
-   "weight": 0.55,
-   "shares": 423.0,
-   "amount": 8904150.0,
-   "over_cap": false
-  },
-  {
    "code": "259960",
    "name": "크래프톤",
    "weight": 0.55,
@@ -272,11 +264,19 @@
    "over_cap": false
   },
   {
-   "code": "272210",
-   "name": "한화시스템",
+   "code": "011200",
+   "name": "HMM",
+   "weight": 0.55,
+   "shares": 423.0,
+   "amount": 8904150.0,
+   "over_cap": false
+  },
+  {
+   "code": "016360",
+   "name": "삼성증권",
    "weight": 0.47,
-   "shares": 95.0,
-   "amount": 7562000.0,
+   "shares": 83.0,
+   "amount": 7677500.0,
    "over_cap": false
   },
   {
@@ -288,11 +288,11 @@
    "over_cap": false
   },
   {
-   "code": "016360",
-   "name": "삼성증권",
+   "code": "272210",
+   "name": "한화시스템",
    "weight": 0.47,
-   "shares": 83.0,
-   "amount": 7677500.0,
+   "shares": 95.0,
+   "amount": 7562000.0,
    "over_cap": false
   },
   {
@@ -464,19 +464,19 @@
    "over_cap": false
   },
   {
-   "code": "017800",
-   "name": "현대엘리베이터",
-   "weight": 0.16,
-   "shares": 35.0,
-   "amount": 2516500.0,
-   "over_cap": false
-  },
-  {
    "code": "011780",
    "name": "금호석유화학",
    "weight": 0.16,
    "shares": 20.0,
    "amount": 2578000.0,
+   "over_cap": false
+  },
+  {
+   "code": "017800",
+   "name": "현대엘리베이터",
+   "weight": 0.16,
+   "shares": 35.0,
+   "amount": 2516500.0,
    "over_cap": false
   },
   {
@@ -488,14 +488,6 @@
    "over_cap": false
   },
   {
-   "code": "095610",
-   "name": "테스",
-   "weight": 0.14,
-   "shares": 16.0,
-   "amount": 2320000.0,
-   "over_cap": false
-  },
-  {
    "code": "035250",
    "name": "강원랜드",
    "weight": 0.14,
@@ -504,11 +496,11 @@
    "over_cap": false
   },
   {
-   "code": "005290",
-   "name": "동진쎄미켐",
-   "weight": 0.12,
-   "shares": 46.0,
-   "amount": 1987200.0,
+   "code": "095610",
+   "name": "테스",
+   "weight": 0.14,
+   "shares": 16.0,
+   "amount": 2320000.0,
    "over_cap": false
   },
   {
@@ -520,11 +512,19 @@
    "over_cap": false
   },
   {
-   "code": "282330",
-   "name": "BGF리테일",
+   "code": "005290",
+   "name": "동진쎄미켐",
+   "weight": 0.12,
+   "shares": 46.0,
+   "amount": 1987200.0,
+   "over_cap": false
+  },
+  {
+   "code": "064760",
+   "name": "티씨케이",
    "weight": 0.11,
-   "shares": 12.0,
-   "amount": 1712400.0,
+   "shares": 8.0,
+   "amount": 1816000.0,
    "over_cap": false
   },
   {
@@ -536,19 +536,19 @@
    "over_cap": false
   },
   {
+   "code": "282330",
+   "name": "BGF리테일",
+   "weight": 0.11,
+   "shares": 12.0,
+   "amount": 1712400.0,
+   "over_cap": false
+  },
+  {
    "code": "030000",
    "name": "제일기획",
    "weight": 0.11,
    "shares": 94.0,
    "amount": 1758740.0,
-   "over_cap": false
-  },
-  {
-   "code": "064760",
-   "name": "티씨케이",
-   "weight": 0.11,
-   "shares": 8.0,
-   "amount": 1816000.0,
    "over_cap": false
   },
   {
@@ -584,19 +584,19 @@
    "over_cap": false
   },
   {
-   "code": "051600",
-   "name": "한전KPS",
-   "weight": 0.09,
-   "shares": 30.0,
-   "amount": 1386000.0,
-   "over_cap": false
-  },
-  {
    "code": "035900",
    "name": "JYP Ent.",
    "weight": 0.09,
    "shares": 36.0,
    "amount": 1470600.0,
+   "over_cap": false
+  },
+  {
+   "code": "051600",
+   "name": "한전KPS",
+   "weight": 0.09,
+   "shares": 30.0,
+   "amount": 1386000.0,
    "over_cap": false
   },
   {
@@ -616,19 +616,19 @@
    "over_cap": false
   },
   {
-   "code": "005850",
-   "name": "에스엘",
-   "weight": 0.08,
-   "shares": 21.0,
-   "amount": 1239000.0,
-   "over_cap": false
-  },
-  {
    "code": "383220",
    "name": "F&F",
    "weight": 0.08,
    "shares": 19.0,
    "amount": 1307200.0,
+   "over_cap": false
+  },
+  {
+   "code": "005850",
+   "name": "에스엘",
+   "weight": 0.08,
+   "shares": 21.0,
+   "amount": 1239000.0,
    "over_cap": false
   },
   {
@@ -664,6 +664,14 @@
    "over_cap": false
   },
   {
+   "code": "030190",
+   "name": "NICE평가정보",
+   "weight": 0.04,
+   "shares": 44.0,
+   "amount": 667480.0,
+   "over_cap": false
+  },
+  {
    "code": "018670",
    "name": "SK가스",
    "weight": 0.04,
@@ -680,30 +688,6 @@
    "over_cap": false
   },
   {
-   "code": "030190",
-   "name": "NICE평가정보",
-   "weight": 0.04,
-   "shares": 44.0,
-   "amount": 667480.0,
-   "over_cap": false
-  },
-  {
-   "code": "001060",
-   "name": "JW중외제약",
-   "weight": 0.03,
-   "shares": 16.0,
-   "amount": 456000.0,
-   "over_cap": false
-  },
-  {
-   "code": "005180",
-   "name": "빙그레",
-   "weight": 0.03,
-   "shares": 7.0,
-   "amount": 480900.0,
-   "over_cap": false
-  },
-  {
    "code": "039130",
    "name": "하나투어",
    "weight": 0.03,
@@ -717,6 +701,22 @@
    "weight": 0.03,
    "shares": 10.0,
    "amount": 424000.0,
+   "over_cap": false
+  },
+  {
+   "code": "005180",
+   "name": "빙그레",
+   "weight": 0.03,
+   "shares": 7.0,
+   "amount": 480900.0,
+   "over_cap": false
+  },
+  {
+   "code": "001060",
+   "name": "JW중외제약",
+   "weight": 0.03,
+   "shares": 16.0,
+   "amount": 456000.0,
    "over_cap": false
   },
   {
@@ -760,14 +760,6 @@
    "over_cap": false
   },
   {
-   "code": "079900",
-   "name": "전진건설로봇",
-   "weight": 0.01,
-   "shares": 5.0,
-   "amount": 174000.0,
-   "over_cap": false
-  },
-  {
    "code": "071320",
    "name": "지역난방공사",
    "weight": 0.01,
@@ -776,19 +768,11 @@
    "over_cap": false
   },
   {
-   "code": "002840",
-   "name": "미원상사",
+   "code": "079900",
+   "name": "전진건설로봇",
    "weight": 0.01,
-   "shares": 1.0,
-   "amount": 129500.0,
-   "over_cap": false
-  },
-  {
-   "code": "014820",
-   "name": "동원시스템즈",
-   "weight": 0.01,
-   "shares": 7.0,
-   "amount": 152950.0,
+   "shares": 5.0,
+   "amount": 174000.0,
    "over_cap": false
   },
   {
@@ -806,13 +790,29 @@
    "shares": 10.0,
    "amount": 183200.0,
    "over_cap": false
+  },
+  {
+   "code": "002840",
+   "name": "미원상사",
+   "weight": 0.01,
+   "shares": 1.0,
+   "amount": 129500.0,
+   "over_cap": false
+  },
+  {
+   "code": "014820",
+   "name": "동원시스템즈",
+   "weight": 0.01,
+   "shares": 7.0,
+   "amount": 152950.0,
+   "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 15.0,
   "verified": true,
   "count": 2,
-  "total_sell": 51529781625,
+  "total_sell": 52735950750,
   "items": [
    {
     "code": "000660",
@@ -820,7 +820,7 @@
     "weight": 18.31,
     "cap_pct": 15.0,
     "excess_pp": 3.31,
-    "sell_amount": 31762304875
+    "sell_amount": 32505772250
    },
    {
     "code": "005930",
@@ -828,7 +828,7 @@
     "weight": 17.06,
     "cap_pct": 15.0,
     "excess_pp": 2.06,
-    "sell_amount": 19767476750
+    "sell_amount": 20230178500
    }
   ]
  },

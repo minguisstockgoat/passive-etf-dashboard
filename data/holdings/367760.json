@@ -3,7 +3,7 @@
  "name": "RISE 네트워크인프라",
  "manager": "RISE",
  "source": "KB RISE",
- "asof": "2026-08-14",
+ "asof": "2026-08-17",
  "total_weight": 100.0,
  "count": 24,
  "holdings": [
@@ -160,6 +160,14 @@
    "over_cap": false
   },
   {
+   "code": "KRD010010001",
+   "name": "원화예금",
+   "weight": 0.11,
+   "shares": 3281409.0,
+   "amount": 3281409.0,
+   "over_cap": false
+  },
+  {
    "code": "077500",
    "name": "유니퀘스트",
    "weight": 0.11,
@@ -173,14 +181,6 @@
    "weight": 0.11,
    "shares": 1239.0,
    "amount": 3134670.0,
-   "over_cap": false
-  },
-  {
-   "code": "KRD010010001",
-   "name": "원화예금",
-   "weight": 0.11,
-   "shares": 3281409.0,
-   "amount": 3281409.0,
    "over_cap": false
   },
   {
@@ -204,7 +204,7 @@
   "cap_pct": 20.0,
   "verified": true,
   "count": 2,
-  "total_sell": 30621064500,
+  "total_sell": 31619975400,
   "items": [
    {
     "code": "005930",
@@ -212,7 +212,7 @@
     "weight": 23.08,
     "cap_pct": 20.0,
     "excess_pp": 3.08,
-    "sell_amount": 21099078000
+    "sell_amount": 21787365600
    },
    {
     "code": "009150",
@@ -220,7 +220,7 @@
     "weight": 21.39,
     "cap_pct": 20.0,
     "excess_pp": 1.39,
-    "sell_amount": 9521986500
+    "sell_amount": 9832609800
    }
   ]
  },

@@ -3,112 +3,112 @@
  "name": "HANARO 전력설비투자",
  "manager": "HANARO",
  "source": "NH아문디 HANARO",
- "asof": "2026-08-14",
- "total_weight": 99.32,
+ "asof": "2026-08-17",
+ "total_weight": 99.31,
  "count": 13,
  "holdings": [
   {
-   "code": "010120",
-   "name": "LS ELECTRIC",
-   "weight": 20.99,
-   "shares": 2187.0,
-   "amount": 468018000.0,
+   "code": "298040",
+   "name": "효성중공업",
+   "weight": 20.77,
+   "shares": 155.0,
+   "amount": 457870000.0,
    "over_cap": true
   },
   {
-   "code": "298040",
-   "name": "효성중공업",
-   "weight": 20.97,
-   "shares": 155.0,
-   "amount": 467635000.0,
+   "code": "010120",
+   "name": "LS ELECTRIC",
+   "weight": 20.48,
+   "shares": 2187.0,
+   "amount": 451615500.0,
    "over_cap": true
   },
   {
    "code": "267260",
    "name": "HD현대일렉트릭",
-   "weight": 17.11,
+   "weight": 17.7,
    "shares": 486.0,
-   "amount": 381510000.0,
+   "amount": 390258000.0,
    "over_cap": false
   },
   {
    "code": "006260",
    "name": "LS",
-   "weight": 13.02,
+   "weight": 13.07,
    "shares": 891.0,
-   "amount": 290466000.0,
+   "amount": 288238500.0,
    "over_cap": false
   },
   {
    "code": "001440",
    "name": "대한전선",
-   "weight": 8.11,
+   "weight": 8.16,
    "shares": 6008.0,
-   "amount": 180840800.0,
+   "amount": 179939600.0,
    "over_cap": false
   },
   {
    "code": "062040",
    "name": "산일전기",
-   "weight": 5.87,
+   "weight": 5.76,
    "shares": 696.0,
-   "amount": 130848000.0,
+   "amount": 127020000.0,
    "over_cap": false
   },
   {
    "code": "103590",
    "name": "일진전기",
-   "weight": 4.09,
+   "weight": 4.25,
    "shares": 1260.0,
-   "amount": 91224000.0,
+   "amount": 93618000.0,
    "over_cap": false
   },
   {
    "code": "000500",
    "name": "가온전선",
-   "weight": 2.24,
+   "weight": 2.27,
    "shares": 299.0,
-   "amount": 49933000.0,
+   "amount": 49962900.0,
    "over_cap": false
   },
   {
    "code": "006340",
    "name": "대원전선",
-   "weight": 1.97,
+   "weight": 1.94,
    "shares": 2901.0,
-   "amount": 43834110.0,
-   "over_cap": false
-  },
-  {
-   "code": "033100",
-   "name": "제룡전기",
-   "weight": 1.28,
-   "shares": 569.0,
-   "amount": 28506900.0,
-   "over_cap": false
-  },
-  {
-   "code": "060370",
-   "name": "LS마린솔루션",
-   "weight": 1.27,
-   "shares": 828.0,
-   "amount": 28234800.0,
+   "amount": 42673710.0,
    "over_cap": false
   },
   {
    "code": "229640",
    "name": "LS에코에너지",
-   "weight": 1.26,
+   "weight": 1.28,
    "shares": 583.0,
-   "amount": 28071450.0,
+   "amount": 28158900.0,
+   "over_cap": false
+  },
+  {
+   "code": "033100",
+   "name": "제룡전기",
+   "weight": 1.26,
+   "shares": 569.0,
+   "amount": 27710300.0,
+   "over_cap": false
+  },
+  {
+   "code": "060370",
+   "name": "LS마린솔루션",
+   "weight": 1.22,
+   "shares": 828.0,
+   "amount": 26910000.0,
    "over_cap": false
   },
   {
    "code": "417200",
    "name": "LS머트리얼즈",
-   "weight": 1.14,
+   "weight": 1.15,
    "shares": 2038.0,
-   "amount": 25495380.0,
+   "amount": 25311960.0,
    "over_cap": false
   }
  ],
@@ -116,23 +116,23 @@
   "cap_pct": 20.0,
   "verified": true,
   "count": 2,
-  "total_sell": 3136039200,
+  "total_sell": 1980225000,
   "items": [
-   {
-    "code": "010120",
-    "name": "LS ELECTRIC",
-    "weight": 20.99,
-    "cap_pct": 20.0,
-    "excess_pp": 0.99,
-    "sell_amount": 1584019800
-   },
    {
     "code": "298040",
     "name": "효성중공업",
-    "weight": 20.97,
+    "weight": 20.77,
     "cap_pct": 20.0,
-    "excess_pp": 0.97,
-    "sell_amount": 1552019400
+    "excess_pp": 0.77,
+    "sell_amount": 1219818600
+   },
+   {
+    "code": "010120",
+    "name": "LS ELECTRIC",
+    "weight": 20.48,
+    "cap_pct": 20.0,
+    "excess_pp": 0.48,
+    "sell_amount": 760406400
    }
   ]
  },
