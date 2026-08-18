@@ -3,100 +3,115 @@
  "name": "SOL 반도체전공정",
  "manager": "SOL",
  "source": "신한 SOL",
- "asof": "2026-08-14",
- "total_weight": 99.99,
+ "asof": "2026-08-18",
+ "total_weight": 100.01,
  "count": 11,
  "holdings": [
   {
    "code": "036930",
    "name": "주성엔지니어링",
-   "weight": 20.0,
+   "weight": 20.1,
    "shares": 1206.0,
-   "amount": 216235800.0,
-   "over_cap": false
+   "amount": 214426800.0,
+   "over_cap": true
   },
   {
    "code": "240810",
    "name": "원익IPS",
-   "weight": 16.27,
+   "weight": 16.02,
    "shares": 1466.0,
-   "amount": 175920000.0,
-   "over_cap": false
-  },
-  {
-   "code": "403870",
-   "name": "HPSP",
-   "weight": 11.24,
-   "shares": 2950.0,
-   "amount": 121540000.0,
+   "amount": 170935600.0,
    "over_cap": false
   },
   {
    "code": "319660",
    "name": "피에스케이",
-   "weight": 11.11,
+   "weight": 11.21,
    "shares": 892.0,
-   "amount": 120063200.0,
+   "amount": 119617200.0,
+   "over_cap": false
+  },
+  {
+   "code": "403870",
+   "name": "HPSP",
+   "weight": 11.17,
+   "shares": 2950.0,
+   "amount": 119180000.0,
    "over_cap": false
   },
   {
    "code": "014680",
    "name": "한솔케미칼",
-   "weight": 8.77,
+   "weight": 8.36,
    "shares": 408.0,
-   "amount": 94860000.0,
+   "amount": 89148000.0,
    "over_cap": false
   },
   {
    "code": "084370",
    "name": "유진테크",
-   "weight": 7.89,
+   "weight": 7.77,
    "shares": 632.0,
-   "amount": 85320000.0,
+   "amount": 82855200.0,
    "over_cap": false
   },
   {
    "code": "095610",
    "name": "테스",
-   "weight": 7.04,
+   "weight": 7.26,
    "shares": 525.0,
-   "amount": 76125000.0,
+   "amount": 77437500.0,
    "over_cap": false
   },
   {
    "code": "089970",
    "name": "브이엠",
-   "weight": 6.49,
+   "weight": 6.55,
    "shares": 1025.0,
-   "amount": 70212500.0,
+   "amount": 69905000.0,
    "over_cap": false
   },
   {
    "code": "357780",
    "name": "솔브레인",
-   "weight": 5.86,
+   "weight": 5.82,
    "shares": 193.0,
-   "amount": 63304000.0,
+   "amount": 62146000.0,
    "over_cap": false
   },
   {
    "code": "064760",
    "name": "티씨케이",
-   "weight": 4.85,
+   "weight": 5.28,
    "shares": 231.0,
-   "amount": 52437000.0,
+   "amount": 56364000.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "현금성자산",
    "weight": 0.47,
-   "shares": 5086704.0,
-   "amount": 5086704.0,
+   "shares": 4984376.0,
+   "amount": 4984376.0,
    "over_cap": false
   }
  ],
- "breach_summary": null,
+ "breach_summary": {
+  "cap_pct": 20.0,
+  "verified": true,
+  "count": 1,
+  "total_sell": 310873000,
+  "items": [
+   {
+    "code": "036930",
+    "name": "주성엔지니어링",
+    "weight": 20.1,
+    "cap_pct": 20.0,
+    "excess_pp": 0.1,
+    "sell_amount": 310873000
+   }
+  ]
+ },
  "cap": {
   "single_cap": 0.2,
   "index_exception": false,
