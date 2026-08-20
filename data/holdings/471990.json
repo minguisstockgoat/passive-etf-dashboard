@@ -3,120 +3,120 @@
  "name": "KODEX AI반도체핵심장비",
  "manager": "KODEX",
  "source": "삼성 KODEX",
- "asof": "2026-08-19",
- "total_weight": 99.99,
+ "asof": "2026-08-20",
+ "total_weight": 100.0,
  "count": 18,
  "holdings": [
   {
    "code": "007660",
    "name": "이수페타시스",
-   "weight": 21.28,
+   "weight": 21.85,
    "shares": 2479.0,
-   "amount": 255089100.0,
+   "amount": 258807600.0,
    "over_cap": true
   },
   {
    "code": "042700",
    "name": "한미반도체",
-   "weight": 20.04,
+   "weight": 19.57,
    "shares": 1049.0,
-   "amount": 240221000.0,
-   "over_cap": true
+   "amount": 231829000.0,
+   "over_cap": false
   },
   {
    "code": "036930",
    "name": "주성엔지니어링",
-   "weight": 15.02,
+   "weight": 14.55,
    "shares": 1004.0,
-   "amount": 180017200.0,
+   "amount": 172286400.0,
    "over_cap": false
   },
   {
    "code": "353200",
    "name": "대덕전자",
-   "weight": 11.46,
+   "weight": 11.26,
    "shares": 1168.0,
-   "amount": 137356800.0,
+   "amount": 133385600.0,
    "over_cap": false
   },
   {
    "code": "222800",
    "name": "심텍",
-   "weight": 7.09,
+   "weight": 7.16,
    "shares": 766.0,
-   "amount": 84949400.0,
+   "amount": 84796200.0,
    "over_cap": false
   },
   {
    "code": "039030",
    "name": "이오테크닉스",
-   "weight": 6.77,
+   "weight": 6.87,
    "shares": 196.0,
-   "amount": 81144000.0,
+   "amount": 81340000.0,
    "over_cap": false
   },
   {
    "code": "058470",
    "name": "리노공업",
-   "weight": 6.25,
+   "weight": 6.33,
    "shares": 1105.0,
-   "amount": 74919000.0,
+   "amount": 75029500.0,
    "over_cap": false
   },
   {
    "code": "095340",
    "name": "ISC",
-   "weight": 4.68,
+   "weight": 5.03,
    "shares": 336.0,
-   "amount": 56145600.0,
-   "over_cap": false
-  },
-  {
-   "code": "067310",
-   "name": "하나마이크론",
-   "weight": 1.82,
-   "shares": 556.0,
-   "amount": 21795200.0,
+   "amount": 59572800.0,
    "over_cap": false
   },
   {
    "code": "403870",
    "name": "HPSP",
-   "weight": 1.63,
+   "weight": 1.76,
    "shares": 457.0,
-   "amount": 19491050.0,
+   "amount": 20884900.0,
+   "over_cap": false
+  },
+  {
+   "code": "067310",
+   "name": "하나마이크론",
+   "weight": 1.72,
+   "shares": 556.0,
+   "amount": 20349600.0,
    "over_cap": false
   },
   {
    "code": "031980",
    "name": "피에스케이홀딩스",
-   "weight": 1.03,
+   "weight": 1.05,
    "shares": 111.0,
-   "amount": 12398700.0,
+   "amount": 12454200.0,
    "over_cap": false
   },
   {
    "code": "089970",
    "name": "브이엠",
-   "weight": 0.91,
+   "weight": 0.87,
    "shares": 163.0,
-   "amount": 10872100.0,
+   "amount": 10285300.0,
    "over_cap": false
   },
   {
    "code": "131290",
    "name": "티에스이",
-   "weight": 0.67,
+   "weight": 0.65,
    "shares": 30.0,
-   "amount": 8070000.0,
+   "amount": 7680000.0,
    "over_cap": false
   },
   {
    "code": "131970",
    "name": "두산테스나",
-   "weight": 0.43,
+   "weight": 0.42,
    "shares": 65.0,
-   "amount": 5115500.0,
+   "amount": 4959500.0,
    "over_cap": false
   },
   {
@@ -124,7 +124,7 @@
    "name": "테크윙",
    "weight": 0.4,
    "shares": 98.0,
-   "amount": 4831400.0,
+   "amount": 4787300.0,
    "over_cap": false
   },
   {
@@ -132,7 +132,7 @@
    "name": "파크시스템스",
    "weight": 0.28,
    "shares": 12.0,
-   "amount": 3354000.0,
+   "amount": 3264000.0,
    "over_cap": false
   },
   {
@@ -140,7 +140,7 @@
    "name": "티엘비",
    "weight": 0.18,
    "shares": 62.0,
-   "amount": 2129700.0,
+   "amount": 2098700.0,
    "over_cap": false
   },
   {
@@ -148,31 +148,23 @@
    "name": "SFA반도체",
    "weight": 0.05,
    "shares": 97.0,
-   "amount": 581030.0,
+   "amount": 554840.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 20.0,
   "verified": true,
-  "count": 2,
-  "total_sell": 5173872000,
+  "count": 1,
+  "total_sell": 7204233000,
   "items": [
    {
     "code": "007660",
     "name": "이수페타시스",
-    "weight": 21.28,
+    "weight": 21.85,
     "cap_pct": 20.0,
-    "excess_pp": 1.28,
-    "sell_amount": 5017088000
-   },
-   {
-    "code": "042700",
-    "name": "한미반도체",
-    "weight": 20.04,
-    "cap_pct": 20.0,
-    "excess_pp": 0.04,
-    "sell_amount": 156784000
+    "excess_pp": 1.85,
+    "sell_amount": 7204233000
    }
   ]
  },
