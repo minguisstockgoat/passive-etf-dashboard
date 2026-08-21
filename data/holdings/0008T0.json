@@ -3,72 +3,72 @@
  "name": "SOL 화장품TOP3플러스",
  "manager": "SOL",
  "source": "신한 SOL",
- "asof": "2026-08-19",
+ "asof": "2026-08-21",
  "total_weight": 100.0,
  "count": 11,
  "holdings": [
   {
    "code": "257720",
    "name": "실리콘투",
-   "weight": 21.09,
+   "weight": 20.96,
    "shares": 4152.0,
-   "amount": 184764000.0,
+   "amount": 190784400.0,
    "over_cap": true
   },
   {
    "code": "161890",
    "name": "한국콜마",
-   "weight": 19.73,
+   "weight": 20.18,
    "shares": 1333.0,
-   "amount": 172890100.0,
-   "over_cap": false
+   "amount": 183687400.0,
+   "over_cap": true
   },
   {
    "code": "278470",
    "name": "에이피알",
-   "weight": 17.56,
+   "weight": 16.45,
    "shares": 388.0,
-   "amount": 153842000.0,
+   "amount": 149768000.0,
    "over_cap": false
   },
   {
    "code": "241710",
    "name": "코스메카코리아",
-   "weight": 9.13,
+   "weight": 9.81,
    "shares": 651.0,
-   "amount": 80007900.0,
+   "amount": 89317200.0,
    "over_cap": false
   },
   {
    "code": "192820",
    "name": "코스맥스",
-   "weight": 7.94,
+   "weight": 8.33,
    "shares": 291.0,
-   "amount": 69549000.0,
+   "amount": 75805500.0,
    "over_cap": false
   },
   {
    "code": "051900",
    "name": "LG생활건강",
-   "weight": 6.98,
+   "weight": 6.82,
    "shares": 204.0,
-   "amount": 61200000.0,
+   "amount": 62118000.0,
    "over_cap": false
   },
   {
    "code": "090430",
    "name": "아모레퍼시픽",
-   "weight": 6.35,
+   "weight": 6.32,
    "shares": 421.0,
-   "amount": 55656200.0,
+   "amount": 57508600.0,
    "over_cap": false
   },
   {
    "code": "483650",
    "name": "달바글로벌",
-   "weight": 6.05,
+   "weight": 5.96,
    "shares": 241.0,
-   "amount": 53020000.0,
+   "amount": 54225000.0,
    "over_cap": false
   },
   {
@@ -76,7 +76,7 @@
    "name": "펌텍코리아",
    "weight": 3.09,
    "shares": 492.0,
-   "amount": 27060000.0,
+   "amount": 28093200.0,
    "over_cap": false
   },
   {
@@ -84,31 +84,39 @@
    "name": "제닉",
    "weight": 1.83,
    "shares": 562.0,
-   "amount": 16017000.0,
+   "amount": 16663300.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "현금성자산",
    "weight": 0.25,
-   "shares": 2231356.0,
-   "amount": 2231356.0,
+   "shares": 2254384.0,
+   "amount": 2254384.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 20.0,
   "verified": true,
-  "count": 1,
-  "total_sell": 931470400,
+  "count": 2,
+  "total_sell": 1020282900,
   "items": [
    {
     "code": "257720",
     "name": "실리콘투",
-    "weight": 21.09,
+    "weight": 20.96,
     "cap_pct": 20.0,
-    "excess_pp": 1.09,
-    "sell_amount": 931470400
+    "excess_pp": 0.96,
+    "sell_amount": 859185600
+   },
+   {
+    "code": "161890",
+    "name": "한국콜마",
+    "weight": 20.18,
+    "cap_pct": 20.0,
+    "excess_pp": 0.18,
+    "sell_amount": 161097300
    }
   ]
  },
