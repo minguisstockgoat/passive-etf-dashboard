@@ -3,30 +3,30 @@
  "name": "ACE K반도체TOP2+",
  "manager": "ACE",
  "source": "한국투자 ACE",
- "asof": "2026-08-21",
- "total_weight": 100.0,
+ "asof": "2026-08-24",
+ "total_weight": 99.98,
  "count": 10,
  "holdings": [
   {
    "code": "005930",
    "name": "삼성전자",
-   "weight": 23.87,
+   "weight": 25.14,
    "shares": 319.0,
-   "amount": 86449000.0,
-   "over_cap": false
+   "amount": 89798500.0,
+   "over_cap": true
   },
   {
    "code": "000660",
    "name": "SK하이닉스",
-   "weight": 22.87,
+   "weight": 23.74,
    "shares": 49.0,
-   "amount": 82859000.0,
+   "amount": 84770000.0,
    "over_cap": false
   },
   {
    "code": "402340",
    "name": "SK스퀘어",
-   "weight": 20.77,
+   "weight": 21.07,
    "shares": 67.0,
    "amount": 75241000.0,
    "over_cap": false
@@ -34,61 +34,76 @@
   {
    "code": "009150",
    "name": "삼성전기",
-   "weight": 17.73,
+   "weight": 16.95,
    "shares": 46.0,
-   "amount": 64216000.0,
+   "amount": 60536000.0,
    "over_cap": false
   },
   {
    "code": "222800",
    "name": "심텍",
-   "weight": 5.74,
+   "weight": 5.04,
    "shares": 181.0,
-   "amount": 20796900.0,
+   "amount": 18045700.0,
    "over_cap": false
   },
   {
    "code": "420770",
    "name": "기가비스",
-   "weight": 5.71,
+   "weight": 5.0,
    "shares": 170.0,
-   "amount": 20672000.0,
+   "amount": 17901000.0,
    "over_cap": false
   },
   {
    "code": "323280",
    "name": "태성",
-   "weight": 1.15,
+   "weight": 1.06,
    "shares": 79.0,
-   "amount": 4194900.0,
+   "amount": 3827550.0,
    "over_cap": false
   },
   {
    "code": "195870",
    "name": "해성디에스",
-   "weight": 0.78,
+   "weight": 0.74,
    "shares": 51.0,
-   "amount": 2856000.0,
+   "amount": 2657100.0,
    "over_cap": false
   },
   {
    "code": "356860",
    "name": "티엘비",
-   "weight": 0.74,
+   "weight": 0.67,
    "shares": 78.0,
-   "amount": 2698800.0,
+   "amount": 2425800.0,
    "over_cap": false
   },
   {
    "code": "007810",
    "name": "코리아써키트",
-   "weight": 0.64,
+   "weight": 0.57,
    "shares": 38.0,
-   "amount": 2340800.0,
+   "amount": 2074800.0,
    "over_cap": false
   }
  ],
- "breach_summary": null,
+ "breach_summary": {
+  "cap_pct": 25.0,
+  "verified": true,
+  "count": 1,
+  "total_sell": 437131100,
+  "items": [
+   {
+    "code": "005930",
+    "name": "삼성전자",
+    "weight": 25.14,
+    "cap_pct": 25.0,
+    "excess_pp": 0.14,
+    "sell_amount": 437131100
+   }
+  ]
+ },
  "cap": {
   "single_cap": 0.25,
   "index_exception": false,

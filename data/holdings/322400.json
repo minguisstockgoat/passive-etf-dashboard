@@ -3,136 +3,136 @@
  "name": "HANARO e커머스",
  "manager": "HANARO",
  "source": "NH아문디 HANARO",
- "asof": "2026-08-21",
- "total_weight": 99.7,
+ "asof": "2026-08-24",
+ "total_weight": 99.72,
  "count": 16,
  "holdings": [
   {
-   "code": "035720",
-   "name": "카카오",
-   "weight": 21.8,
-   "shares": 2958.0,
-   "amount": 114474600.0,
+   "code": "035420",
+   "name": "NAVER",
+   "weight": 20.9,
+   "shares": 486.0,
+   "amount": 107892000.0,
    "over_cap": true
   },
   {
-   "code": "035420",
-   "name": "NAVER",
-   "weight": 20.31,
-   "shares": 486.0,
-   "amount": 106677000.0,
+   "code": "035720",
+   "name": "카카오",
+   "weight": 20.52,
+   "shares": 2958.0,
+   "amount": 105896400.0,
    "over_cap": true
   },
   {
    "code": "257720",
    "name": "실리콘투",
-   "weight": 9.48,
+   "weight": 10.0,
    "shares": 1083.0,
-   "amount": 49763850.0,
+   "amount": 51604950.0,
    "over_cap": false
   },
   {
    "code": "377300",
    "name": "카카오페이",
-   "weight": 9.39,
+   "weight": 9.03,
    "shares": 1097.0,
-   "amount": 49310150.0,
+   "amount": 46622500.0,
    "over_cap": false
   },
   {
    "code": "139480",
    "name": "이마트",
-   "weight": 8.12,
+   "weight": 8.19,
    "shares": 588.0,
-   "amount": 42630000.0,
+   "amount": 42277200.0,
    "over_cap": false
   },
   {
    "code": "030000",
    "name": "제일기획",
-   "weight": 7.3,
+   "weight": 7.47,
    "shares": 2039.0,
-   "amount": 38333200.0,
+   "amount": 38537100.0,
    "over_cap": false
   },
   {
    "code": "069960",
    "name": "현대백화점",
-   "weight": 6.64,
+   "weight": 6.68,
    "shares": 369.0,
-   "amount": 34870500.0,
+   "amount": 34464600.0,
    "over_cap": false
   },
   {
    "code": "000120",
    "name": "CJ대한통운",
-   "weight": 4.51,
+   "weight": 4.58,
    "shares": 322.0,
-   "amount": 23667000.0,
+   "amount": 23634800.0,
    "over_cap": false
   },
   {
    "code": "093320",
    "name": "케이아이엔엑스",
-   "weight": 2.4,
+   "weight": 2.51,
    "shares": 88.0,
-   "amount": 12601600.0,
+   "amount": 12962400.0,
    "over_cap": false
   },
   {
    "code": "064260",
    "name": "다날",
-   "weight": 1.85,
+   "weight": 1.9,
    "shares": 1908.0,
-   "amount": 9711720.0,
-   "over_cap": false
-  },
-  {
-   "code": "060250",
-   "name": "NHN KCP",
-   "weight": 1.8,
-   "shares": 639.0,
-   "amount": 9431640.0,
+   "amount": 9788040.0,
    "over_cap": false
   },
   {
    "code": "067160",
    "name": "SOOP",
-   "weight": 1.74,
+   "weight": 1.77,
    "shares": 242.0,
-   "amount": 9123400.0,
+   "amount": 9111300.0,
+   "over_cap": false
+  },
+  {
+   "code": "060250",
+   "name": "NHN KCP",
+   "weight": 1.76,
+   "shares": 639.0,
+   "amount": 9061020.0,
    "over_cap": false
   },
   {
    "code": "042000",
    "name": "카페24",
-   "weight": 1.71,
+   "weight": 1.68,
    "shares": 530.0,
-   "amount": 8957000.0,
+   "amount": 8654900.0,
    "over_cap": false
   },
   {
    "code": "376300",
    "name": "디어유",
-   "weight": 1.25,
+   "weight": 1.23,
    "shares": 349.0,
-   "amount": 6568180.0,
+   "amount": 6341330.0,
    "over_cap": false
   },
   {
    "code": "035600",
    "name": "KG이니시스",
-   "weight": 0.85,
+   "weight": 0.87,
    "shares": 447.0,
-   "amount": 4487880.0,
+   "amount": 4470000.0,
    "over_cap": false
   },
   {
    "code": "094480",
    "name": "갤럭시아머니트리",
-   "weight": 0.55,
+   "weight": 0.63,
    "shares": 530.0,
-   "amount": 2899100.0,
+   "amount": 3264800.0,
    "over_cap": false
   }
  ],
@@ -140,23 +140,23 @@
   "cap_pct": 20.0,
   "verified": true,
   "count": 2,
-  "total_sell": 745019900,
+  "total_sell": 490208850,
   "items": [
-   {
-    "code": "035720",
-    "name": "카카오",
-    "weight": 21.8,
-    "cap_pct": 20.0,
-    "excess_pp": 1.8,
-    "sell_amount": 635562000
-   },
    {
     "code": "035420",
     "name": "NAVER",
-    "weight": 20.31,
+    "weight": 20.9,
     "cap_pct": 20.0,
-    "excess_pp": 0.31,
-    "sell_amount": 109457900
+    "excess_pp": 0.9,
+    "sell_amount": 310695750
+   },
+   {
+    "code": "035720",
+    "name": "카카오",
+    "weight": 20.52,
+    "cap_pct": 20.0,
+    "excess_pp": 0.52,
+    "sell_amount": 179513100
    }
   ]
  },

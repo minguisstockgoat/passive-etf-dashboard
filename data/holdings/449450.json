@@ -3,14 +3,14 @@
  "name": "PLUS K방산",
  "manager": "PLUS",
  "source": "한화 PLUS",
- "asof": "2026-08-21",
- "total_weight": 99.86,
+ "asof": "2026-08-24",
+ "total_weight": 99.84,
  "count": 10,
  "holdings": [
   {
    "code": "012450",
    "name": "한화에어로스페이스",
-   "weight": 24.7525,
+   "weight": 24.594,
    "shares": 237.0,
    "amount": 0.0,
    "over_cap": true
@@ -18,31 +18,31 @@
   {
    "code": "042660",
    "name": "한화오션",
-   "weight": 18.1772,
+   "weight": 18.4819,
    "shares": 2295.0,
-   "amount": 0.0,
-   "over_cap": false
-  },
-  {
-   "code": "079550",
-   "name": "LIG디펜스앤에어로스페이스",
-   "weight": 16.0587,
-   "shares": 228.0,
    "amount": 0.0,
    "over_cap": false
   },
   {
    "code": "064350",
    "name": "현대로템",
-   "weight": 15.0046,
+   "weight": 15.2055,
    "shares": 1222.0,
+   "amount": 0.0,
+   "over_cap": false
+  },
+  {
+   "code": "079550",
+   "name": "LIG디펜스앤에어로스페이스",
+   "weight": 15.1555,
+   "shares": 228.0,
    "amount": 0.0,
    "over_cap": false
   },
   {
    "code": "047810",
    "name": "한국항공우주",
-   "weight": 14.3575,
+   "weight": 14.8083,
    "shares": 1191.0,
    "amount": 0.0,
    "over_cap": false
@@ -50,7 +50,7 @@
   {
    "code": "272210",
    "name": "한화시스템",
-   "weight": 8.2081,
+   "weight": 8.1894,
    "shares": 1218.0,
    "amount": 0.0,
    "over_cap": false
@@ -58,7 +58,7 @@
   {
    "code": "103140",
    "name": "풍산",
-   "weight": 2.0857,
+   "weight": 2.1951,
    "shares": 295.0,
    "amount": 0.0,
    "over_cap": false
@@ -66,7 +66,7 @@
   {
    "code": "077970",
    "name": "STX엔진",
-   "weight": 0.5818,
+   "weight": 0.5809,
    "shares": 259.0,
    "amount": 0.0,
    "over_cap": false
@@ -74,7 +74,7 @@
   {
    "code": "003570",
    "name": "SNT다이내믹스",
-   "weight": 0.4587,
+   "weight": 0.4612,
    "shares": 164.0,
    "amount": 0.0,
    "over_cap": false
@@ -82,7 +82,7 @@
   {
    "code": "484870",
    "name": "엠앤씨솔루션",
-   "weight": 0.1728,
+   "weight": 0.1694,
    "shares": 117.0,
    "amount": 0.0,
    "over_cap": false
@@ -92,15 +92,15 @@
   "cap_pct": 20.0,
   "verified": true,
   "count": 1,
-  "total_sell": 51989383425,
+  "total_sell": 46845789792,
   "items": [
    {
     "code": "012450",
     "name": "한화에어로스페이스",
-    "weight": 24.753,
+    "weight": 24.594,
     "cap_pct": 20.0,
-    "excess_pp": 4.753,
-    "sell_amount": 51989383425
+    "excess_pp": 4.594,
+    "sell_amount": 46845789792
    }
   ]
  },
