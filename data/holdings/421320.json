@@ -3,14 +3,14 @@
  "name": "PLUS 우주항공",
  "manager": "PLUS",
  "source": "한화 PLUS",
- "asof": "2026-08-24",
+ "asof": "2026-08-25",
  "total_weight": 99.91,
  "count": 15,
  "holdings": [
   {
    "code": "047810",
    "name": "한국항공우주",
-   "weight": 13.7948,
+   "weight": 13.7181,
    "shares": 1415.0,
    "amount": 0.0,
    "over_cap": true
@@ -18,7 +18,7 @@
   {
    "code": "012450",
    "name": "한화에어로스페이스",
-   "weight": 13.5069,
+   "weight": 13.6061,
    "shares": 166.0,
    "amount": 0.0,
    "over_cap": true
@@ -26,7 +26,7 @@
   {
    "code": "079550",
    "name": "LIG디펜스앤에어로스페이스",
-   "weight": 12.6651,
+   "weight": 12.9238,
    "shares": 243.0,
    "amount": 0.0,
    "over_cap": true
@@ -34,7 +34,7 @@
   {
    "code": "272210",
    "name": "한화시스템",
-   "weight": 10.5017,
+   "weight": 10.3579,
    "shares": 1992.0,
    "amount": 0.0,
    "over_cap": true
@@ -42,15 +42,15 @@
   {
    "code": "347700",
    "name": "스피어",
-   "weight": 10.1944,
+   "weight": 9.9115,
    "shares": 5797.0,
    "amount": 0.0,
-   "over_cap": true
+   "over_cap": false
   },
   {
    "code": "189300",
    "name": "인텔리안테크",
-   "weight": 8.085,
+   "weight": 8.3148,
    "shares": 1714.0,
    "amount": 0.0,
    "over_cap": false
@@ -58,7 +58,7 @@
   {
    "code": "295310",
    "name": "에이치브이엠",
-   "weight": 7.5575,
+   "weight": 7.5003,
    "shares": 2252.0,
    "amount": 0.0,
    "over_cap": false
@@ -66,7 +66,7 @@
   {
    "code": "099320",
    "name": "쎄트렉아이",
-   "weight": 6.8491,
+   "weight": 6.9405,
    "shares": 1316.0,
    "amount": 0.0,
    "over_cap": false
@@ -74,7 +74,7 @@
   {
    "code": "368770",
    "name": "파이버프로",
-   "weight": 5.7253,
+   "weight": 5.7487,
    "shares": 5775.0,
    "amount": 0.0,
    "over_cap": false
@@ -82,7 +82,7 @@
   {
    "code": "462350",
    "name": "이노스페이스",
-   "weight": 3.161,
+   "weight": 3.0579,
    "shares": 7120.0,
    "amount": 0.0,
    "over_cap": false
@@ -90,7 +90,7 @@
   {
    "code": "274090",
    "name": "켄코아에어로스페이스",
-   "weight": 2.1405,
+   "weight": 2.1022,
    "shares": 2886.0,
    "amount": 0.0,
    "over_cap": false
@@ -98,7 +98,7 @@
   {
    "code": "211270",
    "name": "AP위성",
-   "weight": 1.7366,
+   "weight": 1.7561,
    "shares": 3043.0,
    "amount": 0.0,
    "over_cap": false
@@ -106,7 +106,7 @@
   {
    "code": "451760",
    "name": "컨텍",
-   "weight": 1.594,
+   "weight": 1.5744,
    "shares": 3054.0,
    "amount": 0.0,
    "over_cap": false
@@ -114,7 +114,7 @@
   {
    "code": "361390",
    "name": "제노코",
-   "weight": 1.1998,
+   "weight": 1.2092,
    "shares": 1371.0,
    "amount": 0.0,
    "over_cap": false
@@ -122,7 +122,7 @@
   {
    "code": "474170",
    "name": "루미르",
-   "weight": 1.1981,
+   "weight": 1.185,
    "shares": 2619.0,
    "amount": 0.0,
    "over_cap": false
@@ -131,48 +131,40 @@
  "breach_summary": {
   "cap_pct": 10.0,
   "verified": true,
-  "count": 5,
-  "total_sell": 26448371913,
+  "count": 4,
+  "total_sell": 26336421475,
   "items": [
    {
     "code": "047810",
     "name": "한국항공우주",
-    "weight": 13.795,
+    "weight": 13.718,
     "cap_pct": 10.0,
-    "excess_pp": 3.795,
-    "sell_amount": 9413070562
+    "excess_pp": 3.718,
+    "sell_amount": 9232398175
    },
    {
     "code": "012450",
     "name": "한화에어로스페이스",
-    "weight": 13.507,
+    "weight": 13.606,
     "cap_pct": 10.0,
-    "excess_pp": 3.507,
-    "sell_amount": 8698718963
+    "excess_pp": 3.606,
+    "sell_amount": 8954283975
    },
    {
     "code": "079550",
     "name": "LIG디펜스앤에어로스페이스",
-    "weight": 12.665,
+    "weight": 12.924,
     "cap_pct": 10.0,
-    "excess_pp": 2.665,
-    "sell_amount": 6610232688
+    "excess_pp": 2.924,
+    "sell_amount": 7260767150
    },
    {
     "code": "272210",
     "name": "한화시스템",
-    "weight": 10.502,
+    "weight": 10.358,
     "cap_pct": 10.0,
-    "excess_pp": 0.502,
-    "sell_amount": 1245154525
-   },
-   {
-    "code": "347700",
-    "name": "스피어",
-    "weight": 10.194,
-    "cap_pct": 10.0,
-    "excess_pp": 0.194,
-    "sell_amount": 481195175
+    "excess_pp": 0.358,
+    "sell_amount": 888972175
    }
   ]
  },
