@@ -3,32 +3,32 @@
  "name": "SOL 조선TOP3플러스",
  "manager": "SOL",
  "source": "신한 SOL",
- "asof": "2026-08-25",
- "total_weight": 99.98,
+ "asof": "2026-08-26",
+ "total_weight": 100.01,
  "count": 14,
  "holdings": [
   {
    "code": "042660",
    "name": "한화오션",
-   "weight": 24.72,
+   "weight": 25.04,
    "shares": 4032.0,
-   "amount": 336268800.0,
-   "over_cap": false
+   "amount": 349171200.0,
+   "over_cap": true
   },
   {
    "code": "010140",
    "name": "삼성중공업",
-   "weight": 24.68,
+   "weight": 24.49,
    "shares": 16702.0,
-   "amount": 335710200.0,
+   "amount": 341555900.0,
    "over_cap": false
   },
   {
    "code": "329180",
    "name": "HD현대중공업",
-   "weight": 24.51,
+   "weight": 24.38,
    "shares": 732.0,
-   "amount": 333426000.0,
+   "amount": 340014000.0,
    "over_cap": false
   },
   {
@@ -36,47 +36,47 @@
    "name": "HD한국조선해양",
    "weight": 15.23,
    "shares": 586.0,
-   "amount": 207151000.0,
+   "amount": 212425000.0,
    "over_cap": false
   },
   {
    "code": "443060",
    "name": "HD현대마린솔루션",
-   "weight": 3.8,
+   "weight": 3.73,
    "shares": 250.0,
-   "amount": 51625000.0,
+   "amount": 52000000.0,
    "over_cap": false
   },
   {
    "code": "082740",
    "name": "한화엔진",
-   "weight": 2.35,
+   "weight": 2.43,
    "shares": 713.0,
-   "amount": 32013700.0,
+   "amount": 33831850.0,
    "over_cap": false
   },
   {
    "code": "071970",
    "name": "HD현대마린엔진",
-   "weight": 1.05,
+   "weight": 1.06,
    "shares": 285.0,
-   "amount": 14278500.0,
+   "amount": 14848500.0,
    "over_cap": false
   },
   {
    "code": "439260",
    "name": "대한조선",
-   "weight": 0.9,
+   "weight": 0.89,
    "shares": 251.0,
-   "amount": 12211150.0,
+   "amount": 12386850.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "현금성자산",
-   "weight": 0.86,
-   "shares": 11727470.0,
-   "amount": 11727470.0,
+   "weight": 0.84,
+   "shares": 11713254.0,
+   "amount": 11713254.0,
    "over_cap": false
   },
   {
@@ -84,15 +84,15 @@
    "name": "한국카본",
    "weight": 0.68,
    "shares": 408.0,
-   "amount": 9282000.0,
+   "amount": 9445200.0,
    "over_cap": false
   },
   {
    "code": "014620",
    "name": "성광벤드",
-   "weight": 0.39,
+   "weight": 0.41,
    "shares": 220.0,
-   "amount": 5324000.0,
+   "amount": 5764000.0,
    "over_cap": false
   },
   {
@@ -100,27 +100,42 @@
    "name": "STX엔진",
    "weight": 0.34,
    "shares": 197.0,
-   "amount": 4609800.0,
+   "amount": 4767400.0,
    "over_cap": false
   },
   {
    "code": "023160",
    "name": "태광",
-   "weight": 0.27,
+   "weight": 0.28,
    "shares": 174.0,
-   "amount": 3723600.0,
+   "amount": 3888900.0,
    "over_cap": false
   },
   {
    "code": "075580",
    "name": "세진중공업",
-   "weight": 0.2,
+   "weight": 0.21,
    "shares": 272.0,
-   "amount": 2749920.0,
+   "amount": 2869600.0,
    "over_cap": false
   }
  ],
- "breach_summary": null,
+ "breach_summary": {
+  "cap_pct": 25.0,
+  "verified": true,
+  "count": 1,
+  "total_sell": 592197300,
+  "items": [
+   {
+    "code": "042660",
+    "name": "한화오션",
+    "weight": 25.04,
+    "cap_pct": 25.0,
+    "excess_pp": 0.04,
+    "sell_amount": 592197300
+   }
+  ]
+ },
  "cap": {
   "single_cap": 0.25,
   "index_exception": false,
