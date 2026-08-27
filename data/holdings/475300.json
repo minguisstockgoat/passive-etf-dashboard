@@ -3,30 +3,30 @@
  "name": "SOL 반도체전공정",
  "manager": "SOL",
  "source": "신한 SOL",
- "asof": "2026-08-26",
- "total_weight": 100.0,
+ "asof": "2026-08-27",
+ "total_weight": 99.99,
  "count": 11,
  "holdings": [
   {
    "code": "036930",
    "name": "주성엔지니어링",
-   "weight": 20.15,
+   "weight": 19.88,
    "shares": 1206.0,
-   "amount": 215632800.0,
-   "over_cap": true
+   "amount": 209120400.0,
+   "over_cap": false
   },
   {
    "code": "240810",
    "name": "원익IPS",
-   "weight": 15.39,
+   "weight": 15.23,
    "shares": 1466.0,
-   "amount": 164631800.0,
+   "amount": 160233800.0,
    "over_cap": false
   },
   {
    "code": "403870",
    "name": "HPSP",
-   "weight": 13.37,
+   "weight": 13.6,
    "shares": 2950.0,
    "amount": 143075000.0,
    "over_cap": false
@@ -34,84 +34,69 @@
   {
    "code": "319660",
    "name": "피에스케이",
-   "weight": 10.83,
+   "weight": 10.98,
    "shares": 892.0,
-   "amount": 115870800.0,
+   "amount": 115514000.0,
    "over_cap": false
   },
   {
    "code": "084370",
    "name": "유진테크",
-   "weight": 8.16,
+   "weight": 8.06,
    "shares": 632.0,
-   "amount": 87342400.0,
+   "amount": 84751200.0,
    "over_cap": false
   },
   {
    "code": "014680",
    "name": "한솔케미칼",
-   "weight": 7.82,
+   "weight": 7.85,
    "shares": 408.0,
-   "amount": 83640000.0,
+   "amount": 82620000.0,
    "over_cap": false
   },
   {
    "code": "095610",
    "name": "테스",
-   "weight": 6.82,
+   "weight": 6.89,
    "shares": 525.0,
-   "amount": 72975000.0,
+   "amount": 72502500.0,
    "over_cap": false
   },
   {
    "code": "357780",
    "name": "솔브레인",
-   "weight": 6.03,
+   "weight": 6.06,
    "shares": 193.0,
-   "amount": 64462000.0,
+   "amount": 63690000.0,
    "over_cap": false
   },
   {
    "code": "089970",
    "name": "브이엠",
-   "weight": 5.76,
+   "weight": 5.74,
    "shares": 1025.0,
-   "amount": 61602500.0,
+   "amount": 60372500.0,
    "over_cap": false
   },
   {
    "code": "064760",
    "name": "티씨케이",
-   "weight": 5.21,
+   "weight": 5.24,
    "shares": 231.0,
-   "amount": 55786500.0,
+   "amount": 55093500.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "현금성자산",
    "weight": 0.46,
-   "shares": 4884885.0,
-   "amount": 4884885.0,
+   "shares": 4865382.0,
+   "amount": 4865382.0,
    "over_cap": false
   }
  ],
- "breach_summary": {
-  "cap_pct": 20.0,
-  "verified": true,
-  "count": 1,
-  "total_sell": 438779250,
-  "items": [
-   {
-    "code": "036930",
-    "name": "주성엔지니어링",
-    "weight": 20.15,
-    "cap_pct": 20.0,
-    "excess_pp": 0.15,
-    "sell_amount": 438779250
-   }
-  ]
- },
+ "breach_summary": null,
  "cap": {
   "single_cap": 0.2,
   "index_exception": false,
