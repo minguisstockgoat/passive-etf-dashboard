@@ -3,7 +3,7 @@
  "name": "RISE 2차전지TOP10",
  "manager": "RISE",
  "source": "KB RISE",
- "asof": "2026-08-28",
+ "asof": "2026-08-29",
  "total_weight": 99.99,
  "count": 11,
  "holdings": [
@@ -12,95 +12,95 @@
    "name": "LG에너지솔루션",
    "weight": 17.94,
    "shares": 140.0,
-   "amount": 49140000.0,
+   "amount": 51870000.0,
    "over_cap": true
   },
   {
    "code": "006400",
    "name": "삼성SDI",
-   "weight": 16.02,
+   "weight": 16.73,
    "shares": 85.0,
-   "amount": 43860000.0,
+   "amount": 48365000.0,
    "over_cap": true
   },
   {
    "code": "005490",
    "name": "POSCO홀딩스",
-   "weight": 15.21,
+   "weight": 14.91,
    "shares": 127.0,
-   "amount": 41656000.0,
-   "over_cap": true
-  },
-  {
-   "code": "096770",
-   "name": "SK이노베이션",
-   "weight": 11.82,
-   "shares": 291.0,
-   "amount": 32359200.0,
+   "amount": 43116500.0,
    "over_cap": false
   },
   {
    "code": "086520",
    "name": "에코프로",
-   "weight": 11.66,
+   "weight": 11.68,
    "shares": 367.0,
-   "amount": 31929000.0,
+   "amount": 33764000.0,
+   "over_cap": false
+  },
+  {
+   "code": "096770",
+   "name": "SK이노베이션",
+   "weight": 11.27,
+   "shares": 291.0,
+   "amount": 32592000.0,
    "over_cap": false
   },
   {
    "code": "003670",
    "name": "포스코퓨처엠",
-   "weight": 8.19,
+   "weight": 8.46,
    "shares": 133.0,
-   "amount": 22437100.0,
+   "amount": 24472000.0,
    "over_cap": false
   },
   {
    "code": "247540",
    "name": "에코프로비엠",
-   "weight": 8.02,
+   "weight": 8.04,
    "shares": 197.0,
-   "amount": 21965500.0,
+   "amount": 23246000.0,
    "over_cap": false
   },
   {
    "code": "066970",
    "name": "엘앤에프",
-   "weight": 4.77,
+   "weight": 4.8,
    "shares": 107.0,
-   "amount": 13075400.0,
+   "amount": 13888600.0,
    "over_cap": false
   },
   {
    "code": "011790",
    "name": "SKC",
-   "weight": 3.0,
+   "weight": 2.9,
    "shares": 93.0,
-   "amount": 8211900.0,
+   "amount": 8379300.0,
    "over_cap": false
   },
   {
    "code": "450080",
    "name": "에코프로머티",
-   "weight": 1.94,
+   "weight": 1.91,
    "shares": 143.0,
-   "amount": 5319600.0,
+   "amount": 5526950.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "원화예금",
-   "weight": 1.42,
-   "shares": 3891870.0,
-   "amount": 3891870.0,
+   "weight": 1.35,
+   "shares": 3911387.0,
+   "amount": 3911387.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 15.0,
   "verified": true,
-  "count": 3,
-  "total_sell": 2709149962,
+  "count": 2,
+  "total_sell": 3204157050,
   "items": [
    {
     "code": "373220",
@@ -108,23 +108,15 @@
     "weight": 17.94,
     "cap_pct": 15.0,
     "excess_pp": 2.94,
-    "sell_amount": 1910048175
+    "sell_amount": 2017178100
    },
    {
     "code": "006400",
     "name": "삼성SDI",
-    "weight": 16.02,
+    "weight": 16.73,
     "cap_pct": 15.0,
-    "excess_pp": 1.02,
-    "sell_amount": 662669775
-   },
-   {
-    "code": "005490",
-    "name": "POSCO홀딩스",
-    "weight": 15.21,
-    "cap_pct": 15.0,
-    "excess_pp": 0.21,
-    "sell_amount": 136432012
+    "excess_pp": 1.73,
+    "sell_amount": 1186978950
    }
   ]
  },

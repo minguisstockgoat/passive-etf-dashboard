@@ -3,56 +3,56 @@
  "name": "ACE KPOP포커스",
  "manager": "ACE",
  "source": "한국투자 ACE",
- "asof": "2026-08-27",
+ "asof": "2026-08-28",
  "total_weight": 99.99,
  "count": 10,
  "holdings": [
   {
    "code": "041510",
    "name": "에스엠",
-   "weight": 26.16,
+   "weight": 25.71,
    "shares": 1166.0,
-   "amount": 89782000.0,
+   "amount": 86983600.0,
    "over_cap": true
   },
   {
    "code": "352820",
    "name": "하이브",
-   "weight": 24.78,
+   "weight": 25.06,
    "shares": 475.0,
-   "amount": 85072500.0,
-   "over_cap": false
+   "amount": 84787500.0,
+   "over_cap": true
   },
   {
    "code": "035900",
    "name": "JYP Ent.",
-   "weight": 22.01,
+   "weight": 22.16,
    "shares": 1886.0,
-   "amount": 75534300.0,
+   "amount": 74968500.0,
    "over_cap": false
   },
   {
    "code": "122870",
    "name": "와이지엔터테인먼트",
-   "weight": 22.01,
+   "weight": 21.92,
    "shares": 1861.0,
-   "amount": 75556600.0,
-   "over_cap": false
-  },
-  {
-   "code": "035760",
-   "name": "CJ ENM",
-   "weight": 0.88,
-   "shares": 91.0,
-   "amount": 3043950.0,
+   "amount": 74160850.0,
    "over_cap": false
   },
   {
    "code": "182360",
    "name": "큐브엔터",
-   "weight": 0.88,
+   "weight": 0.91,
    "shares": 544.0,
-   "amount": 3030080.0,
+   "amount": 3084480.0,
+   "over_cap": false
+  },
+  {
+   "code": "035760",
+   "name": "CJ ENM",
+   "weight": 0.87,
+   "shares": 91.0,
+   "amount": 2971150.0,
    "over_cap": false
   },
   {
@@ -60,47 +60,55 @@
    "name": "YG PLUS",
    "weight": 0.87,
    "shares": 926.0,
-   "amount": 3014130.0,
-   "over_cap": false
-  },
-  {
-   "code": "473980",
-   "name": "노머스",
-   "weight": 0.81,
-   "shares": 239.0,
-   "amount": 2817810.0,
+   "amount": 2953940.0,
    "over_cap": false
   },
   {
    "code": "060570",
    "name": "드림어스컴퍼니",
-   "weight": 0.8,
+   "weight": 0.86,
    "shares": 819.0,
-   "amount": 2764125.0,
+   "amount": 2944305.0,
+   "over_cap": false
+  },
+  {
+   "code": "473980",
+   "name": "노머스",
+   "weight": 0.83,
+   "shares": 239.0,
+   "amount": 2815420.0,
    "over_cap": false
   },
   {
    "code": "376300",
    "name": "디어유",
-   "weight": 0.79,
+   "weight": 0.8,
    "shares": 146.0,
-   "amount": 2719980.0,
+   "amount": 2743340.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 25.0,
   "verified": true,
-  "count": 1,
-  "total_sell": 1152387500,
+  "count": 2,
+  "total_sell": 751038750,
   "items": [
    {
     "code": "041510",
     "name": "에스엠",
-    "weight": 26.16,
+    "weight": 25.71,
     "cap_pct": 25.0,
-    "excess_pp": 1.16,
-    "sell_amount": 1152387500
+    "excess_pp": 0.71,
+    "sell_amount": 692516250
+   },
+   {
+    "code": "352820",
+    "name": "하이브",
+    "weight": 25.06,
+    "cap_pct": 25.0,
+    "excess_pp": 0.06,
+    "sell_amount": 58522500
    }
   ]
  },
