@@ -48,3 +48,10 @@ jobs:
       # KRX 가 아직 안 올렸는데 조용히 전 영업일로 폴백하면 기준일이 계속 밀린다 — 로그로 드러낸다.
       - name: 기준일 확인
         run: python scripts/check_asof.py
+
+      # 휴장일 캘린더가 실제 거래일과 어긋나면(임시공휴일 지정 등) 로그에 남긴다. 실패시키진 않는다.
+      - name: 휴장일 캘린더 검증
+        continue-on-error: true
+        run: |
+          cd scripts
+          python kr_holidays.py --verify

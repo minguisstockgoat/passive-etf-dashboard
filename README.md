@@ -21,6 +21,7 @@
 | `fetchers.py` | 운용사별 구성종목(PDF) 수집기 (KODEX·TIGER·RISE·SOL·ACE·PLUS·KIWOOM·HANARO) |
 | `fetch_holdings.py` | 위 fetcher로 `data/holdings/{ticker}.json` 생성 |
 | `caps.py` | cap 초과 판정 + 매도규모 계산 |
+| `kr_holidays.py` | KRX 휴장일 캘린더 → `data/holidays.json` (`--verify` 로 실거래일 대조) |
 | `rebal_dates.py` | 정기변경 서술 → 다음 정기변경 예정일(선물옵션 만기일=둘째 목요일 기준 D+n 등) |
 | `links.py` | 운용사 상품·PDF 원문 URL + 기초지수 산출기관 URL → `data/links.json` |
 | `build_data.py` | 스냅샷+메타+cap(+links) → `data/etfs.json` |
@@ -42,9 +43,16 @@ py -m http.server 8860 --directory ..   # http://localhost:8860
 `월말`·`월 첫 영업일`·`둘째 금요일`을 읽어 적용한다. 단서가 없으면 `만기일 D+1` 로 두고
 `estimated=True`.
 
-⚠ 영업일 계산에 **공휴일은 미반영**(주말만 제외)이라 1~2영업일 밀릴 수 있다. 화면에는
-'예상 효력일'로 표기한다. 또 이 날짜는 **지수 변경 효력일**이고, ETF 의 실제 매매는 통상
-효력일 직전 거래일 종가에 몰린다.
+영업일 계산에는 주말 + **KRX 휴장일**(`kr_holidays.py` → `data/holidays.json`)을 제외한다.
+KRX 정보데이터시스템의 휴장일 화면은 로그인 회원 전용(비로그인 호출은 `LOGOUT`)이라
+`holidays` 패키지(한국 공휴일·음력·대체공휴일)로 만들고 **근로자의날(5/1)** 과
+**연말 폐장일(12/31, 평일이면 휴장)** 을 더하고 **'노동절 대체 휴일'은 뺀다**(증시는 개장).
+`py kr_holidays.py --verify` 가 네이버 KOSPI 실거래일과 대조하며, 2024-01-01~2026-08-31
+구간 **불일치 0건**을 확인했다(자동 갱신 워크플로에도 검증 스텝을 넣어 로그로 남긴다).
+
+⚠ 사후 지정되는 **임시공휴일은 예측할 수 없다**. 지정되면 `kr_holidays.EXTRA_HOLIDAYS` 에
+넣고 다시 빌드한다. 화면에는 '예상 효력일'로 표기한다. 또 이 날짜는 **지수 변경 효력일**이고,
+ETF 의 실제 매매는 통상 효력일 직전 거래일 종가에 몰린다.
 
 ## 외부 링크 (links.py)
 운용사 내부코드(ISIN·FUND_CD·fId·uid…)를 한 번 해석해 `data/links.json` 에 캐시하고,

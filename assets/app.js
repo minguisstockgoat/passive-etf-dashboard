@@ -193,7 +193,7 @@
     var cls = d <= 14 ? 'hot' : (d <= 31 ? 'soon' : '');
     var md = n.iso.slice(5).replace('-', '/');
     return '<span class="due ' + cls + '" title="' + n.rule + (n.est ? ' · 자동추정' : '')
-      + ' — 지수 변경 효력일 예상치(공휴일 미반영)">'
+      + ' — 지수 변경 효력일 예상치(KRX 휴장일 반영 · 임시공휴일 제외)">'
       + '<b>D-' + d + '</b><span class="dt">' + md + (n.est ? '<span class="est-mark">~</span>' : '') + '</span></span>';
   }
 

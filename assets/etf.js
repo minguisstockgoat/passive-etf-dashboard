@@ -64,7 +64,7 @@
         return '<div style="margin-top:8px"><span class="due ' + (dd <= 14 ? 'hot' : (dd <= 31 ? 'soon' : '')) + '">'
           + '<b>D-' + dd + '</b><span class="dt">' + esc(r.dates[i]) + '</span></span>'
           + '<span class="note" style="display:inline;margin-left:6px">' + esc(r.rule)
-          + (r.estimated ? ' · 자동추정' : '') + ' 기준 예상 효력일(공휴일 미반영)</span></div>';
+          + (r.estimated ? ' · 자동추정' : '') + ' 기준 예상 효력일(KRX 휴장일 반영 · 임시공휴일 제외)</span></div>';
       }
     }
     return '';

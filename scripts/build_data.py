@@ -144,6 +144,9 @@ def main():
     etfs.sort(key=lambda x: x["market_cap"], reverse=True)
 
     # 다음 정기변경 예정일(목록 화면의 '정기변경 임박' 필터·정렬용)
+    # 영업일 계산에 쓸 KRX 휴장일 캘린더를 먼저 갱신한다(±수년치, data/holidays.json)
+    import kr_holidays as KH
+    n_hol = KH.save(dt.date.today().year - 1, dt.date.today().year + 3)
     import rebal_dates as RD
     n_sched = RD.attach(etfs)
 
@@ -173,7 +176,8 @@ def main():
     print(f"기준일 {out['as_of']} · {len(etfs)}종 (커버레이션 {len(etfs)-auto} + 자동 {auto}) "
           f"· 시총 {out['min_cap_eok']:,}억+ → data/etfs.json")
     print(f"  구성종목 보유: {hs}/{len(etfs)} · 단일종목 제외 {single}종")
-    print(f"  다음 정기변경 예정일 계산: {n_sched}/{len(etfs)}종 (나머지는 수시·미확인)")
+    print(f"  다음 정기변경 예정일 계산: {n_sched}/{len(etfs)}종 (나머지는 수시·미확인)"
+          f" · 휴장일 {n_hol}일 반영")
     if missing:
         print("  ! 큐레이션 미해결:", missing)
 

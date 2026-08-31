@@ -12,14 +12,17 @@
   - "익주 첫/두번째 영업일", "월말", "월 첫 영업일", "두 번째 금요일" 도 각각 처리.
   - 아무 단서가 없으면 만기일 D+1 로 두고 estimated=True 로 표시한다.
 
-⚠ 영업일은 **주말만** 제외한다(공휴일 미반영). 하루 이틀 밀릴 수 있어 화면에는 '예상'으로
-   표기한다. 임박 여부를 가리는 용도로는 충분하다.
+영업일은 주말 + **KRX 휴장일**(`kr_holidays.load()` → data/holidays.json)을 제외한다.
+휴장일 캘린더는 네이버 KOSPI 실거래일과 대조해 2024~2026 구간 불일치 0건을 확인했다.
+다만 **임시공휴일은 예측 불가**이므로 화면에는 여전히 '예상 효력일'로 표기한다.
 ⚠ 여기서 내는 날짜는 **지수 변경 효력일**이다. ETF 의 실제 매매는 통상 그 직전 거래일
    종가에 몰린다(화면 각주에 명시).
 """
 from __future__ import annotations
 import re
 import datetime as dt
+
+import kr_holidays
 
 KST = dt.timezone(dt.timedelta(hours=9))
 
@@ -29,11 +32,11 @@ def kst_today() -> dt.date:
 
 
 def _is_bday(d: dt.date) -> bool:
-    return d.weekday() < 5
+    return d.weekday() < 5 and d not in kr_holidays.load()
 
 
 def _bday_add(d: dt.date, n: int) -> dt.date:
-    """영업일 n 만큼 이동(주말만 제외). n=0 이면 그날이 휴일일 때 다음 영업일."""
+    """영업일 n 만큼 이동(주말·휴장일 제외). n=0 이면 그날이 휴장일일 때 다음 영업일."""
     while not _is_bday(d):
         d += dt.timedelta(days=1)
     step = 1 if n >= 0 else -1
@@ -52,7 +55,7 @@ def nth_weekday(y: int, m: int, weekday: int, nth: int) -> dt.date:
 
 
 def expiry(y: int, m: int) -> dt.date:
-    """선물옵션 만기일 = 두 번째 목요일(휴일이면 직전 영업일)."""
+    """선물옵션 만기일 = 두 번째 목요일(휴장일이면 직전 영업일)."""
     d = nth_weekday(y, m, 3, 2)
     while not _is_bday(d):
         d -= dt.timedelta(days=1)
