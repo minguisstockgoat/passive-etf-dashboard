@@ -1,6 +1,6 @@
 {
  "as_of": "2026-08-28",
- "generated_at": "2026-08-31 11:58",
+ "generated_at": "2026-08-31 13:57",
  "count": 173,
  "min_cap_eok": 300,
  "reg_note": "자본시장법 시행령 §80 — 지수형 ETF는 동일종목을 자산의 30%까지 편입 가능. 기초지수 내 비중이 30%를 넘는 대표종목(예: 삼성전자)은 그 지수 비중까지 예외 허용. cap을 둔 테마·전략 지수는 정기변경 때 상한으로 재조정된다.",
@@ -40,6 +40,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "2ETF01",
     "manager_label": "삼성 KODEX",
@@ -87,6 +97,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "KR7102110004",
     "manager_label": "미래에셋 TIGER",
@@ -157,6 +177,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-10-12",
+     "2027-04-12",
+     "2027-10-18",
+     "2028-04-17"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "KR7396500001",
     "manager_label": "미래에셋 TIGER",
@@ -204,6 +234,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "2ETF92",
     "manager_label": "삼성 KODEX",
@@ -268,6 +308,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-10-12",
+     "2027-01-18",
+     "2027-04-12",
+     "2027-07-12"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "211106",
     "manager_label": "신한 SOL",
@@ -314,6 +364,15 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-09-11",
+     "2027-09-10",
+     "2028-09-15"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "2ETF07",
     "manager_label": "삼성 KODEX",
@@ -361,6 +420,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "2ETF54",
     "manager_label": "삼성 KODEX",
@@ -408,6 +477,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-29",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "4435",
     "manager_label": "KB RISE",
@@ -457,6 +536,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-08-31",
+     "2026-11-30",
+     "2027-02-26",
+     "2027-05-31"
+    ],
+    "rule": "월말",
+    "estimated": false
+   },
    "links": {
     "code": "KR7310970009",
     "manager_label": "미래에셋 TIGER",
@@ -518,6 +607,16 @@
       "sell_amount": 61949674800
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
    },
    "links": {
     "code": "2ETFE9",
@@ -589,6 +688,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-16",
+     "2027-06-16",
+     "2027-12-15",
+     "2028-06-14"
+    ],
+    "rule": "만기일 D+4",
+    "estimated": false
+   },
    "links": {
     "code": "B1EB325B8E6240D2",
     "manager_label": "NH아문디 HANARO",
@@ -636,6 +745,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "2ETF14",
     "manager_label": "삼성 KODEX",
@@ -706,6 +825,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "2ETFN7",
     "manager_label": "삼성 KODEX",
@@ -753,6 +882,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "KR7139260004",
     "manager_label": "미래에셋 TIGER",
@@ -800,6 +939,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-27",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-16",
+     "2027-06-16",
+     "2027-12-15",
+     "2028-06-14"
+    ],
+    "rule": "만기일 D+4",
+    "estimated": false
+   },
    "links": {
     "code": "006273",
     "manager_label": "한화 PLUS",
@@ -849,6 +998,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-08-31",
+     "2026-11-30",
+     "2027-02-26",
+     "2027-05-31"
+    ],
+    "rule": "월말",
+    "estimated": false
+   },
    "links": {
     "code": "2ETF93",
     "manager_label": "삼성 KODEX",
@@ -896,6 +1055,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-09-14",
+     "2027-03-15",
+     "2027-09-13",
+     "2028-03-13"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "KR7292150000",
     "manager_label": "미래에셋 TIGER",
@@ -943,6 +1112,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "294400",
     "manager_label": "키움 KIWOOM",
@@ -1007,6 +1186,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-09-14",
+     "2026-12-14",
+     "2027-03-15",
+     "2027-06-14"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "2ETFB1",
     "manager_label": "삼성 KODEX",
@@ -1054,6 +1243,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "KR5101877748",
     "manager_label": "한국투자 ACE",
@@ -1118,6 +1317,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-11-16",
+     "2027-02-15",
+     "2027-05-17",
+     "2027-08-16"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "211028",
     "manager_label": "신한 SOL",
@@ -1165,6 +1374,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-27",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "006184",
     "manager_label": "한화 PLUS",
@@ -1209,6 +1428,7 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": null,
    "links": {
     "code": "2ETF52",
     "manager_label": "삼성 KODEX",
@@ -1256,6 +1476,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "KR7232080002",
     "manager_label": "미래에셋 TIGER",
@@ -1302,6 +1532,15 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-09-11",
+     "2027-09-10",
+     "2028-09-15"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "KR7091230003",
     "manager_label": "미래에셋 TIGER",
@@ -1374,6 +1613,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-09-14",
+     "2026-12-14",
+     "2027-03-15",
+     "2027-06-14"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "K55101E67600",
     "manager_label": "한국투자 ACE",
@@ -1435,6 +1684,16 @@
       "sell_amount": 43358407501
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
    },
    "links": {
     "code": "006192",
@@ -1498,6 +1757,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-15",
+     "2027-06-15",
+     "2027-12-14",
+     "2028-06-13"
+    ],
+    "rule": "만기일 D+3",
+    "estimated": false
+   },
    "links": {
     "code": "KR70117V0007",
     "manager_label": "미래에셋 TIGER",
@@ -1545,6 +1814,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-27",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "210980",
     "manager_label": "신한 SOL",
@@ -1592,6 +1871,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-27",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "210734",
     "manager_label": "신한 SOL",
@@ -1639,6 +1928,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "2ETF57",
     "manager_label": "삼성 KODEX",
@@ -1685,6 +1984,14 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2027-06-14",
+     "2028-06-12"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "2ETFB5",
     "manager_label": "삼성 KODEX",
@@ -1754,6 +2061,14 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2027-06-11",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "44H7",
     "manager_label": "KB RISE",
@@ -1820,6 +2135,16 @@
       "sell_amount": 2762144875
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2026-10-09",
+     "2027-01-15",
+     "2027-04-09",
+     "2027-07-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
    },
    "links": {
     "code": "KR7305540007",
@@ -1899,6 +2224,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "KR7466940004",
     "manager_label": "미래에셋 TIGER",
@@ -1946,6 +2281,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "069660",
     "manager_label": "키움 KIWOOM",
@@ -2008,6 +2353,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-16",
+     "2027-06-16",
+     "2027-12-15",
+     "2028-06-14"
+    ],
+    "rule": "만기일 D+4",
+    "estimated": false
+   },
    "links": {
     "code": "5012FAEBEF0D4FB7",
     "manager_label": "NH아문디 HANARO",
@@ -2055,6 +2410,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "2ETF15",
     "manager_label": "삼성 KODEX",
@@ -2119,6 +2484,16 @@
       "sell_amount": 37772977050
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2026-09-11",
+     "2027-03-12",
+     "2027-09-10",
+     "2028-03-10"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
    },
    "links": {
     "code": "KR7364980003",
@@ -2188,6 +2563,14 @@
       "sell_amount": 12718819500
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2027-06-11",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
    },
    "links": {
     "code": "2ETFP2",
@@ -2259,6 +2642,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 익주 첫 영업일",
+    "estimated": false
+   },
    "links": {
     "code": "44A7",
     "manager_label": "KB RISE",
@@ -2320,6 +2713,16 @@
       "sell_amount": 15237160200
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
    },
    "links": {
     "code": "KR7138540000",
@@ -2390,6 +2793,15 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-12-10",
+     "2028-12-08"
+    ],
+    "rule": "둘째 금요일",
+    "estimated": false
+   },
    "links": {
     "code": "4479",
     "manager_label": "KB RISE",
@@ -2439,6 +2851,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-29",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-09-24",
+     "2026-12-24",
+     "2027-03-25",
+     "2027-06-24"
+    ],
+    "rule": "만기일 D+10",
+    "estimated": false
+   },
    "links": {
     "code": "44J3",
     "manager_label": "KB RISE",
@@ -2503,6 +2925,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-10-09",
+     "2027-01-15",
+     "2027-04-09",
+     "2027-07-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "KR70091P0005",
     "manager_label": "미래에셋 TIGER",
@@ -2552,6 +2984,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-10-08",
+     "2027-01-14",
+     "2027-04-08",
+     "2027-07-08"
+    ],
+    "rule": "만기일 당일",
+    "estimated": false
+   },
    "links": {
     "code": "KR70148J0006",
     "manager_label": "미래에셋 TIGER",
@@ -2596,6 +3038,7 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": null,
    "links": {
     "code": "KR7277630000",
     "manager_label": "미래에셋 TIGER",
@@ -2643,6 +3086,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "KR7494670003",
     "manager_label": "미래에셋 TIGER",
@@ -2717,6 +3170,16 @@
       "sell_amount": 274016500
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2026-10-12",
+     "2027-01-18",
+     "2027-04-12",
+     "2027-07-12"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
    },
    "links": {
     "code": "KR7462010000",
@@ -2812,6 +3275,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-11-16",
+     "2027-05-17",
+     "2027-11-15",
+     "2028-05-15"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "211097",
     "manager_label": "신한 SOL",
@@ -2861,6 +3334,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-10-09",
+     "2027-01-15",
+     "2027-04-09",
+     "2027-07-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "KR7463250001",
     "manager_label": "미래에셋 TIGER",
@@ -2929,6 +3412,14 @@
       "sell_amount": 4409323800
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2027-06-11",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
    },
    "links": {
     "code": "KR7496080003",
@@ -2999,6 +3490,14 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2027-05-18",
+     "2028-05-16"
+    ],
+    "rule": "만기일 익주 둘째 영업일",
+    "estimated": false
+   },
    "links": {
     "code": "4494",
     "manager_label": "KB RISE",
@@ -3048,6 +3547,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-29",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-11-04",
+     "2027-02-03",
+     "2027-05-05",
+     "2027-08-04"
+    ],
+    "rule": "월말 기준 D+3",
+    "estimated": false
+   },
    "links": {
     "code": "44K4",
     "manager_label": "KB RISE",
@@ -3095,6 +3604,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-29",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "44A5",
     "manager_label": "KB RISE",
@@ -3142,6 +3661,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "FF68A9D0A7E949BB",
     "manager_label": "NH아문디 HANARO",
@@ -3189,6 +3718,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "2ETF06",
     "manager_label": "삼성 KODEX",
@@ -3250,6 +3789,16 @@
       "sell_amount": 11338327000
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 익주 첫 영업일",
+    "estimated": false
    },
    "links": {
     "code": "2ETFL7",
@@ -3332,6 +3881,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-10-12",
+     "2027-04-12",
+     "2027-10-18",
+     "2028-04-17"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "211061",
     "manager_label": "신한 SOL",
@@ -3376,6 +3935,7 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-29",
    "breach_summary": null,
+   "rebalance": null,
    "links": {
     "code": "4489",
     "manager_label": "KB RISE",
@@ -3425,6 +3985,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-29",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-09-14",
+     "2026-12-14",
+     "2027-03-15",
+     "2027-06-14"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "44F5",
     "manager_label": "KB RISE",
@@ -3495,6 +4065,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 익주 첫 영업일",
+    "estimated": false
+   },
    "links": {
     "code": "2ETFR8",
     "manager_label": "삼성 KODEX",
@@ -3542,6 +4122,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "KR7310960000",
     "manager_label": "미래에셋 TIGER",
@@ -3589,6 +4179,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 익주 첫 영업일",
+    "estimated": false
+   },
    "links": {
     "code": "2ETF96",
     "manager_label": "삼성 KODEX",
@@ -3633,6 +4233,7 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": null,
    "links": {
     "code": "K55101EY1762",
     "manager_label": "한국투자 ACE",
@@ -3680,6 +4281,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-29",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "4459",
     "manager_label": "KB RISE",
@@ -3732,6 +4343,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-09-24",
+     "2026-12-24",
+     "2027-03-25",
+     "2027-06-24"
+    ],
+    "rule": "만기일 D+10",
+    "estimated": false
+   },
    "links": {
     "code": "K55101EW2275",
     "manager_label": "한국투자 ACE",
@@ -3779,6 +4400,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "2ETF08",
     "manager_label": "삼성 KODEX",
@@ -3850,6 +4481,16 @@
       "sell_amount": 27578510325
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2026-09-14",
+     "2026-12-14",
+     "2027-03-15",
+     "2027-06-14"
+    ],
+    "rule": "만기일 익주 첫 영업일",
+    "estimated": false
    },
    "links": {
     "code": "2ETFS5",
@@ -3945,6 +4586,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2027-02-15",
+     "2027-08-16",
+     "2028-02-14",
+     "2028-08-14"
+    ],
+    "rule": "만기일 익주 첫 영업일",
+    "estimated": false
+   },
    "links": {
     "code": "KR7307520007",
     "manager_label": "미래에셋 TIGER",
@@ -3992,6 +4643,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-27",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "211053",
     "manager_label": "신한 SOL",
@@ -4080,6 +4741,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-10-09",
+     "2027-01-15",
+     "2027-04-09",
+     "2027-07-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "KR7228790002",
     "manager_label": "미래에셋 TIGER",
@@ -4161,6 +4832,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-09-11",
+     "2027-03-12",
+     "2027-09-10",
+     "2028-03-10"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "KR7364970004",
     "manager_label": "미래에셋 TIGER",
@@ -4210,6 +4891,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-09-10",
+     "2026-12-10",
+     "2027-03-11",
+     "2027-06-10"
+    ],
+    "rule": "만기일 당일",
+    "estimated": false
+   },
    "links": {
     "code": "2ETF47",
     "manager_label": "삼성 KODEX",
@@ -4257,6 +4948,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "KR7139230007",
     "manager_label": "미래에셋 TIGER",
@@ -4343,6 +5044,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-11-02",
+     "2027-05-03",
+     "2027-11-01",
+     "2028-05-01"
+    ],
+    "rule": "월 첫 영업일",
+    "estimated": false
+   },
    "links": {
     "code": "006344",
     "manager_label": "한화 PLUS",
@@ -4390,6 +5101,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "2ETFD5",
     "manager_label": "삼성 KODEX",
@@ -4452,6 +5173,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 익주 첫 영업일",
+    "estimated": false
+   },
    "links": {
     "code": "KR7157500000",
     "manager_label": "미래에셋 TIGER",
@@ -4499,6 +5230,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "2ETFS1",
     "manager_label": "삼성 KODEX",
@@ -4548,6 +5289,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-09-14",
+     "2026-12-14",
+     "2027-03-15",
+     "2027-06-14"
+    ],
+    "rule": "만기일 익주 첫 영업일",
+    "estimated": false
+   },
    "links": {
     "code": "2ETF63",
     "manager_label": "삼성 KODEX",
@@ -4621,6 +5372,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "211027",
     "manager_label": "신한 SOL",
@@ -4693,6 +5454,14 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2027-05-18",
+     "2028-05-16"
+    ],
+    "rule": "만기일 익주 둘째 영업일",
+    "estimated": false
+   },
    "links": {
     "code": "4454",
     "manager_label": "KB RISE",
@@ -4740,6 +5509,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "6291738C49C1451B",
     "manager_label": "NH아문디 HANARO",
@@ -4787,6 +5566,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "2ETF22",
     "manager_label": "삼성 KODEX",
@@ -4853,6 +5642,16 @@
       "sell_amount": 6882408000
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2026-09-24",
+     "2026-12-24",
+     "2027-03-25",
+     "2027-06-24"
+    ],
+    "rule": "만기일 D+10",
+    "estimated": false
    },
    "links": {
     "code": "2ETFT1",
@@ -4923,6 +5722,14 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2027-06-11",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "211073",
     "manager_label": "신한 SOL",
@@ -4990,6 +5797,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-10-13",
+     "2027-01-19",
+     "2027-04-13",
+     "2027-07-13"
+    ],
+    "rule": "만기일 D+3",
+    "estimated": false
+   },
    "links": {
     "code": "2ETFK1",
     "manager_label": "삼성 KODEX",
@@ -5037,6 +5854,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-27",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "006181",
     "manager_label": "한화 PLUS",
@@ -5089,6 +5916,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-29",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-10-12",
+     "2027-01-18",
+     "2027-04-12",
+     "2027-07-12"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "44J0",
     "manager_label": "KB RISE",
@@ -5159,6 +5996,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 익주 첫 영업일",
+    "estimated": false
+   },
    "links": {
     "code": "24A384532ECE491A",
     "manager_label": "NH아문디 HANARO",
@@ -5206,6 +6053,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "K55101CT6711",
     "manager_label": "한국투자 ACE",
@@ -5253,6 +6110,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "2ETFC7",
     "manager_label": "삼성 KODEX",
@@ -5300,6 +6167,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "KR7143860005",
     "manager_label": "미래에셋 TIGER",
@@ -5347,6 +6224,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "K55101D41516",
     "manager_label": "한국투자 ACE",
@@ -5410,6 +6297,16 @@
       "sell_amount": 8380715000
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2026-09-14",
+     "2026-12-14",
+     "2027-03-15",
+     "2027-06-14"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
    },
    "links": {
     "code": "211079",
@@ -5497,6 +6394,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "006279",
     "manager_label": "한화 PLUS",
@@ -5544,6 +6451,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "KR7139220008",
     "manager_label": "미래에셋 TIGER",
@@ -5591,6 +6508,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-27",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "211096",
     "manager_label": "신한 SOL",
@@ -5640,6 +6567,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-10-09",
+     "2027-01-15",
+     "2027-04-09",
+     "2027-07-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "KR7471760009",
     "manager_label": "미래에셋 TIGER",
@@ -5726,6 +6663,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 익주 첫 영업일",
+    "estimated": false
+   },
    "links": {
     "code": "KR7377990007",
     "manager_label": "미래에셋 TIGER",
@@ -5795,6 +6742,16 @@
       "sell_amount": 18418942500
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 익주 첫 영업일",
+    "estimated": false
    },
    "links": {
     "code": "2ETFB8",
@@ -5866,6 +6823,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 익주 첫 영업일",
+    "estimated": false
+   },
    "links": {
     "code": "44A8",
     "manager_label": "KB RISE",
@@ -5927,6 +6894,16 @@
       "sell_amount": 3216264318
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
    },
    "links": {
     "code": "006380",
@@ -6003,6 +6980,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-09-11",
+     "2026-12-11",
+     "2027-03-12",
+     "2027-06-11"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "K55101E67568",
     "manager_label": "한국투자 ACE",
@@ -6047,6 +7034,7 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-27",
    "breach_summary": null,
+   "rebalance": null,
    "links": {
     "code": "006327",
     "manager_label": "한화 PLUS",
@@ -6122,6 +7110,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-10-12",
+     "2027-01-18",
+     "2027-04-12",
+     "2027-07-12"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "211080",
     "manager_label": "신한 SOL",
@@ -6171,6 +7169,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-08-31",
+     "2026-11-30",
+     "2027-02-26",
+     "2027-05-31"
+    ],
+    "rule": "월말",
+    "estimated": false
+   },
    "links": {
     "code": "CEBA1E927AC1478B",
     "manager_label": "NH아문디 HANARO",
@@ -6218,6 +7226,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "2ETF82",
     "manager_label": "삼성 KODEX",
@@ -6279,6 +7297,16 @@
       "sell_amount": 2037498900
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
    },
    "links": {
     "code": "210981",
@@ -6344,6 +7372,16 @@
       "sell_amount": 1250763360
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 익주 첫 영업일",
+    "estimated": false
    },
    "links": {
     "code": "4496",
@@ -6413,6 +7451,14 @@
       "sell_amount": 1836773250
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2027-06-11",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
    },
    "links": {
     "code": "496090",
@@ -6489,6 +7535,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-09-11",
+     "2026-12-11",
+     "2027-03-12",
+     "2027-06-11"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "K55101E79688",
     "manager_label": "한국투자 ACE",
@@ -6559,6 +7615,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "045134E6E3534476",
     "manager_label": "NH아문디 HANARO",
@@ -6620,6 +7686,14 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2027-06-11",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "2ETF46",
     "manager_label": "삼성 KODEX",
@@ -6670,6 +7744,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 익주 첫 영업일",
+    "estimated": false
+   },
    "links": {
     "code": "2ETFB9",
     "manager_label": "삼성 KODEX",
@@ -6739,6 +7823,14 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2027-06-11",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "006378",
     "manager_label": "한화 PLUS",
@@ -6786,6 +7878,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "KR7138530001",
     "manager_label": "미래에셋 TIGER",
@@ -6850,6 +7952,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-09-15",
+     "2026-12-15",
+     "2027-03-16",
+     "2027-06-15"
+    ],
+    "rule": "만기일 D+3",
+    "estimated": false
+   },
    "links": {
     "code": "211070",
     "manager_label": "신한 SOL",
@@ -6894,6 +8006,7 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": null,
    "links": {
     "code": "2ETFD2",
     "manager_label": "삼성 KODEX",
@@ -6941,6 +8054,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 익주 첫 영업일",
+    "estimated": false
+   },
    "links": {
     "code": "KR7157490004",
     "manager_label": "미래에셋 TIGER",
@@ -6988,6 +8111,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-09-11",
+     "2027-03-12",
+     "2027-09-10",
+     "2028-03-10"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "KR7364960005",
     "manager_label": "미래에셋 TIGER",
@@ -7035,6 +8168,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-27",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-10",
+     "2027-06-10",
+     "2027-12-09",
+     "2028-06-08"
+    ],
+    "rule": "만기일 당일",
+    "estimated": false
+   },
    "links": {
     "code": "006392",
     "manager_label": "한화 PLUS",
@@ -7082,6 +8225,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-09-11",
+     "2027-03-12",
+     "2027-09-10",
+     "2028-03-10"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "2ETFC5",
     "manager_label": "삼성 KODEX",
@@ -7142,6 +8295,14 @@
       "sell_amount": 62832000
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2027-06-11",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
    },
    "links": {
     "code": "KR7210780003",
@@ -7211,6 +8372,14 @@
       "sell_amount": 1367119600
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2027-06-11",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
    },
    "links": {
     "code": "2155F0C9B3DA4CAC",
@@ -7292,6 +8461,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-10-09",
+     "2027-01-15",
+     "2027-04-09",
+     "2027-07-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "KR7228810008",
     "manager_label": "미래에셋 TIGER",
@@ -7362,6 +8541,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-16",
+     "2027-06-16",
+     "2027-12-15",
+     "2028-06-14"
+    ],
+    "rule": "만기일 D+4",
+    "estimated": false
+   },
    "links": {
     "code": "1A23304A97EB4BD1",
     "manager_label": "NH아문디 HANARO",
@@ -7424,6 +8613,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "211054",
     "manager_label": "신한 SOL",
@@ -7470,6 +8669,14 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2027-06-11",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "KR7211560008",
     "manager_label": "미래에셋 TIGER",
@@ -7517,6 +8724,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "2ETF78",
     "manager_label": "삼성 KODEX",
@@ -7564,6 +8781,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "2ETFA4",
     "manager_label": "삼성 KODEX",
@@ -7627,6 +8854,16 @@
       "sell_amount": 83901600
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2026-10-09",
+     "2027-01-15",
+     "2027-04-09",
+     "2027-07-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
    },
    "links": {
     "code": "KR7228800009",
@@ -7700,6 +8937,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-11-13",
+     "2027-02-12",
+     "2027-05-14",
+     "2027-08-13"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "44F2",
     "manager_label": "KB RISE",
@@ -7767,6 +9014,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-09-24",
+     "2026-12-24",
+     "2027-03-25",
+     "2027-06-24"
+    ],
+    "rule": "만기일 D+10",
+    "estimated": false
+   },
    "links": {
     "code": "2ETFS6",
     "manager_label": "삼성 KODEX",
@@ -7814,6 +9071,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "100910",
     "manager_label": "키움 KIWOOM",
@@ -7861,6 +9128,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-09-11",
+     "2027-03-12",
+     "2027-09-10",
+     "2028-03-10"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "KR7277640009",
     "manager_label": "미래에셋 TIGER",
@@ -7908,6 +9185,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "KR7261070007",
     "manager_label": "미래에셋 TIGER",
@@ -7979,6 +9266,16 @@
       "sell_amount": 547946700
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2026-11-16",
+     "2027-02-15",
+     "2027-05-17",
+     "2027-08-16"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
    },
    "links": {
     "code": "211101",
@@ -8053,6 +9350,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "8B788EE0BB4342A9",
     "manager_label": "NH아문디 HANARO",
@@ -8100,6 +9407,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-27",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "006373",
     "manager_label": "한화 PLUS",
@@ -8147,6 +9464,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "2ETF31",
     "manager_label": "삼성 KODEX",
@@ -8194,6 +9521,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-10-09",
+     "2027-04-09",
+     "2027-10-15",
+     "2028-04-14"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "K55101EQ7660",
     "manager_label": "한국투자 ACE",
@@ -8243,6 +9580,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-08-31",
+     "2026-11-30",
+     "2027-02-26",
+     "2027-05-31"
+    ],
+    "rule": "월말",
+    "estimated": false
+   },
    "links": {
     "code": "2ETF86",
     "manager_label": "삼성 KODEX",
@@ -8290,6 +9637,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "316670",
     "manager_label": "키움 KIWOOM",
@@ -8334,6 +9691,7 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": null,
    "links": {
     "code": "K55101CC3048",
     "manager_label": "한국투자 ACE",
@@ -8420,6 +9778,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "44C2",
     "manager_label": "KB RISE",
@@ -8467,6 +9835,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "KR7139280002",
     "manager_label": "미래에셋 TIGER",
@@ -8516,6 +9894,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-09-14",
+     "2026-12-14",
+     "2027-03-15",
+     "2027-06-14"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "2635AB1A7E3542EF",
     "manager_label": "NH아문디 HANARO",
@@ -8560,6 +9948,7 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": null,
    "links": {
     "code": "K55101EU2731",
     "manager_label": "한국투자 ACE",
@@ -8638,6 +10027,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-16",
+     "2027-06-16",
+     "2027-12-15",
+     "2028-06-14"
+    ],
+    "rule": "만기일 D+4",
+    "estimated": false
+   },
    "links": {
     "code": "45C31C81B10C4B4A",
     "manager_label": "NH아문디 HANARO",
@@ -8687,6 +10086,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-10-09",
+     "2027-01-15",
+     "2027-04-09",
+     "2027-07-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "KR7147970008",
     "manager_label": "미래에셋 TIGER",
@@ -8765,6 +10174,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "KR7400970000",
     "manager_label": "미래에셋 TIGER",
@@ -8814,6 +10233,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-08-31",
+     "2026-11-30",
+     "2027-02-26",
+     "2027-05-31"
+    ],
+    "rule": "월말",
+    "estimated": false
+   },
    "links": {
     "code": "2ETF85",
     "manager_label": "삼성 KODEX",
@@ -8887,6 +10316,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-09-11",
+     "2027-03-12",
+     "2027-09-10",
+     "2028-03-10"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "KR7365000009",
     "manager_label": "미래에셋 TIGER",
@@ -8934,6 +10373,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-27",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "210961",
     "manager_label": "신한 SOL",
@@ -9004,6 +10453,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-16",
+     "2027-06-16",
+     "2027-12-15",
+     "2028-06-14"
+    ],
+    "rule": "만기일 D+4",
+    "estimated": false
+   },
    "links": {
     "code": "5CD1DD359516432B",
     "manager_label": "NH아문디 HANARO",
@@ -9048,6 +10507,7 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": null,
    "links": {
     "code": "BB93EA8D7B974A34",
     "manager_label": "NH아문디 HANARO",
@@ -9095,6 +10555,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-29",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-11-13",
+     "2027-05-14",
+     "2027-11-12",
+     "2028-05-12"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "44H8",
     "manager_label": "KB RISE",
@@ -9142,6 +10612,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "153270",
     "manager_label": "키움 KIWOOM",
@@ -9203,6 +10683,16 @@
       "sell_amount": 1370364600
      }
     ]
+   },
+   "rebalance": {
+    "dates": [
+     "2026-12-14",
+     "2027-06-14",
+     "2027-12-13",
+     "2028-06-12"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
    },
    "links": {
     "code": "K55101DH2341",
@@ -9274,6 +10764,16 @@
      }
     ]
    },
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "4413",
     "manager_label": "KB RISE",
@@ -9320,6 +10820,14 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2027-06-11",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "KR7261140008",
     "manager_label": "미래에셋 TIGER",
@@ -9367,6 +10875,16 @@
    "has_holdings": false,
    "holdings_asof": null,
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "KR7227540002",
     "manager_label": "미래에셋 TIGER",
@@ -9411,6 +10929,7 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-27",
    "breach_summary": null,
+   "rebalance": null,
    "links": {
     "code": "211112",
     "manager_label": "신한 SOL",
@@ -9458,6 +10977,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1(단서 없음)",
+    "estimated": true
+   },
    "links": {
     "code": "2ETF81",
     "manager_label": "삼성 KODEX",
@@ -9505,6 +11034,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-07-13",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-11",
+     "2027-06-11",
+     "2027-12-10",
+     "2028-06-09"
+    ],
+    "rule": "만기일 D+1",
+    "estimated": false
+   },
    "links": {
     "code": "KR7139270003",
     "manager_label": "미래에셋 TIGER",
@@ -9552,6 +11091,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-12-16",
+     "2027-06-16",
+     "2027-12-15",
+     "2028-06-14"
+    ],
+    "rule": "만기일 D+4",
+    "estimated": false
+   },
    "links": {
     "code": "137F57DFEC434844",
     "manager_label": "NH아문디 HANARO",
@@ -9596,6 +11145,7 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-27",
    "breach_summary": null,
+   "rebalance": null,
    "links": {
     "code": "2ETF23",
     "manager_label": "삼성 KODEX",
@@ -9645,6 +11195,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-09-14",
+     "2026-12-14",
+     "2027-03-15",
+     "2027-06-14"
+    ],
+    "rule": "만기일 D+2",
+    "estimated": false
+   },
    "links": {
     "code": "2ETFF2",
     "manager_label": "삼성 KODEX",
@@ -9694,6 +11254,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-08-31",
+     "2026-11-30",
+     "2027-02-26",
+     "2027-05-31"
+    ],
+    "rule": "월말",
+    "estimated": false
+   },
    "links": {
     "code": "2ETF36",
     "manager_label": "삼성 KODEX",
@@ -9743,6 +11313,16 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": {
+    "dates": [
+     "2026-08-31",
+     "2026-11-30",
+     "2027-02-26",
+     "2027-05-31"
+    ],
+    "rule": "월말",
+    "estimated": false
+   },
    "links": {
     "code": "2ETF87",
     "manager_label": "삼성 KODEX",
@@ -9787,6 +11367,7 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-28",
    "breach_summary": null,
+   "rebalance": null,
    "links": {
     "code": "EFB4EF82E2904584",
     "manager_label": "NH아문디 HANARO",
@@ -9831,6 +11412,7 @@
    "has_holdings": true,
    "holdings_asof": "2026-08-24",
    "breach_summary": null,
+   "rebalance": null,
    "links": {
     "code": "2ETF21",
     "manager_label": "삼성 KODEX",

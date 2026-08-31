@@ -174,3 +174,13 @@ tr.over .wt-bar > i{background:var(--warn)}
 .xlink.prod{border-color:var(--accent);color:var(--accent-ink);background:var(--accent-soft)}
 .xlink.pdf{border-color:var(--seafoam);background:#f3fafa;color:var(--accent-ink)}
 .xlink.sm{padding:4px 8px;font-size:11.5px;border-radius:7px;font-weight:700}
+
+/* ── 다음 정기변경 (D-day) ─────────────────── */
+.due{display:inline-flex;align-items:baseline;gap:6px;white-space:nowrap;font-size:12px}
+.due b{font-weight:800;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.due .dt{color:var(--muted);font-size:11.5px;font-variant-numeric:tabular-nums}
+.due.soon b{color:var(--accent-ink)}
+.due.hot b{color:var(--warn);font-weight:900}
+.due.hot .dt{color:var(--warn-ink)}
+.due.none{color:var(--muted);font-size:11.5px}
+.est-mark{color:var(--muted);font-weight:700;margin-left:1px}

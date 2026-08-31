@@ -7,12 +7,30 @@
   var DATA = [];            // etfs
   var LIVE = {};            // ticker -> 실시간 시총
   var META = {};
-  var F = { type: 'all', cats: new Set(), min: null, max: null, months: new Set(), mgrs: new Set(), q: '' };
+  var F = { type: 'all', cats: new Set(), min: null, max: null, months: new Set(), mgrs: new Set(), q: '', due: 0 };
   var SORT = { key: 'market_cap', dir: -1 };
 
   var MONTHS = [1,2,3,4,5,6,7,8,9,10,11,12];
 
   function mcap(e) { return LIVE[e.ticker] != null ? LIVE[e.ticker] : e.market_cap; }
+
+  // ── 정기변경 D-day ──────────────────────────
+  // rebalance.dates = 앞으로의 정기변경 예정일(빌드 시 계산). 오늘 이후 첫 날짜를 쓴다.
+  // 수시(months=[])·미확인(months=null)은 rebalance 가 없어 항상 맨 뒤로 밀린다.
+  var TODAY = (function () { var d = new Date(); d.setHours(0, 0, 0, 0); return d; })();
+  function nextRebal(e) {
+    var r = e.rebalance;
+    if (!r || !r.dates || !r.dates.length) return null;
+    for (var i = 0; i < r.dates.length; i++) {
+      var d = new Date(r.dates[i] + 'T00:00:00');
+      if (d >= TODAY) return { date: d, iso: r.dates[i], rule: r.rule, est: !!r.estimated };
+    }
+    return null;
+  }
+  function ddays(e) {
+    var n = nextRebal(e);
+    return n ? Math.round((n.date - TODAY) / 86400000) : null;
+  }
 
   // ── 필터 UI 구성 ────────────────────────────
   function buildFilters() {
@@ -43,6 +61,16 @@
         b.classList.add('on'); F.type = b.dataset.v; render();
       };
     });
+    // 임박 필터를 켜면 정렬도 임박순으로 바꿔야 '상위에 보인다'는 목적이 산다
+    $$('#f-due button').forEach(function (b) {
+      b.onclick = function () {
+        $$('#f-due button').forEach(function (x) { x.classList.remove('on'); });
+        b.classList.add('on'); F.due = +b.dataset.v;
+        if (F.due) { SORT = { key: 'rebal', dir: 1 }; }
+        else if (SORT.key === 'rebal') { SORT = { key: 'market_cap', dir: -1 }; }
+        render();
+      };
+    });
     $$('#f-cat button').forEach(function (b) { b.onclick = function () { toggle(b, F.cats, b.dataset.cat); }; });
     $$('#f-month button').forEach(function (b) { b.onclick = function () { toggle(b, F.months, +b.dataset.mon); }; });
     $$('#f-mgr button').forEach(function (b) { b.onclick = function () { toggle(b, F.mgrs, b.dataset.mgr); }; });
@@ -66,10 +94,12 @@
     render();
   }
   function resetFilters() {
-    F = { type: 'all', cats: new Set(), min: null, max: null, months: new Set(), mgrs: new Set(), q: '' };
+    F = { type: 'all', cats: new Set(), min: null, max: null, months: new Set(), mgrs: new Set(), q: '', due: 0 };
     $('#f-min').value = ''; $('#f-max').value = ''; if ($('#search')) $('#search').value = '';
     $$('.chip.on').forEach(function (b) { b.classList.remove('on'); });
     $$('#f-type button').forEach(function (b, i) { b.classList.toggle('on', i === 0); });
+    $$('#f-due button').forEach(function (b, i) { b.classList.toggle('on', i === 0); });
+    SORT = { key: 'market_cap', dir: -1 };
     render();
   }
 
@@ -91,6 +121,10 @@
       });
       if (!hit) return false;
     }
+    if (F.due) {
+      var dd = ddays(e);                 // 수시·미확인은 null → 임박 필터에서 제외
+      if (dd == null || dd > F.due) return false;
+    }
     if (F.mgrs.size && !F.mgrs.has(e.manager)) return false;
     if (F.q) {
       var hay = (e.name + ' ' + (e.index_name || '') + ' ' + e.manager).toLowerCase();
@@ -104,6 +138,14 @@
     return rows.slice().sort(function (a, b) {
       var va, vb;
       if (k === 'market_cap') { va = mcap(a); vb = mcap(b); }
+      else if (k === 'rebal') {
+        // 일정 없는 종목(수시·미확인)은 정렬 방향과 무관하게 항상 뒤로
+        var da = ddays(a), db = ddays(b);
+        if (da == null && db == null) return mcap(b) - mcap(a);
+        if (da == null) return 1;
+        if (db == null) return -1;
+        va = da; vb = db;
+      }
       else { va = a[k] || ''; vb = b[k] || ''; }
       if (va < vb) return -1 * d; if (va > vb) return 1 * d; return mcap(b) - mcap(a);
     });
@@ -114,14 +156,15 @@
     var rows = sortRows(DATA.filter(pass));
     var isLive = Object.keys(LIVE).length > 0;
     $('#count').innerHTML = '표시 <b>' + rows.length + '</b>종 / 전체 ' + DATA.length + '종'
-      + (F.min != null || F.max != null || F.type !== 'all' || F.cats.size || F.months.size || F.mgrs.size ? ' · 필터 적용됨' : '');
+      + (F.min != null || F.max != null || F.type !== 'all' || F.cats.size || F.months.size || F.mgrs.size || F.due ? ' · 필터 적용됨' : '')
+      + (F.due ? ' · 정기변경 ' + F.due + '일 이내' : '');
 
     $$('#tbl thead th').forEach(function (th) {
       var base = th.textContent.replace(/[▲▼]\s*$/, '').trim();
       th.innerHTML = base + (th.dataset.sort === SORT.key ? ' <span class="ar">' + (SORT.dir < 0 ? '▼' : '▲') + '</span>' : '');
     });
 
-    if (!rows.length) { $('#rows').innerHTML = '<tr><td colspan="4" class="empty">조건에 맞는 ETF가 없습니다.</td></tr>'; return; }
+    if (!rows.length) { $('#rows').innerHTML = '<tr><td colspan="5" class="empty">조건에 맞는 ETF가 없습니다.</td></tr>'; return; }
     $('#rows').innerHTML = rows.map(function (e) {
       var warn = e.breach_summary ? '<span class="badge-warn" title="비중 cap 초과 종목 있음">⚠ ' + e.breach_summary.count + '</span>' : '';
       var cv = mcap(e);
@@ -131,10 +174,27 @@
         + '<span class="tag cat-' + e.category + '">' + e.category + '</span>' + warn + '</div></td>'
         + '<td class="hide-sm"><span class="tag sched' + (e.schedule_verified ? '' : ' est') + '"'
         + (e.schedule_verified ? '' : ' title="자동추정 · 개별 확인 필요"') + '>' + e.schedule_label + '</span></td>'
+        + '<td>' + dueCell(e) + '</td>'
         + '<td class="num"><span class="mktcap' + (isLive ? ' mc-live' : '') + '">' + PE.won(cv) + '</span></td>'
         + '<td class="hide-sm"><span class="tag mgr">' + e.manager + '</span></td>'
         + '</tr>';
     }).join('');
+  }
+
+  // 다음 정기변경 셀 — D-day 배지 + 날짜. 임박할수록 진하게.
+  function dueCell(e) {
+    var n = nextRebal(e);
+    if (!n) {
+      var ms = e.months;
+      if (ms === null) return '<span class="due none" title="정기변경 규칙 미확인">확인 요</span>';
+      return '<span class="due none" title="고정 정기 종목교체 없이 수시 반영">수시</span>';
+    }
+    var d = Math.round((n.date - TODAY) / 86400000);
+    var cls = d <= 14 ? 'hot' : (d <= 31 ? 'soon' : '');
+    var md = n.iso.slice(5).replace('-', '/');
+    return '<span class="due ' + cls + '" title="' + n.rule + (n.est ? ' · 자동추정' : '')
+      + ' — 지수 변경 효력일 예상치(공휴일 미반영)">'
+      + '<b>D-' + d + '</b><span class="dt">' + md + (n.est ? '<span class="est-mark">~</span>' : '') + '</span></span>';
   }
 
   // ── 실시간 갱신 ─────────────────────────────
@@ -196,7 +256,7 @@
       $('#f-min').value = '';
       render();
     } catch (e) {
-      $('#rows').innerHTML = '<tr><td colspan="4" class="empty">데이터를 불러오지 못했습니다. (' + e.message + ')</td></tr>';
+      $('#rows').innerHTML = '<tr><td colspan="5" class="empty">데이터를 불러오지 못했습니다. (' + e.message + ')</td></tr>';
     }
     $('#refresh').onclick = refresh;
   })();

@@ -52,6 +52,24 @@
     return '<div class="xlinks">' + out.join('') + '<span class="xnote">' + note + '</span></div>';
   }
 
+  // 다음 정기변경 예정일 — 목록 화면의 '정기변경 임박' 필터와 같은 계산(빌드 시 산출)
+  function nextRebalLine(e) {
+    var r = e.rebalance;
+    if (!r || !r.dates || !r.dates.length) return '';
+    var today = new Date(); today.setHours(0, 0, 0, 0);
+    for (var i = 0; i < r.dates.length; i++) {
+      var d = new Date(r.dates[i] + 'T00:00:00');
+      if (d >= today) {
+        var dd = Math.round((d - today) / 86400000);
+        return '<div style="margin-top:8px"><span class="due ' + (dd <= 14 ? 'hot' : (dd <= 31 ? 'soon' : '')) + '">'
+          + '<b>D-' + dd + '</b><span class="dt">' + esc(r.dates[i]) + '</span></span>'
+          + '<span class="note" style="display:inline;margin-left:6px">' + esc(r.rule)
+          + (r.estimated ? ' · 자동추정' : '') + ' 기준 예상 효력일(공휴일 미반영)</span></div>';
+      }
+    }
+    return '';
+  }
+
   function monthsChips(ms) {
     if (!ms || !ms.length) return '<span class="tag sched">수시 (고정 종목교체 없음)</span>';
     return ms.map(function (m) { return '<span class="tag sched">' + m + '월</span>'; }).join(' ');
@@ -92,6 +110,7 @@
     html += card('정기변경 일정',
       '<div class="v">' + esc(e.schedule_label) + '</div>'
       + '<div style="margin-top:8px">' + monthsChips(e.months) + '</div>'
+      + nextRebalLine(e)
       + '<div class="note">' + esc(e.schedule_detail || '') + '</div>');
     html += card('비중 cap 규칙 ' + capPill,
       cap ? ('<div class="v">' + esc(cap.label || '-') + '</div>'

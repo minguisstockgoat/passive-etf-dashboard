@@ -143,6 +143,10 @@ def main():
 
     etfs.sort(key=lambda x: x["market_cap"], reverse=True)
 
+    # 다음 정기변경 예정일(목록 화면의 '정기변경 임박' 필터·정렬용)
+    import rebal_dates as RD
+    n_sched = RD.attach(etfs)
+
     # 외부 링크(운용사 상품·구성종목 PDF 원문 / 기초지수 산출기관) — 실패해도 빌드는 계속
     try:
         import links as LK
@@ -169,6 +173,7 @@ def main():
     print(f"기준일 {out['as_of']} · {len(etfs)}종 (커버레이션 {len(etfs)-auto} + 자동 {auto}) "
           f"· 시총 {out['min_cap_eok']:,}억+ → data/etfs.json")
     print(f"  구성종목 보유: {hs}/{len(etfs)} · 단일종목 제외 {single}종")
+    print(f"  다음 정기변경 예정일 계산: {n_sched}/{len(etfs)}종 (나머지는 수시·미확인)")
     if missing:
         print("  ! 큐레이션 미해결:", missing)
 
