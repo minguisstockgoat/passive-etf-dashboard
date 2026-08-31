@@ -142,6 +142,16 @@ def main():
         })
 
     etfs.sort(key=lambda x: x["market_cap"], reverse=True)
+
+    # 외부 링크(운용사 상품·구성종목 PDF 원문 / 기초지수 산출기관) — 실패해도 빌드는 계속
+    try:
+        import links as LK
+        lk = LK.build(etfs)
+        for e in etfs:
+            e["links"] = lk.get(e["ticker"])
+    except Exception as e:
+        print("  ! 외부 링크 빌드 실패(링크 없이 진행):", e)
+
     out = {
         "as_of": f"{bas[:4]}-{bas[4:6]}-{bas[6:]}",
         "generated_at": dt.datetime.now().strftime("%Y-%m-%d %H:%M"),

@@ -32,6 +32,26 @@
 
   function fail(m) { $('#detail').innerHTML = '<div class="empty">' + esc(m) + '</div>'; }
 
+  // 외부 링크 버튼. 운용사 PDF 는 '지금 이 순간' 기준이라 스냅샷보다 항상 최신이다.
+  function linkBtn(url, text, cls) {
+    if (!url) return '';
+    return '<a class="xlink ' + (cls || '') + '" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">'
+      + esc(text) + '<span class="ext">↗</span></a>';
+  }
+
+  function linkBar(e) {
+    var L = e.links;
+    if (!L) return '';
+    var out = [];
+    out.push(linkBtn(L.product, L.manager_label + ' 상품페이지', 'prod'));
+    if (L.pdf && L.pdf !== L.product) out.push(linkBtn(L.pdf, '구성종목(PDF) 원문', 'pdf'));
+    out.push(linkBtn(L.index_url, L.index_label, 'idx'));
+    var note = L.pdf_exact
+      ? '운용사 원문은 실시간(운용사 게시 기준)입니다. 아래 표는 매일 저녁 받아둔 스냅샷이라 기준일이 다를 수 있습니다.'
+      : '운용사 상품 페이지를 자동으로 특정하지 못해 상품 목록으로 연결됩니다.';
+    return '<div class="xlinks">' + out.join('') + '<span class="xnote">' + note + '</span></div>';
+  }
+
   function monthsChips(ms) {
     if (!ms || !ms.length) return '<span class="tag sched">수시 (고정 종목교체 없음)</span>';
     return ms.map(function (m) { return '<span class="tag sched">' + m + '월</span>'; }).join(' ');
@@ -58,9 +78,17 @@
       + '<div class="d-mktcap"><div class="v">' + PE.won(e.market_cap) + '</div><div class="l">시가총액 · KRX ' + esc(e.krx_name || '') + '</div></div>'
       + '</div>';
 
+    // 운용사 상품페이지 · 구성종목(PDF) 원문 · 기초지수 산출기관
+    html += linkBar(e);
+
     // 개요 카드
     html += '<div class="cards">';
-    html += card('기초지수', '<div class="v">' + esc(e.index_name || '-') + '</div>');
+    html += card('기초지수', '<div class="v">' + esc(e.index_name || '-') + '</div>'
+      + ((e.links && e.links.index_url)
+        ? '<div class="note">' + linkBtn(e.links.index_url, e.links.index_label, 'sm')
+          + (e.links.index_deep ? '' : ' <span style="color:var(--muted)">(개별 지수 페이지를 특정하지 못해 산출기관 페이지로 연결)</span>')
+          + '</div>'
+        : ''));
     html += card('정기변경 일정',
       '<div class="v">' + esc(e.schedule_label) + '</div>'
       + '<div style="margin-top:8px">' + monthsChips(e.months) + '</div>'
@@ -101,7 +129,9 @@
     // 구성종목(PDF)
     html += '<div class="sec-title"><h2>구성종목 (PDF)</h2>'
       + '<div class="meta">' + (hold ? ('기준일 ' + esc(hold.asof) + ' · ' + hold.count + '종 · 비중합 ' + (hold.total_weight || 0) + '%'
-          + (FUND > 0 ? ' · 평가금액 = 구성비중 × ' + FUND_LBL + ' ' + PE.won(FUND) : '')) : '수집 준비중') + '</div></div>';
+          + (FUND > 0 ? ' · 평가금액 = 구성비중 × ' + FUND_LBL + ' ' + PE.won(FUND) : '')) : '수집 준비중') + '</div>'
+      + (e.links ? linkBtn(e.links.pdf, '운용사 원문 PDF 실시간 보기', 'sm pdf') : '')
+      + '</div>';
     if (hold && hold.holdings && hold.holdings.length) {
       HOLD = hold.holdings.map(function (h) {
         var o = {}; for (var k in h) o[k] = h[k];

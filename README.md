@@ -8,6 +8,8 @@
   필터: ① 섹터·테마 여부 ② 시가총액 범위 ③ 정기변경 월 ④ 운용사. 상단 **실시간 갱신** 버튼.
 - **개별 ETF(etf.html?ticker=)** — 기초지수 · 정기변경일 · 비중 cap 규칙(확인/확인 요 배지) 요약,
   cap 초과 시 **※주의 매도규모**(= 시가총액 × 초과 %p), 하단 **구성종목(PDF)** 표(초과 종목 강조).
+  상단에 **운용사 상품페이지 · 구성종목(PDF) 원문 · 기초지수 산출기관** 바로가기 링크.
+  표의 구성종목은 매일 저녁 받아둔 스냅샷이라, 지금 이 순간 기준 PDF 는 원문 링크로 확인한다.
 
 ## 데이터 파이프라인 (scripts/)
 | 파일 | 역할 |
@@ -18,7 +20,8 @@
 | `fetchers.py` | 운용사별 구성종목(PDF) 수집기 (KODEX·TIGER·RISE·SOL·ACE·PLUS·KIWOOM·HANARO) |
 | `fetch_holdings.py` | 위 fetcher로 `data/holdings/{ticker}.json` 생성 |
 | `caps.py` | cap 초과 판정 + 매도규모 계산 |
-| `build_data.py` | 스냅샷+메타+cap → `data/etfs.json` |
+| `links.py` | 운용사 상품·PDF 원문 URL + 기초지수 산출기관 URL → `data/links.json` |
+| `build_data.py` | 스냅샷+메타+cap(+links) → `data/etfs.json` |
 | `refresh_all.py` | 전체 갱신(수집→빌드) |
 
 ### 로컬 실행
@@ -30,10 +33,32 @@ py refresh_all.py            # 전체 갱신
 py -m http.server 8860 --directory ..   # http://localhost:8860
 ```
 
+## 외부 링크 (links.py)
+운용사 내부코드(ISIN·FUND_CD·fId·uid…)를 한 번 해석해 `data/links.json` 에 캐시하고,
+`build_data.py` 가 ETF 레코드에 `links` 로 붙인다. 캐시된 티커는 재조회하지 않는다.
+
+| 운용사 | 상품 상세 URL |
+|--------|----------------|
+| TIGER | `investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund={ISIN}` (`#section7` = 자산 구성) |
+| KODEX | `samsungfund.com/etf/product/view.do?id={fId}` |
+| RISE | `riseetf.co.kr/prod/finderDetail/{rise_code}` |
+| SOL | `soletf.com/ko/fund/etf/{FUND_CD}` (`?tabIndex=3` = 구성종목(PDF)) |
+| ACE | `aceetf.co.kr/fund/{fundCd}` |
+| PLUS | `plusetf.co.kr/product/detail?n={n}` |
+| HANARO | `hanaroetf.com/fund/{uid}` |
+| KIWOOM | `kiwoometf.com/service/etf/KO02010200M?gcode={티커}` |
+
+기초지수는 산출기관별로 연결한다. **FnGuide·MKF 계열**은 fnindex 지수 트리에서 지수코드를
+찾아 `fnindex.co.kr/overview/info/{IDX_CD}` 개별 페이지로, **WISE** 계열은
+`wiseindex.com/Index/Index#/{code}` 로 직접 연결한다(이름이 정확히 안 맞으면 한쪽이 다른
+쪽을 포함하고 길이비 0.6 이상인 후보가 유일할 때만 채택 — 오연결보다 대표페이지가 낫다).
+KRX·코스피/코스닥·iSelect(NH투자증권)·KEDI(한국경제)·MSCI·Akros 는 산출기관 대표 페이지로 보낸다.
+
 ## 데이터 출처
 - 시가총액·상장좌수·기초지수: **KRX 정보데이터시스템 OPEN API** (`etp/etf_bydd_trd`).
 - 구성종목(PDF): **각 운용사 공식 공시** 엔드포인트(인증 불필요).
 - 정기변경 일정: 지수 방법론(삼성증권 ETF 리밸런싱 자료 기준) 정리.
+- 외부 링크: 각 운용사 공식 사이트 · fnindex / wiseindex / index.krx / kedindex / NH iSelect.
 - 비중 cap: 지수 방법론/투자설명서 조사. `확인 요` 배지는 2차 출처 기반으로 원문 재확인 권장.
 
 ## 자동 갱신
