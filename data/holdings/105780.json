@@ -3,80 +3,72 @@
  "name": "RISE 5대그룹주",
  "manager": "RISE",
  "source": "KB RISE",
- "asof": "2026-09-03",
- "total_weight": 100.01,
+ "asof": "2026-09-04",
+ "total_weight": 100.0,
  "count": 29,
  "holdings": [
   {
    "code": "005930",
    "name": "삼성전자",
-   "weight": 10.11,
+   "weight": 10.2,
    "shares": 1313.0,
-   "amount": 342693000.0,
+   "amount": 328906500.0,
    "over_cap": true
   },
   {
    "code": "402340",
    "name": "SK스퀘어",
-   "weight": 10.07,
+   "weight": 9.74,
    "shares": 320.0,
-   "amount": 341440000.0,
-   "over_cap": true
-  },
-  {
-   "code": "000660",
-   "name": "SK하이닉스",
-   "weight": 9.34,
-   "shares": 187.0,
-   "amount": 316591000.0,
+   "amount": 314240000.0,
    "over_cap": false
   },
   {
    "code": "009150",
    "name": "삼성전기",
-   "weight": 9.19,
+   "weight": 9.46,
    "shares": 218.0,
-   "amount": 311740000.0,
+   "amount": 305200000.0,
+   "over_cap": false
+  },
+  {
+   "code": "000660",
+   "name": "SK하이닉스",
+   "weight": 9.35,
+   "shares": 187.0,
+   "amount": 301631000.0,
    "over_cap": false
   },
   {
    "code": "005380",
    "name": "현대차",
-   "weight": 7.25,
+   "weight": 7.2,
    "shares": 614.0,
-   "amount": 245907000.0,
+   "amount": 232092000.0,
    "over_cap": false
   },
   {
    "code": "028260",
    "name": "삼성물산",
-   "weight": 5.09,
+   "weight": 5.11,
    "shares": 442.0,
-   "amount": 172601000.0,
+   "amount": 164866000.0,
    "over_cap": false
   },
   {
    "code": "006400",
    "name": "삼성SDI",
-   "weight": 4.56,
+   "weight": 4.54,
    "shares": 272.0,
-   "amount": 154768000.0,
+   "amount": 146336000.0,
    "over_cap": false
   },
   {
    "code": "000270",
    "name": "기아",
-   "weight": 4.33,
+   "weight": 4.31,
    "shares": 1118.0,
-   "amount": 146681600.0,
-   "over_cap": false
-  },
-  {
-   "code": "012330",
-   "name": "현대모비스",
-   "weight": 3.56,
-   "shares": 272.0,
-   "amount": 120632000.0,
+   "amount": 139079200.0,
    "over_cap": false
   },
   {
@@ -84,71 +76,79 @@
    "name": "삼성생명",
    "weight": 3.54,
    "shares": 388.0,
-   "amount": 120086000.0,
+   "amount": 114072000.0,
+   "over_cap": false
+  },
+  {
+   "code": "012330",
+   "name": "현대모비스",
+   "weight": 3.5,
+   "shares": 272.0,
+   "amount": 113016000.0,
    "over_cap": false
   },
   {
    "code": "066570",
    "name": "LG전자",
-   "weight": 3.02,
+   "weight": 3.08,
    "shares": 496.0,
-   "amount": 102424000.0,
+   "amount": 99448000.0,
    "over_cap": false
   },
   {
    "code": "000810",
    "name": "삼성화재",
-   "weight": 2.72,
+   "weight": 2.77,
    "shares": 136.0,
-   "amount": 92072000.0,
+   "amount": 89352000.0,
    "over_cap": false
   },
   {
    "code": "034730",
    "name": "SK",
-   "weight": 2.66,
+   "weight": 2.6,
    "shares": 154.0,
-   "amount": 90244000.0,
+   "amount": 83930000.0,
    "over_cap": false
   },
   {
    "code": "207940",
    "name": "삼성바이오로직스",
-   "weight": 2.38,
+   "weight": 2.47,
    "shares": 53.0,
-   "amount": 80560000.0,
+   "amount": 79553000.0,
    "over_cap": false
   },
   {
    "code": "373220",
    "name": "LG에너지솔루션",
-   "weight": 2.34,
+   "weight": 2.33,
    "shares": 216.0,
-   "amount": 79272000.0,
+   "amount": 75060000.0,
    "over_cap": false
   },
   {
    "code": "267260",
    "name": "HD현대일렉트릭",
-   "weight": 2.31,
+   "weight": 2.25,
    "shares": 102.0,
-   "amount": 78438000.0,
+   "amount": 72522000.0,
    "over_cap": false
   },
   {
    "code": "009540",
    "name": "HD한국조선해양",
-   "weight": 2.18,
+   "weight": 2.14,
    "shares": 209.0,
-   "amount": 73881500.0,
+   "amount": 68865500.0,
    "over_cap": false
   },
   {
    "code": "329180",
    "name": "HD현대중공업",
-   "weight": 2.0,
+   "weight": 1.96,
    "shares": 150.0,
-   "amount": 67950000.0,
+   "amount": 63300000.0,
    "over_cap": false
   },
   {
@@ -156,7 +156,7 @@
    "name": "삼성중공업",
    "weight": 1.86,
    "shares": 3006.0,
-   "amount": 63126000.0,
+   "amount": 59939640.0,
    "over_cap": false
   },
   {
@@ -164,39 +164,39 @@
    "name": "LG화학",
    "weight": 1.79,
    "shares": 215.0,
-   "amount": 60630000.0,
+   "amount": 57835000.0,
    "over_cap": false
   },
   {
    "code": "017670",
    "name": "SK텔레콤",
-   "weight": 1.72,
+   "weight": 1.74,
    "shares": 615.0,
-   "amount": 58179000.0,
+   "amount": 56211000.0,
    "over_cap": false
   },
   {
    "code": "003550",
    "name": "LG",
-   "weight": 1.36,
+   "weight": 1.41,
    "shares": 384.0,
-   "amount": 46195200.0,
+   "amount": 45504000.0,
    "over_cap": false
   },
   {
    "code": "267250",
    "name": "HD현대",
-   "weight": 1.3,
+   "weight": 1.31,
    "shares": 201.0,
-   "amount": 44019000.0,
+   "amount": 42109500.0,
    "over_cap": false
   },
   {
    "code": "064350",
    "name": "현대로템",
-   "weight": 1.28,
+   "weight": 1.27,
    "shares": 333.0,
-   "amount": 43389900.0,
+   "amount": 40925700.0,
    "over_cap": false
   },
   {
@@ -204,63 +204,55 @@
    "name": "삼성에스디에스",
    "weight": 1.26,
    "shares": 175.0,
-   "amount": 42875000.0,
+   "amount": 40775000.0,
    "over_cap": false
   },
   {
    "code": "096770",
    "name": "SK이노베이션",
-   "weight": 1.19,
+   "weight": 1.21,
    "shares": 297.0,
-   "amount": 40184100.0,
+   "amount": 39055500.0,
    "over_cap": false
   },
   {
    "code": "086280",
    "name": "현대글로비스",
-   "weight": 1.07,
+   "weight": 1.05,
    "shares": 173.0,
-   "amount": 36243500.0,
+   "amount": 33735000.0,
    "over_cap": false
   },
   {
    "code": "0126Z0",
    "name": "삼성에피스홀딩스",
-   "weight": 0.33,
+   "weight": 0.34,
    "shares": 30.0,
-   "amount": 11325000.0,
+   "amount": 10920000.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "원화예금",
-   "weight": 0.2,
-   "shares": 6736982.0,
-   "amount": 6736982.0,
+   "weight": 0.21,
+   "shares": 6772628.0,
+   "amount": 6772628.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 10.0,
   "verified": true,
-  "count": 2,
-  "total_sell": 60804000,
+  "count": 1,
+  "total_sell": 64520000,
   "items": [
    {
     "code": "005930",
     "name": "삼성전자",
-    "weight": 10.11,
+    "weight": 10.2,
     "cap_pct": 10.0,
-    "excess_pp": 0.11,
-    "sell_amount": 37158000
-   },
-   {
-    "code": "402340",
-    "name": "SK스퀘어",
-    "weight": 10.07,
-    "cap_pct": 10.0,
-    "excess_pp": 0.07,
-    "sell_amount": 23646000
+    "excess_pp": 0.2,
+    "sell_amount": 64520000
    }
   ]
  },
