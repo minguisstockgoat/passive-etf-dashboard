@@ -3,16 +3,24 @@
  "name": "KODEX Top10동일가중",
  "manager": "KODEX",
  "source": "삼성 KODEX",
- "asof": "2026-09-10",
- "total_weight": 99.98,
+ "asof": "2026-09-11",
+ "total_weight": 99.99,
  "count": 10,
  "holdings": [
   {
    "code": "373220",
    "name": "LG에너지솔루션",
-   "weight": 11.64,
+   "weight": 11.47,
    "shares": 493.0,
-   "amount": 182903000.0,
+   "amount": 179945000.0,
+   "over_cap": false
+  },
+  {
+   "code": "028260",
+   "name": "삼성물산",
+   "weight": 11.18,
+   "shares": 462.0,
+   "amount": 175329000.0,
    "over_cap": false
   },
   {
@@ -20,15 +28,7 @@
    "name": "SK스퀘어",
    "weight": 11.15,
    "shares": 154.0,
-   "amount": 175252000.0,
-   "over_cap": false
-  },
-  {
-   "code": "028260",
-   "name": "삼성물산",
-   "weight": 11.06,
-   "shares": 462.0,
-   "amount": 173712000.0,
+   "amount": 174790000.0,
    "over_cap": false
   },
   {
@@ -36,7 +36,7 @@
    "name": "삼성전자",
    "weight": 10.87,
    "shares": 634.0,
-   "amount": 170863000.0,
+   "amount": 170546000.0,
    "over_cap": false
   },
   {
@@ -44,47 +44,47 @@
    "name": "SK하이닉스",
    "weight": 10.63,
    "shares": 90.0,
-   "amount": 167040000.0,
+   "amount": 166770000.0,
    "over_cap": false
   },
   {
    "code": "032830",
    "name": "삼성생명",
-   "weight": 10.02,
+   "weight": 10.24,
    "shares": 519.0,
-   "amount": 157516500.0,
+   "amount": 160630500.0,
    "over_cap": false
   },
   {
    "code": "009150",
    "name": "삼성전기",
-   "weight": 9.38,
+   "weight": 9.37,
    "shares": 105.0,
-   "amount": 147420000.0,
+   "amount": 147000000.0,
    "over_cap": false
   },
   {
    "code": "012330",
    "name": "현대모비스",
-   "weight": 8.74,
+   "weight": 8.72,
    "shares": 329.0,
-   "amount": 137357500.0,
+   "amount": 136699500.0,
    "over_cap": false
   },
   {
    "code": "329180",
    "name": "HD현대중공업",
-   "weight": 8.64,
+   "weight": 8.47,
    "shares": 293.0,
-   "amount": 135805500.0,
+   "amount": 132875500.0,
    "over_cap": false
   },
   {
    "code": "005380",
    "name": "현대차",
-   "weight": 7.85,
+   "weight": 7.89,
    "shares": 318.0,
-   "amount": 123384000.0,
+   "amount": 123702000.0,
    "over_cap": false
   }
  ],
