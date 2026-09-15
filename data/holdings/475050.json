@@ -3,72 +3,64 @@
  "name": "ACE KPOP포커스",
  "manager": "ACE",
  "source": "한국투자 ACE",
- "asof": "2026-09-14",
+ "asof": "2026-09-15",
  "total_weight": 99.98,
  "count": 10,
  "holdings": [
   {
    "code": "041510",
    "name": "에스엠",
-   "weight": 25.51,
+   "weight": 26.06,
    "shares": 1070.0,
-   "amount": 89880000.0,
+   "amount": 94160000.0,
    "over_cap": true
   },
   {
    "code": "352820",
    "name": "하이브",
-   "weight": 24.79,
+   "weight": 24.55,
    "shares": 505.0,
-   "amount": 87365000.0,
+   "amount": 88728500.0,
    "over_cap": false
   },
   {
    "code": "035900",
    "name": "JYP Ent.",
-   "weight": 24.66,
+   "weight": 24.15,
    "shares": 2209.0,
-   "amount": 86924150.0,
+   "amount": 87255500.0,
    "over_cap": false
   },
   {
    "code": "122870",
    "name": "와이지엔터테인먼트",
-   "weight": 20.1,
+   "weight": 20.3,
    "shares": 1632.0,
-   "amount": 70828800.0,
+   "amount": 73358400.0,
    "over_cap": false
   },
   {
    "code": "035760",
    "name": "CJ ENM",
-   "weight": 0.84,
+   "weight": 0.86,
    "shares": 85.0,
-   "amount": 2975000.0,
-   "over_cap": false
-  },
-  {
-   "code": "060570",
-   "name": "드림어스컴퍼니",
-   "weight": 0.83,
-   "shares": 589.0,
-   "amount": 2968560.0,
+   "amount": 3136500.0,
    "over_cap": false
   },
   {
    "code": "182360",
    "name": "큐브엔터",
-   "weight": 0.82,
+   "weight": 0.84,
    "shares": 485.0,
-   "amount": 2929400.0,
+   "amount": 3050650.0,
    "over_cap": false
   },
   {
-   "code": "376300",
-   "name": "디어유",
+   "code": "060570",
+   "name": "드림어스컴퍼니",
    "weight": 0.82,
-   "shares": 164.0,
-   "amount": 2927400.0,
+   "shares": 589.0,
+   "amount": 2974450.0,
    "over_cap": false
   },
   {
@@ -76,15 +68,23 @@
    "name": "YG PLUS",
    "weight": 0.81,
    "shares": 918.0,
-   "amount": 2887110.0,
+   "amount": 2937600.0,
+   "over_cap": false
+  },
+  {
+   "code": "376300",
+   "name": "디어유",
+   "weight": 0.81,
+   "shares": 164.0,
+   "amount": 2947080.0,
    "over_cap": false
   },
   {
    "code": "473980",
    "name": "노머스",
-   "weight": 0.8,
+   "weight": 0.78,
    "shares": 260.0,
-   "amount": 2857400.0,
+   "amount": 2836600.0,
    "over_cap": false
   }
  ],
@@ -92,15 +92,15 @@
   "cap_pct": 25.0,
   "verified": true,
   "count": 1,
-  "total_sell": 534775800,
+  "total_sell": 1137380000,
   "items": [
    {
     "code": "041510",
     "name": "에스엠",
-    "weight": 25.51,
+    "weight": 26.06,
     "cap_pct": 25.0,
-    "excess_pp": 0.51,
-    "sell_amount": 534775800
+    "excess_pp": 1.06,
+    "sell_amount": 1137380000
    }
   ]
  },

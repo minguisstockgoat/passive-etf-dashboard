@@ -3,98 +3,79 @@
  "name": "HANARO K휴머노이드테마TOP10",
  "manager": "HANARO",
  "source": "NH아문디 HANARO",
- "asof": "2026-09-14",
- "total_weight": 99.51,
+ "asof": "2026-09-15",
+ "total_weight": 99.5,
  "count": 10,
  "holdings": [
   {
    "code": "005380",
    "name": "현대차",
-   "weight": 14.71,
+   "weight": 14.74,
    "shares": 150.0,
-   "amount": 57375000.0,
-   "over_cap": false
+   "amount": 55725000.0
   },
   {
    "code": "277810",
    "name": "레인보우로보틱스",
-   "weight": 14.53,
+   "weight": 14.46,
    "shares": 130.0,
-   "amount": 56680000.0,
-   "over_cap": false
+   "amount": 54665000.0
   },
   {
    "code": "108490",
    "name": "로보티즈",
-   "weight": 10.04,
+   "weight": 10.39,
    "shares": 121.0,
-   "amount": 39143500.0,
-   "over_cap": false
-  },
-  {
-   "code": "307950",
-   "name": "현대오토에버",
-   "weight": 9.9,
-   "shares": 99.0,
-   "amount": 38610000.0,
-   "over_cap": false
+   "amount": 39264500.0
   },
   {
    "code": "204320",
    "name": "HL만도",
-   "weight": 9.9,
+   "weight": 9.96,
    "shares": 776.0,
-   "amount": 38606000.0,
-   "over_cap": false
+   "amount": 37636000.0
+  },
+  {
+   "code": "307950",
+   "name": "현대오토에버",
+   "weight": 9.78,
+   "shares": 99.0,
+   "amount": 36976500.0
   },
   {
    "code": "454910",
    "name": "두산로보틱스",
-   "weight": 9.74,
+   "weight": 9.75,
    "shares": 531.0,
-   "amount": 37966500.0,
-   "over_cap": false
+   "amount": 36851400.0
   },
   {
    "code": "058610",
    "name": "에스피지",
-   "weight": 9.48,
+   "weight": 9.17,
    "shares": 382.0,
-   "amount": 36977600.0,
-   "over_cap": false
+   "amount": 34647400.0
   },
   {
    "code": "437730",
    "name": "삼현",
-   "weight": 8.42,
+   "weight": 8.34,
    "shares": 776.0,
-   "amount": 32824800.0,
-   "over_cap": false
+   "amount": 31505600.0
   },
   {
    "code": "012330",
    "name": "현대모비스",
-   "weight": 6.5,
+   "weight": 6.46,
    "shares": 61.0,
-   "amount": 25345500.0,
-   "over_cap": false
+   "amount": 24400000.0
   },
   {
    "code": "066570",
    "name": "LG전자",
-   "weight": 6.29,
+   "weight": 6.45,
    "shares": 123.0,
-   "amount": 24538500.0,
-   "over_cap": false
+   "amount": 24378600.0
   }
- ],
- "breach_summary": null,
- "cap": {
-  "single_cap": null,
-  "index_exception": true,
-  "label": "비중상한 미확인 · 확인 요",
-  "source": "지수 방법론/투자설명서 원문 미확인",
-  "verified": false,
-  "note": "자체 비중상한이 있을 수 있으나 방법론 원문을 확인하지 못했다. 잘못된 매도경고를 피하기 위해 cap 초과 판정을 보류한다. 정확한 상한은 지수 방법론/투자설명서 확인 필요."
- }
+ ]
 }
