@@ -3,104 +3,104 @@
  "name": "RISE 네트워크인프라",
  "manager": "RISE",
  "source": "KB RISE",
- "asof": "2026-09-16",
- "total_weight": 99.99,
+ "asof": "2026-09-17",
+ "total_weight": 100.0,
  "count": 24,
  "holdings": [
   {
    "code": "005930",
    "name": "삼성전자",
-   "weight": 22.65,
+   "weight": 22.83,
    "shares": 2535.0,
-   "amount": 631215000.0,
+   "amount": 629947500.0,
    "over_cap": true
   },
   {
    "code": "000660",
    "name": "SK하이닉스",
-   "weight": 21.98,
+   "weight": 22.11,
    "shares": 361.0,
-   "amount": 612617000.0,
+   "amount": 610090000.0,
    "over_cap": true
   },
   {
    "code": "009150",
    "name": "삼성전기",
-   "weight": 20.1,
+   "weight": 20.0,
    "shares": 419.0,
-   "amount": 560203000.0,
-   "over_cap": true
+   "amount": 551823000.0,
+   "over_cap": false
   },
   {
    "code": "011070",
    "name": "LG이노텍",
-   "weight": 10.64,
+   "weight": 10.58,
    "shares": 577.0,
-   "amount": 296578000.0,
+   "amount": 291962000.0,
    "over_cap": false
   },
   {
    "code": "007660",
    "name": "이수페타시스",
-   "weight": 8.64,
+   "weight": 8.5,
    "shares": 2243.0,
-   "amount": 240898200.0,
+   "amount": 234617800.0,
    "over_cap": false
   },
   {
    "code": "058470",
    "name": "리노공업",
-   "weight": 4.78,
+   "weight": 4.77,
    "shares": 2045.0,
-   "amount": 133129500.0,
+   "amount": 131493500.0,
    "over_cap": false
   },
   {
    "code": "080220",
    "name": "제주반도체",
-   "weight": 3.06,
+   "weight": 3.02,
    "shares": 1209.0,
-   "amount": 85234500.0,
+   "amount": 83179200.0,
    "over_cap": false
   },
   {
    "code": "010170",
    "name": "대한광통신",
-   "weight": 2.77,
+   "weight": 2.73,
    "shares": 5328.0,
-   "amount": 77202720.0,
+   "amount": 75337920.0,
    "over_cap": false
   },
   {
    "code": "218410",
    "name": "RFHIC",
-   "weight": 1.21,
+   "weight": 1.22,
    "shares": 680.0,
-   "amount": 33728000.0,
-   "over_cap": false
-  },
-  {
-   "code": "090460",
-   "name": "비에이치",
-   "weight": 0.7,
-   "shares": 974.0,
-   "amount": 19626100.0,
+   "amount": 33558000.0,
    "over_cap": false
   },
   {
    "code": "050890",
    "name": "쏠리드",
-   "weight": 0.69,
+   "weight": 0.71,
    "shares": 2232.0,
-   "amount": 19239840.0,
+   "amount": 19530000.0,
    "over_cap": false
   },
   {
    "code": "032500",
    "name": "케이엠더블유",
-   "weight": 0.68,
+   "weight": 0.69,
    "shares": 1185.0,
-   "amount": 19090350.0,
+   "amount": 19042950.0,
+   "over_cap": false
+  },
+  {
+   "code": "090460",
+   "name": "비에이치",
+   "weight": 0.69,
+   "shares": 974.0,
+   "amount": 19148840.0,
    "over_cap": false
   },
   {
@@ -108,15 +108,23 @@
    "name": "대덕",
    "weight": 0.34,
    "shares": 672.0,
-   "amount": 9549120.0,
+   "amount": 9408000.0,
    "over_cap": false
   },
   {
    "code": "138080",
    "name": "오이솔루션",
-   "weight": 0.3,
+   "weight": 0.31,
    "shares": 358.0,
-   "amount": 8251900.0,
+   "amount": 8466700.0,
+   "over_cap": false
+  },
+  {
+   "code": "290550",
+   "name": "디케이티",
+   "weight": 0.25,
+   "shares": 396.0,
+   "amount": 6807240.0,
    "over_cap": false
   },
   {
@@ -124,31 +132,23 @@
    "name": "파트론",
    "weight": 0.24,
    "shares": 1239.0,
-   "amount": 6690600.0,
+   "amount": 6603870.0,
    "over_cap": false
   },
   {
    "code": "073490",
    "name": "LIG아큐버",
-   "weight": 0.23,
+   "weight": 0.24,
    "shares": 220.0,
-   "amount": 6501000.0,
-   "over_cap": false
-  },
-  {
-   "code": "290550",
-   "name": "디케이티",
-   "weight": 0.23,
-   "shares": 396.0,
-   "amount": 6328080.0,
+   "amount": 6512000.0,
    "over_cap": false
   },
   {
    "code": "122990",
    "name": "와이솔",
-   "weight": 0.16,
+   "weight": 0.17,
    "shares": 682.0,
-   "amount": 4555760.0,
+   "amount": 4603500.0,
    "over_cap": false
   },
   {
@@ -156,15 +156,15 @@
    "name": "에치에프알",
    "weight": 0.15,
    "shares": 374.0,
-   "amount": 4263600.0,
+   "amount": 4267340.0,
    "over_cap": false
   },
   {
    "code": "077500",
    "name": "유니퀘스트",
-   "weight": 0.12,
+   "weight": 0.13,
    "shares": 473.0,
-   "amount": 3206940.0,
+   "amount": 3467090.0,
    "over_cap": false
   },
   {
@@ -172,7 +172,7 @@
    "name": "우리넷",
    "weight": 0.1,
    "shares": 312.0,
-   "amount": 2773680.0,
+   "amount": 2717520.0,
    "over_cap": false
   },
   {
@@ -180,7 +180,7 @@
    "name": "다산네트웍스",
    "weight": 0.1,
    "shares": 1239.0,
-   "amount": 2899260.0,
+   "amount": 2880675.0,
    "over_cap": false
   },
   {
@@ -188,47 +188,39 @@
    "name": "머큐리",
    "weight": 0.06,
    "shares": 354.0,
-   "amount": 1693890.0,
+   "amount": 1600080.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "원화예금",
    "weight": 0.06,
-   "shares": 1624811.0,
-   "amount": 1624811.0,
+   "shares": 1738863.0,
+   "amount": 1738863.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 20.0,
   "verified": true,
-  "count": 3,
-  "total_sell": 30448866525,
+  "count": 2,
+  "total_sell": 31409878500,
   "items": [
    {
     "code": "005930",
     "name": "삼성전자",
-    "weight": 22.65,
+    "weight": 22.83,
     "cap_pct": 20.0,
-    "excess_pp": 2.65,
-    "sell_amount": 17059090125
+    "excess_pp": 2.83,
+    "sell_amount": 17993918250
    },
    {
     "code": "000660",
     "name": "SK하이닉스",
-    "weight": 21.98,
+    "weight": 22.11,
     "cap_pct": 20.0,
-    "excess_pp": 1.98,
-    "sell_amount": 12746037150
-   },
-   {
-    "code": "009150",
-    "name": "삼성전기",
-    "weight": 20.1,
-    "cap_pct": 20.0,
-    "excess_pp": 0.1,
-    "sell_amount": 643739250
+    "excess_pp": 2.11,
+    "sell_amount": 13415960250
    }
   ]
  },
