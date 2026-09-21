@@ -12,70 +12,89 @@
    "name": "KB금융",
    "weight": 10.87,
    "shares": 908.0,
-   "amount": 162713600.0
+   "amount": 162713600.0,
+   "over_cap": false
   },
   {
    "code": "373220",
    "name": "LG에너지솔루션",
    "weight": 10.51,
    "shares": 431.0,
-   "amount": 157315000.0
+   "amount": 157315000.0,
+   "over_cap": false
   },
   {
    "code": "207940",
    "name": "삼성바이오로직스",
    "weight": 10.35,
    "shares": 111.0,
-   "amount": 154956000.0
+   "amount": 154956000.0,
+   "over_cap": false
   },
   {
    "code": "009150",
    "name": "삼성전기",
    "weight": 9.95,
    "shares": 112.0,
-   "amount": 148960000.0
+   "amount": 148960000.0,
+   "over_cap": false
   },
   {
    "code": "000660",
    "name": "SK하이닉스",
    "weight": 9.91,
    "shares": 85.0,
-   "amount": 148325000.0
+   "amount": 148325000.0,
+   "over_cap": false
   },
   {
    "code": "005930",
    "name": "삼성전자",
    "weight": 9.87,
    "shares": 585.0,
-   "amount": 147712500.0
+   "amount": 147712500.0,
+   "over_cap": false
   },
   {
    "code": "028260",
    "name": "삼성물산",
    "weight": 9.85,
    "shares": 415.0,
-   "amount": 147532500.0
+   "amount": 147532500.0,
+   "over_cap": false
   },
   {
    "code": "005380",
    "name": "현대차",
    "weight": 9.82,
    "shares": 405.0,
-   "amount": 147015000.0
+   "amount": 147015000.0,
+   "over_cap": false
   },
   {
    "code": "032830",
    "name": "삼성생명",
    "weight": 9.52,
    "shares": 508.0,
-   "amount": 142494000.0
+   "amount": 142494000.0,
+   "over_cap": false
   },
   {
    "code": "402340",
    "name": "SK스퀘어",
    "weight": 9.36,
    "shares": 139.0,
-   "amount": 140112000.0
+   "amount": 140112000.0,
+   "over_cap": false
   }
- ]
+ ],
+ "breach_summary": null,
+ "cap": {
+  "single_cap": null,
+  "index_exception": false,
+  "label": "동일가중 방식 · 종목 상한 이슈 없음",
+  "source": "FnGuide_TOP10_EW_Index_Methodology_Book_삼성자산운용_v1.0.pdf | '비중이 10%가 되도록 산정'(10종목 동일가중); '3, 6, 9, 12월 선물옵션 만기일(D) 이후 2영업일(D+2)에 정기변경'",
+  "verified": true,
+  "note": "동일가중(±틸팅). 단일종목 비중이 낮아 cap 초과 이슈 없음."
+ }
 }
