@@ -3,80 +3,80 @@
  "name": "HANARO 증권고배당TOP3플러스",
  "manager": "HANARO",
  "source": "NH아문디 HANARO",
- "asof": "2026-09-21",
- "total_weight": 99.48,
+ "asof": "2026-09-22",
+ "total_weight": 99.51,
  "count": 10,
  "holdings": [
   {
    "code": "071050",
    "name": "한국금융지주",
-   "weight": 20.7,
+   "weight": 20.61,
    "shares": 677.0,
-   "amount": 123417100.0,
+   "amount": 124838800.0,
    "over_cap": true
   },
   {
    "code": "039490",
    "name": "키움증권",
-   "weight": 20.08,
+   "weight": 19.91,
    "shares": 456.0,
-   "amount": 119700000.0,
-   "over_cap": true
-  },
-  {
-   "code": "006800",
-   "name": "미래에셋증권",
-   "weight": 16.18,
-   "shares": 3048.0,
-   "amount": 96469200.0,
+   "amount": 120612000.0,
    "over_cap": false
   },
   {
    "code": "005940",
    "name": "NH투자증권",
-   "weight": 16.04,
+   "weight": 16.26,
    "shares": 3744.0,
-   "amount": 95659200.0,
+   "amount": 98467200.0,
+   "over_cap": false
+  },
+  {
+   "code": "006800",
+   "name": "미래에셋증권",
+   "weight": 16.08,
+   "shares": 3048.0,
+   "amount": 97383600.0,
    "over_cap": false
   },
   {
    "code": "016360",
    "name": "삼성증권",
-   "weight": 14.95,
+   "weight": 15.22,
    "shares": 1045.0,
-   "amount": 89138500.0,
+   "amount": 92169000.0,
    "over_cap": false
   },
   {
    "code": "001720",
    "name": "신영증권",
-   "weight": 5.06,
+   "weight": 4.95,
    "shares": 214.0,
-   "amount": 30174000.0,
+   "amount": 29960000.0,
    "over_cap": false
   },
   {
    "code": "003540",
    "name": "대신증권",
-   "weight": 2.78,
+   "weight": 2.79,
    "shares": 641.0,
-   "amount": 16601900.0,
+   "amount": 16922400.0,
    "over_cap": false
   },
   {
    "code": "003470",
    "name": "유안타증권",
-   "weight": 1.87,
+   "weight": 1.88,
    "shares": 2509.0,
-   "amount": 11152505.0,
+   "amount": 11378315.0,
    "over_cap": false
   },
   {
    "code": "016610",
    "name": "DB증권",
-   "weight": 0.95,
+   "weight": 0.94,
    "shares": 553.0,
-   "amount": 5640600.0,
+   "amount": 5701430.0,
    "over_cap": false
   },
   {
@@ -84,31 +84,23 @@
    "name": "유진투자증권",
    "weight": 0.87,
    "shares": 1261.0,
-   "amount": 5201625.0,
+   "amount": 5264675.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 20.0,
   "verified": true,
-  "count": 2,
-  "total_sell": 404275950,
+  "count": 1,
+  "total_sell": 320144775,
   "items": [
    {
     "code": "071050",
     "name": "한국금융지주",
-    "weight": 20.7,
+    "weight": 20.61,
     "cap_pct": 20.0,
-    "excess_pp": 0.7,
-    "sell_amount": 362811750
-   },
-   {
-    "code": "039490",
-    "name": "키움증권",
-    "weight": 20.08,
-    "cap_pct": 20.0,
-    "excess_pp": 0.08,
-    "sell_amount": 41464200
+    "excess_pp": 0.61,
+    "sell_amount": 320144775
    }
   ]
  },
