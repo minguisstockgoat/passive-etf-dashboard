@@ -1,6 +1,6 @@
 {
- "count": 170,
- "index_deep": 58,
+ "count": 171,
+ "index_deep": 6,
  "links": {
   "069500": {
    "code": "2ETF01",
@@ -30,10 +30,10 @@
    "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7396500001",
    "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7396500001#section7",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.MSE",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "278530": {
    "code": "2ETF92",
@@ -63,20 +63,9 @@
    "product": "https://www.soletf.com/ko/fund/etf/211106",
    "pdf": "https://www.soletf.com/ko/fund/etf/211106?tabIndex=3",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.NMS",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
-  },
-  "229200": {
-   "code": "2ETF54",
-   "manager_label": "삼성 KODEX",
-   "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETF54",
-   "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETF54",
-   "pdf_exact": true,
-   "index_url": "https://index.krx.co.kr/contents/IDX/0101/IDX0101.jsp",
-   "index_label": "KRX 지수 (전체지수 시세)",
-   "index_provider": "KRX",
    "index_deep": false
   },
   "310970": {
@@ -88,6 +77,17 @@
    "index_url": "https://www.msci.com/indexes",
    "index_label": "MSCI Indexes",
    "index_provider": "MSCI",
+   "index_deep": false
+  },
+  "229200": {
+   "code": "2ETF54",
+   "manager_label": "삼성 KODEX",
+   "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETF54",
+   "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETF54",
+   "pdf_exact": true,
+   "index_url": "https://index.krx.co.kr/contents/IDX/0101/IDX0101.jsp",
+   "index_label": "KRX 지수 (전체지수 시세)",
+   "index_provider": "KRX",
    "index_deep": false
   },
   "148020": {
@@ -107,10 +107,10 @@
    "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETFE9",
    "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETFE9",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.NMS",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "395270": {
    "code": "B1EB325B8E6240D2",
@@ -118,10 +118,10 @@
    "product": "https://www.hanaroetf.com/fund/B1EB325B8E6240D2",
    "pdf": "https://www.hanaroetf.com/fund/B1EB325B8E6240D2",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.NHS",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "102780": {
    "code": "2ETF14",
@@ -184,10 +184,10 @@
    "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7292150000",
    "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7292150000#section7",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.T10",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "294400": {
    "code": "294400",
@@ -217,10 +217,10 @@
    "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETFB1",
    "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETFB1",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SBI",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "152100": {
    "code": "006184",
@@ -250,10 +250,10 @@
    "product": "https://www.soletf.com/ko/fund/etf/211028",
    "pdf": "https://www.soletf.com/ko/fund/etf/211028?tabIndex=3",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.STP",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "091230": {
    "code": "KR7091230003",
@@ -283,10 +283,10 @@
    "product": "https://www.aceetf.co.kr/fund/K55101E67600",
    "pdf": "https://www.aceetf.co.kr/fund/K55101E67600",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.HBM",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "455850": {
    "code": "210980",
@@ -294,20 +294,9 @@
    "product": "https://www.soletf.com/ko/fund/etf/210980",
    "pdf": "https://www.soletf.com/ko/fund/etf/210980?tabIndex=3",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SSC",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
-  },
-  "295040": {
-   "code": "210734",
-   "manager_label": "신한 SOL",
-   "product": "https://www.soletf.com/ko/fund/etf/210734",
-   "pdf": "https://www.soletf.com/ko/fund/etf/210734?tabIndex=3",
-   "pdf_exact": true,
-   "index_url": "https://index.krx.co.kr/contents/IDX/0101/IDX0101.jsp",
-   "index_label": "KRX 지수 (전체지수 시세)",
-   "index_provider": "KRX",
    "index_deep": false
   },
   "0117V0": {
@@ -321,16 +310,27 @@
    "index_provider": "KEDI",
    "index_deep": false
   },
+  "295040": {
+   "code": "210734",
+   "manager_label": "신한 SOL",
+   "product": "https://www.soletf.com/ko/fund/etf/210734",
+   "pdf": "https://www.soletf.com/ko/fund/etf/210734?tabIndex=3",
+   "pdf_exact": true,
+   "index_url": "https://index.krx.co.kr/contents/IDX/0101/IDX0101.jsp",
+   "index_label": "KRX 지수 (전체지수 시세)",
+   "index_provider": "KRX",
+   "index_deep": false
+  },
   "449450": {
    "code": "006192",
    "manager_label": "한화 PLUS",
    "product": "https://www.plusetf.co.kr/product/detail?n=006192",
    "pdf": "https://www.plusetf.co.kr/product/detail?n=006192",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.HBI",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "315930": {
    "code": "2ETFB5",
@@ -382,10 +382,10 @@
    "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7466940004",
    "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7466940004#section7",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.BDP",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "069660": {
    "code": "069660",
@@ -398,6 +398,17 @@
    "index_provider": "KRX",
    "index_deep": false
   },
+  "367760": {
+   "code": "44A7",
+   "manager_label": "KB RISE",
+   "product": "https://www.riseetf.co.kr/prod/finderDetail/44A7",
+   "pdf": "https://www.riseetf.co.kr/prod/finderDetail/44A7",
+   "pdf_exact": true,
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
+   "index_provider": "FnGuide",
+   "index_deep": false
+  },
   "434730": {
    "code": "5012FAEBEF0D4FB7",
    "manager_label": "NH아문디 HANARO",
@@ -408,17 +419,6 @@
    "index_label": "NH투자증권 iSelect 인덱스",
    "index_provider": "iSelect",
    "index_deep": false
-  },
-  "367760": {
-   "code": "44A7",
-   "manager_label": "KB RISE",
-   "product": "https://www.riseetf.co.kr/prod/finderDetail/44A7",
-   "pdf": "https://www.riseetf.co.kr/prod/finderDetail/44A7",
-   "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.KB5",
-   "index_label": "FnGuide 지수 상세",
-   "index_provider": "FnGuide",
-   "index_deep": true
   },
   "290130": {
    "code": "4479",
@@ -464,17 +464,6 @@
    "index_provider": "KRX",
    "index_deep": false
   },
-  "0148J0": {
-   "code": "KR70148J0006",
-   "manager_label": "미래에셋 TIGER",
-   "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR70148J0006",
-   "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR70148J0006#section7",
-   "pdf_exact": true,
-   "index_url": "https://www.kedindex.com/underlying/equity",
-   "index_label": "한국경제 KEDI 지수",
-   "index_provider": "KEDI",
-   "index_deep": false
-  },
   "102970": {
    "code": "2ETF15",
    "manager_label": "삼성 KODEX",
@@ -497,16 +486,27 @@
    "index_provider": "iSelect",
    "index_deep": false
   },
+  "0148J0": {
+   "code": "KR70148J0006",
+   "manager_label": "미래에셋 TIGER",
+   "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR70148J0006",
+   "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR70148J0006#section7",
+   "pdf_exact": true,
+   "index_url": "https://www.kedindex.com/underlying/equity",
+   "index_label": "한국경제 KEDI 지수",
+   "index_provider": "KEDI",
+   "index_deep": false
+  },
   "138540": {
    "code": "KR7138540000",
    "manager_label": "미래에셋 TIGER",
    "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7138540000",
    "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7138540000#section7",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.HFW",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "277630": {
    "code": "KR7277630000",
@@ -536,10 +536,10 @@
    "product": "https://www.soletf.com/ko/fund/etf/211097",
    "pdf": "https://www.soletf.com/ko/fund/etf/211097?tabIndex=3",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.KRD",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "315960": {
    "code": "4494",
@@ -563,6 +563,17 @@
    "index_provider": "KRX",
    "index_deep": false
   },
+  "462010": {
+   "code": "KR7462010000",
+   "manager_label": "미래에셋 TIGER",
+   "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7462010000",
+   "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7462010000#section7",
+   "pdf_exact": true,
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
+   "index_provider": "FnGuide",
+   "index_deep": false
+  },
   "496080": {
    "code": "KR7496080003",
    "manager_label": "미래에셋 TIGER",
@@ -573,17 +584,6 @@
    "index_label": "KRX 지수 (전체지수 시세)",
    "index_provider": "KRX",
    "index_deep": false
-  },
-  "462010": {
-   "code": "KR7462010000",
-   "manager_label": "미래에셋 TIGER",
-   "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7462010000",
-   "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7462010000#section7",
-   "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SBM",
-   "index_label": "FnGuide 지수 상세",
-   "index_provider": "FnGuide",
-   "index_deep": true
   },
   "463250": {
    "code": "KR7463250001",
@@ -607,17 +607,6 @@
    "index_provider": "KEDI",
    "index_deep": false
   },
-  "293180": {
-   "code": "FF68A9D0A7E949BB",
-   "manager_label": "NH아문디 HANARO",
-   "product": "https://www.hanaroetf.com/fund/FF68A9D0A7E949BB",
-   "pdf": "https://www.hanaroetf.com/fund/FF68A9D0A7E949BB",
-   "pdf_exact": true,
-   "index_url": "https://index.krx.co.kr/contents/IDX/0101/IDX0101.jsp",
-   "index_label": "KRX 지수 (전체지수 시세)",
-   "index_provider": "KRX",
-   "index_deep": false
-  },
   "471990": {
    "code": "2ETFL7",
    "manager_label": "삼성 KODEX",
@@ -629,11 +618,11 @@
    "index_provider": "iSelect",
    "index_deep": false
   },
-  "302450": {
-   "code": "4489",
-   "manager_label": "KB RISE",
-   "product": "https://www.riseetf.co.kr/prod/finderDetail/4489",
-   "pdf": "https://www.riseetf.co.kr/prod/finderDetail/4489",
+  "293180": {
+   "code": "FF68A9D0A7E949BB",
+   "manager_label": "NH아문디 HANARO",
+   "product": "https://www.hanaroetf.com/fund/FF68A9D0A7E949BB",
+   "pdf": "https://www.hanaroetf.com/fund/FF68A9D0A7E949BB",
    "pdf_exact": true,
    "index_url": "https://index.krx.co.kr/contents/IDX/0101/IDX0101.jsp",
    "index_label": "KRX 지수 (전체지수 시세)",
@@ -651,16 +640,27 @@
    "index_provider": "KRX",
    "index_deep": false
   },
+  "302450": {
+   "code": "4489",
+   "manager_label": "KB RISE",
+   "product": "https://www.riseetf.co.kr/prod/finderDetail/4489",
+   "pdf": "https://www.riseetf.co.kr/prod/finderDetail/4489",
+   "pdf_exact": true,
+   "index_url": "https://index.krx.co.kr/contents/IDX/0101/IDX0101.jsp",
+   "index_label": "KRX 지수 (전체지수 시세)",
+   "index_provider": "KRX",
+   "index_deep": false
+  },
   "484880": {
    "code": "211061",
    "manager_label": "신한 SOL",
    "product": "https://www.soletf.com/ko/fund/etf/211061",
    "pdf": "https://www.soletf.com/ko/fund/etf/211061?tabIndex=3",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.FHV",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "469070": {
    "code": "44F5",
@@ -712,10 +712,10 @@
    "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETF96",
    "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETF96",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.DPS",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "270810": {
    "code": "4459",
@@ -734,20 +734,9 @@
    "product": "https://www.soletf.com/ko/fund/etf/211053",
    "pdf": "https://www.soletf.com/ko/fund/etf/211053?tabIndex=3",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SFE",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
-  },
-  "091170": {
-   "code": "2ETF08",
-   "manager_label": "삼성 KODEX",
-   "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETF08",
-   "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETF08",
-   "pdf_exact": true,
-   "index_url": "https://index.krx.co.kr/contents/IDX/0101/IDX0101.jsp",
-   "index_label": "KRX 지수 (전체지수 시세)",
-   "index_provider": "KRX",
    "index_deep": false
   },
   "0098F0": {
@@ -761,6 +750,28 @@
    "index_provider": "iSelect",
    "index_deep": false
   },
+  "091170": {
+   "code": "2ETF08",
+   "manager_label": "삼성 KODEX",
+   "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETF08",
+   "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETF08",
+   "pdf_exact": true,
+   "index_url": "https://index.krx.co.kr/contents/IDX/0101/IDX0101.jsp",
+   "index_label": "KRX 지수 (전체지수 시세)",
+   "index_provider": "KRX",
+   "index_deep": false
+  },
+  "307520": {
+   "code": "KR7307520007",
+   "manager_label": "미래에셋 TIGER",
+   "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7307520007",
+   "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7307520007#section7",
+   "pdf_exact": true,
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
+   "index_provider": "FnGuide",
+   "index_deep": false
+  },
   "421320": {
    "code": "006344",
    "manager_label": "한화 PLUS",
@@ -771,17 +782,6 @@
    "index_label": "NH투자증권 iSelect 인덱스",
    "index_provider": "iSelect",
    "index_deep": false
-  },
-  "307520": {
-   "code": "KR7307520007",
-   "manager_label": "미래에셋 TIGER",
-   "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7307520007",
-   "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7307520007#section7",
-   "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.HDS",
-   "index_label": "FnGuide 지수 상세",
-   "index_provider": "FnGuide",
-   "index_deep": true
   },
   "213610": {
    "code": "2ETF47",
@@ -849,17 +849,6 @@
    "index_provider": "KRX",
    "index_deep": false
   },
-  "0089D0": {
-   "code": "2ETFS1",
-   "manager_label": "삼성 KODEX",
-   "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETFS1",
-   "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETFS1",
-   "pdf_exact": true,
-   "index_url": "https://index.krx.co.kr/contents/IDX/0101/IDX0101.jsp",
-   "index_label": "KRX 지수 (전체지수 시세)",
-   "index_provider": "KRX",
-   "index_deep": false
-  },
   "117700": {
    "code": "2ETF22",
    "manager_label": "삼성 KODEX",
@@ -871,16 +860,16 @@
    "index_provider": "KRX",
    "index_deep": false
   },
-  "266160": {
-   "code": "4454",
-   "manager_label": "KB RISE",
-   "product": "https://www.riseetf.co.kr/prod/finderDetail/4454",
-   "pdf": "https://www.riseetf.co.kr/prod/finderDetail/4454",
+  "0089D0": {
+   "code": "2ETFS1",
+   "manager_label": "삼성 KODEX",
+   "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETFS1",
+   "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETFS1",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.KDF",
-   "index_label": "FnGuide 지수 상세",
-   "index_provider": "FnGuide",
-   "index_deep": true
+   "index_url": "https://index.krx.co.kr/contents/IDX/0101/IDX0101.jsp",
+   "index_label": "KRX 지수 (전체지수 시세)",
+   "index_provider": "KRX",
+   "index_deep": false
   },
   "157500": {
    "code": "KR7157500000",
@@ -888,10 +877,21 @@
    "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7157500000",
    "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7157500000#section7",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.ISC",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
+  },
+  "266160": {
+   "code": "4454",
+   "manager_label": "KB RISE",
+   "product": "https://www.riseetf.co.kr/prod/finderDetail/4454",
+   "pdf": "https://www.riseetf.co.kr/prod/finderDetail/4454",
+   "pdf_exact": true,
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
+   "index_provider": "FnGuide",
+   "index_deep": false
   },
   "332930": {
    "code": "6291738C49C1451B",
@@ -910,10 +910,21 @@
    "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETF63",
    "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETF63",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SBO",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
+  },
+  "0093A0": {
+   "code": "44J0",
+   "manager_label": "KB RISE",
+   "product": "https://www.riseetf.co.kr/prod/finderDetail/44J0",
+   "pdf": "https://www.riseetf.co.kr/prod/finderDetail/44J0",
+   "pdf_exact": true,
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
+   "index_provider": "FnGuide",
+   "index_deep": false
   },
   "0115D0": {
    "code": "2ETFT1",
@@ -925,17 +936,6 @@
    "index_label": "KRX 지수 (전체지수 시세)",
    "index_provider": "KRX",
    "index_deep": false
-  },
-  "0093A0": {
-   "code": "44J0",
-   "manager_label": "KB RISE",
-   "product": "https://www.riseetf.co.kr/prod/finderDetail/44J0",
-   "pdf": "https://www.riseetf.co.kr/prod/finderDetail/44J0",
-   "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.KBA",
-   "index_label": "FnGuide 지수 상세",
-   "index_provider": "FnGuide",
-   "index_deep": true
   },
   "495550": {
    "code": "211073",
@@ -954,10 +954,10 @@
    "product": "https://www.soletf.com/ko/fund/etf/211027",
    "pdf": "https://www.soletf.com/ko/fund/etf/211027?tabIndex=3",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.ATP",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "332500": {
    "code": "K55101CT6711",
@@ -987,10 +987,10 @@
    "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETFK1",
    "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETFK1",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SBC",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "337160": {
    "code": "2ETFC7",
@@ -1020,16 +1020,49 @@
    "product": "https://www.soletf.com/ko/fund/etf/211079",
    "pdf": "https://www.soletf.com/ko/fund/etf/211079?tabIndex=3",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SBP",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "354500": {
    "code": "K55101D41516",
    "manager_label": "한국투자 ACE",
    "product": "https://www.aceetf.co.kr/fund/K55101D41516",
    "pdf": "https://www.aceetf.co.kr/fund/K55101D41516",
+   "pdf_exact": true,
+   "index_url": "https://index.krx.co.kr/contents/IDX/0101/IDX0101.jsp",
+   "index_label": "KRX 지수 (전체지수 시세)",
+   "index_provider": "KRX",
+   "index_deep": false
+  },
+  "471760": {
+   "code": "KR7471760009",
+   "manager_label": "미래에셋 TIGER",
+   "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7471760009",
+   "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7471760009#section7",
+   "pdf_exact": true,
+   "index_url": "https://wts.nhsec.com/wts/etn/wts8068.nh",
+   "index_label": "NH투자증권 iSelect 인덱스",
+   "index_provider": "iSelect",
+   "index_deep": false
+  },
+  "0092B0": {
+   "code": "211096",
+   "manager_label": "신한 SOL",
+   "product": "https://www.soletf.com/ko/fund/etf/211096",
+   "pdf": "https://www.soletf.com/ko/fund/etf/211096?tabIndex=3",
+   "pdf_exact": true,
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
+   "index_provider": "FnGuide",
+   "index_deep": false
+  },
+  "139220": {
+   "code": "KR7139220008",
+   "manager_label": "미래에셋 TIGER",
+   "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7139220008",
+   "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7139220008#section7",
    "pdf_exact": true,
    "index_url": "https://index.krx.co.kr/contents/IDX/0101/IDX0101.jsp",
    "index_label": "KRX 지수 (전체지수 시세)",
@@ -1047,37 +1080,15 @@
    "index_provider": "KRX",
    "index_deep": false
   },
-  "139220": {
-   "code": "KR7139220008",
-   "manager_label": "미래에셋 TIGER",
-   "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7139220008",
-   "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7139220008#section7",
+  "325010": {
+   "code": "2ETFB8",
+   "manager_label": "삼성 KODEX",
+   "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETFB8",
+   "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETFB8",
    "pdf_exact": true,
-   "index_url": "https://index.krx.co.kr/contents/IDX/0101/IDX0101.jsp",
-   "index_label": "KRX 지수 (전체지수 시세)",
-   "index_provider": "KRX",
-   "index_deep": false
-  },
-  "0092B0": {
-   "code": "211096",
-   "manager_label": "신한 SOL",
-   "product": "https://www.soletf.com/ko/fund/etf/211096",
-   "pdf": "https://www.soletf.com/ko/fund/etf/211096?tabIndex=3",
-   "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.KNS",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
-  },
-  "471760": {
-   "code": "KR7471760009",
-   "manager_label": "미래에셋 TIGER",
-   "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7471760009",
-   "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7471760009#section7",
-   "pdf_exact": true,
-   "index_url": "https://wts.nhsec.com/wts/etn/wts8068.nh",
-   "index_label": "NH투자증권 iSelect 인덱스",
-   "index_provider": "iSelect",
    "index_deep": false
   },
   "457990": {
@@ -1086,21 +1097,10 @@
    "product": "https://www.plusetf.co.kr/product/detail?n=006279",
    "pdf": "https://www.plusetf.co.kr/product/detail?n=006279",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.HSI",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
-  },
-  "325010": {
-   "code": "2ETFB8",
-   "manager_label": "삼성 KODEX",
-   "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETFB8",
-   "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETFB8",
-   "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI01.GRO",
-   "index_label": "FnGuide 지수 상세",
-   "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "328370": {
    "code": "006327",
@@ -1119,10 +1119,10 @@
    "product": "https://www.aceetf.co.kr/fund/K55101E67568",
    "pdf": "https://www.aceetf.co.kr/fund/K55101E67568",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.HPV",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "332940": {
    "code": "CEBA1E927AC1478B",
@@ -1141,10 +1141,10 @@
    "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7377990007",
    "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7377990007#section7",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.MRN",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "367770": {
    "code": "44A8",
@@ -1152,10 +1152,10 @@
    "product": "https://www.riseetf.co.kr/prod/finderDetail/44A8",
    "pdf": "https://www.riseetf.co.kr/prod/finderDetail/44A8",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.KBH",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "326240": {
    "code": "4496",
@@ -1163,10 +1163,10 @@
    "product": "https://www.riseetf.co.kr/prod/finderDetail/4496",
    "pdf": "https://www.riseetf.co.kr/prod/finderDetail/4496",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.KIT",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "0000J0": {
    "code": "006380",
@@ -1174,10 +1174,10 @@
    "product": "https://www.plusetf.co.kr/product/detail?n=006380",
    "pdf": "https://www.plusetf.co.kr/product/detail?n=006380",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.HWG",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "266370": {
    "code": "2ETF82",
@@ -1207,10 +1207,10 @@
    "product": "https://www.soletf.com/ko/fund/etf/210981",
    "pdf": "https://www.soletf.com/ko/fund/etf/210981?tabIndex=3",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SSB",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "475050": {
    "code": "K55101E79688",
@@ -1229,10 +1229,10 @@
    "product": "https://www.soletf.com/ko/fund/etf/211080",
    "pdf": "https://www.soletf.com/ko/fund/etf/211080?tabIndex=3",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SCT",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "454320": {
    "code": "045134E6E3534476",
@@ -1251,10 +1251,10 @@
    "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETFB9",
    "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETFB9",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SDV",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "211900": {
    "code": "2ETF46",
@@ -1295,10 +1295,10 @@
    "product": "https://www.soletf.com/ko/fund/etf/211054",
    "pdf": "https://www.soletf.com/ko/fund/etf/211054?tabIndex=3",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SBE",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "337140": {
    "code": "2ETFC5",
@@ -1328,10 +1328,10 @@
    "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7138530001",
    "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7138530001#section7",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.LFW",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "0098N0": {
    "code": "006392",
@@ -1339,20 +1339,9 @@
    "product": "https://www.plusetf.co.kr/product/detail?n=006392",
    "pdf": "https://www.plusetf.co.kr/product/detail?n=006392",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.HDP",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
-  },
-  "490480": {
-   "code": "211070",
-   "manager_label": "신한 SOL",
-   "product": "https://www.soletf.com/ko/fund/etf/211070",
-   "pdf": "https://www.soletf.com/ko/fund/etf/211070?tabIndex=3",
-   "pdf_exact": true,
-   "index_url": "https://www.kedindex.com/underlying/equity",
-   "index_label": "한국경제 KEDI 지수",
-   "index_provider": "KEDI",
    "index_deep": false
   },
   "210780": {
@@ -1366,16 +1355,38 @@
    "index_provider": "KRX",
    "index_deep": false
   },
-  "228810": {
-   "code": "KR7228810008",
-   "manager_label": "미래에셋 TIGER",
-   "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7228810008",
-   "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7228810008#section7",
+  "490480": {
+   "code": "211070",
+   "manager_label": "신한 SOL",
+   "product": "https://www.soletf.com/ko/fund/etf/211070",
+   "pdf": "https://www.soletf.com/ko/fund/etf/211070?tabIndex=3",
    "pdf_exact": true,
-   "index_url": "https://www.wiseindex.com/Index/Index#/WTI0102",
-   "index_label": "WISE 지수 상세",
-   "index_provider": "WISE",
-   "index_deep": true
+   "index_url": "https://www.kedindex.com/underlying/equity",
+   "index_label": "한국경제 KEDI 지수",
+   "index_provider": "KEDI",
+   "index_deep": false
+  },
+  "0240J0": {
+   "code": "",
+   "manager_label": "KB RISE",
+   "product": "https://www.riseetf.co.kr/prod/finder",
+   "pdf": "https://www.riseetf.co.kr/prod/finder",
+   "pdf_exact": false,
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
+   "index_provider": "FnGuide",
+   "index_deep": false
+  },
+  "157490": {
+   "code": "KR7157490004",
+   "manager_label": "미래에셋 TIGER",
+   "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7157490004",
+   "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7157490004#section7",
+   "pdf_exact": true,
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
+   "index_provider": "FnGuide",
+   "index_deep": false
   },
   "292190": {
    "code": "2ETFA4",
@@ -1399,15 +1410,15 @@
    "index_provider": "KRX",
    "index_deep": false
   },
-  "157490": {
-   "code": "KR7157490004",
+  "228810": {
+   "code": "KR7228810008",
    "manager_label": "미래에셋 TIGER",
-   "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7157490004",
-   "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7157490004#section7",
+   "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7228810008",
+   "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7228810008#section7",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.ISW",
-   "index_label": "FnGuide 지수 상세",
-   "index_provider": "FnGuide",
+   "index_url": "https://www.wiseindex.com/Index/Index#/WTI0102",
+   "index_label": "WISE 지수 상세",
+   "index_provider": "WISE",
    "index_deep": true
   },
   "441540": {
@@ -1416,10 +1427,10 @@
    "product": "https://www.hanaroetf.com/fund/1A23304A97EB4BD1",
    "pdf": "https://www.hanaroetf.com/fund/1A23304A97EB4BD1",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.NSH",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "211560": {
    "code": "KR7211560008",
@@ -1515,10 +1526,10 @@
    "product": "https://www.soletf.com/ko/fund/etf/211101",
    "pdf": "https://www.soletf.com/ko/fund/etf/211101?tabIndex=3",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SSE",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "0111J0": {
    "code": "8B788EE0BB4342A9",
@@ -1526,10 +1537,10 @@
    "product": "https://www.hanaroetf.com/fund/8B788EE0BB4342A9",
    "pdf": "https://www.hanaroetf.com/fund/8B788EE0BB4342A9",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.NHD",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "275300": {
    "code": "2ETF86",
@@ -1603,10 +1614,10 @@
    "product": "https://www.hanaroetf.com/fund/2635AB1A7E3542EF",
    "pdf": "https://www.hanaroetf.com/fund/2635AB1A7E3542EF",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.NSP",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "401170": {
    "code": "44C2",
@@ -1652,16 +1663,27 @@
    "index_provider": "KRX",
    "index_deep": false
   },
+  "0234N0": {
+   "code": "0234N0",
+   "manager_label": "키움 KIWOOM",
+   "product": "https://www.kiwoometf.com/service/etf/KO02010200M?gcode=0234N0",
+   "pdf": "https://www.kiwoometf.com/service/etf/KO02010200M?gcode=0234N0",
+   "pdf_exact": true,
+   "index_url": "https://www.akrostec.com/",
+   "index_label": "Akros 지수",
+   "index_provider": "Akros",
+   "index_deep": false
+  },
   "147970": {
    "code": "KR7147970008",
    "manager_label": "미래에셋 TIGER",
    "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7147970008",
    "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7147970008#section7",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.MMT",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "450910": {
    "code": "210961",
@@ -1674,27 +1696,16 @@
    "index_provider": "KRX",
    "index_deep": false
   },
-  "0234N0": {
-   "code": "0234N0",
-   "manager_label": "키움 KIWOOM",
-   "product": "https://www.kiwoometf.com/service/etf/KO02010200M?gcode=0234N0",
-   "pdf": "https://www.kiwoometf.com/service/etf/KO02010200M?gcode=0234N0",
-   "pdf_exact": true,
-   "index_url": "https://www.akrostec.com/",
-   "index_label": "Akros 지수",
-   "index_provider": "Akros",
-   "index_deep": false
-  },
   "400970": {
    "code": "KR7400970000",
    "manager_label": "미래에셋 TIGER",
    "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7400970000",
    "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7400970000#section7",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.MVT",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "365000": {
    "code": "KR7365000009",
@@ -1707,16 +1718,38 @@
    "index_provider": "KRX",
    "index_deep": false
   },
+  "266360": {
+   "code": "2ETF81",
+   "manager_label": "삼성 KODEX",
+   "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETF81",
+   "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETF81",
+   "pdf_exact": true,
+   "index_url": "https://index.krx.co.kr/contents/IDX/0101/IDX0101.jsp",
+   "index_label": "KRX 지수 (전체지수 시세)",
+   "index_provider": "KRX",
+   "index_deep": false
+  },
+  "380340": {
+   "code": "K55101DH2341",
+   "manager_label": "한국투자 ACE",
+   "product": "https://www.aceetf.co.kr/fund/K55101DH2341",
+   "pdf": "https://www.aceetf.co.kr/fund/K55101DH2341",
+   "pdf_exact": true,
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
+   "index_provider": "FnGuide",
+   "index_deep": false
+  },
   "105780": {
    "code": "4413",
    "manager_label": "KB RISE",
    "product": "https://www.riseetf.co.kr/prod/finderDetail/4413",
    "pdf": "https://www.riseetf.co.kr/prod/finderDetail/4413",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.G05",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "498860": {
    "code": "44H8",
@@ -1728,17 +1761,6 @@
    "index_label": "NH투자증권 iSelect 인덱스",
    "index_provider": "iSelect",
    "index_deep": false
-  },
-  "380340": {
-   "code": "K55101DH2341",
-   "manager_label": "한국투자 ACE",
-   "product": "https://www.aceetf.co.kr/fund/K55101DH2341",
-   "pdf": "https://www.aceetf.co.kr/fund/K55101DH2341",
-   "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.HTN",
-   "index_label": "FnGuide 지수 상세",
-   "index_provider": "FnGuide",
-   "index_deep": true
   },
   "117460": {
    "code": "2ETF21",
@@ -1762,6 +1784,17 @@
    "index_provider": "MSCI",
    "index_deep": false
   },
+  "322400": {
+   "code": "5CD1DD359516432B",
+   "manager_label": "NH아문디 HANARO",
+   "product": "https://www.hanaroetf.com/fund/5CD1DD359516432B",
+   "pdf": "https://www.hanaroetf.com/fund/5CD1DD359516432B",
+   "pdf_exact": true,
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
+   "index_provider": "FnGuide",
+   "index_deep": false
+  },
   "275290": {
    "code": "2ETF87",
    "manager_label": "삼성 KODEX",
@@ -1773,16 +1806,16 @@
    "index_provider": "MSCI",
    "index_deep": false
   },
-  "322400": {
-   "code": "5CD1DD359516432B",
-   "manager_label": "NH아문디 HANARO",
-   "product": "https://www.hanaroetf.com/fund/5CD1DD359516432B",
-   "pdf": "https://www.hanaroetf.com/fund/5CD1DD359516432B",
+  "261140": {
+   "code": "KR7261140008",
+   "manager_label": "미래에셋 TIGER",
+   "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7261140008",
+   "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7261140008#section7",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.NCE",
-   "index_label": "FnGuide 지수 상세",
-   "index_provider": "FnGuide",
-   "index_deep": true
+   "index_url": "https://index.krx.co.kr/contents/IDX/0101/IDX0101.jsp",
+   "index_label": "KRX 지수 (전체지수 시세)",
+   "index_provider": "KRX",
+   "index_deep": false
   },
   "139270": {
    "code": "KR7139270003",
@@ -1795,26 +1828,15 @@
    "index_provider": "KRX",
    "index_deep": false
   },
-  "395290": {
-   "code": "137F57DFEC434844",
-   "manager_label": "NH아문디 HANARO",
-   "product": "https://www.hanaroetf.com/fund/137F57DFEC434844",
-   "pdf": "https://www.hanaroetf.com/fund/137F57DFEC434844",
+  "395170": {
+   "code": "2ETFF2",
+   "manager_label": "삼성 KODEX",
+   "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETFF2",
+   "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETFF2",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.NHM",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
-  },
-  "261140": {
-   "code": "KR7261140008",
-   "manager_label": "미래에셋 TIGER",
-   "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7261140008",
-   "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7261140008#section7",
-   "pdf_exact": true,
-   "index_url": "https://index.krx.co.kr/contents/IDX/0101/IDX0101.jsp",
-   "index_label": "KRX 지수 (전체지수 시세)",
-   "index_provider": "KRX",
    "index_deep": false
   },
   "153270": {
@@ -1828,16 +1850,16 @@
    "index_provider": "KRX",
    "index_deep": false
   },
-  "395170": {
-   "code": "2ETFF2",
-   "manager_label": "삼성 KODEX",
-   "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETFF2",
-   "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETFF2",
+  "395290": {
+   "code": "137F57DFEC434844",
+   "manager_label": "NH아문디 HANARO",
+   "product": "https://www.hanaroetf.com/fund/137F57DFEC434844",
+   "pdf": "https://www.hanaroetf.com/fund/137F57DFEC434844",
    "pdf_exact": true,
-   "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SMK",
-   "index_label": "FnGuide 지수 상세",
+   "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
+   "index_label": "FnGuide 지수",
    "index_provider": "FnGuide",
-   "index_deep": true
+   "index_deep": false
   },
   "227540": {
    "code": "KR7227540002",
@@ -1859,17 +1881,6 @@
    "index_url": "https://wts.nhsec.com/wts/etn/wts8068.nh",
    "index_label": "NH투자증권 iSelect 인덱스",
    "index_provider": "iSelect",
-   "index_deep": false
-  },
-  "117680": {
-   "code": "2ETF23",
-   "manager_label": "삼성 KODEX",
-   "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETF23",
-   "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETF23",
-   "pdf_exact": true,
-   "index_url": "https://index.krx.co.kr/contents/IDX/0101/IDX0101.jsp",
-   "index_label": "KRX 지수 (전체지수 시세)",
-   "index_provider": "KRX",
    "index_deep": false
   }
  }

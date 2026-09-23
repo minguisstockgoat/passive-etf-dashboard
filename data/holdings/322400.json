@@ -3,64 +3,64 @@
  "name": "HANARO e커머스",
  "manager": "HANARO",
  "source": "NH아문디 HANARO",
- "asof": "2026-09-22",
- "total_weight": 99.72,
+ "asof": "2026-09-23",
+ "total_weight": 99.71,
  "count": 16,
  "holdings": [
   {
    "code": "035720",
    "name": "카카오",
-   "weight": 20.39,
+   "weight": 20.81,
    "shares": 2958.0,
-   "amount": 98205600.0,
+   "amount": 101015700.0,
    "over_cap": true
   },
   {
    "code": "035420",
    "name": "NAVER",
-   "weight": 19.97,
+   "weight": 20.12,
    "shares": 486.0,
-   "amount": 96179400.0,
+   "amount": 97686000.0,
+   "over_cap": true
+  },
+  {
+   "code": "377300",
+   "name": "카카오페이",
+   "weight": 9.25,
+   "shares": 1097.0,
+   "amount": 44922150.0,
    "over_cap": false
   },
   {
    "code": "257720",
    "name": "실리콘투",
-   "weight": 9.23,
+   "weight": 8.88,
    "shares": 1083.0,
-   "amount": 44457150.0,
-   "over_cap": false
-  },
-  {
-   "code": "377300",
-   "name": "카카오페이",
-   "weight": 9.09,
-   "shares": 1097.0,
-   "amount": 43770300.0,
+   "amount": 43103400.0,
    "over_cap": false
   },
   {
    "code": "139480",
    "name": "이마트",
-   "weight": 8.93,
+   "weight": 8.81,
    "shares": 588.0,
-   "amount": 42982800.0,
+   "amount": 42747600.0,
    "over_cap": false
   },
   {
    "code": "069960",
    "name": "현대백화점",
-   "weight": 7.65,
+   "weight": 7.52,
    "shares": 369.0,
-   "amount": 36863100.0,
+   "amount": 36494100.0,
    "over_cap": false
   },
   {
    "code": "030000",
    "name": "제일기획",
-   "weight": 7.38,
+   "weight": 7.4,
    "shares": 2039.0,
-   "amount": 35539770.0,
+   "amount": 35947570.0,
    "over_cap": false
   },
   {
@@ -68,87 +68,95 @@
    "name": "CJ대한통운",
    "weight": 4.73,
    "shares": 322.0,
-   "amount": 22765400.0,
+   "amount": 22958600.0,
    "over_cap": false
   },
   {
    "code": "093320",
    "name": "케이아이엔엑스",
-   "weight": 2.51,
+   "weight": 2.57,
    "shares": 88.0,
-   "amount": 12108800.0,
+   "amount": 12478400.0,
    "over_cap": false
   },
   {
    "code": "067160",
    "name": "SOOP",
-   "weight": 1.85,
+   "weight": 1.81,
    "shares": 242.0,
-   "amount": 8905600.0,
+   "amount": 8808800.0,
    "over_cap": false
   },
   {
    "code": "060250",
    "name": "NHN KCP",
-   "weight": 1.76,
+   "weight": 1.73,
    "shares": 639.0,
-   "amount": 8453970.0,
+   "amount": 8377290.0,
    "over_cap": false
   },
   {
    "code": "064260",
    "name": "다날",
-   "weight": 1.75,
+   "weight": 1.72,
    "shares": 1908.0,
-   "amount": 8404740.0,
+   "amount": 8357040.0,
    "over_cap": false
   },
   {
    "code": "042000",
    "name": "카페24",
-   "weight": 1.67,
+   "weight": 1.64,
    "shares": 530.0,
-   "amount": 8061300.0,
+   "amount": 7950000.0,
    "over_cap": false
   },
   {
    "code": "376300",
    "name": "디어유",
-   "weight": 1.25,
+   "weight": 1.2,
    "shares": 349.0,
-   "amount": 6002800.0,
+   "amount": 5831790.0,
    "over_cap": false
   },
   {
    "code": "035600",
    "name": "KG이니시스",
-   "weight": 0.93,
+   "weight": 0.92,
    "shares": 447.0,
-   "amount": 4456590.0,
+   "amount": 4447650.0,
    "over_cap": false
   },
   {
    "code": "094480",
    "name": "갤럭시아머니트리",
-   "weight": 0.63,
+   "weight": 0.6,
    "shares": 530.0,
-   "amount": 3010400.0,
+   "amount": 2936200.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 20.0,
   "verified": true,
-  "count": 1,
-  "total_sell": 124195500,
+  "count": 2,
+  "total_sell": 296158500,
   "items": [
    {
     "code": "035720",
     "name": "카카오",
-    "weight": 20.39,
+    "weight": 20.81,
     "cap_pct": 20.0,
-    "excess_pp": 0.39,
-    "sell_amount": 124195500
+    "excess_pp": 0.81,
+    "sell_amount": 257944500
+   },
+   {
+    "code": "035420",
+    "name": "NAVER",
+    "weight": 20.12,
+    "cap_pct": 20.0,
+    "excess_pp": 0.12,
+    "sell_amount": 38214000
    }
   ]
  },
