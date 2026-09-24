@@ -1,6 +1,6 @@
 {
  "as_of": "2026-09-22",
- "generated_at": "2026-09-23 15:45",
+ "generated_at": "2026-09-24 16:06",
  "count": 171,
  "min_cap_eok": 300,
  "reg_note": "자본시장법 시행령 §80 — 지수형 ETF는 동일종목을 자산의 30%까지 편입 가능. 기초지수 내 비중이 30%를 넘는 대표종목(예: 삼성전자)은 그 지수 비중까지 예외 허용. cap을 둔 테마·전략 지수는 정기변경 때 상한으로 재조정된다.",
@@ -193,10 +193,10 @@
     "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7396500001",
     "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7396500001#section7",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.MSE",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -378,10 +378,10 @@
     "product": "https://www.soletf.com/ko/fund/etf/211106",
     "pdf": "https://www.soletf.com/ko/fund/etf/211106?tabIndex=3",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.NMS",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -623,10 +623,10 @@
     "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETFE9",
     "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETFE9",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.NMS",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -662,28 +662,28 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-09-23",
+   "holdings_asof": "2026-09-24",
    "breach_summary": {
     "cap_pct": 25.0,
     "verified": true,
     "count": 2,
-    "total_sell": 36457949550,
+    "total_sell": 26309860500,
     "items": [
-     {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "weight": 25.53,
-      "cap_pct": 25.0,
-      "excess_pp": 0.53,
-      "sell_amount": 19920322950
-     },
      {
       "code": "005930",
       "name": "삼성전자",
-      "weight": 25.44,
+      "weight": 25.56,
       "cap_pct": 25.0,
-      "excess_pp": 0.44,
-      "sell_amount": 16537626600
+      "excess_pp": 0.56,
+      "sell_amount": 21047888400
+     },
+     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "weight": 25.14,
+      "cap_pct": 25.0,
+      "excess_pp": 0.14,
+      "sell_amount": 5261972100
      }
     ]
    },
@@ -703,10 +703,10 @@
     "product": "https://www.hanaroetf.com/fund/B1EB325B8E6240D2",
     "pdf": "https://www.hanaroetf.com/fund/B1EB325B8E6240D2",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.NHS",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -1070,10 +1070,10 @@
     "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7292150000",
     "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7292150000#section7",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.T10",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -1258,10 +1258,10 @@
     "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETFB1",
     "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETFB1",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SBI",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -1434,10 +1434,10 @@
     "product": "https://www.soletf.com/ko/fund/etf/211028",
     "pdf": "https://www.soletf.com/ko/fund/etf/211028?tabIndex=3",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.STP",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -1619,10 +1619,10 @@
     "product": "https://www.aceetf.co.kr/fund/K55101E67600",
     "pdf": "https://www.aceetf.co.kr/fund/K55101E67600",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.HBM",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -1676,10 +1676,10 @@
     "product": "https://www.soletf.com/ko/fund/etf/210980",
     "pdf": "https://www.soletf.com/ko/fund/etf/210980?tabIndex=3",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SSC",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -1877,10 +1877,10 @@
     "product": "https://www.plusetf.co.kr/product/detail?n=006192",
     "pdf": "https://www.plusetf.co.kr/product/detail?n=006192",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.HBI",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -2230,10 +2230,10 @@
     "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7466940004",
     "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7466940004#section7",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.BDP",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -2367,10 +2367,10 @@
     "product": "https://www.riseetf.co.kr/prod/finderDetail/44A7",
     "pdf": "https://www.riseetf.co.kr/prod/finderDetail/44A7",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.KB5",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -2406,20 +2406,20 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-09-23",
+   "holdings_asof": "2026-09-24",
    "breach_summary": {
     "cap_pct": 25.0,
     "verified": true,
     "count": 1,
-    "total_sell": 16142314500,
+    "total_sell": 11752737750,
     "items": [
      {
       "code": "034020",
       "name": "두산에너빌리티",
-      "weight": 27.28,
+      "weight": 26.66,
       "cap_pct": 25.0,
-      "excess_pp": 2.28,
-      "sell_amount": 16142314500
+      "excess_pp": 1.66,
+      "sell_amount": 11752737750
      }
     ]
    },
@@ -2982,10 +2982,10 @@
     "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7138540000",
     "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7138540000#section7",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.HFW",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -3188,10 +3188,10 @@
     "product": "https://www.soletf.com/ko/fund/etf/211097",
     "pdf": "https://www.soletf.com/ko/fund/etf/211097?tabIndex=3",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.KRD",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -3407,10 +3407,10 @@
     "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7462010000",
     "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7462010000#section7",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SBM",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -3713,7 +3713,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-09-23",
+   "holdings_asof": "2026-09-24",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -3929,10 +3929,10 @@
     "product": "https://www.soletf.com/ko/fund/etf/211061",
     "pdf": "https://www.soletf.com/ko/fund/etf/211061?tabIndex=3",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.FHV",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -4239,10 +4239,10 @@
     "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETF96",
     "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETF96",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.DPS",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -4368,10 +4368,10 @@
     "product": "https://www.soletf.com/ko/fund/etf/211053",
     "pdf": "https://www.soletf.com/ko/fund/etf/211053?tabIndex=3",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SFE",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -4619,10 +4619,10 @@
     "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7307520007",
     "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7307520007#section7",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.HDS",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -5323,10 +5323,10 @@
     "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7157500000",
     "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7157500000#section7",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.ISC",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -5395,10 +5395,10 @@
     "product": "https://www.riseetf.co.kr/prod/finderDetail/4454",
     "pdf": "https://www.riseetf.co.kr/prod/finderDetail/4454",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.KDF",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -5434,7 +5434,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-09-23",
+   "holdings_asof": "2026-09-24",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -5511,10 +5511,10 @@
     "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETF63",
     "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETF63",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SBO",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -5573,10 +5573,10 @@
     "product": "https://www.riseetf.co.kr/prod/finderDetail/44J0",
     "pdf": "https://www.riseetf.co.kr/prod/finderDetail/44J0",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.KBA",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -5802,10 +5802,10 @@
     "product": "https://www.soletf.com/ko/fund/etf/211027",
     "pdf": "https://www.soletf.com/ko/fund/etf/211027?tabIndex=3",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.ATP",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -5993,10 +5993,10 @@
     "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETFK1",
     "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETFK1",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SBC",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -6089,28 +6089,28 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-09-23",
+   "holdings_asof": "2026-09-24",
    "breach_summary": {
     "cap_pct": 20.0,
     "verified": true,
     "count": 2,
-    "total_sell": 1046411200,
+    "total_sell": 490505250,
     "items": [
      {
       "code": "010120",
       "name": "LS ELECTRIC",
-      "weight": 20.63,
+      "weight": 20.16,
       "cap_pct": 20.0,
-      "excess_pp": 0.63,
-      "sell_amount": 1030061025
+      "excess_pp": 0.16,
+      "sell_amount": 261602800
      },
      {
       "code": "298040",
       "name": "효성중공업",
-      "weight": 20.01,
+      "weight": 20.14,
       "cap_pct": 20.0,
-      "excess_pp": 0.01,
-      "sell_amount": 16350175
+      "excess_pp": 0.14,
+      "sell_amount": 228902450
      }
     ]
    },
@@ -6204,10 +6204,10 @@
     "product": "https://www.soletf.com/ko/fund/etf/211079",
     "pdf": "https://www.soletf.com/ko/fund/etf/211079?tabIndex=3",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SBP",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -6377,10 +6377,10 @@
     "product": "https://www.soletf.com/ko/fund/etf/211096",
     "pdf": "https://www.soletf.com/ko/fund/etf/211096?tabIndex=3",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.KNS",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -6571,10 +6571,10 @@
     "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETFB8",
     "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETFB8",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI01.GRO",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -6667,10 +6667,10 @@
     "product": "https://www.plusetf.co.kr/product/detail?n=006279",
     "pdf": "https://www.plusetf.co.kr/product/detail?n=006279",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.HSI",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -6789,10 +6789,10 @@
     "product": "https://www.aceetf.co.kr/fund/K55101E67568",
     "pdf": "https://www.aceetf.co.kr/fund/K55101E67568",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.HPV",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -6830,7 +6830,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-09-23",
+   "holdings_asof": "2026-09-24",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -6944,10 +6944,10 @@
     "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7377990007",
     "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7377990007#section7",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.MRN",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -7024,10 +7024,10 @@
     "product": "https://www.riseetf.co.kr/prod/finderDetail/44A8",
     "pdf": "https://www.riseetf.co.kr/prod/finderDetail/44A8",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.KBH",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -7099,10 +7099,10 @@
     "product": "https://www.riseetf.co.kr/prod/finderDetail/4496",
     "pdf": "https://www.riseetf.co.kr/prod/finderDetail/4496",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.KIT",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -7171,10 +7171,10 @@
     "product": "https://www.plusetf.co.kr/product/detail?n=006380",
     "pdf": "https://www.plusetf.co.kr/product/detail?n=006380",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.HWG",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -7377,10 +7377,10 @@
     "product": "https://www.soletf.com/ko/fund/etf/210981",
     "pdf": "https://www.soletf.com/ko/fund/etf/210981?tabIndex=3",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SSB",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -7531,10 +7531,10 @@
     "product": "https://www.soletf.com/ko/fund/etf/211080",
     "pdf": "https://www.soletf.com/ko/fund/etf/211080?tabIndex=3",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SCT",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -7570,28 +7570,20 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-09-23",
+   "holdings_asof": "2026-09-24",
    "breach_summary": {
     "cap_pct": 10.0,
     "verified": true,
-    "count": 2,
-    "total_sell": 540823900,
+    "count": 1,
+    "total_sell": 18649100,
     "items": [
      {
       "code": "034020",
       "name": "두산에너빌리티",
-      "weight": 10.37,
+      "weight": 10.02,
       "cap_pct": 10.0,
-      "excess_pp": 0.37,
-      "sell_amount": 345008350
-     },
-     {
-      "code": "267270",
-      "name": "HD건설기계",
-      "weight": 10.21,
-      "cap_pct": 10.0,
-      "excess_pp": 0.21,
-      "sell_amount": 195815550
+      "excess_pp": 0.02,
+      "sell_amount": 18649100
      }
     ]
    },
@@ -7671,10 +7663,10 @@
     "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETFB9",
     "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETFB9",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SDV",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -7934,10 +7926,10 @@
     "product": "https://www.soletf.com/ko/fund/etf/211054",
     "pdf": "https://www.soletf.com/ko/fund/etf/211054?tabIndex=3",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SBE",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -8029,28 +8021,28 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-09-23",
+   "holdings_asof": "2026-09-24",
    "breach_summary": {
     "cap_pct": 15.0,
     "verified": true,
     "count": 2,
-    "total_sell": 6401188500,
+    "total_sell": 6897901500,
     "items": [
      {
       "code": "000660",
       "name": "SK하이닉스",
-      "weight": 20.74,
+      "weight": 20.89,
       "cap_pct": 15.0,
-      "excess_pp": 5.74,
-      "sell_amount": 4598601000
+      "excess_pp": 5.89,
+      "sell_amount": 4718773500
      },
      {
       "code": "005930",
       "name": "삼성전자",
-      "weight": 17.25,
+      "weight": 17.72,
       "cap_pct": 15.0,
-      "excess_pp": 2.25,
-      "sell_amount": 1802587500
+      "excess_pp": 2.72,
+      "sell_amount": 2179128000
      }
     ]
    },
@@ -8125,10 +8117,10 @@
     "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7138530001",
     "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7138530001#section7",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.LFW",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -8182,10 +8174,10 @@
     "product": "https://www.plusetf.co.kr/product/detail?n=006392",
     "pdf": "https://www.plusetf.co.kr/product/detail?n=006392",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.HDP",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -8427,10 +8419,10 @@
     "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7157490004",
     "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7157490004#section7",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.ISW",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -8670,28 +8662,28 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-09-23",
+   "holdings_asof": "2026-09-24",
    "breach_summary": {
     "cap_pct": 15.0,
     "verified": true,
     "count": 2,
-    "total_sell": 2785044600,
+    "total_sell": 2849646150,
     "items": [
      {
       "code": "011200",
       "name": "HMM",
-      "weight": 18.74,
+      "weight": 18.8,
       "cap_pct": 15.0,
-      "excess_pp": 3.74,
-      "sell_amount": 2684553300
+      "excess_pp": 3.8,
+      "sell_amount": 2727621000
      },
      {
       "code": "009540",
       "name": "HD한국조선해양",
-      "weight": 15.14,
+      "weight": 15.17,
       "cap_pct": 15.0,
-      "excess_pp": 0.14,
-      "sell_amount": 100491300
+      "excess_pp": 0.17,
+      "sell_amount": 122025150
      }
     ]
    },
@@ -8711,10 +8703,10 @@
     "product": "https://www.hanaroetf.com/fund/1A23304A97EB4BD1",
     "pdf": "https://www.hanaroetf.com/fund/1A23304A97EB4BD1",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.NSH",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -9285,10 +9277,10 @@
     "product": "https://www.soletf.com/ko/fund/etf/211101",
     "pdf": "https://www.soletf.com/ko/fund/etf/211101?tabIndex=3",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SSE",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -9327,20 +9319,20 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-09-23",
+   "holdings_asof": "2026-09-24",
    "breach_summary": {
     "cap_pct": 20.0,
     "verified": true,
     "count": 1,
-    "total_sell": 354694650,
+    "total_sell": 370576500,
     "items": [
      {
       "code": "071050",
       "name": "한국금융지주",
-      "weight": 20.67,
+      "weight": 20.7,
       "cap_pct": 20.0,
-      "excess_pp": 0.67,
-      "sell_amount": 354694650
+      "excess_pp": 0.7,
+      "sell_amount": 370576500
      }
     ]
    },
@@ -9360,10 +9352,10 @@
     "product": "https://www.hanaroetf.com/fund/8B788EE0BB4342A9",
     "pdf": "https://www.hanaroetf.com/fund/8B788EE0BB4342A9",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.NHD",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -9733,20 +9725,20 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-09-23",
+   "holdings_asof": "2026-09-24",
    "breach_summary": {
     "cap_pct": 15.0,
     "verified": true,
     "count": 1,
-    "total_sell": 266649600,
+    "total_sell": 504134400,
     "items": [
      {
       "code": "089970",
       "name": "브이엠",
-      "weight": 15.64,
+      "weight": 16.21,
       "cap_pct": 15.0,
-      "excess_pp": 0.64,
-      "sell_amount": 266649600
+      "excess_pp": 1.21,
+      "sell_amount": 504134400
      }
     ]
    },
@@ -9766,10 +9758,10 @@
     "product": "https://www.hanaroetf.com/fund/2635AB1A7E3542EF",
     "pdf": "https://www.hanaroetf.com/fund/2635AB1A7E3542EF",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.NSP",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -9901,36 +9893,36 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-09-23",
+   "holdings_asof": "2026-09-24",
    "breach_summary": {
     "cap_pct": 10.0,
     "verified": true,
     "count": 3,
-    "total_sell": 1186589250,
+    "total_sell": 1150632000,
     "items": [
      {
       "code": "316140",
       "name": "우리금융지주",
-      "weight": 11.65,
+      "weight": 11.64,
       "cap_pct": 10.0,
-      "excess_pp": 1.65,
-      "sell_amount": 659216250
+      "excess_pp": 1.64,
+      "sell_amount": 655221000
      },
      {
       "code": "086790",
       "name": "하나금융지주",
-      "weight": 11.16,
+      "weight": 11.04,
       "cap_pct": 10.0,
-      "excess_pp": 1.16,
-      "sell_amount": 463449000
+      "excess_pp": 1.04,
+      "sell_amount": 415506000
      },
      {
       "code": "030200",
       "name": "KT",
-      "weight": 10.16,
+      "weight": 10.2,
       "cap_pct": 10.0,
-      "excess_pp": 0.16,
-      "sell_amount": 63924000
+      "excess_pp": 0.2,
+      "sell_amount": 79905000
      }
     ]
    },
@@ -10170,10 +10162,10 @@
     "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7147970008",
     "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7147970008#section7",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.MMT",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -10315,10 +10307,10 @@
     "product": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7400970000",
     "pdf": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7400970000#section7",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.MVT",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -10437,7 +10429,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-09-18",
+   "holdings_asof": "2026-09-23",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -10535,10 +10527,10 @@
     "product": "https://www.aceetf.co.kr/fund/K55101DH2341",
     "pdf": "https://www.aceetf.co.kr/fund/K55101DH2341",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.HTN",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -10623,10 +10615,10 @@
     "product": "https://www.riseetf.co.kr/prod/finderDetail/4413",
     "pdf": "https://www.riseetf.co.kr/prod/finderDetail/4413",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.G05",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -10823,28 +10815,20 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-09-23",
+   "holdings_asof": "2026-09-24",
    "breach_summary": {
     "cap_pct": 20.0,
     "verified": true,
-    "count": 2,
-    "total_sell": 296158500,
+    "count": 1,
+    "total_sell": 226099500,
     "items": [
      {
       "code": "035720",
       "name": "카카오",
-      "weight": 20.81,
+      "weight": 20.71,
       "cap_pct": 20.0,
-      "excess_pp": 0.81,
-      "sell_amount": 257944500
-     },
-     {
-      "code": "035420",
-      "name": "NAVER",
-      "weight": 20.12,
-      "cap_pct": 20.0,
-      "excess_pp": 0.12,
-      "sell_amount": 38214000
+      "excess_pp": 0.71,
+      "sell_amount": 226099500
      }
     ]
    },
@@ -10864,10 +10848,10 @@
     "product": "https://www.hanaroetf.com/fund/5CD1DD359516432B",
     "pdf": "https://www.hanaroetf.com/fund/5CD1DD359516432B",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.NCE",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -11093,10 +11077,10 @@
     "product": "https://www.samsungfund.com/etf/product/view.do?id=2ETFF2",
     "pdf": "https://www.samsungfund.com/etf/product/view.do?id=2ETFF2",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.SMK",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -11189,7 +11173,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-09-23",
+   "holdings_asof": "2026-09-24",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -11207,10 +11191,10 @@
     "product": "https://www.hanaroetf.com/fund/137F57DFEC434844",
     "pdf": "https://www.hanaroetf.com/fund/137F57DFEC434844",
     "pdf_exact": true,
-    "index_url": "https://www.fnindex.co.kr/overview/info/MIS",
-    "index_label": "FnGuide 지수",
+    "index_url": "https://www.fnindex.co.kr/overview/info/FI00.WLT.NHM",
+    "index_label": "FnGuide 지수 상세",
     "index_provider": "FnGuide",
-    "index_deep": false
+    "index_deep": true
    }
   },
   {
@@ -11300,7 +11284,7 @@
    },
    "cap_verified": false,
    "has_holdings": true,
-   "holdings_asof": "2026-09-23",
+   "holdings_asof": "2026-09-24",
    "breach_summary": null,
    "rebalance": null,
    "links": {

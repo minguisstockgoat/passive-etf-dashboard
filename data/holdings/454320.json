@@ -3,120 +3,120 @@
  "name": "HANARO CAPEX설비투자iSelect",
  "manager": "HANARO",
  "source": "NH아문디 HANARO",
- "asof": "2026-09-23",
- "total_weight": 99.52,
+ "asof": "2026-09-24",
+ "total_weight": 99.53,
  "count": 19,
  "holdings": [
   {
    "code": "034020",
    "name": "두산에너빌리티",
-   "weight": 10.37,
+   "weight": 10.02,
    "shares": 2595.0,
-   "amount": 224467500.0,
+   "amount": 212011500.0,
    "over_cap": true
   },
   {
    "code": "267270",
    "name": "HD건설기계",
-   "weight": 10.21,
+   "weight": 9.86,
    "shares": 1607.0,
-   "amount": 220962500.0,
-   "over_cap": true
+   "amount": 208427900.0,
+   "over_cap": false
   },
   {
    "code": "010120",
    "name": "LS ELECTRIC",
-   "weight": 9.81,
+   "weight": 9.74,
    "shares": 1002.0,
-   "amount": 212424000.0,
+   "amount": 205911000.0,
    "over_cap": false
   },
   {
    "code": "298040",
    "name": "효성중공업",
-   "weight": 9.51,
+   "weight": 9.72,
    "shares": 71.0,
-   "amount": 205971000.0,
+   "amount": 205616000.0,
    "over_cap": false
   },
   {
    "code": "006260",
    "name": "LS",
-   "weight": 9.29,
+   "weight": 9.36,
    "shares": 616.0,
-   "amount": 201124000.0,
+   "amount": 198044000.0,
    "over_cap": false
   },
   {
    "code": "267260",
    "name": "HD현대일렉트릭",
-   "weight": 7.35,
+   "weight": 7.47,
    "shares": 223.0,
-   "amount": 159222000.0,
+   "amount": 157884000.0,
    "over_cap": false
   },
   {
    "code": "241560",
    "name": "두산밥캣",
-   "weight": 6.87,
+   "weight": 6.96,
    "shares": 2550.0,
-   "amount": 148665000.0,
+   "amount": 147135000.0,
    "over_cap": false
   },
   {
    "code": "062040",
    "name": "산일전기",
-   "weight": 6.37,
+   "weight": 6.54,
    "shares": 673.0,
-   "amount": 137965000.0,
+   "amount": 138301500.0,
    "over_cap": false
   },
   {
    "code": "052690",
    "name": "한전기술",
-   "weight": 5.86,
+   "weight": 5.67,
    "shares": 919.0,
-   "amount": 126913900.0,
+   "amount": 119837600.0,
    "over_cap": false
   },
   {
    "code": "058610",
    "name": "에스피지",
-   "weight": 3.26,
+   "weight": 3.4,
    "shares": 715.0,
-   "amount": 70642000.0,
+   "amount": 72000500.0,
    "over_cap": false
   },
   {
    "code": "112610",
    "name": "씨에스윈드",
-   "weight": 2.96,
+   "weight": 3.02,
    "shares": 1273.0,
-   "amount": 64159200.0,
+   "amount": 63777300.0,
    "over_cap": false
   },
   {
    "code": "475150",
    "name": "SK이터닉스",
-   "weight": 2.64,
+   "weight": 2.72,
    "shares": 1134.0,
-   "amount": 57267000.0,
+   "amount": 57607200.0,
    "over_cap": false
   },
   {
    "code": "007340",
    "name": "DN오토모티브",
-   "weight": 2.64,
+   "weight": 2.61,
    "shares": 1151.0,
-   "amount": 57089600.0,
+   "amount": 55132900.0,
    "over_cap": false
   },
   {
    "code": "060370",
    "name": "LS마린솔루션",
-   "weight": 2.42,
+   "weight": 2.52,
    "shares": 1583.0,
-   "amount": 52476450.0,
+   "amount": 53267950.0,
    "over_cap": false
   },
   {
@@ -124,63 +124,55 @@
    "name": "한전KPS",
    "weight": 2.39,
    "shares": 1105.0,
-   "amount": 51769250.0,
+   "amount": 50553750.0,
    "over_cap": false
   },
   {
    "code": "023160",
    "name": "태광",
-   "weight": 2.21,
+   "weight": 2.2,
    "shares": 1762.0,
-   "amount": 47750200.0,
+   "amount": 46516800.0,
    "over_cap": false
   },
   {
    "code": "011210",
    "name": "현대위아",
-   "weight": 1.99,
+   "weight": 2.0,
    "shares": 807.0,
-   "amount": 43093800.0,
+   "amount": 42367500.0,
    "over_cap": false
   },
   {
    "code": "105840",
    "name": "우진",
-   "weight": 1.76,
+   "weight": 1.71,
    "shares": 2620.0,
-   "amount": 38121000.0,
+   "amount": 36077400.0,
    "over_cap": false
   },
   {
    "code": "100090",
    "name": "SK오션플랜트",
-   "weight": 1.61,
+   "weight": 1.62,
    "shares": 3021.0,
-   "amount": 34862340.0,
+   "amount": 34318560.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 10.0,
   "verified": true,
-  "count": 2,
-  "total_sell": 540823900,
+  "count": 1,
+  "total_sell": 18649100,
   "items": [
    {
     "code": "034020",
     "name": "두산에너빌리티",
-    "weight": 10.37,
+    "weight": 10.02,
     "cap_pct": 10.0,
-    "excess_pp": 0.37,
-    "sell_amount": 345008350
-   },
-   {
-    "code": "267270",
-    "name": "HD건설기계",
-    "weight": 10.21,
-    "cap_pct": 10.0,
-    "excess_pp": 0.21,
-    "sell_amount": 195815550
+    "excess_pp": 0.02,
+    "sell_amount": 18649100
    }
   ]
  },

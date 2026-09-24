@@ -3,160 +3,152 @@
  "name": "HANARO e커머스",
  "manager": "HANARO",
  "source": "NH아문디 HANARO",
- "asof": "2026-09-23",
+ "asof": "2026-09-24",
  "total_weight": 99.71,
  "count": 16,
  "holdings": [
   {
    "code": "035720",
    "name": "카카오",
-   "weight": 20.81,
+   "weight": 20.71,
    "shares": 2958.0,
-   "amount": 101015700.0,
+   "amount": 98945100.0,
    "over_cap": true
   },
   {
    "code": "035420",
    "name": "NAVER",
-   "weight": 20.12,
+   "weight": 19.8,
    "shares": 486.0,
-   "amount": 97686000.0,
-   "over_cap": true
+   "amount": 94624200.0,
+   "over_cap": false
   },
   {
    "code": "377300",
    "name": "카카오페이",
-   "weight": 9.25,
+   "weight": 9.33,
    "shares": 1097.0,
-   "amount": 44922150.0,
-   "over_cap": false
-  },
-  {
-   "code": "257720",
-   "name": "실리콘투",
-   "weight": 8.88,
-   "shares": 1083.0,
-   "amount": 43103400.0,
+   "amount": 44593050.0,
    "over_cap": false
   },
   {
    "code": "139480",
    "name": "이마트",
-   "weight": 8.81,
+   "weight": 8.79,
    "shares": 588.0,
-   "amount": 42747600.0,
+   "amount": 41983200.0,
    "over_cap": false
   },
   {
-   "code": "069960",
-   "name": "현대백화점",
-   "weight": 7.52,
-   "shares": 369.0,
-   "amount": 36494100.0,
+   "code": "257720",
+   "name": "실리콘투",
+   "weight": 8.78,
+   "shares": 1083.0,
+   "amount": 41966250.0,
    "over_cap": false
   },
   {
    "code": "030000",
    "name": "제일기획",
-   "weight": 7.4,
+   "weight": 7.54,
    "shares": 2039.0,
-   "amount": 35947570.0,
+   "amount": 36049520.0,
+   "over_cap": false
+  },
+  {
+   "code": "069960",
+   "name": "현대백화점",
+   "weight": 7.44,
+   "shares": 369.0,
+   "amount": 35571600.0,
    "over_cap": false
   },
   {
    "code": "000120",
    "name": "CJ대한통운",
-   "weight": 4.73,
+   "weight": 4.7,
    "shares": 322.0,
-   "amount": 22958600.0,
+   "amount": 22475600.0,
    "over_cap": false
   },
   {
    "code": "093320",
    "name": "케이아이엔엑스",
-   "weight": 2.57,
+   "weight": 2.45,
    "shares": 88.0,
-   "amount": 12478400.0,
-   "over_cap": false
-  },
-  {
-   "code": "067160",
-   "name": "SOOP",
-   "weight": 1.81,
-   "shares": 242.0,
-   "amount": 8808800.0,
-   "over_cap": false
-  },
-  {
-   "code": "060250",
-   "name": "NHN KCP",
-   "weight": 1.73,
-   "shares": 639.0,
-   "amount": 8377290.0,
-   "over_cap": false
-  },
-  {
-   "code": "064260",
-   "name": "다날",
-   "weight": 1.72,
-   "shares": 1908.0,
-   "amount": 8357040.0,
+   "amount": 11704000.0,
    "over_cap": false
   },
   {
    "code": "042000",
    "name": "카페24",
-   "weight": 1.64,
+   "weight": 2.0,
    "shares": 530.0,
-   "amount": 7950000.0,
+   "amount": 9555900.0,
+   "over_cap": false
+  },
+  {
+   "code": "067160",
+   "name": "SOOP",
+   "weight": 1.85,
+   "shares": 242.0,
+   "amount": 8833000.0,
+   "over_cap": false
+  },
+  {
+   "code": "060250",
+   "name": "NHN KCP",
+   "weight": 1.78,
+   "shares": 639.0,
+   "amount": 8485920.0,
+   "over_cap": false
+  },
+  {
+   "code": "064260",
+   "name": "다날",
+   "weight": 1.75,
+   "shares": 1908.0,
+   "amount": 8337960.0,
    "over_cap": false
   },
   {
    "code": "376300",
    "name": "디어유",
-   "weight": 1.2,
+   "weight": 1.24,
    "shares": 349.0,
-   "amount": 5831790.0,
+   "amount": 5946960.0,
    "over_cap": false
   },
   {
    "code": "035600",
    "name": "KG이니시스",
-   "weight": 0.92,
+   "weight": 0.93,
    "shares": 447.0,
-   "amount": 4447650.0,
+   "amount": 4429770.0,
    "over_cap": false
   },
   {
    "code": "094480",
    "name": "갤럭시아머니트리",
-   "weight": 0.6,
+   "weight": 0.62,
    "shares": 530.0,
-   "amount": 2936200.0,
+   "amount": 2946800.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 20.0,
   "verified": true,
-  "count": 2,
-  "total_sell": 296158500,
+  "count": 1,
+  "total_sell": 226099500,
   "items": [
    {
     "code": "035720",
     "name": "카카오",
-    "weight": 20.81,
+    "weight": 20.71,
     "cap_pct": 20.0,
-    "excess_pp": 0.81,
-    "sell_amount": 257944500
-   },
-   {
-    "code": "035420",
-    "name": "NAVER",
-    "weight": 20.12,
-    "cap_pct": 20.0,
-    "excess_pp": 0.12,
-    "sell_amount": 38214000
+    "excess_pp": 0.71,
+    "sell_amount": 226099500
    }
   ]
  },
