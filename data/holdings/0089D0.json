@@ -3,98 +3,79 @@
  "name": "KODEX 금융고배당TOP10",
  "manager": "KODEX",
  "source": "삼성 KODEX",
- "asof": "2026-09-23",
- "total_weight": 99.99,
+ "asof": "2026-09-28",
+ "total_weight": 100.01,
  "count": 10,
  "holdings": [
   {
    "code": "105560",
    "name": "KB금융",
-   "weight": 23.07,
+   "weight": 22.92,
    "shares": 1781.0,
-   "amount": 312921700.0,
-   "over_cap": false
+   "amount": 308469200.0
   },
   {
    "code": "086790",
    "name": "하나금융지주",
-   "weight": 16.69,
+   "weight": 16.46,
    "shares": 1664.0,
-   "amount": 226304000.0,
-   "over_cap": false
+   "amount": 221478400.0
   },
   {
    "code": "316140",
    "name": "우리금융지주",
-   "weight": 14.99,
+   "weight": 14.94,
    "shares": 5686.0,
-   "amount": 203274500.0,
-   "over_cap": false
+   "amount": 201000100.0
   },
   {
    "code": "000810",
    "name": "삼성화재",
-   "weight": 10.82,
+   "weight": 10.79,
    "shares": 224.0,
-   "amount": 146720000.0,
-   "over_cap": false
+   "amount": 145152000.0
   },
   {
    "code": "024110",
    "name": "기업은행",
-   "weight": 10.06,
+   "weight": 10.35,
    "shares": 6824.0,
-   "amount": 136480000.0,
-   "over_cap": false
+   "amount": 139209600.0
   },
   {
    "code": "005830",
    "name": "DB손해보험",
-   "weight": 7.58,
+   "weight": 7.59,
    "shares": 553.0,
-   "amount": 102802700.0,
-   "over_cap": false
+   "amount": 102083800.0
   },
   {
    "code": "005940",
    "name": "NH투자증권",
-   "weight": 5.25,
+   "weight": 5.27,
    "shares": 2729.0,
-   "amount": 71226900.0,
-   "over_cap": false
+   "amount": 70954000.0
   },
   {
    "code": "071050",
    "name": "한국금융지주",
-   "weight": 5.07,
+   "weight": 5.11,
    "shares": 369.0,
-   "amount": 68744700.0,
-   "over_cap": false
+   "amount": 68781600.0
   },
   {
    "code": "016360",
    "name": "삼성증권",
-   "weight": 3.56,
+   "weight": 3.61,
    "shares": 533.0,
-   "amount": 48343100.0,
-   "over_cap": false
+   "amount": 48556300.0
   },
   {
    "code": "039490",
    "name": "키움증권",
-   "weight": 2.9,
+   "weight": 2.97,
    "shares": 150.0,
-   "amount": 39300000.0,
-   "over_cap": false
+   "amount": 39900000.0
   }
- ],
- "breach_summary": null,
- "cap": {
-  "single_cap": null,
-  "index_exception": true,
-  "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-  "source": "자본시장법 시행령 §80(지수 비중까지 예외 허용)",
-  "verified": true,
-  "note": "기초지수 시가총액 비중을 그대로 복제. 강제 비중조절 대상 아님(지수 정기변경 시 조정)."
- }
+ ]
 }
