@@ -12,140 +12,169 @@
    "name": "삼성화재",
    "weight": 7.47,
    "shares": 76.0,
-   "amount": 49248000.0
+   "amount": 49248000.0,
+   "over_cap": false
   },
   {
    "code": "003690",
    "name": "코리안리",
    "weight": 6.21,
    "shares": 2791.0,
-   "amount": 40943970.0
+   "amount": 40943970.0,
+   "over_cap": false
   },
   {
    "code": "005830",
    "name": "DB손해보험",
    "weight": 6.21,
    "shares": 222.0,
-   "amount": 40981200.0
+   "amount": 40981200.0,
+   "over_cap": false
   },
   {
    "code": "161390",
    "name": "한국타이어앤테크놀로지",
    "weight": 6.0,
    "shares": 691.0,
-   "amount": 39594300.0
+   "amount": 39594300.0,
+   "over_cap": false
   },
   {
    "code": "005180",
    "name": "빙그레",
    "weight": 5.84,
    "shares": 457.0,
-   "amount": 38525100.0
+   "amount": 38525100.0,
+   "over_cap": false
   },
   {
    "code": "175330",
    "name": "JB금융지주",
    "weight": 5.65,
    "shares": 1235.0,
-   "amount": 37235250.0
+   "amount": 37235250.0,
+   "over_cap": false
   },
   {
    "code": "001800",
    "name": "오리온홀딩스",
    "weight": 5.54,
    "shares": 1538.0,
-   "amount": 36527500.0
+   "amount": 36527500.0,
+   "over_cap": false
   },
   {
    "code": "316140",
    "name": "우리금융지주",
    "weight": 5.31,
    "shares": 990.0,
-   "amount": 34996500.0
+   "amount": 34996500.0,
+   "over_cap": false
   },
   {
    "code": "000240",
    "name": "한국앤컴퍼니",
    "weight": 5.29,
    "shares": 1415.0,
-   "amount": 34879750.0
+   "amount": 34879750.0,
+   "over_cap": false
   },
   {
    "code": "004490",
    "name": "세방전지",
    "weight": 5.15,
    "shares": 573.0,
-   "amount": 33978900.0
+   "amount": 33978900.0,
+   "over_cap": false
   },
   {
    "code": "016360",
    "name": "삼성증권",
    "weight": 4.92,
    "shares": 356.0,
-   "amount": 32431600.0
+   "amount": 32431600.0,
+   "over_cap": false
   },
   {
    "code": "005850",
    "name": "에스엘",
    "weight": 4.69,
    "shares": 640.0,
-   "amount": 30912000.0
+   "amount": 30912000.0,
+   "over_cap": false
   },
   {
    "code": "026960",
    "name": "동서",
    "weight": 4.51,
    "shares": 1174.0,
-   "amount": 29760900.0
+   "amount": 29760900.0,
+   "over_cap": false
   },
   {
    "code": "138930",
    "name": "BNK금융지주",
    "weight": 4.2,
    "shares": 1736.0,
-   "amount": 27723920.0
+   "amount": 27723920.0,
+   "over_cap": false
   },
   {
    "code": "005940",
    "name": "NH투자증권",
    "weight": 4.09,
    "shares": 1037.0,
-   "amount": 26962000.0
+   "amount": 26962000.0,
+   "over_cap": false
   },
   {
    "code": "017940",
    "name": "E1",
    "weight": 3.96,
    "shares": 285.0,
-   "amount": 26134500.0
+   "amount": 26134500.0,
+   "over_cap": false
   },
   {
    "code": "003470",
    "name": "유안타증권",
    "weight": 3.91,
    "shares": 5857.0,
-   "amount": 25829370.0
+   "amount": 25829370.0,
+   "over_cap": false
   },
   {
    "code": "000270",
    "name": "기아",
    "weight": 3.8,
    "shares": 217.0,
-   "amount": 25041800.0
+   "amount": 25041800.0,
+   "over_cap": false
   },
   {
    "code": "064960",
    "name": "SNT모티브",
    "weight": 3.71,
    "shares": 959.0,
-   "amount": 24454500.0
+   "amount": 24454500.0,
+   "over_cap": false
   },
   {
    "code": "071050",
    "name": "한국금융지주",
    "weight": 3.53,
    "shares": 125.0,
-   "amount": 23300000.0
+   "amount": 23300000.0,
+   "over_cap": false
   }
- ]
+ ],
+ "breach_summary": null,
+ "cap": {
+  "single_cap": 0.1,
+  "index_exception": false,
+  "label": "단일종목 10% 상한",
+  "source": "KRX 고배당주20 방법론(검색 교차확인): '연 2회(4월·10월) 정기변경, 예상배당수익률 가중방식, Cap Rate 10%, 20종목, 배당락 회복률 하위10% 제외'",
+  "verified": true,
+  "note": "반기 정기변경(연2회, 4월·10월). 시장대표성·유동성·배당수익률·배당성향·ROE 종합해 20종목 선정, 배당락 회복률 하위 10% 제외. 예상배당수익률 가중방식, 개별종목 최대 비중(Cap) 10%."
+ }
 }

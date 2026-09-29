@@ -12,70 +12,112 @@
    "name": "한화에어로스페이스",
    "weight": 23.46,
    "shares": 228.0,
-   "amount": 232788000.0
+   "amount": 232788000.0,
+   "over_cap": true
   },
   {
    "code": "047810",
    "name": "한국항공우주",
    "weight": 20.91,
    "shares": 1627.0,
-   "amount": 207442500.0
+   "amount": 207442500.0,
+   "over_cap": true
   },
   {
    "code": "079550",
    "name": "LIG디펜스앤에어로스페이스",
    "weight": 19.81,
    "shares": 284.0,
-   "amount": 196528000.0
+   "amount": 196528000.0,
+   "over_cap": false
   },
   {
    "code": "064350",
    "name": "현대로템",
    "weight": 14.31,
    "shares": 1225.0,
-   "amount": 141977500.0
+   "amount": 141977500.0,
+   "over_cap": false
   },
   {
    "code": "272210",
    "name": "한화시스템",
    "weight": 13.34,
    "shares": 1791.0,
-   "amount": 132354900.0
+   "amount": 132354900.0,
+   "over_cap": false
   },
   {
    "code": "103140",
    "name": "풍산",
    "weight": 5.3,
    "shares": 685.0,
-   "amount": 52539500.0
+   "amount": 52539500.0,
+   "over_cap": false
   },
   {
    "code": "189300",
    "name": "인텔리안테크",
    "weight": 1.07,
    "shares": 152.0,
-   "amount": 10594400.0
+   "amount": 10594400.0,
+   "over_cap": false
   },
   {
    "code": "214430",
    "name": "아이쓰리시스템",
    "weight": 1.01,
    "shares": 147.0,
-   "amount": 10054800.0
+   "amount": 10054800.0,
+   "over_cap": false
   },
   {
    "code": "484870",
    "name": "엠앤씨솔루션",
    "weight": 0.49,
    "shares": 279.0,
-   "amount": 4910400.0
+   "amount": 4910400.0,
+   "over_cap": false
   },
   {
    "code": "347700",
    "name": "스피어",
    "weight": 0.3,
    "shares": 126.0,
-   "amount": 2935800.0
+   "amount": 2935800.0,
+   "over_cap": false
   }
- ]
+ ],
+ "breach_summary": {
+  "cap_pct": 20.0,
+  "verified": true,
+  "count": 2,
+  "total_sell": 15156318050,
+  "items": [
+   {
+    "code": "012450",
+    "name": "한화에어로스페이스",
+    "weight": 23.46,
+    "cap_pct": 20.0,
+    "excess_pp": 3.46,
+    "sell_amount": 12000196900
+   },
+   {
+    "code": "047810",
+    "name": "한국항공우주",
+    "weight": 20.91,
+    "cap_pct": 20.0,
+    "excess_pp": 0.91,
+    "sell_amount": 3156121150
+   }
+  ]
+ },
+ "cap": {
+  "single_cap": 0.2,
+  "index_exception": false,
+  "label": "단일종목 20% 상한",
+  "source": "KODEX 방산TOP10 방법론: '개별 종목 20% 실링 · 스코어 상위 10종목 · 6·12월 익주 첫 영업일'",
+  "verified": true,
+  "note": "스코어 상위 10종목, 개별 20% 실링. 정기변경 연 2회(6·12월 옵션만기일 익주 첫 영업일)"
+ }
 }

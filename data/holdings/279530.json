@@ -12,140 +12,169 @@
    "name": "DB손해보험",
    "weight": 9.19,
    "shares": 862.0,
-   "amount": 159125200.0
+   "amount": 159125200.0,
+   "over_cap": false
   },
   {
    "code": "030000",
    "name": "제일기획",
    "weight": 8.86,
    "shares": 8677.0,
-   "amount": 153409360.0
+   "amount": 153409360.0,
+   "over_cap": false
   },
   {
    "code": "029780",
    "name": "삼성카드",
    "weight": 7.71,
    "shares": 3144.0,
-   "amount": 133462800.0
+   "amount": 133462800.0,
+   "over_cap": false
   },
   {
    "code": "005940",
    "name": "NH투자증권",
    "weight": 6.71,
    "shares": 4472.0,
-   "amount": 116272000.0
+   "amount": 116272000.0,
+   "over_cap": false
   },
   {
    "code": "024110",
    "name": "기업은행",
    "weight": 6.45,
    "shares": 5479.0,
-   "amount": 111771600.0
+   "amount": 111771600.0,
+   "over_cap": false
   },
   {
    "code": "078930",
    "name": "GS",
    "weight": 5.93,
    "shares": 928.0,
-   "amount": 102729600.0
+   "amount": 102729600.0,
+   "over_cap": false
   },
   {
    "code": "001120",
    "name": "LX인터내셔널",
    "weight": 5.68,
    "shares": 2448.0,
-   "amount": 98409600.0
+   "amount": 98409600.0,
+   "over_cap": false
   },
   {
    "code": "175330",
    "name": "JB금융지주",
    "weight": 5.39,
    "shares": 3096.0,
-   "amount": 93344400.0
+   "amount": 93344400.0,
+   "over_cap": false
   },
   {
    "code": "316140",
    "name": "우리금융지주",
    "weight": 4.62,
    "shares": 2265.0,
-   "amount": 80067750.0
+   "amount": 80067750.0,
+   "over_cap": false
   },
   {
    "code": "003690",
    "name": "코리안리",
    "weight": 4.28,
    "shares": 5055.0,
-   "amount": 74156850.0
+   "amount": 74156850.0,
+   "over_cap": false
   },
   {
    "code": "012750",
    "name": "에스원",
    "weight": 3.99,
    "shares": 830.0,
-   "amount": 69139000.0
+   "amount": 69139000.0,
+   "over_cap": false
   },
   {
    "code": "035250",
    "name": "강원랜드",
    "weight": 3.9,
    "shares": 4720.0,
-   "amount": 67590400.0
+   "amount": 67590400.0,
+   "over_cap": false
   },
   {
    "code": "138930",
    "name": "BNK금융지주",
    "weight": 3.71,
    "shares": 4021.0,
-   "amount": 64215370.0
+   "amount": 64215370.0,
+   "over_cap": false
   },
   {
    "code": "017800",
    "name": "현대엘리베이터",
    "weight": 3.71,
    "shares": 871.0,
-   "amount": 64192700.0
+   "amount": 64192700.0,
+   "over_cap": false
   },
   {
    "code": "000240",
    "name": "한국앤컴퍼니",
    "weight": 3.7,
    "shares": 2602.0,
-   "amount": 64139300.0
+   "amount": 64139300.0,
+   "over_cap": false
   },
   {
    "code": "081660",
    "name": "미스토홀딩스",
    "weight": 3.61,
    "shares": 1656.0,
-   "amount": 62514000.0
+   "amount": 62514000.0,
+   "over_cap": false
   },
   {
    "code": "016360",
    "name": "삼성증권",
    "weight": 3.3,
    "shares": 627.0,
-   "amount": 57119700.0
+   "amount": 57119700.0,
+   "over_cap": false
   },
   {
    "code": "032640",
    "name": "LG유플러스",
    "weight": 3.26,
    "shares": 3858.0,
-   "amount": 56481120.0
+   "amount": 56481120.0,
+   "over_cap": false
   },
   {
    "code": "030200",
    "name": "KT",
    "weight": 3.21,
    "shares": 1054.0,
-   "amount": 55545800.0
+   "amount": 55545800.0,
+   "over_cap": false
   },
   {
    "code": "071050",
    "name": "한국금융지주",
    "weight": 2.78,
    "shares": 258.0,
-   "amount": 48091200.0
+   "amount": 48091200.0,
+   "over_cap": false
   }
- ]
+ ],
+ "breach_summary": null,
+ "cap": {
+  "single_cap": 0.3,
+  "index_exception": false,
+  "label": "단일종목 30% 상한",
+  "source": "FnGuide_High_Dividend_Plus_Methodology_Book_삼성_v1.8.pdf | '비중이 30%를 초과하는 개별종목은 27%로 조정'; '5, 11월말 평가일로 종목선정, 6, 12월 선물옵션 만기일 익주 첫번째 영업일(D)부터 적용'",
+  "verified": true,
+  "note": "최대 50종목 예상배당수익률 가중. 5·11월말 평가 → 6·12월 선물옵션 만기 익주 첫 영업일 적용(연2회). 30% 초과 시 27% 수시조정"
+ }
 }

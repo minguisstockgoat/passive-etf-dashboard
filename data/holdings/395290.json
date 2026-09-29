@@ -12,84 +12,105 @@
    "name": "하이브",
    "weight": 21.85,
    "shares": 338.0,
-   "amount": 52998400.0
+   "amount": 52998400.0,
+   "over_cap": false
   },
   {
    "code": "041510",
    "name": "에스엠",
    "weight": 21.21,
    "shares": 623.0,
-   "amount": 51459800.0
+   "amount": 51459800.0,
+   "over_cap": false
   },
   {
    "code": "035900",
    "name": "JYP Ent.",
    "weight": 19.94,
    "shares": 1283.0,
-   "amount": 48369100.0
+   "amount": 48369100.0,
+   "over_cap": false
   },
   {
    "code": "122870",
    "name": "와이지엔터테인먼트",
    "weight": 11.53,
    "shares": 649.0,
-   "amount": 27971900.0
+   "amount": 27971900.0,
+   "over_cap": false
   },
   {
    "code": "035760",
    "name": "CJ ENM",
    "weight": 8.55,
    "shares": 535.0,
-   "amount": 20731250.0
+   "amount": 20731250.0,
+   "over_cap": false
   },
   {
    "code": "253450",
    "name": "스튜디오드래곤",
    "weight": 5.32,
    "shares": 634.0,
-   "amount": 12901900.0
+   "amount": 12901900.0,
+   "over_cap": false
   },
   {
    "code": "034120",
    "name": "SBS",
    "weight": 2.53,
    "shares": 522.0,
-   "amount": 6149160.0
+   "amount": 6149160.0,
+   "over_cap": false
   },
   {
    "code": "419530",
    "name": "SAMG엔터",
    "weight": 2.51,
    "shares": 353.0,
-   "amount": 6078660.0
+   "amount": 6078660.0,
+   "over_cap": false
   },
   {
    "code": "037270",
    "name": "YG PLUS",
    "weight": 2.5,
    "shares": 1970.0,
-   "amount": 6067600.0
+   "amount": 6067600.0,
+   "over_cap": false
   },
   {
    "code": "473980",
    "name": "노머스",
    "weight": 1.48,
    "shares": 353.0,
-   "amount": 3579420.0
+   "amount": 3579420.0,
+   "over_cap": false
   },
   {
    "code": "310200",
    "name": "애니플러스",
    "weight": 1.14,
    "shares": 1443.0,
-   "amount": 2769117.0
+   "amount": 2769117.0,
+   "over_cap": false
   },
   {
    "code": "182360",
    "name": "큐브엔터",
    "weight": 0.77,
    "shares": 284.0,
-   "amount": 1868720.0
+   "amount": 1868720.0,
+   "over_cap": false
   }
- ]
+ ],
+ "breach_summary": null,
+ "cap": {
+  "single_cap": 0.25,
+  "index_exception": false,
+  "label": "단일종목 25% 상한",
+  "source": "FnGuide_K-POP_&_Media_Index_Methodology_Book_NHA_(20210225)_v1.0.pdf | '특정종목의 지수내 비중이 25%를 넘을 경우 25%로 비중을 제한'; '6, 12월 선물옵션 만기일(D) 이후 4영업일(D+4)과 5영업일(D+5)에 정기변경'",
+  "verified": true,
+  "note": "5·11월말 종목선정 → 6·12월 선물옵션 만기일 D+4/D+5 정기변경(연2회). 종목당 25% 상한"
+ }
 }

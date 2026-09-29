@@ -12,70 +12,107 @@
    "name": "HD현대중공업",
    "weight": 22.2,
    "shares": 184.0,
-   "amount": 81144000.0
+   "amount": 81144000.0,
+   "over_cap": true
   },
   {
    "code": "009540",
    "name": "HD한국조선해양",
    "weight": 21.84,
    "shares": 240.0,
-   "amount": 79800000.0
+   "amount": 79800000.0,
+   "over_cap": false
   },
   {
    "code": "042660",
    "name": "한화오션",
    "weight": 21.06,
    "shares": 967.0,
-   "amount": 76973200.0
+   "amount": 76973200.0,
+   "over_cap": false
   },
   {
    "code": "010140",
    "name": "삼성중공업",
    "weight": 19.75,
    "shares": 3564.0,
-   "amount": 72171000.0
+   "amount": 72171000.0,
+   "over_cap": false
   },
   {
    "code": "082740",
    "name": "한화엔진",
    "weight": 6.45,
    "shares": 495.0,
-   "amount": 23562000.0
+   "amount": 23562000.0,
+   "over_cap": false
   },
   {
    "code": "071970",
    "name": "HD현대마린엔진",
    "weight": 3.78,
    "shares": 282.0,
-   "amount": 13818000.0
+   "amount": 13818000.0,
+   "over_cap": false
   },
   {
    "code": "097230",
    "name": "HJ중공업",
    "weight": 2.26,
    "shares": 563.0,
-   "amount": 8253580.0
+   "amount": 8253580.0,
+   "over_cap": false
   },
   {
    "code": "439260",
    "name": "대한조선",
    "weight": 1.61,
    "shares": 129.0,
-   "amount": 5869500.0
+   "amount": 5869500.0,
+   "over_cap": false
   },
   {
    "code": "443060",
    "name": "HD현대마린솔루션",
    "weight": 0.59,
    "shares": 9.0,
-   "amount": 2151000.0
+   "amount": 2151000.0,
+   "over_cap": false
   },
   {
    "code": "017960",
    "name": "한국카본",
    "weight": 0.47,
    "shares": 85.0,
-   "amount": 1721250.0
+   "amount": 1721250.0,
+   "over_cap": false
   }
- ]
+ ],
+ "breach_summary": {
+  "cap_pct": 22.0,
+  "verified": true,
+  "count": 1,
+  "total_sell": 379219500,
+  "items": [
+   {
+    "code": "329180",
+    "name": "HD현대중공업",
+    "weight": 22.2,
+    "cap_pct": 22.0,
+    "excess_pp": 0.2,
+    "sell_amount": 379219500
+   }
+  ]
+ },
+ "cap": {
+  "single_cap": 0.22,
+  "index_exception": false,
+  "top_n": 4,
+  "top_cap": 0.22,
+  "rest_cap": null,
+  "label": "상위 4종목 각 22%",
+  "source": "KRX 조선 TOP10 지수 산출기준(한국거래소·AKROS 산출, 2025.08.28 발표): 'Top4 종목별 최대 22% · 정기변경 분기(3,6,9,12월) 선물옵션 만기일 D+10 · 수시 30%초과시 25%'",
+  "verified": true,
+  "note": "상위 종목 상한 기준으로 초과를 계산한다(보수적). Top4 종목 합산 85%내 시총비례(종목별 최대 22%), 나머지 6종목 15%내 종합점수(MASGA50·조선25·엔진25) 비례. 정기변경 분기(3·6·9·12월 선물옵션 만기일 D+10, 결정일 D-10), 수시 5영업일 연속 30%초과→25% 조정"
+ }
 }

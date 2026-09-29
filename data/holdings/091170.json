@@ -12,70 +12,89 @@
    "name": "신한지주",
    "weight": 20.14,
    "shares": 1503.0,
-   "amount": 164277900.0
+   "amount": 164277900.0,
+   "over_cap": false
   },
   {
    "code": "086790",
    "name": "하나금융지주",
    "weight": 19.99,
    "shares": 1225.0,
-   "amount": 163047500.0
+   "amount": 163047500.0,
+   "over_cap": false
   },
   {
    "code": "105560",
    "name": "KB금융",
    "weight": 19.84,
    "shares": 934.0,
-   "amount": 161768800.0
+   "amount": 161768800.0,
+   "over_cap": false
   },
   {
    "code": "316140",
    "name": "우리금융지주",
    "weight": 19.44,
    "shares": 4484.0,
-   "amount": 158509400.0
+   "amount": 158509400.0,
+   "over_cap": false
   },
   {
    "code": "323410",
    "name": "카카오뱅크",
    "weight": 5.53,
    "shares": 2265.0,
-   "amount": 45118800.0
+   "amount": 45118800.0,
+   "over_cap": false
   },
   {
    "code": "024110",
    "name": "기업은행",
    "weight": 4.54,
    "shares": 1813.0,
-   "amount": 36985200.0
+   "amount": 36985200.0,
+   "over_cap": false
   },
   {
    "code": "175330",
    "name": "JB금융지주",
    "weight": 3.83,
    "shares": 1035.0,
-   "amount": 31205250.0
+   "amount": 31205250.0,
+   "over_cap": false
   },
   {
    "code": "138930",
    "name": "BNK금융지주",
    "weight": 3.5,
    "shares": 1785.0,
-   "amount": 28506450.0
+   "amount": 28506450.0,
+   "over_cap": false
   },
   {
    "code": "139130",
    "name": "iM금융지주",
    "weight": 1.99,
    "shares": 911.0,
-   "amount": 16224910.0
+   "amount": 16224910.0,
+   "over_cap": false
   },
   {
    "code": "279570",
    "name": "케이뱅크",
    "weight": 1.21,
    "shares": 1845.0,
-   "amount": 9870750.0
+   "amount": 9870750.0,
+   "over_cap": false
   }
- ]
+ ],
+ "breach_summary": null,
+ "cap": {
+  "single_cap": null,
+  "index_exception": true,
+  "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+  "source": "KRX 섹터지수 공통 방법론(유동시총가중, 캡 없음); KRX 정기변경 프레임워크 6/12월",
+  "verified": true,
+  "note": "시가총액 가중 복제 — 별도 단일종목 상한 없음."
+ }
 }

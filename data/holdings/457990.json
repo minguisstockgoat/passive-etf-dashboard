@@ -12,70 +12,128 @@
    "name": "한화솔루션",
    "weight": 23.2044,
    "shares": 13576.0,
-   "amount": 0.0
+   "amount": 0.0,
+   "over_cap": true
   },
   {
    "code": "010060",
    "name": "OCI홀딩스",
    "weight": 16.3509,
    "shares": 1356.0,
-   "amount": 0.0
+   "amount": 0.0,
+   "over_cap": true
   },
   {
    "code": "322000",
    "name": "HD현대에너지솔루션",
    "weight": 13.2516,
    "shares": 1885.0,
-   "amount": 0.0
+   "amount": 0.0,
+   "over_cap": true
   },
   {
    "code": "006400",
    "name": "삼성SDI",
    "weight": 11.7717,
    "shares": 386.0,
-   "amount": 0.0
+   "amount": 0.0,
+   "over_cap": true
   },
   {
    "code": "373220",
    "name": "LG에너지솔루션",
    "weight": 9.2176,
    "shares": 448.0,
-   "amount": 0.0
+   "amount": 0.0,
+   "over_cap": false
   },
   {
    "code": "010120",
    "name": "LS ELECTRIC",
    "weight": 7.9271,
    "shares": 659.0,
-   "amount": 0.0
+   "amount": 0.0,
+   "over_cap": false
   },
   {
    "code": "475150",
    "name": "SK이터닉스",
    "weight": 7.0474,
    "shares": 2370.0,
-   "amount": 0.0
+   "amount": 0.0,
+   "over_cap": false
   },
   {
    "code": "281740",
    "name": "레이크머티리얼즈",
    "weight": 3.8164,
    "shares": 6122.0,
-   "amount": 0.0
+   "amount": 0.0,
+   "over_cap": false
   },
   {
    "code": "247540",
    "name": "에코프로비엠",
    "weight": 3.7615,
    "shares": 612.0,
-   "amount": 0.0
+   "amount": 0.0,
+   "over_cap": false
   },
   {
    "code": "003670",
    "name": "포스코퓨처엠",
    "weight": 3.6962,
    "shares": 351.0,
-   "amount": 0.0
+   "amount": 0.0,
+   "over_cap": false
   }
- ]
+ ],
+ "breach_summary": {
+  "cap_pct": 10.0,
+  "verified": true,
+  "count": 4,
+  "total_sell": 34307798332,
+  "items": [
+   {
+    "code": "009830",
+    "name": "한화솔루션",
+    "weight": 23.204,
+    "cap_pct": 10.0,
+    "excess_pp": 13.204,
+    "sell_amount": 18430374270
+   },
+   {
+    "code": "010060",
+    "name": "OCI홀딩스",
+    "weight": 16.351,
+    "cap_pct": 10.0,
+    "excess_pp": 6.351,
+    "sell_amount": 8864836942
+   },
+   {
+    "code": "322000",
+    "name": "HD현대에너지솔루션",
+    "weight": 13.252,
+    "cap_pct": 10.0,
+    "excess_pp": 3.252,
+    "sell_amount": 4539198510
+   },
+   {
+    "code": "006400",
+    "name": "삼성SDI",
+    "weight": 11.772,
+    "cap_pct": 10.0,
+    "excess_pp": 1.772,
+    "sell_amount": 2473388610
+   }
+  ]
+ },
+ "cap": {
+  "single_cap": 0.1,
+  "index_exception": false,
+  "label": "단일종목 10% 상한",
+  "source": "FnGuide Solar & ESS Index Methodology v1.1: 10% 제한; 6·12월 D+2",
+  "verified": true,
+  "note": "개별종목 10% 제한. 5·11월말 선정, 6·12월 만기일 D+2 정기변경"
+ }
 }
