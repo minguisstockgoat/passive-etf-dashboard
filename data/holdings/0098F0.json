@@ -3,88 +3,88 @@
  "name": "KODEX 원자력SMR",
  "manager": "KODEX",
  "source": "삼성 KODEX",
- "asof": "2026-10-01",
- "total_weight": 100.01,
+ "asof": "2026-10-02",
+ "total_weight": 100.0,
  "count": 14,
  "holdings": [
   {
    "code": "034020",
    "name": "두산에너빌리티",
-   "weight": 20.41,
+   "weight": 20.39,
    "shares": 1961.0,
-   "amount": 160017600.0,
+   "amount": 160998100.0,
    "over_cap": true
   },
   {
    "code": "000720",
    "name": "현대건설",
-   "weight": 20.14,
+   "weight": 19.95,
    "shares": 1344.0,
-   "amount": 157920000.0,
+   "amount": 157516800.0,
    "over_cap": true
   },
   {
    "code": "052690",
    "name": "한전기술",
-   "weight": 19.02,
+   "weight": 19.38,
    "shares": 1216.0,
-   "amount": 149081600.0,
+   "amount": 152972800.0,
    "over_cap": true
   },
   {
    "code": "047040",
    "name": "대우건설",
-   "weight": 10.1,
+   "weight": 10.04,
    "shares": 4464.0,
-   "amount": 79191360.0,
+   "amount": 79280640.0,
    "over_cap": true
-  },
-  {
-   "code": "375500",
-   "name": "DL이앤씨",
-   "weight": 7.28,
-   "shares": 734.0,
-   "amount": 57105200.0,
-   "over_cap": false
   },
   {
    "code": "028260",
    "name": "삼성물산",
-   "weight": 7.1,
+   "weight": 7.16,
    "shares": 163.0,
-   "amount": 55664500.0,
+   "amount": 56561000.0,
+   "over_cap": false
+  },
+  {
+   "code": "375500",
+   "name": "DL이앤씨",
+   "weight": 7.07,
+   "shares": 734.0,
+   "amount": 55784000.0,
    "over_cap": false
   },
   {
    "code": "032820",
    "name": "우리기술",
-   "weight": 4.94,
+   "weight": 5.0,
    "shares": 3148.0,
-   "amount": 38720400.0,
+   "amount": 39475920.0,
    "over_cap": false
   },
   {
    "code": "083650",
    "name": "비에이치아이",
-   "weight": 3.93,
+   "weight": 3.92,
    "shares": 513.0,
-   "amount": 30780000.0,
+   "amount": 30933900.0,
    "over_cap": false
   },
   {
    "code": "051600",
    "name": "한전KPS",
-   "weight": 3.08,
+   "weight": 3.09,
    "shares": 552.0,
-   "amount": 24122400.0,
+   "amount": 24370800.0,
    "over_cap": false
   },
   {
    "code": "014620",
    "name": "성광벤드",
-   "weight": 1.66,
+   "weight": 1.65,
    "shares": 421.0,
-   "amount": 12987850.0,
+   "amount": 13008900.0,
    "over_cap": false
   },
   {
@@ -92,7 +92,7 @@
    "name": "태웅",
    "weight": 0.8,
    "shares": 166.0,
-   "amount": 6299700.0,
+   "amount": 6349500.0,
    "over_cap": false
   },
   {
@@ -100,7 +100,7 @@
    "name": "한전산업",
    "weight": 0.72,
    "shares": 460.0,
-   "amount": 5616600.0,
+   "amount": 5671800.0,
    "over_cap": false
   },
   {
@@ -108,7 +108,7 @@
    "name": "우진",
    "weight": 0.54,
    "shares": 312.0,
-   "amount": 4208880.0,
+   "amount": 4249440.0,
    "over_cap": false
   },
   {
@@ -116,7 +116,7 @@
    "name": "일진파워",
    "weight": 0.29,
    "shares": 193.0,
-   "amount": 2269680.0,
+   "amount": 2314070.0,
    "over_cap": false
   }
  ],
@@ -124,39 +124,39 @@
   "cap_pct": 10.0,
   "verified": true,
   "count": 4,
-  "total_sell": 83268335775,
+  "total_sell": 84188659200,
   "items": [
    {
     "code": "034020",
     "name": "두산에너빌리티",
-    "weight": 20.41,
+    "weight": 20.39,
     "cap_pct": 10.0,
-    "excess_pp": 10.41,
-    "sell_amount": 29215482825
+    "excess_pp": 10.39,
+    "sell_amount": 29392478800
    },
    {
     "code": "000720",
     "name": "현대건설",
-    "weight": 20.14,
+    "weight": 19.95,
     "cap_pct": 10.0,
-    "excess_pp": 10.14,
-    "sell_amount": 28457732550
+    "excess_pp": 9.95,
+    "sell_amount": 28147754000
    },
    {
     "code": "052690",
     "name": "한전기술",
-    "weight": 19.02,
+    "weight": 19.38,
     "cap_pct": 10.0,
-    "excess_pp": 9.02,
-    "sell_amount": 25314472150
+    "excess_pp": 9.38,
+    "sell_amount": 26535269600
    },
    {
     "code": "047040",
     "name": "대우건설",
-    "weight": 10.1,
+    "weight": 10.04,
     "cap_pct": 10.0,
-    "excess_pp": 0.1,
-    "sell_amount": 280648250
+    "excess_pp": 0.04,
+    "sell_amount": 113156800
    }
   ]
  },
