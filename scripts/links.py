@@ -274,7 +274,7 @@ def build(etfs: list, force: bool = False) -> dict:
         old = cache.get(t) or {}
         code = old.get("code") or ""
         if mgr == "RISE" and "riseetf" in str(old.get("product") or ""):
-            code = ""                                  # 사이트 이전 전 코드 — 새로 해석
+            code = ""                                  # 사이트 이전 전 코드 → 새로 해석
         if not code:
             code = res.resolve(mgr, e)
             if code:

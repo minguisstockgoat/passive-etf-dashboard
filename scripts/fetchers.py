@@ -293,7 +293,7 @@ class SolFetcher:
 
 
 # ---------------------------------------------------------------------------
-# RISE (KB)  — 2026-09 riseetf.co.kr 이 KB자산운용 통합 사이트(kbam.co.kr)로 이전.
+# RISE (KB): 2026-09 riseetf.co.kr 이 KB자산운용 통합 사이트(kbam.co.kr)로 이전.
 #   목록   GET /api/products/etfs?page=N          (krx_cd=티커 → fund_cd)
 #   최신일 GET /api/products/etfs/{fund_cd}/holdings  → base_dt, available_dates(최근 ~60영업일)
 #   전체   GET .../holdings?download=xlsx&base_dt=YYYYMMDD   (JSON 은 상위 30종만 준다)
@@ -562,7 +562,7 @@ class PlusFetcher:
         n = self.n_of(name)
         if not n:
             raise RuntimeError(f"PLUS n 미발견: {name}")
-        # 날짜를 주면 그날만 조회(과거 이력용 — 다른 날로 폴백하면 기준일이 섞인다).
+        # 날짜를 주면 그날만 조회(과거 이력용, 다른 날로 폴백하면 기준일이 섞인다).
         # 날짜가 없으면 오늘부터 거슬러 올라가며 최신을 찾는다.
         if date is not None:
             cands = [date]

@@ -104,7 +104,7 @@ def sol_fund_cd(ticker: str):
 
 def rise_code(ticker: str):
     """RISE 는 KB 통합 사이트(kbam.co.kr) ETF 목록의 krx_cd(=티커)로 fund_cd 를 찾는다.
-    (예전 riseetf.co.kr 이름 검색은 사이트 이전 후 동작하지 않음 — 2026-09-19 부터 수집 중단됐었다)"""
+    (예전 riseetf.co.kr 이름 검색은 사이트 이전 후 동작하지 않음, 2026-09-19 부터 수집 중단됐었다)"""
     if ticker not in _rise_cache:
         _rise_cache[ticker] = rise().code_of(ticker)
     return _rise_cache[ticker]
@@ -183,7 +183,7 @@ def main(only=None):
     os.makedirs(HOLD, exist_ok=True)
     ok, failed = 0, []
     if SKIP:
-        print(f"  (건너뜀: {', '.join(sorted(SKIP))} — 기존 파일 유지)")
+        print(f"  (건너뜀: {', '.join(sorted(SKIP))}, 기존 파일 유지)")
     for e in etfs:
         if only and e["manager"] not in only:
             continue

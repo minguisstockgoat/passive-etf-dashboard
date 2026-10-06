@@ -76,7 +76,7 @@ def main():
     load_dotenv()
     log("=== local_refresh 시작 ===")
     if not (os.environ.get("KRX_API_KEY") or os.environ.get("KRX_AUTH_KEY")):
-        log("! KRX_API_KEY 환경변수가 없습니다 — 중단"); return 1
+        log("! KRX_API_KEY 환경변수가 없습니다, 중단"); return 1
     if run(["git", "status", "--porcelain", "--", "scripts/", "assets/", "index.html", "etf.html"],
            check=False).stdout.strip():
         log("! 코드 파일에 커밋 안 된 변경이 있어 자동 갱신을 건너뜁니다(작업 중 보호)."); return 1
@@ -100,11 +100,11 @@ def main():
             log(f"push 완료 (기준일 {asof})"); return 0
         # 그 사이 Actions 가 push 했다 → 원격 위에 우리 커밋을 다시 얹고(충돌 시 우리 쪽 우선),
         # 다른 운용사의 새 구성종목까지 반영되도록 빌드를 한 번 더 돌린다.
-        log("push 거절 — rebase 후 재빌드")
+        log("push 거절 → rebase 후 재빌드")
         run(["git", "fetch", "-q"])
         if run(["git", "rebase", "-X", "theirs", "origin/main"], check=False).returncode != 0:
             run(["git", "rebase", "--abort"], check=False)
-            log("! rebase 실패 — 다음 실행 때 다시 받습니다"); return 1
+            log("! rebase 실패, 다음 실행 때 다시 받습니다"); return 1
         build_and_commit("data: 빌드 재생성 (TIGER·RISE 병합)")
     log("! push 3회 실패"); return 1
 

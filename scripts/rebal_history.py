@@ -4,7 +4,7 @@
 
 정기변경일 전후의 운용사 PDF(CU 구성)를 비교해, 그날 무엇이 바뀌었는지 남긴다.
   - 편입 / 편출 종목
-  - 비중 확대·축소 종목과 그 크기(순매매 %p) — cap 상한 때문에 상위 종목을 덜어내고
+  - 비중 확대·축소 종목과 그 크기(순매매 %p). cap 상한 때문에 상위 종목을 덜어내고
     하위 종목을 채워 넣는 조정이 여기서 보인다.
 
 어떻게 비교하나
@@ -50,7 +50,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.normpath(os.path.join(HERE, ".."))
 DATA = os.path.join(ROOT, "data")
 OUT_DIR = os.path.join(DATA, "rebal")
-CACHE = os.path.join(HERE, ".rebal_cache")       # 조회한 PDF 캐시(gitignore) — 재실행 시 재조회 방지
+CACHE = os.path.join(HERE, ".rebal_cache")       # 조회한 PDF 캐시(gitignore), 재실행 시 재조회 방지
 
 import kr_holidays as KH
 import rebal_dates as RD
@@ -271,6 +271,7 @@ class Source:
         self.dir = os.path.join(CACHE, etf["ticker"])
         self._git = None
         self.calls = 0
+        self.failures = 0                               # 조회 실패(차단·끊김) 횟수
 
     # --- 캐시 ---
     def _cpath(self, d):
@@ -301,6 +302,7 @@ class Source:
                     if attempt == 2:
                         log(f"    ! {self.e['name']} {d} 조회 실패: {str(ex)[:90]}")
                         failed = True
+                        self.failures += 1
                     else:
                         # 403/429 = 과다요청 차단 → 길게 쉰다(SOL 은 몰아치면 IP 를 잠시 막는다)
                         blocked = any(k in str(ex) for k in ("403", "429"))
@@ -434,7 +436,7 @@ def kodex_paced(ticker: str, d: dt.date):
 
 
 # ---------------------------------------------------------------------------
-# 순자산총액(그날) — KRX OPEN API 일별매매정보
+# 순자산총액(그날): KRX OPEN API 일별매매정보
 # ---------------------------------------------------------------------------
 _aum_cache = {}
 _aum_lock = threading.Lock()
@@ -611,7 +613,10 @@ def process(e: dict, since: dt.date, backfill: bool, today: dt.date, rebuild: bo
             break
         if DEADLINE[0] and time.time() > DEADLINE[0]:
             break
+        f0 = src.failures
         rec = build_event(e, ev, src, today)
+        if rec is None and src.failures > f0:
+            continue                                 # 차단·끊김 때문에 빈 것 → 상장 전으로 보지 않는다
         if rec is None:
             misses += 1
             if backfill and misses >= 2:             # 연속으로 비면 상장 전 → 더 과거는 볼 필요 없음

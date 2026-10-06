@@ -173,7 +173,7 @@
       html += '<div class="card"><div class="empty">구성종목(PDF) 데이터를 준비 중입니다.</div></div>';
     }
 
-    // 과거 정기변경 이력 — 최신 PDF 표 아래. data/rebal/{ticker}.json 을 따로 불러와 채운다.
+    // 과거 정기변경 이력: 최신 PDF 표 아래. data/rebal/{ticker}.json 을 따로 불러와 채운다.
     html += '<div id="rebal"></div>';
 
     html += '<div class="foot" style="margin-top:26px"><div class="disc">'
@@ -243,7 +243,7 @@
   }
 
   /* ── 과거 정기변경 이력 ───────────────────────────────────────────
-     data/rebal/{ticker}.json (scripts/rebal_history.py) — 정기변경일 전후 운용사 PDF 비교.
+     data/rebal/{ticker}.json (scripts/rebal_history.py): 정기변경일 전후 운용사 PDF 비교.
      순매매 %p 는 CU 보유수량 변화 × post 가격 / 펀드 평가액(가격 효과 제거). */
   var RB = null, RB_SEL = 0, RB_FILTER = 'all', RB_ALL = false;
   var TYPE_LBL = { 'in': '편입', 'out': '편출', 'up': '비중 확대', 'down': '비중 축소', 'ca': '주식수 조정', 'recode': '코드 변경' };
@@ -322,7 +322,7 @@
     if (v.status !== 'ok') {
       h += '<div class="empty" style="padding:26px 20px">이 정기변경 전후(' + esc(v.pre) + ' → ' + esc(v.post)
         + ') PDF 에는 의미 있는 구성 변화가 없었습니다'
-        + (v.est ? ' — 정기변경 일정이 자동추정이라 실제 변경일이 이 구간 밖일 수 있습니다.' : '.') + '</div>';
+        + (v.est ? '. 정기변경 일정이 자동추정이라 실제 변경일이 이 구간 밖일 수 있습니다.' : '.') + '</div>';
       $('#rbpanel').innerHTML = h;
       return;
     }
@@ -338,7 +338,7 @@
     var cuts = v.items.filter(function (it) { return it.cap === 'cut'; });
     var fills = v.items.filter(function (it) { return it.cap === 'fill'; });
     if (cuts.length) {
-      h += '<div class="rb-cap"><b>비중 상한(cap) 조정</b> — '
+      h += '<div class="rb-cap"><b>비중 상한(cap) 조정</b>: '
         + cuts.map(function (it) {
           return esc(it.n) + ' ' + it.w0.toFixed(2) + '% → ' + it.w1.toFixed(2) + '% (상한 ' + it.lim + '%, 순매매 ' + pp(it.tr)
             + (it.amt != null ? ', ' + amt(it.amt, true) : '') + ')';

@@ -81,7 +81,7 @@ KRX·코스피/코스닥·iSelect(NH투자증권)·KEDI(한국경제)·MSCI·Akr
 ## 과거 정기변경 이력 (rebal_history.py)
 정기변경 예정 효력일 D(`rebal_dates` 규칙을 과거 달에 적용)의 전후 영업일 창(D-5~D+5, 일정이
 자동추정이면 D+12)에서 운용사 PDF 를 **이분 탐색**으로 조회해 구성이 실제로 바뀐 날을 찾고,
-바뀌기 직전(pre)·직후(post) PDF 를 종목별로 대조한다. 운용사마다 PDF 날짜 표기가 달라서다 —
+바뀌기 직전(pre)·직후(post) PDF 를 종목별로 대조한다. 운용사마다 PDF 날짜 표기가 달라서다:
 KODEX 는 효력일 전일(D-1) 날짜 PDF 에 이미 새 구성이 들어가고, TIGER·ACE·PLUS·KIWOOM 은 대개
 D 날짜부터 바뀐다(2026-06 코스피200 정기변경으로 확인).
 
@@ -133,7 +133,7 @@ git push 인증(gh auth login 또는 SSH 키)이 돼 있어야 한다. 로그: `
 - 비중 cap: 지수 방법론/투자설명서 조사. `확인 요` 배지는 2차 출처 기반으로 원문 재확인 권장.
 
 ## 자동 갱신
-`.github/workflows/refresh.yml` — 평일 20:10(KST) `refresh_all.py`(TIGER·RISE 제외) + `rebal_history.py`
+`.github/workflows/refresh.yml`: 평일 20:10(KST) `refresh_all.py`(TIGER·RISE 제외) + `rebal_history.py`
 실행 후 `data/` 커밋. 저장소 Secrets 에 `KRX_API_KEY` 등록 필요.
 TIGER·RISE 는 국내 PC(Mac mini launchd)에서 `scripts/local_refresh.py`(로그 `scripts/.local_refresh.log`).
 
