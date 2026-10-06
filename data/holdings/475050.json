@@ -3,124 +3,79 @@
  "name": "ACE KPOP포커스",
  "manager": "ACE",
  "source": "한국투자 ACE",
- "asof": "2026-10-02",
+ "asof": "2026-10-06",
  "total_weight": 99.98,
  "count": 10,
  "holdings": [
   {
-   "code": "035900",
-   "name": "JYP Ent.",
-   "weight": 25.24,
-   "shares": 2209.0,
-   "amount": 83389750.0,
-   "over_cap": true
-  },
-  {
    "code": "041510",
    "name": "에스엠",
-   "weight": 25.16,
+   "weight": 25.7,
    "shares": 1070.0,
-   "amount": 83139000.0,
-   "over_cap": true
+   "amount": 84744000.0
+  },
+  {
+   "code": "035900",
+   "name": "JYP Ent.",
+   "weight": 25.06,
+   "shares": 2209.0,
+   "amount": 82616600.0
   },
   {
    "code": "352820",
    "name": "하이브",
-   "weight": 23.88,
+   "weight": 23.79,
    "shares": 505.0,
-   "amount": 78881000.0,
-   "over_cap": false
+   "amount": 78426500.0
   },
   {
    "code": "122870",
    "name": "와이지엔터테인먼트",
-   "weight": 20.38,
+   "weight": 20.12,
    "shares": 1632.0,
-   "amount": 67320000.0,
-   "over_cap": false
+   "amount": 66340800.0
   },
   {
    "code": "182360",
    "name": "큐브엔터",
-   "weight": 0.94,
+   "weight": 0.95,
    "shares": 485.0,
-   "amount": 3147650.0,
-   "over_cap": false
+   "amount": 3152500.0
   },
   {
    "code": "376300",
    "name": "디어유",
-   "weight": 0.93,
+   "weight": 0.92,
    "shares": 164.0,
-   "amount": 3096320.0,
-   "over_cap": false
+   "amount": 3075000.0
   },
   {
    "code": "035760",
    "name": "CJ ENM",
-   "weight": 0.91,
+   "weight": 0.9,
    "shares": 85.0,
-   "amount": 3038750.0,
-   "over_cap": false
+   "amount": 2992000.0
   },
   {
    "code": "060570",
    "name": "드림어스컴퍼니",
    "weight": 0.88,
    "shares": 589.0,
-   "amount": 2945000.0,
-   "over_cap": false
+   "amount": 2939110.0
   },
   {
    "code": "037270",
    "name": "YG PLUS",
-   "weight": 0.85,
+   "weight": 0.86,
    "shares": 918.0,
-   "amount": 2841210.0,
-   "over_cap": false
+   "amount": 2845800.0
   },
   {
    "code": "473980",
    "name": "노머스",
-   "weight": 0.81,
+   "weight": 0.8,
    "shares": 260.0,
-   "amount": 2688400.0,
-   "over_cap": false
+   "amount": 2670200.0
   }
- ],
- "breach_summary": {
-  "cap_pct": 25.0,
-  "verified": true,
-  "count": 2,
-  "total_sell": 394552000,
-  "items": [
-   {
-    "code": "035900",
-    "name": "JYP Ent.",
-    "weight": 25.24,
-    "cap_pct": 25.0,
-    "excess_pp": 0.24,
-    "sell_amount": 236731200
-   },
-   {
-    "code": "041510",
-    "name": "에스엠",
-    "weight": 25.16,
-    "cap_pct": 25.0,
-    "excess_pp": 0.16,
-    "sell_amount": 157820800
-   }
-  ]
- },
- "cap": {
-  "single_cap": 0.25,
-  "index_exception": false,
-  "top_n": 3,
-  "top_cap": 0.25,
-  "rest_cap": 0.2,
-  "label": "상위 3종목 각 25% · 나머지 20%",
-  "source": "ACE KPOP포커스 방법론: '상위 1~3위 25%, 4위 20% · 3·6·9·12월 옵션만기 2영업일 후'",
-  "verified": true,
-  "note": "상위 종목 상한 기준으로 초과를 계산한다(보수적). 포커스 시총 1~3위 각 25%·4위 20% 고정. 정기변경 3·6·9·12월 옵션만기 T+2(3·9월은 비중만)"
- }
+ ]
 }

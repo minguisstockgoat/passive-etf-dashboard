@@ -12,184 +12,140 @@
    "name": "브이엠",
    "weight": 16.0,
    "shares": 1861.0,
-   "amount": 123012100.0,
-   "over_cap": true
+   "amount": 123012100.0
   },
   {
    "code": "417840",
    "name": "저스템",
    "weight": 12.16,
    "shares": 5046.0,
-   "amount": 93502380.0,
-   "over_cap": false
+   "amount": 93502380.0
   },
   {
    "code": "319660",
    "name": "피에스케이",
    "weight": 11.43,
    "shares": 578.0,
-   "amount": 87856000.0,
-   "over_cap": false
+   "amount": 87856000.0
   },
   {
    "code": "095610",
    "name": "테스",
    "weight": 10.17,
    "shares": 441.0,
-   "amount": 78233400.0,
-   "over_cap": false
+   "amount": 78233400.0
   },
   {
    "code": "095340",
    "name": "ISC",
    "weight": 9.03,
    "shares": 337.0,
-   "amount": 69422000.0,
-   "over_cap": false
+   "amount": 69422000.0
   },
   {
    "code": "080580",
    "name": "오킨스전자",
    "weight": 3.69,
    "shares": 970.0,
-   "amount": 28372500.0,
-   "over_cap": false
+   "amount": 28372500.0
   },
   {
    "code": "067310",
    "name": "하나마이크론",
    "weight": 3.54,
    "shares": 529.0,
-   "amount": 27243500.0,
-   "over_cap": false
+   "amount": 27243500.0
   },
   {
    "code": "281820",
    "name": "케이씨텍",
    "weight": 3.12,
    "shares": 261.0,
-   "amount": 24012000.0,
-   "over_cap": false
+   "amount": 24012000.0
   },
   {
    "code": "003160",
    "name": "디아이",
    "weight": 2.87,
    "shares": 516.0,
-   "amount": 22084800.0,
-   "over_cap": false
+   "amount": 22084800.0
   },
   {
    "code": "183300",
    "name": "코미코",
    "weight": 2.81,
    "shares": 634.0,
-   "amount": 21587700.0,
-   "over_cap": false
+   "amount": 21587700.0
   },
   {
    "code": "084370",
    "name": "유진테크",
    "weight": 2.69,
    "shares": 117.0,
-   "amount": 20685600.0,
-   "over_cap": false
+   "amount": 20685600.0
   },
   {
    "code": "482630",
    "name": "삼양엔씨켐",
    "weight": 2.65,
    "shares": 1315.0,
-   "amount": 20343050.0,
-   "over_cap": false
+   "amount": 20343050.0
   },
   {
    "code": "195870",
    "name": "해성디에스",
    "weight": 2.56,
    "shares": 302.0,
-   "amount": 19720600.0,
-   "over_cap": false
+   "amount": 19720600.0
   },
   {
    "code": "240810",
    "name": "원익IPS",
    "weight": 2.5,
    "shares": 139.0,
-   "amount": 19209800.0,
-   "over_cap": false
+   "amount": 19209800.0
   },
   {
    "code": "039030",
    "name": "이오테크닉스",
    "weight": 2.49,
    "shares": 36.0,
-   "amount": 19152000.0,
-   "over_cap": false
+   "amount": 19152000.0
   },
   {
    "code": "131970",
    "name": "두산테스나",
    "weight": 2.42,
    "shares": 174.0,
-   "amount": 18600600.0,
-   "over_cap": false
+   "amount": 18600600.0
   },
   {
    "code": "357780",
    "name": "솔브레인",
    "weight": 2.4,
    "shares": 44.0,
-   "amount": 18480000.0,
-   "over_cap": false
+   "amount": 18480000.0
   },
   {
    "code": "036930",
    "name": "주성엔지니어링",
    "weight": 2.37,
    "shares": 77.0,
-   "amount": 18249000.0,
-   "over_cap": false
+   "amount": 18249000.0
   },
   {
    "code": "058470",
    "name": "리노공업",
    "weight": 2.29,
    "shares": 209.0,
-   "amount": 17618700.0,
-   "over_cap": false
+   "amount": 17618700.0
   },
   {
    "code": "064760",
    "name": "티씨케이",
    "weight": 2.27,
    "shares": 59.0,
-   "amount": 17464000.0,
-   "over_cap": false
+   "amount": 17464000.0
   }
- ],
- "breach_summary": {
-  "cap_pct": 15.0,
-  "verified": true,
-  "count": 1,
-  "total_sell": 546167500,
-  "items": [
-   {
-    "code": "089970",
-    "name": "브이엠",
-    "weight": 16.0,
-    "cap_pct": 15.0,
-    "excess_pp": 1.0,
-    "sell_amount": 546167500
-   }
-  ]
- },
- "cap": {
-  "single_cap": 0.15,
-  "index_exception": false,
-  "label": "단일종목 15% 상한",
-  "source": "FnGuide_Semiconductor_Core_Process_Tech_Leaders_Index_Methodology_Book_(20231031)_v1.1.pdf | '코어 상위 5개 종목에 60%, 나머지 종목에 40% 할당…비중이 15%을 넘을 경우 15%로 제한'; '3, 6, 9, 12월 옵션 만기일(D) 이후 2영업일째(D+2)에 정기변경'",
-  "verified": true,
-  "note": "코어 상위5종목 60%·나머지 40% 할당 후 종목당 15% 상한(실링). 3·6·9·12월 옵션 만기일 D+2 정기변경(분기). (방법론서 정식명 'FnGuide 반도체 핵심 공정 주도주 지수')"
- }
+ ]
 }

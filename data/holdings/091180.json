@@ -3,162 +3,135 @@
  "name": "KODEX 자동차",
  "manager": "KODEX",
  "source": "삼성 KODEX",
- "asof": "2026-10-02",
- "total_weight": 100.02,
+ "asof": "2026-10-06",
+ "total_weight": 100.01,
  "count": 18,
  "holdings": [
   {
    "code": "000270",
    "name": "기아",
-   "weight": 19.14,
+   "weight": 18.99,
    "shares": 2146.0,
-   "amount": 243141800.0,
-   "over_cap": false
-  },
-  {
-   "code": "005380",
-   "name": "현대차",
-   "weight": 17.59,
-   "shares": 640.0,
-   "amount": 223360000.0,
-   "over_cap": false
+   "amount": 242283400.0
   },
   {
    "code": "012330",
    "name": "현대모비스",
-   "weight": 17.45,
+   "weight": 17.43,
    "shares": 580.0,
-   "amount": 221560000.0,
-   "over_cap": false
+   "amount": 222430000.0
+  },
+  {
+   "code": "005380",
+   "name": "현대차",
+   "weight": 17.38,
+   "shares": 640.0,
+   "amount": 221760000.0
   },
   {
    "code": "161390",
    "name": "한국타이어앤테크놀로지",
-   "weight": 14.53,
+   "weight": 14.7,
    "shares": 3132.0,
-   "amount": 184474800.0,
-   "over_cap": false
+   "amount": 187606800.0
   },
   {
    "code": "204320",
    "name": "HL만도",
-   "weight": 5.2,
+   "weight": 5.22,
    "shares": 1413.0,
-   "amount": 65987100.0,
-   "over_cap": false
+   "amount": 66622950.0
   },
   {
    "code": "018880",
    "name": "한온시스템",
-   "weight": 4.4,
+   "weight": 4.57,
    "shares": 15212.0,
-   "amount": 55904100.0,
-   "over_cap": false
+   "amount": 58261960.0
   },
   {
    "code": "007340",
    "name": "DN오토모티브",
-   "weight": 3.49,
+   "weight": 3.5,
    "shares": 893.0,
-   "amount": 44337450.0,
-   "over_cap": false
-  },
-  {
-   "code": "005850",
-   "name": "에스엘",
-   "weight": 2.84,
-   "shares": 689.0,
-   "amount": 36103600.0,
-   "over_cap": false
+   "amount": 44650000.0
   },
   {
    "code": "011210",
    "name": "현대위아",
-   "weight": 2.81,
+   "weight": 2.82,
    "shares": 676.0,
-   "amount": 35625200.0,
-   "over_cap": false
+   "amount": 35963200.0
+  },
+  {
+   "code": "005850",
+   "name": "에스엘",
+   "weight": 2.81,
+   "shares": 689.0,
+   "amount": 35896900.0
   },
   {
    "code": "073240",
    "name": "금호타이어",
-   "weight": 2.65,
+   "weight": 2.63,
    "shares": 4884.0,
-   "amount": 33601920.0,
-   "over_cap": false
+   "amount": 33553080.0
   },
   {
    "code": "000240",
    "name": "한국앤컴퍼니",
-   "weight": 2.05,
+   "weight": 2.06,
    "shares": 1035.0,
-   "amount": 25978500.0,
-   "over_cap": false
+   "amount": 26340750.0
   },
   {
    "code": "437730",
    "name": "삼현",
-   "weight": 2.01,
+   "weight": 2.02,
    "shares": 498.0,
-   "amount": 25547400.0,
-   "over_cap": false
+   "amount": 25796400.0
   },
   {
    "code": "004490",
    "name": "세방전지",
-   "weight": 1.67,
+   "weight": 1.68,
    "shares": 344.0,
-   "amount": 21190400.0,
-   "over_cap": false
+   "amount": 21396800.0
   },
   {
    "code": "064960",
    "name": "SNT모티브",
-   "weight": 0.97,
+   "weight": 0.98,
    "shares": 463.0,
-   "amount": 12338950.0,
-   "over_cap": false
+   "amount": 12477850.0
   },
   {
    "code": "015750",
    "name": "성우하이텍",
    "weight": 0.94,
    "shares": 2023.0,
-   "amount": 11875010.0,
-   "over_cap": false
+   "amount": 11976160.0
   },
   {
    "code": "009900",
    "name": "명신산업",
    "weight": 0.8,
    "shares": 1190.0,
-   "amount": 10150700.0,
-   "over_cap": false
+   "amount": 10150700.0
   },
   {
    "code": "003620",
    "name": "KG모빌리티",
    "weight": 0.77,
    "shares": 3882.0,
-   "amount": 9782640.0,
-   "over_cap": false
+   "amount": 9840870.0
   },
   {
    "code": "036530",
    "name": "SNT홀딩스",
    "weight": 0.71,
    "shares": 199.0,
-   "amount": 9064450.0,
-   "over_cap": false
+   "amount": 9014700.0
   }
- ],
- "breach_summary": null,
- "cap": {
-  "single_cap": null,
-  "index_exception": true,
-  "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-  "source": "KRX 섹터지수 공통 방법론(유동시총가중, 캡 없음); KRX 정기변경 프레임워크 6/12월",
-  "verified": true,
-  "note": "시가총액 가중 복제 — 별도 단일종목 상한 없음."
- }
+ ]
 }

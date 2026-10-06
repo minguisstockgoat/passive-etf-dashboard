@@ -3,137 +3,79 @@
  "name": "PLUS 태양광&ESS",
  "manager": "PLUS",
  "source": "한화 PLUS",
- "asof": "2026-10-02",
+ "asof": "2026-10-06",
  "total_weight": 100.03,
  "count": 10,
  "holdings": [
   {
    "code": "009830",
    "name": "한화솔루션",
-   "weight": 25.3584,
+   "weight": 25.6298,
    "shares": 13576.0,
-   "amount": 0.0,
-   "over_cap": true
+   "amount": 0.0
   },
   {
    "code": "010060",
    "name": "OCI홀딩스",
-   "weight": 16.3434,
+   "weight": 16.7709,
    "shares": 1356.0,
-   "amount": 0.0,
-   "over_cap": true
+   "amount": 0.0
   },
   {
    "code": "322000",
    "name": "HD현대에너지솔루션",
-   "weight": 13.4773,
+   "weight": 13.7318,
    "shares": 1885.0,
-   "amount": 0.0,
-   "over_cap": true
+   "amount": 0.0
   },
   {
    "code": "006400",
    "name": "삼성SDI",
-   "weight": 10.8835,
+   "weight": 10.6785,
    "shares": 386.0,
-   "amount": 0.0,
-   "over_cap": true
+   "amount": 0.0
   },
   {
    "code": "373220",
    "name": "LG에너지솔루션",
-   "weight": 8.8079,
+   "weight": 8.692,
    "shares": 448.0,
-   "amount": 0.0,
-   "over_cap": false
+   "amount": 0.0
   },
   {
    "code": "010120",
    "name": "LS ELECTRIC",
-   "weight": 7.4036,
+   "weight": 7.22,
    "shares": 659.0,
-   "amount": 0.0,
-   "over_cap": false
+   "amount": 0.0
   },
   {
    "code": "475150",
    "name": "SK이터닉스",
-   "weight": 6.3915,
+   "weight": 6.1599,
    "shares": 2370.0,
-   "amount": 0.0,
-   "over_cap": false
+   "amount": 0.0
   },
   {
    "code": "281740",
    "name": "레이크머티리얼즈",
-   "weight": 4.0432,
+   "weight": 4.0179,
    "shares": 6122.0,
-   "amount": 0.0,
-   "over_cap": false
+   "amount": 0.0
   },
   {
    "code": "247540",
    "name": "에코프로비엠",
-   "weight": 3.8283,
+   "weight": 3.703,
    "shares": 612.0,
-   "amount": 0.0,
-   "over_cap": false
+   "amount": 0.0
   },
   {
    "code": "003670",
    "name": "포스코퓨처엠",
-   "weight": 3.4973,
+   "weight": 3.4307,
    "shares": 351.0,
-   "amount": 0.0,
-   "over_cap": false
+   "amount": 0.0
   }
- ],
- "breach_summary": {
-  "cap_pct": 10.0,
-  "verified": true,
-  "count": 4,
-  "total_sell": 39261678330,
-  "items": [
-   {
-    "code": "009830",
-    "name": "한화솔루션",
-    "weight": 25.358,
-    "cap_pct": 10.0,
-    "excess_pp": 15.358,
-    "sell_amount": 23137287740
-   },
-   {
-    "code": "010060",
-    "name": "OCI홀딩스",
-    "weight": 16.343,
-    "cap_pct": 10.0,
-    "excess_pp": 6.343,
-    "sell_amount": 9555919790
-   },
-   {
-    "code": "322000",
-    "name": "HD현대에너지솔루션",
-    "weight": 13.477,
-    "cap_pct": 10.0,
-    "excess_pp": 3.477,
-    "sell_amount": 5238204810
-   },
-   {
-    "code": "006400",
-    "name": "삼성SDI",
-    "weight": 10.883,
-    "cap_pct": 10.0,
-    "excess_pp": 0.883,
-    "sell_amount": 1330265990
-   }
-  ]
- },
- "cap": {
-  "single_cap": 0.1,
-  "index_exception": false,
-  "label": "단일종목 10% 상한",
-  "source": "FnGuide Solar & ESS Index Methodology v1.1: 10% 제한; 6·12월 D+2",
-  "verified": true,
-  "note": "개별종목 10% 제한. 5·11월말 선정, 6·12월 만기일 D+2 정기변경"
- }
+ ]
 }

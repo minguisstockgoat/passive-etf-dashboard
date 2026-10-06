@@ -3,101 +3,79 @@
  "name": "ACE K반도체TOP2+",
  "manager": "ACE",
  "source": "한국투자 ACE",
- "asof": "2026-10-02",
- "total_weight": 100.0,
+ "asof": "2026-10-06",
+ "total_weight": 99.99,
  "count": 10,
  "holdings": [
   {
    "code": "000660",
    "name": "SK하이닉스",
-   "weight": 22.82,
+   "weight": 22.79,
    "shares": 49.0,
-   "amount": 89817000.0,
-   "over_cap": false
+   "amount": 90209000.0
   },
   {
    "code": "005930",
    "name": "삼성전자",
-   "weight": 22.36,
+   "weight": 22.25,
    "shares": 319.0,
-   "amount": 88044000.0,
-   "over_cap": false
+   "amount": 88044000.0
   },
   {
    "code": "402340",
    "name": "SK스퀘어",
-   "weight": 19.66,
+   "weight": 19.63,
    "shares": 67.0,
-   "amount": 77385000.0,
-   "over_cap": false
+   "amount": 77720000.0
   },
   {
    "code": "009150",
    "name": "삼성전기",
-   "weight": 18.24,
+   "weight": 18.38,
    "shares": 46.0,
-   "amount": 71806000.0,
-   "over_cap": false
+   "amount": 72726000.0
   },
   {
    "code": "222800",
    "name": "심텍",
-   "weight": 7.34,
+   "weight": 7.64,
    "shares": 181.0,
-   "amount": 28905700.0,
-   "over_cap": false
+   "amount": 30263200.0
   },
   {
    "code": "420770",
    "name": "기가비스",
-   "weight": 5.79,
+   "weight": 5.55,
    "shares": 170.0,
-   "amount": 22831000.0,
-   "over_cap": false
+   "amount": 21981000.0
   },
   {
    "code": "323280",
    "name": "태성",
-   "weight": 1.22,
+   "weight": 1.19,
    "shares": 79.0,
-   "amount": 4826900.0,
-   "over_cap": false
+   "amount": 4700500.0
   },
   {
    "code": "356860",
    "name": "티엘비",
-   "weight": 0.96,
+   "weight": 0.95,
    "shares": 78.0,
-   "amount": 3767400.0,
-   "over_cap": false
+   "amount": 3779100.0
   },
   {
    "code": "195870",
    "name": "해성디에스",
-   "weight": 0.86,
+   "weight": 0.83,
    "shares": 51.0,
-   "amount": 3391500.0,
-   "over_cap": false
+   "amount": 3330300.0
   },
   {
    "code": "007810",
    "name": "코리아써키트",
-   "weight": 0.75,
+   "weight": 0.78,
    "shares": 38.0,
-   "amount": 3002000.0,
-   "over_cap": false
+   "amount": 3131200.0
   }
- ],
- "breach_summary": null,
- "cap": {
-  "single_cap": 0.25,
-  "index_exception": false,
-  "top_n": 2,
-  "top_cap": 0.25,
-  "rest_cap": 0.2,
-  "label": "상위 2종목 각 25% · 나머지 20%",
-  "source": "ACE K반도체TOP2+ 투자설명서(KRX K-AI 반도체TOP2+ 지수 산출기준): '시장대표 2종목 25% 고정 · 테마 8종목 개별 최대 20% · 정기변경 3,6,9,12월 마지막 영업일 D+10'",
-  "verified": true,
-  "note": "상위 종목 상한 기준으로 초과를 계산한다(보수적). 총 10종목. 시장대표 2종목(삼성전자·SK하이닉스) 각 25% 고정, 테마 유사도 상위 8종목은 종합점수(키워드30%+유동시총70%) 가중(개별 최대 20%·최소 0.5%). 정기변경 분기(기준일 3·6·9·12월 말 영업일, 변경일 D+10)"
- }
+ ]
 }

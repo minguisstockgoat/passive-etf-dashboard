@@ -3,106 +3,86 @@
  "name": "KODEX 보험",
  "manager": "KODEX",
  "source": "삼성 KODEX",
- "asof": "2026-10-02",
- "total_weight": 100.0,
+ "asof": "2026-10-06",
+ "total_weight": 100.02,
  "count": 11,
  "holdings": [
   {
    "code": "005830",
    "name": "DB손해보험",
-   "weight": 22.74,
+   "weight": 22.6,
    "shares": 2485.0,
-   "amount": 455003500.0,
-   "over_cap": false
+   "amount": 454258000.0
   },
   {
    "code": "000810",
    "name": "삼성화재",
-   "weight": 18.87,
+   "weight": 18.78,
    "shares": 603.0,
-   "amount": 377478000.0,
-   "over_cap": false
+   "amount": 377478000.0
   },
   {
    "code": "032830",
    "name": "삼성생명",
-   "weight": 15.8,
+   "weight": 16.0,
    "shares": 1113.0,
-   "amount": 316092000.0,
-   "over_cap": false
+   "amount": 321657000.0
   },
   {
    "code": "001450",
    "name": "현대해상",
-   "weight": 14.17,
+   "weight": 14.26,
    "shares": 6002.0,
-   "amount": 283594500.0,
-   "over_cap": false
+   "amount": 286595500.0
   },
   {
    "code": "003690",
    "name": "코리안리",
    "weight": 10.1,
    "shares": 14114.0,
-   "amount": 202112480.0,
-   "over_cap": false
+   "amount": 203100460.0
   },
   {
    "code": "088350",
    "name": "한화생명",
-   "weight": 9.17,
+   "weight": 9.2,
    "shares": 34682.0,
-   "amount": 183467780.0,
-   "over_cap": false
+   "amount": 184855060.0
   },
   {
    "code": "031210",
    "name": "서울보증보험",
-   "weight": 3.12,
+   "weight": 3.07,
    "shares": 1467.0,
-   "amount": 62420850.0,
-   "over_cap": false
+   "amount": 61687350.0
   },
   {
    "code": "000370",
    "name": "한화손해보험",
-   "weight": 1.96,
+   "weight": 1.97,
    "shares": 5398.0,
-   "amount": 39297440.0,
-   "over_cap": false
+   "amount": 39567340.0
   },
   {
    "code": "085620",
    "name": "미래에셋생명",
-   "weight": 1.94,
+   "weight": 1.93,
    "shares": 1989.0,
-   "amount": 38765610.0,
-   "over_cap": false
+   "amount": 38785500.0
   },
   {
    "code": "211050",
    "name": "인카금융서비스",
-   "weight": 1.37,
+   "weight": 1.32,
    "shares": 2744.0,
-   "amount": 27440000.0,
-   "over_cap": false
+   "amount": 26479600.0
   },
   {
    "code": "000400",
    "name": "롯데손해보험",
-   "weight": 0.76,
+   "weight": 0.79,
    "shares": 7174.0,
-   "amount": 15208880.0,
-   "over_cap": false
+   "amount": 15818670.0
   }
- ],
- "breach_summary": null,
- "cap": {
-  "single_cap": null,
-  "index_exception": true,
-  "label": "기초지수 비중 복제 · 단일종목 상한 없음",
-  "source": "KRX 섹터지수 공통 방법론(유동시총가중, 캡 없음); KRX 정기변경 프레임워크 6/12월",
-  "verified": true,
-  "note": "시가총액 가중 복제 — 별도 단일종목 상한 없음."
- }
+ ]
 }
