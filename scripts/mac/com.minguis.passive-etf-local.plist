@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  TIGER·RISE 국내 수집(평일 21:00 KST). REPO_PATH 를 클론 경로로 바꾼 뒤
+  ~/Library/LaunchAgents/ 에 복사하고 launchctl load 한다(README 'Mac mini' 참고).
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.minguis.passive-etf-local</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>REPO_PATH/scripts/mac/run_local_refresh.sh</string>
+  </array>
+  <key>WorkingDirectory</key><string>REPO_PATH</string>
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Weekday</key><integer>1</integer><key>Hour</key><integer>21</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Weekday</key><integer>2</integer><key>Hour</key><integer>21</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Weekday</key><integer>3</integer><key>Hour</key><integer>21</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Weekday</key><integer>4</integer><key>Hour</key><integer>21</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Weekday</key><integer>5</integer><key>Hour</key><integer>21</integer><key>Minute</key><integer>0</integer></dict>
+  </array>
+  <key>StandardOutPath</key><string>REPO_PATH/scripts/.launchd.log</string>
+  <key>StandardErrorPath</key><string>REPO_PATH/scripts/.launchd.log</string>
+</dict>
+</plist>

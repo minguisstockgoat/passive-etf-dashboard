@@ -18,7 +18,7 @@ ETF 외부 링크 빌더 → data/links.json
 URL 패턴은 전부 각 사이트에서 직접 확인한 것이다(2026-08-31).
   TIGER  investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund={ISIN}  (#section7 = 자산 구성)
   SOL    soletf.com/ko/fund/etf/{FUND_CD}                        (?tabIndex=3 = 구성종목(PDF))
-  RISE   riseetf.co.kr/prod/finderDetail/{rise_code}
+  RISE   kbam.co.kr/products/{fund_cd}   (2026-09 riseetf.co.kr → KB자산운용 통합 사이트 이전)
   KODEX  samsungfund.com/etf/product/view.do?id={fId}
   KIWOOM kiwoometf.com/service/etf/KO02010200M?gcode={ticker}
   ACE    aceetf.co.kr/fund/{fundCd}
@@ -154,7 +154,7 @@ MGR_LABEL = {
 MGR_FALLBACK = {
     "TIGER": "https://investments.miraeasset.com/tigeretf/ko/product/search/index.do",
     "KODEX": "https://www.samsungfund.com/etf/product/list.do",
-    "RISE": "https://www.riseetf.co.kr/prod/finder",
+    "RISE": "https://kbam.co.kr/",
     "SOL": "https://www.soletf.com/ko/fund",
     "HANARO": "https://www.hanaroetf.com/fund",
     "PLUS": "https://www.plusetf.co.kr/product/overview",
@@ -176,7 +176,7 @@ def product_urls(mgr: str, code: str) -> tuple[str, str]:
         u = f"https://www.soletf.com/ko/fund/etf/{code}"
         return u, u + "?tabIndex=3"                   # 구성종목(PDF) 탭
     if mgr == "RISE":
-        u = f"https://www.riseetf.co.kr/prod/finderDetail/{code}"
+        u = f"https://kbam.co.kr/products/{code}"
         return u, u
     if mgr == "KODEX":
         u = f"https://www.samsungfund.com/etf/product/view.do?id={code}"
@@ -235,11 +235,7 @@ class CodeResolver:
                 if self._rise is None:
                     from fetchers import RiseFetcher
                     self._rise = RiseFetcher()
-                nz = lambda s: str(s or "").upper().replace(" ", "")
-                for r in self._rise.search(name):
-                    if nz(r["name"]) == nz(name):
-                        return r["rise_code"]
-                return ""
+                return str(self._rise.code_of(t) or "")
             if mgr == "HANARO":
                 if self._hanaro is None:
                     from fetchers import HanaroFetcher
@@ -277,6 +273,8 @@ def build(etfs: list, force: bool = False) -> dict:
         t, mgr = e["ticker"], e["manager"]
         old = cache.get(t) or {}
         code = old.get("code") or ""
+        if mgr == "RISE" and "riseetf" in str(old.get("product") or ""):
+            code = ""                                  # 사이트 이전 전 코드 — 새로 해석
         if not code:
             code = res.resolve(mgr, e)
             if code:

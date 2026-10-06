@@ -28,7 +28,11 @@ from fetchers import (TigerFetcher, SolFetcher, RiseFetcher,
 _tiger = _sol = _rise = _kodex = _kiwoom = None
 _ace = _plus = _hanaro = None
 _sol_map = None   # ticker6 -> FUND_CD
-_rise_cache = {}  # name -> rise_code
+_rise_cache = {}  # ticker -> kbam fund_cd
+
+# 해외 IP 에서 막히는 운용사(TIGER 403·KB 접속불가). GitHub Actions 는 SKIP_MANAGERS=TIGER,RISE
+# 로 건너뛰고(기존 파일 유지), 국내 PC(Mac mini)의 local_refresh.py 가 따로 채운다.
+SKIP = {m.strip().upper() for m in os.environ.get("SKIP_MANAGERS", "").split(",") if m.strip()}
 
 
 def tiger():
@@ -98,19 +102,12 @@ def sol_fund_cd(ticker: str):
     return _sol_map.get(ticker)
 
 
-def rise_code(name: str):
-    """RISE 검색결과 중 이름이 정확히 일치하는 카드만 사용(유사명 오매칭 방지)."""
-    if name in _rise_cache:
-        return _rise_cache[name]
-    def nz(s):
-        return str(s or "").upper().replace(" ", "")
-    code = None
-    for r in rise().search(name):
-        if nz(r["name"]) == nz(name):
-            code = r["rise_code"]
-            break
-    _rise_cache[name] = code
-    return code
+def rise_code(ticker: str):
+    """RISE 는 KB 통합 사이트(kbam.co.kr) ETF 목록의 krx_cd(=티커)로 fund_cd 를 찾는다.
+    (예전 riseetf.co.kr 이름 검색은 사이트 이전 후 동작하지 않음 — 2026-09-19 부터 수집 중단됐었다)"""
+    if ticker not in _rise_cache:
+        _rise_cache[ticker] = rise().code_of(ticker)
+    return _rise_cache[ticker]
 
 
 def _pack(holdings, asof, ticker, name, manager, source):
@@ -144,9 +141,9 @@ def fetch_one(etf: dict):
                 asof = f"{work_dt[:4]}-{work_dt[4:6]}-{work_dt[6:]}"
             return _pack(hs, asof, ticker, name, mgr, "신한 SOL")
         if mgr == "RISE":
-            rc = rise_code(name)
+            rc = rise_code(ticker)
             if not rc:
-                print(f"    - RISE code 미발견 {name}"); return None
+                print(f"    - RISE code 미발견 {ticker} {name}"); return None
             asof = rise().latest_date(rc)
             hs = rise().fetch(rc, None)
             return _pack(hs, asof, ticker, name, mgr, "KB RISE")
@@ -185,8 +182,12 @@ def main(only=None):
     etfs = json.load(open(os.path.join(DATA, "etfs.json"), encoding="utf-8"))["etfs"]
     os.makedirs(HOLD, exist_ok=True)
     ok, failed = 0, []
+    if SKIP:
+        print(f"  (건너뜀: {', '.join(sorted(SKIP))} — 기존 파일 유지)")
     for e in etfs:
         if only and e["manager"] not in only:
+            continue
+        if e["manager"] in SKIP:
             continue
         payload = fetch_one(e)
         if payload and payload["holdings"]:

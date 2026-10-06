@@ -7,6 +7,7 @@
 
   var HOLD = [], HSORT = { key: 'weight', dir: -1 }, HFILTER = '';
   var FUND = 0, FUND_LBL = '';   // 평가금액 환산 기준(순자산총액 우선, 없으면 시가총액)
+  var ASOF = '';                 // etfs.json 기준일(KRX)
 
   // PDF 의 평가금액은 1CU 기준이라 펀드 전체 규모와 무관한 숫자다.
   // 구성비중 × 펀드 규모로 환산해야 '이 ETF 가 그 종목을 얼마나 들고 있나'가 바로 읽힌다.
@@ -22,6 +23,7 @@
     var etf, hold = null;
     try {
       var d = await PE.loadJSON('data/etfs.json');
+      ASOF = d.as_of || '';
       etf = (d.etfs || []).find(function (e) { return e.ticker === ticker; });
       if (!etf) { fail('해당 ETF를 찾을 수 없습니다.'); return; }
       document.title = etf.name + ' · 패시브 ETF 대시보드';
@@ -111,7 +113,8 @@
       '<div class="v">' + esc(e.schedule_label) + '</div>'
       + '<div style="margin-top:8px">' + monthsChips(e.months) + '</div>'
       + nextRebalLine(e)
-      + '<div class="note">' + esc(e.schedule_detail || '') + '</div>');
+      + '<div class="note">' + esc(e.schedule_detail || '') + '</div>'
+      + (e.months && e.months.length ? '<div class="note"><a class="xlink sm" href="#rebal">과거 정기변경 이력 보기 ↓</a></div>' : ''));
     html += card('비중 cap 규칙 ' + capPill,
       cap ? ('<div class="v">' + esc(cap.label || '-') + '</div>'
         + '<div class="note">' + esc(cap.note || '') + '</div>'
@@ -151,6 +154,7 @@
           + (FUND > 0 ? ' · 평가금액 = 구성비중 × ' + FUND_LBL + ' ' + PE.won(FUND) : '')) : '수집 준비중') + '</div>'
       + (e.links ? linkBtn(e.links.pdf, '운용사 원문 PDF 실시간 보기', 'sm pdf') : '')
       + '</div>';
+    html += staleNote(e, hold);
     if (hold && hold.holdings && hold.holdings.length) {
       HOLD = hold.holdings.map(function (h) {
         var o = {}; for (var k in h) o[k] = h[k];
@@ -169,6 +173,9 @@
       html += '<div class="card"><div class="empty">구성종목(PDF) 데이터를 준비 중입니다.</div></div>';
     }
 
+    // 과거 정기변경 이력 — 최신 PDF 표 아래. data/rebal/{ticker}.json 을 따로 불러와 채운다.
+    html += '<div id="rebal"></div>';
+
     html += '<div class="foot" style="margin-top:26px"><div class="disc">'
       + '시가총액·기초지수: KRX OPEN API · 구성종목: ' + esc(e.company) + ' 공식 공시 · '
       + '매도규모는 <b>시가총액 × 초과 %p</b> 단순 추정치입니다. 정보 제공 목적이며 투자 권유가 아닙니다.'
@@ -176,6 +183,18 @@
 
     $('#detail').innerHTML = html;
     if (HOLD.length) bindHoldings();
+    loadRebal(e);
+  }
+
+  // 구성종목 기준일이 KRX 기준일보다 많이 밀려 있으면(운용사 수집 실패가 이어진 경우) 경고한다.
+  // 2026-07~10 TIGER 가 이 상태로 석 달 묵어 운용사 홈페이지 비중과 어긋났었다.
+  function staleNote(e, hold) {
+    if (!hold || !hold.asof || !ASOF) return '';
+    var lag = Math.round((new Date(ASOF + 'T00:00:00') - new Date(hold.asof + 'T00:00:00')) / 86400000);
+    if (lag <= 4) return '';
+    return '<div class="stale">⚠ 이 ETF 의 구성종목은 <b>' + esc(hold.asof) + '</b> 기준으로, 대시보드 기준일('
+      + esc(ASOF) + ')보다 ' + lag + '일 늦습니다. 운용사 사이트 수집이 지연된 상태라 운용사 홈페이지 비중과 다를 수 있으니 '
+      + '위 원문 PDF 링크로 확인하세요.</div>';
   }
 
   function card(k, v) { return '<div class="info"><div class="k">' + k + '</div>' + v + '</div>'; }
@@ -221,5 +240,177 @@
         + '<td class="num hide-sm">' + (h.est_amount ? PE.won(h.est_amount) : '-') + '</td>'
         + '</tr>';
     }).join('');
+  }
+
+  /* ── 과거 정기변경 이력 ───────────────────────────────────────────
+     data/rebal/{ticker}.json (scripts/rebal_history.py) — 정기변경일 전후 운용사 PDF 비교.
+     순매매 %p 는 CU 보유수량 변화 × post 가격 / 펀드 평가액(가격 효과 제거). */
+  var RB = null, RB_SEL = 0, RB_FILTER = 'all', RB_ALL = false;
+  var TYPE_LBL = { 'in': '편입', 'out': '편출', 'up': '비중 확대', 'down': '비중 축소', 'ca': '주식수 조정', 'recode': '코드 변경' };
+
+  async function loadRebal(e) {
+    var box = $('#rebal');
+    if (!box) return;
+    var j = null;
+    try { j = await PE.loadJSON('data/rebal/' + e.ticker + '.json'); } catch (x) { j = null; }
+    var evs = (j && j.events) || [];
+    var head = '<div class="sec-title"><h2>과거 정기변경 이력</h2>'
+      + '<div class="meta">' + (evs.length
+        ? (esc((j.since || '').slice(0, 7)) + ' 이후 ' + evs.length + '회 · 정기변경일 전후 운용사 PDF 비교')
+        : '') + '</div></div>';
+    if (!evs.length) {
+      var why = (!e.months) ? '정기변경 일정이 확인되지 않아 이력을 만들지 않았습니다.'
+        : (!e.months.length ? '정해진 정기변경 없이 수시로 종목을 바꾸는 ETF 입니다.'
+          : (j && j.note ? j.note : '아직 비교할 수 있는 과거 PDF 가 없습니다(최근 상장 등).'));
+      box.innerHTML = head + '<div class="card"><div class="empty" style="padding:28px 20px">' + esc(why) + '</div></div>';
+      return;
+    }
+    RB = { etf: e, data: j, evs: evs };
+    RB_SEL = 0; RB_FILTER = 'all'; RB_ALL = false;
+    box.innerHTML = head
+      + (j.note ? '<div class="rb-note">' + esc(j.note) + '</div>' : '')
+      + '<div class="rb-strip" id="rbstrip"></div>'
+      + '<div class="card rb-panel" id="rbpanel"></div>';
+    drawStrip();
+    drawEvent();
+  }
+
+  function ym(d) { return d ? d.slice(0, 4) + '.' + d.slice(5, 7) : ''; }
+  function md(d) { return d ? d.slice(5).replace('-', '/') : ''; }
+
+  // 억 단위 미만은 백만원으로(소형 종목 편출 등)
+  function amt(v, signed) {
+    if (v == null) return '-';
+    var a = Math.abs(v), s = signed ? (v > 0 ? '+' : (v < 0 ? '−' : '')) : '';
+    if (a >= 1e8) return s + PE.won(a);
+    if (a >= 1e6) return s + Math.round(a / 1e6).toLocaleString() + '백만';
+    return a > 0 ? s + '1백만 미만' : '0';
+  }
+  function pp(v) {
+    var a = Math.abs(v);
+    return (v > 0 ? '+' : (v < 0 ? '−' : '')) + (a >= 0.1 ? a.toFixed(2) : a.toFixed(3)) + '%p';
+  }
+
+  function drawStrip() {
+    var max = Math.max.apply(null, RB.evs.map(function (v) { return (v.sum && v.sum.to) || 0; })) || 1;
+    $('#rbstrip').innerHTML = RB.evs.map(function (v, i) {
+      var s = v.sum || {}, ok = v.status === 'ok';
+      var h = ok ? Math.max(4, Math.round((s.to || 0) / max * 34)) : 2;
+      return '<button class="rb-ev' + (i === RB_SEL ? ' on' : '') + (ok ? '' : ' quiet') + '" data-i="' + i + '">'
+        + '<span class="rb-bar"><i style="height:' + h + 'px"></i></span>'
+        + '<span class="rb-d">' + ym(v.date) + '</span>'
+        + '<span class="rb-s">' + (ok
+          ? ((s['in'] || s.out) ? '<em class="i">+' + (s['in'] || 0) + '</em> <em class="o">−' + (s.out || 0) + '</em>' : '조정만')
+          : '변동 없음') + '</span>'
+        + '</button>';
+    }).join('');
+    document.querySelectorAll('#rbstrip .rb-ev').forEach(function (b) {
+      b.onclick = function () { RB_SEL = +b.dataset.i; RB_FILTER = 'all'; RB_ALL = false; drawStrip(); drawEvent(); };
+    });
+  }
+
+  function drawEvent() {
+    var v = RB.evs[RB_SEL], s = v.sum || {}, e = RB.etf;
+    var h = '<div class="rb-head">'
+      + '<div><div class="rb-title">' + esc(v.date) + ' 정기변경'
+      + (v.est ? ' <span class="pill chk">일정 자동추정</span>' : '')
+      + (v.provisional ? ' <span class="pill chk">잠정</span>' : '') + '</div>'
+      + '<div class="rb-sub">예상 효력일(' + esc(v.rule) + ') · PDF 비교 <b>' + esc(v.pre) + '</b> → <b>' + esc(v.post) + '</b>'
+      + (v.days && v.days.length ? ' · 구성 반영일 ' + v.days.map(md).join(', ') : '')
+      + (v.aum ? ' · 당시 순자산 ' + PE.won(v.aum) : '') + '</div></div></div>';
+
+    if (v.status !== 'ok') {
+      h += '<div class="empty" style="padding:26px 20px">이 정기변경 전후(' + esc(v.pre) + ' → ' + esc(v.post)
+        + ') PDF 에는 의미 있는 구성 변화가 없었습니다'
+        + (v.est ? ' — 정기변경 일정이 자동추정이라 실제 변경일이 이 구간 밖일 수 있습니다.' : '.') + '</div>';
+      $('#rbpanel').innerHTML = h;
+      return;
+    }
+
+    h += '<div class="rb-stats">'
+      + stat('편입', s['in'] || 0, 'i') + stat('편출', s.out || 0, 'o')
+      + stat('비중 확대', s.up || 0, '') + stat('비중 축소', s.down || 0, '')
+      + stat('편도 회전율', (s.to || 0).toFixed(2) + '%', '')
+      + (s.buy_amt != null ? stat('추정 매수 / 매도', amt(s.buy_amt) + ' / ' + amt(s.sell_amt), 'wide') : '')
+      + '</div>';
+
+    // cap 상한 조정 요약
+    var cuts = v.items.filter(function (it) { return it.cap === 'cut'; });
+    var fills = v.items.filter(function (it) { return it.cap === 'fill'; });
+    if (cuts.length) {
+      h += '<div class="rb-cap"><b>비중 상한(cap) 조정</b> — '
+        + cuts.map(function (it) {
+          return esc(it.n) + ' ' + it.w0.toFixed(2) + '% → ' + it.w1.toFixed(2) + '% (상한 ' + it.lim + '%, 순매매 ' + pp(it.tr)
+            + (it.amt != null ? ', ' + amt(it.amt, true) : '') + ')';
+        }).join(' · ')
+        + (fills.length ? '<br>상한까지 채워 올린 종목: ' + fills.map(function (it) { return esc(it.n) + ' ' + it.w1.toFixed(2) + '%'; }).join(', ') : '')
+        + '<span class="rb-capnote">현재 cap 규칙(' + esc((e.cap && e.cap.label) || '') + ') 기준 표시입니다. 과거엔 규칙이 달랐을 수 있습니다.</span></div>';
+    }
+
+    var cnt = {
+      all: v.items.length,
+      io: v.items.filter(function (it) { return it.t === 'in' || it.t === 'out'; }).length,
+      adj: v.items.filter(function (it) { return it.t === 'up' || it.t === 'down'; }).length
+    };
+    h += '<div class="rb-tools"><div class="seg">'
+      + segBtn('all', '전체 ' + cnt.all) + segBtn('io', '편입·편출 ' + cnt.io) + segBtn('adj', '비중 조정 ' + cnt.adj)
+      + '</div><span class="rb-legend">순매매 = 보유수량 변화 × 당시 가격 ÷ 펀드 평가액 (주가 변동 효과 제외)</span></div>';
+
+    var rows = v.items.filter(function (it) {
+      if (RB_FILTER === 'io') return it.t === 'in' || it.t === 'out';
+      if (RB_FILTER === 'adj') return it.t === 'up' || it.t === 'down';
+      return true;
+    });
+    var LIMIT = 25, shown = RB_ALL ? rows : rows.slice(0, LIMIT);
+    var maxTr = Math.max.apply(null, rows.map(function (it) { return Math.abs(it.tr); }).concat([0.0001]));
+
+    h += '<div class="tbl-scroll"><table class="rb-tbl"><thead><tr>'
+      + '<th>구분</th><th>종목</th><th class="num">이전 비중</th><th class="num">이후 비중</th>'
+      + '<th class="num">순매매</th><th class="num hide-sm">CU 수량</th><th class="num">추정 금액</th>'
+      + '</tr></thead><tbody>'
+      + shown.map(function (it) {
+        var w = Math.min(100, Math.abs(it.tr) / maxTr * 100);
+        var dir = it.tr > 0 ? 'b' : (it.tr < 0 ? 's' : '');
+        return '<tr class="t-' + it.t + '">'
+          + '<td><span class="rb-t t-' + it.t + '">' + TYPE_LBL[it.t] + '</span>'
+          + (it.cap === 'cut' ? '<span class="rb-t cap">상한 초과분 매도</span>' : '')
+          + (it.cap === 'fill' ? '<span class="rb-t capf">상한까지 매수</span>' : '') + '</td>'
+          + '<td><b>' + esc(it.n) + '</b><span class="code">' + esc(it.c) + '</span></td>'
+          + '<td class="num">' + (it.t === 'in' ? '<span class="mu">-</span>' : it.w0.toFixed(2) + '%') + '</td>'
+          + '<td class="num">' + (it.t === 'out' ? '<span class="mu">-</span>' : it.w1.toFixed(2) + '%') + '</td>'
+          + '<td class="num rb-tr ' + dir + '"><div>' + (it.t === 'ca' || it.t === 'recode' ? '<span class="mu">-</span>' : pp(it.tr)) + '</div>'
+          + (dir ? '<div class="rb-trbar ' + dir + '"><i style="width:' + w.toFixed(1) + '%"></i></div>' : '') + '</td>'
+          + '<td class="num hide-sm">' + qty(it) + '</td>'
+          + '<td class="num rb-amt ' + dir + '">' + (it.amt != null ? amt(it.amt, true) : '<span class="mu">-</span>') + '</td>'
+          + '</tr>';
+      }).join('')
+      + '</tbody></table></div>';
+    if (rows.length > LIMIT) {
+      h += '<div class="rb-more"><button class="btn ghost" id="rbmore">' + (RB_ALL ? '접기' : '전체 ' + rows.length + '개 보기') + '</button></div>';
+    }
+    if (s.ca || s.recode) {
+      h += '<div class="rb-foot">' + (s.ca ? '주식수 조정 ' + s.ca + '종: 분할·병합·무상증자 등으로 수량은 바뀌었지만 비중은 그대로인 종목(매매 아님). ' : '')
+        + (s.recode ? '코드 변경 ' + s.recode + '건: 같은 종목의 종목코드만 바뀐 경우. ' : '') + '</div>';
+    }
+    if (s.same) h += '<div class="rb-foot">그 밖에 ' + s.same + '종은 보유수량 변화가 없거나 미미(±0.01%p 미만)해 생략했습니다.</div>';
+
+    $('#rbpanel').innerHTML = h;
+    document.querySelectorAll('#rbpanel .seg button').forEach(function (b) {
+      b.onclick = function () { RB_FILTER = b.dataset.f; RB_ALL = false; drawEvent(); };
+    });
+    var mb = $('#rbmore');
+    if (mb) mb.onclick = function () { RB_ALL = !RB_ALL; drawEvent(); };
+  }
+
+  function stat(k, v, cls) {
+    return '<div class="rb-stat ' + (cls || '') + '"><div class="k">' + k + '</div><div class="v">' + v + '</div></div>';
+  }
+  function segBtn(f, t) { return '<button data-f="' + f + '" class="' + (RB_FILTER === f ? 'on' : '') + '">' + t + '</button>'; }
+  function qty(it) {
+    if (it.t === 'in') return '<span class="mu">0 →</span> ' + PE.comma(it.s1);
+    if (it.t === 'out') return PE.comma(it.s0) + ' <span class="mu">→ 0</span>';
+    var r = it.s0 ? (it.s1 / it.s0 - 1) * 100 : 0;
+    return PE.comma(it.s0) + ' → ' + PE.comma(it.s1)
+      + (it.s0 ? ' <span class="mu">(' + (r > 0 ? '+' : '') + r.toFixed(1) + '%)</span>' : '');
   }
 })();

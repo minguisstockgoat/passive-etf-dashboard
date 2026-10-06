@@ -2,14 +2,20 @@
 """
 운용사별 ETF 구성종목(PDF) 수집기.
 
-세 운용사의 서로 다른 엔드포인트를 하나의 공통 스키마(Holding)로 정규화한다.
+운용사마다 다른 엔드포인트를 하나의 공통 스키마(Holding)로 정규화한다.
 브라우저 네트워크 분석으로 확인한 공개 엔드포인트를 사용 (인증 불필요).
 
-- TIGER : POST .../pdfListAjax.ajax   (ksdFund=ISIN, fixDate=YYYY.MM.DD)   과거조회 O
-- SOL   : GET  /api/etf/pds/pdf/{FUND_CD}  (JSON)                          최신만
-- RISE  : POST /prod/finder/productViewSearchTabJquery3 (fundCd, searchDate) 과거조회 O
+- TIGER : POST .../pdfListAjax.ajax   (ksdFund=ISIN, fixDate=YYYY.MM.DD)   과거조회 O(2019~)
+          ⚠ 2026-07 부터 TLS 지문으로 비브라우저를 차단 → curl_cffi(크롬 흉내) 세션 필요.
+            해외 IP(GitHub Actions)는 그래도 403 이라 국내 PC 에서만 받힌다.
+- SOL   : GET  /api/etf/pds/pdf/{FUND_CD}  (JSON)  최신 / 과거는 /api/fund/pdfList?fund_cd=&work_dt=
+- RISE  : GET  kbam.co.kr/api/products/etfs/{fund_cd}/holdings?download=xlsx&base_dt=YYYYMMDD
+          (2026-09 KB자산운용 통합 사이트로 이전, 최근 ~60영업일만 과거조회. 해외 IP 접속 불가)
+- KODEX : GET  .../product-pdf/{fId}.do?gijunYMD=YYYY.MM.DD                과거조회 O
+- KIWOOM/ACE/PLUS/HANARO : 날짜 파라미터로 과거조회 O
 """
 from __future__ import annotations
+import io
 import re
 import json
 import datetime as dt
@@ -62,6 +68,18 @@ def _session() -> requests.Session:
     return s
 
 
+def _browser_session():
+    """TLS 지문까지 크롬처럼 보이는 세션(curl_cffi). 미설치면 일반 requests 로 폴백.
+    미래에셋(TIGER)은 2026-07 부터 python-requests 의 TLS 핸드셰이크를 끊어버린다."""
+    try:
+        from curl_cffi import requests as cr
+    except ImportError:
+        return _session()
+    s = cr.Session(impersonate="chrome")
+    s.verify = False
+    return s
+
+
 # ---------------------------------------------------------------------------
 # KRX 종목 파인더 (전 ETF: 공식명 <-> ISIN <-> 티커)  — 공개 엔드포인트
 # ---------------------------------------------------------------------------
@@ -87,7 +105,7 @@ class TigerFetcher:
     BASE = "https://investments.miraeasset.com/tigeretf/ko/product/search/detail"
 
     def __init__(self):
-        self.s = _session()
+        self.s = _browser_session()
 
     def info(self, isin: str) -> dict:
         """TIGER 개요: 벤치마크(기초지수)/상장일/총보수/순자산 (상세페이지 텍스트 파싱)."""
@@ -227,8 +245,29 @@ class SolFetcher:
         self._list = out
         return out
 
+    def fetch_hist(self, fund_cd: str, date: dt.date) -> tuple[list[Holding], str]:
+        """과거 PDF: 상품 페이지 '검색 시작일' 이 쓰는 /api/fund/pdfList (work_dt=YYYYMMDD).
+        응답 행마다 WORK_DT 가 찍혀 있어 요청한 날짜인지 확인할 수 있다. 자료가 없으면 []."""
+        r = self.s.get(f"{self.BASE}/api/fund/pdfList",
+                       params={"fund_cd": fund_cd, "work_dt": date.strftime("%Y%m%d")},
+                       headers={"X-Requested-With": "XMLHttpRequest",
+                                "Referer": f"{self.BASE}/ko/fund/etf/{fund_cd}?tabIndex=3"},
+                       timeout=REQUEST_TIMEOUT)
+        r.raise_for_status()
+        rows = r.json() or []
+        work_dt = str(rows[0].get("WORK_DT") or "") if rows else ""
+        out = []
+        for it in rows:
+            code = str(it.get("STOCK_CODE") or it.get("SEC_NM") or "")
+            name = str(it.get("SEC_NM", ""))
+            if code.upper() == "CASH00000001" or name.replace(" ", "").endswith("현금설정액"):
+                continue
+            out.append(Holding(_code(code), name, _num(it.get("QTY")), _num(it.get("PRICE")),
+                               _num(it.get("WT_DISP"))))
+        return out, work_dt
+
     def fetch(self, fund_cd: str, date: Optional[dt.date] = None) -> tuple[list[Holding], str]:
-        """SOL 은 과거조회 미지원 -> date 인자는 무시. (holdings, work_dt) 반환."""
+        """최신 PDF (holdings, work_dt). 과거는 fetch_hist."""
         r = self.s.get(f"{self.BASE}/api/etf/pds/pdf/{fund_cd}",
                        headers={"X-Requested-With": "XMLHttpRequest",
                                 "Referer": f"{self.BASE}/ko/fund/etf/pds"},
@@ -254,124 +293,83 @@ class SolFetcher:
 
 
 # ---------------------------------------------------------------------------
-# RISE (KB)  — 과거조회 지원(searchDate). 세션 쿠키 필요.
+# RISE (KB)  — 2026-09 riseetf.co.kr 이 KB자산운용 통합 사이트(kbam.co.kr)로 이전.
+#   목록   GET /api/products/etfs?page=N          (krx_cd=티커 → fund_cd)
+#   최신일 GET /api/products/etfs/{fund_cd}/holdings  → base_dt, available_dates(최근 ~60영업일)
+#   전체   GET .../holdings?download=xlsx&base_dt=YYYYMMDD   (JSON 은 상위 30종만 준다)
+#   ⚠ available_dates 밖의 base_dt 는 에러 없이 최신을 돌려준다 → 반드시 목록으로 거른다.
+#   ⚠ 해외 IP(GitHub Actions)에서는 접속 자체가 안 된다(connect timeout).
 # ---------------------------------------------------------------------------
 class RiseFetcher:
-    BASE = "https://www.riseetf.co.kr"
+    BASE = "https://kbam.co.kr/api/products"
 
     def __init__(self):
         self.s = _session()
-        self._warmed = set()   # rise_code 별 세션 워밍업 1회만
+        self._map = None       # 티커 -> fund_cd
+        self._meta = {}        # fund_cd -> holdings JSON(최신일·가능일자)
 
-    def search(self, query: str) -> list[dict]:
-        """RISE 파인더 검색 결과 카드(card_type02)에서 (rise_code, name) 추출.
-        추천상품 캐러셀(.section)이 아닌 실제 검색결과 카드만 대상으로 한다."""
-        r = self.s.get(f"{self.BASE}/prod/finder", params={"searchText": query, "page": 1},
-                       headers={"X-Requested-With": "XMLHttpRequest"}, timeout=REQUEST_TIMEOUT)
-        r.raise_for_status()
-        soup = BeautifulSoup(r.text, "html.parser")
-        out, seen = [], set()
-        for card in soup.select(".card_type02"):
-            a = card.select_one('a[href*="/prod/finderDetail/"]')
-            if not a:
-                continue
-            m = re.search(r"/prod/finderDetail/([A-Za-z0-9]{3,8})", a.get("href", ""))
-            if not m:
-                continue
-            code = m.group(1)
-            # 카드 내 'RISE ...' 로 시작하는 종목명 링크 텍스트
-            name = ""
-            for aa in card.select('a[href*="/prod/finderDetail/"]'):
-                t = re.sub(r"\s+", " ", aa.get_text(" ", strip=True)).strip()
-                if t.startswith("RISE"):
-                    name = t
-                    break
-            if code in seen or not name:
-                continue
-            seen.add(code)
-            out.append({"rise_code": code, "name": name})
-        return out
-
-    def _warmup(self, rise_code: str) -> Optional[dt.date]:
-        """detail 페이지 GET(세션쿠키) + datepicker_pdf 최신 기준일 파싱."""
-        r = self.s.get(f"{self.BASE}/prod/finderDetail/{rise_code}",
-                       headers={"Referer": f"{self.BASE}/prod/finder"}, timeout=REQUEST_TIMEOUT)
-        m = re.search(r'id="datepicker_pdf"[^>]*value="(\d{4})-(\d{2})-(\d{2})"', r.text)
-        return dt.date(int(m.group(1)), int(m.group(2)), int(m.group(3))) if m else None
-
-    def latest_date(self, rise_code: str) -> Optional[dt.date]:
-        d = self._warmup(rise_code)
-        self._warmed.add(rise_code)
-        return d
-
-    def info(self, rise_code: str) -> dict:
-        """RISE 개요: 기초지수/상장일/설정단위/순자산/총보수 (기본정보 표 파싱)."""
-        r = self.s.get(f"{self.BASE}/prod/finderDetail/{rise_code}", timeout=REQUEST_TIMEOUT)
-        soup = BeautifulSoup(r.text, "html.parser")
-        d = {}
-        for t in soup.select("table"):
-            txt = t.get_text(" ", strip=True)
-            if "기초지수" in txt and ("상장일" in txt or "설정단위" in txt):
-                ths = [re.sub(r"툴팁 열기", "", th.get_text(" ", strip=True)).strip() for th in t.select("th")]
-                tds = [td.get_text(" ", strip=True) for td in t.select("td")]
-                kv = dict(zip(ths, tds))
-                d["index_name"] = next((v for k, v in kv.items() if "기초지수" in k), None)
-                d["listing"] = next((v for k, v in kv.items() if "상장일" in k), None)
-                d["cu"] = next((v for k, v in kv.items() if "설정단위" in k), None)
-                aum = next((v for k, v in kv.items() if "순 자산" in k or "순자산" in k), None)
-                if aum and aum.replace(",", "").isdigit():
-                    d["aum"] = f"{round(int(aum.replace(',', '')) / 1e8):,}억원"
+    def etf_map(self) -> dict:
+        if self._map is not None:
+            return self._map
+        m, page = {}, 1
+        while True:
+            r = self.s.get(f"{self.BASE}/etfs", params={"page": page}, timeout=REQUEST_TIMEOUT)
+            r.raise_for_status()
+            j = r.json()
+            for it in j.get("page_items") or []:
+                if it.get("krx_cd") and it.get("fund_cd"):
+                    m[str(it["krx_cd"]).strip()] = str(it["fund_cd"]).strip()
+            info = j.get("page_info") or {}
+            if not info.get("next_page") or page >= int(info.get("total_page") or 1):
                 break
-        # 총보수: 별도 보수 표(헤더 '총보수(%)')에서 값 추출
-        for t in soup.select("table"):
-            if "총보수" in t.get_text():
-                ths = [th.get_text(" ", strip=True) for th in t.select("th")]
-                tds = [td.get_text(" ", strip=True) for td in t.select("td")]
-                fee = next((tds[i] for i, h in enumerate(ths) if "총보수" in h and i < len(tds)), None)
-                fm = re.search(r"(\d+\.\d+)", fee) if fee else None
-                if fm:
-                    d["fee"] = fm.group(1)
-                    break
-        if "fee" not in d:
-            m = re.search(r"총보수[^0-9%]{0,6}연?\s*([\d.]+)\s*%", r.text)
-            if m:
-                d["fee"] = m.group(1)
-        return d
+            page += 1
+        self._map = m
+        return m
 
-    def fetch(self, rise_code: str, date: Optional[dt.date] = None) -> list[Holding]:
-        if rise_code not in self._warmed:      # 세션쿠키/최신일 확보 1회
-            self._warmup(rise_code)
-            self._warmed.add(rise_code)
-        data = {"fundCd": rise_code}
-        if date is not None:
-            data["searchDate"] = date.strftime("%Y-%m-%d")
-        r = self.s.post(f"{self.BASE}/prod/finder/productViewSearchTabJquery3", data=data,
-                        headers={"X-Requested-With": "XMLHttpRequest",
-                                 "Referer": f"{self.BASE}/prod/finderDetail/{rise_code}",
-                                 "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"},
-                        timeout=REQUEST_TIMEOUT)
-        r.raise_for_status()
-        return self._parse(r.text)
+    def code_of(self, ticker: str) -> Optional[str]:
+        return self.etf_map().get(str(ticker))
+
+    def _holdings_meta(self, fund_cd: str) -> dict:
+        if fund_cd not in self._meta:
+            r = self.s.get(f"{self.BASE}/etfs/{fund_cd}/holdings", timeout=REQUEST_TIMEOUT)
+            r.raise_for_status()
+            self._meta[fund_cd] = r.json() or {}
+        return self._meta[fund_cd]
 
     @staticmethod
-    def _parse(html: str) -> list[Holding]:
-        soup = BeautifulSoup(html, "html.parser")
+    def _d(s) -> Optional[dt.date]:
+        s = str(s or "")
+        return dt.date(int(s[:4]), int(s[4:6]), int(s[6:8])) if len(s) == 8 and s.isdigit() else None
+
+    def latest_date(self, fund_cd: str) -> Optional[dt.date]:
+        return self._d(self._holdings_meta(fund_cd).get("base_dt"))
+
+    def available_dates(self, fund_cd: str) -> set:
+        return {d for d in (self._d(x) for x in self._holdings_meta(fund_cd).get("available_dates") or []) if d}
+
+    def fetch(self, fund_cd: str, date: Optional[dt.date] = None) -> list[Holding]:
+        params = {"download": "xlsx"}
+        if date is not None:
+            if date not in self.available_dates(fund_cd):
+                return []                       # 범위 밖이면 최신을 돌려주므로 아예 요청하지 않는다
+            params["base_dt"] = date.strftime("%Y%m%d")
+        r = self.s.get(f"{self.BASE}/etfs/{fund_cd}/holdings", params=params, timeout=REQUEST_TIMEOUT)
+        r.raise_for_status()
+        return self._parse_xlsx(r.content)
+
+    @staticmethod
+    def _parse_xlsx(blob: bytes) -> list[Holding]:
+        import openpyxl
+        wb = openpyxl.load_workbook(io.BytesIO(blob), read_only=True)
+        rows = list(wb.active.iter_rows(values_only=True))
         out = []
-        for tr in soup.select("tr"):
-            tds = tr.find_all("td")
-            if len(tds) < 5:
+        for row in rows[1:]:                    # 헤더: 종목코드·종목명·수량(주)·보유비중(%)·평가금액(원)
+            if not row or len(row) < 5 or not row[1]:
                 continue
-            name = tds[0].get_text(strip=True)
-            code = tds[1].get_text(strip=True)
-            shares = _num(tds[2].get_text())
-            weight = _num(tds[3].get_text())
-            amount = _num(tds[4].get_text())
-            if not name or not code:
+            code, name = str(row[0] or "").strip(), str(row[1]).strip()
+            if code.upper().startswith(("CASH", "KRD")) or name.replace(" ", "").endswith(("예금", "현금")):
                 continue
-            # '설정현금액' 총액 요약행(비중 100, 코드 CASH00000001) 제외
-            if code.upper().startswith("CASH") and weight >= 99.999 and name.replace(" ", "") == "설정현금액":
-                continue
-            out.append(Holding(_code(code), name, shares, amount, weight))
+            out.append(Holding(_code(code) or name, name, _num(row[2]), _num(row[4]), _num(row[3])))
         return out
 
 
@@ -564,11 +562,15 @@ class PlusFetcher:
         n = self.n_of(name)
         if not n:
             raise RuntimeError(f"PLUS n 미발견: {name}")
-        cands = [date] if date else []
-        d0 = dt.date.today()
-        cands += [d0 - dt.timedelta(days=i) for i in range(0, 6)]
+        # 날짜를 주면 그날만 조회(과거 이력용 — 다른 날로 폴백하면 기준일이 섞인다).
+        # 날짜가 없으면 오늘부터 거슬러 올라가며 최신을 찾는다.
+        if date is not None:
+            cands = [date]
+        else:
+            d0 = dt.date.today()
+            cands = [d0 - dt.timedelta(days=i) for i in range(0, 6)]
         for d in cands:
-            if d is None or d.weekday() >= 5:
+            if d.weekday() >= 5:
                 continue
             r = self.s.get(f"{self.BASE}/api/v1/product/pdf/list",
                            params={"n": n, "page": 0, "pageSize": 1000, "d": d.strftime("%Y%m%d")},
@@ -591,6 +593,8 @@ class PlusFetcher:
                 if len(asof) == 8 and asof.isdigit():
                     asof = f"{asof[:4]}-{asof[4:6]}-{asof[6:]}"
                 return out, asof
+        if date is not None:
+            return [], ""
         raise RuntimeError(f"PLUS 데이터 없음: {name}")
 
 
@@ -603,6 +607,7 @@ class HanaroFetcher:
     def __init__(self):
         self.s = _session()
         self._uid = {}   # name -> uid
+        self._latest = {}  # uid -> 최신 PDF 기준일
 
     def uid_of(self, name: str) -> Optional[str]:
         if name in self._uid:
@@ -629,24 +634,51 @@ class HanaroFetcher:
         self._uid[name] = uid
         return uid
 
+    def latest_date(self, uid: str) -> Optional[dt.date]:
+        """상품 페이지 PDF 기준일 입력칸(#pdfDate)의 기본값 = 운용사가 게시한 최신 PDF 날짜."""
+        if uid in self._latest:
+            return self._latest[uid]
+        d = None
+        try:
+            r = self.s.get(f"{self.BASE}/fund/{uid}", timeout=REQUEST_TIMEOUT)
+            m = re.search(r'id="pdfDate".*?value="(\d{4})\.(\d{2})\.(\d{2})"', r.text, re.S)
+            if m:
+                d = dt.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+        except Exception:
+            pass
+        self._latest[uid] = d
+        return d
+
     def fetch(self, name: str, date: Optional[dt.date] = None) -> tuple[list[Holding], str]:
+        """baseDate 는 'YYYY.MM.DD' 형식이어야 과거조회가 된다. 'YYYY-MM-DD' 로 보내면
+        (최신일 외에는) 빈 응답이라 예전 코드는 매번 최신으로 폴백하면서 요청한 날짜를
+        기준일로 붙이는 오류가 있었다. 최신 이후 날짜를 주면 조용히 최신을 돌려준다."""
         uid = self.uid_of(name)
         if not uid:
             raise RuntimeError(f"HANARO uid 미발견: {name}")
-        cands = [date] if date else []
-        d0 = dt.date.today()
-        cands += [d0 - dt.timedelta(days=i) for i in range(0, 6)]
+        latest = self.latest_date(uid)
+        if date is not None:
+            if latest and date > latest:
+                return [], ""
+            cands = [date]
+        elif latest:
+            cands = [latest]
+        else:
+            d0 = dt.date.today()
+            cands = [d0 - dt.timedelta(days=i) for i in range(0, 6)]
         for d in cands:
-            if d is None or d.weekday() >= 5:
+            if d.weekday() >= 5:
                 continue
             r = self.s.get(f"{self.BASE}/api/v1/fund/{uid}/get-fund-holdings-list",
-                           params={"baseDate": d.strftime("%Y-%m-%d")},
+                           params={"baseDate": d.strftime("%Y.%m.%d")},
                            headers={"Referer": f"{self.BASE}/fund/{uid}"}, timeout=REQUEST_TIMEOUT)
             if r.status_code != 200 or "<tr" not in r.text:
                 continue
             out = self._parse(r.text)
             if out:
                 return out, d.isoformat()
+        if date is not None:
+            return [], ""
         raise RuntimeError(f"HANARO 데이터 없음: {name}")
 
     @staticmethod
@@ -689,6 +721,8 @@ if __name__ == "__main__":
     for h in hs[:4]:
         print(" ", h)
 
-    print("--- RISE 44A9 (미국나스닥100) ---")
-    for h in RiseFetcher().fetch("44A9", y)[:4]:
+    print("--- RISE 200 (kbam 4435) ---")
+    rf = RiseFetcher()
+    print("  latest", rf.latest_date("4435"))
+    for h in rf.fetch("4435")[:4]:
         print(" ", h)

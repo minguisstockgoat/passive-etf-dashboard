@@ -17,7 +17,10 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
+      # SOL 처럼 과거 PDF 를 안 주는 운용사는 정기변경 비교에 data/holdings 커밋 이력(일별 스냅샷)을 쓴다
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -26,12 +29,26 @@ jobs:
       - name: Install deps
         run: pip install -r scripts/requirements.txt
 
+      # TIGER(403)·RISE(KB 사이트 접속 불가)는 해외 IP 를 막는다 → 여기선 건너뛰고 기존 파일을 유지,
+      # 국내 PC(Mac mini launchd)의 scripts/local_refresh.py 가 따로 채워 push 한다.
       - name: Build data (KRX snapshot + 운용사 PDF + 비중 cap)
         env:
           KRX_API_KEY: ${{ secrets.KRX_API_KEY }}
+          SKIP_MANAGERS: TIGER,RISE
         run: |
           cd scripts
           python refresh_all.py
+
+      # 최근 정기변경 전후 PDF 비교 + 아직 못 채운 과거분을 12분 예산만큼 이어서 백필
+      # (KODEX 는 레이트리밋이 세서 한 번에 다 못 받는다 → 매일 조금씩)
+      - name: 정기변경 이력
+        continue-on-error: true
+        env:
+          KRX_API_KEY: ${{ secrets.KRX_API_KEY }}
+          SKIP_MANAGERS: TIGER,RISE
+        run: |
+          cd scripts
+          python rebal_history.py --backfill --budget 12
 
       - name: Commit updated data
         run: |
