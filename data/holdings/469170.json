@@ -12,70 +12,115 @@
    "name": "포스코인터내셔널",
    "weight": 25.77,
    "shares": 1346.0,
-   "amount": 76183600.0
+   "amount": 76183600.0,
+   "over_cap": true
   },
   {
    "code": "003670",
    "name": "포스코퓨처엠",
    "weight": 25.29,
    "shares": 400.0,
-   "amount": 74760000.0
+   "amount": 74760000.0,
+   "over_cap": true
   },
   {
    "code": "005490",
    "name": "POSCO홀딩스",
    "weight": 23.87,
    "shares": 227.0,
-   "amount": 70597000.0
+   "amount": 70597000.0,
+   "over_cap": false
   },
   {
    "code": "022100",
    "name": "포스코DX",
    "weight": 14.52,
    "shares": 2060.0,
-   "amount": 42951000.0
+   "amount": 42951000.0,
+   "over_cap": false
   },
   {
    "code": "009520",
    "name": "포스코엠텍",
    "weight": 3.71,
    "shares": 838.0,
-   "amount": 10994560.0
+   "amount": 10994560.0,
+   "over_cap": false
   },
   {
    "code": "058430",
    "name": "포스코스틸리온",
    "weight": 1.64,
    "shares": 1059.0,
-   "amount": 4855515.0
+   "amount": 4855515.0,
+   "over_cap": false
   },
   {
    "code": "001120",
    "name": "LX인터내셔널",
    "weight": 1.43,
    "shares": 96.0,
-   "amount": 4233600.0
+   "amount": 4233600.0,
+   "over_cap": false
   },
   {
    "code": "373220",
    "name": "LG에너지솔루션",
    "weight": 1.37,
    "shares": 11.0,
-   "amount": 4081000.0
+   "amount": 4081000.0,
+   "over_cap": false
   },
   {
    "code": "028050",
    "name": "삼성E&A",
    "weight": 1.24,
    "shares": 77.0,
-   "amount": 3676750.0
+   "amount": 3676750.0,
+   "over_cap": false
   },
   {
    "code": "004020",
    "name": "현대제철",
    "weight": 1.15,
    "shares": 114.0,
-   "amount": 3420000.0
+   "amount": 3420000.0,
+   "over_cap": false
   }
- ]
+ ],
+ "breach_summary": {
+  "cap_pct": 25.0,
+  "verified": true,
+  "count": 2,
+  "total_sell": 1327713600,
+  "items": [
+   {
+    "code": "047050",
+    "name": "포스코인터내셔널",
+    "weight": 25.77,
+    "cap_pct": 25.0,
+    "excess_pp": 0.77,
+    "sell_amount": 964471200
+   },
+   {
+    "code": "003670",
+    "name": "포스코퓨처엠",
+    "weight": 25.29,
+    "cap_pct": 25.0,
+    "excess_pp": 0.29,
+    "sell_amount": 363242400
+   }
+  ]
+ },
+ "cap": {
+  "single_cap": 0.25,
+  "index_exception": false,
+  "top_n": 3,
+  "top_cap": 0.25,
+  "rest_cap": null,
+  "label": "상위 3종목 각 25%",
+  "source": "FnGuide POSCO Group Focus Index Methodology v2.4: TOP3 25% 블록; 6·12월 개편·3·9월 비중개편",
+  "verified": true,
+  "note": "상위 종목 상한 기준으로 초과를 계산한다(보수적). 포스코 유니버스 상위 3종목 25% 블록 + 나머지 20% 유동시총가중; 개별 수시상한 25%. 6·12월 정기개편 + 3·9월 비중개편"
+ }
 }

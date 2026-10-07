@@ -94,11 +94,12 @@ def hanaro():
 def sol_fund_cd(ticker: str):
     global _sol_map
     if _sol_map is None:
-        _sol_map = {}
+        m = {}                                   # 목록 조회가 실패하면 캐시하지 않고 다음 종목에서 재시도
         for it in sol().list_products():
             t = str(it.get("ETF_CD6") or "").strip()
             if t:
-                _sol_map[t] = str(it.get("FUND_CD"))
+                m[t] = str(it.get("FUND_CD"))
+        _sol_map = m
     return _sol_map.get(ticker)
 
 
@@ -129,6 +130,8 @@ def fetch_one(etf: dict):
     try:
         if mgr == "TIGER":
             asof = tiger().latest_date(isin)
+            if asof is None:                         # 최신일을 못 읽으면 기준일 없는 파일이 된다 → 실패 처리
+                raise RuntimeError("TIGER 최신 기준일 조회 실패")
             hs = tiger().fetch(isin, None)
             return _pack(hs, asof, ticker, name, mgr, "미래에셋 TIGER")
         if mgr == "SOL":
@@ -198,9 +201,9 @@ def main(only=None):
     # 실패분(주로 KODEX 429) 재시도 패스 — 충분히 쉬고 세션 리셋 후 천천히 재시도
     if failed:
         import time
-        global _kodex, _ace, _plus, _hanaro
+        global _kodex, _ace, _plus, _hanaro, _tiger
         print(f"\n재시도 대기(60초 쿨다운)… ({len(failed)}종)")
-        _kodex = _ace = _plus = _hanaro = None       # 세션 리셋(레이트리밋 완화)
+        _kodex = _ace = _plus = _hanaro = _tiger = None   # 세션 리셋(레이트리밋·연결 끊김 완화)
         time.sleep(60)
         still = []
         for e in failed:

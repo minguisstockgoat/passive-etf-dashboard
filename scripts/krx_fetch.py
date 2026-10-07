@@ -67,6 +67,12 @@ def _norm_rows(raw: list[dict]) -> list[dict]:
     return out
 
 
+def _has_prices(raw: list[dict]) -> bool:
+    """거래가 있던 날인지: 시가총액이 채워진 행이 절반 이상."""
+    filled = sum(1 for r in raw if _num(r.get("MKTCAP")) > 0)
+    return filled >= 0.5 * len(raw)
+
+
 KST = dt.timezone(dt.timedelta(hours=9))
 
 
@@ -81,7 +87,10 @@ def latest_etf_snapshot(asof: Optional[dt.date] = None, lookback: int = 10) -> t
 
     ⚠ KRX OPEN API 일별매매정보는 장 마감(15:30 KST) 직후엔 아직 안 올라온다.
       너무 이른 시각에 돌리면 조용히 전 영업일로 폴백해 기준일이 계속 하루 밀린다.
-      (2026-08-10 실제 사례: 16:10 KST 실행 → 매일 전전 영업일 데이터)"""
+      (2026-08-10 실제 사례: 16:10 KST 실행 → 매일 전전 영업일 데이터)
+    ⚠ 휴장일에도 행을 돌려주는데 가격·시가총액이 빈 칸이다(상장좌수·지수명만 있음).
+      2026-10-05(개천절 대체공휴일)를 기준일로 받아 시총이 전부 0 → 자동 확장 142종이
+      시총 필터에서 빠지고 큐레이션 32종만 남는 사고가 있었다. 시총이 채워진 날만 쓴다."""
     d = asof or kst_today()
     for _ in range(lookback):
         if d.weekday() < 5:  # 월~금만 시도
@@ -90,8 +99,10 @@ def latest_etf_snapshot(asof: Optional[dt.date] = None, lookback: int = 10) -> t
                 raw = fetch_etf_raw(bas)
             except Exception:
                 raw = []
-            if raw:
+            if raw and _has_prices(raw):
                 return bas, _norm_rows(raw)
+            if raw:
+                print(f"  ! KRX {bas}: 시가총액이 빈 행뿐(휴장일 자리표시) → 전 영업일로")
         d -= dt.timedelta(days=1)
     raise RuntimeError("최근 영업일 ETF 스냅샷을 찾지 못했습니다.")
 

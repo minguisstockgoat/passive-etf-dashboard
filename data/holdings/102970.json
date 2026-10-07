@@ -12,77 +12,97 @@
    "name": "삼성증권",
    "weight": 20.46,
    "shares": 1991.0,
-   "amount": 179986400.0
+   "amount": 179986400.0,
+   "over_cap": false
   },
   {
    "code": "071050",
    "name": "한국금융지주",
    "weight": 19.92,
    "shares": 967.0,
-   "amount": 175220400.0
+   "amount": 175220400.0,
+   "over_cap": false
   },
   {
    "code": "006800",
    "name": "미래에셋증권",
    "weight": 17.63,
    "shares": 4900.0,
-   "amount": 155085000.0
+   "amount": 155085000.0,
+   "over_cap": false
   },
   {
    "code": "005940",
    "name": "NH투자증권",
    "weight": 16.13,
    "shares": 5265.0,
-   "amount": 141891750.0
+   "amount": 141891750.0,
+   "over_cap": false
   },
   {
    "code": "039490",
    "name": "키움증권",
    "weight": 15.87,
    "shares": 538.0,
-   "amount": 139611000.0
+   "amount": 139611000.0,
+   "over_cap": false
   },
   {
    "code": "003540",
    "name": "대신증권",
    "weight": 2.55,
    "shares": 879.0,
-   "amount": 22414500.0
+   "amount": 22414500.0,
+   "over_cap": false
   },
   {
    "code": "001720",
    "name": "신영증권",
    "weight": 2.45,
    "shares": 154.0,
-   "amount": 21529200.0
+   "amount": 21529200.0,
+   "over_cap": false
   },
   {
    "code": "003530",
    "name": "한화투자증권",
    "weight": 1.98,
    "shares": 3731.0,
-   "amount": 17405115.0
+   "amount": 17405115.0,
+   "over_cap": false
   },
   {
    "code": "003470",
    "name": "유안타증권",
    "weight": 1.26,
    "shares": 2547.0,
-   "amount": 11079450.0
+   "amount": 11079450.0,
+   "over_cap": false
   },
   {
    "code": "001500",
    "name": "현대차증권",
    "weight": 1.07,
    "shares": 1204.0,
-   "amount": 9391200.0
+   "amount": 9391200.0,
+   "over_cap": false
   },
   {
    "code": "030610",
    "name": "교보증권",
    "weight": 0.67,
    "shares": 595.0,
-   "amount": 5896450.0
+   "amount": 5896450.0,
+   "over_cap": false
   }
- ]
+ ],
+ "breach_summary": null,
+ "cap": {
+  "single_cap": null,
+  "index_exception": true,
+  "label": "기초지수 비중 복제 · 단일종목 상한 없음",
+  "source": "KRX 섹터지수 공통 방법론(유동시총가중, 캡 없음); KRX 정기변경 프레임워크 6/12월",
+  "verified": true,
+  "note": "시가총액 가중 복제 — 별도 단일종목 상한 없음."
+ }
 }

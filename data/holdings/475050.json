@@ -12,70 +12,115 @@
    "name": "에스엠",
    "weight": 25.7,
    "shares": 1070.0,
-   "amount": 84744000.0
+   "amount": 84744000.0,
+   "over_cap": true
   },
   {
    "code": "035900",
    "name": "JYP Ent.",
    "weight": 25.06,
    "shares": 2209.0,
-   "amount": 82616600.0
+   "amount": 82616600.0,
+   "over_cap": true
   },
   {
    "code": "352820",
    "name": "하이브",
    "weight": 23.79,
    "shares": 505.0,
-   "amount": 78426500.0
+   "amount": 78426500.0,
+   "over_cap": false
   },
   {
    "code": "122870",
    "name": "와이지엔터테인먼트",
    "weight": 20.12,
    "shares": 1632.0,
-   "amount": 66340800.0
+   "amount": 66340800.0,
+   "over_cap": false
   },
   {
    "code": "182360",
    "name": "큐브엔터",
    "weight": 0.95,
    "shares": 485.0,
-   "amount": 3152500.0
+   "amount": 3152500.0,
+   "over_cap": false
   },
   {
    "code": "376300",
    "name": "디어유",
    "weight": 0.92,
    "shares": 164.0,
-   "amount": 3075000.0
+   "amount": 3075000.0,
+   "over_cap": false
   },
   {
    "code": "035760",
    "name": "CJ ENM",
    "weight": 0.9,
    "shares": 85.0,
-   "amount": 2992000.0
+   "amount": 2992000.0,
+   "over_cap": false
   },
   {
    "code": "060570",
    "name": "드림어스컴퍼니",
    "weight": 0.88,
    "shares": 589.0,
-   "amount": 2939110.0
+   "amount": 2939110.0,
+   "over_cap": false
   },
   {
    "code": "037270",
    "name": "YG PLUS",
    "weight": 0.86,
    "shares": 918.0,
-   "amount": 2845800.0
+   "amount": 2845800.0,
+   "over_cap": false
   },
   {
    "code": "473980",
    "name": "노머스",
    "weight": 0.8,
    "shares": 260.0,
-   "amount": 2670200.0
+   "amount": 2670200.0,
+   "over_cap": false
   }
- ]
+ ],
+ "breach_summary": {
+  "cap_pct": 25.0,
+  "verified": true,
+  "count": 2,
+  "total_sell": 753300600,
+  "items": [
+   {
+    "code": "041510",
+    "name": "에스엠",
+    "weight": 25.7,
+    "cap_pct": 25.0,
+    "excess_pp": 0.7,
+    "sell_amount": 693829500
+   },
+   {
+    "code": "035900",
+    "name": "JYP Ent.",
+    "weight": 25.06,
+    "cap_pct": 25.0,
+    "excess_pp": 0.06,
+    "sell_amount": 59471100
+   }
+  ]
+ },
+ "cap": {
+  "single_cap": 0.25,
+  "index_exception": false,
+  "top_n": 3,
+  "top_cap": 0.25,
+  "rest_cap": 0.2,
+  "label": "상위 3종목 각 25% · 나머지 20%",
+  "source": "ACE KPOP포커스 방법론: '상위 1~3위 25%, 4위 20% · 3·6·9·12월 옵션만기 2영업일 후'",
+  "verified": true,
+  "note": "상위 종목 상한 기준으로 초과를 계산한다(보수적). 포커스 시총 1~3위 각 25%·4위 20% 고정. 정기변경 3·6·9·12월 옵션만기 T+2(3·9월은 비중만)"
+ }
 }

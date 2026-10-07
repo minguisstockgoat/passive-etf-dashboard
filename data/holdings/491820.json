@@ -3,100 +3,137 @@
  "name": "HANARO 전력설비투자",
  "manager": "HANARO",
  "source": "NH아문디 HANARO",
- "asof": "2026-10-02",
- "total_weight": 99.35,
+ "asof": "2026-10-06",
+ "total_weight": 99.36,
  "count": 13,
  "holdings": [
   {
    "code": "010120",
    "name": "LS ELECTRIC",
-   "weight": 20.65,
+   "weight": 21.1,
    "shares": 2187.0,
-   "amount": 458176500.0
+   "amount": 475672500.0,
+   "over_cap": true
   },
   {
    "code": "298040",
    "name": "효성중공업",
-   "weight": 19.46,
+   "weight": 19.3,
    "shares": 155.0,
-   "amount": 431675000.0
+   "amount": 435085000.0,
+   "over_cap": false
   },
   {
    "code": "267260",
    "name": "HD현대일렉트릭",
-   "weight": 14.85,
+   "weight": 14.72,
    "shares": 486.0,
-   "amount": 329508000.0
+   "amount": 331938000.0,
+   "over_cap": false
   },
   {
    "code": "006260",
    "name": "LS",
-   "weight": 11.99,
+   "weight": 11.84,
    "shares": 891.0,
-   "amount": 265963500.0
+   "amount": 266854500.0,
+   "over_cap": false
   },
   {
    "code": "001440",
    "name": "대한전선",
-   "weight": 8.53,
+   "weight": 8.46,
    "shares": 6008.0,
-   "amount": 189252000.0
+   "amount": 190754000.0,
+   "over_cap": false
   },
   {
    "code": "062040",
    "name": "산일전기",
-   "weight": 7.12,
+   "weight": 7.25,
    "shares": 696.0,
-   "amount": 157992000.0
+   "amount": 163560000.0,
+   "over_cap": false
   },
   {
    "code": "103590",
    "name": "일진전기",
-   "weight": 4.9,
+   "weight": 4.91,
    "shares": 1260.0,
-   "amount": 108612000.0
+   "amount": 110754000.0,
+   "over_cap": false
   },
   {
    "code": "000500",
    "name": "가온전선",
-   "weight": 4.43,
+   "weight": 4.34,
    "shares": 299.0,
-   "amount": 98371000.0
-  },
-  {
-   "code": "006340",
-   "name": "대원전선",
-   "weight": 1.75,
-   "shares": 2901.0,
-   "amount": 38786370.0
+   "amount": 97773000.0,
+   "over_cap": false
   },
   {
    "code": "229640",
    "name": "LS에코에너지",
    "weight": 1.74,
    "shares": 583.0,
-   "amount": 38711200.0
+   "amount": 39294200.0,
+   "over_cap": false
+  },
+  {
+   "code": "006340",
+   "name": "대원전선",
+   "weight": 1.72,
+   "shares": 2901.0,
+   "amount": 38844390.0,
+   "over_cap": false
   },
   {
    "code": "417200",
    "name": "LS머트리얼즈",
-   "weight": 1.39,
+   "weight": 1.43,
    "shares": 2038.0,
-   "amount": 30834940.0
+   "amount": 32159640.0,
+   "over_cap": false
+  },
+  {
+   "code": "060370",
+   "name": "LS마린솔루션",
+   "weight": 1.28,
+   "shares": 828.0,
+   "amount": 28938600.0,
+   "over_cap": false
   },
   {
    "code": "033100",
    "name": "제룡전기",
    "weight": 1.27,
    "shares": 569.0,
-   "amount": 28108600.0
-  },
-  {
-   "code": "060370",
-   "name": "LS마린솔루션",
-   "weight": 1.27,
-   "shares": 828.0,
-   "amount": 28069200.0
+   "amount": 28677600.0,
+   "over_cap": false
   }
- ]
+ ],
+ "breach_summary": {
+  "cap_pct": 20.0,
+  "verified": true,
+  "count": 1,
+  "total_sell": 1805344750,
+  "items": [
+   {
+    "code": "010120",
+    "name": "LS ELECTRIC",
+    "weight": 21.1,
+    "cap_pct": 20.0,
+    "excess_pp": 1.1,
+    "sell_amount": 1805344750
+   }
+  ]
+ },
+ "cap": {
+  "single_cap": 0.2,
+  "index_exception": false,
+  "label": "단일종목 20% 상한",
+  "source": "HANARO 전력설비투자 방법론: '개별 종목 20% 실링 · 상위 20종목 · 6·12월 익주 첫 영업일'",
+  "verified": true,
+  "note": "기초 유니버스 상위 20종목, 개별 20% 실링. 정기변경 연 2회(6·12월 옵션만기일 익주 첫 영업일)"
+ }
 }

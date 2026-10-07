@@ -3,64 +3,64 @@
  "name": "SOL 자동차TOP3플러스",
  "manager": "SOL",
  "source": "신한 SOL",
- "asof": "2026-10-02",
+ "asof": "2026-10-07",
  "total_weight": 100.0,
  "count": 14,
  "holdings": [
   {
    "code": "000270",
    "name": "기아",
-   "weight": 25.24,
+   "weight": 24.73,
    "shares": 2620.0,
-   "amount": 296846000.0,
-   "over_cap": true
+   "amount": 295012000.0,
+   "over_cap": false
   },
   {
    "code": "012330",
    "name": "현대모비스",
-   "weight": 23.84,
+   "weight": 23.39,
    "shares": 734.0,
-   "amount": 280388000.0,
+   "amount": 278920000.0,
    "over_cap": false
   },
   {
    "code": "005380",
    "name": "현대차",
-   "weight": 20.63,
+   "weight": 20.28,
    "shares": 695.0,
-   "amount": 242555000.0,
+   "amount": 241860000.0,
    "over_cap": false
   },
   {
    "code": "009150",
    "name": "삼성전기",
-   "weight": 12.35,
+   "weight": 13.06,
    "shares": 93.0,
-   "amount": 145173000.0,
-   "over_cap": false
-  },
-  {
-   "code": "005930",
-   "name": "삼성전자",
-   "weight": 6.5,
-   "shares": 277.0,
-   "amount": 76452000.0,
+   "amount": 155775000.0,
    "over_cap": false
   },
   {
    "code": "066570",
    "name": "LG전자",
-   "weight": 6.4,
+   "weight": 6.94,
    "shares": 356.0,
-   "amount": 75294000.0,
+   "amount": 82770000.0,
+   "over_cap": false
+  },
+  {
+   "code": "005930",
+   "name": "삼성전자",
+   "weight": 6.32,
+   "shares": 277.0,
+   "amount": 75344000.0,
    "over_cap": false
   },
   {
    "code": "011070",
    "name": "LG이노텍",
-   "weight": 2.28,
+   "weight": 2.48,
    "shares": 46.0,
-   "amount": 26864000.0,
+   "amount": 29624000.0,
    "over_cap": false
   },
   {
@@ -68,15 +68,15 @@
    "name": "현대오토에버",
    "weight": 0.65,
    "shares": 20.0,
-   "amount": 7600000.0,
+   "amount": 7760000.0,
    "over_cap": false
   },
   {
    "code": "018880",
    "name": "한온시스템",
-   "weight": 0.51,
+   "weight": 0.53,
    "shares": 1633.0,
-   "amount": 6001275.0,
+   "amount": 6352370.0,
    "over_cap": false
   },
   {
@@ -84,31 +84,23 @@
    "name": "HL만도",
    "weight": 0.42,
    "shares": 106.0,
-   "amount": 4950200.0,
+   "amount": 5050900.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "현금성자산",
-   "weight": 0.42,
-   "shares": 4924196.0,
-   "amount": 4924196.0,
+   "weight": 0.41,
+   "shares": 4831818.0,
+   "amount": 4831818.0,
    "over_cap": false
   },
   {
    "code": "078600",
    "name": "대주전자재료",
-   "weight": 0.3,
+   "weight": 0.34,
    "shares": 36.0,
-   "amount": 3484800.0,
-   "over_cap": false
-  },
-  {
-   "code": "005850",
-   "name": "에스엘",
-   "weight": 0.23,
-   "shares": 51.0,
-   "amount": 2672400.0,
+   "amount": 4010400.0,
    "over_cap": false
   },
   {
@@ -116,26 +108,19 @@
    "name": "현대위아",
    "weight": 0.23,
    "shares": 51.0,
-   "amount": 2687700.0,
+   "amount": 2743800.0,
+   "over_cap": false
+  },
+  {
+   "code": "005850",
+   "name": "에스엘",
+   "weight": 0.22,
+   "shares": 51.0,
+   "amount": 2652000.0,
    "over_cap": false
   }
  ],
- "breach_summary": {
-  "cap_pct": 25.0,
-  "verified": true,
-  "count": 1,
-  "total_sell": 442834200,
-  "items": [
-   {
-    "code": "000270",
-    "name": "기아",
-    "weight": 25.24,
-    "cap_pct": 25.0,
-    "excess_pp": 0.24,
-    "sell_amount": 442834200
-   }
-  ]
- },
+ "breach_summary": null,
  "cap": {
   "single_cap": 0.25,
   "index_exception": false,

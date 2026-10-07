@@ -3,56 +3,64 @@
  "name": "TIGER 바이오TOP10",
  "manager": "TIGER",
  "source": "미래에셋 TIGER",
- "asof": "2026-10-06",
- "total_weight": 100.0,
+ "asof": "2026-10-07",
+ "total_weight": 99.99,
  "count": 11,
  "holdings": [
   {
    "code": "068270",
    "name": "셀트리온",
-   "weight": 25.68,
+   "weight": 25.36,
    "shares": 481.0,
-   "amount": 87830600.0,
+   "amount": 87734400.0,
    "over_cap": true
-  },
-  {
-   "code": "207940",
-   "name": "삼성바이오로직스",
-   "weight": 24.55,
-   "shares": 62.0,
-   "amount": 83948000.0,
-   "over_cap": false
   },
   {
    "code": "196170",
    "name": "알테오젠",
-   "weight": 23.83,
+   "weight": 23.6,
    "shares": 314.0,
-   "amount": 81483000.0,
+   "amount": 81640000.0,
+   "over_cap": false
+  },
+  {
+   "code": "207940",
+   "name": "삼성바이오로직스",
+   "weight": 23.48,
+   "shares": 62.0,
+   "amount": 81220000.0,
    "over_cap": false
   },
   {
    "code": "028300",
    "name": "HLB",
-   "weight": 5.63,
+   "weight": 6.52,
    "shares": 476.0,
-   "amount": 19254200.0,
+   "amount": 22562400.0,
    "over_cap": false
   },
   {
    "code": "000100",
    "name": "유한양행",
-   "weight": 4.85,
+   "weight": 4.94,
    "shares": 224.0,
-   "amount": 16598400.0,
+   "amount": 17091200.0,
    "over_cap": false
   },
   {
    "code": "128940",
    "name": "한미약품",
-   "weight": 3.85,
+   "weight": 3.93,
    "shares": 26.0,
-   "amount": 13156000.0,
+   "amount": 13598000.0,
+   "over_cap": false
+  },
+  {
+   "code": "000250",
+   "name": "삼천당제약",
+   "weight": 3.9,
+   "shares": 56.0,
+   "amount": 13496000.0,
    "over_cap": false
   },
   {
@@ -60,39 +68,31 @@
    "name": "SK바이오팜",
    "weight": 3.52,
    "shares": 159.0,
-   "amount": 12052200.0,
-   "over_cap": false
-  },
-  {
-   "code": "000250",
-   "name": "삼천당제약",
-   "weight": 3.39,
-   "shares": 56.0,
-   "amount": 11592000.0,
+   "amount": 12179400.0,
    "over_cap": false
   },
   {
    "code": "298380",
    "name": "에이비엘바이오",
-   "weight": 2.53,
+   "weight": 2.55,
    "shares": 168.0,
-   "amount": 8635200.0,
+   "amount": 8820000.0,
    "over_cap": false
   },
   {
    "code": "0126Z0",
    "name": "삼성에피스홀딩스",
-   "weight": 2.35,
+   "weight": 2.36,
    "shares": 22.0,
-   "amount": 8030000.0,
+   "amount": 8173000.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "원화예금",
-   "weight": -0.18,
-   "shares": -605259.0,
-   "amount": -605259.0,
+   "weight": -0.17,
+   "shares": -604998.0,
+   "amount": -604998.0,
    "over_cap": false
   }
  ],
@@ -100,15 +100,15 @@
   "cap_pct": 25.0,
   "verified": true,
   "count": 1,
-  "total_sell": 1755828000,
+  "total_sell": 939069000,
   "items": [
    {
     "code": "068270",
     "name": "셀트리온",
-    "weight": 25.68,
+    "weight": 25.36,
     "cap_pct": 25.0,
-    "excess_pp": 0.68,
-    "sell_amount": 1755828000
+    "excess_pp": 0.36,
+    "sell_amount": 939069000
    }
   ]
  },

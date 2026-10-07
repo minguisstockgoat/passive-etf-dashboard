@@ -128,7 +128,16 @@ class TigerFetcher:
         return d
 
     def latest_date(self, isin: str) -> Optional[dt.date]:
-        """TIGER 최신 기준일 (pdf.ajax 컨테이너의 fixDate)."""
+        """TIGER 최신 기준일 (pdf.ajax 컨테이너의 fixDate). 연결이 가끔 끊겨 3번까지 시도."""
+        import time
+        for attempt in range(3):
+            d = self._latest_once(isin)
+            if d:
+                return d
+            time.sleep(2 + 3 * attempt)
+        return None
+
+    def _latest_once(self, isin: str) -> Optional[dt.date]:
         try:
             r = self.s.post(f"{self.BASE}/pdf.ajax", data={"ksdFund": isin},
                             headers={"X-Requested-With": "XMLHttpRequest",
@@ -228,11 +237,20 @@ class SolFetcher:
             return self._list
         out, page = [], 1
         while True:
-            r = self.s.get(f"{self.BASE}/api/etf/pds", params={"searchText": "", "page": page},
-                           headers={"X-Requested-With": "XMLHttpRequest",
-                                    "Referer": f"{self.BASE}/ko/fund/etf/pds"},
-                           timeout=REQUEST_TIMEOUT)
-            r.raise_for_status()
+            # 목록 한 번이 타임아웃 나면 SOL 전 종목 코드를 못 찾는다(2026-10-06 Actions) → 재시도
+            for attempt in range(3):
+                try:
+                    r = self.s.get(f"{self.BASE}/api/etf/pds", params={"searchText": "", "page": page},
+                                   headers={"X-Requested-With": "XMLHttpRequest",
+                                            "Referer": f"{self.BASE}/ko/fund/etf/pds"},
+                                   timeout=REQUEST_TIMEOUT)
+                    r.raise_for_status()
+                    break
+                except Exception:
+                    if attempt == 2:
+                        raise
+                    import time
+                    time.sleep(10 * (attempt + 1))
             j = r.json()
             items = j.get("items", [])
             if not items:

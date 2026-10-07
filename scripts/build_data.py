@@ -167,8 +167,19 @@ def main():
         "reg_note": REG_NOTE,
         "etfs": etfs,
     }
+    # 안전장치: 직전 빌드보다 ETF 수가 30% 넘게 줄면 원천 데이터 이상으로 보고 덮어쓰지 않는다
+    # (2026-10-05 휴장일 KRX 빈 시총으로 174종 → 32종이 된 적이 있다)
+    prev_path = os.path.join(DATA, "etfs.json")
+    if os.path.exists(prev_path) and not os.environ.get("ALLOW_SHRINK"):
+        try:
+            prev_n = int(json.load(open(prev_path, encoding="utf-8")).get("count") or 0)
+        except Exception:
+            prev_n = 0
+        if prev_n and len(etfs) < prev_n * 0.7:
+            raise RuntimeError(f"ETF 수 급감 {prev_n} → {len(etfs)}종 (기준일 {out['as_of']}). "
+                               "KRX 원천 데이터를 확인하라. 의도한 변화면 ALLOW_SHRINK=1 로 다시 실행.")
     os.makedirs(DATA, exist_ok=True)
-    with open(os.path.join(DATA, "etfs.json"), "w", encoding="utf-8") as f:
+    with open(prev_path, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
 
     hs = sum(1 for e in etfs if e["has_holdings"])
