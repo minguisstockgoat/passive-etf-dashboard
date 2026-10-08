@@ -3,120 +3,120 @@
  "name": "KODEX AI반도체핵심장비",
  "manager": "KODEX",
  "source": "삼성 KODEX",
- "asof": "2026-10-07",
+ "asof": "2026-10-08",
  "total_weight": 100.0,
  "count": 18,
  "holdings": [
   {
    "code": "007660",
    "name": "이수페타시스",
-   "weight": 20.27,
+   "weight": 19.89,
    "shares": 2479.0,
-   "amount": 326980100.0,
-   "over_cap": true
+   "amount": 302438000.0,
+   "over_cap": false
   },
   {
    "code": "042700",
    "name": "한미반도체",
-   "weight": 18.08,
+   "weight": 18.25,
    "shares": 1049.0,
-   "amount": 291622000.0,
+   "amount": 277460500.0,
    "over_cap": false
   },
   {
    "code": "036930",
    "name": "주성엔지니어링",
-   "weight": 17.33,
+   "weight": 16.34,
    "shares": 1004.0,
-   "amount": 279614000.0,
+   "amount": 248490000.0,
    "over_cap": false
   },
   {
    "code": "353200",
    "name": "대덕전자",
-   "weight": 11.43,
+   "weight": 11.62,
    "shares": 1168.0,
-   "amount": 184427200.0,
+   "amount": 176718400.0,
    "over_cap": false
   },
   {
    "code": "222800",
    "name": "심텍",
-   "weight": 8.31,
+   "weight": 8.59,
    "shares": 766.0,
-   "amount": 134050000.0,
+   "amount": 130526400.0,
    "over_cap": false
   },
   {
    "code": "039030",
    "name": "이오테크닉스",
-   "weight": 6.61,
+   "weight": 6.68,
    "shares": 196.0,
-   "amount": 106624000.0,
+   "amount": 101528000.0,
    "over_cap": false
   },
   {
    "code": "058470",
    "name": "리노공업",
-   "weight": 5.95,
+   "weight": 6.19,
    "shares": 1105.0,
-   "amount": 96024500.0,
+   "amount": 94146000.0,
    "over_cap": false
   },
   {
    "code": "095340",
    "name": "ISC",
-   "weight": 4.28,
+   "weight": 4.48,
    "shares": 336.0,
-   "amount": 69048000.0,
+   "amount": 68040000.0,
    "over_cap": false
   },
   {
    "code": "403870",
    "name": "HPSP",
-   "weight": 1.95,
+   "weight": 1.97,
    "shares": 457.0,
-   "amount": 31441600.0,
+   "amount": 29933500.0,
    "over_cap": false
   },
   {
    "code": "067310",
    "name": "하나마이크론",
-   "weight": 1.82,
+   "weight": 1.85,
    "shares": 556.0,
-   "amount": 29356800.0,
+   "amount": 28189200.0,
    "over_cap": false
   },
   {
    "code": "031980",
    "name": "피에스케이홀딩스",
-   "weight": 1.36,
+   "weight": 1.49,
    "shares": 111.0,
-   "amount": 21867000.0,
+   "amount": 22644000.0,
    "over_cap": false
   },
   {
    "code": "089970",
    "name": "브이엠",
-   "weight": 0.71,
+   "weight": 0.69,
    "shares": 163.0,
-   "amount": 11475200.0,
+   "amount": 10513500.0,
    "over_cap": false
   },
   {
    "code": "131290",
    "name": "티에스이",
-   "weight": 0.58,
+   "weight": 0.62,
    "shares": 30.0,
-   "amount": 9405000.0,
+   "amount": 9480000.0,
    "over_cap": false
   },
   {
    "code": "131970",
    "name": "두산테스나",
-   "weight": 0.48,
+   "weight": 0.47,
    "shares": 65.0,
-   "amount": 7800000.0,
+   "amount": 7091500.0,
    "over_cap": false
   },
   {
@@ -124,23 +124,23 @@
    "name": "테크윙",
    "weight": 0.35,
    "shares": 98.0,
-   "amount": 5615400.0,
+   "amount": 5262600.0,
    "over_cap": false
   },
   {
    "code": "140860",
    "name": "파크시스템스",
-   "weight": 0.23,
+   "weight": 0.24,
    "shares": 12.0,
-   "amount": 3684000.0,
+   "amount": 3696000.0,
    "over_cap": false
   },
   {
    "code": "356860",
    "name": "티엘비",
-   "weight": 0.19,
+   "weight": 0.21,
    "shares": 62.0,
-   "amount": 3124800.0,
+   "amount": 3118600.0,
    "over_cap": false
   },
   {
@@ -148,26 +148,11 @@
    "name": "SFA반도체",
    "weight": 0.07,
    "shares": 97.0,
-   "amount": 1137810.0,
+   "amount": 1099980.0,
    "over_cap": false
   }
  ],
- "breach_summary": {
-  "cap_pct": 20.0,
-  "verified": true,
-  "count": 1,
-  "total_sell": 1799771400,
-  "items": [
-   {
-    "code": "007660",
-    "name": "이수페타시스",
-    "weight": 20.27,
-    "cap_pct": 20.0,
-    "excess_pp": 0.27,
-    "sell_amount": 1799771400
-   }
-  ]
- },
+ "breach_summary": null,
  "cap": {
   "single_cap": 0.2,
   "index_exception": false,
