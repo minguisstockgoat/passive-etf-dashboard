@@ -3,80 +3,80 @@
  "name": "SOL 전고체배터리&실리콘음극재",
  "manager": "SOL",
  "source": "신한 SOL",
- "asof": "2026-10-08",
+ "asof": "2026-10-12",
  "total_weight": 100.0,
  "count": 11,
  "holdings": [
   {
    "code": "247540",
    "name": "에코프로비엠",
-   "weight": 19.87,
+   "weight": 20.13,
    "shares": 1342.0,
-   "amount": 167079000.0,
-   "over_cap": false
+   "amount": 172849600.0,
+   "over_cap": true
   },
   {
    "code": "373220",
    "name": "LG에너지솔루션",
-   "weight": 19.34,
+   "weight": 19.42,
    "shares": 416.0,
-   "amount": 162656000.0,
+   "amount": 166816000.0,
    "over_cap": false
   },
   {
    "code": "006400",
    "name": "삼성SDI",
-   "weight": 17.98,
+   "weight": 17.82,
    "shares": 269.0,
-   "amount": 151178000.0,
+   "amount": 153061000.0,
    "over_cap": false
   },
   {
    "code": "457190",
    "name": "이수스페셜티케미컬",
-   "weight": 13.33,
+   "weight": 13.27,
    "shares": 1412.0,
-   "amount": 112112800.0,
+   "amount": 113948400.0,
    "over_cap": false
   },
   {
    "code": "020150",
    "name": "롯데에너지머티리얼즈",
-   "weight": 10.74,
+   "weight": 10.81,
    "shares": 1682.0,
-   "amount": 90323400.0,
+   "amount": 92846400.0,
    "over_cap": false
   },
   {
    "code": "078600",
    "name": "대주전자재료",
-   "weight": 7.59,
+   "weight": 7.61,
    "shares": 570.0,
-   "amount": 63840000.0,
+   "amount": 65322000.0,
    "over_cap": false
   },
   {
    "code": "003670",
    "name": "포스코퓨처엠",
-   "weight": 4.71,
+   "weight": 4.65,
    "shares": 207.0,
-   "amount": 39619800.0,
+   "amount": 39971700.0,
    "over_cap": false
   },
   {
    "code": "066970",
    "name": "엘앤에프",
-   "weight": 2.75,
+   "weight": 2.67,
    "shares": 197.0,
-   "amount": 23167200.0,
+   "amount": 22891400.0,
    "over_cap": false
   },
   {
    "code": "281740",
    "name": "레이크머티리얼즈",
-   "weight": 2.41,
+   "weight": 2.39,
    "shares": 1602.0,
-   "amount": 20297340.0,
+   "amount": 20537640.0,
    "over_cap": false
   },
   {
@@ -84,19 +84,34 @@
    "name": "SFA넥셀",
    "weight": 1.2,
    "shares": 1188.0,
-   "amount": 10050480.0,
+   "amount": 10311840.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "현금성자산",
-   "weight": 0.08,
-   "shares": 680560.0,
-   "amount": 680560.0,
+   "weight": 0.03,
+   "shares": 222218.0,
+   "amount": 222218.0,
    "over_cap": false
   }
  ],
- "breach_summary": null,
+ "breach_summary": {
+  "cap_pct": 20.0,
+  "verified": true,
+  "count": 1,
+  "total_sell": 236035150,
+  "items": [
+   {
+    "code": "247540",
+    "name": "에코프로비엠",
+    "weight": 20.13,
+    "cap_pct": 20.0,
+    "excess_pp": 0.13,
+    "sell_amount": 236035150
+   }
+  ]
+ },
  "cap": {
   "single_cap": 0.2,
   "index_exception": false,
