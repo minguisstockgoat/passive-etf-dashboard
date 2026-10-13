@@ -3,98 +3,79 @@
  "name": "KODEX Top10동일가중",
  "manager": "KODEX",
  "source": "삼성 KODEX",
- "asof": "2026-10-12",
+ "asof": "2026-10-13",
  "total_weight": 100.0,
  "count": 10,
  "holdings": [
   {
-   "code": "009150",
-   "name": "삼성전기",
-   "weight": 11.77,
-   "shares": 112.0,
-   "amount": 173152000.0,
-   "over_cap": false
-  },
-  {
    "code": "373220",
    "name": "LG에너지솔루션",
-   "weight": 11.75,
+   "weight": 11.95,
    "shares": 431.0,
-   "amount": 172831000.0,
-   "over_cap": false
+   "amount": 171538000.0
   },
   {
-   "code": "005930",
-   "name": "삼성전자",
-   "weight": 10.42,
-   "shares": 585.0,
-   "amount": 153270000.0,
-   "over_cap": false
+   "code": "009150",
+   "name": "삼성전기",
+   "weight": 11.61,
+   "shares": 112.0,
+   "amount": 166544000.0
   },
   {
    "code": "105560",
    "name": "KB금융",
-   "weight": 10.05,
+   "weight": 10.3,
    "shares": 908.0,
-   "amount": 147822400.0,
-   "over_cap": false
+   "amount": 147822400.0
+  },
+  {
+   "code": "005930",
+   "name": "삼성전자",
+   "weight": 10.21,
+   "shares": 585.0,
+   "amount": 146542500.0
   },
   {
    "code": "402340",
    "name": "SK스퀘어",
-   "weight": 9.92,
+   "weight": 9.53,
    "shares": 139.0,
-   "amount": 145950000.0,
-   "over_cap": false
+   "amount": 136776000.0
   },
   {
    "code": "000660",
    "name": "SK하이닉스",
-   "weight": 9.71,
+   "weight": 9.51,
    "shares": 85.0,
-   "amount": 142885000.0,
-   "over_cap": false
+   "amount": 136425000.0
   },
   {
    "code": "032830",
    "name": "삼성생명",
-   "weight": 9.29,
+   "weight": 9.47,
    "shares": 508.0,
-   "amount": 136652000.0,
-   "over_cap": false
+   "amount": 135890000.0
   },
   {
    "code": "207940",
    "name": "삼성바이오로직스",
-   "weight": 9.2,
+   "weight": 9.29,
    "shares": 111.0,
-   "amount": 135309000.0,
-   "over_cap": false
+   "amount": 133311000.0
   },
   {
    "code": "028260",
    "name": "삼성물산",
-   "weight": 8.96,
+   "weight": 9.1,
    "shares": 415.0,
-   "amount": 131762500.0,
-   "over_cap": false
+   "amount": 130517500.0
   },
   {
    "code": "005380",
    "name": "현대차",
-   "weight": 8.93,
+   "weight": 9.03,
    "shares": 405.0,
-   "amount": 131422500.0,
-   "over_cap": false
+   "amount": 129600000.0
   }
- ],
- "breach_summary": null,
- "cap": {
-  "single_cap": null,
-  "index_exception": false,
-  "label": "동일가중 방식 · 종목 상한 이슈 없음",
-  "source": "FnGuide_TOP10_EW_Index_Methodology_Book_삼성자산운용_v1.0.pdf | '비중이 10%가 되도록 산정'(10종목 동일가중); '3, 6, 9, 12월 선물옵션 만기일(D) 이후 2영업일(D+2)에 정기변경'",
-  "verified": true,
-  "note": "동일가중(±틸팅). 단일종목 비중이 낮아 cap 초과 이슈 없음."
- }
+ ]
 }
