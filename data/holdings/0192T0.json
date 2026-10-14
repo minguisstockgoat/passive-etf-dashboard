@@ -3,106 +3,86 @@
  "name": "SOL 코스닥TOP10",
  "manager": "SOL",
  "source": "신한 SOL",
- "asof": "2026-10-13",
+ "asof": "2026-10-14",
  "total_weight": 99.99,
  "count": 11,
  "holdings": [
   {
    "code": "086520",
    "name": "에코프로",
-   "weight": 15.75,
+   "weight": 16.03,
    "shares": 661.0,
-   "amount": 55590100.0,
-   "over_cap": false
-  },
-  {
-   "code": "196170",
-   "name": "알테오젠",
-   "weight": 15.34,
-   "shares": 234.0,
-   "amount": 54171000.0,
-   "over_cap": false
+   "amount": 56317200.0
   },
   {
    "code": "036930",
    "name": "주성엔지니어링",
-   "weight": 15.12,
+   "weight": 15.73,
    "shares": 211.0,
-   "amount": 53383000.0,
-   "over_cap": false
+   "amount": 55282000.0
+  },
+  {
+   "code": "196170",
+   "name": "알테오젠",
+   "weight": 14.95,
+   "shares": 234.0,
+   "amount": 52533000.0
   },
   {
    "code": "247540",
    "name": "에코프로비엠",
-   "weight": 13.13,
+   "weight": 12.92,
    "shares": 401.0,
-   "amount": 46355600.0,
-   "over_cap": false
+   "amount": 45393200.0
   },
   {
    "code": "028300",
    "name": "HLB",
-   "weight": 9.97,
+   "weight": 9.93,
    "shares": 793.0,
-   "amount": 35209200.0,
-   "over_cap": false
+   "amount": 34892000.0
   },
   {
    "code": "240810",
    "name": "원익IPS",
-   "weight": 8.23,
+   "weight": 8.24,
    "shares": 222.0,
-   "amount": 29059800.0,
-   "over_cap": false
+   "amount": 28948800.0
   },
   {
    "code": "058470",
    "name": "리노공업",
-   "weight": 7.41,
+   "weight": 7.59,
    "shares": 335.0,
-   "amount": 26163500.0,
-   "over_cap": false
+   "amount": 26666000.0
   },
   {
    "code": "277810",
    "name": "레인보우로보틱스",
-   "weight": 5.87,
+   "weight": 5.78,
    "shares": 53.0,
-   "amount": 20723000.0,
-   "over_cap": false
+   "amount": 20325500.0
   },
   {
    "code": "108490",
    "name": "로보티즈",
-   "weight": 5.53,
+   "weight": 5.42,
    "shares": 76.0,
-   "amount": 19532000.0,
-   "over_cap": false
+   "amount": 19038000.0
   },
   {
    "code": "087010",
    "name": "펩트론",
-   "weight": 3.68,
+   "weight": 3.42,
    "shares": 145.0,
-   "amount": 12977500.0,
-   "over_cap": false
+   "amount": 12020500.0
   },
   {
    "code": "KRD010010001",
    "name": "현금성자산",
-   "weight": -0.04,
-   "shares": -142243.0,
-   "amount": -142243.0,
-   "over_cap": false
+   "weight": -0.02,
+   "shares": -52946.0,
+   "amount": -52946.0
   }
- ],
- "breach_summary": null,
- "cap": {
-  "single_cap": null,
-  "index_exception": true,
-  "label": "비중상한 미확인 · 확인 요",
-  "source": "지수 방법론/투자설명서 원문 미확인",
-  "verified": false,
-  "note": "자체 비중상한이 있을 수 있으나 방법론 원문을 확인하지 못했다. 잘못된 매도경고를 피하기 위해 cap 초과 판정을 보류한다. 정확한 상한은 지수 방법론/투자설명서 확인 필요."
- }
+ ]
 }
