@@ -3,98 +3,79 @@
  "name": "KIWOOM 삼성SK그룹TOP4+",
  "manager": "KIWOOM",
  "source": "키움 KIWOOM",
- "asof": "2026-10-14",
- "total_weight": 99.26,
+ "asof": "2026-10-16",
+ "total_weight": 99.17,
  "count": 10,
  "holdings": [
   {
    "code": "005930",
    "name": "삼성전자",
-   "weight": 25.48,
+   "weight": 26.06,
    "shares": 484.0,
-   "amount": 112288000.0,
-   "over_cap": false
+   "amount": 101640000.0
   },
   {
    "code": "000660",
    "name": "SK하이닉스",
-   "weight": 23.91,
+   "weight": 23.62,
    "shares": 73.0,
-   "amount": 105339000.0,
-   "over_cap": false
+   "amount": 92126000.0
   },
   {
    "code": "009150",
    "name": "삼성전기",
-   "weight": 15.78,
+   "weight": 15.21,
    "shares": 51.0,
-   "amount": 69513000.0,
-   "over_cap": false
+   "amount": 59313000.0
   },
   {
    "code": "402340",
    "name": "SK스퀘어",
-   "weight": 13.23,
+   "weight": 13.34,
    "shares": 68.0,
-   "amount": 58276000.0,
-   "over_cap": false
+   "amount": 52020000.0
   },
   {
    "code": "032830",
    "name": "삼성생명",
-   "weight": 6.33,
+   "weight": 6.37,
    "shares": 109.0,
-   "amount": 27904000.0,
-   "over_cap": false
+   "amount": 24852000.0
   },
   {
    "code": "028260",
    "name": "삼성물산",
-   "weight": 6.06,
+   "weight": 6.1,
    "shares": 89.0,
-   "amount": 26700000.0,
-   "over_cap": false
+   "amount": 23807500.0
   },
   {
    "code": "034730",
    "name": "SK",
-   "weight": 5.67,
+   "weight": 5.6,
    "shares": 50.0,
-   "amount": 25000000.0,
-   "over_cap": false
+   "amount": 21850000.0
   },
   {
    "code": "028050",
    "name": "삼성E&A",
-   "weight": 1.68,
+   "weight": 1.76,
    "shares": 163.0,
-   "amount": 7392050.0,
-   "over_cap": false
+   "amount": 6878600.0
   },
   {
    "code": "011790",
    "name": "SKC",
-   "weight": 0.66,
+   "weight": 0.69,
    "shares": 29.0,
-   "amount": 2900000.0,
-   "over_cap": false
+   "amount": 2676700.0
   },
   {
    "code": "095340",
    "name": "ISC",
-   "weight": 0.46,
+   "weight": 0.42,
    "shares": 11.0,
-   "amount": 2020700.0,
-   "over_cap": false
+   "amount": 1622500.0
   }
- ],
- "breach_summary": null,
- "cap": {
-  "single_cap": null,
-  "index_exception": true,
-  "label": "비중상한 미확인 · 확인 요",
-  "source": "지수 방법론/투자설명서 원문 미확인",
-  "verified": false,
-  "note": "자체 비중상한이 있을 수 있으나 방법론 원문을 확인하지 못했다. 잘못된 매도경고를 피하기 위해 cap 초과 판정을 보류한다. 정확한 상한은 지수 방법론/투자설명서 확인 필요."
- }
+ ]
 }
