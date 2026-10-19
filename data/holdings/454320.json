@@ -3,179 +3,164 @@
  "name": "HANARO CAPEX설비투자iSelect",
  "manager": "HANARO",
  "source": "NH아문디 HANARO",
- "asof": "2026-10-15",
- "total_weight": 99.41,
+ "asof": "2026-10-16",
+ "total_weight": 99.4,
  "count": 19,
  "holdings": [
   {
    "code": "034020",
    "name": "두산에너빌리티",
-   "weight": 10.01,
+   "weight": 9.99,
    "shares": 2595.0,
-   "amount": 164263500.0,
-   "over_cap": true
+   "amount": 167637000.0,
+   "over_cap": false
   },
   {
    "code": "010120",
    "name": "LS ELECTRIC",
-   "weight": 9.51,
+   "weight": 9.47,
    "shares": 1002.0,
-   "amount": 156011400.0,
+   "amount": 158917200.0,
    "over_cap": false
   },
   {
    "code": "267270",
    "name": "HD건설기계",
-   "weight": 9.08,
+   "weight": 8.82,
    "shares": 1607.0,
-   "amount": 148968900.0,
+   "amount": 148004700.0,
    "over_cap": false
   },
   {
    "code": "006260",
    "name": "LS",
-   "weight": 8.33,
+   "weight": 8.37,
    "shares": 616.0,
-   "amount": 136752000.0,
+   "amount": 140448000.0,
    "over_cap": false
   },
   {
    "code": "298040",
    "name": "효성중공업",
-   "weight": 7.88,
+   "weight": 8.15,
    "shares": 71.0,
-   "amount": 129291000.0,
+   "amount": 136746000.0,
    "over_cap": false
   },
   {
    "code": "241560",
    "name": "두산밥캣",
-   "weight": 7.85,
+   "weight": 7.74,
    "shares": 2550.0,
-   "amount": 128775000.0,
+   "amount": 129795000.0,
    "over_cap": false
   },
   {
    "code": "062040",
    "name": "산일전기",
-   "weight": 7.28,
+   "weight": 7.3,
    "shares": 673.0,
-   "amount": 119457500.0,
+   "amount": 122553300.0,
    "over_cap": false
   },
   {
    "code": "267260",
    "name": "HD현대일렉트릭",
-   "weight": 6.62,
+   "weight": 6.86,
    "shares": 223.0,
-   "amount": 108601000.0,
+   "amount": 115068000.0,
    "over_cap": false
   },
   {
    "code": "052690",
    "name": "한전기술",
-   "weight": 5.61,
+   "weight": 5.52,
    "shares": 919.0,
-   "amount": 91991900.0,
+   "amount": 92635200.0,
    "over_cap": false
   },
   {
    "code": "112610",
    "name": "씨에스윈드",
-   "weight": 3.92,
+   "weight": 3.84,
    "shares": 1273.0,
-   "amount": 64286500.0,
+   "amount": 64413800.0,
    "over_cap": false
   },
   {
    "code": "058610",
    "name": "에스피지",
-   "weight": 3.32,
+   "weight": 3.38,
    "shares": 715.0,
-   "amount": 54483000.0,
-   "over_cap": false
-  },
-  {
-   "code": "475150",
-   "name": "SK이터닉스",
-   "weight": 2.99,
-   "shares": 1134.0,
-   "amount": 49102200.0,
+   "amount": 56771000.0,
    "over_cap": false
   },
   {
    "code": "060370",
    "name": "LS마린솔루션",
-   "weight": 2.84,
+   "weight": 2.93,
    "shares": 1583.0,
-   "amount": 46619350.0,
+   "amount": 49073000.0,
    "over_cap": false
   },
   {
-   "code": "051600",
-   "name": "한전KPS",
-   "weight": 2.83,
-   "shares": 1105.0,
-   "amount": 46465250.0,
+   "code": "475150",
+   "name": "SK이터닉스",
+   "weight": 2.81,
+   "shares": 1134.0,
+   "amount": 47061000.0,
    "over_cap": false
   },
   {
    "code": "023160",
    "name": "태광",
-   "weight": 2.78,
+   "weight": 2.8,
    "shares": 1762.0,
-   "amount": 45547700.0,
+   "amount": 47045400.0,
+   "over_cap": false
+  },
+  {
+   "code": "051600",
+   "name": "한전KPS",
+   "weight": 2.75,
+   "shares": 1105.0,
+   "amount": 46133750.0,
    "over_cap": false
   },
   {
    "code": "007340",
    "name": "DN오토모티브",
-   "weight": 2.68,
+   "weight": 2.73,
    "shares": 1151.0,
-   "amount": 44025750.0,
+   "amount": 45752250.0,
    "over_cap": false
   },
   {
    "code": "011210",
    "name": "현대위아",
-   "weight": 2.33,
+   "weight": 2.34,
    "shares": 807.0,
-   "amount": 38211450.0,
+   "amount": 39260550.0,
    "over_cap": false
   },
   {
    "code": "100090",
    "name": "SK오션플랜트",
-   "weight": 1.88,
+   "weight": 1.91,
    "shares": 3021.0,
-   "amount": 30814200.0,
+   "amount": 32052810.0,
    "over_cap": false
   },
   {
    "code": "105840",
    "name": "우진",
-   "weight": 1.67,
+   "weight": 1.69,
    "shares": 2620.0,
-   "amount": 27352800.0,
+   "amount": 28348400.0,
    "over_cap": false
   }
  ],
- "breach_summary": {
-  "cap_pct": 10.0,
-  "verified": true,
-  "count": 1,
-  "total_sell": 7065975,
-  "items": [
-   {
-    "code": "034020",
-    "name": "두산에너빌리티",
-    "weight": 10.01,
-    "cap_pct": 10.0,
-    "excess_pp": 0.01,
-    "sell_amount": 7065975
-   }
-  ]
- },
+ "breach_summary": null,
  "cap": {
   "single_cap": 0.1,
   "index_exception": false,
