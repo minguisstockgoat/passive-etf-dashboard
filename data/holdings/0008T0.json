@@ -3,115 +3,100 @@
  "name": "SOL 화장품TOP3플러스",
  "manager": "SOL",
  "source": "신한 SOL",
- "asof": "2026-10-19",
- "total_weight": 100.01,
+ "asof": "2026-10-20",
+ "total_weight": 99.99,
  "count": 11,
  "holdings": [
   {
    "code": "192820",
    "name": "코스맥스",
-   "weight": 20.49,
+   "weight": 19.88,
    "shares": 558.0,
-   "amount": 164889000.0,
-   "over_cap": true
+   "amount": 158751000.0,
+   "over_cap": false
   },
   {
    "code": "257720",
    "name": "실리콘투",
-   "weight": 19.48,
+   "weight": 19.65,
    "shares": 4582.0,
-   "amount": 156704400.0,
+   "amount": 156933500.0,
    "over_cap": false
   },
   {
    "code": "278470",
    "name": "에이피알",
-   "weight": 18.37,
+   "weight": 18.84,
    "shares": 454.0,
-   "amount": 147777000.0,
+   "amount": 150501000.0,
    "over_cap": false
   },
   {
    "code": "051900",
    "name": "LG생활건강",
-   "weight": 7.57,
+   "weight": 7.64,
    "shares": 222.0,
-   "amount": 60939000.0,
+   "amount": 61050000.0,
    "over_cap": false
   },
   {
    "code": "090430",
    "name": "아모레퍼시픽",
-   "weight": 7.53,
+   "weight": 7.54,
    "shares": 435.0,
-   "amount": 60552000.0,
+   "amount": 60247500.0,
    "over_cap": false
   },
   {
    "code": "241710",
    "name": "코스메카코리아",
-   "weight": 7.25,
+   "weight": 7.17,
    "shares": 515.0,
-   "amount": 58298000.0,
+   "amount": 57268000.0,
    "over_cap": false
   },
   {
    "code": "483650",
    "name": "달바글로벌",
-   "weight": 7.03,
+   "weight": 6.99,
    "shares": 329.0,
-   "amount": 56555100.0,
+   "amount": 55798400.0,
    "over_cap": false
   },
   {
    "code": "161890",
    "name": "한국콜마",
-   "weight": 6.68,
+   "weight": 6.65,
    "shares": 414.0,
-   "amount": 53737200.0,
+   "amount": 53116200.0,
    "over_cap": false
   },
   {
    "code": "251970",
    "name": "펌텍코리아",
-   "weight": 4.67,
+   "weight": 4.74,
    "shares": 527.0,
-   "amount": 37575100.0,
+   "amount": 37838600.0,
    "over_cap": false
   },
   {
    "code": "265740",
    "name": "엔에프씨",
-   "weight": 0.97,
+   "weight": 0.92,
    "shares": 991.0,
-   "amount": 7789260.0,
+   "amount": 7373040.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "현금성자산",
    "weight": -0.03,
-   "shares": -255095.0,
-   "amount": -255095.0,
+   "shares": -217136.0,
+   "amount": -217136.0,
    "over_cap": false
   }
  ],
- "breach_summary": {
-  "cap_pct": 20.0,
-  "verified": true,
-  "count": 1,
-  "total_sell": 423110100,
-  "items": [
-   {
-    "code": "192820",
-    "name": "코스맥스",
-    "weight": 20.49,
-    "cap_pct": 20.0,
-    "excess_pp": 0.49,
-    "sell_amount": 423110100
-   }
-  ]
- },
+ "breach_summary": null,
  "cap": {
   "single_cap": 0.2,
   "index_exception": false,
