@@ -3,40 +3,40 @@
  "name": "KODEX 조선TOP10",
  "manager": "KODEX",
  "source": "삼성 KODEX",
- "asof": "2026-10-21",
- "total_weight": 99.99,
+ "asof": "2026-10-22",
+ "total_weight": 100.0,
  "count": 10,
  "holdings": [
   {
    "code": "010140",
    "name": "삼성중공업",
-   "weight": 21.91,
+   "weight": 22.06,
    "shares": 3564.0,
-   "amount": 61728480.0,
-   "over_cap": false
+   "amount": 63011520.0,
+   "over_cap": true
   },
   {
    "code": "009540",
    "name": "HD한국조선해양",
-   "weight": 21.68,
+   "weight": 21.85,
    "shares": 240.0,
-   "amount": 61080000.0,
+   "amount": 62400000.0,
    "over_cap": false
   },
   {
    "code": "329180",
    "name": "HD현대중공업",
-   "weight": 20.77,
+   "weight": 20.62,
    "shares": 184.0,
-   "amount": 58512000.0,
+   "amount": 58880000.0,
    "over_cap": false
   },
   {
    "code": "042660",
    "name": "한화오션",
-   "weight": 20.22,
+   "weight": 20.11,
    "shares": 967.0,
-   "amount": 56956300.0,
+   "amount": 57439800.0,
    "over_cap": false
   },
   {
@@ -44,51 +44,66 @@
    "name": "한화엔진",
    "weight": 6.08,
    "shares": 495.0,
-   "amount": 17127000.0,
+   "amount": 17349750.0,
    "over_cap": false
   },
   {
    "code": "071970",
    "name": "HD현대마린엔진",
-   "weight": 3.9,
+   "weight": 3.86,
    "shares": 282.0,
-   "amount": 10998000.0,
+   "amount": 11012100.0,
    "over_cap": false
   },
   {
    "code": "097230",
    "name": "HJ중공업",
-   "weight": 2.43,
+   "weight": 2.47,
    "shares": 563.0,
-   "amount": 6851710.0,
+   "amount": 7054390.0,
    "over_cap": false
   },
   {
    "code": "439260",
    "name": "대한조선",
-   "weight": 1.83,
+   "weight": 1.78,
    "shares": 129.0,
-   "amount": 5153550.0,
+   "amount": 5089050.0,
    "over_cap": false
   },
   {
    "code": "443060",
    "name": "HD현대마린솔루션",
-   "weight": 0.65,
+   "weight": 0.66,
    "shares": 9.0,
-   "amount": 1827000.0,
+   "amount": 1876500.0,
    "over_cap": false
   },
   {
    "code": "017960",
    "name": "한국카본",
-   "weight": 0.52,
+   "weight": 0.51,
    "shares": 85.0,
-   "amount": 1452650.0,
+   "amount": 1463700.0,
    "over_cap": false
   }
  ],
- "breach_summary": null,
+ "breach_summary": {
+  "cap_pct": 22.0,
+  "verified": true,
+  "count": 1,
+  "total_sell": 93350400,
+  "items": [
+   {
+    "code": "010140",
+    "name": "삼성중공업",
+    "weight": 22.06,
+    "cap_pct": 22.0,
+    "excess_pp": 0.06,
+    "sell_amount": 93350400
+   }
+  ]
+ },
  "cap": {
   "single_cap": 0.22,
   "index_exception": false,
