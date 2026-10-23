@@ -3,80 +3,80 @@
  "name": "ACE 포스코그룹포커스",
  "manager": "ACE",
  "source": "한국투자 ACE",
- "asof": "2026-10-22",
+ "asof": "2026-10-23",
  "total_weight": 100.0,
  "count": 10,
  "holdings": [
   {
    "code": "047050",
    "name": "포스코인터내셔널",
-   "weight": 25.51,
+   "weight": 26.14,
    "shares": 1346.0,
-   "amount": 72549400.0,
+   "amount": 71338000.0,
    "over_cap": true
   },
   {
    "code": "003670",
    "name": "포스코퓨처엠",
-   "weight": 25.43,
+   "weight": 24.45,
    "shares": 400.0,
-   "amount": 72320000.0,
-   "over_cap": true
+   "amount": 66720000.0,
+   "over_cap": false
   },
   {
    "code": "005490",
    "name": "POSCO홀딩스",
-   "weight": 24.01,
+   "weight": 23.79,
    "shares": 227.0,
-   "amount": 68327000.0,
+   "amount": 64922000.0,
    "over_cap": false
   },
   {
    "code": "022100",
    "name": "포스코DX",
-   "weight": 14.52,
+   "weight": 14.75,
    "shares": 2060.0,
-   "amount": 41303000.0,
+   "amount": 40273000.0,
    "over_cap": false
   },
   {
    "code": "009520",
    "name": "포스코엠텍",
-   "weight": 3.48,
+   "weight": 3.49,
    "shares": 838.0,
-   "amount": 9921920.0,
-   "over_cap": false
-  },
-  {
-   "code": "373220",
-   "name": "LG에너지솔루션",
-   "weight": 1.59,
-   "shares": 11.0,
-   "amount": 4526500.0,
+   "amount": 9544820.0,
    "over_cap": false
   },
   {
    "code": "058430",
    "name": "포스코스틸리온",
-   "weight": 1.57,
+   "weight": 1.6,
    "shares": 1059.0,
-   "amount": 4484865.0,
+   "amount": 4384260.0,
    "over_cap": false
   },
   {
-   "code": "001120",
-   "name": "LX인터내셔널",
-   "weight": 1.47,
-   "shares": 96.0,
-   "amount": 4190400.0,
+   "code": "373220",
+   "name": "LG에너지솔루션",
+   "weight": 1.57,
+   "shares": 11.0,
+   "amount": 4290000.0,
    "over_cap": false
   },
   {
    "code": "028050",
    "name": "삼성E&A",
-   "weight": 1.29,
+   "weight": 1.56,
    "shares": 77.0,
-   "amount": 3672900.0,
+   "amount": 4265800.0,
+   "over_cap": false
+  },
+  {
+   "code": "001120",
+   "name": "LX인터내셔널",
+   "weight": 1.52,
+   "shares": 96.0,
+   "amount": 4156800.0,
    "over_cap": false
   },
   {
@@ -84,31 +84,23 @@
    "name": "현대제철",
    "weight": 1.13,
    "shares": 114.0,
-   "amount": 3220500.0,
+   "amount": 3106500.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 25.0,
   "verified": true,
-  "count": 2,
-  "total_sell": 1080584050,
+  "count": 1,
+  "total_sell": 1247667300,
   "items": [
    {
     "code": "047050",
     "name": "포스코인터내셔널",
-    "weight": 25.51,
+    "weight": 26.14,
     "cap_pct": 25.0,
-    "excess_pp": 0.51,
-    "sell_amount": 586274325
-   },
-   {
-    "code": "003670",
-    "name": "포스코퓨처엠",
-    "weight": 25.43,
-    "cap_pct": 25.0,
-    "excess_pp": 0.43,
-    "sell_amount": 494309725
+    "excess_pp": 1.14,
+    "sell_amount": 1247667300
    }
   ]
  },
