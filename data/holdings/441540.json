@@ -3,14 +3,14 @@
  "name": "HANARO Fn조선해운",
  "manager": "HANARO",
  "source": "NH아문디 HANARO",
- "asof": "2026-10-22",
- "total_weight": 98.81,
+ "asof": "2026-10-23",
+ "total_weight": 98.8,
  "count": 15,
  "holdings": [
   {
    "code": "011200",
    "name": "HMM",
-   "weight": 24.21,
+   "weight": 24.67,
    "shares": 11793.0,
    "amount": 267111450.0,
    "over_cap": true
@@ -18,49 +18,49 @@
   {
    "code": "010140",
    "name": "삼성중공업",
-   "weight": 13.77,
+   "weight": 13.63,
    "shares": 8768.0,
-   "amount": 151861760.0,
+   "amount": 147565440.0,
    "over_cap": false
   },
   {
    "code": "009540",
    "name": "HD한국조선해양",
-   "weight": 13.59,
+   "weight": 13.63,
    "shares": 595.0,
-   "amount": 149940000.0,
-   "over_cap": false
-  },
-  {
-   "code": "042660",
-   "name": "한화오션",
-   "weight": 10.56,
-   "shares": 2036.0,
-   "amount": 116459200.0,
+   "amount": 147560000.0,
    "over_cap": false
   },
   {
    "code": "443060",
    "name": "HD현대마린솔루션",
-   "weight": 10.54,
+   "weight": 10.47,
    "shares": 577.0,
-   "amount": 116265500.0,
+   "amount": 113380500.0,
+   "over_cap": false
+  },
+  {
+   "code": "042660",
+   "name": "한화오션",
+   "weight": 10.4,
+   "shares": 2036.0,
+   "amount": 112590800.0,
    "over_cap": false
   },
   {
    "code": "329180",
    "name": "HD현대중공업",
-   "weight": 9.86,
+   "weight": 9.92,
    "shares": 352.0,
-   "amount": 108768000.0,
+   "amount": 107360000.0,
    "over_cap": false
   },
   {
    "code": "082740",
    "name": "한화엔진",
-   "weight": 5.05,
+   "weight": 4.91,
    "shares": 1649.0,
-   "amount": 55736200.0,
+   "amount": 53180250.0,
    "over_cap": false
   },
   {
@@ -68,47 +68,47 @@
    "name": "팬오션",
    "weight": 4.13,
    "shares": 7203.0,
-   "amount": 45522960.0,
+   "amount": 44658600.0,
    "over_cap": false
   },
   {
    "code": "071970",
    "name": "HD현대마린엔진",
-   "weight": 2.24,
+   "weight": 2.2,
    "shares": 660.0,
-   "amount": 24717000.0,
+   "amount": 23859000.0,
    "over_cap": false
   },
   {
    "code": "439260",
    "name": "대한조선",
-   "weight": 2.0,
+   "weight": 1.99,
    "shares": 582.0,
-   "amount": 22116000.0,
+   "amount": 21563100.0,
    "over_cap": false
   },
   {
    "code": "005880",
    "name": "대한해운",
-   "weight": 0.81,
+   "weight": 0.82,
    "shares": 4638.0,
-   "amount": 8965254.0,
+   "amount": 8835390.0,
    "over_cap": false
   },
   {
    "code": "077970",
    "name": "STX엔진",
-   "weight": 0.7,
+   "weight": 0.69,
    "shares": 457.0,
-   "amount": 7769000.0,
+   "amount": 7453670.0,
    "over_cap": false
   },
   {
    "code": "460930",
    "name": "현대힘스",
-   "weight": 0.66,
+   "weight": 0.65,
    "shares": 680.0,
-   "amount": 7276000.0,
+   "amount": 7058400.0,
    "over_cap": false
   },
   {
@@ -116,7 +116,7 @@
    "name": "세진중공업",
    "weight": 0.44,
    "shares": 630.0,
-   "amount": 4863600.0,
+   "amount": 4712400.0,
    "over_cap": false
   },
   {
@@ -124,7 +124,7 @@
    "name": "오리엔탈정공",
    "weight": 0.25,
    "shares": 737.0,
-   "amount": 2807970.0,
+   "amount": 2726900.0,
    "over_cap": false
   }
  ],
@@ -132,15 +132,15 @@
   "cap_pct": 15.0,
   "verified": true,
   "count": 1,
-  "total_sell": 5483173500,
+  "total_sell": 5649987600,
   "items": [
    {
     "code": "011200",
     "name": "HMM",
-    "weight": 24.21,
+    "weight": 24.67,
     "cap_pct": 15.0,
-    "excess_pp": 9.21,
-    "sell_amount": 5483173500
+    "excess_pp": 9.67,
+    "sell_amount": 5649987600
    }
   ]
  },
