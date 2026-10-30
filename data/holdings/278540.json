@@ -3,128 +3,96 @@
  "name": "KODEX MSCI Korea TR",
  "manager": "KODEX",
  "source": "삼성 KODEX",
- "asof": "2026-10-27",
- "total_weight": 99.99,
+ "asof": "2026-10-30",
+ "total_weight": 100.02,
  "count": 74,
  "holdings": [
   {
    "code": "005930",
    "name": "삼성전자",
-   "weight": 35.67,
+   "weight": 35.15,
    "shares": 5126.0,
-   "amount": 1091838000.0,
+   "amount": 1189232000.0,
    "over_cap": false
   },
   {
    "code": "000660",
    "name": "SK하이닉스",
-   "weight": 25.2,
+   "weight": 27.29,
    "shares": 605.0,
-   "amount": 771375000.0,
+   "amount": 923230000.0,
    "over_cap": false
   },
   {
    "code": "005935",
    "name": "삼성전자우",
-   "weight": 4.71,
+   "weight": 4.78,
    "shares": 879.0,
-   "amount": 144331800.0,
+   "amount": 161648100.0,
    "over_cap": false
   },
   {
    "code": "402340",
    "name": "SK스퀘어",
-   "weight": 2.54,
+   "weight": 2.84,
    "shares": 101.0,
-   "amount": 77669000.0,
+   "amount": 96253000.0,
    "over_cap": false
   },
   {
    "code": "009150",
    "name": "삼성전기",
-   "weight": 2.23,
+   "weight": 2.33,
    "shares": 61.0,
-   "amount": 68198000.0,
+   "amount": 78873000.0,
    "over_cap": false
   },
   {
    "code": "105560",
    "name": "KB금융",
-   "weight": 1.77,
+   "weight": 1.71,
    "shares": 369.0,
-   "amount": 54316800.0,
+   "amount": 57859200.0,
    "over_cap": false
   },
   {
    "code": "005380",
    "name": "현대차",
-   "weight": 1.37,
+   "weight": 1.26,
    "shares": 146.0,
-   "amount": 42048000.0,
+   "amount": 42705000.0,
    "over_cap": false
   },
   {
    "code": "055550",
    "name": "신한지주",
-   "weight": 1.27,
+   "weight": 1.19,
    "shares": 455.0,
-   "amount": 38902500.0,
-   "over_cap": false
-  },
-  {
-   "code": "086790",
-   "name": "하나금융지주",
-   "weight": 1.08,
-   "shares": 293.0,
-   "amount": 32933200.0,
+   "amount": 40267500.0,
    "over_cap": false
   },
   {
    "code": "006400",
    "name": "삼성SDI",
-   "weight": 1.04,
+   "weight": 1.05,
    "shares": 66.0,
-   "amount": 31911000.0,
+   "amount": 35508000.0,
+   "over_cap": false
+  },
+  {
+   "code": "086790",
+   "name": "하나금융지주",
+   "weight": 1.04,
+   "shares": 293.0,
+   "amount": 35072100.0,
    "over_cap": false
   },
   {
    "code": "068270",
    "name": "셀트리온",
-   "weight": 1.03,
+   "weight": 0.93,
    "shares": 166.0,
-   "amount": 31540000.0,
-   "over_cap": false
-  },
-  {
-   "code": "034020",
-   "name": "두산에너빌리티",
-   "weight": 0.92,
-   "shares": 491.0,
-   "amount": 28281600.0,
-   "over_cap": false
-  },
-  {
-   "code": "012450",
-   "name": "한화에어로스페이스",
-   "weight": 0.92,
-   "shares": 37.0,
-   "amount": 28120000.0,
-   "over_cap": false
-  },
-  {
-   "code": "000270",
-   "name": "기아",
-   "weight": 0.88,
-   "shares": 257.0,
-   "amount": 27010700.0,
-   "over_cap": false
-  },
-  {
-   "code": "035420",
-   "name": "NAVER",
-   "weight": 0.88,
-   "shares": 155.0,
-   "amount": 27001000.0,
+   "amount": 31423800.0,
    "over_cap": false
   },
   {
@@ -132,47 +100,79 @@
    "name": "삼성물산",
    "weight": 0.85,
    "shares": 89.0,
-   "amount": 25988000.0,
+   "amount": 28791500.0,
+   "over_cap": false
+  },
+  {
+   "code": "012450",
+   "name": "한화에어로스페이스",
+   "weight": 0.83,
+   "shares": 37.0,
+   "amount": 28120000.0,
+   "over_cap": false
+  },
+  {
+   "code": "034020",
+   "name": "두산에너빌리티",
+   "weight": 0.82,
+   "shares": 491.0,
+   "amount": 27839700.0,
+   "over_cap": false
+  },
+  {
+   "code": "000270",
+   "name": "기아",
+   "weight": 0.82,
+   "shares": 257.0,
+   "amount": 27833100.0,
+   "over_cap": false
+  },
+  {
+   "code": "035420",
+   "name": "NAVER",
+   "weight": 0.8,
+   "shares": 155.0,
+   "amount": 27109500.0,
    "over_cap": false
   },
   {
    "code": "032830",
    "name": "삼성생명",
-   "weight": 0.71,
+   "weight": 0.72,
    "shares": 88.0,
-   "amount": 21692000.0,
+   "amount": 24464000.0,
    "over_cap": false
   },
   {
    "code": "012330",
    "name": "현대모비스",
-   "weight": 0.69,
+   "weight": 0.68,
    "shares": 65.0,
-   "amount": 21190000.0,
-   "over_cap": false
-  },
-  {
-   "code": "005490",
-   "name": "POSCO홀딩스",
-   "weight": 0.69,
-   "shares": 78.0,
-   "amount": 21021000.0,
+   "amount": 22945000.0,
    "over_cap": false
   },
   {
    "code": "316140",
    "name": "우리금융지주",
-   "weight": 0.68,
+   "weight": 0.64,
    "shares": 707.0,
-   "amount": 20679750.0,
+   "amount": 21775600.0,
    "over_cap": false
   },
   {
-   "code": "373220",
-   "name": "LG에너지솔루션",
-   "weight": 0.62,
-   "shares": 51.0,
-   "amount": 19125000.0,
+   "code": "005490",
+   "name": "POSCO홀딩스",
+   "weight": 0.64,
+   "shares": 78.0,
+   "amount": 21489000.0,
+   "over_cap": false
+  },
+  {
+   "code": "034730",
+   "name": "SK",
+   "weight": 0.63,
+   "shares": 40.0,
+   "amount": 21400000.0,
    "over_cap": false
   },
   {
@@ -180,159 +180,151 @@
    "name": "삼성화재",
    "weight": 0.62,
    "shares": 32.0,
-   "amount": 19040000.0,
-   "over_cap": false
-  },
-  {
-   "code": "207940",
-   "name": "삼성바이오로직스",
-   "weight": 0.62,
-   "shares": 13.0,
-   "amount": 18876000.0,
-   "over_cap": false
-  },
-  {
-   "code": "034730",
-   "name": "SK",
-   "weight": 0.61,
-   "shares": 40.0,
-   "amount": 18620000.0,
+   "amount": 20832000.0,
    "over_cap": false
   },
   {
    "code": "033780",
    "name": "KT&G",
-   "weight": 0.6,
+   "weight": 0.55,
    "shares": 97.0,
-   "amount": 18323300.0,
+   "amount": 18730700.0,
+   "over_cap": false
+  },
+  {
+   "code": "373220",
+   "name": "LG에너지솔루션",
+   "weight": 0.54,
+   "shares": 51.0,
+   "amount": 18156000.0,
    "over_cap": false
   },
   {
    "code": "066570",
    "name": "LG전자",
-   "weight": 0.59,
+   "weight": 0.53,
    "shares": 116.0,
-   "amount": 18096000.0,
+   "amount": 18003200.0,
+   "over_cap": false
+  },
+  {
+   "code": "207940",
+   "name": "삼성바이오로직스",
+   "weight": 0.52,
+   "shares": 13.0,
+   "amount": 17758000.0,
    "over_cap": false
   },
   {
    "code": "010120",
    "name": "LS ELECTRIC",
-   "weight": 0.41,
+   "weight": 0.38,
    "shares": 82.0,
-   "amount": 12537800.0,
+   "amount": 12988800.0,
    "over_cap": false
   },
   {
    "code": "196170",
    "name": "알테오젠",
-   "weight": 0.41,
-   "shares": 57.0,
-   "amount": 12454500.0,
-   "over_cap": false
-  },
-  {
-   "code": "010140",
-   "name": "삼성중공업",
-   "weight": 0.38,
-   "shares": 723.0,
-   "amount": 11784900.0,
-   "over_cap": false
-  },
-  {
-   "code": "267260",
-   "name": "HD현대일렉트릭",
-   "weight": 0.38,
-   "shares": 26.0,
-   "amount": 11622000.0,
-   "over_cap": false
-  },
-  {
-   "code": "009540",
-   "name": "HD한국조선해양",
    "weight": 0.37,
-   "shares": 47.0,
-   "amount": 11421000.0,
+   "shares": 57.0,
+   "amount": 12540000.0,
    "over_cap": false
   },
   {
    "code": "051910",
    "name": "LG화학",
-   "weight": 0.37,
+   "weight": 0.35,
    "shares": 50.0,
-   "amount": 11250000.0,
+   "amount": 11700000.0,
    "over_cap": false
   },
   {
    "code": "298040",
    "name": "효성중공업",
-   "weight": 0.36,
+   "weight": 0.34,
    "shares": 6.0,
-   "amount": 11118000.0,
+   "amount": 11466000.0,
    "over_cap": false
   },
   {
-   "code": "329180",
-   "name": "HD현대중공업",
-   "weight": 0.33,
-   "shares": 35.0,
-   "amount": 10132500.0,
+   "code": "267260",
+   "name": "HD현대일렉트릭",
+   "weight": 0.34,
+   "shares": 26.0,
+   "amount": 11453000.0,
+   "over_cap": false
+  },
+  {
+   "code": "010140",
+   "name": "삼성중공업",
+   "weight": 0.34,
+   "shares": 723.0,
+   "amount": 11365560.0,
+   "over_cap": false
+  },
+  {
+   "code": "009540",
+   "name": "HD한국조선해양",
+   "weight": 0.32,
+   "shares": 47.0,
+   "amount": 10951000.0,
    "over_cap": false
   },
   {
    "code": "035720",
    "name": "카카오",
-   "weight": 0.33,
+   "weight": 0.29,
    "shares": 340.0,
-   "amount": 10047000.0,
-   "over_cap": false
-  },
-  {
-   "code": "096770",
-   "name": "SK이노베이션",
-   "weight": 0.31,
-   "shares": 69.0,
-   "amount": 9453000.0,
+   "amount": 9962000.0,
    "over_cap": false
   },
   {
    "code": "138040",
    "name": "메리츠금융지주",
-   "weight": 0.3,
+   "weight": 0.28,
    "shares": 73.0,
-   "amount": 9139600.0,
+   "amount": 9592200.0,
+   "over_cap": false
+  },
+  {
+   "code": "329180",
+   "name": "HD현대중공업",
+   "weight": 0.28,
+   "shares": 35.0,
+   "amount": 9520000.0,
    "over_cap": false
   },
   {
    "code": "003550",
    "name": "LG",
-   "weight": 0.29,
+   "weight": 0.27,
    "shares": 91.0,
-   "amount": 8990800.0,
+   "amount": 9054500.0,
    "over_cap": false
   },
   {
-   "code": "018260",
-   "name": "삼성에스디에스",
-   "weight": 0.29,
-   "shares": 42.0,
-   "amount": 8946000.0,
-   "over_cap": false
-  },
-  {
-   "code": "005830",
-   "name": "DB손해보험",
-   "weight": 0.28,
-   "shares": 47.0,
-   "amount": 8445900.0,
+   "code": "096770",
+   "name": "SK이노베이션",
+   "weight": 0.26,
+   "shares": 69.0,
+   "amount": 8956200.0,
    "over_cap": false
   },
   {
    "code": "017670",
    "name": "SK텔레콤",
-   "weight": 0.27,
+   "weight": 0.26,
    "shares": 115.0,
-   "amount": 8291500.0,
+   "amount": 8809000.0,
+   "over_cap": false
+  },
+  {
+   "code": "018260",
+   "name": "삼성에스디에스",
+   "weight": 0.26,
+   "shares": 42.0,
+   "amount": 8673000.0,
    "over_cap": false
   },
   {
@@ -340,63 +332,55 @@
    "name": "한미반도체",
    "weight": 0.26,
    "shares": 44.0,
-   "amount": 8096000.0,
+   "amount": 8663600.0,
    "over_cap": false
   },
   {
-   "code": "015760",
-   "name": "한국전력",
-   "weight": 0.26,
-   "shares": 281.0,
-   "amount": 7868000.0,
+   "code": "005830",
+   "name": "DB손해보험",
+   "weight": 0.25,
+   "shares": 47.0,
+   "amount": 8554000.0,
    "over_cap": false
   },
   {
    "code": "086520",
    "name": "에코프로",
-   "weight": 0.26,
+   "weight": 0.24,
    "shares": 112.0,
-   "amount": 7806400.0,
+   "amount": 8209600.0,
    "over_cap": false
   },
   {
-   "code": "278470",
-   "name": "에이피알",
-   "weight": 0.25,
-   "shares": 27.0,
-   "amount": 7614000.0,
-   "over_cap": false
-  },
-  {
-   "code": "042660",
-   "name": "한화오션",
-   "weight": 0.25,
-   "shares": 143.0,
-   "amount": 7579000.0,
+   "code": "015760",
+   "name": "한국전력",
+   "weight": 0.24,
+   "shares": 281.0,
+   "amount": 7952300.0,
    "over_cap": false
   },
   {
    "code": "086280",
    "name": "현대글로비스",
-   "weight": 0.24,
+   "weight": 0.23,
    "shares": 41.0,
-   "amount": 7224200.0,
+   "amount": 7740800.0,
    "over_cap": false
   },
   {
    "code": "000150",
    "name": "두산",
-   "weight": 0.24,
+   "weight": 0.23,
    "shares": 8.0,
-   "amount": 7208000.0,
+   "amount": 7688000.0,
    "over_cap": false
   },
   {
-   "code": "000720",
-   "name": "현대건설",
+   "code": "278470",
+   "name": "에이피알",
    "weight": 0.23,
-   "shares": 79.0,
-   "amount": 7165300.0,
+   "shares": 27.0,
+   "amount": 7627500.0,
    "over_cap": false
   },
   {
@@ -404,31 +388,31 @@
    "name": "한국금융지주",
    "weight": 0.22,
    "shares": 46.0,
-   "amount": 6674600.0,
+   "amount": 7360000.0,
+   "over_cap": false
+  },
+  {
+   "code": "042660",
+   "name": "한화오션",
+   "weight": 0.21,
+   "shares": 143.0,
+   "amount": 7221500.0,
+   "over_cap": false
+  },
+  {
+   "code": "000720",
+   "name": "현대건설",
+   "weight": 0.21,
+   "shares": 79.0,
+   "amount": 7220600.0,
    "over_cap": false
   },
   {
    "code": "047810",
    "name": "한국항공우주",
-   "weight": 0.2,
+   "weight": 0.19,
    "shares": 64.0,
-   "amount": 6259200.0,
-   "over_cap": false
-  },
-  {
-   "code": "064350",
-   "name": "현대로템",
-   "weight": 0.2,
-   "shares": 78.0,
-   "amount": 6169800.0,
-   "over_cap": false
-  },
-  {
-   "code": "079550",
-   "name": "LIG디펜스앤에어로스페이스",
-   "weight": 0.2,
-   "shares": 14.0,
-   "amount": 6006000.0,
+   "amount": 6425600.0,
    "over_cap": false
   },
   {
@@ -436,79 +420,55 @@
    "name": "HD현대",
    "weight": 0.19,
    "shares": 45.0,
-   "amount": 5949000.0,
+   "amount": 6318000.0,
    "over_cap": false
   },
   {
-   "code": "010950",
-   "name": "S-Oil",
-   "weight": 0.19,
-   "shares": 46.0,
-   "amount": 5874200.0,
-   "over_cap": false
-  },
-  {
-   "code": "011070",
-   "name": "LG이노텍",
-   "weight": 0.19,
-   "shares": 16.0,
-   "amount": 5872000.0,
+   "code": "064350",
+   "name": "현대로템",
+   "weight": 0.18,
+   "shares": 78.0,
+   "amount": 6162000.0,
    "over_cap": false
   },
   {
    "code": "005387",
    "name": "현대차2우B",
-   "weight": 0.19,
+   "weight": 0.18,
    "shares": 38.0,
-   "amount": 5833000.0,
+   "amount": 6007800.0,
+   "over_cap": false
+  },
+  {
+   "code": "079550",
+   "name": "LIG디펜스앤에어로스페이스",
+   "weight": 0.18,
+   "shares": 14.0,
+   "amount": 5985000.0,
    "over_cap": false
   },
   {
    "code": "003670",
    "name": "포스코퓨처엠",
-   "weight": 0.19,
+   "weight": 0.18,
    "shares": 37.0,
-   "amount": 5790500.0,
+   "amount": 5953300.0,
    "over_cap": false
   },
   {
    "code": "247540",
    "name": "에코프로비엠",
-   "weight": 0.19,
+   "weight": 0.17,
    "shares": 64.0,
-   "amount": 5734400.0,
-   "over_cap": false
-  },
-  {
-   "code": "011200",
-   "name": "HMM",
-   "weight": 0.18,
-   "shares": 248.0,
-   "amount": 5592400.0,
+   "amount": 5888000.0,
    "over_cap": false
   },
   {
    "code": "003230",
    "name": "삼양식품",
-   "weight": 0.18,
+   "weight": 0.17,
    "shares": 5.0,
-   "amount": 5580000.0,
-   "over_cap": false
-  },
-  {
-   "code": "259960",
-   "name": "크래프톤",
-   "weight": 0.17,
-   "shares": 29.0,
-   "amount": 5321500.0,
-   "over_cap": false
-  },
-  {
-   "code": "272210",
-   "name": "한화시스템",
-   "weight": 0.17,
-   "shares": 83.0,
-   "amount": 5287100.0,
+   "amount": 5710000.0,
    "over_cap": false
   },
   {
@@ -516,71 +476,103 @@
    "name": "미래에셋증권",
    "weight": 0.17,
    "shares": 215.0,
-   "amount": 5160000.0,
+   "amount": 5686750.0,
+   "over_cap": false
+  },
+  {
+   "code": "010950",
+   "name": "S-Oil",
+   "weight": 0.17,
+   "shares": 46.0,
+   "amount": 5625800.0,
+   "over_cap": false
+  },
+  {
+   "code": "011070",
+   "name": "LG이노텍",
+   "weight": 0.16,
+   "shares": 16.0,
+   "amount": 5560000.0,
+   "over_cap": false
+  },
+  {
+   "code": "011200",
+   "name": "HMM",
+   "weight": 0.16,
+   "shares": 248.0,
+   "amount": 5530400.0,
+   "over_cap": false
+  },
+  {
+   "code": "272210",
+   "name": "한화시스템",
+   "weight": 0.16,
+   "shares": 83.0,
+   "amount": 5361800.0,
    "over_cap": false
   },
   {
    "code": "003490",
    "name": "대한항공",
-   "weight": 0.17,
+   "weight": 0.16,
    "shares": 202.0,
-   "amount": 5070200.0,
+   "amount": 5342900.0,
+   "over_cap": false
+  },
+  {
+   "code": "259960",
+   "name": "크래프톤",
+   "weight": 0.16,
+   "shares": 29.0,
+   "amount": 5249000.0,
    "over_cap": false
   },
   {
    "code": "024110",
    "name": "기업은행",
-   "weight": 0.16,
+   "weight": 0.15,
    "shares": 262.0,
-   "amount": 5014680.0,
-   "over_cap": false
-  },
-  {
-   "code": "352820",
-   "name": "하이브",
-   "weight": 0.15,
-   "shares": 26.0,
-   "amount": 4526600.0,
-   "over_cap": false
-  },
-  {
-   "code": "000100",
-   "name": "유한양행",
-   "weight": 0.15,
-   "shares": 55.0,
-   "amount": 4493500.0,
+   "amount": 5025160.0,
    "over_cap": false
   },
   {
    "code": "161390",
    "name": "한국타이어앤테크놀로지",
-   "weight": 0.14,
+   "weight": 0.13,
    "shares": 75.0,
-   "amount": 4365000.0,
+   "amount": 4260000.0,
+   "over_cap": false
+  },
+  {
+   "code": "000100",
+   "name": "유한양행",
+   "weight": 0.12,
+   "shares": 55.0,
+   "amount": 4108500.0,
+   "over_cap": false
+  },
+  {
+   "code": "352820",
+   "name": "하이브",
+   "weight": 0.12,
+   "shares": 26.0,
+   "amount": 4108000.0,
    "over_cap": false
   },
   {
    "code": "090430",
    "name": "아모레퍼시픽",
-   "weight": 0.13,
+   "weight": 0.12,
    "shares": 32.0,
-   "amount": 4022400.0,
+   "amount": 3980800.0,
    "over_cap": false
   },
   {
    "code": "005385",
    "name": "현대차우",
-   "weight": 0.12,
+   "weight": 0.11,
    "shares": 24.0,
-   "amount": 3688800.0,
-   "over_cap": false
-  },
-  {
-   "code": "323410",
-   "name": "카카오뱅크",
-   "weight": 0.12,
-   "shares": 183.0,
-   "amount": 3590460.0,
+   "amount": 3782400.0,
    "over_cap": false
   },
   {
@@ -588,7 +580,15 @@
    "name": "NH투자증권",
    "weight": 0.11,
    "shares": 152.0,
-   "amount": 3427600.0,
+   "amount": 3716400.0,
+   "over_cap": false
+  },
+  {
+   "code": "323410",
+   "name": "카카오뱅크",
+   "weight": 0.11,
+   "shares": 183.0,
+   "amount": 3573990.0,
    "over_cap": false
   },
   {
@@ -596,7 +596,7 @@
    "name": "LG유플러스",
    "weight": 0.05,
    "shares": 116.0,
-   "amount": 1627480.0,
+   "amount": 1617040.0,
    "over_cap": false
   }
  ],

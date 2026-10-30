@@ -3,96 +3,96 @@
  "name": "SOL AI반도체TOP2플러스",
  "manager": "SOL",
  "source": "신한 SOL",
- "asof": "2026-10-27",
- "total_weight": 100.0,
+ "asof": "2026-10-30",
+ "total_weight": 99.99,
  "count": 11,
  "holdings": [
   {
-   "code": "005930",
-   "name": "삼성전자",
-   "weight": 26.94,
-   "shares": 883.0,
-   "amount": 188079000.0,
-   "over_cap": true
-  },
-  {
    "code": "000660",
    "name": "SK하이닉스",
-   "weight": 25.2,
+   "weight": 26.22,
    "shares": 138.0,
-   "amount": 175950000.0,
+   "amount": 210588000.0,
    "over_cap": true
   },
   {
-   "code": "009150",
-   "name": "삼성전기",
-   "weight": 14.25,
-   "shares": 89.0,
-   "amount": 99502000.0,
-   "over_cap": false
+   "code": "005930",
+   "name": "삼성전자",
+   "weight": 25.5,
+   "shares": 883.0,
+   "amount": 204856000.0,
+   "over_cap": true
   },
   {
    "code": "402340",
    "name": "SK스퀘어",
-   "weight": 13.77,
+   "weight": 14.83,
    "shares": 125.0,
-   "amount": 96125000.0,
+   "amount": 119125000.0,
+   "over_cap": false
+  },
+  {
+   "code": "009150",
+   "name": "삼성전기",
+   "weight": 14.33,
+   "shares": 89.0,
+   "amount": 115077000.0,
    "over_cap": false
   },
   {
    "code": "007660",
    "name": "이수페타시스",
-   "weight": 5.67,
+   "weight": 5.46,
    "shares": 474.0,
-   "amount": 39579000.0,
+   "amount": 43892400.0,
    "over_cap": false
   },
   {
    "code": "353200",
    "name": "대덕전자",
-   "weight": 4.95,
+   "weight": 4.97,
    "shares": 289.0,
-   "amount": 34593300.0,
+   "amount": 39939800.0,
    "over_cap": false
   },
   {
    "code": "240810",
    "name": "원익IPS",
-   "weight": 3.57,
+   "weight": 3.33,
    "shares": 279.0,
-   "amount": 24942600.0,
+   "amount": 26756100.0,
    "over_cap": false
   },
   {
    "code": "319660",
    "name": "피에스케이",
-   "weight": 2.64,
+   "weight": 2.53,
    "shares": 169.0,
-   "amount": 18421000.0,
+   "amount": 20330700.0,
    "over_cap": false
   },
   {
    "code": "095610",
    "name": "테스",
-   "weight": 1.51,
+   "weight": 1.47,
    "shares": 100.0,
-   "amount": 10520000.0,
+   "amount": 11780000.0,
    "over_cap": false
   },
   {
    "code": "131290",
    "name": "티에스이",
-   "weight": 1.31,
+   "weight": 1.23,
    "shares": 38.0,
-   "amount": 9158000.0,
+   "amount": 9899000.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "현금성자산",
-   "weight": 0.19,
-   "shares": 1357401.0,
-   "amount": 1357401.0,
+   "weight": 0.12,
+   "shares": 967423.0,
+   "amount": 967423.0,
    "over_cap": false
   }
  ],
@@ -100,23 +100,23 @@
   "cap_pct": 25.0,
   "verified": true,
   "count": 2,
-  "total_sell": 91092502600,
+  "total_sell": 84122276000,
   "items": [
-   {
-    "code": "005930",
-    "name": "삼성전자",
-    "weight": 26.94,
-    "cap_pct": 25.0,
-    "excess_pp": 1.94,
-    "sell_amount": 82579184600
-   },
    {
     "code": "000660",
     "name": "SK하이닉스",
-    "weight": 25.2,
+    "weight": 26.22,
     "cap_pct": 25.0,
-    "excess_pp": 0.2,
-    "sell_amount": 8513318000
+    "excess_pp": 1.22,
+    "sell_amount": 59668126000
+   },
+   {
+    "code": "005930",
+    "name": "삼성전자",
+    "weight": 25.5,
+    "cap_pct": 25.0,
+    "excess_pp": 0.5,
+    "sell_amount": 24454150000
    }
   ]
  },
