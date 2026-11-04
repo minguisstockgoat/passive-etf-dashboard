@@ -3,115 +3,100 @@
  "name": "TIGER 인터넷TOP10",
  "manager": "TIGER",
  "source": "미래에셋 TIGER",
- "asof": "2026-10-07",
- "total_weight": 99.99,
+ "asof": "2026-11-04",
+ "total_weight": 100.02,
  "count": 11,
  "holdings": [
   {
-   "code": "178320",
-   "name": "서진시스템",
-   "weight": 27.08,
-   "shares": 1206.0,
-   "amount": 51797700.0,
-   "over_cap": true
-  },
-  {
    "code": "035720",
    "name": "카카오",
-   "weight": 22.24,
+   "weight": 24.61,
    "shares": 1270.0,
-   "amount": 42545000.0,
+   "amount": 36576000.0,
    "over_cap": false
   },
   {
    "code": "035420",
    "name": "NAVER",
-   "weight": 21.28,
+   "weight": 24.22,
    "shares": 213.0,
-   "amount": 40704300.0,
+   "amount": 35997000.0,
+   "over_cap": false
+  },
+  {
+   "code": "178320",
+   "name": "서진시스템",
+   "weight": 21.99,
+   "shares": 1206.0,
+   "amount": 32682600.0,
    "over_cap": false
   },
   {
    "code": "010170",
    "name": "대한광통신",
-   "weight": 13.27,
+   "weight": 12.2,
    "shares": 1370.0,
-   "amount": 25386100.0,
-   "over_cap": false
-  },
-  {
-   "code": "032500",
-   "name": "케이엠더블유",
-   "weight": 3.33,
-   "shares": 305.0,
-   "amount": 6374500.0,
-   "over_cap": false
-  },
-  {
-   "code": "189300",
-   "name": "인텔리안테크",
-   "weight": 3.23,
-   "shares": 83.0,
-   "amount": 6175200.0,
-   "over_cap": false
-  },
-  {
-   "code": "050890",
-   "name": "쏠리드",
-   "weight": 3.06,
-   "shares": 554.0,
-   "amount": 5861320.0,
-   "over_cap": false
-  },
-  {
-   "code": "033790",
-   "name": "피노",
-   "weight": 2.59,
-   "shares": 481.0,
-   "amount": 4963920.0,
+   "amount": 18138800.0,
    "over_cap": false
   },
   {
    "code": "053800",
    "name": "안랩",
-   "weight": 2.51,
+   "weight": 4.13,
    "shares": 54.0,
-   "amount": 4806000.0,
+   "amount": 6134400.0,
+   "over_cap": false
+  },
+  {
+   "code": "032500",
+   "name": "케이엠더블유",
+   "weight": 3.4,
+   "shares": 305.0,
+   "amount": 5050800.0,
+   "over_cap": false
+  },
+  {
+   "code": "050890",
+   "name": "쏠리드",
+   "weight": 2.93,
+   "shares": 554.0,
+   "amount": 4348900.0,
+   "over_cap": false
+  },
+  {
+   "code": "189300",
+   "name": "인텔리안테크",
+   "weight": 2.75,
+   "shares": 83.0,
+   "amount": 4091900.0,
+   "over_cap": false
+  },
+  {
+   "code": "033790",
+   "name": "피노",
+   "weight": 2.36,
+   "shares": 481.0,
+   "amount": 3501680.0,
    "over_cap": false
   },
   {
    "code": "037460",
    "name": "삼지전자",
-   "weight": 1.2,
+   "weight": 1.26,
    "shares": 70.0,
-   "amount": 2292500.0,
+   "amount": 1876000.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "원화예금",
-   "weight": 0.2,
-   "shares": 390929.0,
-   "amount": 390929.0,
+   "weight": 0.17,
+   "shares": 245748.0,
+   "amount": 245748.0,
    "over_cap": false
   }
  ],
- "breach_summary": {
-  "cap_pct": 25.0,
-  "verified": true,
-  "count": 1,
-  "total_sell": 649069200,
-  "items": [
-   {
-    "code": "178320",
-    "name": "서진시스템",
-    "weight": 27.08,
-    "cap_pct": 25.0,
-    "excess_pp": 2.08,
-    "sell_amount": 649069200
-   }
-  ]
- },
+ "breach_summary": null,
  "cap": {
   "single_cap": 0.25,
   "index_exception": false,
