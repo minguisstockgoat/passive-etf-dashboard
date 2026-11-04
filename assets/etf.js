@@ -148,6 +148,7 @@
         + '</div>';
     }
 
+    html += '<div class="card" style="padding:20px;margin:18px 0"><h2>리밸런싱 수급 영향</h2><p>예상 매매 규모를 최근 5일 평균 거래대금·유동시총과 비교합니다. 편입·편출과 목표 비중을 조정해 시나리오별 보고서를 만들 수 있습니다.</p><a class="xlink" href="impact.html?ticker=' + e.ticker + '">리밸런싱 영향 보고서 생성 →</a></div>';
     html += '<div id="daily-changes"></div>';
 
     // 구성종목(PDF)

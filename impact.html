@@ -1,0 +1,16 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>리밸런싱 영향 보고서 · ETF</title><link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/daily.css"><link rel="stylesheet" href="assets/impact.css"></head><body><main class="wrap">
+<header class="top"><div><a class="back" href="index.html">← ETF 대시보드</a><h1>리밸런싱 영향 보고서</h1><p class="sub">예상 매매 규모를 실제 거래대금·유동물량과 비교합니다.</p></div></header>
+<nav class="unified-nav"><a href="index.html">일정·비중 제한</a><a href="daily.html">일간 구성 변화</a><a class="selected" href="impact.html">영향 보고서</a></nav>
+<section class="card setup" id="setup"><div class="control-grid"><label>분석할 ETF<select id="fund"><option>자료 불러오는 중…</option></select></label><label>찾아보기<select id="horizon"><option value="31">정기변경 1개월 이내</option><option value="93">3개월 이내</option><option value="9999">전체 ETF</option></select></label></div>
+<div id="fund-summary" aria-live="polite"></div>
+<div class="control-grid"><label>아직 집행하지 않은 비율<select id="remaining"><option value="1">100% · 전체 리밸런싱</option><option value="0.75">75% · 25% 선집행 가정</option><option value="0.5">50% · 절반 선집행 가정</option></select></label><label>매매 분산 기간<select id="execution"><option value="1">1거래일 · 종가 집중 가정</option><option value="3">3거래일</option><option value="5">5거래일</option></select></label></div>
+<label class="check"><input type="checkbox" id="peers"> 같은 지수·같은 변경일의 현물 ETF도 합산 <span id="peer-count"></span></label>
+<details id="scenario"><summary>예상 편입·편출 / 목표 비중 조정</summary><p>편출은 목표 비중을 0으로 입력하세요. 편입은 종목을 추가한 뒤 비중을 입력합니다. 확인한 공지의 수치를 넣으면 해당 시나리오로 계산합니다.</p>
+<label>예상안의 근거 또는 공지 주소<input id="scenario-source" placeholder="예: 11월 정기변경 공지 / 현재 구성 유지 가정"></label>
+<div class="add-stock"><label>편입 예상 종목<input id="add-stock" list="stock-list" placeholder="종목명 또는 6자리 코드"></label><button id="add" type="button">종목 추가</button></div><datalist id="stock-list"></datalist>
+<div class="toolbar"><button id="reset-target" type="button">기본 가정으로 되돌리기</button><button id="balance" type="button">입력 비중을 주식 비중 합계에 맞추기</button><span id="weight-total"></span></div>
+<div class="tbl-scroll editor"><table><thead><tr><th>종목</th><th>현재 비중</th><th>목표 비중 (%)</th></tr></thead><tbody id="target-rows"></tbody></table></div></details>
+<div class="toolbar"><button class="primary" id="generate" disabled>리밸런싱 영향 보고서 생성</button><button id="reload-data" type="button">자료 새로고침</button><span id="message" role="status"></span></div>
+<p class="small">버튼을 누르면 공개된 최신 수집 자료와 입력 가정으로 보고서를 즉시 계산합니다. 원천 자료는 평일 08:50·20:40 수집하며, 보고서 생성 시각과 자료 기준일은 구분해 표시합니다.</p></section>
+<section id="report" aria-live="polite"></section><footer class="small">수급 압력은 예상 매매 수요의 상대적 크기입니다. 주가 등락률 예측이나 실제 주문량과 같지 않으며, 장외 교환·현물 설정/환매·선행 매매·다른 투자자의 주문은 반영되지 않습니다.</footer>
+</main><script src="assets/common.js"></script><script src="assets/impact-model.js"></script><script src="assets/impact.js"></script></body></html>

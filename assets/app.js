@@ -174,7 +174,7 @@
         + '<span class="tag cat-' + e.category + '">' + e.category + '</span>' + warn + '</div></td>'
         + '<td class="hide-sm"><span class="tag sched' + (e.schedule_verified ? '' : ' est') + '"'
         + (e.schedule_verified ? '' : ' title="자동추정 · 개별 확인 필요"') + '>' + e.schedule_label + '</span></td>'
-        + '<td>' + dueCell(e) + '</td>'
+        + '<td>' + dueCell(e) + ((ddays(e) != null && ddays(e) <= 31) ? '<br><a class="xlink sm" href="impact.html?ticker=' + e.ticker + '" onclick="event.stopPropagation()">영향 보고서 생성</a>' : '') + '</td>'
         + '<td class="num"><span class="mktcap' + (isLive ? ' mc-live' : '') + '">' + PE.won(cv) + '</span></td>'
         + '<td class="hide-sm"><span class="tag mgr">' + e.manager + '</span></td>'
         + '</tr>';

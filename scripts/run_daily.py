@@ -56,6 +56,13 @@ def main():
         command('collect_daily.py')
         command('build_data.py')
         command('daily_changes.py')
+        impact_ok=True
+        try:command('impact_data.py',timeout=600)
+        except (subprocess.CalledProcessError,subprocess.TimeoutExpired):
+            impact_ok=False
+            from daily_changes import write
+            write(ROOT/'data/impact/status.json',{'ok':False,'checked_at':dt.datetime.now(KST).isoformat(timespec='seconds'),'note':'보고서 자료 갱신 실패. 직전 자료 기준일 확인 필요.'})
+            print('Impact report inputs failed; previous report data retained')
         now=dt.datetime.now(KST)
         # Preserve the scheduled-event view with bounded weekly incremental collection.
         if now.weekday()==4 and now.hour>=18:
@@ -70,7 +77,7 @@ def main():
             if git('diff','--cached','--quiet',check=False).returncode:
                 git('commit','-m','data: unified ETF refresh '+now.strftime('%Y-%m-%d %H:%M KST'))
             push()
-        return health.returncode
+        return health.returncode or int(not impact_ok)
 
 if __name__=='__main__':
     try:raise SystemExit(main())
