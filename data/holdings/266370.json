@@ -3,40 +3,48 @@
  "name": "KODEX IT",
  "manager": "KODEX",
  "source": "삼성 KODEX",
- "asof": "2026-11-03",
- "total_weight": 100.0,
+ "asof": "2026-11-04",
+ "total_weight": 99.99,
  "count": 20,
  "holdings": [
   {
    "code": "005930",
    "name": "삼성전자",
-   "weight": 19.83,
+   "weight": 20.28,
    "shares": 2557.0,
-   "amount": 585553000.0,
-   "over_cap": false
-  },
-  {
-   "code": "009150",
-   "name": "삼성전기",
-   "weight": 18.63,
-   "shares": 461.0,
-   "amount": 549973000.0,
+   "amount": 561261500.0,
    "over_cap": false
   },
   {
    "code": "000660",
    "name": "SK하이닉스",
-   "weight": 18.54,
+   "weight": 18.79,
    "shares": 372.0,
-   "amount": 547584000.0,
+   "amount": 520056000.0,
+   "over_cap": false
+  },
+  {
+   "code": "009150",
+   "name": "삼성전기",
+   "weight": 18.4,
+   "shares": 461.0,
+   "amount": 509405000.0,
    "over_cap": false
   },
   {
    "code": "006400",
    "name": "삼성SDI",
-   "weight": 14.9,
+   "weight": 14.44,
    "shares": 818.0,
-   "amount": 440084000.0,
+   "amount": 399593000.0,
+   "over_cap": false
+  },
+  {
+   "code": "018260",
+   "name": "삼성에스디에스",
+   "weight": 3.74,
+   "shares": 514.0,
+   "amount": 103571000.0,
    "over_cap": false
   },
   {
@@ -44,87 +52,79 @@
    "name": "한미반도체",
    "weight": 3.69,
    "shares": 568.0,
-   "amount": 108885600.0,
-   "over_cap": false
-  },
-  {
-   "code": "018260",
-   "name": "삼성에스디에스",
-   "weight": 3.63,
-   "shares": 514.0,
-   "amount": 107169000.0,
+   "amount": 102240000.0,
    "over_cap": false
   },
   {
    "code": "036930",
    "name": "주성엔지니어링",
-   "weight": 2.4,
+   "weight": 2.36,
    "shares": 422.0,
-   "amount": 70896000.0,
+   "amount": 65452200.0,
    "over_cap": false
   },
   {
    "code": "007660",
    "name": "이수페타시스",
-   "weight": 2.19,
+   "weight": 2.12,
    "shares": 736.0,
-   "amount": 64768000.0,
+   "amount": 58732800.0,
    "over_cap": false
   },
   {
    "code": "011070",
    "name": "LG이노텍",
-   "weight": 2.13,
+   "weight": 2.11,
    "shares": 192.0,
-   "amount": 62880000.0,
-   "over_cap": false
-  },
-  {
-   "code": "353200",
-   "name": "대덕전자",
-   "weight": 1.72,
-   "shares": 435.0,
-   "amount": 50677500.0,
+   "amount": 58368000.0,
    "over_cap": false
   },
   {
    "code": "064400",
    "name": "LG씨엔에스",
-   "weight": 1.7,
+   "weight": 1.72,
    "shares": 643.0,
-   "amount": 50154000.0,
+   "amount": 47646300.0,
+   "over_cap": false
+  },
+  {
+   "code": "353200",
+   "name": "대덕전자",
+   "weight": 1.59,
+   "shares": 435.0,
+   "amount": 43935000.0,
    "over_cap": false
   },
   {
    "code": "039030",
    "name": "이오테크닉스",
-   "weight": 1.51,
+   "weight": 1.47,
    "shares": 114.0,
-   "amount": 44631000.0,
-   "over_cap": false
-  },
-  {
-   "code": "222800",
-   "name": "심텍",
-   "weight": 1.39,
-   "shares": 340.0,
-   "amount": 40936000.0,
-   "over_cap": false
-  },
-  {
-   "code": "240810",
-   "name": "원익IPS",
-   "weight": 1.37,
-   "shares": 445.0,
-   "amount": 40495000.0,
+   "amount": 40812000.0,
    "over_cap": false
   },
   {
    "code": "000990",
    "name": "DB하이텍",
-   "weight": 1.32,
+   "weight": 1.44,
    "shares": 413.0,
-   "amount": 39028500.0,
+   "amount": 39813200.0,
+   "over_cap": false
+  },
+  {
+   "code": "222800",
+   "name": "심텍",
+   "weight": 1.38,
+   "shares": 340.0,
+   "amount": 38182000.0,
+   "over_cap": false
+  },
+  {
+   "code": "240810",
+   "name": "원익IPS",
+   "weight": 1.36,
+   "shares": 445.0,
+   "amount": 37602500.0,
    "over_cap": false
   },
   {
@@ -132,15 +132,15 @@
    "name": "리노공업",
    "weight": 1.3,
    "shares": 671.0,
-   "amount": 38247000.0,
+   "amount": 35898500.0,
    "over_cap": false
   },
   {
    "code": "034220",
    "name": "LG디스플레이",
-   "weight": 1.08,
+   "weight": 1.11,
    "shares": 4265.0,
-   "amount": 31774250.0,
+   "amount": 30835950.0,
    "over_cap": false
   },
   {
@@ -148,15 +148,15 @@
    "name": "피에스케이",
    "weight": 1.02,
    "shares": 267.0,
-   "amount": 30224400.0,
+   "amount": 28195200.0,
    "over_cap": false
   },
   {
    "code": "307950",
    "name": "현대오토에버",
-   "weight": 0.9,
+   "weight": 0.92,
    "shares": 86.0,
-   "amount": 26703000.0,
+   "amount": 25327000.0,
    "over_cap": false
   },
   {
@@ -164,7 +164,7 @@
    "name": "파두",
    "weight": 0.75,
    "shares": 489.0,
-   "amount": 22200600.0,
+   "amount": 20831400.0,
    "over_cap": false
   }
  ],

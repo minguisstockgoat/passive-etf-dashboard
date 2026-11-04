@@ -65,6 +65,11 @@ def _resolve_row(c, by_ticker, by_norm):
 def main():
     os.makedirs(HOLD, exist_ok=True)
     bas, by_ticker, by_norm, isin_by_ticker = resolve_universe()
+    prior = os.path.join(DATA, "etfs.json")
+    if os.path.exists(prior):
+        for e in json.load(open(prior, encoding="utf-8")).get("etfs", []):
+            if e.get("isin") and len(e["isin"]) == 12:
+                isin_by_ticker.setdefault(e["ticker"], e["isin"])
 
     # 1) 큐레이션 32종 (검증된 정기변경·분류·cap)
     pairs = []          # (meta, row)
@@ -85,6 +90,14 @@ def main():
         if not U.passes(r, MINCAP):
             continue
         pairs.append((U.auto_record(r), r)); used.add(r["ticker"]); auto_n += 1
+
+    # 기존 트래커 관심 20종은 규모 필터 밖이어도 유지한다(레버리지 포함).
+    watch = json.load(open(os.path.join(DATA, "watchlist.json"), encoding="utf-8"))
+    watch_tickers = {e["ticker"] for e in watch}
+    for w in watch:
+        r = by_ticker.get(w["ticker"])
+        if r and w["ticker"] not in used:
+            pairs.append((U.auto_record(r), r)); used.add(w["ticker"])
 
     # 3) 레코드 생성 (+ cap 판정, 단일종목 제외)
     etfs, single = [], 0
@@ -126,7 +139,8 @@ def main():
 
         etfs.append({
             "ticker": ticker,
-            "isin": isin_by_ticker.get(ticker, f"KR7{ticker}00" if ticker.isdigit() else ""),
+            "watchlist": ticker in watch_tickers,
+            "isin": isin_by_ticker.get(ticker, ""),
             "name": c["name"], "krx_name": r["name"], "manager": mgr,
             "company": MANAGERS.get(mgr, {}).get("company", ""),
             "color": MANAGERS.get(mgr, {}).get("color", "#2d8b8b"),
@@ -161,7 +175,7 @@ def main():
 
     out = {
         "as_of": f"{bas[:4]}-{bas[4:6]}-{bas[6:]}",
-        "generated_at": dt.datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "generated_at": dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).isoformat(timespec="seconds"),
         "count": len(etfs),
         "min_cap_eok": int(MINCAP / 1e8),
         "reg_note": REG_NOTE,

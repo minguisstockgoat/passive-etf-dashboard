@@ -3,72 +3,72 @@
  "name": "KODEX 조선TOP10",
  "manager": "KODEX",
  "source": "삼성 KODEX",
- "asof": "2026-11-03",
+ "asof": "2026-11-04",
  "total_weight": 100.0,
  "count": 10,
  "holdings": [
   {
-   "code": "010140",
-   "name": "삼성중공업",
-   "weight": 22.69,
-   "shares": 3547.0,
-   "amount": 60724640.0,
-   "over_cap": true
-  },
-  {
    "code": "009540",
    "name": "HD한국조선해양",
-   "weight": 22.23,
+   "weight": 22.88,
    "shares": 239.0,
-   "amount": 59511000.0,
+   "amount": 61303500.0,
    "over_cap": true
   },
   {
-   "code": "042660",
-   "name": "한화오션",
-   "weight": 19.75,
-   "shares": 963.0,
-   "amount": 52868700.0,
-   "over_cap": false
+   "code": "010140",
+   "name": "삼성중공업",
+   "weight": 22.88,
+   "shares": 3547.0,
+   "amount": 61292160.0,
+   "over_cap": true
   },
   {
    "code": "329180",
    "name": "HD현대중공업",
-   "weight": 19.69,
+   "weight": 19.64,
    "shares": 183.0,
-   "amount": 52704000.0,
+   "amount": 52612500.0,
+   "over_cap": false
+  },
+  {
+   "code": "042660",
+   "name": "한화오션",
+   "weight": 19.34,
+   "shares": 963.0,
+   "amount": 51809400.0,
    "over_cap": false
   },
   {
    "code": "082740",
    "name": "한화엔진",
-   "weight": 5.9,
+   "weight": 5.68,
    "shares": 492.0,
-   "amount": 15793200.0,
+   "amount": 15227400.0,
    "over_cap": false
   },
   {
    "code": "071970",
    "name": "HD현대마린엔진",
-   "weight": 4.36,
+   "weight": 4.15,
    "shares": 281.0,
-   "amount": 11661500.0,
+   "amount": 11127600.0,
    "over_cap": false
   },
   {
    "code": "097230",
    "name": "HJ중공업",
-   "weight": 2.55,
+   "weight": 2.57,
    "shares": 561.0,
-   "amount": 6838590.0,
+   "amount": 6894690.0,
    "over_cap": false
   },
   {
    "code": "439260",
    "name": "대한조선",
-   "weight": 1.75,
+   "weight": 1.78,
    "shares": 129.0,
-   "amount": 4695600.0,
+   "amount": 4773000.0,
    "over_cap": false
   },
   {
@@ -76,7 +76,7 @@
    "name": "HD현대마린솔루션",
    "weight": 0.57,
    "shares": 9.0,
-   "amount": 1514700.0,
+   "amount": 1535400.0,
    "over_cap": false
   },
   {
@@ -84,7 +84,7 @@
    "name": "한국카본",
    "weight": 0.51,
    "shares": 85.0,
-   "amount": 1357450.0,
+   "amount": 1354050.0,
    "over_cap": false
   }
  ],
@@ -92,23 +92,23 @@
   "cap_pct": 22.0,
   "verified": true,
   "count": 2,
-  "total_sell": 1338682800,
+  "total_sell": 2568165600,
   "items": [
-   {
-    "code": "010140",
-    "name": "삼성중공업",
-    "weight": 22.69,
-    "cap_pct": 22.0,
-    "excess_pp": 0.69,
-    "sell_amount": 1004012100
-   },
    {
     "code": "009540",
     "name": "HD한국조선해양",
-    "weight": 22.23,
+    "weight": 22.88,
     "cap_pct": 22.0,
-    "excess_pp": 0.23,
-    "sell_amount": 334670700
+    "excess_pp": 0.88,
+    "sell_amount": 1284082800
+   },
+   {
+    "code": "010140",
+    "name": "삼성중공업",
+    "weight": 22.88,
+    "cap_pct": 22.0,
+    "excess_pp": 0.88,
+    "sell_amount": 1284082800
    }
   ]
  },

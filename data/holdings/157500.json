@@ -3,96 +3,96 @@
  "name": "TIGER 증권",
  "manager": "TIGER",
  "source": "미래에셋 TIGER",
- "asof": "2026-10-07",
- "total_weight": 99.99,
+ "asof": "2026-11-04",
+ "total_weight": 100.0,
  "count": 11,
  "holdings": [
   {
    "code": "071050",
    "name": "한국금융지주",
-   "weight": 25.26,
+   "weight": 25.17,
    "shares": 337.0,
-   "amount": 59986000.0,
+   "amount": 49741200.0,
    "over_cap": true
-  },
-  {
-   "code": "006800",
-   "name": "미래에셋증권",
-   "weight": 20.74,
-   "shares": 1542.0,
-   "amount": 49266900.0,
-   "over_cap": false
   },
   {
    "code": "016360",
    "name": "삼성증권",
-   "weight": 18.61,
+   "weight": 19.83,
    "shares": 496.0,
-   "amount": 44193600.0,
+   "amount": 39184000.0,
+   "over_cap": false
+  },
+  {
+   "code": "006800",
+   "name": "미래에셋증권",
+   "weight": 19.0,
+   "shares": 1542.0,
+   "amount": 37547700.0,
    "over_cap": false
   },
   {
    "code": "005940",
    "name": "NH투자증권",
-   "weight": 13.41,
+   "weight": 14.42,
    "shares": 1195.0,
-   "amount": 31846750.0,
+   "amount": 28500750.0,
    "over_cap": false
   },
   {
    "code": "039490",
    "name": "키움증권",
-   "weight": 13.21,
+   "weight": 12.51,
    "shares": 124.0,
-   "amount": 31372000.0,
+   "amount": 24713200.0,
    "over_cap": false
   },
   {
    "code": "003540",
    "name": "대신증권",
-   "weight": 2.22,
+   "weight": 2.35,
    "shares": 209.0,
-   "amount": 5277250.0,
+   "amount": 4650250.0,
    "over_cap": false
   },
   {
    "code": "001720",
    "name": "신영증권",
-   "weight": 2.03,
+   "weight": 2.05,
    "shares": 34.0,
-   "amount": 4831400.0,
+   "amount": 4049400.0,
    "over_cap": false
   },
   {
    "code": "003530",
    "name": "한화투자증권",
-   "weight": 1.7,
+   "weight": 1.75,
    "shares": 877.0,
-   "amount": 4034200.0,
+   "amount": 3455380.0,
    "over_cap": false
   },
   {
    "code": "001510",
    "name": "SK증권",
-   "weight": 1.39,
+   "weight": 1.35,
    "shares": 1418.0,
-   "amount": 3303940.0,
+   "amount": 2668676.0,
    "over_cap": false
   },
   {
    "code": "003470",
    "name": "유안타증권",
-   "weight": 1.11,
+   "weight": 1.23,
    "shares": 614.0,
-   "amount": 2643270.0,
+   "amount": 2428370.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "원화예금",
-   "weight": 0.31,
-   "shares": 734138.0,
-   "amount": 734138.0,
+   "weight": 0.34,
+   "shares": 664428.0,
+   "amount": 664428.0,
    "over_cap": false
   }
  ],
@@ -100,15 +100,15 @@
   "cap_pct": 25.0,
   "verified": true,
   "count": 1,
-  "total_sell": 418247440,
+  "total_sell": 263901200,
   "items": [
    {
     "code": "071050",
     "name": "한국금융지주",
-    "weight": 25.26,
+    "weight": 25.17,
     "cap_pct": 25.0,
-    "excess_pp": 0.26,
-    "sell_amount": 418247440
+    "excess_pp": 0.17,
+    "sell_amount": 263901200
    }
   ]
  },

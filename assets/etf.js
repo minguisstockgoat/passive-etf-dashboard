@@ -128,13 +128,13 @@
     // ※주의 매도규모
     if (br && br.items && br.items.length) {
       html += '<div class="alert">'
-        + '<h3>※ 주의 — 비중 cap 초과 (비중 축소 필요)</h3>'
+        + '<h3>※ 주의 — 비중 cap 초과분 가정</h3>'
         + '<div class="lead">아래 종목은 현재 구성비중이 상한(' + br.cap_pct + '%)을 초과합니다. '
-        + '규칙상 비중 축소가 필요하며, <b>최소 매도규모 = 시가총액 × 초과 %p</b> 로 추정했습니다.'
+        + '<b>시가총액 × 초과 %p</b>를 가정 금액으로 표시합니다. 가격 변동 중의 일시 초과가 즉시 매도를 의미하지 않으며, 적용 시점과 예외는 지수 방법론에 따릅니다.'
         + (br.verified ? '' : ' <b>(상한 ' + br.cap_pct + '%는 재확인 권장 — 지수 방법론/투자설명서 확인 필요)</b>')
         + '</div>'
         + '<div class="tbl-scroll"><table><thead><tr>'
-        + '<th>종목</th><th class="num">현재 비중</th><th class="num">상한</th><th class="num">초과 %p</th><th class="num">최소 매도규모</th>'
+        + '<th>종목</th><th class="num">현재 비중</th><th class="num">상한</th><th class="num">초과 %p</th><th class="num">상한 조정 가정 금액</th>'
         + '</tr></thead><tbody>'
         + br.items.map(function (it) {
           return '<tr><td>' + esc(it.name) + '<span class="code">' + esc(it.code) + '</span></td>'
@@ -144,9 +144,11 @@
             + '<td class="num" style="color:var(--warn);font-weight:800">' + PE.won(it.sell_amount) + '</td></tr>';
         }).join('')
         + '</tbody></table></div>'
-        + '<div class="total"><span class="lbl">합계 최소 매도규모</span><span class="amt">' + PE.won(br.total_sell) + '</span></div>'
+        + '<div class="total"><span class="lbl">합계 상한 조정 가정 금액</span><span class="amt">' + PE.won(br.total_sell) + '</span></div>'
         + '</div>';
     }
+
+    html += '<div id="daily-changes"></div>';
 
     // 구성종목(PDF)
     html += '<div class="sec-title"><h2>구성종목 (PDF)</h2>'
@@ -184,6 +186,7 @@
     $('#detail').innerHTML = html;
     if (HOLD.length) bindHoldings();
     loadRebal(e);
+    ETFChanges.detail(e.ticker, document.getElementById("daily-changes"));
   }
 
   // 구성종목 기준일이 KRX 기준일보다 많이 밀려 있으면(운용사 수집 실패가 이어진 경우) 경고한다.
@@ -373,8 +376,8 @@
         var dir = it.tr > 0 ? 'b' : (it.tr < 0 ? 's' : '');
         return '<tr class="t-' + it.t + '">'
           + '<td><span class="rb-t t-' + it.t + '">' + TYPE_LBL[it.t] + '</span>'
-          + (it.cap === 'cut' ? '<span class="rb-t cap">상한 초과분 매도</span>' : '')
-          + (it.cap === 'fill' ? '<span class="rb-t capf">상한까지 매수</span>' : '') + '</td>'
+          + (it.cap === 'cut' ? '<span class="rb-t cap">상한 초과분 축소 추정</span>' : '')
+          + (it.cap === 'fill' ? '<span class="rb-t capf">상한 부근 확대 추정</span>' : '') + '</td>'
           + '<td><b>' + esc(it.n) + '</b><span class="code">' + esc(it.c) + '</span></td>'
           + '<td class="num">' + (it.t === 'in' ? '<span class="mu">-</span>' : it.w0.toFixed(2) + '%') + '</td>'
           + '<td class="num">' + (it.t === 'out' ? '<span class="mu">-</span>' : it.w1.toFixed(2) + '%') + '</td>'

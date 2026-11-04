@@ -1,3 +1,5 @@
+> **현재 운영 안내:** 2026-11-04부터 아래 「통합 운영」 절을 따릅니다. 기존 GitHub 수집과 `local_refresh.py`는 중단되었습니다.
+
 # 국내 상장 패시브 ETF 대시보드
 
 시가총액 **9,000억원 이상** 국내주식형 패시브 ETF(32종)의 **정기변경 일정 · 시가총액 ·
@@ -143,3 +145,43 @@ TIGER·RISE 는 국내 PC(Mac mini launchd)에서 `scripts/local_refresh.py`(로
 Cloudflare Worker 프록시에 `polling.finance.naver.com` 화이트리스트 추가 권장.
 
 > 본 자료는 정보 제공 목적이며 투자 권유가 아닙니다. 매도규모는 단순 추정치입니다.
+
+## 통합 운영 (2026-11-04)
+
+운영 주소는 `https://minguisstockgoat.github.io/passive-etf-dashboard/` 하나입니다.
+기존 ETF-Passive-Tracker는 자동 수집을 중단하고 통합 주소로 이동시킵니다.
+
+- **일정·비중 제한**: 기존 ETF 목록, 예상 정기변경 효력일, cap 규칙, 과거 정기변경 이력 유지.
+- **일간 구성 변화**: 운용사별 필터, 전체·관심 20종·최근 하루 변화·지연 자료 필터.
+- **ETF 상세**: 이전/현재 비중·CU 수량·편입·편출·주식수 조정 추정과 원문 링크.
+- 기존 관심 20종은 `data/watchlist.json`. 기존의 레버리지 ETF도 별도로 유지합니다.
+- 일별 구성 이력은 `data/history/`에 ETF당 최근 32개 관측일을 보존합니다. 이전 트래커의 SQLite 원본은 원래 저장소에 보존합니다.
+
+### 하나의 수집 작업
+
+국내 Mac의 `com.wondaehan.etf-unified`가 평일 **08:50 / 20:40 KST**에
+`scripts/run_daily.py --publish`를 실행합니다. 주말 실행은 없으며 휴장일에는 원천의 마지막 공시일을 유지합니다.
+해외 IP 제한이 있는 TIGER·RISE도 이 작업에서 함께 수집합니다.
+GitHub Actions는 소스 검증만 수행하며 데이터를 쓰지 않습니다. 기존 `local_refresh.py`와
+옛 `refresh_all.py`는 운영 진입점이 아닙니다. 금요일 저녁에는 기존 정기변경 이력도 제한된 시간 안에 갱신합니다.
+
+```bash
+.venv/bin/python scripts/run_daily.py             # 수집·검사만
+.venv/bin/python scripts/run_daily.py --publish   # 수집·검사·커밋·push
+.venv/bin/python scripts/check_health.py          # 수집 실패·3거래일 이상 지연 감지
+.venv/bin/python -m unittest discover -s tests -v
+```
+
+KRX 키는 환경변수 또는 로컬 `.env`, `~/.config/secrets/keys.env`, 기존
+`~/short-dashboard/.env`의 KRX 키만 읽습니다. 키를 저장소에 커밋하지 않습니다.
+실행 중복은 파일 잠금으로 막고 push는 3회 재시도합니다. 원격과 로컬이 갈라지면
+자동 덮어쓰기·강제 push 없이 중단합니다. 성공한 수집분은 공개하되, 수집 실패나 오래된
+원천이 있으면 작업 자체는 실패로 기록해 조용히 성공 처리하지 않습니다.
+
+### 해석 주의
+
+‘최신 관측’은 공시일이 현재로부터 0~1거래일 이내라는 뜻이며 실시간 보유내역을 뜻하지 않습니다.
+2거래일 지연은 주의, 3거래일 이상은 실패입니다. 비교 간격이 1거래일이 아니거나
+자료가 지연되면 최근 하루 변화에서 제외합니다. 단순 비중 변화에는 가격효과가 포함됩니다.
+CU 수량도 분할·설정단위·코드 변경 영향을 받으므로 실제 매매 확정 표현을 쓰지 않습니다.
+cap 초과 금액은 시가총액을 이용한 가정 금액이며 실제 강제 매도 하한이 아닙니다.
