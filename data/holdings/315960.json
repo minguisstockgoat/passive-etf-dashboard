@@ -3,112 +3,104 @@
  "name": "RISE 대형고배당10TR",
  "manager": "RISE",
  "source": "KB RISE",
- "asof": "2026-11-05",
- "total_weight": 99.93,
+ "asof": "2026-11-06",
+ "total_weight": 99.88,
  "count": 10,
  "holdings": [
   {
    "code": "005930",
    "name": "삼성전자",
-   "weight": 27.31,
+   "weight": 26.19,
    "shares": 4007.0,
-   "amount": 873526000.0,
+   "amount": 807410500.0,
    "over_cap": true
   },
   {
    "code": "000660",
    "name": "SK하이닉스",
-   "weight": 26.01,
+   "weight": 24.43,
    "shares": 596.0,
-   "amount": 832016000.0,
-   "over_cap": true
+   "amount": 753344000.0,
+   "over_cap": false
   },
   {
    "code": "005380",
    "name": "현대차",
-   "weight": 8.43,
+   "weight": 9.05,
    "shares": 951.0,
-   "amount": 269608500.0,
+   "amount": 279118500.0,
    "over_cap": false
   },
   {
    "code": "105560",
    "name": "KB금융",
-   "weight": 8.2,
+   "weight": 8.82,
    "shares": 1732.0,
-   "amount": 262398000.0,
+   "amount": 271924000.0,
    "over_cap": false
   },
   {
    "code": "032830",
    "name": "삼성생명",
-   "weight": 7.55,
+   "weight": 7.37,
    "shares": 929.0,
-   "amount": 241540000.0,
+   "amount": 227140500.0,
    "over_cap": false
   },
   {
    "code": "055550",
    "name": "신한지주",
-   "weight": 5.95,
+   "weight": 6.34,
    "shares": 2205.0,
-   "amount": 190291500.0,
+   "amount": 195583500.0,
    "over_cap": false
   },
   {
    "code": "000270",
    "name": "기아",
-   "weight": 5.43,
+   "weight": 5.93,
    "shares": 1813.0,
-   "amount": 173685400.0,
+   "amount": 182750400.0,
    "over_cap": false
   },
   {
    "code": "086790",
    "name": "하나금융지주",
-   "weight": 4.66,
+   "weight": 4.99,
    "shares": 1274.0,
-   "amount": 149185400.0,
+   "amount": 153899200.0,
    "over_cap": false
   },
   {
    "code": "316140",
    "name": "우리금융지주",
-   "weight": 3.21,
+   "weight": 3.5,
    "shares": 3382.0,
-   "amount": 102643700.0,
+   "amount": 108054900.0,
    "over_cap": false
   },
   {
    "code": "005490",
    "name": "POSCO홀딩스",
-   "weight": 3.18,
+   "weight": 3.26,
    "shares": 368.0,
-   "amount": 101568000.0,
+   "amount": 100648000.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 25.0,
   "verified": true,
-  "count": 2,
-  "total_sell": 13810121000,
+  "count": 1,
+  "total_sell": 4754317750,
   "items": [
    {
     "code": "005930",
     "name": "삼성전자",
-    "weight": 27.31,
+    "weight": 26.19,
     "cap_pct": 25.0,
-    "excess_pp": 2.31,
-    "sell_amount": 9608849250
-   },
-   {
-    "code": "000660",
-    "name": "SK하이닉스",
-    "weight": 26.01,
-    "cap_pct": 25.0,
-    "excess_pp": 1.01,
-    "sell_amount": 4201271750
+    "excess_pp": 1.19,
+    "sell_amount": 4754317750
    }
   ]
  },

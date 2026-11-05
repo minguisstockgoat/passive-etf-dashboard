@@ -3,120 +3,112 @@
  "name": "RISE 2차전지TOP10",
  "manager": "RISE",
  "source": "KB RISE",
- "asof": "2026-11-05",
- "total_weight": 99.53,
+ "asof": "2026-11-06",
+ "total_weight": 99.48,
  "count": 10,
  "holdings": [
   {
    "code": "373220",
    "name": "LG에너지솔루션",
-   "weight": 15.7,
+   "weight": 16.14,
    "shares": 116.0,
-   "amount": 41180000.0,
+   "amount": 40136000.0,
    "over_cap": true
   },
   {
    "code": "006400",
    "name": "삼성SDI",
-   "weight": 15.58,
+   "weight": 15.35,
    "shares": 75.0,
-   "amount": 40875000.0,
+   "amount": 38175000.0,
    "over_cap": true
   },
   {
    "code": "096770",
    "name": "SK이노베이션",
-   "weight": 15.04,
+   "weight": 14.65,
    "shares": 319.0,
-   "amount": 39460300.0,
-   "over_cap": true
+   "amount": 36429800.0,
+   "over_cap": false
   },
   {
    "code": "005490",
    "name": "POSCO홀딩스",
-   "weight": 13.26,
+   "weight": 13.86,
    "shares": 126.0,
-   "amount": 34776000.0,
+   "amount": 34461000.0,
    "over_cap": false
   },
   {
    "code": "086520",
    "name": "에코프로",
-   "weight": 12.11,
+   "weight": 11.81,
    "shares": 413.0,
-   "amount": 31759700.0,
+   "amount": 29364300.0,
    "over_cap": false
   },
   {
    "code": "003670",
    "name": "포스코퓨처엠",
-   "weight": 10.1,
+   "weight": 10.26,
    "shares": 146.0,
-   "amount": 26484400.0,
+   "amount": 25506200.0,
    "over_cap": false
   },
   {
    "code": "247540",
    "name": "에코프로비엠",
-   "weight": 8.93,
+   "weight": 8.69,
    "shares": 241.0,
-   "amount": 23425200.0,
+   "amount": 21617700.0,
    "over_cap": false
   },
   {
    "code": "066970",
    "name": "엘앤에프",
-   "weight": 4.15,
+   "weight": 4.1,
    "shares": 119.0,
-   "amount": 10876600.0,
+   "amount": 10198300.0,
    "over_cap": false
   },
   {
    "code": "011790",
    "name": "SKC",
-   "weight": 2.87,
+   "weight": 2.84,
    "shares": 102.0,
-   "amount": 7517400.0,
+   "amount": 7068600.0,
    "over_cap": false
   },
   {
    "code": "450080",
    "name": "에코프로머티",
-   "weight": 1.79,
+   "weight": 1.78,
    "shares": 157.0,
-   "amount": 4694300.0,
+   "amount": 4435250.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 15.0,
   "verified": true,
-  "count": 3,
-  "total_sell": 863775000,
+  "count": 2,
+  "total_sell": 927990625,
   "items": [
    {
     "code": "373220",
     "name": "LG에너지솔루션",
-    "weight": 15.7,
+    "weight": 16.14,
     "cap_pct": 15.0,
-    "excess_pp": 0.7,
-    "sell_amount": 458062500
+    "excess_pp": 1.14,
+    "sell_amount": 710006250
    },
    {
     "code": "006400",
     "name": "삼성SDI",
-    "weight": 15.58,
+    "weight": 15.35,
     "cap_pct": 15.0,
-    "excess_pp": 0.58,
-    "sell_amount": 379537500
-   },
-   {
-    "code": "096770",
-    "name": "SK이노베이션",
-    "weight": 15.04,
-    "cap_pct": 15.0,
-    "excess_pp": 0.04,
-    "sell_amount": 26175000
+    "excess_pp": 0.35,
+    "sell_amount": 217984375
    }
   ]
  },
