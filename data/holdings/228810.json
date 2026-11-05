@@ -3,104 +3,104 @@
  "name": "TIGER 미디어컨텐츠",
  "manager": "TIGER",
  "source": "미래에셋 TIGER",
- "asof": "2026-11-04",
- "total_weight": 99.99,
+ "asof": "2026-11-05",
+ "total_weight": 100.01,
  "count": 12,
  "holdings": [
   {
    "code": "035760",
    "name": "CJ ENM",
-   "weight": 12.7,
+   "weight": 12.77,
    "shares": 262.0,
-   "amount": 11436300.0,
+   "amount": 11148100.0,
    "over_cap": true
   },
   {
    "code": "253450",
    "name": "스튜디오드래곤",
-   "weight": 11.54,
+   "weight": 11.85,
    "shares": 446.0,
-   "amount": 10391800.0,
-   "over_cap": true
-  },
-  {
-   "code": "376300",
-   "name": "디어유",
-   "weight": 10.08,
-   "shares": 489.0,
-   "amount": 9080730.0,
+   "amount": 10347200.0,
    "over_cap": true
   },
   {
    "code": "035900",
    "name": "JYP Ent.",
-   "weight": 9.92,
+   "weight": 10.35,
    "shares": 239.0,
-   "amount": 8938600.0,
+   "amount": 9034200.0,
+   "over_cap": true
+  },
+  {
+   "code": "122870",
+   "name": "와이지엔터테인먼트",
+   "weight": 9.97,
+   "shares": 222.0,
+   "amount": 8702400.0,
+   "over_cap": false
+  },
+  {
+   "code": "376300",
+   "name": "디어유",
+   "weight": 9.66,
+   "shares": 489.0,
+   "amount": 8435250.0,
    "over_cap": false
   },
   {
    "code": "041510",
    "name": "에스엠",
-   "weight": 9.91,
+   "weight": 9.49,
    "shares": 117.0,
-   "amount": 8927100.0,
-   "over_cap": false
-  },
-  {
-   "code": "122870",
-   "name": "와이지엔터테인먼트",
-   "weight": 9.76,
-   "shares": 222.0,
-   "amount": 8791200.0,
-   "over_cap": false
-  },
-  {
-   "code": "352820",
-   "name": "하이브",
-   "weight": 9.52,
-   "shares": 55.0,
-   "amount": 8574500.0,
+   "amount": 8283600.0,
    "over_cap": false
   },
   {
    "code": "403850",
    "name": "더핑크퐁컴퍼니",
-   "weight": 8.47,
+   "weight": 8.81,
    "shares": 635.0,
-   "amount": 7626350.0,
+   "amount": 7689850.0,
+   "over_cap": false
+  },
+  {
+   "code": "352820",
+   "name": "하이브",
+   "weight": 8.7,
+   "shares": 55.0,
+   "amount": 7590000.0,
    "over_cap": false
   },
   {
    "code": "473980",
    "name": "노머스",
-   "weight": 7.46,
+   "weight": 7.59,
    "shares": 630.0,
-   "amount": 6722100.0,
+   "amount": 6621300.0,
    "over_cap": false
   },
   {
    "code": "419530",
    "name": "SAMG엔터",
-   "weight": 6.63,
+   "weight": 6.68,
    "shares": 405.0,
-   "amount": 5969700.0,
+   "amount": 5827950.0,
    "over_cap": false
   },
   {
    "code": "086980",
    "name": "쇼박스",
-   "weight": 3.79,
+   "weight": 3.93,
    "shares": 2232.0,
-   "amount": 3417192.0,
+   "amount": 3426120.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "원화예금",
    "weight": 0.21,
-   "shares": 187226.0,
-   "amount": 187226.0,
+   "shares": 182897.0,
+   "amount": 182897.0,
    "over_cap": false
   }
  ],
@@ -108,31 +108,31 @@
   "cap_pct": 10.0,
   "verified": true,
   "count": 3,
-  "total_sell": 3024630720,
+  "total_sell": 3479725620,
   "items": [
    {
     "code": "035760",
     "name": "CJ ENM",
-    "weight": 12.7,
+    "weight": 12.77,
     "cap_pct": 10.0,
-    "excess_pp": 2.7,
-    "sell_amount": 1890394200
+    "excess_pp": 2.77,
+    "sell_amount": 1939404420
    },
    {
     "code": "253450",
     "name": "스튜디오드래곤",
-    "weight": 11.54,
+    "weight": 11.85,
     "cap_pct": 10.0,
-    "excess_pp": 1.54,
-    "sell_amount": 1078224840
+    "excess_pp": 1.85,
+    "sell_amount": 1295270100
    },
    {
-    "code": "376300",
-    "name": "디어유",
-    "weight": 10.08,
+    "code": "035900",
+    "name": "JYP Ent.",
+    "weight": 10.35,
     "cap_pct": 10.0,
-    "excess_pp": 0.08,
-    "sell_amount": 56011680
+    "excess_pp": 0.35,
+    "sell_amount": 245051100
    }
   ]
  },
