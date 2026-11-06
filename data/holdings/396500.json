@@ -3,72 +3,72 @@
  "name": "TIGER 반도체TOP10",
  "manager": "TIGER",
  "source": "미래에셋 TIGER",
- "asof": "2026-11-05",
- "total_weight": 99.99,
+ "asof": "2026-11-06",
+ "total_weight": 100.0,
  "count": 11,
  "holdings": [
   {
    "code": "005930",
    "name": "삼성전자",
-   "weight": 26.59,
+   "weight": 27.2,
    "shares": 1839.0,
-   "amount": 400902000.0,
+   "amount": 370558500.0,
    "over_cap": true
   },
   {
    "code": "000660",
    "name": "SK하이닉스",
-   "weight": 26.57,
+   "weight": 26.63,
    "shares": 287.0,
-   "amount": 400652000.0,
+   "amount": 362768000.0,
    "over_cap": true
   },
   {
    "code": "402340",
    "name": "SK스퀘어",
-   "weight": 25.28,
+   "weight": 25.18,
    "shares": 424.0,
-   "amount": 381176000.0,
+   "amount": 343016000.0,
    "over_cap": true
   },
   {
    "code": "042700",
    "name": "한미반도체",
-   "weight": 4.96,
+   "weight": 4.99,
    "shares": 402.0,
-   "amount": 74812200.0,
+   "amount": 67978200.0,
    "over_cap": false
   },
   {
    "code": "036930",
    "name": "주성엔지니어링",
-   "weight": 4.15,
+   "weight": 4.03,
    "shares": 374.0,
-   "amount": 62495400.0,
+   "amount": 54865800.0,
    "over_cap": false
   },
   {
    "code": "007660",
    "name": "이수페타시스",
-   "weight": 3.28,
+   "weight": 3.14,
    "shares": 615.0,
-   "amount": 49507500.0,
-   "over_cap": false
-  },
-  {
-   "code": "039030",
-   "name": "이오테크닉스",
-   "weight": 2.31,
-   "shares": 95.0,
-   "amount": 34865000.0,
+   "amount": 42804000.0,
    "over_cap": false
   },
   {
    "code": "000990",
    "name": "DB하이텍",
-   "weight": 2.21,
+   "weight": 2.14,
    "shares": 345.0,
-   "amount": 33327000.0,
+   "amount": 29221500.0,
+   "over_cap": false
+  },
+  {
+   "code": "039030",
+   "name": "이오테크닉스",
+   "weight": 2.14,
+   "shares": 95.0,
+   "amount": 29212500.0,
    "over_cap": false
   },
   {
@@ -76,23 +76,23 @@
    "name": "리노공업",
    "weight": 2.07,
    "shares": 561.0,
-   "amount": 31191600.0,
+   "amount": 28218300.0,
    "over_cap": false
   },
   {
    "code": "240810",
    "name": "원익IPS",
-   "weight": 2.07,
+   "weight": 1.93,
    "shares": 361.0,
-   "amount": 31190400.0,
+   "amount": 26280800.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "원화예금",
-   "weight": 0.5,
-   "shares": 7550610.0,
-   "amount": 7550610.0,
+   "weight": 0.55,
+   "shares": 7535819.0,
+   "amount": 7535819.0,
    "over_cap": false
   }
  ],
@@ -100,31 +100,31 @@
   "cap_pct": 25.0,
   "verified": true,
   "count": 3,
-  "total_sell": 240386993600,
+  "total_sell": 280218559400,
   "items": [
    {
     "code": "005930",
     "name": "삼성전자",
-    "weight": 26.59,
+    "weight": 27.2,
     "cap_pct": 25.0,
-    "excess_pp": 1.59,
-    "sell_amount": 111109104600
+    "excess_pp": 2.2,
+    "sell_amount": 153735868000
    },
    {
     "code": "000660",
     "name": "SK하이닉스",
-    "weight": 26.57,
+    "weight": 26.63,
     "cap_pct": 25.0,
-    "excess_pp": 1.57,
-    "sell_amount": 109711505800
+    "excess_pp": 1.63,
+    "sell_amount": 113904302200
    },
    {
     "code": "402340",
     "name": "SK스퀘어",
-    "weight": 25.28,
+    "weight": 25.18,
     "cap_pct": 25.0,
-    "excess_pp": 0.28,
-    "sell_amount": 19566383200
+    "excess_pp": 0.18,
+    "sell_amount": 12578389200
    }
   ]
  },

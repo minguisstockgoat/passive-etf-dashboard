@@ -3,94 +3,94 @@
  "name": "TIGER 미디어컨텐츠",
  "manager": "TIGER",
  "source": "미래에셋 TIGER",
- "asof": "2026-11-05",
- "total_weight": 100.01,
+ "asof": "2026-11-06",
+ "total_weight": 100.0,
  "count": 12,
  "holdings": [
   {
    "code": "035760",
    "name": "CJ ENM",
-   "weight": 12.77,
+   "weight": 12.79,
    "shares": 262.0,
-   "amount": 11148100.0,
+   "amount": 11698300.0,
    "over_cap": true
   },
   {
    "code": "253450",
    "name": "스튜디오드래곤",
-   "weight": 11.85,
+   "weight": 11.8,
    "shares": 446.0,
-   "amount": 10347200.0,
+   "amount": 10793200.0,
    "over_cap": true
   },
   {
    "code": "035900",
    "name": "JYP Ent.",
-   "weight": 10.35,
+   "weight": 10.32,
    "shares": 239.0,
-   "amount": 9034200.0,
+   "amount": 9440500.0,
+   "over_cap": true
+  },
+  {
+   "code": "376300",
+   "name": "디어유",
+   "weight": 10.13,
+   "shares": 489.0,
+   "amount": 9271440.0,
+   "over_cap": true
+  },
+  {
+   "code": "041510",
+   "name": "에스엠",
+   "weight": 10.12,
+   "shares": 117.0,
+   "amount": 9254700.0,
    "over_cap": true
   },
   {
    "code": "122870",
    "name": "와이지엔터테인먼트",
-   "weight": 9.97,
+   "weight": 10.03,
    "shares": 222.0,
-   "amount": 8702400.0,
-   "over_cap": false
+   "amount": 9179700.0,
+   "over_cap": true
   },
   {
-   "code": "376300",
-   "name": "디어유",
-   "weight": 9.66,
-   "shares": 489.0,
-   "amount": 8435250.0,
-   "over_cap": false
-  },
-  {
-   "code": "041510",
-   "name": "에스엠",
-   "weight": 9.49,
-   "shares": 117.0,
-   "amount": 8283600.0,
+   "code": "352820",
+   "name": "하이브",
+   "weight": 8.98,
+   "shares": 55.0,
+   "amount": 8211500.0,
    "over_cap": false
   },
   {
    "code": "403850",
    "name": "더핑크퐁컴퍼니",
-   "weight": 8.81,
+   "weight": 8.27,
    "shares": 635.0,
-   "amount": 7689850.0,
-   "over_cap": false
-  },
-  {
-   "code": "352820",
-   "name": "하이브",
-   "weight": 8.7,
-   "shares": 55.0,
-   "amount": 7590000.0,
+   "amount": 7562850.0,
    "over_cap": false
   },
   {
    "code": "473980",
    "name": "노머스",
-   "weight": 7.59,
+   "weight": 7.25,
    "shares": 630.0,
-   "amount": 6621300.0,
+   "amount": 6633900.0,
    "over_cap": false
   },
   {
    "code": "419530",
    "name": "SAMG엔터",
-   "weight": 6.68,
+   "weight": 6.37,
    "shares": 405.0,
-   "amount": 5827950.0,
+   "amount": 5832000.0,
    "over_cap": false
   },
   {
    "code": "086980",
    "name": "쇼박스",
-   "weight": 3.93,
+   "weight": 3.74,
    "shares": 2232.0,
    "amount": 3426120.0,
    "over_cap": false
@@ -98,41 +98,65 @@
   {
    "code": "KRD010010001",
    "name": "원화예금",
-   "weight": 0.21,
-   "shares": 182897.0,
-   "amount": 182897.0,
+   "weight": 0.2,
+   "shares": 183556.0,
+   "amount": 183556.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 10.0,
   "verified": true,
-  "count": 3,
-  "total_sell": 3665071830,
+  "count": 6,
+  "total_sell": 3827308410,
   "items": [
    {
     "code": "035760",
     "name": "CJ ENM",
-    "weight": 12.77,
+    "weight": 12.79,
     "cap_pct": 10.0,
-    "excess_pp": 2.77,
-    "sell_amount": 2042706030
+    "excess_pp": 2.79,
+    "sell_amount": 2057454810
    },
    {
     "code": "253450",
     "name": "스튜디오드래곤",
-    "weight": 11.85,
+    "weight": 11.8,
     "cap_pct": 10.0,
-    "excess_pp": 1.85,
-    "sell_amount": 1364262150
+    "excess_pp": 1.8,
+    "sell_amount": 1327390200
    },
    {
     "code": "035900",
     "name": "JYP Ent.",
-    "weight": 10.35,
+    "weight": 10.32,
     "cap_pct": 10.0,
-    "excess_pp": 0.35,
-    "sell_amount": 258103650
+    "excess_pp": 0.32,
+    "sell_amount": 235980480
+   },
+   {
+    "code": "376300",
+    "name": "디어유",
+    "weight": 10.13,
+    "cap_pct": 10.0,
+    "excess_pp": 0.13,
+    "sell_amount": 95867070
+   },
+   {
+    "code": "041510",
+    "name": "에스엠",
+    "weight": 10.12,
+    "cap_pct": 10.0,
+    "excess_pp": 0.12,
+    "sell_amount": 88492680
+   },
+   {
+    "code": "122870",
+    "name": "와이지엔터테인먼트",
+    "weight": 10.03,
+    "cap_pct": 10.0,
+    "excess_pp": 0.03,
+    "sell_amount": 22123170
    }
   ]
  },
