@@ -3,88 +3,88 @@
  "name": "HANARO Fn K-반도체",
  "manager": "HANARO",
  "source": "NH아문디 HANARO",
- "asof": "2026-11-05",
- "total_weight": 98.99,
+ "asof": "2026-11-06",
+ "total_weight": 98.9,
  "count": 20,
  "holdings": [
   {
    "code": "005930",
    "name": "삼성전자",
-   "weight": 26.68,
+   "weight": 27.35,
    "shares": 2761.0,
-   "amount": 556341500.0,
+   "amount": 521000700.0,
    "over_cap": true
   },
   {
    "code": "000660",
    "name": "SK하이닉스",
-   "weight": 25.28,
+   "weight": 24.78,
    "shares": 417.0,
-   "amount": 527088000.0,
-   "over_cap": true
+   "amount": 472044000.0,
+   "over_cap": false
   },
   {
    "code": "402340",
    "name": "SK스퀘어",
-   "weight": 21.3,
+   "weight": 20.86,
    "shares": 549.0,
-   "amount": 444141000.0,
+   "amount": 397476000.0,
    "over_cap": false
   },
   {
    "code": "009150",
    "name": "삼성전기",
-   "weight": 14.89,
+   "weight": 15.03,
    "shares": 329.0,
-   "amount": 310576000.0,
+   "amount": 286230000.0,
    "over_cap": false
   },
   {
    "code": "042700",
    "name": "한미반도체",
-   "weight": 2.05,
+   "weight": 2.14,
    "shares": 253.0,
-   "amount": 42782300.0,
+   "amount": 40834200.0,
    "over_cap": false
   },
   {
    "code": "036930",
    "name": "주성엔지니어링",
-   "weight": 1.4,
+   "weight": 1.39,
    "shares": 199.0,
-   "amount": 29193300.0,
+   "amount": 26427200.0,
    "over_cap": false
   },
   {
    "code": "007660",
    "name": "이수페타시스",
-   "weight": 1.09,
+   "weight": 1.07,
    "shares": 327.0,
-   "amount": 22759200.0,
-   "over_cap": false
-  },
-  {
-   "code": "039030",
-   "name": "이오테크닉스",
-   "weight": 0.75,
-   "shares": 51.0,
-   "amount": 15682500.0,
+   "amount": 20306700.0,
    "over_cap": false
   },
   {
    "code": "000990",
    "name": "DB하이텍",
-   "weight": 0.75,
+   "weight": 0.8,
    "shares": 184.0,
-   "amount": 15584800.0,
+   "amount": 15290400.0,
+   "over_cap": false
+  },
+  {
+   "code": "039030",
+   "name": "이오테크닉스",
+   "weight": 0.76,
+   "shares": 51.0,
+   "amount": 14458500.0,
    "over_cap": false
   },
   {
    "code": "058470",
    "name": "리노공업",
-   "weight": 0.72,
+   "weight": 0.73,
    "shares": 299.0,
-   "amount": 15039700.0,
+   "amount": 13933400.0,
    "over_cap": false
   },
   {
@@ -92,7 +92,7 @@
    "name": "HPSP",
    "weight": 0.68,
    "shares": 387.0,
-   "amount": 14106150.0,
+   "amount": 12906450.0,
    "over_cap": false
   },
   {
@@ -100,39 +100,31 @@
    "name": "원익IPS",
    "weight": 0.67,
    "shares": 192.0,
-   "amount": 13977600.0,
+   "amount": 12806400.0,
    "over_cap": false
   },
   {
    "code": "319660",
    "name": "피에스케이",
-   "weight": 0.5,
+   "weight": 0.48,
    "shares": 117.0,
-   "amount": 10448100.0,
+   "amount": 9114300.0,
    "over_cap": false
   },
   {
    "code": "095340",
    "name": "ISC",
-   "weight": 0.41,
+   "weight": 0.39,
    "shares": 61.0,
-   "amount": 8594900.0,
+   "amount": 7381000.0,
    "over_cap": false
   },
   {
    "code": "067310",
    "name": "하나마이크론",
-   "weight": 0.38,
+   "weight": 0.36,
    "shares": 288.0,
-   "amount": 7977600.0,
-   "over_cap": false
-  },
-  {
-   "code": "084370",
-   "name": "유진테크",
-   "weight": 0.34,
-   "shares": 83.0,
-   "amount": 7104800.0,
+   "amount": 6940800.0,
    "over_cap": false
   },
   {
@@ -140,7 +132,7 @@
    "name": "동진쎄미켐",
    "weight": 0.33,
    "shares": 200.0,
-   "amount": 6950000.0,
+   "amount": 6300000.0,
    "over_cap": false
   },
   {
@@ -148,15 +140,23 @@
    "name": "솔브레인",
    "weight": 0.32,
    "shares": 25.0,
-   "amount": 6650000.0,
+   "amount": 6112500.0,
+   "over_cap": false
+  },
+  {
+   "code": "084370",
+   "name": "유진테크",
+   "weight": 0.32,
+   "shares": 83.0,
+   "amount": 6108800.0,
    "over_cap": false
   },
   {
    "code": "131970",
    "name": "두산테스나",
-   "weight": 0.23,
+   "weight": 0.22,
    "shares": 70.0,
-   "amount": 4774000.0,
+   "amount": 4256000.0,
    "over_cap": false
   },
   {
@@ -164,31 +164,23 @@
    "name": "티씨케이",
    "weight": 0.22,
    "shares": 30.0,
-   "amount": 4653000.0,
+   "amount": 4122000.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 25.0,
   "verified": true,
-  "count": 2,
-  "total_sell": 49593478200,
+  "count": 1,
+  "total_sell": 54454728750,
   "items": [
    {
     "code": "005930",
     "name": "삼성전자",
-    "weight": 26.68,
+    "weight": 27.35,
     "cap_pct": 25.0,
-    "excess_pp": 1.68,
-    "sell_amount": 42508695600
-   },
-   {
-    "code": "000660",
-    "name": "SK하이닉스",
-    "weight": 25.28,
-    "cap_pct": 25.0,
-    "excess_pp": 0.28,
-    "sell_amount": 7084782600
+    "excess_pp": 2.35,
+    "sell_amount": 54454728750
    }
   ]
  },
