@@ -3,112 +3,112 @@
  "name": "RISE 현대차고정피지컬AI",
  "manager": "RISE",
  "source": "KB RISE",
- "asof": "2026-11-09",
+ "asof": "2026-11-10",
  "total_weight": 99.99,
  "count": 17,
  "holdings": [
   {
    "code": "005380",
    "name": "현대차",
-   "weight": 25.36,
+   "weight": 25.34,
    "shares": 272.0,
-   "amount": 76024000.0,
+   "amount": 73848000.0,
    "over_cap": true
   },
   {
    "code": "000270",
    "name": "기아",
-   "weight": 16.12,
+   "weight": 16.04,
    "shares": 482.0,
-   "amount": 48344600.0,
+   "amount": 46754000.0,
    "over_cap": false
   },
   {
    "code": "012330",
    "name": "현대모비스",
-   "weight": 16.06,
+   "weight": 15.72,
    "shares": 138.0,
-   "amount": 48162000.0,
+   "amount": 45816000.0,
    "over_cap": false
   },
   {
    "code": "064350",
    "name": "현대로템",
-   "weight": 6.68,
+   "weight": 6.71,
    "shares": 280.0,
-   "amount": 20020000.0,
-   "over_cap": false
-  },
-  {
-   "code": "307950",
-   "name": "현대오토에버",
-   "weight": 6.35,
-   "shares": 70.0,
-   "amount": 19040000.0,
+   "amount": 19544000.0,
    "over_cap": false
   },
   {
    "code": "064400",
    "name": "LG씨엔에스",
-   "weight": 6.13,
+   "weight": 6.58,
    "shares": 248.0,
-   "amount": 18376800.0,
+   "amount": 19170400.0,
+   "over_cap": false
+  },
+  {
+   "code": "307950",
+   "name": "현대오토에버",
+   "weight": 6.46,
+   "shares": 70.0,
+   "amount": 18830000.0,
    "over_cap": false
   },
   {
    "code": "011070",
    "name": "LG이노텍",
-   "weight": 5.39,
+   "weight": 5.53,
    "shares": 61.0,
-   "amount": 16165000.0,
+   "amount": 16104000.0,
    "over_cap": false
   },
   {
    "code": "277810",
    "name": "레인보우로보틱스",
-   "weight": 5.35,
+   "weight": 5.19,
    "shares": 50.0,
-   "amount": 16050000.0,
-   "over_cap": false
-  },
-  {
-   "code": "108490",
-   "name": "로보티즈",
-   "weight": 2.81,
-   "shares": 38.0,
-   "amount": 8436000.0,
+   "amount": 15125000.0,
    "over_cap": false
   },
   {
    "code": "454910",
    "name": "두산로보틱스",
-   "weight": 2.79,
+   "weight": 2.78,
    "shares": 166.0,
-   "amount": 8366400.0,
+   "amount": 8100800.0,
+   "over_cap": false
+  },
+  {
+   "code": "108490",
+   "name": "로보티즈",
+   "weight": 2.68,
+   "shares": 38.0,
+   "amount": 7809000.0,
    "over_cap": false
   },
   {
    "code": "005850",
    "name": "에스엘",
-   "weight": 1.87,
+   "weight": 1.85,
    "shares": 119.0,
-   "amount": 5598950.0,
+   "amount": 5402600.0,
    "over_cap": false
   },
   {
    "code": "204320",
    "name": "HL만도",
-   "weight": 1.3,
+   "weight": 1.31,
    "shares": 120.0,
-   "amount": 3912000.0,
+   "amount": 3828000.0,
    "over_cap": false
   },
   {
    "code": "098460",
    "name": "고영",
-   "weight": 1.19,
+   "weight": 1.26,
    "shares": 175.0,
-   "amount": 3578750.0,
+   "amount": 3657500.0,
    "over_cap": false
   },
   {
@@ -116,31 +116,31 @@
    "name": "현대위아",
    "weight": 1.15,
    "shares": 70.0,
-   "amount": 3444000.0,
+   "amount": 3360000.0,
    "over_cap": false
   },
   {
    "code": "437730",
    "name": "삼현",
-   "weight": 1.0,
+   "weight": 0.96,
    "shares": 81.0,
-   "amount": 3005100.0,
+   "amount": 2810700.0,
    "over_cap": false
   },
   {
    "code": "058610",
    "name": "에스피지",
-   "weight": 0.54,
+   "weight": 0.53,
    "shares": 22.0,
-   "amount": 1619200.0,
+   "amount": 1551000.0,
    "over_cap": false
   },
   {
    "code": "010010",
    "name": "현금성자산",
    "weight": -0.1,
-   "shares": -307786.0,
-   "amount": -307786.0,
+   "shares": -292522.0,
+   "amount": -292522.0,
    "over_cap": false
   }
  ],
@@ -148,15 +148,15 @@
   "cap_pct": 25.0,
   "verified": true,
   "count": 1,
-  "total_sell": 1270119600,
+  "total_sell": 1164483000,
   "items": [
    {
     "code": "005380",
     "name": "현대차",
-    "weight": 25.36,
+    "weight": 25.34,
     "cap_pct": 25.0,
-    "excess_pp": 0.36,
-    "sell_amount": 1270119600
+    "excess_pp": 0.34,
+    "sell_amount": 1164483000
    }
   ]
  },
