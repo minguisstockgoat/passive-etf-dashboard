@@ -3,14 +3,14 @@
  "name": "PLUS 한화그룹주",
  "manager": "PLUS",
  "source": "한화 PLUS",
- "asof": "2026-11-10",
- "total_weight": 99.58,
+ "asof": "2026-11-11",
+ "total_weight": 99.6,
  "count": 12,
  "holdings": [
   {
    "code": "012450",
    "name": "한화에어로스페이스",
-   "weight": 20.8913,
+   "weight": 20.6177,
    "shares": 299.0,
    "amount": 0.0,
    "over_cap": true
@@ -18,7 +18,7 @@
   {
    "code": "272210",
    "name": "한화시스템",
-   "weight": 16.735,
+   "weight": 17.4559,
    "shares": 3061.0,
    "amount": 0.0,
    "over_cap": false
@@ -26,7 +26,7 @@
   {
    "code": "009830",
    "name": "한화솔루션",
-   "weight": 15.9731,
+   "weight": 15.38,
    "shares": 6024.0,
    "amount": 0.0,
    "over_cap": false
@@ -34,7 +34,7 @@
   {
    "code": "042660",
    "name": "한화오션",
-   "weight": 14.4686,
+   "weight": 14.6209,
    "shares": 2905.0,
    "amount": 0.0,
    "over_cap": false
@@ -42,23 +42,15 @@
   {
    "code": "000880",
    "name": "한화",
-   "weight": 7.1819,
+   "weight": 6.9079,
    "shares": 841.0,
-   "amount": 0.0,
-   "over_cap": false
-  },
-  {
-   "code": "088350",
-   "name": "한화생명",
-   "weight": 6.4161,
-   "shares": 15182.0,
    "amount": 0.0,
    "over_cap": false
   },
   {
    "code": "082740",
    "name": "한화엔진",
-   "weight": 6.3543,
+   "weight": 6.7318,
    "shares": 2348.0,
    "amount": 0.0,
    "over_cap": false
@@ -66,15 +58,23 @@
   {
    "code": "489790",
    "name": "한화비전",
-   "weight": 6.3161,
+   "weight": 6.5274,
    "shares": 1421.0,
+   "amount": 0.0,
+   "over_cap": false
+  },
+  {
+   "code": "088350",
+   "name": "한화생명",
+   "weight": 6.2749,
+   "shares": 15182.0,
    "amount": 0.0,
    "over_cap": false
   },
   {
    "code": "003530",
    "name": "한화투자증권",
-   "weight": 1.793,
+   "weight": 1.7565,
    "shares": 4574.0,
    "amount": 0.0,
    "over_cap": false
@@ -82,7 +82,7 @@
   {
    "code": "000370",
    "name": "한화손해보험",
-   "weight": 1.4769,
+   "weight": 1.4251,
    "shares": 2240.0,
    "amount": 0.0,
    "over_cap": false
@@ -90,7 +90,7 @@
   {
    "code": "0220W0",
    "name": "한화머시너리앤서비스홀딩스",
-   "weight": 1.1406,
+   "weight": 1.0901,
    "shares": 1353.0,
    "amount": 0.0,
    "over_cap": false
@@ -98,7 +98,7 @@
   {
    "code": "452260",
    "name": "한화갤러리아",
-   "weight": 0.8357,
+   "weight": 0.8133,
    "shares": 3719.0,
    "amount": 0.0,
    "over_cap": false
@@ -108,15 +108,15 @@
   "cap_pct": 20.0,
   "verified": true,
   "count": 1,
-  "total_sell": 686132370,
+  "total_sell": 494332020,
   "items": [
    {
     "code": "012450",
     "name": "한화에어로스페이스",
-    "weight": 20.891,
+    "weight": 20.618,
     "cap_pct": 20.0,
-    "excess_pp": 0.891,
-    "sell_amount": 686132370
+    "excess_pp": 0.618,
+    "sell_amount": 494332020
    }
   ]
  },

@@ -3,112 +3,104 @@
  "name": "ACE KPOP포커스",
  "manager": "ACE",
  "source": "한국투자 ACE",
- "asof": "2026-11-10",
+ "asof": "2026-11-11",
  "total_weight": 99.98,
  "count": 10,
  "holdings": [
   {
    "code": "035900",
    "name": "JYP Ent.",
-   "weight": 27.19,
+   "weight": 27.37,
    "shares": 2209.0,
-   "amount": 89022700.0,
+   "amount": 87918200.0,
    "over_cap": true
   },
   {
    "code": "041510",
    "name": "에스엠",
-   "weight": 25.16,
+   "weight": 24.62,
    "shares": 1070.0,
-   "amount": 82390000.0,
-   "over_cap": true
+   "amount": 79073000.0,
+   "over_cap": false
   },
   {
    "code": "352820",
    "name": "하이브",
-   "weight": 22.08,
+   "weight": 22.55,
    "shares": 505.0,
-   "amount": 72316000.0,
+   "amount": 72417000.0,
    "over_cap": false
   },
   {
    "code": "122870",
    "name": "와이지엔터테인먼트",
-   "weight": 20.19,
+   "weight": 20.05,
    "shares": 1632.0,
-   "amount": 66096000.0,
+   "amount": 64382400.0,
    "over_cap": false
   },
   {
    "code": "035760",
    "name": "CJ ENM",
-   "weight": 1.18,
+   "weight": 1.04,
    "shares": 85.0,
-   "amount": 3884500.0,
+   "amount": 3366000.0,
    "over_cap": false
   },
   {
    "code": "376300",
    "name": "디어유",
-   "weight": 0.95,
+   "weight": 0.99,
    "shares": 164.0,
-   "amount": 3142240.0,
+   "amount": 3219320.0,
    "over_cap": false
   },
   {
    "code": "182360",
    "name": "큐브엔터",
-   "weight": 0.89,
+   "weight": 0.93,
    "shares": 485.0,
-   "amount": 2924550.0,
+   "amount": 3016700.0,
    "over_cap": false
   },
   {
    "code": "473980",
    "name": "노머스",
-   "weight": 0.82,
+   "weight": 0.85,
    "shares": 260.0,
-   "amount": 2714400.0,
+   "amount": 2750800.0,
    "over_cap": false
   },
   {
    "code": "037270",
    "name": "YG PLUS",
-   "weight": 0.77,
+   "weight": 0.81,
    "shares": 918.0,
-   "amount": 2538270.0,
+   "amount": 2625480.0,
    "over_cap": false
   },
   {
    "code": "060570",
    "name": "드림어스컴퍼니",
-   "weight": 0.75,
+   "weight": 0.77,
    "shares": 589.0,
-   "amount": 2479690.0,
+   "amount": 2497360.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 25.0,
   "verified": true,
-  "count": 2,
-  "total_sell": 2407087375,
+  "count": 1,
+  "total_sell": 2383064625,
   "items": [
    {
     "code": "035900",
     "name": "JYP Ent.",
-    "weight": 27.19,
+    "weight": 27.37,
     "cap_pct": 25.0,
-    "excess_pp": 2.19,
-    "sell_amount": 2243200575
-   },
-   {
-    "code": "041510",
-    "name": "에스엠",
-    "weight": 25.16,
-    "cap_pct": 25.0,
-    "excess_pp": 0.16,
-    "sell_amount": 163886800
+    "excess_pp": 2.37,
+    "sell_amount": 2383064625
    }
   ]
  },
