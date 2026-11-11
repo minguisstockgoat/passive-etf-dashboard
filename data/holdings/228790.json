@@ -3,120 +3,120 @@
  "name": "TIGER 화장품",
  "manager": "TIGER",
  "source": "미래에셋 TIGER",
- "asof": "2026-11-10",
- "total_weight": 100.01,
+ "asof": "2026-11-11",
+ "total_weight": 100.02,
  "count": 19,
  "holdings": [
   {
    "code": "090430",
    "name": "아모레퍼시픽",
-   "weight": 11.79,
+   "weight": 11.74,
    "shares": 93.0,
-   "amount": 11820300.0,
+   "amount": 11997000.0,
    "over_cap": true
   },
   {
    "code": "051900",
    "name": "LG생활건강",
-   "weight": 10.97,
+   "weight": 10.6,
    "shares": 47.0,
-   "amount": 10998000.0,
+   "amount": 10833500.0,
    "over_cap": true
   },
   {
-   "code": "192820",
-   "name": "코스맥스",
-   "weight": 10.1,
+   "code": "214450",
+   "name": "파마리서치",
+   "weight": 10.23,
    "shares": 42.0,
-   "amount": 10122000.0,
+   "amount": 10458000.0,
    "over_cap": true
   },
   {
    "code": "483650",
    "name": "달바글로벌",
-   "weight": 9.91,
+   "weight": 10.03,
    "shares": 70.0,
-   "amount": 9933000.0,
-   "over_cap": false
+   "amount": 10255000.0,
+   "over_cap": true
   },
   {
-   "code": "214450",
-   "name": "파마리서치",
-   "weight": 9.89,
+   "code": "192820",
+   "name": "코스맥스",
+   "weight": 9.86,
    "shares": 42.0,
-   "amount": 9912000.0,
+   "amount": 10080000.0,
    "over_cap": false
   },
   {
    "code": "161890",
    "name": "한국콜마",
-   "weight": 9.15,
+   "weight": 9.11,
    "shares": 88.0,
-   "amount": 9169600.0,
+   "amount": 9310400.0,
    "over_cap": false
   },
   {
    "code": "257720",
    "name": "실리콘투",
-   "weight": 8.73,
+   "weight": 8.92,
    "shares": 342.0,
-   "amount": 8755200.0,
+   "amount": 9114300.0,
    "over_cap": false
   },
   {
    "code": "278470",
    "name": "에이피알",
-   "weight": 8.38,
+   "weight": 8.35,
    "shares": 34.0,
-   "amount": 8398000.0,
+   "amount": 8534000.0,
    "over_cap": false
   },
   {
    "code": "241710",
    "name": "코스메카코리아",
-   "weight": 7.39,
+   "weight": 7.76,
    "shares": 86.0,
-   "amount": 7404600.0,
+   "amount": 7937800.0,
    "over_cap": false
   },
   {
    "code": "251970",
    "name": "펌텍코리아",
-   "weight": 4.2,
+   "weight": 4.02,
    "shares": 61.0,
-   "amount": 4209000.0,
+   "amount": 4111400.0,
    "over_cap": false
   },
   {
    "code": "018290",
    "name": "브이티",
-   "weight": 2.68,
+   "weight": 2.7,
    "shares": 277.0,
-   "amount": 2689670.0,
+   "amount": 2758920.0,
    "over_cap": false
   },
   {
    "code": "439090",
    "name": "마녀공장",
-   "weight": 1.41,
+   "weight": 1.4,
    "shares": 103.0,
-   "amount": 1412130.0,
+   "amount": 1426550.0,
    "over_cap": false
   },
   {
    "code": "114840",
    "name": "아이패밀리에스씨",
-   "weight": 1.21,
+   "weight": 1.09,
    "shares": 121.0,
-   "amount": 1208790.0,
+   "amount": 1113200.0,
    "over_cap": false
   },
   {
    "code": "123330",
    "name": "제닉",
-   "weight": 1.0,
+   "weight": 1.01,
    "shares": 70.0,
-   "amount": 1003800.0,
+   "amount": 1031800.0,
    "over_cap": false
   },
   {
@@ -124,15 +124,15 @@
    "name": "씨앤씨인터내셔널",
    "weight": 0.94,
    "shares": 47.0,
-   "amount": 947050.0,
+   "amount": 961150.0,
    "over_cap": false
   },
   {
    "code": "237880",
    "name": "클리오",
-   "weight": 0.91,
+   "weight": 0.92,
    "shares": 87.0,
-   "amount": 914370.0,
+   "amount": 936990.0,
    "over_cap": false
   },
   {
@@ -140,7 +140,7 @@
    "name": "토니모리",
    "weight": 0.62,
    "shares": 151.0,
-   "amount": 625140.0,
+   "amount": 630425.0,
    "over_cap": false
   },
   {
@@ -148,47 +148,55 @@
    "name": "잇츠한불",
    "weight": 0.58,
    "shares": 57.0,
-   "amount": 584820.0,
+   "amount": 596790.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "원화예금",
-   "weight": 0.15,
-   "shares": 146670.0,
-   "amount": 146670.0,
+   "weight": 0.14,
+   "shares": 145409.0,
+   "amount": 145409.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 10.0,
   "verified": true,
-  "count": 3,
-  "total_sell": 5210814180,
+  "count": 4,
+  "total_sell": 4784145600,
   "items": [
    {
     "code": "090430",
     "name": "아모레퍼시픽",
-    "weight": 11.79,
+    "weight": 11.74,
     "cap_pct": 10.0,
-    "excess_pp": 1.79,
-    "sell_amount": 3261313770
+    "excess_pp": 1.74,
+    "sell_amount": 3201697440
    },
    {
     "code": "051900",
     "name": "LG생활건강",
-    "weight": 10.97,
+    "weight": 10.6,
     "cap_pct": 10.0,
-    "excess_pp": 0.97,
-    "sell_amount": 1767304110
+    "excess_pp": 0.6,
+    "sell_amount": 1104033600
    },
    {
-    "code": "192820",
-    "name": "코스맥스",
-    "weight": 10.1,
+    "code": "214450",
+    "name": "파마리서치",
+    "weight": 10.23,
     "cap_pct": 10.0,
-    "excess_pp": 0.1,
-    "sell_amount": 182196300
+    "excess_pp": 0.23,
+    "sell_amount": 423212880
+   },
+   {
+    "code": "483650",
+    "name": "달바글로벌",
+    "weight": 10.03,
+    "cap_pct": 10.0,
+    "excess_pp": 0.03,
+    "sell_amount": 55201680
    }
   ]
  },
