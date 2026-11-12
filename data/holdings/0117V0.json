@@ -3,120 +3,112 @@
  "name": "TIGER 코리아AI전력기기TOP3플러스",
  "manager": "TIGER",
  "source": "미래에셋 TIGER",
- "asof": "2026-11-11",
+ "asof": "2026-11-12",
  "total_weight": 100.0,
  "count": 11,
  "holdings": [
   {
    "code": "298040",
    "name": "효성중공업",
-   "weight": 25.68,
+   "weight": 25.6,
    "shares": 85.0,
-   "amount": 148410000.0,
+   "amount": 152405000.0,
    "over_cap": true
   },
   {
    "code": "010120",
    "name": "LS ELECTRIC",
-   "weight": 25.06,
+   "weight": 24.51,
    "shares": 1197.0,
-   "amount": 144837000.0,
-   "over_cap": true
+   "amount": 145914300.0,
+   "over_cap": false
   },
   {
    "code": "267260",
    "name": "HD현대일렉트릭",
-   "weight": 18.14,
+   "weight": 18.09,
    "shares": 266.0,
-   "amount": 104804000.0,
+   "amount": 107730000.0,
    "over_cap": false
   },
   {
    "code": "000500",
    "name": "가온전선",
-   "weight": 7.27,
+   "weight": 7.38,
    "shares": 205.0,
-   "amount": 42025000.0,
+   "amount": 43972500.0,
    "over_cap": false
   },
   {
    "code": "006260",
    "name": "LS",
-   "weight": 4.99,
+   "weight": 4.95,
    "shares": 156.0,
-   "amount": 28813200.0,
-   "over_cap": false
-  },
-  {
-   "code": "062040",
-   "name": "산일전기",
-   "weight": 4.2,
-   "shares": 198.0,
-   "amount": 24274800.0,
+   "amount": 29468400.0,
    "over_cap": false
   },
   {
    "code": "103590",
    "name": "일진전기",
-   "weight": 3.86,
+   "weight": 4.29,
    "shares": 485.0,
-   "amount": 22334250.0,
+   "amount": 25559500.0,
+   "over_cap": false
+  },
+  {
+   "code": "062040",
+   "name": "산일전기",
+   "weight": 4.25,
+   "shares": 198.0,
+   "amount": 25304400.0,
    "over_cap": false
   },
   {
    "code": "001440",
    "name": "대한전선",
-   "weight": 3.71,
+   "weight": 3.74,
    "shares": 1192.0,
-   "amount": 21432160.0,
+   "amount": 22266560.0,
    "over_cap": false
   },
   {
    "code": "033100",
    "name": "제룡전기",
-   "weight": 3.39,
+   "weight": 3.42,
    "shares": 557.0,
-   "amount": 19578550.0,
+   "amount": 20386200.0,
    "over_cap": false
   },
   {
    "code": "229640",
    "name": "LS에코에너지",
-   "weight": 3.28,
+   "weight": 3.36,
    "shares": 474.0,
-   "amount": 18960000.0,
+   "amount": 20002800.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "원화예금",
-   "weight": 0.42,
-   "shares": 2436755.0,
-   "amount": 2436755.0,
+   "weight": 0.41,
+   "shares": 2429953.0,
+   "amount": 2429953.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 25.0,
   "verified": true,
-  "count": 2,
-  "total_sell": 4737202500,
+  "count": 1,
+  "total_sell": 3840975000,
   "items": [
    {
     "code": "298040",
     "name": "효성중공업",
-    "weight": 25.68,
+    "weight": 25.6,
     "cap_pct": 25.0,
-    "excess_pp": 0.68,
-    "sell_amount": 4353105000
-   },
-   {
-    "code": "010120",
-    "name": "LS ELECTRIC",
-    "weight": 25.06,
-    "cap_pct": 25.0,
-    "excess_pp": 0.06,
-    "sell_amount": 384097500
+    "excess_pp": 0.6,
+    "sell_amount": 3840975000
    }
   ]
  },

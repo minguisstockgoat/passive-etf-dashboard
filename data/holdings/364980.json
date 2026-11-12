@@ -3,112 +3,120 @@
  "name": "TIGER 2차전지TOP10",
  "manager": "TIGER",
  "source": "미래에셋 TIGER",
- "asof": "2026-11-11",
- "total_weight": 100.0,
+ "asof": "2026-11-12",
+ "total_weight": 99.99,
  "count": 11,
  "holdings": [
   {
    "code": "373220",
    "name": "LG에너지솔루션",
-   "weight": 27.0,
+   "weight": 26.5,
    "shares": 358.0,
-   "amount": 118319000.0,
+   "amount": 120109000.0,
    "over_cap": true
   },
   {
    "code": "006400",
    "name": "삼성SDI",
-   "weight": 24.76,
+   "weight": 25.13,
    "shares": 238.0,
-   "amount": 108528000.0,
-   "over_cap": false
+   "amount": 113883000.0,
+   "over_cap": true
   },
   {
    "code": "005490",
    "name": "POSCO홀딩스",
-   "weight": 23.87,
+   "weight": 23.55,
    "shares": 386.0,
-   "amount": 104606000.0,
+   "amount": 106729000.0,
    "over_cap": false
   },
   {
    "code": "051910",
    "name": "LG화학",
-   "weight": 6.14,
+   "weight": 6.12,
    "shares": 113.0,
-   "amount": 26894000.0,
+   "amount": 27741500.0,
    "over_cap": false
   },
   {
    "code": "096770",
    "name": "SK이노베이션",
-   "weight": 4.91,
+   "weight": 4.78,
    "shares": 196.0,
-   "amount": 21501200.0,
+   "amount": 21677600.0,
    "over_cap": false
   },
   {
    "code": "086520",
    "name": "에코프로",
-   "weight": 4.01,
+   "weight": 4.26,
    "shares": 263.0,
-   "amount": 17568400.0,
+   "amount": 19330500.0,
    "over_cap": false
   },
   {
    "code": "003670",
    "name": "포스코퓨처엠",
-   "weight": 3.62,
+   "weight": 3.68,
    "shares": 94.0,
-   "amount": 15886000.0,
+   "amount": 16694400.0,
    "over_cap": false
   },
   {
    "code": "247540",
    "name": "에코프로비엠",
-   "weight": 3.03,
+   "weight": 3.26,
    "shares": 161.0,
-   "amount": 13282500.0,
+   "amount": 14795900.0,
    "over_cap": false
   },
   {
    "code": "066970",
    "name": "엘앤에프",
-   "weight": 1.51,
+   "weight": 1.54,
    "shares": 85.0,
-   "amount": 6613000.0,
+   "amount": 6987000.0,
    "over_cap": false
   },
   {
    "code": "011790",
    "name": "SKC",
-   "weight": 1.12,
+   "weight": 1.14,
    "shares": 68.0,
-   "amount": 4889200.0,
+   "amount": 5161200.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "원화예금",
    "weight": 0.03,
-   "shares": 150087.0,
-   "amount": 150087.0,
+   "shares": 145473.0,
+   "amount": 145473.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 25.0,
   "verified": true,
-  "count": 1,
-  "total_sell": 13135120000,
+  "count": 2,
+  "total_sell": 10705122800,
   "items": [
    {
     "code": "373220",
     "name": "LG에너지솔루션",
-    "weight": 27.0,
+    "weight": 26.5,
     "cap_pct": 25.0,
-    "excess_pp": 2.0,
-    "sell_amount": 13135120000
+    "excess_pp": 1.5,
+    "sell_amount": 9851340000
+   },
+   {
+    "code": "006400",
+    "name": "삼성SDI",
+    "weight": 25.13,
+    "cap_pct": 25.0,
+    "excess_pp": 0.13,
+    "sell_amount": 853782800
    }
   ]
  },
