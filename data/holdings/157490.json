@@ -3,22 +3,22 @@
  "name": "TIGER 소프트웨어",
  "manager": "TIGER",
  "source": "미래에셋 TIGER",
- "asof": "2026-11-13",
+ "asof": "2026-11-15",
  "total_weight": 99.99,
  "count": 24,
  "holdings": [
   {
    "code": "035420",
    "name": "NAVER",
-   "weight": 24.96,
+   "weight": 24.03,
    "shares": 208.0,
-   "amount": 37814400.0,
+   "amount": 35880000.0,
    "over_cap": false
   },
   {
    "code": "035720",
    "name": "카카오",
-   "weight": 18.86,
+   "weight": 19.13,
    "shares": 901.0,
    "amount": 28561700.0,
    "over_cap": false
@@ -26,49 +26,41 @@
   {
    "code": "018260",
    "name": "삼성에스디에스",
-   "weight": 16.13,
+   "weight": 16.65,
    "shares": 106.0,
-   "amount": 24433000.0,
+   "amount": 24857000.0,
    "over_cap": false
   },
   {
    "code": "259960",
    "name": "크래프톤",
-   "weight": 10.03,
+   "weight": 10.14,
    "shares": 76.0,
-   "amount": 15200000.0,
+   "amount": 15131600.0,
    "over_cap": false
   },
   {
    "code": "064400",
    "name": "LG씨엔에스",
-   "weight": 6.72,
+   "weight": 7.1,
    "shares": 135.0,
-   "amount": 10179000.0,
+   "amount": 10597500.0,
    "over_cap": false
   },
   {
    "code": "036570",
    "name": "NC",
-   "weight": 6.14,
+   "weight": 5.87,
    "shares": 49.0,
-   "amount": 9300200.0,
+   "amount": 8771000.0,
    "over_cap": false
   },
   {
    "code": "307950",
    "name": "현대오토에버",
-   "weight": 3.17,
+   "weight": 3.25,
    "shares": 17.0,
-   "amount": 4802500.0,
-   "over_cap": false
-  },
-  {
-   "code": "263750",
-   "name": "펄어비스",
-   "weight": 2.1,
-   "shares": 104.0,
-   "amount": 3177200.0,
+   "amount": 4853500.0,
    "over_cap": false
   },
   {
@@ -76,37 +68,45 @@
    "name": "포스코DX",
    "weight": 1.99,
    "shares": 140.0,
-   "amount": 3017000.0,
+   "amount": 2975000.0,
+   "over_cap": false
+  },
+  {
+   "code": "263750",
+   "name": "펄어비스",
+   "weight": 1.91,
+   "shares": 104.0,
+   "amount": 2849600.0,
    "over_cap": false
   },
   {
    "code": "251270",
    "name": "넷마블",
-   "weight": 1.89,
+   "weight": 1.82,
    "shares": 85.0,
-   "amount": 2856000.0,
+   "amount": 2724250.0,
    "over_cap": false
   },
   {
    "code": "192080",
    "name": "더블유게임즈",
-   "weight": 1.11,
+   "weight": 1.17,
    "shares": 29.0,
-   "amount": 1679100.0,
+   "amount": 1745800.0,
    "over_cap": false
   },
   {
    "code": "053800",
    "name": "안랩",
-   "weight": 1.06,
+   "weight": 1.05,
    "shares": 14.0,
-   "amount": 1612800.0,
+   "amount": 1566600.0,
    "over_cap": false
   },
   {
    "code": "093320",
    "name": "케이아이엔엑스",
-   "weight": 0.92,
+   "weight": 0.94,
    "shares": 8.0,
    "amount": 1400000.0,
    "over_cap": false
@@ -114,33 +114,41 @@
   {
    "code": "079940",
    "name": "가비아",
-   "weight": 0.88,
+   "weight": 0.89,
    "shares": 27.0,
-   "amount": 1332450.0,
+   "amount": 1329750.0,
    "over_cap": false
   },
   {
    "code": "124500",
    "name": "아이티센글로벌",
-   "weight": 0.59,
+   "weight": 0.58,
    "shares": 48.0,
-   "amount": 892320.0,
+   "amount": 872160.0,
    "over_cap": false
   },
   {
    "code": "067160",
    "name": "SOOP",
-   "weight": 0.52,
+   "weight": 0.53,
    "shares": 22.0,
-   "amount": 792000.0,
+   "amount": 790900.0,
    "over_cap": false
   },
   {
    "code": "042000",
    "name": "카페24",
-   "weight": 0.48,
+   "weight": 0.47,
    "shares": 49.0,
-   "amount": 722260.0,
+   "amount": 706580.0,
+   "over_cap": false
+  },
+  {
+   "code": "376300",
+   "name": "디어유",
+   "weight": 0.46,
+   "shares": 33.0,
+   "amount": 681450.0,
    "over_cap": false
   },
   {
@@ -148,7 +156,7 @@
    "name": "코나아이",
    "weight": 0.44,
    "shares": 36.0,
-   "amount": 668160.0,
+   "amount": 650520.0,
    "over_cap": false
   },
   {
@@ -156,15 +164,7 @@
    "name": "NHN KCP",
    "weight": 0.44,
    "shares": 59.0,
-   "amount": 667880.0,
-   "over_cap": false
-  },
-  {
-   "code": "376300",
-   "name": "디어유",
-   "weight": 0.43,
-   "shares": 33.0,
-   "amount": 656700.0,
+   "amount": 660800.0,
    "over_cap": false
   },
   {
@@ -172,31 +172,31 @@
    "name": "한컴",
    "weight": 0.41,
    "shares": 43.0,
-   "amount": 620920.0,
-   "over_cap": false
-  },
-  {
-   "code": "225570",
-   "name": "넥슨게임즈",
-   "weight": 0.34,
-   "shares": 64.0,
-   "amount": 514560.0,
+   "amount": 613610.0,
    "over_cap": false
   },
   {
    "code": "095660",
    "name": "네오위즈",
-   "weight": 0.33,
+   "weight": 0.34,
    "shares": 31.0,
-   "amount": 505610.0,
+   "amount": 512430.0,
+   "over_cap": false
+  },
+  {
+   "code": "225570",
+   "name": "넥슨게임즈",
+   "weight": 0.33,
+   "shares": 64.0,
+   "amount": 493440.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "원화예금",
    "weight": 0.05,
-   "shares": 74987.0,
-   "amount": 74987.0,
+   "shares": 71973.0,
+   "amount": 71973.0,
    "over_cap": false
   }
  ],
