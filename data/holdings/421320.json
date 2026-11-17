@@ -3,30 +3,30 @@
  "name": "PLUS 우주항공",
  "manager": "PLUS",
  "source": "한화 PLUS",
- "asof": "2026-11-17",
+ "asof": "2026-11-18",
  "total_weight": 99.66,
  "count": 15,
  "holdings": [
   {
-   "code": "099320",
-   "name": "쎄트렉아이",
-   "weight": 12.3599,
-   "shares": 2022.0,
+   "code": "218410",
+   "name": "RFHIC",
+   "weight": 12.4365,
+   "shares": 2221.0,
    "amount": 0.0,
    "over_cap": true
   },
   {
-   "code": "218410",
-   "name": "RFHIC",
-   "weight": 11.6431,
-   "shares": 2221.0,
+   "code": "099320",
+   "name": "쎄트렉아이",
+   "weight": 12.2743,
+   "shares": 2022.0,
    "amount": 0.0,
    "over_cap": true
   },
   {
    "code": "012450",
    "name": "한화에어로스페이스",
-   "weight": 9.5846,
+   "weight": 9.63,
    "shares": 151.0,
    "amount": 0.0,
    "over_cap": false
@@ -34,31 +34,31 @@
   {
    "code": "079550",
    "name": "LIG디펜스앤에어로스페이스",
-   "weight": 9.366,
+   "weight": 9.514,
    "shares": 269.0,
-   "amount": 0.0,
-   "over_cap": false
-  },
-  {
-   "code": "272210",
-   "name": "한화시스템",
-   "weight": 9.11,
-   "shares": 1781.0,
    "amount": 0.0,
    "over_cap": false
   },
   {
    "code": "189300",
    "name": "인텔리안테크",
-   "weight": 9.0788,
+   "weight": 9.0351,
    "shares": 2029.0,
+   "amount": 0.0,
+   "over_cap": false
+  },
+  {
+   "code": "272210",
+   "name": "한화시스템",
+   "weight": 8.9517,
+   "shares": 1781.0,
    "amount": 0.0,
    "over_cap": false
   },
   {
    "code": "347700",
    "name": "스피어",
-   "weight": 7.9464,
+   "weight": 8.3967,
    "shares": 5546.0,
    "amount": 0.0,
    "over_cap": false
@@ -66,7 +66,7 @@
   {
    "code": "295310",
    "name": "에이치브이엠",
-   "weight": 7.9178,
+   "weight": 7.0657,
    "shares": 1717.0,
    "amount": 0.0,
    "over_cap": false
@@ -74,7 +74,7 @@
   {
    "code": "368770",
    "name": "파이버프로",
-   "weight": 5.9406,
+   "weight": 6.0611,
    "shares": 6123.0,
    "amount": 0.0,
    "over_cap": false
@@ -82,7 +82,7 @@
   {
    "code": "462350",
    "name": "이노스페이스",
-   "weight": 4.6478,
+   "weight": 4.6744,
    "shares": 8082.0,
    "amount": 0.0,
    "over_cap": false
@@ -90,7 +90,7 @@
   {
    "code": "451760",
    "name": "컨텍",
-   "weight": 3.6848,
+   "weight": 3.4694,
    "shares": 3379.0,
    "amount": 0.0,
    "over_cap": false
@@ -98,7 +98,7 @@
   {
    "code": "211270",
    "name": "AP위성",
-   "weight": 3.2182,
+   "weight": 3.025,
    "shares": 3226.0,
    "amount": 0.0,
    "over_cap": false
@@ -106,24 +106,24 @@
   {
    "code": "274090",
    "name": "켄코아에어로스페이스",
-   "weight": 2.6139,
+   "weight": 2.585,
    "shares": 3072.0,
-   "amount": 0.0,
-   "over_cap": false
-  },
-  {
-   "code": "474170",
-   "name": "루미르",
-   "weight": 1.2923,
-   "shares": 2776.0,
    "amount": 0.0,
    "over_cap": false
   },
   {
    "code": "361390",
    "name": "제노코",
-   "weight": 1.2591,
+   "weight": 1.2836,
    "shares": 1458.0,
+   "amount": 0.0,
+   "over_cap": false
+  },
+  {
+   "code": "474170",
+   "name": "루미르",
+   "weight": 1.2546,
+   "shares": 2776.0,
    "amount": 0.0,
    "over_cap": false
   }
@@ -132,23 +132,23 @@
   "cap_pct": 10.0,
   "verified": true,
   "count": 2,
-  "total_sell": 6407261845,
+  "total_sell": 7704122073,
   "items": [
-   {
-    "code": "099320",
-    "name": "쎄트렉아이",
-    "weight": 12.36,
-    "cap_pct": 10.0,
-    "excess_pp": 2.36,
-    "sell_amount": 3777451400
-   },
    {
     "code": "218410",
     "name": "RFHIC",
-    "weight": 11.643,
+    "weight": 12.437,
     "cap_pct": 10.0,
-    "excess_pp": 1.643,
-    "sell_amount": 2629810445
+    "excess_pp": 2.437,
+    "sell_amount": 3985341858
+   },
+   {
+    "code": "099320",
+    "name": "쎄트렉아이",
+    "weight": 12.274,
+    "cap_pct": 10.0,
+    "excess_pp": 2.274,
+    "sell_amount": 3718780215
    }
   ]
  },
