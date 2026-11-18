@@ -3,80 +3,72 @@
  "name": "TIGER 2차전지소재Fn",
  "manager": "TIGER",
  "source": "미래에셋 TIGER",
- "asof": "2026-11-17",
+ "asof": "2026-11-18",
  "total_weight": 99.99,
  "count": 20,
  "holdings": [
   {
    "code": "003670",
    "name": "포스코퓨처엠",
-   "weight": 22.49,
+   "weight": 22.54,
    "shares": 269.0,
-   "amount": 45837600.0,
+   "amount": 44573300.0,
    "over_cap": true
   },
   {
    "code": "086520",
    "name": "에코프로",
-   "weight": 19.39,
+   "weight": 19.35,
    "shares": 566.0,
-   "amount": 39506800.0,
+   "amount": 38261600.0,
    "over_cap": false
   },
   {
    "code": "005490",
    "name": "POSCO홀딩스",
-   "weight": 18.45,
+   "weight": 18.52,
    "shares": 140.0,
-   "amount": 37590000.0,
+   "amount": 36610000.0,
    "over_cap": false
   },
   {
    "code": "247540",
    "name": "에코프로비엠",
-   "weight": 17.05,
+   "weight": 17.31,
    "shares": 404.0,
-   "amount": 34744000.0,
+   "amount": 34218800.0,
    "over_cap": false
   },
   {
    "code": "051910",
    "name": "LG화학",
-   "weight": 11.36,
+   "weight": 11.07,
    "shares": 102.0,
-   "amount": 23154000.0,
+   "amount": 21879000.0,
    "over_cap": false
   },
   {
    "code": "066970",
    "name": "엘앤에프",
-   "weight": 2.27,
+   "weight": 2.26,
    "shares": 61.0,
-   "amount": 4629900.0,
+   "amount": 4465200.0,
    "over_cap": false
   },
   {
    "code": "011790",
    "name": "SKC",
-   "weight": 1.86,
+   "weight": 1.87,
    "shares": 53.0,
-   "amount": 3794800.0,
+   "amount": 3704700.0,
    "over_cap": false
   },
   {
    "code": "020150",
    "name": "롯데에너지머티리얼즈",
-   "weight": 1.07,
+   "weight": 1.09,
    "shares": 61.0,
-   "amount": 2177700.0,
-   "over_cap": false
-  },
-  {
-   "code": "078600",
-   "name": "대주전자재료",
-   "weight": 1.03,
-   "shares": 24.0,
-   "amount": 2090400.0,
+   "amount": 2156350.0,
    "over_cap": false
   },
   {
@@ -84,31 +76,39 @@
    "name": "에코프로머티",
    "weight": 1.03,
    "shares": 76.0,
-   "amount": 2097600.0,
+   "amount": 2036800.0,
+   "over_cap": false
+  },
+  {
+   "code": "078600",
+   "name": "대주전자재료",
+   "weight": 0.98,
+   "shares": 24.0,
+   "amount": 1946400.0,
    "over_cap": false
   },
   {
    "code": "005070",
    "name": "코스모신소재",
-   "weight": 0.84,
+   "weight": 0.83,
    "shares": 51.0,
-   "amount": 1708500.0,
+   "amount": 1647300.0,
    "over_cap": false
   },
   {
    "code": "121600",
    "name": "나노신소재",
-   "weight": 0.65,
+   "weight": 0.66,
    "shares": 20.0,
-   "amount": 1330000.0,
+   "amount": 1302000.0,
    "over_cap": false
   },
   {
    "code": "093370",
    "name": "후성",
-   "weight": 0.52,
+   "weight": 0.53,
    "shares": 117.0,
-   "amount": 1064700.0,
+   "amount": 1040130.0,
    "over_cap": false
   },
   {
@@ -116,23 +116,15 @@
    "name": "SK아이이테크놀로지",
    "weight": 0.45,
    "shares": 75.0,
-   "amount": 924000.0,
+   "amount": 896250.0,
    "over_cap": false
   },
   {
    "code": "348370",
    "name": "엔켐",
-   "weight": 0.34,
+   "weight": 0.31,
    "shares": 44.0,
-   "amount": 693880.0,
-   "over_cap": false
-  },
-  {
-   "code": "365340",
-   "name": "성일하이텍",
-   "weight": 0.23,
-   "shares": 18.0,
-   "amount": 459900.0,
+   "amount": 622160.0,
    "over_cap": false
   },
   {
@@ -140,7 +132,15 @@
    "name": "솔루스첨단소재",
    "weight": 0.22,
    "shares": 72.0,
-   "amount": 446400.0,
+   "amount": 437040.0,
+   "over_cap": false
+  },
+  {
+   "code": "365340",
+   "name": "성일하이텍",
+   "weight": 0.22,
+   "shares": 18.0,
+   "amount": 431100.0,
    "over_cap": false
   },
   {
@@ -148,7 +148,7 @@
    "name": "천보",
    "weight": 0.2,
    "shares": 14.0,
-   "amount": 408100.0,
+   "amount": 401800.0,
    "over_cap": false
   },
   {
@@ -156,15 +156,15 @@
    "name": "더블유씨피",
    "weight": 0.15,
    "shares": 47.0,
-   "amount": 310200.0,
+   "amount": 294220.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "원화예금",
-   "weight": 0.39,
-   "shares": 802045.0,
-   "amount": 802045.0,
+   "weight": 0.4,
+   "shares": 799959.0,
+   "amount": 799959.0,
    "over_cap": false
   }
  ],
@@ -172,15 +172,15 @@
   "cap_pct": 20.0,
   "verified": true,
   "count": 1,
-  "total_sell": 10975359750,
+  "total_sell": 11195748500,
   "items": [
    {
     "code": "003670",
     "name": "포스코퓨처엠",
-    "weight": 22.49,
+    "weight": 22.54,
     "cap_pct": 20.0,
-    "excess_pp": 2.49,
-    "sell_amount": 10975359750
+    "excess_pp": 2.54,
+    "sell_amount": 11195748500
    }
   ]
  },
