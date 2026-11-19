@@ -1,6 +1,6 @@
 {
  "as_of": "2026-11-18",
- "generated_at": "2026-11-19T08:58:56+09:00",
+ "generated_at": "2026-11-19T20:48:50+09:00",
  "count": 154,
  "min_cap_eok": 300,
  "reg_note": "자본시장법 시행령 §80 — 지수형 ETF는 동일종목을 자산의 30%까지 편입 가능. 기초지수 내 비중이 30%를 넘는 대표종목(예: 삼성전자)은 그 지수 비중까지 예외 허용. cap을 둔 테마·전략 지수는 정기변경 때 상한으로 재조정된다.",
@@ -97,7 +97,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -155,28 +155,28 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": {
     "cap_pct": 25.0,
     "verified": true,
     "count": 2,
-    "total_sell": 240488770500,
+    "total_sell": 252413833500,
     "items": [
      {
       "code": "005930",
       "name": "삼성전자",
-      "weight": 28.22,
+      "weight": 28.07,
       "cap_pct": 25.0,
-      "excess_pp": 3.22,
-      "sell_amount": 213326127000
+      "excess_pp": 3.07,
+      "sell_amount": 203388574500
      },
      {
       "code": "000660",
       "name": "SK하이닉스",
-      "weight": 25.41,
+      "weight": 25.74,
       "cap_pct": 25.0,
-      "excess_pp": 0.41,
-      "sell_amount": 27162643500
+      "excess_pp": 0.74,
+      "sell_amount": 49025259000
      }
     ]
    },
@@ -550,7 +550,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -1003,7 +1003,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -1252,7 +1252,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -1368,7 +1368,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -1472,36 +1472,36 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": {
     "cap_pct": 15.0,
     "verified": true,
     "count": 3,
-    "total_sell": 46818443700,
+    "total_sell": 46064826900,
     "items": [
      {
       "code": "086790",
       "name": "하나금융지주",
-      "weight": 16.98,
+      "weight": 16.97,
       "cap_pct": 15.0,
-      "excess_pp": 1.98,
-      "sell_amount": 18652015800
+      "excess_pp": 1.97,
+      "sell_amount": 18557813700
      },
      {
       "code": "316140",
       "name": "우리금융지주",
-      "weight": 16.87,
+      "weight": 16.74,
       "cap_pct": 15.0,
-      "excess_pp": 1.87,
-      "sell_amount": 17615792700
+      "excess_pp": 1.74,
+      "sell_amount": 16391165400
      },
      {
       "code": "105560",
       "name": "KB금융",
-      "weight": 16.12,
+      "weight": 16.18,
       "cap_pct": 15.0,
-      "excess_pp": 1.12,
-      "sell_amount": 10550635200
+      "excess_pp": 1.18,
+      "sell_amount": 11115847800
      }
     ]
    },
@@ -1618,7 +1618,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -1895,36 +1895,36 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": {
     "cap_pct": 15.0,
     "verified": true,
     "count": 3,
-    "total_sell": 21751007850,
+    "total_sell": 19545486075,
     "items": [
      {
       "code": "005490",
       "name": "POSCO홀딩스",
-      "weight": 16.8,
+      "weight": 16.83,
       "cap_pct": 15.0,
-      "excess_pp": 1.8,
-      "sell_amount": 13689445500
-     },
-     {
-      "code": "006400",
-      "name": "삼성SDI",
-      "weight": 15.64,
-      "cap_pct": 15.0,
-      "excess_pp": 0.64,
-      "sell_amount": 4867358400
+      "excess_pp": 1.83,
+      "sell_amount": 13917602925
      },
      {
       "code": "373220",
       "name": "LG에너지솔루션",
-      "weight": 15.42,
+      "weight": 15.43,
       "cap_pct": 15.0,
-      "excess_pp": 0.42,
-      "sell_amount": 3194203950
+      "excess_pp": 0.43,
+      "sell_amount": 3270256425
+     },
+     {
+      "code": "006400",
+      "name": "삼성SDI",
+      "weight": 15.31,
+      "cap_pct": 15.0,
+      "excess_pp": 0.31,
+      "sell_amount": 2357626725
      }
     ]
    },
@@ -2248,20 +2248,20 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": {
     "cap_pct": 25.0,
     "verified": true,
     "count": 1,
-    "total_sell": 723426000,
+    "total_sell": 1567423000,
     "items": [
      {
       "code": "298040",
       "name": "효성중공업",
-      "weight": 25.12,
+      "weight": 25.26,
       "cap_pct": 25.0,
-      "excess_pp": 0.12,
-      "sell_amount": 723426000
+      "excess_pp": 0.26,
+      "sell_amount": 1567423000
      }
     ]
    },
@@ -2324,28 +2324,20 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": {
     "cap_pct": 25.0,
     "verified": true,
-    "count": 2,
-    "total_sell": 8491072875,
+    "count": 1,
+    "total_sell": 7467326500,
     "items": [
      {
       "code": "373220",
       "name": "LG에너지솔루션",
-      "weight": 26.12,
+      "weight": 26.24,
       "cap_pct": 25.0,
-      "excess_pp": 1.12,
-      "sell_amount": 6744682000
-     },
-     {
-      "code": "006400",
-      "name": "삼성SDI",
-      "weight": 25.29,
-      "cap_pct": 25.0,
-      "excess_pp": 0.29,
-      "sell_amount": 1746390875
+      "excess_pp": 1.24,
+      "sell_amount": 7467326500
      }
     ]
    },
@@ -2543,7 +2535,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -2851,7 +2843,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -2911,20 +2903,20 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": {
     "cap_pct": 25.0,
     "verified": true,
     "count": 1,
-    "total_sell": 12841920000,
+    "total_sell": 12653760000,
     "items": [
      {
       "code": "000720",
       "name": "현대건설",
-      "weight": 27.73,
+      "weight": 27.69,
       "cap_pct": 25.0,
-      "excess_pp": 2.73,
-      "sell_amount": 12841920000
+      "excess_pp": 2.69,
+      "sell_amount": 12653760000
      }
     ]
    },
@@ -2989,20 +2981,20 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": {
     "cap_pct": 20.0,
     "verified": true,
     "count": 1,
-    "total_sell": 11309845300,
+    "total_sell": 11131737500,
     "items": [
      {
       "code": "003670",
       "name": "포스코퓨처엠",
-      "weight": 22.54,
+      "weight": 22.5,
       "cap_pct": 20.0,
-      "excess_pp": 2.54,
-      "sell_amount": 11309845300
+      "excess_pp": 2.5,
+      "sell_amount": 11131737500
      }
     ]
    },
@@ -3273,7 +3265,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": null,
    "links": {
@@ -3319,7 +3311,7 @@
    },
    "cap_verified": false,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": null,
    "links": {
@@ -3611,28 +3603,28 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": {
     "cap_pct": 15.0,
     "verified": true,
     "count": 2,
-    "total_sell": 10853522000,
+    "total_sell": 12602938375,
     "items": [
      {
       "code": "000660",
       "name": "SK하이닉스",
-      "weight": 16.59,
+      "weight": 16.99,
       "cap_pct": 15.0,
-      "excess_pp": 1.59,
-      "sell_amount": 5676677625
+      "excess_pp": 1.99,
+      "sell_amount": 7104772625
      },
      {
       "code": "005930",
       "name": "삼성전자",
-      "weight": 16.45,
+      "weight": 16.54,
       "cap_pct": 15.0,
-      "excess_pp": 1.45,
-      "sell_amount": 5176844375
+      "excess_pp": 1.54,
+      "sell_amount": 5498165750
      }
     ]
    },
@@ -3750,7 +3742,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -3868,7 +3860,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -4213,7 +4205,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -4509,28 +4501,28 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": {
     "cap_pct": 25.0,
     "verified": true,
     "count": 2,
-    "total_sell": 19928207400,
+    "total_sell": 20045294400,
     "items": [
      {
       "code": "068270",
       "name": "셀트리온",
-      "weight": 31.53,
+      "weight": 31.68,
       "cap_pct": 25.0,
-      "excess_pp": 6.53,
-      "sell_amount": 15291562200
+      "excess_pp": 6.68,
+      "sell_amount": 15642823200
      },
      {
       "code": "207940",
       "name": "삼성바이오로직스",
-      "weight": 26.98,
+      "weight": 26.88,
       "cap_pct": 25.0,
-      "excess_pp": 1.98,
-      "sell_amount": 4636645200
+      "excess_pp": 1.88,
+      "sell_amount": 4402471200
      }
     ]
    },
@@ -4789,28 +4781,28 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": {
     "cap_pct": 8.0,
     "verified": true,
     "count": 2,
-    "total_sell": 21486899000,
+    "total_sell": 22440950500,
     "items": [
      {
       "code": "180640",
       "name": "한진칼",
-      "weight": 17.99,
+      "weight": 18.19,
       "cap_pct": 8.0,
-      "excess_pp": 9.99,
-      "sell_amount": 20719509750
+      "excess_pp": 10.19,
+      "sell_amount": 21134314750
      },
      {
       "code": "034730",
       "name": "SK",
-      "weight": 8.37,
+      "weight": 8.63,
       "cap_pct": 8.0,
-      "excess_pp": 0.37,
-      "sell_amount": 767389250
+      "excess_pp": 0.63,
+      "sell_amount": 1306635750
      }
     ]
    },
@@ -4932,44 +4924,44 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": {
     "cap_pct": 10.0,
     "verified": true,
     "count": 4,
-    "total_sell": 9714086940,
+    "total_sell": 9416906460,
     "items": [
      {
       "code": "192820",
       "name": "코스맥스",
-      "weight": 11.94,
+      "weight": 11.88,
       "cap_pct": 10.0,
-      "excess_pp": 1.94,
-      "sell_amount": 3603313320
+      "excess_pp": 1.88,
+      "sell_amount": 3491870640
      },
      {
       "code": "090430",
       "name": "아모레퍼시픽",
-      "weight": 11.75,
+      "weight": 11.61,
       "cap_pct": 10.0,
-      "excess_pp": 1.75,
-      "sell_amount": 3250411500
+      "excess_pp": 1.61,
+      "sell_amount": 2990378580
      },
      {
       "code": "051900",
       "name": "LG생활건강",
-      "weight": 11.01,
+      "weight": 10.95,
       "cap_pct": 10.0,
-      "excess_pp": 1.01,
-      "sell_amount": 1875951780
+      "excess_pp": 0.95,
+      "sell_amount": 1764509100
      },
      {
       "code": "214450",
       "name": "파마리서치",
-      "weight": 10.53,
+      "weight": 10.63,
       "cap_pct": 10.0,
-      "excess_pp": 0.53,
-      "sell_amount": 984410340
+      "excess_pp": 0.63,
+      "sell_amount": 1170148140
      }
     ]
    },
@@ -5031,7 +5023,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -5724,7 +5716,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -5782,7 +5774,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -6133,7 +6125,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -6595,7 +6587,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -7440,28 +7432,28 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": {
     "cap_pct": 10.0,
     "verified": true,
     "count": 2,
-    "total_sell": 4374855000,
+    "total_sell": 3939660000,
     "items": [
      {
       "code": "009830",
       "name": "한화솔루션",
-      "weight": 14.22,
+      "weight": 13.92,
       "cap_pct": 10.0,
-      "excess_pp": 4.22,
-      "sell_amount": 3221970000
+      "excess_pp": 3.92,
+      "sell_amount": 2992920000
      },
      {
       "code": "010060",
       "name": "OCI홀딩스",
-      "weight": 11.51,
+      "weight": 11.24,
       "cap_pct": 10.0,
-      "excess_pp": 1.51,
-      "sell_amount": 1152885000
+      "excess_pp": 1.24,
+      "sell_amount": 946740000
      }
     ]
    },
@@ -7604,60 +7596,60 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": {
     "cap_pct": 10.0,
     "verified": true,
     "count": 6,
-    "total_sell": 4497881580,
+    "total_sell": 5123215200,
     "items": [
-     {
-      "code": "035760",
-      "name": "CJ ENM",
-      "weight": 11.57,
-      "cap_pct": 10.0,
-      "excess_pp": 1.57,
-      "sell_amount": 1182859980
-     },
      {
       "code": "035900",
       "name": "JYP Ent.",
-      "weight": 11.57,
+      "weight": 11.81,
       "cap_pct": 10.0,
-      "excess_pp": 1.57,
-      "sell_amount": 1182859980
+      "excess_pp": 1.81,
+      "sell_amount": 1363679340
+     },
+     {
+      "code": "035760",
+      "name": "CJ ENM",
+      "weight": 11.68,
+      "cap_pct": 10.0,
+      "excess_pp": 1.68,
+      "sell_amount": 1265735520
      },
      {
       "code": "253450",
       "name": "스튜디오드래곤",
-      "weight": 11.22,
+      "weight": 11.18,
       "cap_pct": 10.0,
-      "excess_pp": 1.22,
-      "sell_amount": 919165080
+      "excess_pp": 1.18,
+      "sell_amount": 889028520
      },
      {
       "code": "122870",
       "name": "와이지엔터테인먼트",
-      "weight": 11.17,
+      "weight": 11.01,
       "cap_pct": 10.0,
-      "excess_pp": 1.17,
-      "sell_amount": 881494380
-     },
-     {
-      "code": "376300",
-      "name": "디어유",
-      "weight": 10.31,
-      "cap_pct": 10.0,
-      "excess_pp": 0.31,
-      "sell_amount": 233558340
+      "excess_pp": 1.01,
+      "sell_amount": 760948140
      },
      {
       "code": "041510",
       "name": "에스엠",
-      "weight": 10.13,
+      "weight": 10.87,
       "cap_pct": 10.0,
-      "excess_pp": 0.13,
-      "sell_amount": 97943820
+      "excess_pp": 0.87,
+      "sell_amount": 655470180
+     },
+     {
+      "code": "376300",
+      "name": "디어유",
+      "weight": 10.25,
+      "cap_pct": 10.0,
+      "excess_pp": 0.25,
+      "sell_amount": 188353500
      }
     ]
    },
@@ -8044,28 +8036,28 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": {
     "cap_pct": 3.0,
     "verified": true,
-    "count": 5,
-    "total_sell": 1035806940,
+    "count": 6,
+    "total_sell": 1042576920,
     "items": [
      {
       "code": "300720",
       "name": "한일시멘트",
-      "weight": 3.65,
+      "weight": 3.61,
       "cap_pct": 3.0,
-      "excess_pp": 0.65,
-      "sell_amount": 440048700
+      "excess_pp": 0.61,
+      "sell_amount": 412968780
      },
      {
       "code": "122900",
       "name": "아이마켓코리아",
-      "weight": 3.43,
+      "weight": 3.42,
       "cap_pct": 3.0,
-      "excess_pp": 0.43,
-      "sell_amount": 291109140
+      "excess_pp": 0.42,
+      "sell_amount": 284339160
      },
      {
       "code": "030000",
@@ -8078,18 +8070,26 @@
      {
       "code": "012750",
       "name": "에스원",
-      "weight": 3.11,
+      "weight": 3.14,
       "cap_pct": 3.0,
-      "excess_pp": 0.11,
-      "sell_amount": 74469780
+      "excess_pp": 0.14,
+      "sell_amount": 94779720
      },
      {
       "code": "192400",
       "name": "쿠쿠홀딩스",
-      "weight": 3.09,
+      "weight": 3.1,
       "cap_pct": 3.0,
-      "excess_pp": 0.09,
-      "sell_amount": 60929820
+      "excess_pp": 0.1,
+      "sell_amount": 67699800
+     },
+     {
+      "code": "005830",
+      "name": "DB손해보험",
+      "weight": 3.02,
+      "cap_pct": 3.0,
+      "excess_pp": 0.02,
+      "sell_amount": 13539960
      }
     ]
    },
@@ -8147,7 +8147,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -8283,7 +8283,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -8343,36 +8343,36 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": {
     "cap_pct": 10.0,
     "verified": true,
     "count": 3,
-    "total_sell": 407655360,
+    "total_sell": 95544225,
     "items": [
      {
       "code": "020560",
       "name": "아시아나항공",
-      "weight": 10.24,
+      "weight": 10.09,
       "cap_pct": 10.0,
-      "excess_pp": 0.24,
-      "sell_amount": 152870760
-     },
-     {
-      "code": "003490",
-      "name": "대한항공",
-      "weight": 10.2,
-      "cap_pct": 10.0,
-      "excess_pp": 0.2,
-      "sell_amount": 127392300
+      "excess_pp": 0.09,
+      "sell_amount": 57326535
      },
      {
       "code": "035250",
       "name": "강원랜드",
-      "weight": 10.2,
+      "weight": 10.05,
       "cap_pct": 10.0,
-      "excess_pp": 0.2,
-      "sell_amount": 127392300
+      "excess_pp": 0.05,
+      "sell_amount": 31848075
+     },
+     {
+      "code": "003490",
+      "name": "대한항공",
+      "weight": 10.01,
+      "cap_pct": 10.0,
+      "excess_pp": 0.01,
+      "sell_amount": 6369615
      }
     ]
    },
@@ -8536,7 +8536,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -8593,28 +8593,28 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": {
     "cap_pct": 5.0,
     "verified": true,
     "count": 2,
-    "total_sell": 502962570,
+    "total_sell": 539321310,
     "items": [
      {
       "code": "005830",
       "name": "DB손해보험",
-      "weight": 5.77,
+      "weight": 5.84,
       "cap_pct": 5.0,
-      "excess_pp": 0.77,
-      "sell_amount": 466603830
+      "excess_pp": 0.84,
+      "sell_amount": 509022360
      },
      {
       "code": "029780",
       "name": "삼성카드",
-      "weight": 5.06,
+      "weight": 5.05,
       "cap_pct": 5.0,
-      "excess_pp": 0.06,
-      "sell_amount": 36358740
+      "excess_pp": 0.05,
+      "sell_amount": 30298950
      }
     ]
    },
@@ -9133,7 +9133,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -9668,7 +9668,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -9726,7 +9726,7 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": null,
    "rebalance": {
     "dates": [
@@ -10240,20 +10240,20 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": {
     "cap_pct": 25.0,
     "verified": true,
     "count": 1,
-    "total_sell": 279972000,
+    "total_sell": 181345500,
     "items": [
      {
       "code": "035720",
       "name": "카카오",
-      "weight": 25.88,
+      "weight": 25.57,
       "cap_pct": 25.0,
-      "excess_pp": 0.88,
-      "sell_amount": 279972000
+      "excess_pp": 0.57,
+      "sell_amount": 181345500
      }
     ]
    },
@@ -10313,44 +10313,44 @@
    },
    "cap_verified": true,
    "has_holdings": true,
-   "holdings_asof": "2026-11-18",
+   "holdings_asof": "2026-11-19",
    "breach_summary": {
     "cap_pct": 10.0,
     "verified": true,
     "count": 4,
-    "total_sell": 1103904450,
+    "total_sell": 1084926150,
     "items": [
      {
       "code": "259960",
       "name": "크래프톤",
-      "weight": 12.0,
+      "weight": 11.91,
       "cap_pct": 10.0,
-      "excess_pp": 2.0,
-      "sell_amount": 632610000
-     },
-     {
-      "code": "035420",
-      "name": "NAVER",
-      "weight": 11.11,
-      "cap_pct": 10.0,
-      "excess_pp": 1.11,
-      "sell_amount": 351098550
+      "excess_pp": 1.91,
+      "sell_amount": 604142550
      },
      {
       "code": "352820",
       "name": "하이브",
-      "weight": 10.37,
+      "weight": 10.76,
       "cap_pct": 10.0,
-      "excess_pp": 0.37,
-      "sell_amount": 117032850
+      "excess_pp": 0.76,
+      "sell_amount": 240391800
+     },
+     {
+      "code": "035420",
+      "name": "NAVER",
+      "weight": 10.74,
+      "cap_pct": 10.0,
+      "excess_pp": 0.74,
+      "sell_amount": 234065700
      },
      {
       "code": "036570",
       "name": "NC",
-      "weight": 10.01,
+      "weight": 10.02,
       "cap_pct": 10.0,
-      "excess_pp": 0.01,
-      "sell_amount": 3163050
+      "excess_pp": 0.02,
+      "sell_amount": 6326100
      }
     ]
    },
