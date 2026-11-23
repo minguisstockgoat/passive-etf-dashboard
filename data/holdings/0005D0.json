@@ -3,100 +3,115 @@
  "name": "SOL 전고체배터리&실리콘음극재",
  "manager": "SOL",
  "source": "신한 SOL",
- "asof": "2026-11-20",
- "total_weight": 100.01,
+ "asof": "2026-11-23",
+ "total_weight": 100.0,
  "count": 11,
  "holdings": [
   {
    "code": "373220",
    "name": "LG에너지솔루션",
-   "weight": 19.34,
+   "weight": 20.21,
    "shares": 416.0,
-   "amount": 125632000.0,
-   "over_cap": false
+   "amount": 124592000.0,
+   "over_cap": true
   },
   {
    "code": "247540",
    "name": "에코프로비엠",
-   "weight": 17.91,
+   "weight": 18.0,
    "shares": 1342.0,
-   "amount": 116351400.0,
+   "amount": 110983400.0,
    "over_cap": false
   },
   {
    "code": "006400",
    "name": "삼성SDI",
-   "weight": 17.74,
+   "weight": 17.56,
    "shares": 269.0,
-   "amount": 115266500.0,
+   "amount": 108272500.0,
    "over_cap": false
   },
   {
    "code": "457190",
    "name": "이수스페셜티케미컬",
-   "weight": 16.43,
+   "weight": 15.48,
    "shares": 1412.0,
-   "amount": 106747200.0,
+   "amount": 95451200.0,
    "over_cap": false
   },
   {
    "code": "020150",
    "name": "롯데에너지머티리얼즈",
-   "weight": 10.05,
+   "weight": 10.31,
    "shares": 1682.0,
-   "amount": 65261600.0,
+   "amount": 63579600.0,
    "over_cap": false
   },
   {
    "code": "078600",
    "name": "대주전자재료",
-   "weight": 7.16,
+   "weight": 7.04,
    "shares": 570.0,
-   "amount": 46512000.0,
+   "amount": 43377000.0,
    "over_cap": false
   },
   {
    "code": "003670",
    "name": "포스코퓨처엠",
-   "weight": 5.29,
+   "weight": 5.36,
    "shares": 207.0,
-   "amount": 34362000.0,
+   "amount": 33016500.0,
    "over_cap": false
   },
   {
    "code": "281740",
    "name": "레이크머티리얼즈",
-   "weight": 2.53,
+   "weight": 2.52,
    "shares": 1602.0,
-   "amount": 16452540.0,
+   "amount": 15507360.0,
    "over_cap": false
   },
   {
    "code": "066970",
    "name": "엘앤에프",
-   "weight": 2.21,
+   "weight": 2.2,
    "shares": 197.0,
-   "amount": 14341600.0,
+   "amount": 13533900.0,
    "over_cap": false
   },
   {
    "code": "222080",
    "name": "SFA넥셀",
-   "weight": 1.21,
+   "weight": 1.18,
    "shares": 1188.0,
-   "amount": 7840800.0,
+   "amount": 7246800.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "현금성자산",
    "weight": 0.14,
-   "shares": 881206.0,
-   "amount": 881206.0,
+   "shares": 857697.0,
+   "amount": 857697.0,
    "over_cap": false
   }
  ],
- "breach_summary": null,
+ "breach_summary": {
+  "cap_pct": 20.0,
+  "verified": true,
+  "count": 1,
+  "total_sell": 301719600,
+  "items": [
+   {
+    "code": "373220",
+    "name": "LG에너지솔루션",
+    "weight": 20.21,
+    "cap_pct": 20.0,
+    "excess_pp": 0.21,
+    "sell_amount": 301719600
+   }
+  ]
+ },
  "cap": {
   "single_cap": 0.2,
   "index_exception": false,
