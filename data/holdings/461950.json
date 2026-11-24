@@ -3,24 +3,24 @@
  "name": "KODEX 2차전지핵심소재10",
  "manager": "KODEX",
  "source": "삼성 KODEX",
- "asof": "2026-11-24",
+ "asof": "2026-11-25",
  "total_weight": 100.01,
  "count": 10,
  "holdings": [
   {
    "code": "005490",
    "name": "POSCO홀딩스",
-   "weight": 20.49,
+   "weight": 19.55,
    "shares": 156.0,
-   "amount": 37830000.0,
-   "over_cap": true
+   "amount": 39858000.0,
+   "over_cap": false
   },
   {
    "code": "003670",
    "name": "포스코퓨처엠",
-   "weight": 16.43,
+   "weight": 16.8,
    "shares": 201.0,
-   "amount": 30330900.0,
+   "amount": 34250400.0,
    "over_cap": false
   },
   {
@@ -28,82 +28,67 @@
    "name": "에코프로",
    "weight": 15.54,
    "shares": 454.0,
-   "amount": 28692800.0,
+   "amount": 31689200.0,
    "over_cap": false
   },
   {
    "code": "051910",
    "name": "LG화학",
-   "weight": 14.81,
+   "weight": 14.87,
    "shares": 142.0,
-   "amount": 27349200.0,
+   "amount": 30317000.0,
    "over_cap": false
   },
   {
    "code": "247540",
    "name": "에코프로비엠",
-   "weight": 14.36,
+   "weight": 14.48,
    "shares": 334.0,
-   "amount": 26519600.0,
+   "amount": 29525600.0,
    "over_cap": false
   },
   {
    "code": "066970",
    "name": "엘앤에프",
-   "weight": 8.95,
+   "weight": 9.01,
    "shares": 250.0,
-   "amount": 16525000.0,
+   "amount": 18375000.0,
    "over_cap": false
   },
   {
    "code": "121600",
    "name": "나노신소재",
-   "weight": 3.19,
+   "weight": 3.25,
    "shares": 102.0,
-   "amount": 5895600.0,
+   "amount": 6619800.0,
    "over_cap": false
   },
   {
    "code": "020150",
    "name": "롯데에너지머티리얼즈",
-   "weight": 2.35,
+   "weight": 2.54,
    "shares": 120.0,
-   "amount": 4332000.0,
+   "amount": 5178000.0,
    "over_cap": false
   },
   {
    "code": "005070",
    "name": "코스모신소재",
-   "weight": 2.07,
+   "weight": 2.1,
    "shares": 133.0,
-   "amount": 3823750.0,
+   "amount": 4275950.0,
    "over_cap": false
   },
   {
    "code": "078600",
    "name": "대주전자재료",
-   "weight": 1.82,
+   "weight": 1.87,
    "shares": 46.0,
-   "amount": 3358000.0,
+   "amount": 3804200.0,
    "over_cap": false
   }
  ],
- "breach_summary": {
-  "cap_pct": 20.0,
-  "verified": true,
-  "count": 1,
-  "total_sell": 680595300,
-  "items": [
-   {
-    "code": "005490",
-    "name": "POSCO홀딩스",
-    "weight": 20.49,
-    "cap_pct": 20.0,
-    "excess_pp": 0.49,
-    "sell_amount": 680595300
-   }
-  ]
- },
+ "breach_summary": null,
  "cap": {
   "single_cap": 0.2,
   "index_exception": false,
