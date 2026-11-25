@@ -3,72 +3,72 @@
  "name": "TIGER 여행레저",
  "manager": "TIGER",
  "source": "미래에셋 TIGER",
- "asof": "2026-11-24",
- "total_weight": 99.99,
+ "asof": "2026-11-25",
+ "total_weight": 99.98,
  "count": 17,
  "holdings": [
   {
-   "code": "035250",
-   "name": "강원랜드",
-   "weight": 10.13,
-   "shares": 551.0,
-   "amount": 7642370.0,
+   "code": "020560",
+   "name": "아시아나항공",
+   "weight": 10.04,
+   "shares": 922.0,
+   "amount": 7735580.0,
    "over_cap": true
   },
   {
-   "code": "020560",
-   "name": "아시아나항공",
-   "weight": 9.99,
-   "shares": 922.0,
-   "amount": 7532740.0,
-   "over_cap": false
+   "code": "035250",
+   "name": "강원랜드",
+   "weight": 10.04,
+   "shares": 551.0,
+   "amount": 7736040.0,
+   "over_cap": true
   },
   {
    "code": "003490",
    "name": "대한항공",
-   "weight": 9.84,
+   "weight": 9.91,
    "shares": 245.0,
-   "amount": 7423500.0,
-   "over_cap": false
-  },
-  {
-   "code": "034230",
-   "name": "파라다이스",
-   "weight": 9.81,
-   "shares": 688.0,
-   "amount": 7396000.0,
+   "amount": 7631750.0,
    "over_cap": false
   },
   {
    "code": "008770",
    "name": "호텔신라",
-   "weight": 9.76,
+   "weight": 9.88,
    "shares": 200.0,
-   "amount": 7360000.0,
+   "amount": 7610000.0,
+   "over_cap": false
+  },
+  {
+   "code": "034230",
+   "name": "파라다이스",
+   "weight": 9.84,
+   "shares": 688.0,
+   "amount": 7581760.0,
    "over_cap": false
   },
   {
    "code": "032350",
    "name": "롯데관광개발",
-   "weight": 9.01,
+   "weight": 8.88,
    "shares": 680.0,
-   "amount": 6793200.0,
+   "amount": 6840800.0,
    "over_cap": false
   },
   {
    "code": "039130",
    "name": "하나투어",
-   "weight": 6.95,
+   "weight": 6.86,
    "shares": 163.0,
-   "amount": 5240450.0,
+   "amount": 5281200.0,
    "over_cap": false
   },
   {
    "code": "089590",
    "name": "제주항공",
-   "weight": 5.95,
+   "weight": 5.96,
    "shares": 574.0,
-   "amount": 4488680.0,
+   "amount": 4592000.0,
    "over_cap": false
   },
   {
@@ -76,87 +76,95 @@
    "name": "서부T&D",
    "weight": 5.69,
    "shares": 477.0,
-   "amount": 4293000.0,
+   "amount": 4383630.0,
    "over_cap": false
   },
   {
    "code": "114090",
    "name": "GKL",
-   "weight": 4.46,
+   "weight": 4.38,
    "shares": 469.0,
-   "amount": 3362730.0,
+   "amount": 3376800.0,
    "over_cap": false
   },
   {
    "code": "025980",
    "name": "아난티",
-   "weight": 4.15,
+   "weight": 4.14,
    "shares": 1024.0,
-   "amount": 3128320.0,
+   "amount": 3189760.0,
    "over_cap": false
   },
   {
    "code": "499790",
    "name": "GS피앤엘",
-   "weight": 3.93,
+   "weight": 3.98,
    "shares": 123.0,
-   "amount": 2964300.0,
+   "amount": 3062700.0,
    "over_cap": false
   },
   {
    "code": "298690",
    "name": "에어부산",
-   "weight": 3.36,
+   "weight": 3.37,
    "shares": 1387.0,
-   "amount": 2534049.0,
+   "amount": 2593690.0,
    "over_cap": false
   },
   {
    "code": "272450",
    "name": "진에어",
-   "weight": 3.15,
+   "weight": 3.16,
    "shares": 323.0,
-   "amount": 2377280.0,
+   "amount": 2432190.0,
    "over_cap": false
   },
   {
    "code": "080160",
    "name": "모두투어",
-   "weight": 2.98,
+   "weight": 3.04,
    "shares": 228.0,
-   "amount": 2245800.0,
+   "amount": 2339280.0,
    "over_cap": false
   },
   {
    "code": "038390",
    "name": "레드캡투어",
-   "weight": 0.69,
+   "weight": 0.68,
    "shares": 54.0,
-   "amount": 523800.0,
+   "amount": 524880.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "원화예금",
-   "weight": 0.14,
-   "shares": 104673.0,
-   "amount": 104673.0,
+   "weight": 0.13,
+   "shares": 103317.0,
+   "amount": 103317.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 10.0,
   "verified": true,
-  "count": 1,
-  "total_sell": 85794345,
+  "count": 2,
+  "total_sell": 52796520,
   "items": [
+   {
+    "code": "020560",
+    "name": "아시아나항공",
+    "weight": 10.04,
+    "cap_pct": 10.0,
+    "excess_pp": 0.04,
+    "sell_amount": 26398260
+   },
    {
     "code": "035250",
     "name": "강원랜드",
-    "weight": 10.13,
+    "weight": 10.04,
     "cap_pct": 10.0,
-    "excess_pp": 0.13,
-    "sell_amount": 85794345
+    "excess_pp": 0.04,
+    "sell_amount": 26398260
    }
   ]
  },
