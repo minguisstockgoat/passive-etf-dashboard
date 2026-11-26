@@ -3,100 +3,115 @@
  "name": "TIGER 인터넷TOP10",
  "manager": "TIGER",
  "source": "미래에셋 TIGER",
- "asof": "2026-11-25",
+ "asof": "2026-11-26",
  "total_weight": 100.0,
  "count": 11,
  "holdings": [
   {
    "code": "035720",
    "name": "카카오",
-   "weight": 24.6,
+   "weight": 25.5,
    "shares": 1270.0,
-   "amount": 38544500.0,
-   "over_cap": false
+   "amount": 39370000.0,
+   "over_cap": true
   },
   {
    "code": "178320",
    "name": "서진시스템",
-   "weight": 24.4,
+   "weight": 23.0,
    "shares": 1206.0,
-   "amount": 38230200.0,
+   "amount": 35516700.0,
    "over_cap": false
   },
   {
    "code": "035420",
    "name": "NAVER",
-   "weight": 21.22,
+   "weight": 21.93,
    "shares": 213.0,
-   "amount": 33249300.0,
+   "amount": 33867000.0,
    "over_cap": false
   },
   {
    "code": "010170",
    "name": "대한광통신",
-   "weight": 12.99,
+   "weight": 11.88,
    "shares": 1370.0,
-   "amount": 20358200.0,
+   "amount": 18344300.0,
    "over_cap": false
   },
   {
    "code": "053800",
    "name": "안랩",
-   "weight": 4.19,
+   "weight": 5.52,
    "shares": 54.0,
-   "amount": 6561000.0,
+   "amount": 8526600.0,
    "over_cap": false
   },
   {
    "code": "032500",
    "name": "케이엠더블유",
-   "weight": 3.92,
+   "weight": 3.73,
    "shares": 305.0,
-   "amount": 6145750.0,
+   "amount": 5767550.0,
    "over_cap": false
   },
   {
    "code": "050890",
    "name": "쏠리드",
-   "weight": 2.91,
+   "weight": 2.8,
    "shares": 554.0,
-   "amount": 4553880.0,
+   "amount": 4321200.0,
    "over_cap": false
   },
   {
    "code": "189300",
    "name": "인텔리안테크",
-   "weight": 2.37,
+   "weight": 2.35,
    "shares": 83.0,
-   "amount": 3714250.0,
+   "amount": 3631250.0,
    "over_cap": false
   },
   {
    "code": "033790",
    "name": "피노",
-   "weight": 2.17,
+   "weight": 2.09,
    "shares": 481.0,
-   "amount": 3405480.0,
+   "amount": 3222700.0,
    "over_cap": false
   },
   {
    "code": "037460",
    "name": "삼지전자",
-   "weight": 1.09,
+   "weight": 1.07,
    "shares": 70.0,
-   "amount": 1708000.0,
+   "amount": 1655500.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "원화예금",
-   "weight": 0.14,
-   "shares": 212671.0,
-   "amount": 212671.0,
+   "weight": 0.13,
+   "shares": 198534.0,
+   "amount": 198534.0,
    "over_cap": false
   }
  ],
- "breach_summary": null,
+ "breach_summary": {
+  "cap_pct": 25.0,
+  "verified": true,
+  "count": 1,
+  "total_sell": 156045000,
+  "items": [
+   {
+    "code": "035720",
+    "name": "카카오",
+    "weight": 25.5,
+    "cap_pct": 25.0,
+    "excess_pp": 0.5,
+    "sell_amount": 156045000
+   }
+  ]
+ },
  "cap": {
   "single_cap": 0.25,
   "index_exception": false,

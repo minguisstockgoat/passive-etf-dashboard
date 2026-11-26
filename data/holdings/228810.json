@@ -3,160 +3,152 @@
  "name": "TIGER 미디어컨텐츠",
  "manager": "TIGER",
  "source": "미래에셋 TIGER",
- "asof": "2026-11-25",
- "total_weight": 100.0,
+ "asof": "2026-11-26",
+ "total_weight": 100.01,
  "count": 12,
  "holdings": [
   {
    "code": "253450",
    "name": "스튜디오드래곤",
-   "weight": 14.34,
+   "weight": 14.49,
    "shares": 446.0,
-   "amount": 14740300.0,
+   "amount": 15164000.0,
    "over_cap": true
   },
   {
    "code": "035760",
    "name": "CJ ENM",
-   "weight": 12.52,
+   "weight": 13.37,
    "shares": 262.0,
-   "amount": 12864200.0,
+   "amount": 13990800.0,
    "over_cap": true
   },
   {
    "code": "041510",
    "name": "에스엠",
-   "weight": 10.92,
+   "weight": 10.77,
    "shares": 117.0,
-   "amount": 11220300.0,
+   "amount": 11267100.0,
    "over_cap": true
   },
   {
    "code": "035900",
    "name": "JYP Ent.",
-   "weight": 10.86,
+   "weight": 10.63,
    "shares": 239.0,
-   "amount": 11161300.0,
-   "over_cap": true
-  },
-  {
-   "code": "122870",
-   "name": "와이지엔터테인먼트",
-   "weight": 10.24,
-   "shares": 222.0,
-   "amount": 10522800.0,
+   "amount": 11125450.0,
    "over_cap": true
   },
   {
    "code": "376300",
    "name": "디어유",
-   "weight": 10.18,
+   "weight": 10.14,
    "shares": 489.0,
-   "amount": 10464600.0,
+   "amount": 10611300.0,
    "over_cap": true
+  },
+  {
+   "code": "122870",
+   "name": "와이지엔터테인먼트",
+   "weight": 9.98,
+   "shares": 222.0,
+   "amount": 10445100.0,
+   "over_cap": false
   },
   {
    "code": "352820",
    "name": "하이브",
-   "weight": 9.25,
+   "weight": 9.3,
    "shares": 55.0,
-   "amount": 9504000.0,
+   "amount": 9729500.0,
    "over_cap": false
   },
   {
    "code": "473980",
    "name": "노머스",
-   "weight": 7.1,
+   "weight": 7.09,
    "shares": 630.0,
-   "amount": 7295400.0,
+   "amount": 7415100.0,
    "over_cap": false
   },
   {
    "code": "403850",
    "name": "더핑크퐁컴퍼니",
-   "weight": 6.21,
+   "weight": 6.08,
    "shares": 635.0,
-   "amount": 6381750.0,
+   "amount": 6362700.0,
    "over_cap": false
   },
   {
    "code": "419530",
    "name": "SAMG엔터",
-   "weight": 5.05,
+   "weight": 4.91,
    "shares": 405.0,
-   "amount": 5192100.0,
+   "amount": 5143500.0,
    "over_cap": false
   },
   {
    "code": "086980",
    "name": "쇼박스",
-   "weight": 3.17,
+   "weight": 3.1,
    "shares": 2232.0,
-   "amount": 3258720.0,
+   "amount": 3240864.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "원화예금",
-   "weight": 0.16,
-   "shares": 163696.0,
-   "amount": 163696.0,
+   "weight": 0.15,
+   "shares": 161945.0,
+   "amount": 161945.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 10.0,
   "verified": true,
-  "count": 6,
-  "total_sell": 7664542560,
+  "count": 5,
+  "total_sell": 7952174400,
   "items": [
    {
     "code": "253450",
     "name": "스튜디오드래곤",
-    "weight": 14.34,
+    "weight": 14.49,
     "cap_pct": 10.0,
-    "excess_pp": 4.34,
-    "sell_amount": 3671535840
+    "excess_pp": 4.49,
+    "sell_amount": 3798432240
    },
    {
     "code": "035760",
     "name": "CJ ENM",
-    "weight": 12.52,
+    "weight": 13.37,
     "cap_pct": 10.0,
-    "excess_pp": 2.52,
-    "sell_amount": 2131859520
+    "excess_pp": 3.37,
+    "sell_amount": 2850939120
    },
    {
     "code": "041510",
     "name": "에스엠",
-    "weight": 10.92,
+    "weight": 10.77,
     "cap_pct": 10.0,
-    "excess_pp": 0.92,
-    "sell_amount": 778297920
+    "excess_pp": 0.77,
+    "sell_amount": 651401520
    },
    {
     "code": "035900",
     "name": "JYP Ent.",
-    "weight": 10.86,
+    "weight": 10.63,
     "cap_pct": 10.0,
-    "excess_pp": 0.86,
-    "sell_amount": 727539360
-   },
-   {
-    "code": "122870",
-    "name": "와이지엔터테인먼트",
-    "weight": 10.24,
-    "cap_pct": 10.0,
-    "excess_pp": 0.24,
-    "sell_amount": 203034240
+    "excess_pp": 0.63,
+    "sell_amount": 532964880
    },
    {
     "code": "376300",
     "name": "디어유",
-    "weight": 10.18,
+    "weight": 10.14,
     "cap_pct": 10.0,
-    "excess_pp": 0.18,
-    "sell_amount": 152275680
+    "excess_pp": 0.14,
+    "sell_amount": 118436640
    }
   ]
  },
