@@ -3,72 +3,72 @@
  "name": "TIGER Fn신재생에너지",
  "manager": "TIGER",
  "source": "미래에셋 TIGER",
- "asof": "2026-11-26",
- "total_weight": 100.01,
+ "asof": "2026-11-27",
+ "total_weight": 100.0,
  "count": 22,
  "holdings": [
   {
    "code": "009830",
    "name": "한화솔루션",
-   "weight": 13.84,
+   "weight": 13.58,
    "shares": 5087.0,
-   "amount": 98993020.0,
+   "amount": 97212570.0,
    "over_cap": true
   },
   {
    "code": "010060",
    "name": "OCI홀딩스",
-   "weight": 11.13,
+   "weight": 11.73,
    "shares": 508.0,
-   "amount": 79603600.0,
+   "amount": 84023200.0,
    "over_cap": true
   },
   {
    "code": "010120",
    "name": "LS ELECTRIC",
-   "weight": 10.04,
+   "weight": 9.95,
    "shares": 628.0,
-   "amount": 71780400.0,
-   "over_cap": true
+   "amount": 71215200.0,
+   "over_cap": false
   },
   {
    "code": "298040",
    "name": "효성중공업",
-   "weight": 9.9,
+   "weight": 9.91,
    "shares": 44.0,
-   "amount": 70752000.0,
+   "amount": 70972000.0,
    "over_cap": false
   },
   {
    "code": "034020",
    "name": "두산에너빌리티",
-   "weight": 9.06,
+   "weight": 9.16,
    "shares": 1620.0,
-   "amount": 64800000.0,
+   "amount": 65610000.0,
    "over_cap": false
   },
   {
    "code": "062040",
    "name": "산일전기",
-   "weight": 8.78,
+   "weight": 8.72,
    "shares": 659.0,
-   "amount": 62802700.0,
-   "over_cap": false
-  },
-  {
-   "code": "178320",
-   "name": "서진시스템",
-   "weight": 7.5,
-   "shares": 1821.0,
-   "amount": 53628450.0,
+   "amount": 62407300.0,
    "over_cap": false
   },
   {
    "code": "267260",
    "name": "HD현대일렉트릭",
-   "weight": 7.45,
+   "weight": 7.52,
    "shares": 139.0,
-   "amount": 53237000.0,
+   "amount": 53862500.0,
+   "over_cap": false
+  },
+  {
+   "code": "178320",
+   "name": "서진시스템",
+   "weight": 7.06,
+   "shares": 1821.0,
+   "amount": 50532750.0,
    "over_cap": false
   },
   {
@@ -76,47 +76,47 @@
    "name": "씨에스윈드",
    "weight": 5.13,
    "shares": 939.0,
-   "amount": 36667950.0,
+   "amount": 36714900.0,
    "over_cap": false
   },
   {
    "code": "336260",
    "name": "두산퓨얼셀",
-   "weight": 5.0,
+   "weight": 4.98,
    "shares": 1593.0,
-   "amount": 35762850.0,
+   "amount": 35683200.0,
    "over_cap": false
   },
   {
    "code": "475150",
    "name": "SK이터닉스",
-   "weight": 2.94,
+   "weight": 2.91,
    "shares": 758.0,
-   "amount": 20996600.0,
+   "amount": 20807100.0,
    "over_cap": false
   },
   {
    "code": "126340",
    "name": "비나텍",
-   "weight": 2.28,
+   "weight": 2.39,
    "shares": 188.0,
-   "amount": 16280800.0,
+   "amount": 17108000.0,
    "over_cap": false
   },
   {
    "code": "100090",
    "name": "SK오션플랜트",
-   "weight": 1.99,
+   "weight": 2.0,
    "shares": 1540.0,
-   "amount": 14214200.0,
+   "amount": 14291200.0,
    "over_cap": false
   },
   {
    "code": "322000",
    "name": "HD현대에너지솔루션",
-   "weight": 1.9,
+   "weight": 1.89,
    "shares": 200.0,
-   "amount": 13560000.0,
+   "amount": 13540000.0,
    "over_cap": false
   },
   {
@@ -130,9 +130,9 @@
   {
    "code": "086390",
    "name": "유니테스트",
-   "weight": 0.76,
+   "weight": 0.78,
    "shares": 638.0,
-   "amount": 5448520.0,
+   "amount": 5620780.0,
    "over_cap": false
   },
   {
@@ -140,15 +140,15 @@
    "name": "지투파워",
    "weight": 0.4,
    "shares": 483.0,
-   "amount": 2830380.0,
+   "amount": 2864190.0,
    "over_cap": false
   },
   {
    "code": "382900",
    "name": "범한퓨얼셀",
-   "weight": 0.31,
+   "weight": 0.3,
    "shares": 164.0,
-   "amount": 2209080.0,
+   "amount": 2171360.0,
    "over_cap": false
   },
   {
@@ -156,15 +156,15 @@
    "name": "대명에너지",
    "weight": 0.27,
    "shares": 171.0,
-   "amount": 1932300.0,
+   "amount": 1922040.0,
    "over_cap": false
   },
   {
    "code": "297090",
    "name": "씨에스베어링",
-   "weight": 0.24,
+   "weight": 0.23,
    "shares": 455.0,
-   "amount": 1701700.0,
+   "amount": 1672125.0,
    "over_cap": false
   },
   {
@@ -172,47 +172,39 @@
    "name": "동국S&C",
    "weight": 0.19,
    "shares": 1090.0,
-   "amount": 1361410.0,
+   "amount": 1362500.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "원화예금",
    "weight": 0.1,
-   "shares": 733931.0,
-   "amount": 733931.0,
+   "shares": 723583.0,
+   "amount": 723583.0,
    "over_cap": false
   }
  ],
  "breach_summary": {
   "cap_pct": 10.0,
   "verified": true,
-  "count": 3,
-  "total_sell": 3612911400,
+  "count": 2,
+  "total_sell": 3829253400,
   "items": [
    {
     "code": "009830",
     "name": "한화솔루션",
-    "weight": 13.84,
+    "weight": 13.58,
     "cap_pct": 10.0,
-    "excess_pp": 3.84,
-    "sell_amount": 2769177600
+    "excess_pp": 3.58,
+    "sell_amount": 2581681200
    },
    {
     "code": "010060",
     "name": "OCI홀딩스",
-    "weight": 11.13,
+    "weight": 11.73,
     "cap_pct": 10.0,
-    "excess_pp": 1.13,
-    "sell_amount": 814888200
-   },
-   {
-    "code": "010120",
-    "name": "LS ELECTRIC",
-    "weight": 10.04,
-    "cap_pct": 10.0,
-    "excess_pp": 0.04,
-    "sell_amount": 28845600
+    "excess_pp": 1.73,
+    "sell_amount": 1247572200
    }
   ]
  },

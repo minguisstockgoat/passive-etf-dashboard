@@ -3,46 +3,22 @@
  "name": "TIGER 여행레저",
  "manager": "TIGER",
  "source": "미래에셋 TIGER",
- "asof": "2026-11-26",
- "total_weight": 99.98,
+ "asof": "2026-11-27",
+ "total_weight": 100.01,
  "count": 17,
  "holdings": [
   {
    "code": "034230",
    "name": "파라다이스",
-   "weight": 10.07,
+   "weight": 10.22,
    "shares": 688.0,
-   "amount": 7960160.0,
+   "amount": 8015200.0,
    "over_cap": true
-  },
-  {
-   "code": "020560",
-   "name": "아시아나항공",
-   "weight": 9.84,
-   "shares": 922.0,
-   "amount": 7781680.0,
-   "over_cap": false
-  },
-  {
-   "code": "035250",
-   "name": "강원랜드",
-   "weight": 9.84,
-   "shares": 551.0,
-   "amount": 7780120.0,
-   "over_cap": false
-  },
-  {
-   "code": "003490",
-   "name": "대한항공",
-   "weight": 9.81,
-   "shares": 245.0,
-   "amount": 7754250.0,
-   "over_cap": false
   },
   {
    "code": "008770",
    "name": "호텔신라",
-   "weight": 9.8,
+   "weight": 9.88,
    "shares": 200.0,
    "amount": 7750000.0,
    "over_cap": false
@@ -50,97 +26,121 @@
   {
    "code": "032350",
    "name": "롯데관광개발",
-   "weight": 9.09,
+   "weight": 9.87,
    "shares": 680.0,
-   "amount": 7187600.0,
+   "amount": 7738400.0,
+   "over_cap": false
+  },
+  {
+   "code": "035250",
+   "name": "강원랜드",
+   "weight": 9.85,
+   "shares": 551.0,
+   "amount": 7725020.0,
+   "over_cap": false
+  },
+  {
+   "code": "020560",
+   "name": "아시아나항공",
+   "weight": 9.44,
+   "shares": 922.0,
+   "amount": 7403660.0,
+   "over_cap": false
+  },
+  {
+   "code": "003490",
+   "name": "대한항공",
+   "weight": 9.28,
+   "shares": 245.0,
+   "amount": 7276500.0,
    "over_cap": false
   },
   {
    "code": "039130",
    "name": "하나투어",
-   "weight": 6.81,
+   "weight": 6.8,
    "shares": 163.0,
-   "amount": 5387150.0,
+   "amount": 5330100.0,
    "over_cap": false
   },
   {
    "code": "089590",
    "name": "제주항공",
-   "weight": 6.02,
+   "weight": 6.1,
    "shares": 574.0,
-   "amount": 4758460.0,
+   "amount": 4781420.0,
    "over_cap": false
   },
   {
    "code": "006730",
    "name": "서부T&D",
-   "weight": 5.7,
+   "weight": 5.68,
    "shares": 477.0,
-   "amount": 4507650.0,
+   "amount": 4455180.0,
    "over_cap": false
   },
   {
    "code": "114090",
    "name": "GKL",
-   "weight": 4.4,
+   "weight": 4.38,
    "shares": 469.0,
-   "amount": 3479980.0,
+   "amount": 3433080.0,
    "over_cap": false
   },
   {
    "code": "025980",
    "name": "아난티",
-   "weight": 4.27,
+   "weight": 4.12,
    "shares": 1024.0,
-   "amount": 3379200.0,
+   "amount": 3230720.0,
    "over_cap": false
   },
   {
    "code": "499790",
    "name": "GS피앤엘",
-   "weight": 3.98,
+   "weight": 4.11,
    "shares": 123.0,
-   "amount": 3142650.0,
+   "amount": 3222600.0,
    "over_cap": false
   },
   {
    "code": "298690",
    "name": "에어부산",
-   "weight": 3.38,
+   "weight": 3.33,
    "shares": 1387.0,
-   "amount": 2668588.0,
+   "amount": 2613108.0,
    "over_cap": false
   },
   {
    "code": "272450",
    "name": "진에어",
-   "weight": 3.21,
+   "weight": 3.19,
    "shares": 323.0,
-   "amount": 2538780.0,
+   "amount": 2500020.0,
    "over_cap": false
   },
   {
    "code": "080160",
    "name": "모두투어",
-   "weight": 2.97,
+   "weight": 2.96,
    "shares": 228.0,
-   "amount": 2346120.0,
+   "amount": 2323320.0,
    "over_cap": false
   },
   {
    "code": "038390",
    "name": "레드캡투어",
-   "weight": 0.66,
+   "weight": 0.67,
    "shares": 54.0,
-   "amount": 524340.0,
+   "amount": 522180.0,
    "over_cap": false
   },
   {
    "code": "KRD010010001",
    "name": "원화예금",
    "weight": 0.13,
-   "shares": 102099.0,
-   "amount": 102099.0,
+   "shares": 100074.0,
+   "amount": 100074.0,
    "over_cap": false
   }
  ],
@@ -148,15 +148,15 @@
   "cap_pct": 10.0,
   "verified": true,
   "count": 1,
-  "total_sell": 46991595,
+  "total_sell": 147687870,
   "items": [
    {
     "code": "034230",
     "name": "파라다이스",
-    "weight": 10.07,
+    "weight": 10.22,
     "cap_pct": 10.0,
-    "excess_pp": 0.07,
-    "sell_amount": 46991595
+    "excess_pp": 0.22,
+    "sell_amount": 147687870
    }
   ]
  },
